@@ -11903,7 +11903,7 @@ focus_tree = {
 		id = SPR_oppose_the_communists
 		available = {
 			has_country_leader = {
-				name = "Manuel Azana"
+				name = "Manuel Azaña"
 				ruling_only = yes
 			}
 		}
