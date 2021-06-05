@@ -160,4 +160,8 @@
  MULTIPLAYER_RESYC:1 "Повторная синхронизация"
  FAILED_TO_CONNECT:0 "Подключение не выполнено"
  RADIO_TITLE:0 "Станции"
+ MULTIPLAYER_LOBBY_PLAYER_KICK_CONFIRMATION:0 "Вы уверены, что хотите исключить игрока $NAME|Y$?"
+ MULTIPLAYER_LOBBY_PLAYER_BAN_CONFIRMATION:0 "Вы уверены, что хотите заблокировать игрока $NAME|Y$?"
+ MULTIPLAYER_LOBBY_PLAYER_KICK_TITLE:0 "Исключить игрока"
+ MULTIPLAYER_LOBBY_PLAYER_BAN_TITLE:0 "Заблокировать игрока"
  

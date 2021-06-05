@@ -160,4 +160,8 @@
  MULTIPLAYER_RESYC:1 "Resynchro"
  FAILED_TO_CONNECT:0 "Échec connexion"
  RADIO_TITLE:0 "Stations"
+ MULTIPLAYER_LOBBY_PLAYER_KICK_CONFIRMATION:0 "Voulez-vous vraiment expulser $NAME|Y$ de la partie ?"
+ MULTIPLAYER_LOBBY_PLAYER_BAN_CONFIRMATION:0 "Voulez-vous vraiment exclure $NAME|Y$ de la partie ?"
+ MULTIPLAYER_LOBBY_PLAYER_KICK_TITLE:0 "Expulser un joueur"
+ MULTIPLAYER_LOBBY_PLAYER_BAN_TITLE:0 "Exclure un joueur"
  

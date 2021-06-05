@@ -160,6 +160,10 @@
  MULTIPLAYER_RESYC:0 "Neu synchronisieren" # [LocEditor:AwaitingBatchUpdate]
  FAILED_TO_CONNECT:0 "Verbindung fehlgeschlagen"
  RADIO_TITLE:0 "Stationen"
+ MULTIPLAYER_LOBBY_PLAYER_KICK_CONFIRMATION:0 "Möchten Sie den Spieler $NAME|Y$ hinauswerfen?"
+ MULTIPLAYER_LOBBY_PLAYER_BAN_CONFIRMATION:0 "Möchten Sie den Spieler $NAME|Y$ sperren?"
+ MULTIPLAYER_LOBBY_PLAYER_KICK_TITLE:0 "Spieler hinauswerfen"
+ MULTIPLAYER_LOBBY_PLAYER_BAN_TITLE:0 "Spieler sperren"
  
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
