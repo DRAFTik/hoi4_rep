@@ -1,7 +1,6 @@
 ENG_boost_french_resistance = {
 	allowed = {
 		original_tag = ENG
-		has_dlc = "La Resistance"
 	}
 	
 	enable = {
@@ -46,7 +45,6 @@ ENG_boost_french_resistance = {
 ENG_boost_french_resistance_make_contant = {
 	allowed = {
 		original_tag = ENG
-		has_dlc = "La Resistance"
 	}
 	
 	enable = {
@@ -79,7 +77,6 @@ ENG_boost_french_resistance_make_contant = {
 ENG_heavy_water_raids = {
 	allowed = {
 		original_tag = ENG
-		has_dlc = "La Resistance"
 	}
 	
 	enable = {
