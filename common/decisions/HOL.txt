@@ -381,13 +381,14 @@ HOL_prepare_the_inundation_lines = {
 
 		days_remove = 14
 
-		highlight_state_targets = { state = 7 }
-
-		highlight_provinces = {
-			9498
-			391
-			11456
-			6241
+		highlight_states = {
+			highlight_state_targets = { state = 7 }
+			highlight_provinces = {
+				9498
+				391
+				11456
+				6241
+			}
 		}
 
 		modifier = {
@@ -493,15 +494,16 @@ HOL_prepare_the_inundation_lines = {
 
 		days_remove = 14
 
-		highlight_state_targets = { state = 7 }
-
-		highlight_provinces = {
-			9498
-			391
-			11456
-			6241
+		highlight_states = {
+			highlight_state_targets = { state = 7 }
+			highlight_provinces = {
+				9498
+				391
+				11456
+				6241
+			}
 		}
-
+		
 		modifier = {
 		}
 
@@ -1007,9 +1009,9 @@ HOL_secret_staff_talks = {
 			FROM = { country_event = { id = mtg_netherlands.41 hours = 6 } }
 			FROM = { army_experience = -5 }
 			effect_tooltip = {
-				add_tech_bonus = {
+				add_doctrine_cost_reduction = {
 					name = HOL_secret_staff_talks
-					bonus = 1.0
+					cost_reduction = 0.5
 					uses = 1
 					category = land_doctrine
 				}
@@ -2080,7 +2082,7 @@ political_actions = {
 				}
 				add_compliance = 70
 			}
-			set_capital = 335
+			set_capital = { state = 335 }
 			hidden_effect = { news_event = { id = mtg_news.46 days = 1 } }
 		}
 	}

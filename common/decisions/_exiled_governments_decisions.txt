@@ -202,7 +202,10 @@ governments_in_exile = {
 		
 		targets = { host }
 
-		target_trigger = { FROM = { is_hosting_exile = ROOT } }
+		target_trigger = {
+			FROM = { is_hosting_exile = ROOT }
+			FROM = { NOT = { original_tag = POL } }
+		}
 		
 		modifier = {
 			political_power_cost = 1.0
@@ -253,7 +256,10 @@ governments_in_exile = {
 		
 		target_array = exiles
 
-		target_trigger = { FROM = { is_exiled_in = ROOT } }
+		target_trigger = {
+			FROM = { is_exiled_in = ROOT }
+			FROM = { NOT = { original_tag = POL } }
+		}
 		
 		targeted_modifier = {
 			tag = FROM
@@ -365,10 +371,6 @@ governments_in_exile = {
 		
 		modifier = {
 			industrial_factory_donations = 1
-		}
-
-		targeted_modifier = {
-			tag = FROM
 			military_factory_donations = 1
 		}
 
