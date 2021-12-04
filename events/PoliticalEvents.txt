@@ -1753,8 +1753,8 @@ country_event = {
 				}
 			}
 			AND = {
-				has_dlc = "No Step Back"
 				original_tag = SOV
+				has_global_flag = SOV_soviet_civil_war # Stalin doesn't really want to reconciliate with Trotsky/Bukharin at this point
 			}
 			AND = {
 				has_dlc = "Battle for the Bosporus"
