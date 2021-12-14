@@ -1073,6 +1073,9 @@
  masterful_blitz_desc:0 "Puede que no hayamos inventado la Blitzkrieg, pero desarrollaremos y refinaremos esta estrategia para que ni las líneas defensivas enemigas más fortificadas puedan detener el avance de nuestro glorioso ejército."
  penal_infantry:0 "Batallones penales"
  penal_infantry_desc:0 "Los batallones penales dan a los soldados y oficiales convictos del Ejército Rojo la oportunidad de sacrificarse por la Madre Patria y redimirse de sus actos vergonzosos o deshonrosos del pasado."
+ #Non-MTG naval techs that require loc (they may be granted via effects)
+ basic_heavy_cruiser:0 "Crucero pesado básico (crucero pesado II)"
+ early_carrier:0 "Portaaviones de preguerra (portaaviones I)"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  oil_plant:0 "Instalación petrolera"

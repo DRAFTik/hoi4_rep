@@ -421,3 +421,8 @@
  medium_flame_tank_desc:0 "Una compañía de vehículos medianos y equipados con un lanzallamas que brinda apoyo a la hora de asaltar ciudades y fortificaciones."
  heavy_flame_tank:0 "Compañía de tanques lanzallamas pesados"
  heavy_flame_tank_desc:0 "Una compañía de vehículos pesados y equipados con un lanzallamas que brinda apoyo a la hora de asaltar ciudades y fortificaciones."
+
+ 
+ light_tank_amphibious_chassis_desc:0 "Un tanque ligero equipado con dispositivos de flotación y un propulsor."
+ medium_tank_amphibious_chassis_desc:0 "Un tanque mediano equipado con dispositivos de flotación y un propulsor."
+ heavy_tank_amphibious_chassis_desc:0 "Un tanque pesado equipado con dispositivos de flotación y un propulsor."

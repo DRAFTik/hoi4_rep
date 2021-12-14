@@ -24,7 +24,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_man_zhang_haipeng"
-				small="gfx/interface/ideas/idea_MAN_zhang_haipeng.dds"
+				small="GFX_idea_MAN_zhang_haipeng"
 			}
 		}
 		corps_commander={
@@ -41,7 +41,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_man_zhang_jinghui"
-				small="gfx/interface/ideas/idea_MAN_zhang_jinghui.dds"
+				small="GFX_idea_MAN_zhang_jinghui"
 			}
 		}
 		corps_commander={
@@ -59,7 +59,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_man_aisin_gioro_xiqia"
-				small="gfx/interface/ideas/idea_MAN_aisin_gioro_xiqia.dds"
+				small="GFX_idea_MAN_aisin_gioro_xiqia"
 			}
 		}
 		corps_commander={
@@ -77,7 +77,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_man_yoshiko_kawashima"
-				small="gfx/interface/ideas/idea_MAN_yoshiko_kawashima.dds"
+				small="GFX_idea_MAN_yoshiko_kawashima"
 			}
 		}
 		gender = female

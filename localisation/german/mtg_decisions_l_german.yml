@@ -608,6 +608,7 @@
  ENG_expected_decolonization_tt:0 "Ein Coupversuch wird abgewehrt.\n"
  TUR_recall_ataturk_to_active_service:0 "Atatürk wieder in den aktiven Dienst rufen"
  TUR_recall_ataturk_to_active_service_desc:0 "Mustafa Kemal Atatürk, der erste Feldmarschall der Türkei, spielte eine entscheidende Rolle in unserem erfolgreichen Unabhängigkeitskampf. Er ist einer der klügsten militärischen Köpfe auf dem Kontinent, und nun macht das Schicksal macht es unumgänglich, den Vater der Türken zu bitten, unsere Truppen erneut persönlich zum Sieg zu führen."
+ gateway_to_europe_hol_tt:0 "Erhält 5 Punkte Handelseinfluss"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  MEX_category_flag_changes:0 "Formeller Stil und formelle Flagge"

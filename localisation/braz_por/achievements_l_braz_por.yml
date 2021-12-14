@@ -49,12 +49,12 @@
  one_nation_under_ataturk_indivisible_tt:0 "Como Turquia sem alinhamento, não tenha modificadores de estado negativos em nenhum dos estados que possui."
  lousy_achievement_tt:0 "Como Grécia ou Bulgária, tenha os dois lados do Bósforo. Como Turquia, tenha a Bulgária ou Grécia como súditos ou conquiste seus territórios."
  finnish_him_achievement_flag:0 "Derrotou a União Soviética sem entrar para uma facção."
- just_proper_gander_tt:0 "Efetuou 30 campanhas de propaganda"
+ just_proper_gander_tt:1 "Efetuou 30 campanhas de propaganda antes de 1945."
  achievement_no_statistics:0 "Derrotou a Alemanha recebendo menos de 1 milhão de baixas."
  achievement_GER_attacked_POL_first:0 "A Alemanha atacou a Polônia primeiro."
  achievement_lost_state:0 "Perdeu um estado núcleo."
  achievement_POL_elected_monarch:0 "Elegeu um monarca."
- achievement_race_for_germany:0 "Conquistou a Alemanha antes que qualquer outro país tomasse um estado núcleo da Alemanha."
+ achievement_race_for_germany:1 "Conquistou a Alemanha após a queda da França, antes que qualquer outro país tomasse um estado núcleo da Alemanha."
  siberian_tiger_tt:0 "Formou a Sibéria."
  achievement_not_much_fun_in_stalingrad:0 "Capitulou a União Soviética sem tomar Stalingrado." # [LocEditor:AwaitingBatchUpdate]
  

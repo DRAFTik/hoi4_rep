@@ -3017,5 +3017,9 @@ spriteTypes = {
 		name = "GFX_news_event_SOV_bukharin"
 		texturefile = "gfx/event_pictures/news_event_SOV_bukharin.dds"
 	}
+	spriteType = {
+		name = "GFX_news_event_SOV_supreme_soviet_bukharin"
+		texturefile = "gfx/event_pictures/news_event_SOV_supreme_soviet_bukharin.dds"
+	}
 	
 }

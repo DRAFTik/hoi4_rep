@@ -181,7 +181,7 @@
  ARMY_TAB:0 "Дивизии"
  NAVY_TAB:0 "Оперативные соединения"
  AIR_TAB:0 "Авиакрылья"
- OFFICER_CORP_TAB:0 "Офицерский корпус"
+ OFFICER_CORP_TAB:1 "Офицерский корпус"
  MANAGE_OFFICERS:0 "Управлять офицерами"
  APPOINT_ADVISORS:0 "Назначить советников"
  COMMANDER_ROSTER_ARMY_BUTTON:0 "Генералы"

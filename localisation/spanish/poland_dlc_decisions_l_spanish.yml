@@ -138,7 +138,7 @@
  add_10_monarchy_tt:0 "Añadir §G10§! de §Yapoyo de la monarquía§!"
  remove_15_monarchy_tt:0 "Eliminar §G15§! de §Yapoyo de la monarquía§!"
  remove_10_monarchy_tt:0 "Eliminar §G10§! de §Yapoyo de la monarquía§!"
- remove_20_monarchy_tt:0 "Eliminar §G10§! de §Yapoyo de la monarquía§!"
+ remove_20_monarchy_tt:1 "Eliminar §G20§! de §Yapoyo de la monarquía§!"
  has_monarchy_support_25_tt:0 "Tiene al menos §Y25 de apoyo de la monarquía§!"
  has_monarchy_support_80_tt:0 "Tiene al menos §Y80 de apoyo de la monarquía§!"
  has_monarchy_support_1_tt:0 "Tiene al menos §Y1 de apoyo de la monarquía§!"

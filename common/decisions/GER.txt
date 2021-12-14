@@ -735,6 +735,14 @@ GER_reichskommissariats = {
 			controls_state = 190
 			controls_state = 13
 			controls_state = 191
+			controls_state = 814
+			controls_state = 815
+			controls_state = 809
+			controls_state = 808
+			controls_state = 810
+			controls_state = 813
+			controls_state = 812
+			controls_state = 811
 		}
 
 		cost = 0
@@ -753,7 +761,7 @@ GER_reichskommissariats = {
 		}
 
 		complete_effect = {
-			release = BLR
+			release_on_controlled = BLR
 			BLR = {
 				set_state_controller = 11
 				set_state_controller = 784
@@ -772,6 +780,14 @@ GER_reichskommissariats = {
 				set_state_controller = 207
 				set_state_controller = 241
 				set_state_controller = 784
+				set_state_controller = 814
+				set_state_controller = 815
+				set_state_controller = 809
+				set_state_controller = 808
+				set_state_controller = 810
+				set_state_controller = 813
+				set_state_controller = 812
+				set_state_controller = 811
 				GER = {
 					puppet = PREV
 					if = {
@@ -807,6 +823,14 @@ GER_reichskommissariats = {
 								state = 191
 								state = 784
 								state = 97
+								state = 814
+								state = 815
+								state = 809
+								state = 808
+								state = 810
+								state = 813
+								state = 812
+								state = 811
 							}
 							is_owned_by = GER
 						}
@@ -821,6 +845,14 @@ GER_reichskommissariats = {
 					190 = { add_core_of = PREV }
 					13 = { add_core_of = PREV }
 					191 = { add_core_of = PREV }
+					814 = { add_core_of = PREV }
+					815 = { add_core_of = PREV }
+					809 = { add_core_of = PREV }
+					808 = { add_core_of = PREV }
+					810 = { add_core_of = PREV }
+					813 = { add_core_of = PREV }
+					812 = { add_core_of = PREV }
+					811 = { add_core_of = PREV }
 					784 = { add_core_of = PREV }
 				}
 			}
@@ -992,9 +1024,9 @@ political_actions = {
 		}
 		visible = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Wilhelm II" }
-				has_country_leader = { ruling_only = yes name = "Wilhelm III" }
-				has_country_leader = { ruling_only = yes name = "Victoria" }
+				has_country_leader = { ruling_only = yes character = GER_wilhelm_ii }
+				has_country_leader = { ruling_only = yes character = GER_wilhelm_iii }
+				has_country_leader = { ruling_only = yes character = GER_victoria }
 			}
 		}
 		cost = 25

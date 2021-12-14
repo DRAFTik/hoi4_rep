@@ -72,9 +72,9 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_chief_morale_1
+				army_chief_morale_2
 			}
-			cost =  50
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -144,9 +144,9 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_chief_maneuver_1
+				army_chief_maneuver_2
 			}
-			cost =  50
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -739,9 +739,9 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_cavalry_1
+				army_cavalry_2
 			}
-			cost =  50
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -763,9 +763,9 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_infantry_1
+				army_infantry_2
 			}
-			cost =  50
+			cost = 100
 			ai_will_do = {
 				factor = 2.000
 			}

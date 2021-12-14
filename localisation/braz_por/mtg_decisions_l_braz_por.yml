@@ -608,6 +608,7 @@
  ENG_expected_decolonization_tt:0 "Uma tentativa de golpe será evitada.\n"
  TUR_recall_ataturk_to_active_service:0 "Chamar Atatürk para o serviço ativo"
  TUR_recall_ataturk_to_active_service_desc:0 "Mustafa Kemal Atatürk, o primeiro marechal turco de campo teve um papel fundamental para garantir nossa independência na Campanha Nacional. Ela era a mente militar mais brilhante do continente, e o destino quis que convocasse o Pai dos Turcos para liderar pessoalmente nossas tropas à vitória mais uma vez."
+ gateway_to_europe_hol_tt:0 "Ganha 5 pontos de influência comercial"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  MEX_category_flag_changes:0 "Estilo formal e bandeira"

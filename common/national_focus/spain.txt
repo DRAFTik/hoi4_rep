@@ -1988,7 +1988,7 @@ focus_tree = {
 		available = {
 			has_full_control_of_state = 290
 			has_country_leader = {
-				name = "José Antonio Primo de Rivera"
+				character = SPA_jose_antonio_primo_de_rivera
 				ruling_only = yes
 			}
 		}
@@ -4809,7 +4809,7 @@ focus_tree = {
 		id = SPA_dictator_for_life
 		available = {
 			has_country_leader = {
-				name = "Francisco Franco"
+				character = SPA_francisco_franco
 				ruling_only = yes
 			}
 		}
@@ -12115,6 +12115,7 @@ focus_tree = {
 	focus = {
 		id = SPR_those_who_would_not_help_us
 		available = {
+			NOT = { is_subject_of = SOU }
 		}
 		bypass = {
 		}
@@ -12262,6 +12263,7 @@ focus_tree = {
 				has_war_with = GER
 				has_war_with = ITA
 			}
+			NOT = { is_subject_of = SOU }
 		}
 		bypass = {
 		}
@@ -12312,6 +12314,7 @@ focus_tree = {
 	focus = {
 		id = SPR_deal_with_the_devil
 		available = {
+			NOT = { is_subject_of = SOU }
 		}
 		bypass = {
 		}
@@ -12354,6 +12357,7 @@ focus_tree = {
 						has_non_aggression_pact_with = ITA
 					}
 				}
+				NOT = { is_subject_of = SOU }
 			}
 		}
 		bypass = {

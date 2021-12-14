@@ -608,3 +608,4 @@
  ENG_expected_decolonization_tt:0 "Une tentative de coup d'État va être évitée.\n"
  TUR_recall_ataturk_to_active_service:0 "Rappeler Atatürk dans l'armée"
  TUR_recall_ataturk_to_active_service_desc:0 "Mustafa Kemal Atatürk, maréchal [TUR.GetDuDeDNP] [TUR.GetName], a joué un rôle vital pour assurer l'indépendance lors de la guerre de libération. Il est l'un des militaires les plus brillants du continent, et le sort nous a contraints à rappeler le Père des Turcs pour qu'il commande en personne les troupes et les mène de nouveau à la victoire."
+ gateway_to_europe_hol_tt:0 "Gain de 5 points d'influence commerciale."

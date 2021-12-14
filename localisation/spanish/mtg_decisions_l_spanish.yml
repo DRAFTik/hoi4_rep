@@ -608,6 +608,7 @@
  ENG_expected_decolonization_tt:0 "Se evitará un intento de golpe.\n"
  TUR_recall_ataturk_to_active_service:0 "Llamar a Atatürk al servicio activo"
  TUR_recall_ataturk_to_active_service_desc:0 "Mustafa Kemal Atatürk, primer mariscal de campo de Turquía, desempeñó un papel fundamental en nuestra independencia durante la campaña nacional. Es una de las mentes militares más brillantes del continente, y el destino ha querido que sea el Padre de los Turcos quien vuelva a liderar en primera persona a nuestras tropas en su camino a la victoria."
+ gateway_to_europe_hol_tt:0 "Obtiene 5 puntos de influencia comercial"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  MEX_category_flag_changes:0 "Estilo y bandera oficiales"

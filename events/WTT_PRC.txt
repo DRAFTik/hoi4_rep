@@ -601,7 +601,7 @@ country_event = {
 	trigger = {
 		tag = PRC
 		has_country_leader = {
-		    name = "Mao Zedong"
+		    character = PRC_mao_zedong
 		    ruling_only = yes
 		}
 		date > 1950.1.1
@@ -1087,7 +1087,7 @@ country_event = {
 			base = 10
 		}
 		FROM = {
-			country_event = { id = wtt_warlord_vs_prc.3 }
+			country_event = { id = wtt_warlord_vs_prc.33 }
 		}
 		PRC_soviet_tribute_clear_all = yes
 	}

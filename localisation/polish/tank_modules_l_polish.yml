@@ -421,3 +421,8 @@
  medium_flame_tank_desc:0 "Kompania średnich pojazdów uzbrojonych w miotacz ognia. Ich zadaniem jest wsparcie szturmów na miasta i umocnienia."
  heavy_flame_tank:0 "Kompania czołgów ciężkich z miotaczem"
  heavy_flame_tank_desc:0 "Kompania ciężkich pojazdów uzbrojonych w miotacz ognia. Ich zadaniem jest wsparcie szturmów na miasta i umocnienia."
+
+ 
+ light_tank_amphibious_chassis_desc:0 "Czołg lekki wyposażony w elementy wypornościowe i śrubę."
+ medium_tank_amphibious_chassis_desc:0 "Czołg średni wyposażony w elementy wypornościowe i śrubę."
+ heavy_tank_amphibious_chassis_desc:0 "Czołg ciężki wyposażony w elementy wypornościowe i śrubę."

@@ -381,6 +381,7 @@
  USA_harold_ickes:0 "$harold_ickes$"
  USA_charles_coughlin:0 "$charles_coughlin$"
  USA_william_donovan:0 "$usa_william_donovan$"
+ 
 
  #ITALY
  ITA_benito_mussolini:0 "Бенито Муссолини"
@@ -806,7 +807,7 @@
  GRE_markos_drakos:0 "Маркос Дракос"
  GRE_theodoros_pangalos:0 "Теодорос Пангалос"
  GRE_dimitrios_psarros:0 "Димитриос Псаррос"
- GRE_panagiotis_demestichas:0 "Панайотис Деместихас"
+ GRE_panagiotis_demestichas:1 "Панайотис Деместихас"
 
  #CANADA
  CAN_mackenzie_king:0 "Макензи Кинг"

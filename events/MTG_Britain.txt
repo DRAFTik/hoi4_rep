@@ -3605,7 +3605,7 @@ country_event = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Harry Pollitt"
+						character = ENG_harry_pollitt
 						ruling_only = yes
 					}
 				}

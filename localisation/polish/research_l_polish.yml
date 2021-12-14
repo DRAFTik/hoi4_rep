@@ -1073,6 +1073,9 @@
  masterful_blitz_desc:0 "Może i nie my wynaleźliśmy blitzkrieg, ale rozwinęliśmy i udoskonaliliśmy tę strategię do tego stopnia, że nawet najbardziej umocnione linie wroga nie są w stanie zatrzymać natarcia naszej wspaniałej armii."
  penal_infantry:0 "Bataliony karne"
  penal_infantry_desc:0 "Bataliony karne stanowią szansę dla skazanych żołnierzy i oficerów Armii Czerwonej, by własną krwią odpłacić przewiny wobec ojczyzny i zrehabilitować się za haniebne i niegodziwe czyny z przeszłości."
+ #Non-MTG naval techs that require loc (they may be granted via effects)
+ basic_heavy_cruiser:0 "Podstawowy ciężki krążownik (ciężki krążownik II)"
+ early_carrier:0 "Wczesny lotniskowiec (lotniskowiec I)"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  oil_plant:0 "Rafinerie ropy"

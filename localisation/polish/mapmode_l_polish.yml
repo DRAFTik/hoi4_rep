@@ -22,7 +22,7 @@
  MAPMODE_SUPPLY_AREAS_DESCRIPTION:0 "Pokazuje obszary zaopatrzenia i informacje o przepływie zasobów. Pozwala wykryć problematyczne obszary i wąskie gardła."
  MAPMODE_SUPPLY_MAP_MODE_NAME:0 "Zaopatrzenie"
  MAPMODE_SUPPLY_MAP_MODE:0 "Tryb mapy §Hzaopatrzenia§!"
- MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:0 "TODO opis trybu mapy zaopatrzenia"
+ MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:1 "Pokazuje obecną sytuację zaopatrzeniową. Jasnozielone obszary mają szerszy dostęp do zasobów, a fioletowe najmniejszy. Obszary, w których jednostki są słabo zaopatrzone, oznaczono obecnie kolorami od §Yżółtego§! do §Rczerwonego§!."
  MAPMODE_STRATEGIC_NAVY_NAME:0 "Strategiczna marynarka wojenna"
  MAPMODE_STRATEGIC_NAVY:0 "Mapa §Hmarynarki§!"
  MAPMODE_STRATEGIC_NAVY_DESCRIPTION:0 "Pokazuje obszary strategiczne i pozwala zobaczyć, jakie operacje morskie są realizowane przez twoje floty. \nRejony, w których dominujesz na morzu, są zaznaczone §Gzielonym§! konturem. \nRejony z §Rczerwonymi§! paskami znajdują się poza zasięgiem operacyjnym wybranej floty."

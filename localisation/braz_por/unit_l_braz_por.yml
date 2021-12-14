@@ -14,7 +14,7 @@
  UNIT_LEADER_SKILL_LAND_DESC:0 "Ter uma habilidade maior que o general inimigo permite que o líder tenha uma chance extra para escolher uma tática de contra-ataque contra o inimigo. A habilidade de um general sobe conforme você ganha experiência.\n\n"
  UNIT_LEADER_SKILL_NAVY_DESC:0 "A habilidade de um almirante sobe conforme ele ganha experiência.\n\n" # [LocEditor:AwaitingBatchUpdate]
  UNIT_LEADER_SKILL_OPERATIVE_DESC:0 "A habilidade de um agente sobe conforme ele ganha experiência.\n\n"
- UNIT_LEADER_NO_LEADER:0 "§R<Sem comandante>§!"
+ UNIT_LEADER_NO_LEADER:1 "§RSem comandante§!"
  UNIT_LEADER_NEW_LEADER:1 "Novo comandante £command_power $VALUE|Y0$"
  UNIT_LEADER_NEW_LEADER_TOOLTIP:2 "Recrutar novos comandantes custa £command_power $VALUE|Y0$\n. Até um certo limite, quanto mais comandantes você tiver, mais caro fica recrutar comandantes novos, então primeiro tente encontrar trabalhos para os que você já possui."
  UNIT_LEADER_NO_GROUP:0 "O exército não foi criado" # [LocEditor:AwaitingBatchUpdate]

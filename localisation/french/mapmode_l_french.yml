@@ -22,7 +22,7 @@
  MAPMODE_SUPPLY_AREAS_DESCRIPTION:0 "Affiche les zones de ravitaillement et des informations sur la circulation du ravitaillement. Cela vous permet d'identifier les zones problématiques et les engorgements."
  MAPMODE_SUPPLY_MAP_MODE_NAME:0 "Ravitaillement"
  MAPMODE_SUPPLY_MAP_MODE:0 "Carte du §Hravitaillement§!"
- MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:0 "TODO"
+ MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:1 "Affiche la situation actuelle concernant le ravitaillement : les zones en vert vif y ont un bon accès, celles en violet non. Les zones où les unités souffrent d'un ravitaillement insuffisant vont du §Yjaune§! au §Rrouge§!."
  MAPMODE_STRATEGIC_NAVY_NAME:0 "Stratégique maritime"
  MAPMODE_STRATEGIC_NAVY:0 "Carte stratégique §Hmaritime§!"
  MAPMODE_STRATEGIC_NAVY_DESCRIPTION:0 "Montre les zones stratégiques en affichant les opérations navales effectuées par vos flottes.\nLes régions où vous disposez de la suprématie navale sont entourées d'une bordure §Gverte§!.\nLes zones hachurées en §Rrouge§! sont hors de portée de la flotte sélectionnée."

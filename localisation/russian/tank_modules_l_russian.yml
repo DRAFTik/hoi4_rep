@@ -320,9 +320,9 @@
  heavy_tank_flame_chassis_1:0 "Базовый тяжелый огнеметный танк"
  heavy_tank_flame_chassis_2:0 "Улучшенный тяжелый огнеметный танк"
  heavy_tank_flame_chassis_3:0 "Усовершенствованный тяжелый огнеметный танк"
- light_tank_flame_chassis:0 "легкий огнеметный танк"
- medium_tank_flame_chassis:0 "средний огнеметный танк"
- heavy_tank_flame_chassis:0 "тяжелый огнеметный танк"
+ light_tank_flame_chassis:0 "Легкий огнеметный танк"
+ medium_tank_flame_chassis:0 "Средний огнеметный танк"
+ heavy_tank_flame_chassis:0 "Тяжелый огнеметный танк"
  amphibious_tank_chassis:0 "Шасси танка-амфибии"
  amphibious_tank_chassis_desc:0 "Небольшое шасси для танка-амфибии. В связи с необходимостью обеспечивать плавучесть обладает строгими ограничениями на размер оружия и толщину брони."
  amphibious_tank_chassis_1:0 "Шасси танка-амфибии"
@@ -421,3 +421,8 @@
  medium_flame_tank_desc:0 "Рота средних огнеметных боевых машин для поддержки при штурме городов и укреплений."
  heavy_flame_tank:0 "Тяжелая огнеметная танковая рота"
  heavy_flame_tank_desc:0 "Рота тяжелых огнеметных боевых машин для поддержки при штурме городов и укреплений."
+
+ 
+ light_tank_amphibious_chassis_desc:0 "Легкий танк, снабженный устройствами для плавания и пропеллером."
+ medium_tank_amphibious_chassis_desc:0 "Средний танк, снабженный устройствами для плавания и пропеллером."
+ heavy_tank_amphibious_chassis_desc:0 "Тяжелый танк, снабженный устройствами для плавания и пропеллером."

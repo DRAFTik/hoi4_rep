@@ -49,12 +49,12 @@
  one_nation_under_ataturk_indivisible_tt:0 "Niezależna Turcja nie ma negatywnych modyfikatorów regionalnych w żadnym z należących do ciebie regionów."
  lousy_achievement_tt:0 "Grecja lub Bułgaria posiadają obie strony Bosforu. Jako Turcja posiadaj terytoria Bułgarii lub Grecji albo niech któreś z tych państw będzie twoim poddanym."
  finnish_him_achievement_flag:0 "Pokonano Związek Radziecki, nie dołączając do żadnej frakcji."
- just_proper_gander_tt:0 "Przeprowadzono 30 kampanii propagandowych"
+ just_proper_gander_tt:1 "Przeprowadzono 30 kampanii propagandowych przed 1945 r."
  achievement_no_statistics:0 "Pokonano Niemcy, ponosząc straty wynoszące mniej niż milion ofiar."
  achievement_GER_attacked_POL_first:0 "Niemcy zaatakowały najpierw Polskę."
  achievement_lost_state:0 "Utracono region narodowy."
  achievement_POL_elected_monarch:0 "Wybrano monarchę."
- achievement_race_for_germany:0 "Podbito Niemcy, zanim jakikolwiek inny kraj zajął niemiecki region narodowy."
+ achievement_race_for_germany:1 "Podbito Niemcy po upadku Francji, zanim jakikolwiek inny kraj zajął niemiecki region narodowy."
  siberian_tiger_tt:0 "Utworzono Syberię."
  achievement_not_much_fun_in_stalingrad:0 "Doprowadzono do kapitulacji Związku Radzieckiego, nie zdobywając Stalingradu." # [LocEditor:AwaitingBatchUpdate]
  

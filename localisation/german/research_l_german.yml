@@ -1073,6 +1073,9 @@
  masterful_blitz_desc:0 "Wir haben den Blitzkrieg zwar nicht erfunden, aber wir werden dies Strategie weiterentwickeln und verfeinern, damit selbst stark befestigte feindliche Verteidigungslinien den Vormarsch unserer glorreichen Armee nicht aufhalten können."
  penal_infantry:0 "Strafbataillone"
  penal_infantry_desc:0 "Strafbataillone bieten verurteilten Soldaten und Offizieren der Roten Armee die Gelegenheit, für das Mutterland zu bluten und Wiedergutmachung für ihre schändlichen oder unehrenhaften früheren Taten zu leisten."
+ #Non-MTG naval techs that require loc (they may be granted via effects)
+ basic_heavy_cruiser:0 "Einfacher Schwerer Kreuzer (Schwerer Kreuzer II)"
+ early_carrier:0 "Früher Flugzeugträger (Flugzeugträger I)"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  oil_plant:0 "Erdölraffinerie"

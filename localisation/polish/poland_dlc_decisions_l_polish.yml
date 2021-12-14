@@ -138,7 +138,7 @@
  add_10_monarchy_tt:0 "Dodaj §G10§! §Ypoparcia dla monarchii§!"
  remove_15_monarchy_tt:0 "Usuń §G15§! §Ypoparcia dla monarchii§!"
  remove_10_monarchy_tt:0 "Usuń §G10§! §Ypoparcia dla monarchii§!"
- remove_20_monarchy_tt:0 "Usuń §G10§! §Ypoparcia dla monarchii§!"
+ remove_20_monarchy_tt:1 "Usuń §G20§! §Ypoparcia dla monarchii§!"
  has_monarchy_support_25_tt:0 "Posiada przynajmniej §Y25 jedn. poparcia dla monarchii§!"
  has_monarchy_support_80_tt:0 "Posiada przynajmniej §Y80 jedn. poparcia dla monarchii§!"
  has_monarchy_support_1_tt:0 "Posiada przynajmniej §Y1 jedn. poparcia dla monarchii§!"

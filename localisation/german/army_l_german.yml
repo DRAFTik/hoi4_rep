@@ -181,7 +181,7 @@
  ARMY_TAB:0 "Divisionen"
  NAVY_TAB:0 "Einsatzgruppen"
  AIR_TAB:0 "Luftgeschwader"
- OFFICER_CORP_TAB:0 "Offizierskorps"
+ OFFICER_CORP_TAB:1 "Offizierskorps"
  MANAGE_OFFICERS:0 "Offiziere verwalten"
  APPOINT_ADVISORS:0 "Berater ernennen"
  COMMANDER_ROSTER_ARMY_BUTTON:0 "Generäle"

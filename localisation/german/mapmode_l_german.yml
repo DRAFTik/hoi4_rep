@@ -22,7 +22,7 @@
  MAPMODE_SUPPLY_AREAS_DESCRIPTION:0 "Zeigt Nachschubgebiete und Informationen über die Nachschubversorgung. So können Sie Problembereiche und Engpässe identifizieren."
  MAPMODE_SUPPLY_MAP_MODE_NAME:0 "Nachschub"
  MAPMODE_SUPPLY_MAP_MODE:0 "§HNachschub§!-Kartenmodus"
- MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:0 "TODO Beschreibung Nachschub-Kartenmodus"
+ MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:1 "Zeigt die momentane Nachschubsituation. Hellere grüne Bereiche haben mehr Zugang zu Nachschub, violette Bereiche haben am wenigsten Zugang zu Nachschub. Bereiche, in denen Einheiten durch schlechte Versorgung Nachteile erleiden, gehen von §YGelb§! zu §RRot§!."
  MAPMODE_STRATEGIC_NAVY_NAME:0 "Strategische Marine"
  MAPMODE_STRATEGIC_NAVY:0 "§HMarinestrategie§!-Kartenmodus"
  MAPMODE_STRATEGIC_NAVY_DESCRIPTION:0 "Zeigt strategische Gebiete und ermöglicht Ihnen, die Marineoperationen Ihrer Flotten zu sehen. \nRegionen, in denen Sie die Seeüberlegenheit haben, sind mit einem §Ggrünen§! Umriss gekennzeichnet. \n§RRot§! gestreifte Gebiete liegen außerhalb der Einsatzreichweite der aktuell ausgewählten Flotte."

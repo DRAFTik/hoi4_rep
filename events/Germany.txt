@@ -3953,7 +3953,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		has_country_leader = { name = "Adolf Hitler" }
+		has_country_leader = { character = GER_adolf_hitler ruling_only = yes }
 		tag = GER
 		AND = {
 			CZE = { has_capitulated = no }
@@ -4273,65 +4273,65 @@ country_event = {
 			}
 			add_tech_bonus = {
 				name = med_armor_bonus
-				ahead_reduction = 2
-				technology = basic_medium_tank
+				ahead_reduction = 1
+				category = cat_medium_armor
 			}
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1.0
-				uses = 1
-				category = armor
-			}
-		}
-		else_if = {
-			limit = {
-				has_tech = basic_medium_tank_chassis
-			}
-			create_equipment_variant = {
-				name = "Panzer III Ausf. A"
-				type = medium_tank_chassis_1
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_high_velocity_cannon
-					turret_type_slot = tank_medium_three_man_tank_turret
-					suspension_type_slot = tank_bogie_suspension
-					armor_type_slot = tank_welded_armor
-					engine_type_slot = tank_gasoline_engine
-					special_type_slot_1 = tank_radio_1
-					special_type_slot_2 = smoke_launchers
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 6
-					tank_nsb_armor_upgrade = 3
-				}
-				icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
-			}
-			create_equipment_variant = {
-				name = "Panzer IV Ausf. A"
-				type = medium_tank_chassis_1
-				parent_version = 1
-				modules = {
-					main_armament_slot = tank_close_support_gun
-					turret_type_slot = tank_medium_three_man_tank_turret
-					suspension_type_slot = tank_bogie_suspension
-					armor_type_slot = tank_welded_armor
-					engine_type_slot = tank_gasoline_engine
-					special_type_slot_1 = tank_radio_1
-					special_type_slot_2 = smoke_launchers
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 6
-					tank_nsb_armor_upgrade = 2
-				}
-				icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
-			}
-		}
-		else = {
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 1.0
 				uses = 2
 				category = armor
+			}
+		}
+		else = { #NO STEP BACK EFFECTS
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+			if = {
+				limit = {
+					has_tech = basic_medium_tank_chassis
+				}
+				create_equipment_variant = {
+					name = "Panzer III Ausf. A"
+					type = medium_tank_chassis_1
+					parent_version = 0
+					modules = {
+						main_armament_slot = tank_high_velocity_cannon
+						turret_type_slot = tank_medium_three_man_tank_turret
+						suspension_type_slot = tank_bogie_suspension
+						armor_type_slot = tank_welded_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = tank_radio_1
+						special_type_slot_2 = smoke_launchers
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 6
+						tank_nsb_armor_upgrade = 3
+					}
+					icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+				}
+				create_equipment_variant = {
+					name = "Panzer IV Ausf. A"
+					type = medium_tank_chassis_1
+					parent_version = 1
+					modules = {
+						main_armament_slot = tank_close_support_gun
+						turret_type_slot = tank_medium_three_man_tank_turret
+						suspension_type_slot = tank_bogie_suspension
+						armor_type_slot = tank_welded_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = tank_radio_1
+						special_type_slot_2 = smoke_launchers
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 6
+						tank_nsb_armor_upgrade = 2
+					}
+					icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+				}
 			}
 		}
 		SOV = {
@@ -4879,7 +4879,8 @@ country_event = {
 				}
 			}
 		}
-		GER = { country_event = { id = germany.88 days = 1 }
+		GER = {
+			country_event = { id = germany.88 days = 1 }
 			if = {
 				limit = {
 					is_in_faction_with = POL
@@ -4901,6 +4902,26 @@ country_event = {
 				}
 			}
 		}
+
+		if = {
+			limit = {
+				has_guaranteed = LIT
+				is_guaranteed_by = LIT
+			}
+			diplomatic_relation = {
+				country = LIT
+				relation = guarantee
+				active = no
+			}
+			LIT = {
+				diplomatic_relation = {
+					country = POL
+					relation = guarantee
+					active = no
+				}
+			}
+		}
+
 		hidden_effect = {
 			news_event = { hours = 1 id = news.204 }
 		}
@@ -4931,6 +4952,7 @@ country_event = {
 		transfer_state = 807
 		add_state_core = 807
 		remove_state_claim = 86
+		remove_state_claim = 762
 		if = {
 			limit = {
 				ENG = {

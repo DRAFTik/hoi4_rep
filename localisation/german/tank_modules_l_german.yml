@@ -421,3 +421,8 @@
  medium_flame_tank_desc:0 "Eine Kompanie mittlerer, mit Flammenwerfer ausgestatteter Fahrzeuge, die beim Angriff auf Städte und Befestigungen Unterstützung bieten."
  heavy_flame_tank:0 "Schwere-Flammenpanzer-Kompanie"
  heavy_flame_tank_desc:0 "Eine Kompanie schwerer, mit Flammenwerfer ausgestatteter Fahrzeuge, die beim Angriff auf Städte und Befestigungen Unterstützung bieten."
+
+ 
+ light_tank_amphibious_chassis_desc:0 "Ein leichter Panzer mit Schwimmvorrichtungen und einer Antriebsschraube."
+ medium_tank_amphibious_chassis_desc:0 "Ein mittlerer Panzer mit Schwimmvorrichtungen und einer Antriebsschraube."
+ heavy_tank_amphibious_chassis_desc:0 "Ein schwerer Panzer mit Schwimmvorrichtungen und einer Antriebsschraube."

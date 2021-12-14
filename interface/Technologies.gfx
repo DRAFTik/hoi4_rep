@@ -4674,6 +4674,14 @@ spriteTypes = {
 		name = "GFX_ship_hull_torpedo_cruiser_medium"
 		texturefile = "gfx/interface/technologies/torpedo_cruiser.dds"
 	}
+	SpriteType = {
+		name = "GFX_torpedo_cruiser_mtg_medium"
+		texturefile = "gfx/interface/technologies/torpedo_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedo_cruiser_medium"
+		texturefile = "gfx/interface/technologies/torpedo_cruiser.dds"
+	}
 	 ## #  # ###  #   #  ##  ###  ### #  # ###  ## 
 	#   #  # #  # ## ## #  # #  #  #  ## # #   #   
 	 #  #  # ###  # # # #### ###   #  # ## ##   #  
@@ -5012,15 +5020,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_amphibious_tank_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_generic_interwar_light_tank_chassis"
+		name = "GFX_light_tank_chassis_0_medium"
 		texturefile = "gfx/interface/technologies/generic_inter_war_light_tank_chassis.dds"
 	}
 	SpriteType = {
-		name = "GFX_generic_interwar_medium_tank_chassis"
+		name = "GFX_medium_tank_chassis_0_medium"
 		texturefile = "gfx/interface/technologies/generic_inter_war_medium_tank_chassis.dds"
 	}
 	SpriteType = {
-		name = "GFX_generic_interwar_heavy_tank_chassis"
+		name = "GFX_heavy_tank_chassis_0_medium"
 		texturefile = "gfx/interface/technologies/generic_inter_war_heavy_tank_chassis.dds"
 	}
 	SpriteType = {
@@ -5241,15 +5249,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_FRA_basic_heavy_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/FRA_heavy_tank_chassis_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_FRA_improved_heavy_tank_chassis_medium"
 		texturefile = "gfx/interface/technologies/FRA_heavy_tank_chassis_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_advanced_heavy_tank_chassis_medium"
+		name = "GFX_FRA_improved_heavy_tank_chassis_medium"
 		texturefile = "gfx/interface/technologies/FRA_heavy_tank_chassis_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_advanced_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/FRA_heavy_tank_chassis_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_FRA_super_heavy_tank_chassis_medium"
@@ -5329,7 +5337,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_JAP_basic_heavy_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/JAP_heavy_tank_chassis_1.dds"
+		texturefile = "gfx/interface/technologies/JAP_heavy_tank_chassis_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_JAP_improved_heavy_tank_chassis_medium"
@@ -5337,7 +5345,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_JAP_advanced_heavy_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/JAP_heavy_tank_chassis_3.dds"
+		texturefile = "gfx/interface/technologies/JAP_heavy_tank_chassis_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_JAP_super_heavy_tank_chassis_medium"

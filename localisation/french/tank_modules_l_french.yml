@@ -422,6 +422,11 @@
  heavy_flame_tank:0 "Cie de chars lance-flammes lourds"
  heavy_flame_tank_desc:0 "Une compagnie regroupant des véhicules lourds dotés de lance-flammes, destinée à fournir un soutien lors des combats urbains et contre les fortifications."
 
+ 
+ light_tank_amphibious_chassis_desc:0 "Un char léger équipé de dispositifs de flottaison et d'un propulseur."
+ medium_tank_amphibious_chassis_desc:0 "Un char moyen équipé de dispositifs de flottaison et d'un propulseur."
+ heavy_tank_amphibious_chassis_desc:0 "Un char lourd équipé de dispositifs de flottaison et d'un propulseur."
+
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  tank_auto_cannon_2_short:0 "Canon auto. amélioré"
  tank_anti_air_cannon_short:0 "Canon AA"

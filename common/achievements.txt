@@ -1375,7 +1375,7 @@ the_people_have_stood_up = {
 	}
 	
 	happened = {
-		has_country_leader = { ruling_only = yes name = "Mao Zedong" }
+		has_country_leader = { ruling_only = yes character = PRC_mao_zedong }
 		custom_trigger_tooltip = {
 			tooltip = the_people_have_stood_up_tt
 			all_state = {
@@ -1662,8 +1662,8 @@ monarchy_is_back_in_fashion = {
 	}
 	
 	happened = {
-		has_country_leader = { name = "Wilhelm II" }
-		ITA = { has_country_leader = { name = "Victor Emmanuel III" } }
+		has_country_leader = { character = GER_wilhelm_ii }
+		ITA = { has_country_leader = { character = ITA_victor_emmanuel_iii } }
 	}
 }
 

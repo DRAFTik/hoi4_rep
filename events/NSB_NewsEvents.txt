@@ -796,7 +796,7 @@ news_event = {
 			has_global_flag = SOV_collective_security_pact_poland_inlcuded_flag
 		}
 	}
-	picture = GFX_news_event_SOV_supreme_soviet
+	picture = "[GetSovietPactImage]"
 	
 	major = yes
 	

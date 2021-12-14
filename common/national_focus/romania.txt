@@ -50,7 +50,7 @@
 #		completion_reward = {
 #
 #		}
-#	}
+#	} 
 
 	############################
 	##### CATEGORY HERE ! ######
@@ -2711,7 +2711,7 @@
 				limit = {
 					POL = {
 						has_country_leader = {
-							name = "Michael I"
+							character = ROM_king_michael
 							ruling_only = yes
 						}
 					}

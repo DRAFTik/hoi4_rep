@@ -1073,6 +1073,9 @@
  masterful_blitz_desc:0 "Nous n'avons peut-être pas inventé la guerre éclair, mais nous pouvons utiliser cette stratégie et l'améliorer au point que même les lignes les mieux défendues seront incapables d'arrêter l'avancée de nos troupes victorieuses."
  penal_infantry:0 "Bataillons disciplinaires"
  penal_infantry_desc:0 "Les bataillons disciplinaires donnent la chance aux soldats et officiers de l'Armée rouge condamnés de verser leur sang pour la mère patrie et de racheter ainsi les actes honteux ou déshonorants qu'ils ont commis par le passé."
+ #Non-MTG naval techs that require loc (they may be granted via effects)
+ basic_heavy_cruiser:0 "Croiseur lourd ($heavy_cruiser_2$)"
+ early_carrier:0 "Porte-avions ($carrier_1$)"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  motorised_infantry_short:0 "Inf. motorisée"

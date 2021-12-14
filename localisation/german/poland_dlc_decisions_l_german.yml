@@ -138,7 +138,7 @@
  add_10_monarchy_tt:0 "+§G10§! §YMonarchie-Unterstützung§!"
  remove_15_monarchy_tt:0 "-§G15§! §YMonarchie-Unterstützung§!"
  remove_10_monarchy_tt:0 "-§G10§! §YMonarchie-Unterstützung§!"
- remove_20_monarchy_tt:0 "-§G10§! §YMonarchie-Unterstützung§!"
+ remove_20_monarchy_tt:1 "§G20§! §YMonarchie-Unterstützung§! entfernen"
  has_monarchy_support_25_tt:0 "Hat mindestens §Y25 Monarchie-Unterstützung§!"
  has_monarchy_support_80_tt:0 "Hat mindestens §Y80 Monarchie-Unterstützung§!"
  has_monarchy_support_1_tt:0 "Hat mindestens §Y1 Monarchie-Unterstützung§!"

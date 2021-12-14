@@ -1201,13 +1201,17 @@ country_event = {
 				set_nationality = POL
 			}
 		}
-		POL = {
-			ROM_king_michael = {
-				promote_character = {
-					ideology = despotism 
-				} 
-			}	
+		if = {
+			limit = { POL = { has_character = ROM_king_michael } }
+			POL = {
+				ROM_king_michael = {
+					promote_character = {
+						ideology = despotism 
+					} 
+				}	
+			}
 		}
+
 		set_party_name = { 
 			ideology = neutrality 
 			long_name = POL_hohenzollern_sigmaringen_long

@@ -846,6 +846,7 @@
  LEADER_SKILL_AT_CAP:0 "Habilidade: $SKILL|Y$ (Máx.)"
  LEADER_RANK_WITH_PROGRESS:0 "$RANK|Y$ ($PROGRESS|%Y0$)"
  LEADER_FUNCTION_DESC:0 "Ter um comandante atribuído a um exército melhora o exército em diversas áreas dependendo das habilidades do comandante." # [LocEditor:AwaitingBatchUpdate]
+ LEADER_FUNCTION_NAVY_DESC:0 "Ter um almirante designado para uma frota aumenta a capacidade das forças-tarefas em diversas áreas de acordo com a habilidade do almirante."
  LEADER_CAPACITY_DESC:1 "$NAME$ está liderando $CURRENT|Y$ divisões e é capaz de liderar com eficiência $MAX|Y$ divisões."
  LEADER_ARMY_GROUP_CAPACITY_DESC:0 "$NAME$ está liderando $CURRENT|Y$ exércitos e é capaz de liderar com eficiência $MAX|Y$ exércitos."
  LEADER_ENDLESS_CAPACITY_DESC:0 "$NAME$ é um Marechal de Campo e não tem nenhum limite de comando."
@@ -1577,7 +1578,7 @@
  SOME_UNITS_IN_BORDER_WAR_DESC:0 "§REssas divisões não podem ser controladas.§!"
  UNITLEADER_IS_EN_ROUTE:0 "$NAME|H$ está §Rem curso§! de um comando anterior. Ele não será capaz de usar habilidades ou fornecer melhorias por mais $DAYS|H$ dias."
  TRIGGER_CAPITAL:0 "Estado capital"
- PROV_TOOLTIP_LOCATION_HEADER:0 "£location_pointer"
+ PROV_TOOLTIP_LOCATION_HEADER:0 "£location_pointer "
  PROV_TOOLTIP_LOCATION_STATE:1 "Uma província $TERRAIN|H$ em $NAME|Y$"
  PROV_TOOLTIP_LOCATION_OWNER:0 "Dono: $NAME|Y$."
  PROV_TOOLTIP_LOCATION_CONTROLLER:0 "§RControlador§!: $COUNTRY|Y$"

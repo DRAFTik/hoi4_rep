@@ -111,13 +111,13 @@
  FRA_SFIO_long:0 "Section française de l'Internationale ouvrière" # [LocEditor:CustomLanguageKey]
  SOV_communism_party:0 "PCUS"
  SOV_communism_party_long:0 "Parti communiste de l'Union soviétique" # [LocEditor:CustomLanguageKey]
- SOV_communism_party_russian:0 "VKPB" # [LocEditor:AwaitingBatchUpdate]
- SOV_communism_party_russian_long:0 "Vsessoïouznaïa Kommunistitcheskaïa Partiïa Bolchévikov" # [LocEditor:AwaitingBatchUpdate]
+ SOV_communism_party_russian:0 "VKPB"
+ SOV_communism_party_russian_long:0 "Vsessoïouznaïa Kommunistitcheskaïa Partiïa Bolchévikov"
  SOV_democratic_party:0 "Troudovik"
  SOV_fascism_party:0 "RFP"
  SOV_fascism_party_long:0 "Parti fasciste russe" # [LocEditor:CustomLanguageKey]
- SOV_fascism_party_russian:0 "VFP" # [LocEditor:AwaitingBatchUpdate]
- SOV_fascism_party_russian_long:0 "Vsérossiskaïa Fachistskaïa Partiïa" # [LocEditor:AwaitingBatchUpdate]
+ SOV_fascism_party_russian:0 "VFP"
+ SOV_fascism_party_russian_long:0 "Vsérossiskaïa Fachistskaïa Partiïa"
  SOV_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
  AUS_communism_party:0 "KPÖ"
  AUS_communism_party_long:0 "Kommunistische Partei Österreichs"
@@ -331,17 +331,17 @@
  BUL_neutrality_party:0 "Partisans de Boris III"
  BUL_communism_party:0 "PCB"
  BUL_communism_party_long:0 "Parti communiste bulgare"
- BUL_communism_party_bulgarian:0 "BKP" # [LocEditor:AwaitingBatchUpdate]
- BUL_communism_party_bulgarian_long:0 "Balgarska Komunisticheska Partiya" # [LocEditor:AwaitingBatchUpdate]
+ BUL_communism_party_bulgarian:0 "BKP"
+ BUL_communism_party_bulgarian_long:0 "Balgarska Komunisticheska Partiya"
  BUL_democratic_party:1 "BZNS"
  BUL_democratic_party_long:1 "Balgarski Zemedelski Naroden Sayuz"
  BUL_democratic_party_bftb:1 "Parti démocratique"
  BUL_democratic_party_bftb_long:1 "Parti démocratique"
- BUL_democratic_party_bftb_bulgarian_long:0 "Demokraticheska Partiya" # [LocEditor:AwaitingBatchUpdate]
+ BUL_democratic_party_bftb_bulgarian_long:0 "Demokraticheska Partiya"
  BUL_fascism_party:0 "ULNB"
  BUL_fascism_party_long:0 "Union de la légion nationale bulgare"
- BUL_fascism_party_bulgarian:0 "SBNL" # [LocEditor:AwaitingBatchUpdate]
- BUL_fascism_party_bulgarian_long:0 "Sayuzat na Balgarskite Natsionalni Legioni" # [LocEditor:AwaitingBatchUpdate]
+ BUL_fascism_party_bulgarian:0 "SBNL"
+ BUL_fascism_party_bulgarian_long:0 "Sayuzat na Balgarskite Natsionalni Legioni"
  SAF_neutrality_party:0 "ANC"
  SAF_neutrality_party_long:0 "Congrès national africain"
  SAF_communism_party:0 "PCSA"

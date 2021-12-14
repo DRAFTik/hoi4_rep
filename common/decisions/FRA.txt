@@ -1186,6 +1186,7 @@ economy_decisions = {
 						include_locked = yes
 					}
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -1222,6 +1223,7 @@ economy_decisions = {
 						include_locked = yes
 					}
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -1259,6 +1261,7 @@ economy_decisions = {
 						include_locked = yes
 					}
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -1295,6 +1298,7 @@ economy_decisions = {
 						include_locked = yes
 					}
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -1331,6 +1335,7 @@ economy_decisions = {
 						include_locked = yes
 					}
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1

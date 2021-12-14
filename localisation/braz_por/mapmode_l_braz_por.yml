@@ -22,7 +22,7 @@
  MAPMODE_SUPPLY_AREAS_DESCRIPTION:0 "Exibe as áreas de suprimento e informações sobre o fluxo dos suprimentos. Permite que você identifique áreas problemáticas e congestionamentos."
  MAPMODE_SUPPLY_MAP_MODE_NAME:0 "Abastecimento"
  MAPMODE_SUPPLY_MAP_MODE:0 "Modo de mapa §HAbastecimento§!"
- MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:0 "PENDENTE descrição do modo de mapa abastecimento"
+ MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:1 "Exibe a situação de abastecimento atual. Áreas em verde mais claro têm mais acesso aos suprimentos, enquanto que áreas em roxo têm menos acesso. Áreas onde unidades sofrem com mau abastecimento atualmente vão de §Yamarelo§! até §Rvermelho§!."
  MAPMODE_STRATEGIC_NAVY_NAME:0 "Força naval estratégica"
  MAPMODE_STRATEGIC_NAVY:0 "Modo de mapa §HEstratégia naval§!"
  MAPMODE_STRATEGIC_NAVY_DESCRIPTION:0 "Exibe áreas estratégicas e permite que você veja quais operações navais estão sendo executadas por suas frotas. \nRegiões onde você possui supremacia naval são exibidas com um contorno §Gverde§!. \nÁreas em §Rvermelho§! se encontram fora do alcance operacional da frota atualmente selecionada."

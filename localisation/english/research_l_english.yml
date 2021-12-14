@@ -1073,3 +1073,6 @@
  masterful_blitz_desc:0 "We may not have invented the Blitzkrieg, but we will develop and refine this strategy so that even the most fortified enemy defense lines will not be able to stop the advance of our glorious army."
  penal_infantry:0 "Penal Battalions"
  penal_infantry_desc:0 "Penal battalions provide an opportunity for convicted soldiers and officers of the Red Army to bleed for the motherland and redeem themselves for the shameful or dishonorable actions committed in the past."
+ #Non-MTG naval techs that require loc (they may be granted via effects)
+ basic_heavy_cruiser:0 "Basic Heavy Cruiser (Heavy Cruiser II)"
+ early_carrier:0 "Early Carrier (Carrier I)"

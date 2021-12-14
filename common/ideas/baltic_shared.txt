@@ -211,6 +211,7 @@ ideas = {
 			
 			modifier = {
 				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
 				production_speed_bunker_factor = 0.1
 				production_speed_coastal_bunker_factor = 0.1
 			}
@@ -769,6 +770,7 @@ ideas = {
 					original_TAG = LIT
 					original_TAG = EST
 				}
+				has_dlc = "No Step Back"
 			}
 			
 
@@ -808,6 +810,7 @@ ideas = {
 					original_TAG = LIT
 					original_TAG = EST
 				}
+				has_dlc = "No Step Back"
 			}
 			
 			available = {
@@ -845,6 +848,7 @@ ideas = {
 					original_TAG = LIT
 					original_TAG = EST
 				}
+				has_dlc = "No Step Back"				
 			}
 			
 			available = {
@@ -880,6 +884,7 @@ ideas = {
 					original_TAG = LIT
 					original_TAG = EST
 				}
+				has_dlc = "No Step Back"
 			}
 			picture = generic_air_manufacturer_2
 			available = {

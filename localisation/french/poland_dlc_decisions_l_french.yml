@@ -138,7 +138,7 @@
  add_10_monarchy_tt:0 "Ajoute §Y10§! en popularité aux §Ymonarchistes§!."
  remove_15_monarchy_tt:0 "Retire §Y15§! en popularité aux §Ymonarchistes§!."
  remove_10_monarchy_tt:0 "Retire §Y10§! en popularité aux §Ymonarchistes§!."
- remove_20_monarchy_tt:0 "Retire §Y20§! en popularité aux §Ymonarchistes§!."
+ remove_20_monarchy_tt:1 "Retire §Y20§! en popularité aux §Ymonarchistes§!."
  has_monarchy_support_25_tt:0 "Les §Ymonarchistes§! ont une popularité d'au moins §Y25§!."
  has_monarchy_support_80_tt:0 "Les §Ymonarchistes§! ont une popularité d'au moins §Y80§!."
  has_monarchy_support_1_tt:0 "Les §Ymonarchistes§! ont une popularité d'au moins §Y1§!."

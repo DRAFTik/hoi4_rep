@@ -22,7 +22,7 @@
  MAPMODE_SUPPLY_AREAS_DESCRIPTION:0 "Muestra las áreas de suministro, así como información sobre el flujo de suministro. Te permite detectar áreas problemáticas y atascos."
  MAPMODE_SUPPLY_MAP_MODE_NAME:0 "Suministro"
  MAPMODE_SUPPLY_MAP_MODE:0 "Modo de mapa de §Hsuministros§!"
- MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:0 "TODO desc de modo de mapa de suministros"
+ MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:1 "Muestra el estado actual del suministro. Las zonas verdosas más brillantes tienen más acceso al suministro, mientras que las moradas tienen menor acceso. Las zonas en las que las unidades tienen un mal suministro pasan de §Yamarillo§! a §Rrojo§!."
  MAPMODE_STRATEGIC_NAVY_NAME:0 "Estratégico naval"
  MAPMODE_STRATEGIC_NAVY:0 "Modo de mapa: §HEstratégico naval§!"
  MAPMODE_STRATEGIC_NAVY_DESCRIPTION:0 "Muestra las zonas estratégicas y te permite saber las operaciones navales que realizan tus flotas. \nLas regiones en las que ostentes supremacía naval aparecen con un contorno §Gverde§!. \nLas áreas con rayas §Rrojas§! quedan fuera del alcance operativo de la flota seleccionada."

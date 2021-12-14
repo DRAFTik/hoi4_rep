@@ -48,7 +48,7 @@
  CONSTRUCTION_MAPMODE_TOOLTIP:0 "§GCliquer§! pour construire 1 $BUILDING|lH$."
  CONSTRUCTION_MAPMODE_TOOLTIP_TO_MAX_AMOUNT:0 "§GShift + clic§! pour construire autant de bâtiments que possible."
  CONSTRUCTION_MAPMODE_TOOLTIP_REMOVE:0 "§GClic droit§! pour annuler une construction de ce bâtiment.\n§GShift + clic droit§! pour annuler toutes les constructions de ce bâtiment."
- CONSTRUCTION_MAPMODE_MAXLEVEL_BLOCKED_TOOLTIP:1 "Impossible de construire $BUILDING|lH$ : le niveau maximal est déjà atteint ou §Baucun emplacement n'est disponible§!."
+ CONSTRUCTION_MAPMODE_MAXLEVEL_BLOCKED_TOOLTIP:1 "Impossible de construire $BUILDING|lH$ : le niveau maximal est déjà atteint ou aucun emplacement n'est disponible."
  CONSTRUCTION_MAPMODE_DEMILITARIZED_BLOCKED_TOOLTIP:0 "Construction de $BUILDING|H$ impossible en zone démilitarisée."
  CONSTRUCTION_MAPMODE_FOREIGN_TOOLTIP:0 "Construction de $BUILDING|H$ impossible en territoire étranger."
  CONSTRUCTION_MAPMODE_WATER_TOOLTIP:0 "Impossible de construire $BUILDING|H$ sur l'eau."

@@ -24,7 +24,7 @@ ROM_change_sides = {
 			}
 			OR = {
 				has_country_leader = {
-					name = "Michael I"
+					character = ROM_king_michael
 					ruling_only = yes
 				}
 				has_government = neutrality
@@ -175,7 +175,7 @@ ROM_change_sides = {
 			}
 			OR = {
 				has_country_leader = {
-					name = "Michael I"
+					character = ROM_king_michael
 					ruling_only = yes
 				}
 				has_government = communism
@@ -291,7 +291,7 @@ ROM_change_sides = {
 			}
 			OR = {
 				has_country_leader = {
-					name = "Michael I"
+					character = ROM_king_michael
 					ruling_only = yes
 				}
 				has_government = fascism

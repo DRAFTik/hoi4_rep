@@ -14,7 +14,7 @@
  UNIT_LEADER_SKILL_LAND_DESC:0 "Wysokie umiejętności dowódcy zwiększają szansę na wybranie taktyki, która zniweluje działania wroga. Poziom umiejętności generała rośnie w miarę zdobywania doświadczenia.\n\n"
  UNIT_LEADER_SKILL_NAVY_DESC:1 "Poziom umiejętności admirała rośnie w miarę zdobywania doświadczenia.\n\n"
  UNIT_LEADER_SKILL_OPERATIVE_DESC:0 "Poziom umiejętności agenta rośnie w miarę zdobywania doświadczenia.\n\n"
- UNIT_LEADER_NO_LEADER:0 "§R<Brak dowódcy>§!"
+ UNIT_LEADER_NO_LEADER:1 "§RBrak dowódcy§!"
  UNIT_LEADER_NEW_LEADER:1 "Nowy dowódca £command_power $VALUE|Y0$"
  UNIT_LEADER_NEW_LEADER_TOOLTIP:2 "Powoływanie nowych dowódców kosztuje £command_power $VALUE|Y0$.\nIm więcej dowódców pełni służbę (aż do limitu ich liczby), tym droższe jest powoływanie kolejnych, więc zapewnij wszystkim zajęcie."
  UNIT_LEADER_NO_GROUP:1 "Nie stworzono armii"

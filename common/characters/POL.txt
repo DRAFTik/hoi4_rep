@@ -48,7 +48,7 @@ characters = {
 		name=POL_sejmik_regency
 		portraits = {
 			civilian = {
-				large="gfx/leaders/POL/portrait_POL_Sejmik_Regency.dds" 
+				large="GFX_portrait_POL_Sejmik_Regency" 
 			}
 		}
 		country_leader = {
@@ -93,7 +93,7 @@ characters = {
 			}
 			army = {
 				large="GFX_portrait_POL_witold_pilecki"
-				small = "gfx/interface/ideas/idea_POL_witold_pilecki.dds"
+				small = "GFX_idea_POL_witold_pilecki"
 			}
 		}
 
@@ -467,7 +467,7 @@ characters = {
 				small = "GFX_idea_POL_wojtek"
 			}
 			civilian = {
-				large = "gfx/leaders/POL/portrait_POL_king_woytek.dds"
+				large = "GFX_portrait_POL_king_woytek"
 			}
 		}
 		corps_commander = {
@@ -489,7 +489,7 @@ characters = {
 		portraits = {
 			army = {
 				large="GFX_portrait_POL_rudiger_von_der_goltz"
-				small = "gfx/interface/ideas/idea_POL_rudiger_von_der_goltz.dds"
+				small = "GFX_idea_POL_rudiger_von_der_goltz"
 			}
 		}
 		field_marshal = {
@@ -598,7 +598,7 @@ characters = {
 		portraits = {
 			army = {
 				large="GFX_portrait_POL_stanislaw_sosabowski"
-				small = "gfx/interface/ideas/idea_POL_stanislaw_sosabowski.dds"
+				small = "GFX_idea_POL_stanislaw_sosabowski"
 			}
 		}
 		corps_commander = {
@@ -617,7 +617,7 @@ characters = {
 		portraits = {
 			army = {
 				large="GFX_portrait_POL_lucjan_zeligowski"
-				small = "gfx/interface/ideas/idea_POL_lucjan_zeligowski.dds"
+				small = "GFX_idea_POL_lucjan_zeligowski"
 			}
 		}
 		corps_commander = {
@@ -636,7 +636,7 @@ characters = {
 		portraits = {
 			army = {
 				large="GFX_portrait_POL_tadeusz_kutrzeba"
-				small = "gfx/interface/ideas/idea_POL_tadeusz_kutrzeba.dds"
+				small = "GFX_idea_POL_tadeusz_kutrzeba"
 			}
 		}
 		corps_commander = {
@@ -709,7 +709,7 @@ characters = {
 		portraits = {
 			army = {
 				large="GFX_POL_wincenty_kowalski"
-				small = "gfx/interface/ideas/idea_POL_wincenty_kowalski.dds"
+				small = "GFX_idea_POL_wincenty_kowalski"
 			}
 		}
 		corps_commander = {
@@ -764,7 +764,7 @@ characters = {
 		portraits = {
 			army = {
 				large="GFX_portrait_POL_Stefan_Frankowski"
-				small = "gfx/interface/ideas/idea_POL_stefan_frankowski.dds"
+				small = "GFX_idea_POL_stefan_frankowski"
 			}
 		}
 		navy_leader = {
@@ -783,7 +783,7 @@ characters = {
 		portraits = {
 			army = {
 				large="GFX_portrait_POL_karol_korytowski"
-				small = "gfx/interface/ideas/idea_POL_karol_korytowski.dds"
+				small = "GFX_idea_POL_karol_korytowski"
 			}
 		}
 		navy_leader = {

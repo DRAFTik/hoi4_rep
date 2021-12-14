@@ -23,14 +23,19 @@ country_event = {
 				OR = {
 					any_other_country = {
 						is_major = yes
-						OR = {
-							is_in_faction_with = EST
-							has_guaranteed = EST
-						}
+						is_in_faction_with = EST
 					}
 					has_idea = anti_soviet_pact
 					has_country_flag = baltic_entente_flag
 					FROM = { surrender_progress > 0.5 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = no
+				any_other_country = {
+					is_major = yes
+					has_guaranteed = EST
 				}
 			}
 		}
@@ -66,6 +71,7 @@ country_event = {
 			}
 			modifier = {
 				add = 5
+				is_historical_focus_on = no
 				any_other_country = {
 					is_major = yes
 					has_guaranteed = EST
@@ -104,14 +110,19 @@ country_event = {
 				OR = {
 					any_other_country = {
 						is_major = yes
-						OR = {
-							is_in_faction_with = LAT
-							has_guaranteed = LAT
-						}
+						is_in_faction_with = LAT
 					}
 					has_idea = anti_soviet_pact
 					has_country_flag = baltic_entente_flag
 					FROM = { surrender_progress > 0.5 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = no
+				any_other_country = {
+					is_major = yes
+					has_guaranteed = LAT
 				}
 			}
 		}
@@ -148,6 +159,7 @@ country_event = {
 			}
 			modifier = {
 				add = 5
+				is_historical_focus_on = no
 				any_other_country = {
 					is_major = yes
 					has_guaranteed = LAT
@@ -186,14 +198,19 @@ country_event = {
 				OR = {
 					any_other_country = {
 						is_major = yes
-						OR = {
-							is_in_faction_with = LIT
-							has_guaranteed = LIT
-						}
+						is_in_faction_with = LIT
 					}
 					has_idea = anti_soviet_pact
 					has_country_flag = baltic_entente_flag
 					FROM = { surrender_progress > 0.5 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = no
+				any_other_country = {
+					is_major = yes
+					has_guaranteed = LIT
 				}
 			}
 		}
@@ -230,6 +247,7 @@ country_event = {
 			}
 			modifier = {
 				add = 5
+				is_historical_focus_on = no
 				any_other_country = {
 					is_major = yes
 					has_guaranteed = LIT

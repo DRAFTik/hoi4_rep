@@ -56,6 +56,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_USA_generic_land_4.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_USA_alexander_vandegrift"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_alexander_vandegrift_small"
+		texturefile = "gfx/interface/ideas/idea_USA_generic_land_2.dds"
+	}
+
 	# Polish #######
 	spriteType = {
 		name = "GFX_portrait_POL_ignacy_moscicki"
@@ -173,7 +183,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_POL_witold_pilecki_small"
+		name = "GFX_idea_POL_witold_pilecki"
 		texturefile = "gfx/interface/ideas/idea_POL_witold_pilecki.dds"
 	}
 	spriteType = {
@@ -216,14 +226,26 @@ spriteTypes = {
 		name = "GFX_portrait_POL_tadeusz_kutrzeba"
 		texturefile = "gfx/leaders/POL/portrait_POL_tadeusz_kutrzeba.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_POL_karol_korytowski"
+		texturefile = "gfx/leaders/POL/portrait_POL_karol_korytowski.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_POL_tadeusz_kutrzeba_small"
 		texturefile = "gfx/interface/ideas/idea_POL_tadeusz_kutrzeba.dds"
 	}
 
-
-
+	SpriteType = {
+		name = "GFX_portrait_POL_kazimierz_sosnkowski"
+		texturefile = "gfx/leaders/POL/portrait_POL_kazimierz_sosnkowski.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_POL_Stefan_Frankowski"
+		texturefile = "gfx/leaders/POL/portrait_POL_Stefan_Frankowski.dds"
+	}
+	
 	###Australia
 
 	spriteType = {
@@ -807,6 +829,39 @@ spriteTypes = {
 		texturefile = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
 	}
 
+	spriteType = {
+		name = "GFX_Portrait_romania_ion_antonescu"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Ion_Antonescu.dds"
+	}
+
+	#NSB 
+
+	spriteType = {
+		name = "GFX_Portrait_romania_corneliu_zelea_codreanu"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_romania_gheorghe_tatarescu"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_romania_constantin_ion_parhon"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Constantin_Parhon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_romania_armand_calinescu"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_romania_octavian_goga"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Octavian_Goga.dds"
+	}
+
+
 	#Czechoslovakia
 
 	spriteType = {
@@ -953,7 +1008,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_3.dds"
 	}
 
+	#NSB
 
+	spriteType = {
+		name = "GFX_Portrait_hungary_miklos_horthy"
+		texturefile = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_hungary_matyas_rakosi"
+		texturefile = "gfx/leaders/HUN/Portrait_Hungary_Matyas_Rakoski.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_hungary_arpad_szakasits"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_hungary_istvan_szechenyi"
+		texturefile = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+	}
+
+	
 	##########################
 	########Yugoslavia########
 	##########################
@@ -1058,7 +1135,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_prc_mao_zedong_small"
+		name = "GFX_idea_CHI_mao_zedong"
 		texturefile = "gfx/interface/ideas/idea_CHI_mao_zedong.dds"
 	}
 
@@ -1068,7 +1145,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_sun_li_jen_small"
+		name = "GFX_idea_CHI_sun_li_jen"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_1.dds"
 	}
 
@@ -1078,7 +1155,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_xue_yue_small"
+		name = "GFX_idea_CHI_xue_yue"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_5.dds"
 	}
 
@@ -1088,7 +1165,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_du_yuming_small"
+		name = "GFX_idea_CHI_du_yuming"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_2.dds"
 	}
 
@@ -1098,7 +1175,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_tai_an_lan_small"
+		name = "GFX_idea_CHI_tai_an_lan"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_3.dds"
 	}
 
@@ -1108,7 +1185,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_wang_yaowu_small"
+		name = "GFX_idea_CHI_wang_yaowu"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_4.dds"
 	}
 
@@ -1118,7 +1195,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_hu_zongnan_small"
+		name = "GFX_idea_CHI_hu_zongnan"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_2.dds"
 	}
 
@@ -1128,7 +1205,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_gu_zhutong_small"
+		name = "GFX_idea_CHI_gu_zhutong"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_5.dds"
 	}
 
@@ -1138,7 +1215,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_wei_lihuang_small"
+		name = "GFX_idea_CHI_wei_lihuang"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_2.dds"
 	}
 
@@ -1148,7 +1225,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_fu_zuoyi_small"
+		name = "GFX_idea_CHI_fu_zuoyi"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_3.dds"
 	}
 
@@ -1158,7 +1235,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_zhang_xueliang_small"
+		name = "GFX_idea_CHI_zhang_xueliang"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_4.dds"
 	}
 
@@ -1168,7 +1245,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_wang_jingwei_small"
+		name = "GFX_idea_CHI_wang_jingwei"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_fascism.dds"
 	}
 
@@ -1178,9 +1255,57 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_chi_weng_wenhao_small"
+		name = "GFX_idea_CHI_weng_wenhao"
 		texturefile = "gfx/interface/ideas/idea_CHI_weng_wenhao.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_h_h_kung"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_asia_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_chiang_ching_kuo"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_asia_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_chen_yi"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_asia_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_li_zongren"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_he_yingqin"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_wang_shuming"
+		texturefile = "gfx/interface/ideas/idea_generic_air_asia_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_gao_zihang"
+		texturefile = "gfx/interface/ideas/idea_generic_army_asia_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_chen_cheng"
+		texturefile = "gfx/interface/ideas/idea_generic_army_asia_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_yu_hanmou"
+		texturefile = "gfx/interface/ideas/idea_generic_army_asia_1.dds"
+	}
+
+	
+
 
 	##### ICE #####
 
@@ -1348,7 +1473,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_man_zhang_haipeng_small"
+		name = "GFX_idea_MAN_zhang_haipeng"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_3.dds"
 	}
 
@@ -1358,7 +1483,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_man_aisin_gioro_xiqia_small"
+		name = "GFX_idea_MAN_aisin_gioro_xiqia"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_2.dds"
 	}
 
@@ -1368,7 +1493,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_man_zhang_jinghui_small"
+		name = "GFX_idea_MAN_zhang_jinghui"
 		texturefile = "gfx/interface/ideas/idea_Asia_generic_land_1.dds"
 	}
 
@@ -1814,6 +1939,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_MEN_demchugdongrub.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_portrait_LAT_hermanis_buks"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	}
 
 	##### YUN #####
 
@@ -1916,137 +2045,142 @@ spriteTypes = {
 	#### MEXICO ###
 
 	spriteType = {
-		name = "GFX_portrait_mex_calles_civil"
+		name = "GFX_portrait_MEX_calles_civil"
 		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_calles_civil_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_2.dds"
+		name = "GFX_portrait_MEX_calles_civil_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_calles_military"
+		name = "GFX_portrait_MEX_calles_military"
+		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MEX_plutarco_calles"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_luis_farell"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	}
-
+	
 	spriteType = {
-		name = "GFX_portrait_mex_calles_military_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_2.dds"
+		name = "GFX_portrait_MEX_luis_farell_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_luis_farell"
-		texturefile = "gfx/leaders/South America/South America/Portrait_South_America_Generic_land_2.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_mex_gildardo_magana"
+		name = "GFX_portrait_MEX_gildardo_magana"
 		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_3.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_gildardo_magana_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_3.dds"
+		name = "GFX_portrait_MEX_gildardo_magana_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_3.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_manuel_perez_trevino"
+		name = "GFX_portrait_MEX_manuel_perez_trevino"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_manuel_perez_trevino_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_4.dds"
+		name = "GFX_portrait_MEX_manuel_perez_trevino_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_jose_gonzalo_escobar"
-		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+		name = "GFX_portrait_MEX_jose_gonzalo_escobar"
+		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_jose_gonzalo_escobar_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_1.dds"
+		name = "GFX_portrait_MEX_jose_gonzalo_escobar_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_abelardo_rodriguez"
+		name = "GFX_portrait_MEX_abelardo_rodriguez"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_abelardo_rodriguez_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_5.dds"
+		name = "GFX_portrait_MEX_abelardo_rodriguez_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_vicente_lombardo"
-		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+		name = "GFX_portrait_MEX_vicente_lombardo"
+		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_vicente_lombardo_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_2.dds"
+		name = "GFX_portrait_MEX_vicente_lombardo_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_pablo_gonzalez"
+		name = "GFX_portrait_MEX_pablo_gonzalez"
 		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_pablo_gonzalez_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_5.dds"
+		name = "GFX_portrait_MEX_pablo_gonzalez_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_saturnino_cedillo"
+		name = "GFX_portrait_MEX_saturnino_cedillo"
 		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_3.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_saturnino_cedillo_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_3.dds"
+		name = "GFX_portrait_MEX_saturnino_cedillo_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_3.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_avila_civil"
+		name = "GFX_portrait_MEX_avila_civil"
 		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_avila_civil_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_2.dds"
+		name = "GFX_portrait_MEX_avila_civil_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_avila_military"
-		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+		name = "GFX_portrait_MEX_avila_military"
+		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_avila_military_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_1.dds"
+		name = "GFX_portrait_MEX_avila_military_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_francisco_mugica"
+		name = "GFX_portrait_MEX_francisco_mugica"
 		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_francisco_mugica_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_5.dds"
+		name = "GFX_portrait_MEX_francisco_mugica_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_jesus_degollado_guizar"
+		name = "GFX_portrait_MEX_jesus_degollado_guizar"
 		texturefile = "gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_jesus_degollado_guizar_small"
+		name = "GFX_portrait_MEX_jesus_degollado_guizar_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_13.dds"
 	}
 
@@ -2061,53 +2195,53 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_hernan_laborde"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_2.dds"
+		name = "GFX_portrait_MEX_hernan_laborde"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_hernan_laborde_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_2.dds"
+		name = "GFX_portrait_MEX_hernan_laborde_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_othon_blanco"
+		name = "GFX_portrait_MEX_othon_blanco"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_othon_blanco_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_5.dds"
+		name = "GFX_portrait_MEX_othon_blanco_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_heriberto_corona"
+		name = "GFX_portrait_MEX_heriberto_corona"
 		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_heriberto_corona_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_4.dds"
+		name = "GFX_portrait_MEX_heriberto_corona_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_heliodoro_charis"
+		name = "GFX_portrait_MEX_heliodoro_charis"
 		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_heliodoro_charis_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_5.dds"
+		name = "GFX_portrait_MEX_heliodoro_charis_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_5.dds"
 	}
 
 	spriteType = {
 		name = "GFX_portrait_MEX_Salvador_Abascal"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_3.dds"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 	}
 
 	spriteType = {
 		name = "GFX_portrait_MEX_Salvador_Abascal_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_3.dds"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_3.dds"
 	}
 
 	spriteType = {
@@ -2117,17 +2251,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_Portrait_MEX_Dionisio_Encina_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_2.dds"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_juan_andreu"
-		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+		name = "GFX_portrait_MEX_juan_andreu"
+		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mex_juan_andreu_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_land_1.dds"
+		name = "GFX_portrait_MEX_juan_andreu_small"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_land_1.dds"
 	}
 
 	spriteType = {
@@ -2137,128 +2271,128 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_Portrait_MEX_Adolfo_de_la_Huerta_small"
-		texturefile = "gfx/interface/ideas/idea_South America_America_generic_3.dds"
+		texturefile = "gfx/interface/ideas/idea_south_america_generic_3.dds"
 	}
 
 	### Netherlands ###
 
 	spriteType = {
-		name = "GFX_portrait_hol_karel_doorman"
+		name = "GFX_portrait_HOL_karel_doorman"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_navy_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_karel_doorman_small"
+		name = "GFX_portrait_HOL_karel_doorman_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_navy_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_conrad_helfrich"
+		name = "GFX_portrait_HOL_conrad_helfrich"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_navy_3.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_conrad_helfrich_small"
+		name = "GFX_portrait_HOL_conrad_helfrich_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_navy_3.dds"
 	}
 
 	spriteType = {
 		name = "GFX_portrait_HOL_johannes_theodorus_furstner"
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_navy_1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_portrait_HOL_johannes_theodorus_furstner_small"
-		texturefile = "gfx/interface/ideas/idea_europe_generic_navy_1.dds"
+		texturefile = "gfx/interface/ideas/idea_Europe_generic_navy_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_godfried_van_voorst_tot_voorst"
+		name = "GFX_portrait_HOL_godfried_van_voorst_tot_voorst"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_godfried_van_voorst_tot_voorst_small"
+		name = "GFX_portrait_HOL_godfried_van_voorst_tot_voorst_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_petrus_wilhelmus_best"
+		name = "GFX_portrait_HOL_petrus_wilhelmus_best"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_petrus_wilhelmus_best_small"
+		name = "GFX_portrait_HOL_petrus_wilhelmus_best_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_prins_bernhard"
+		name = "GFX_portrait_HOL_prins_bernhard"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_prins_bernhard_small"
+		name = "GFX_portrait_HOL_prins_bernhard_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_5.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_izaak_reijnders"
+		name = "GFX_portrait_HOL_izaak_reijnders"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_izaak_reijnders_small"
+		name = "GFX_portrait_HOL_izaak_reijnders_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_henri_winkelman"
+		name = "GFX_portrait_HOL_henri_winkelman"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_henri_winkelman_small"
+		name = "GFX_portrait_HOL_henri_winkelman_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_anton_mussert"
+		name = "GFX_portrait_HOL_anton_mussert"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_anton_mussert_small"
+		name = "GFX_portrait_HOL_anton_mussert_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_lou_de_visser"
+		name = "GFX_portrait_HOL_lou_de_visser"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_lou_de_visser_small"
+		name = "GFX_portrait_HOL_lou_de_visser_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_wim_schermerhorn"
+		name = "GFX_portrait_HOL_wim_schermerhorn"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_wim_schermerhorn_small"
+		name = "GFX_portrait_HOL_wim_schermerhorn_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_hein_ter_poorten"
+		name = "GFX_portrait_HOL_hein_ter_poorten"
 		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_3.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_hol_hein_ter_poorten_small"
+		name = "GFX_portrait_HOL_hein_ter_poorten_small"
 		texturefile = "gfx/interface/ideas/idea_Europe_generic_land_3.dds"
 	}
 
@@ -2509,6 +2643,65 @@ spriteTypes = {
 		name = "GFX_portrait_POL_tadeusz_bielecki_small"
 		texturefile = "gfx/interface/ideas/idea_POL_tadeusz_bielecki.dds"
 	}
+
+	#SOV
+
+	spriteType = {
+		name = "GFX_idea_SOV_ivan_chernyakhovsky"
+		texturefile = "gfx/interface/ideas/idea_SOV_ivan_chernyakhovsky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_issa_pliyev"
+		texturefile = "gfx/interface/ideas/idea_SOV_issa_pliyev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_leonid_govorov"
+		texturefile = "gfx/interface/ideas/idea_SOV_leonid_govorov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_filipp_golikov"
+		texturefile = "gfx/interface/ideas/idea_SOV_filipp_golikov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_andrey_yeryomenko"
+		texturefile = "gfx/interface/ideas/idea_SOV_andrey_yeryomenko.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_yakov_cherevichenko"
+		texturefile = "gfx/interface/ideas/idea_SOV_yakov_cherevichenko.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_vasily_kuznetsov"
+		texturefile = "gfx/interface/ideas/idea_SOV_vasily_kuznetsov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_andrey_grechko"
+		texturefile = "gfx/interface/ideas/idea_SOV_andrey_grechko.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_ivan_konev"
+		texturefile = "gfx/interface/ideas/idea_SOV_ivan_konev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_aleksandr_vasilevsky"
+		texturefile = "gfx/interface/ideas/idea_SOV_aleksandr_vasilevsky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_semyon_timoshenko"
+		texturefile = "gfx/interface/ideas/idea_SOV_semyon_timoshenko.dds"
+	}
+
+
 
 	spriteType = {
 		name = "GFX_portrait_SOV_grigory_zinovyev"
@@ -2773,6 +2966,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Portrait_Greece_Ioannis_Metaxas.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_BUL_georgi_popov"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
+	}
+
+	
 
 # DEV
 

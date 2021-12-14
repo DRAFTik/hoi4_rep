@@ -608,6 +608,7 @@
  ENG_expected_decolonization_tt:0 "Próba przewrotu zostanie zażegnana.\n"
  TUR_recall_ataturk_to_active_service:0 "Powołaj ponownie Atatürka do aktywnej służby."
  TUR_recall_ataturk_to_active_service_desc:0 "Mustafa Kemal Atatürk, pierwszy turecki marszałek polowy, odegrał kluczową rolę w wywalczeniu przez nas niepodległości w kampanii narodowej. Jest on jednym z największych umysłów wojskowych na kontynencie, a los sprawił, że Ojciec Turków znowu musi osobiście stanąć na czele naszych wojsk."
+ gateway_to_europe_hol_tt:0 "Zdobyto 5 punktów wpływu handlowego"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  MEX_category_flag_changes:0 "Styl oficjalny i flaga"
