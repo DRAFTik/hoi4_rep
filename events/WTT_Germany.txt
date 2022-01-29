@@ -2290,13 +2290,13 @@ country_event = {
 		add_popularity = { ideology = fascism popularity = 0.05 }
 		custom_effect_tooltip = reinstate_nazi_leadership_TT
 		set_country_flag = GER_reinstated_nazi_leadership
-		if = {  #I'm leaving these guys in the old system for now because it would be a lot of trouble to make them work properly and need not sure if it's worth it right now. 
+		if = {  #I'm leaving these guys in the old system for now because it would be a lot of trouble to make them work properly and need not sure if it's worth it right now.
 			limit = {
 				has_country_flag = model_survived
 			}
-			create_field_marshal = { 
+			create_field_marshal = {
 				name = GER_walter_model
-				picture = "Portrait_Germany_Walter_Model.dds"
+				picture = GFX_portrait_GER_walter_model
 				traits = { defensive_doctrine brilliant_strategist trait_cautious }
 				skill = 3
 				id = 10
@@ -2313,7 +2313,7 @@ country_event = {
 			}
 			create_corps_commander = {
 				name = "Walter Krüger"
-				picture = "Portrait_Germany_Walter_Kruger.dds"
+				picture = GFX_portrait_Walter_Kruger
 				traits = { panzer_leader trait_reckless }
 				skill = 3
 				id = 15
@@ -2330,7 +2330,7 @@ country_event = {
 			}
 			create_corps_commander = {
 				name = "Paul Hausser"
-				picture = "Portrait_Germany_Paul_Hausser.dds"
+				picture = GFX_portrait_Paul_Hausser
 				traits = {  armor_officer }
 				skill = 4
 				id = 20
@@ -2347,7 +2347,7 @@ country_event = {
 			}
 			create_corps_commander = {
 				name = "Sepp Dietrich"
-				picture = "Portrait_Germany_Josef_Dietrich.dds"
+				picture = GFX_portrait_Sepp_Dietrich
 				traits = { armor_officer brilliant_strategist trait_reckless }
 				skill = 4
 				id = 24

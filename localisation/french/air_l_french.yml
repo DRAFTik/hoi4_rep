@@ -364,7 +364,7 @@
  VOLUNTEER_AIR_WING_DESC:0 "Cette escadrille de volontaires a été envoyée en $TAG|H$ et compte $COUNT|H$ appareils sur les $CAP|H$ possibles."
  AIR_SUPPLY_VERY_LOW_SUPPLY:0 "§RIl nous faut $NEED|H1$ ravitaillements supplémentaires dans cette région stratégique !§!"
  AIR_SUPPLY_LOW_SUPPLY:0 "§RIl nous faut $NEED|H1$ ravitaillements supplémentaires dans cette région stratégique.§!"
- AIR_SUPPLY_NORMAL_SUPPLY:0 "§GNous utilisons $VAL|H1$ ravitaillements sur $MAX|H1$ possibles dans cette région stratégique.§!"
+ AIR_SUPPLY_NORMAL_SUPPLY:1 "§GLe ravitaillement aérien pallie un déficit en ravitaillement de $VAL|H1$/$MAX|H1$ dans cette région stratégique.§!"
  AIR_MORE_GROUND_CREWS:0 "Personnel au sol accru"
  AIR_MORE_GROUND_CREWS_CANCEL_DESC:0 "§RAnnule§! l'avantage en efficacité pour $NAME|H$."
  AIR_MORE_GROUND_CREWS_DESC:1 "Dépense et maintien $VALUE|R1$£command_power£ pour gagner $VAL|+%.0$ en efficacité pour $NAME|H$."

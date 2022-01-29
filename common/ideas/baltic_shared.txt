@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		BALTIC_international_brigades = {
-		
+
 			allowed = {
 				OR = {
 					original_tag = EST
@@ -19,7 +19,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_volunteer_expedition_bonus
-			
+
 			modifier = {
 				send_volunteers_tension = -1
 				send_volunteer_divisions_required = -1
@@ -27,7 +27,7 @@ ideas = {
 			}
 		}
 		BALTIC_allied_investments_idea = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -39,14 +39,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = eng_guided_by_britain
-			
+
 			modifier = {
 				consumer_goods_factor = -0.05
 			}
 		}
-		
+
 		BALTIC_economic_union_1 = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -58,15 +58,15 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_goods_red_bonus
-			
+
 			modifier = {
 				industrial_capacity_factory = 0.05
 				consumer_goods_factor = -0.025
 			}
 		}
-		
+
 		BALTIC_economic_union_2 = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -78,15 +78,15 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_goods_red_bonus
-			
+
 			modifier = {
 				industrial_capacity_factory = 0.1
 				consumer_goods_factor = -0.05
 			}
 		}
-		
+
 		LIT_baltic_defence_army = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -98,15 +98,15 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_infantry_bonus
-			
+
 			modifier = {
 				training_time_factor = -0.1
 				conscription_factor = 0.3
 			}
 		}
-		
+
 		BALTIC_union_idea = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -118,7 +118,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_volunteer_expedition_bonus
-			
+
 			modifier = {
 				industrial_capacity_factory = 0.15
 				consumer_goods_factor = -0.075
@@ -126,9 +126,9 @@ ideas = {
 				conscription_factor = 0.3
 			}
 		}
-		
+
 		BALTIC_union_idea_1 = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -140,7 +140,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_volunteer_expedition_bonus
-			
+
 			modifier = {
 				industrial_capacity_factory = 0.2
 				consumer_goods_factor = -0.1
@@ -149,9 +149,9 @@ ideas = {
 				conscription_factor = 0.3
 			}
 		}
-		
+
 		BALTIC_axis_investments_idea = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -163,14 +163,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = german_advisors
-			
+
 			modifier = {
 				industrial_capacity_factory = 0.1
 			}
 		}
-		
+
 		BALTIC_axis_investments_idea_1 = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -182,21 +182,21 @@ ideas = {
 			removal_cost = -1
 
 			picture = german_advisors
-			
-			targeted_modifier = { 
+
+			targeted_modifier = {
 				tag = GER
 				attack_bonus_against = -0.15
 				defense_bonus_against = -0.15
 			}
-			
+
 			modifier = {
 				industrial_capacity_factory = 0.1
 				consumer_goods_factor = -0.01
 			}
 		}
-		
+
 		BALTIC_defending_the_nation = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -208,7 +208,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = FRA_fortification_focus
-			
+
 			modifier = {
 				production_speed_arms_factory_factor = 0.1
 				production_speed_industrial_complex_factor = 0.1
@@ -218,7 +218,7 @@ ideas = {
 		}
 
 		BALTIC_disloyal_parliament = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -230,7 +230,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = anti_soviet_pact
-			
+
 			modifier = {
 				stability_factor = -0.1
 				communism_drift = 0.1
@@ -238,7 +238,7 @@ ideas = {
 		}
 
 		BALTIC_christian_communism = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -250,7 +250,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = ast_abandon_the_westminster_system_communism
-			
+
 			modifier = {
 				stability_factor = 0.1
 				communism_drift = 0.05
@@ -271,7 +271,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				democratic_drift = 0.05
 				political_power_factor = -0.1
@@ -293,7 +293,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				democratic_drift = 0.05
 				political_power_factor = -0.05
@@ -314,7 +314,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				democratic_drift = 0.05
 				stability_factor = -0.05
@@ -324,7 +324,7 @@ ideas = {
 		BALTIC_forest_brothers_idea = {
 
 			picture = BALTIC_forest_brothers
-			
+
 			allowed = {
 				always = no
 			}
@@ -334,7 +334,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				army_core_defence_factor = 0.1
 				army_core_attack_factor = 0.1
@@ -342,7 +342,7 @@ ideas = {
 		}
 
 		anti_soviet_army_idea = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -354,8 +354,8 @@ ideas = {
 			removal_cost = -1
 
 			picture = anti_soviet_pact
-			
-			targeted_modifier = { 
+
+			targeted_modifier = {
 				tag = SOV
 				attack_bonus_against = 0.1
 				defense_bonus_against = 0.1
@@ -363,7 +363,7 @@ ideas = {
 		}
 
 		anti_german_army_idea = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -375,8 +375,8 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_fascism_banned
-			
-			targeted_modifier = { 
+
+			targeted_modifier = {
 				tag = GER
 				attack_bonus_against = 0.1
 				defense_bonus_against = 0.1
@@ -384,7 +384,7 @@ ideas = {
 		}
 
 		EST_motors_idea = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -396,7 +396,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = FRA_motorized_focus
-			
+
 			equipment_bonus = {
 				anti_tank_equipment = {
 					build_cost_ic = -0.2
@@ -406,7 +406,7 @@ ideas = {
 		}
 
 		BALTIC_restore_workers_republic_idea = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -418,7 +418,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_communism_drift_bonus
-			
+
 			modifier = {
 				communism_drift = 0.1
 				stability_weekly = -0.01
@@ -426,7 +426,7 @@ ideas = {
 		}
 
 		BALTIC_restore_workers_republic_idea_sov_1 = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -438,7 +438,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_communism_drift_bonus
-			
+
 			modifier = {
 				communism_drift = 0.1
 				stability_factor = -0.1
@@ -447,7 +447,7 @@ ideas = {
 		}
 
 		BALTIC_restore_workers_republic_idea_1 = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -459,7 +459,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_communism_drift_bonus
-			
+
 			modifier = {
 				communism_drift = 0.1
 				conscription_factor = 0.1
@@ -467,7 +467,7 @@ ideas = {
 		}
 
 		BALTIC_restore_workers_republic_idea_2 = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -479,7 +479,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_communism_drift_bonus
-			
+
 			modifier = {
 				communism_drift = 0.1
 				stability_factor = 0.1
@@ -679,7 +679,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = air_war_plans_division_focus
-			
+
 			modifier = {
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
@@ -704,7 +704,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_communism_drift_bonus
-			
+
 			modifier = {
 				war_support_factor = 0.1
 				army_morale_factor = 0.1
@@ -724,7 +724,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = tfv_can_conscription_crisis
-			
+
 			modifier = {
 				conscription_factor = -0.25
 				training_time_army_factor = 0.33
@@ -744,7 +744,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = chi_hyper_inflation
-			
+
 			modifier = {
 				industrial_capacity_factory = -0.4
 			}
@@ -753,13 +753,13 @@ ideas = {
 
 	army_chief = {
 	}
-	
+
 	materiel_manufacturer = {
-		
+
 		designer = yes
 
 		BALTIC_ford = {
-			
+
 			picture = ford_motor_company
 
 			cost = 75
@@ -772,16 +772,16 @@ ideas = {
 				}
 				has_dlc = "No Step Back"
 			}
-			
+
 
 			available = {
 				has_completed_focus = BALTIC_ford_motors
 			}
-			
+
 			research_bonus = {
 				motorized_equipment = 0.15
 			}
-			
+
 			traits = { motorized_equipment_manufacturer }
 
 			equipment_bonus = {
@@ -796,14 +796,14 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.02
 			}
-			
+
 		}
 		BALTIC_RSAF_enfield = {
-			
+
 			picture = rsaf_enfield
 
 			cost = 75
-			
+
 			allowed = {
 				OR = {
 					original_TAG = LAT
@@ -812,17 +812,17 @@ ideas = {
 				}
 				has_dlc = "No Step Back"
 			}
-			
+
 			available = {
 				has_completed_focus = BALTIC_british_designers
 			}
-			
+
 			research_bonus = {
 				infantry_weapons = 0.15
 			}
-			
+
 			traits = { infantry_equipment_manufacturer }
-			
+
 			equipment_bonus = {
 				infantry_equipment = {
 					build_cost_ic = -0.05 instant = yes
@@ -831,53 +831,53 @@ ideas = {
 					build_cost_ic = -0.05 instant = yes
 				}
 			}
-			
+
 			modifier = {
 				consumer_goods_factor = 0.01
 			}
 		}
 		BALTIC_royal_arsenal = {
-			
+
 			picture = royal_arsenal
 
 			cost = 75
-			
+
 			allowed = {
 				OR = {
 					original_TAG = LAT
 					original_TAG = LIT
 					original_TAG = EST
 				}
-				has_dlc = "No Step Back"				
+				has_dlc = "No Step Back"
 			}
-			
+
 			available = {
 				has_completed_focus = BALTIC_british_designers
 			}
-			
+
 			research_bonus = {
 				artillery = 0.15
 			}
-			
+
 			traits = { artillery_manufacturer }
-			
+
 			equipment_bonus = {
 				artillery_manufacturer = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
-			
+
 			modifier = {
 				consumer_goods_factor = 0.01
 			}
 		}
 	}
 	aircraft_manufacturer = {
-			
+
 		designer = yes
-		
+
 		BALTIC_RAF = {
-			
+
 			allowed = {
 				OR = {
 					original_TAG = LAT
@@ -890,24 +890,30 @@ ideas = {
 			available = {
 				has_completed_focus = BALTIC_british_designers
 			}
-			
 
-			
+
+
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			
+
 			traits = { medium_aircraft_manufacturer }
-			
+
 			equipment_bonus = {
-				medium_air = {
+				fighter = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				light_air = {
+				tactical_bomber = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				cas = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				scout_plane = {
 					build_cost_ic = -0.05 instant = yes
 				}
 			}
-			
+
 			modifier = {
 				consumer_goods_factor = 0.01
 			}

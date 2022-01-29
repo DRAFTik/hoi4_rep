@@ -283,8 +283,8 @@ characters={
 		name=LAT_martinsh_penikis
 		portraits={
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="GFX_portrait_LAT_martins_penikis"
+				small="GFX_idea_LAT_martins_penikis"
 			}
 		}
 		field_marshal={

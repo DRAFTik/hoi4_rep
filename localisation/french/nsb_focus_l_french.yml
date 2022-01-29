@@ -831,6 +831,8 @@
  POL_proclaim_slavic_unity_desc:0 "Maintenant que nous contrôlons tous les territoires russes et polonais, nous pouvons réaliser ce qu'aucun tsar n'a jamais réussi : avec le consentement et l'approbation des [SOV.GetHabitants] et des [POL.GetHabitants], nous pouvons proclamer l'unification des peuples slaves."
  POL_niech_zyje_opor:0 "W Imieniu Polski Podziemnej"
  POL_niech_zyje_opor_desc:0 "Tout le pays bruisse de rumeurs sur le soulèvement et la liberté. Dans les églises et les tunnels, de courageux patriotes [POL.GetAdjMP] œuvrent à restaurer l'indépendance. Avec de bons arguments et de l'armement, Varsovie pourrait même se libérer elle-même !"
+ POL_niech_zyje_opor_no_mtg:0 "$POL_niech_zyje_opor$"
+ POL_niech_zyje_opor_no_mtg_desc:0 "$POL_niech_zyje_opor_desc$"
  POL_morges_pact:0 "Pacte Morges"
  POL_morges_pact_desc:0 "Maintenant que la démocratie a été restaurée, le Front Morges a presque atteint ses objectifs. Tout ce qu'il reste à faire est de renforcer les relations avec [FRA.GetLeLaLNP] [FRA.GetName] en restaurant l'alliance franco-[POL.GetAdjFS]."
  POL_morges_economic_union:0 "Pacte économique franco-[POL.GetAdjMS]"

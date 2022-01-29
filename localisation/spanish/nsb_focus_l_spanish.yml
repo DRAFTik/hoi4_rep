@@ -831,6 +831,8 @@
  POL_proclaim_slavic_unity_desc:0 "Con todo el territorio de Rusia y Polonia bajo nuestro control, vamos a conseguir lo que ningún zar ha logrado nunca. Con el consentimiento y la aprobación de los rusos y los polacos, podemos proclamar la unificación del pueblo eslavo."
  POL_niech_zyje_opor:0 "W imieniu Polski Podziemnej"
  POL_niech_zyje_opor_desc:0 "Se han extendido rumores sobre rebelión y libertad por toda Polonia. Patriotas polacos valientes buscan devolver la independencia a Polonia en nuestras iglesias y bajo tierra y, con la provocación y el equipo adecuados, quizá veamos cómo Varsovia se libera de sus cadenas."
+ POL_niech_zyje_opor_no_mtg:0 "$POL_niech_zyje_opor$"
+ POL_niech_zyje_opor_no_mtg_desc:0 "$POL_niech_zyje_opor_desc$"
  POL_morges_pact:0 "Pacto de Morges"
  POL_morges_pact_desc:0 "Con la democracia restaurada en Polonia, las ambiciones del Frente Morges casi están completas. Todo lo que queda es fortalecer nuestra relación con Francia y recuperar la alianza de Francia y Polonia."
  POL_morges_economic_union:0 "Pacto económico francopolaco"

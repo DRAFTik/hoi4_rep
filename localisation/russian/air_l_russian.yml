@@ -364,7 +364,7 @@
  VOLUNTEER_AIR_WING_DESC:0 "Это добровольческое авиакрыло, отправленное в регион $TAG|H$, использует $COUNT|H$/$CAP|H$ своей вместимости"
  AIR_SUPPLY_VERY_LOW_SUPPLY:0 "§RНам требуется еще $NEED|H1$ ед. снабжения в стратегическом регионе!§!"
  AIR_SUPPLY_LOW_SUPPLY:0 "§RНам требуется еще $NEED|H1$ ед. снабжения в стратегическом регионе!§!"
- AIR_SUPPLY_NORMAL_SUPPLY:0 "§GМы используем $VAL|H1$ из $MAX|H1$ ед. снабжения в стратегическом регионе§!"
+ AIR_SUPPLY_NORMAL_SUPPLY:1 "§GСнабжение по воздуху покрывает $VAL|H1$/$MAX|H1$ дефицита поставок в этом стратегическом регионе§!"
  AIR_MORE_GROUND_CREWS:0 "Дополнительный наземный персонал"
  AIR_MORE_GROUND_CREWS_CANCEL_DESC:0 "§RОтменить§! прирост эффективности в регионе $NAME|H$"
  AIR_MORE_GROUND_CREWS_DESC:1 "Регулярные расходы в размере $VALUE|R1$£command_power на поддержание $VAL|+%.0$ прироста эффективности в регионе $NAME|H$."

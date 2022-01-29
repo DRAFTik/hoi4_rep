@@ -69,14 +69,18 @@
  DIVISION_PRODUCTION_RESOURCE_DESC:0 "Surowce, które zostaną wykorzystane do produkcji wyposażenia dla tego szablonu." # [LocEditor:AwaitingBatchUpdate]
  DIVISION_PRODUCTION_COST_DESC:0 "§YMinimalny§! i §Ymaksymalny§! koszt stworzenia tej dywizji." # [LocEditor:AwaitingBatchUpdate]
  DIVISION_PRODUCTION_COST_SINGLE_VAL:0 "Szacowany koszt produkcji: £production_cost£$VALUE|0$"
- DIVISION_REFIT_COST_LAND:0 "Koszt przebudowy: £production_cost $VALUE|1$"
- DIVISION_REFIT_COST_NAVAL:1 "Koszt przebudowy: £navprod_cost£ $VALUE|1$"
- DESIGNER_REFIT_COST_FROM_ORIGINAL:0 "Koszt przebudowy oryginalnej konstrukcji" # [LocEditor:AwaitingBatchUpdate]
- DESIGNER_REFIT_COST_FROM_PARENT:0 "Koszt przebudowy początkowej konstrukcji $PARENT_NAME|H$" # [LocEditor:AwaitingBatchUpdate]
- DIVISION_PRODUCTION_COST_LAND:0 "Koszt produkcji: £production_cost $VALUE|1$"
- DIVISION_PRODUCTION_COST_LAND_MAX:0 "Koszt produkcji: £production_cost $VALUE|0$/$MAX|0$"
- DIVISION_PRODUCTION_COST_NAVAL:1 "Koszt produkcji: £navprod_cost£ $VALUE|1$"
+ DIVISION_REFIT_COST_LAND:1 "Koszt przekształcania: £production_cost $VALUE|2$"
+ DIVISION_REFIT_COST_NAVAL:2 "Koszt przebudowy: £navprod_cost£ $VALUE|0$"
+ DESIGNER_REFIT_COST_FROM_ORIGINAL:2 "Koszt przebudowy statku z §Horyginalnego projektu§! na ten projekt."
+ DESIGNER_REFIT_COST_FROM_ORIGINAL_LAND:0 "Koszt przekształcenia wyposażenia z §Horyginalnego projektu§! na ten projekt."
+ DESIGNER_REFIT_COST_FROM_PARENT:2 "Koszt przebudowy statku z projektu $PARENT_NAME|H$ na ten projekt."
+ DESIGNER_REFIT_COST_FROM_PARENT_LAND:0 "Koszt przekształcenia wyposażenia z projektu $PARENT_NAME|H$ na ten projekt."
+ DIVISION_PRODUCTION_COST_LAND:1 "Koszt produkcji: £production_cost $VALUE|2$"
+ DIVISION_PRODUCTION_COST_LAND_MAX:1 "Koszt produkcji: £production_cost $VALUE|2$/$MAX|0$"
+ DIVISION_PRODUCTION_COST_LAND_MAX_EXCEEDED:0 "Koszt produkcji: £production_cost $VALUE|2R$/$MAX|0$"
+ DIVISION_PRODUCTION_COST_NAVAL:2 "Koszt produkcji: £navprod_cost£ $VALUE|0$"
  DIVISION_PRODUCTION_COST_NAVAL_MAX:1 "Koszt produkcji: £navprod_cost£ $VALUE|0$/$MAX|0$"
+ DIVISION_PRODUCTION_COST_NAVAL_MAX_EXCEEDED:0 "Koszt produkcji: £navprod_cost£ $VALUE|0R$/$MAX|0$"
  DIVISION_PRODUCTION_COST_VAL:0 "Szacowany koszt produkcji: £production_cost£$MINVALUE|0$ do £production_cost£$MAXVALUE|0$"
  DIVISION_MODIFICATION_HEADER:0 "Zmiana tego szablonu będzie miała znaczenie dla $AMOUNT|H$ dywizji." # [LocEditor:AwaitingBatchUpdate]
  DIVISION_GARRISON_MODIFICATION_HEADER:0 "Zmiana tego szablonu będzie miała znaczenie dla $AMOUNT|H$ dywizji garnizonów $NUMGARRISON|H$ państw."
@@ -136,6 +140,7 @@
  EQUIPMENT_DESIGNER_RESET:0 "Resetuj"
  EQUIPMENT_DESIGNER_RESET_DESC:0 "Zresetowanie wszystkich zmian w projekcie tego wariantu wyposażenia od czasu jego ostatniego zapisu." # [LocEditor:AwaitingBatchUpdate]
  SHIP_DESIGNER_TITLE:0 "Projektant okrętów"
+ TANK_DESIGNER_TITLE:0 "Projektant czołgów"
  EQUIPMENT_DESIGNER_IS_CAPITAL_SHIP_TOOLTIP:0 "Okręty zbudowane według tego projektu będą §Hokrętami liniowymi§!."
  EQUIPMENT_DESIGNER_IS_CAPITAL_SHIP_EFFECTS_TOOLTIP:0 "§HOkręty liniowe§! działają w walce inaczej i otrzymują inne modyfikatory niż inne klasy okrętów."
  EQUIPMENT_DESIGNER_IS_SCREEN_SHIP_TOOLTIP:0 "Okręty zbudowane według tego projektu będą §Hokrętami osłonowymi§!."

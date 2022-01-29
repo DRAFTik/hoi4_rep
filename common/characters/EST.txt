@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_estonia_konstantin_pats"
 			}
 			army = {
-				small = "gfx/interface/ideas/idea_EST_konstantin_pats.dds" #Not ever used
+				small = GFX_portrait_EST_konstantin_pats_small #Not ever used
 			}
 		}
 		country_leader={

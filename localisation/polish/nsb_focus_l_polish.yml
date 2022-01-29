@@ -831,6 +831,8 @@
  POL_proclaim_slavic_unity_desc:0 "Panujemy już nad całym terytorium Rosji i Polski, więc wreszcie możemy osiągnąć to, co nie udało się dotąd żadnemu carowi. Za zgodą i z poparciem zarówno Rosjan, jak i Polaków możemy ogłosić zjednoczenie ludów słowiańskich."
  POL_niech_zyje_opor:0 "W imieniu Polski Podziemnej"
  POL_niech_zyje_opor_desc:0 "Po całej Polsce rozeszły się pogłoski o powstaniu i walce o wolność. W kościołach i w podziemiu dzielni i patriotyczni Polacy pracują na rzecz odzyskania niepodległości. Celna prowokacja może wystarczyć do tego, by odpowiednio wyposażona Warszawa wyzwoliła się sama!"
+ POL_niech_zyje_opor_no_mtg:0 "$POL_niech_zyje_opor$"
+ POL_niech_zyje_opor_no_mtg_desc:0 "$POL_niech_zyje_opor_desc$"
  POL_morges_pact:0 "Pakt z Morges"
  POL_morges_pact_desc:0 "Wraz z przywróceniem mechanizmów demokratycznych ambicje Frontu Morges niemal się ziściły. Pozostało jedynie wzmocnić naszą więź z Francją i przywrócić sojusz polsko-francuski."
  POL_morges_economic_union:0 "Polsko-francuskie porozumienie gospodarcze"

@@ -3143,6 +3143,14 @@ POL_fight_against_monarchy_in_LIT_cat = {
 			}
 			hidden_trigger = { is_ai = no }
 		}
+
+		targets = {
+			LIT POL
+		}
+
+		target_trigger = {
+			POL_is_valid_to_reject_monarchy = yes
+		}
 		
 		cancel_trigger = {
 			hidden_trigger ={
@@ -3188,7 +3196,7 @@ POL_fight_against_monarchy_in_LIT_cat = {
 
 		remove_effect = {
 			custom_effect_tooltip = monarchy_banned_tt
-			POL = {
+			FROM = {
 				country_event = NSB_poland_monarchist_events.2
 			}
 			hidden_effect = {

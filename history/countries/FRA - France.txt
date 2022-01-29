@@ -252,10 +252,8 @@ if = {
 		set_oob = "FRA_1939"
 	}
 	if = {
-		limit = {
-			
+		limit = {		
 			has_dlc = "No Step Back"
-			
 		}
 		set_technology = {
 			improved_light_tank_chassis = 1
@@ -537,7 +535,7 @@ if = {
 			tank_nsb_engine_upgrade = 2
 			tank_nsb_armor_upgrade = 4
 		}
-		icon = "gfx/interface/technologies/FRA_basic_light_tank.dds"
+		icon = "GFX_FRA_basic_light_tank_medium"
 	}
 	create_equipment_variant = {
 		name = "Char B1" 
@@ -556,7 +554,7 @@ if = {
 			tank_nsb_engine_upgrade = 6
 			tank_nsb_armor_upgrade = 4
 		}
-		icon = "gfx/interface/technologies/FRA_basic_heavy_tank.dds"
+		icon = "GFX_FRA_basic_heavy_tank_medium"
 	}
 
 	create_equipment_variant = {
@@ -575,7 +573,7 @@ if = {
 			tank_nsb_engine_upgrade = 4
 			tank_nsb_armor_upgrade = 5
 		}
-		icon = "gfx/interface/technologies/FRA_imp_main_tank.dds"
+		icon = "GFX_FRA_improved_medium_tank_medium"
 	}
 }
 if = {
@@ -1011,7 +1009,7 @@ if = {
 				tank_nsb_engine_upgrade = 6
 				tank_nsb_armor_upgrade = 6
 			}
-			icon = "gfx/interface/technologies/FRA_basic_heavy_tank.dds"
+			icon = "GFX_FRA_basic_heavy_tank_medium"
 		}
 
 		create_equipment_variant = {
@@ -1031,7 +1029,7 @@ if = {
 				tank_nsb_engine_upgrade = 2
 				tank_nsb_armor_upgrade = 4
 			}
-			icon = "gfx/interface/technologies/FRA_imp_light_tank.dds"
+			icon = "GFX_FRA_improved_light_tank_medium"
 		}
 
 		create_equipment_variant = {
@@ -1050,7 +1048,7 @@ if = {
 				tank_nsb_engine_upgrade = 4
 				tank_nsb_armor_upgrade = 3
 			}
-			icon = "gfx/interface/technologies/FRA_basic_main_tank.dds"
+			icon = "GFX_FRA_basic_medium_tank_medium"
 		}
 	}
 }

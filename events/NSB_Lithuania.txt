@@ -90,7 +90,16 @@ country_event = {
 	option = { #Nah
 		name = LIT_events.1.b
 		ai_chance = {
-			factor = 0
+			base = 1
+			modifier = { #Please don't listen to the AI, ok?
+				factor = 5 
+				FROM = { is_ai = yes }
+			}
+			modifier = { #Please don't kill the player, maybe
+				factor = 10
+				POL = { is_ai = no } 
+			} 
+
 		}
 		FROM = { country_event = { days = 1 id = LIT_events.103 } }
 	}
@@ -207,7 +216,7 @@ country_event = {
 
 			}
 		}
-		custom_effect_tooltip = may_lead_to_soviet_war_tt
+		custom_effect_tooltip = germany.126.warning
 		hidden_effect = {
 			LIT = { country_event = { days = 1 id = LIT_events.104 } }
 		}

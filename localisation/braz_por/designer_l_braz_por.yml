@@ -69,14 +69,18 @@
  DIVISION_PRODUCTION_RESOURCE_DESC:0 "Recursos que serão usados para a produção de equipamento para este modelo." # [LocEditor:AwaitingBatchUpdate]
  DIVISION_PRODUCTION_COST_DESC:0 "O custo §Ymínimo§! e §Ymáximo§! de produção para a divisão atual." # [LocEditor:AwaitingBatchUpdate]
  DIVISION_PRODUCTION_COST_SINGLE_VAL:0 "Custo estimado de produção: £production_cost£$VALUE|0$"
- DIVISION_REFIT_COST_LAND:0 "Custo de conserto: £production_cost $VALUE|1$"
- DIVISION_REFIT_COST_NAVAL:1 "Custo de conserto: £navprod_cost£ $VALUE|1$"
- DESIGNER_REFIT_COST_FROM_ORIGINAL:0 "Custo do conserto do design original" # [LocEditor:AwaitingBatchUpdate]
- DESIGNER_REFIT_COST_FROM_PARENT:0 "Custo do conserto do design paterno $PARENT_NAME|H$" # [LocEditor:AwaitingBatchUpdate]
- DIVISION_PRODUCTION_COST_LAND:0 "Custo de produção: £production_cost $VALUE|1$"
- DIVISION_PRODUCTION_COST_LAND_MAX:0 "Custo de produção: £production_cost $VALUE|0$/$MAX|0$"
- DIVISION_PRODUCTION_COST_NAVAL:1 "Custo de produção: £navprod_cost£ $VALUE|1$"
+ DIVISION_REFIT_COST_LAND:1 "Custo de conversão: £production_cost $VALUE|2$"
+ DIVISION_REFIT_COST_NAVAL:2 "Custo de conserto: £navprod_cost£ $VALUE|0$"
+ DESIGNER_REFIT_COST_FROM_ORIGINAL:2 "O custo para consertar um navio do §Hdesign original§! para esse design."
+ DESIGNER_REFIT_COST_FROM_ORIGINAL_LAND:0 "O custo para converter equipamento do §Hdesign original§! para esse design."
+ DESIGNER_REFIT_COST_FROM_PARENT:2 "O custo para consertar um navio do design $PARENT_NAME|H$ para esse design."
+ DESIGNER_REFIT_COST_FROM_PARENT_LAND:0 "O custo para converter equipamento do design $PARENT_NAME|H$ para esse design."
+ DIVISION_PRODUCTION_COST_LAND:1 "Custo de produção: £production_cost $VALUE|2$"
+ DIVISION_PRODUCTION_COST_LAND_MAX:1 "Custo de produção: £production_cost $VALUE|2$/$MAX|0$"
+ DIVISION_PRODUCTION_COST_LAND_MAX_EXCEEDED:0 "Custo de produção: £production_cost $VALUE|2R$/$MAX|0$"
+ DIVISION_PRODUCTION_COST_NAVAL:2 "Custo de produção: £navprod_cost£ $VALUE|0$"
  DIVISION_PRODUCTION_COST_NAVAL_MAX:1 "Custo de produção: £navprod_cost£ $VALUE|0$/$MAX|0$"
+ DIVISION_PRODUCTION_COST_NAVAL_MAX_EXCEEDED:0 "Custo de produção: £navprod_cost£ $VALUE|0R$/$MAX|0$"
  DIVISION_PRODUCTION_COST_VAL:0 "Custo estimado de produção: £production_cost£$MINVALUE|0$ a £production_cost£$MAXVALUE|0$"
  DIVISION_MODIFICATION_HEADER:0 "Esta alteração no modelo afetará $AMOUNT|H$ divisões." # [LocEditor:AwaitingBatchUpdate]
  DIVISION_GARRISON_MODIFICATION_HEADER:0 "Essa mudança de molde impactará $AMOUNT|H$ divisões e a guarnição de $NUMGARRISON|H$ estados."
@@ -136,6 +140,7 @@
  EQUIPMENT_DESIGNER_RESET:0 "Reiniciar"
  EQUIPMENT_DESIGNER_RESET_DESC:0 "Reinicia todas as alterações a este projeto de variante de equipamento desde que foi salvo pela última vez." # [LocEditor:AwaitingBatchUpdate]
  SHIP_DESIGNER_TITLE:0 "Designer de navios"
+ TANK_DESIGNER_TITLE:0 "Designer de tanques"
  EQUIPMENT_DESIGNER_IS_CAPITAL_SHIP_TOOLTIP:0 "Navios com este design serão §HCapitanias§!."
  EQUIPMENT_DESIGNER_IS_CAPITAL_SHIP_EFFECTS_TOOLTIP:0 "§HCapitanias§! tem comportamentos diferentes em combate e são influenciadas por um conjunto de modificadores diferentes de outras categorias de navios."
  EQUIPMENT_DESIGNER_IS_SCREEN_SHIP_TOOLTIP:0 "Navios com este design serão §HNavios de filtragem§!."

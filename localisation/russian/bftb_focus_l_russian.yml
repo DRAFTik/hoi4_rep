@@ -1211,7 +1211,7 @@
  BUL_carry_the_revolution_abroad_wargoals_tt:0 "Получает цель §YАннексия§! для войны с любой балканской страной, не находящейся под управлением коммунистов или состоящей в другом альянсе. \nПопадающие под это определение страны получат модификатор §YУгроза коммунизма§! (мнение о государстве §Y[BUL.GetNameWithFlag]§! §R-35§!).\nСейчас это касается следующих стран:"
  BUL_freedom_of_press_flag:0 "Выполнен фокус §YСвобода печати§!"
  BUL_industrial_investments_in_bulgaria_flag:0 "Страна инвестировала в промышленность державы §Y[ROOT.GetNameWithFlag]§!"
- BUL_replace_national_naval_designer_tt:0 "§Y$BUL_varna_naval_dockyard$§! изменится на \n$MODIFIER_INDUSTRIAL_NAVAL_EQUIPMENT_REFIT_SPEED_FACTOR$: §G+10%§! \n$MODIFIER_REPAIR_SPEED_FACTOR$: §G+5%§! \n$naval_equipment_research$: §G+5%§!\n\n"
+ BUL_replace_national_naval_designer_tt:1 "§Y$BUL_varna_naval_dockyard$§! изменится на \n$MODIFIER_INDUSTRIAL_REFIT_SPEED_FACTOR$: §G+10%§! \n$MODIFIER_REPAIR_SPEED_FACTOR$: §G+5%§! \n$naval_equipment_research$: §G+5%§!\n\n"
  BUL_depose_the_tsar_cw_tt:0 "§YНейтральные§! сторонники начнут гражданскую войну!"
  BUL_nationalization_foreign_designers_tt:0 "§RЗарубежные конструкторы больше не будут доступны, активные зарубежные конструкторы будут удалены.§!"
  BUL_simeon_is_1:0 "всего один год"

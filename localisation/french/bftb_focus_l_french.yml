@@ -1211,7 +1211,7 @@
  BUL_carry_the_revolution_abroad_wargoals_tt:0 "Alloue le but de guerre §Y$annex_everything$§! contre tout pays des Balkans n'ayant pas un gouvernement communiste ou membre d'une autre faction.\nLes pays affectés vont recevoir §Y$BUL_communist_menace$§! (Opinion à l'égard [BUL.GetDuDelaDelNP] [BUL.GetFlag]§Y[BUL.GetName]§! : §R-35§!.)\nPays actuellement concernés :"
  BUL_freedom_of_press_flag:0 "A adopté la priorité §Y$BUL_freedom_of_press$§!"
  BUL_industrial_investments_in_bulgaria_flag:0 "A procédé à des investissements en [Root.GetAuEnANP] [Root.GetFlag]§Y[Root.GetName]§!"
- BUL_replace_national_naval_designer_tt:0 "Modifie §Y$BUL_varna_naval_dockyard$§! ainsi :\n$MODIFIER_INDUSTRIAL_NAVAL_EQUIPMENT_REFIT_SPEED_FACTOR$: §G+10%§!\n$MODIFIER_REPAIR_SPEED_FACTOR$: §G+5%§!\n$naval_equipment_research$: §G+5%§!\n\n"
+ BUL_replace_national_naval_designer_tt:1 "Modifie §Y$BUL_varna_naval_dockyard$§! ainsi :\n$MODIFIER_INDUSTRIAL_REFIT_SPEED_FACTOR$: §G+10%§!\n$MODIFIER_REPAIR_SPEED_FACTOR$: §G+5%§!\n$naval_equipment_research$: §G+5%§!\n\n"
  BUL_depose_the_tsar_cw_tt:0 "Les partisans du §Ynon-alignement§! vont déclencher une guerre civile."
  BUL_nationalization_foreign_designers_tt:0 "§RLes concepteurs étrangers ne seront plus disponibles et, pour ceux sous contrats, ceux-ci seront rompus.§!"
  BUL_simeon_is_1:0 "n'a qu'un an"

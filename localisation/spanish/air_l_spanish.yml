@@ -364,7 +364,7 @@
  VOLUNTEER_AIR_WING_DESC:0 "Un ala de voluntarios con destino a $TAG|H$ y una capacidad para $COUNT|H$/$CAP|H$ voluntarios."
  AIR_SUPPLY_VERY_LOW_SUPPLY:0 "§R¡Necesitamos $NEED|H1$ de suministros más en la región estratégica!§!"
  AIR_SUPPLY_LOW_SUPPLY:0 "§R¡Necesitamos $NEED|H1$ de suministros más en la región estratégica!§!"
- AIR_SUPPLY_NORMAL_SUPPLY:0 "§GEmpleamos $VAL|H1$/$MAX|H1$ de suministros en la región estratégica.§!"
+ AIR_SUPPLY_NORMAL_SUPPLY:1 "§GEl suministro aéreo admite un déficit de suministro de $VAL|H1$/$MAX|H1$ en esta región estratégica§!"
  AIR_MORE_GROUND_CREWS:0 "Más equipos terrestres"
  AIR_MORE_GROUND_CREWS_CANCEL_DESC:0 "§RCancelar§! aumento de eficacia en $NAME|H$."
  AIR_MORE_GROUND_CREWS_DESC:1 "Gasta y mantén $VALUE|R1$£command_power para obtener un aumento de eficacia del $VAL|+%.0$ en $NAME|H$."

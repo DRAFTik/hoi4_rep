@@ -81,8 +81,10 @@
  RESOURCE_TRADE_LINE_PLURAL:0 "$PARTNER|Y$: Fábricas civis $FACTORIES|R$ por $NUM|G$ $RESOURCE|Y$"
  CONSTRUCTION_FACTORIES_TRADE_DESC:0 "Podemos negociar o uso de nossas fábricas civis com outros países em troca de recursos estratégicos, sob uma taxa de §Y1§! a §Y4§!. Comércios marítimos no exterior requerem navios de comboio."
  CONVERSION_SPEED_MODIFIERS:0 "Custo de conversão modificado por:" # [LocEditor:AwaitingBatchUpdate]
- REFITTING_SPEED_MODIFIERS:1 "Velocidade de conserto modificada por:"
- REFITTING_COST_MODIFIERS:1 "Custo de conserto modificado por:"
+ REFITTING_SPEED_MODIFIERS:2 "§HVelocidade de conserto modificada por:§!"
+ REFITTING_COST_MODIFIERS:2 "§HCusto de conserto modificado por:§!"
+ EQUIPMENT_CONVERSION_SPEED_MODIFIERS:0 "§HVelocidade de conversão modificada por:§!"
+ EQUIPMENT_CONVERSION_COST_MODIFIERS:0 "§HCusto de conversão modificado por:§!"
  INFRASTRUCTURE_COST_EFFECT:0 "Infraestrutura do estado: x$VAL|2H$" # [LocEditor:AwaitingBatchUpdate]
  INFRA_VAL:0 "£infrastructure_texticon $VAL|0%+=$"
  INFRA_VAL_20:0 "£infrastructure_texticon $VAL|0%R$"

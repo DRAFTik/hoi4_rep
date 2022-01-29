@@ -91,12 +91,8 @@ recruit_character = CSA_yvan_gerard
 	
 	#adding ministers
 	add_ideas = {
-		USA_robert_taft
-		carl_spaatz
-		jimmy_doolittle
 		army_ordnance_department
 		general_electric
-		robert_goddard
 		USA_prepare_intervention
 
 		#laws
@@ -216,7 +212,7 @@ add_ideas = {
 create_country_leader = {
 	name = "William Dudley Pelley"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "gfx/leaders/USA/Portrait_USA_William_Dudley_Pelley.dds"
+	picture = GFX_portrait_William_Dudley_Pelley
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

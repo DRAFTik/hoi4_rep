@@ -1211,7 +1211,7 @@
  BUL_carry_the_revolution_abroad_wargoals_tt:0 "Obtiene el objetivo de guerra §YAnexionar§! contra cualquier país de los Balcanes que tenga un gobierno no comunista o pertenezca a otra facción. \nLos países afectados obtienen §YAmenaza comunista§! (opinión de §Y[BUL.GetNameWithFlag]§! §R-35§!).\nPaíses afectados en la actualidad:"
  BUL_freedom_of_press_flag:0 "Ha completado el enfoque §YLibertad de prensa§!"
  BUL_industrial_investments_in_bulgaria_flag:0 "El país ha realizado una inversión industrial en §Y[ROOT.GetNameWithFlag]§!"
- BUL_replace_national_naval_designer_tt:0 "Modifica §Y$BUL_varna_naval_dockyard$§! en \n$MODIFIER_INDUSTRIAL_NAVAL_EQUIPMENT_REFIT_SPEED_FACTOR$: §G+10%§! \n$MODIFIER_REPAIR_SPEED_FACTOR$: §G+5%§! \n$naval_equipment_research$: §G+5%§!\n\n"
+ BUL_replace_national_naval_designer_tt:1 "Modifica §Y$BUL_varna_naval_dockyard$§! en\n$MODIFIER_INDUSTRIAL_REFIT_SPEED_FACTOR$: §G+10%§!\n$MODIFIER_REPAIR_SPEED_FACTOR$: §G+5%§!\n$naval_equipment_research$: §G+5%§!\n\n"
  BUL_depose_the_tsar_cw_tt:0 "Los partidarios §Yneutrales§! empiezan una guerra civil."
  BUL_nationalization_foreign_designers_tt:0 "§RLos diseñadores extranjeros dejarán de estar disponibles y se eliminarán si están activos.§!"
  BUL_simeon_is_1:0 "de un año de edad"

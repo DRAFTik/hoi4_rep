@@ -364,7 +364,7 @@
  VOLUNTEER_AIR_WING_DESC:0 "Dieses Freiwilligen-Luftgeschwader wurde nach $TAG|H$ geschickt und verwendet $COUNT|H$/$CAP|H$ der Luftfreiwilligen-Kapazität"
  AIR_SUPPLY_VERY_LOW_SUPPLY:0 "§RWir benötigen $NEED|H1$ mehr Versorgung in der strategischen Region!§!"
  AIR_SUPPLY_LOW_SUPPLY:0 "§RWir benötigen $NEED|H1$ mehr Versorgung in der strategischen Region!§!"
- AIR_SUPPLY_NORMAL_SUPPLY:0 "§GWir verwenden $VAL|H1$/$MAX|H1$ Versorgung in der strategischen Region§!"
+ AIR_SUPPLY_NORMAL_SUPPLY:1 "§GLuftversorgung unterstützt $VAL|H1$/$MAX|H1$ Nachschubdefizit in dieser strategischen Region§!"
  AIR_MORE_GROUND_CREWS:0 "Mehr Bodenpersonal"
  AIR_MORE_GROUND_CREWS_CANCEL_DESC:0 "Den Effizienzboost für $NAME|H$ §Raufheben§!"
  AIR_MORE_GROUND_CREWS_DESC:1 "$VALUE|R1$£command_power ausgeben, um einen Effizenzboost von $VAL|+%.0$ für $NAME|H$ zu erhalten."

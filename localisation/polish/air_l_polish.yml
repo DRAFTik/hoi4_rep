@@ -364,7 +364,7 @@
  VOLUNTEER_AIR_WING_DESC:0 "To ochotnicze skrzydło wysłane do: $TAG|H$. Zużywa ono $COUNT|H$/$CAP|H$ pojemności lotniczych ochotników."
  AIR_SUPPLY_VERY_LOW_SUPPLY:0 "§RPotrzebujemy jeszcze $NEED|H1$ pkt. zasobów w rejonie strategicznym!§!"
  AIR_SUPPLY_LOW_SUPPLY:0 "§RPotrzebujemy jeszcze $NEED|H1$ pkt. zasobów w rejonie strategicznym!§!"
- AIR_SUPPLY_NORMAL_SUPPLY:0 "§GZużywamy $VAL|H1$/$MAX|H1$ pkt. zasobów w rejonie strategicznym.§!"
+ AIR_SUPPLY_NORMAL_SUPPLY:1 "§GZaopatrzenie lotnicze obsługuje $VAL|H1$/$MAX|H1$ deficytu zaopatrzenia w tym strategicznym regionie§!"
  AIR_MORE_GROUND_CREWS:0 "Więcej załóg naziemnych"
  AIR_MORE_GROUND_CREWS_CANCEL_DESC:0 "§RAnuluj§! zwiększenie wydajności: $NAME|H$"
  AIR_MORE_GROUND_CREWS_DESC:1 "Wydaj i utrzymaj $VALUE|R1$£command_power, żeby otrzymać $VAL|+%.0$ zwiększenia wydajności: $NAME|H$."

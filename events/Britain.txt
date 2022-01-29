@@ -308,7 +308,7 @@ country_event = {
 		create_country_leader = {
 			name = "Winston Churchill"
 			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-			picture = "Portrait_Britain_Winston_Churchill.dds"
+			picture = GFX_portrait_Winston_Churchill
 			expire = "1965.1.1"
 			ideology = conservatism
 			traits = {
@@ -322,7 +322,7 @@ country_event = {
 		create_country_leader = {
 			name = "Lord Edward Halifax"
 			desc = "POLITICS_EDWARD_HALIFAX_DESC"
-			picture = "Portrait_Britain_Edward_Halifax.dds"
+			picture = GFX_portrait_Lord_Edward_Halifax
 			expire = "1965.1.1"
 			ideology = conservatism
 			traits = {
@@ -683,7 +683,7 @@ country_event = {
 		create_country_leader = {
 			name = "Edward VIII"
 			desc = "POLITICS_EDWARD_EDWARD_DESC"
-			picture = "Portrait_Britain_Edward_VIII.dds"
+			picture = GFX_portrait_Edward_VIII
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {
@@ -835,21 +835,21 @@ country_event = {
         days = 7
     }
 
-    option = {
+	option = {
         name = britain.22.a
         retire_country_leader = yes
-        create_country_leader = {
+		create_country_leader = {
         	name = "Neville Chamberlain"
         	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-        	picture = "Portrait_Britain_Neville_Chamberlain.dds"
+			picture = GFX_portrait_Neville_Chamberlain
         	expire = "1965.1.1"
         	ideology = conservatism
         	traits = {
         		chamberlain_appeaser rearmer
         	}
-        }
+		}
         set_country_flag = baldwin_resigned
-      }
+	}
 }
 
 #RAJ gets to choose sides in Indian civil war
