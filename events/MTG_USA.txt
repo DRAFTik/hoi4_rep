@@ -1420,6 +1420,7 @@ country_event = {
 				size = 0.7
 				capital = 357
 				states = { 357 685 }
+				keep_unit_leaders = { 57 }
 			}
 			division_template = {
 				name = "Local Volunteers"
@@ -1463,12 +1464,6 @@ country_event = {
 					set_variable = { var = quorum_low value = 39 }
 					set_variable = { var = quorum_medium value = 49 }
 					set_variable = { var = quorum_high value = 58 }
-				}
-				every_unit_leader = {
-					limit = {
-						has_id = 57
-					}
-					set_nationality = USA
 				}
 			}
 			if = {
@@ -2359,6 +2354,7 @@ country_event = {
 		
 		USA_douglas_macarthur = {
 			#Non-Aligned country leader role
+			
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1965.1.1"
