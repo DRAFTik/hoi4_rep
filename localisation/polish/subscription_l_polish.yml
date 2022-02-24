@@ -124,6 +124,9 @@
  CAREER_PROFILE_BOMBED_TRAINS: "$VALUE|*$"
  CAREER_PROFILE_BOMBED_TRAINS_LABEL: "Zbombardowane pociągi"
 
+ # Career profile settings
+ SAVE_CAREER_TO_CLOUD: "Zapis profilu kariery w chmurze"
+
  # DLC
  TOGETHER_FOR_VICTORY: "Razem do zwycięstwa"
  DEATH_OR_DISHONOR: "Śmierć albo hańba"
