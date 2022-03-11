@@ -285,7 +285,7 @@
  ROM_fascism_party:2 "Железная гвардия"
  ROM_fascism_party_long:2 "Железная гвардия"
  YUG_communism_party:0 "КПЮ"
- YUG_communism_party_long:0 "Коммунистическая партия Югославии"
+ YUG_communism_party_long:1 "Коммунистическая партия Югославии"
  YUG_democratic_party:0 "Демократическая партия"
  YUG_democratic_party_long:0 "Югославская демократическая партия"
  YUG_neutrality_party:0 "Совет регента"
