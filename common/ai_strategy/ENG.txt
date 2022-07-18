@@ -271,7 +271,6 @@ royal_air_force = {
 		type = air_factory_balance
 		value = 125
 	}
-
 }
 
 ENG_template_design_1 = {
