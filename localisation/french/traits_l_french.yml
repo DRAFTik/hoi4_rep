@@ -1092,6 +1092,7 @@
  ITA_aviation_hero_tt:0 "  – $air_equipment_research$: §G+5%§!"
  military_modernizer:0 "Modernisateur de l'armée"
  silver_tongue:0 "Beau parleur"
+ silver_tongue_no_lar: "$silver_tongue$"
  father_of_the_empire:0 "Père de l'Empire"
  political_reformer_1:0 "Réformateur politique"
  political_reformer_2_no_lar:0 "$political_reformer_1$"

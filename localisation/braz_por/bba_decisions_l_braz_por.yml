@@ -810,7 +810,7 @@
  SWI_support_for_militias_desc:0 "Podemos fortalecer nossas milícias com amplo suporte, tornando-as mais flexíveis e resilientes."
  SWI_president_gave_MR_speech:0 "Presidente(a) atual incentivou milícias civis"
  SWI_broaden_militias:0 "Expandir milícias"
- SWI_building_up_military_readiness_mission:0 "Fortalecendo a Prontidão Militar£GFX_SWI_military_readiness_text_icon"
+ SWI_building_up_military_readiness_mission:0 "Fortalecendo a Prontidão Militar£GFX_SWI_military_readiness_text_icon "
  SWI_building_up_military_readiness_mission_desc:0 "Estamos guiando nossa nação rumo às preparações para defender [ROOT.GetName]. Títulos de defesa estão sendo vendidos, cidadãos estão treinando em suas casas, associações estão organizando escolas e empresas estão realizando exercícios. Devemos estar preparados a qualquer custo."
  SWI_building_up_mr_cont_focus_active:0 "O foco contínuo $SWI_build_up_military_readiness$ está ativo"
 
@@ -826,6 +826,7 @@
  SWI_decision_cost_max_MR_blocked:1 "Prontidão Militar §R[?ROOT.SWI_mr_max_amount]§!"
  SWI_decision_cost_total_MR:1 "Prontidão Militar [?ROOT.SWI_military_readiness]"
  SWI_decision_cost_total_MR_blocked:0 "£GFX_SWI_military_readiness_text_icon  §R[?ROOT.SWI_military_readiness]§!"
+ SWI_decision_add_var_MR:0 "Aumenta a §YProntidão Militar§! em §G+$RIGHT|0$§!"
  SWI_decision_add_low_medium_MR:1 "Aumenta a §YProntidão Militar§! em §G+[?ROOT.SWI_mr_low_medium_amount]§!"
  SWI_decision_add_medium_MR:1 "Aumenta a §YProntidão Militar§! em §G+[?ROOT.SWI_mr_medium_amount]§!"
  SWI_decision_add_high_MR:1 "Aumenta a §YProntidão Militar§! em §G+[?ROOT.SWI_mr_high_amount]§!"

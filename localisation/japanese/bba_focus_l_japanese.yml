@@ -1714,7 +1714,7 @@
  SWI_fight_until_death:0 "死ぬまで戦え"
  SWI_fight_until_death_desc:1 "我々は完全に不利な立場に立たされている。[ROOT.GetNAme]は兵の数でも、銃器の数でも劣っており、来たる戦いに向けての準備も不完全だ。だからこそ、[ROOT.GetAdjective]市民全員が、住んでいる州や連邦のために命を差し出す覚悟をしなくてはならない。 "
  SWI_total_defense:0 "完全防衛"
- SWI_total_defense_def:0 "全面戦争となれば、こちらも完全防衛に出る必要がある。民兵一人一人が覚悟を決め、己の全てを差し出して敵に立ち向かえば、生き残れる可能性もあるかもしれない。"
+ SWI_total_defense_desc:0 "全面戦争となれば、こちらも完全防衛に出る必要がある。民兵一人一人が覚悟を決め、己の全てを差し出して敵に立ち向かえば、生き残れる可能性もあるかもしれない。"
  SWI_the_army_position:0 "軍の配置位置"
  SWI_the_army_position_desc:0 "市民軍と常備軍は、[ROOT.GetName]の国境に配置するつもりでいる。侵入者を寄せつけないようにするためにも、要塞化して彼らの戦力を強化させなくてはならない。"
  SWI_prolonged_service:0 "兵役の延長"

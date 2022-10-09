@@ -1092,6 +1092,7 @@
  ITA_aviation_hero_tt:0 "  - $air_equipment_research$: §G+5%§!"
  military_modernizer:0 "軍の近代化推進者"
  silver_tongue:0 "弁舌家"
+ silver_tongue_no_lar: "$silver_tongue$"
  father_of_the_empire:0 "帝国の父"
  political_reformer_1:0 "政治改革者"
  political_reformer_2_no_lar:0 "$political_reformer_1$"

@@ -1714,7 +1714,7 @@
  SWI_fight_until_death:0 "Kampf bis zum Tod"
  SWI_fight_until_death_desc:1 "Die Chancen stehen schlecht für uns. [ROOT.GetNameDefCap] ist zahlenmäßig und waffentechnisch unterlegen und nicht ausreichend darauf vorbereitet, was auf uns zukommt. Daher muss jeder [ROOT.GetAdjective]e Bürger bereit sein, sein Leben für seinen Kanton und die Eidgenossenschaft zu geben. "
  SWI_total_defense:0 "Totalverteidigung"
- SWI_total_defense_def:0 "Ein totaler Krieg bedeutet, dass wir eine totale Verteidigung brauchen. Wenn jede Miliz auf alle Eventualitäten vorbereitet ist und ihr Bestes gibt, haben wir vielleicht eine Chance auf ein Überleben."
+ SWI_total_defense_desc:0 "Ein totaler Krieg bedeutet, dass wir eine totale Verteidigung brauchen. Wenn jede Miliz auf alle Eventualitäten vorbereitet ist und ihr Bestes gibt, haben wir vielleicht eine Chance auf ein Überleben."
  SWI_the_army_position:0 "Die Position der Armee"
  SWI_the_army_position_desc:0 "Wir werden unsere Bürgermilizen und unser stehendes Heer an den Grenzen der [ROOT.GetName] aufstellen. Dort werden sie Befestigungen brauchen, um Eindringlinge in Schach zu halten."
  SWI_prolonged_service:0 "Verlängerter Militärdienst"

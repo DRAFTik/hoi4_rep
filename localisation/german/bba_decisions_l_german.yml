@@ -826,6 +826,7 @@
  SWI_decision_cost_max_MR_blocked:1 "£GFX_SWI_military_readiness_text_icon  §R[?ROOT.SWI_mr_max_amount]§!"
  SWI_decision_cost_total_MR:1 "£GFX_SWI_military_readiness_text_icon  [?ROOT.SWI_military_readiness]"
  SWI_decision_cost_total_MR_blocked:0 "£GFX_SWI_military_readiness_text_icon  §R[?ROOT.SWI_military_readiness]§!"
+ SWI_decision_add_var_MR:0 "Erhöht die £GFX_SWI_military_readiness_text_icon §YMilitärbereitschaft§! um §G+$RIGHT|0$§! "
  SWI_decision_add_low_medium_MR:1 "Erhöht die £GFX_SWI_military_readiness_text_icon §YMilitärbereitschaft§! um §G+[?ROOT.SWI_mr_low_medium_amount]§!"
  SWI_decision_add_medium_MR:1 "Erhöht die £GFX_SWI_military_readiness_text_icon §YMilitärbereitschaft§! um §G+[?ROOT.SWI_mr_medium_amount]§!"
  SWI_decision_add_high_MR:1 "Erhöht die £GFX_SWI_military_readiness_text_icon §YMilitärbereitschaft§! um §G+[?ROOT.SWI_mr_high_amount]§!"

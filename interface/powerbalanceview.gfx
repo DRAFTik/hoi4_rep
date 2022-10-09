@@ -231,14 +231,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/bop/bop_splitter.dds"
 	}
 	spriteType = {
-		name = "GFX_SWI_centralization_bop_canton"
-		texturefile = "gfx/interface/bop/SWI_centralization_bop_canton.dds"
-	}
-	spriteType = {
-		name = "GFX_SWI_centralization_bop_council"
-		texturefile = "gfx/interface/bop/SWI_centralization_bop_council.dds"
-	}
-	spriteType = {
 		name = "GFX_bop_background"
 		texturefile = "gfx/interface/bop/bop_background.dds"
 	}	

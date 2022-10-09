@@ -315,7 +315,7 @@
  EST_events.803.t:0 "Overwhelming Fascist March in [From.GetName]"
  EST_events.803.d:0 "All across the state of [From.GetName], [Root.GetFascistParty] demonstrators came out in droves to show their support for a strong nationalistic state. Though officials attempted to prevent the demonstrators from marching upon major population centers, these officers laid down their arms and allowed the [Root.GetFascistParty] men to march peacefully through the streets. Without any major counter-protestors to contend with, this was a resounding victory for the [Root.GetFascistParty] movement."
  EST_events.803.a:0 "とても興味深い"
- EST_events.901.t:0 "[From.GetLeader] Steps Down"
+ EST_events.901.t:0 "[?FIN.EST_previous_finnish_leader.GetName] Steps Down"
  EST_events.901.d:0 "Surprisingly, when [FROM.GetFascistParty] forces advanced on the [From.GetAdjective] capital today, rather than igniting a civil war as expected, the former [From.GetAdjective] government declared that it would surrender its power and abdicate to the authority of the [FROM.GetFascistParty] party."
  EST_events.901.a:0 "Well, that was unexpected!"
  EST_events.10.t:0 "介入への問題"

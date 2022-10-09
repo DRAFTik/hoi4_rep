@@ -315,7 +315,7 @@
  EST_events.803.t:0 "Une marche impressionnante\ndans l'État de [From.GetName]"
  EST_events.803.d:0 "\nDans tout l'État de [From.GetName], les manifestants [Root.GetDuDelaDelPartiFasc] [Root.GetFascistParty] ont afflué pour témoigner de leur volonté de voir établi un État nationaliste fort. Si les autorités locales ont bien tenté de les empêcher de marcher sur les villes, les forces de police ont préféré renoncer et autoriser les protestataires à défiler dans les rues. Les contre-protestataires étant visiblement absents, c'est donc un magnifique succès pour le mouvement."
  EST_events.803.a:0 "Magnifique !"
- EST_events.901.t:0 "Démission [From.GetDuDelaDelDir] [From.GetLeader]"
+ EST_events.901.t:0 "Démission [FIN.GetDuDelaDelDir] [?FIN.EST_previous_finnish_leader.GetName]"
  EST_events.901.d:0 "\nDe façon quelque peu étonnante, lorsque les forces de nos alliés se sont avancées vers [From.Capital.GetCapitalVictoryPointName] aujourd'hui, plutôt que provoquer une guerre civile comme nous l'imaginions, le gouvernement [From.GetAdjMS] a soumis sa démission et annoncé le transfert du pouvoir [From.GetAuAlaAlPartiFasc] [From.GetFascistParty]."
  EST_events.901.a:0 "De fait, c'est assez inattendu !"
  EST_events.10.t:0 "La question de l'intervention\n[FIN.GetAuEnANP] [FIN.GetName]"

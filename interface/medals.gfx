@@ -251,6 +251,18 @@ spriteTypes = {
     }
 	
 	spriteType = {
+		name = "GFX_medal_icon_eth"
+		texturefile = "gfx/interface/medals/ETH_medal_strip.dds"
+		noOfFrames = 6
+    }
+	
+	spriteType = {
+		name = "GFX_medal_icon_eth_large"
+		texturefile = "gfx/interface/medals/ETH_medal_strip_large.dds"
+		noOfFrames = 6
+    }
+	
+	spriteType = {
 		name = "GFX_medal_icon_fra"
 		texturefile = "gfx/interface/medals/fra_medal_strip.dds"
 		noOfFrames = 4

@@ -315,7 +315,7 @@
  EST_events.803.t:0 "[From.GetName]: wielki marsz faszystowski"
  EST_events.803.d:0 "[From.GetName]: w całym państwie demonstranci z partii [Root.GetFascistParty] masowo wyszli na ulice, aby wyrazić swoje poparcie dla państwa nacjonalistycznego. Urzędnicy próbowali uniemożliwić protestującym dotarcie do dużych ośrodków, jednak funkcjonariusze służb porządkowych odłożyli broń i pozwolili marszowi na pokojowe przejście ulicami. Nie pojawiły się żadne większe grupy kontrmanifestantów, więc demonstrację tę należy uznać za wielkie zwycięstwo ruchu [Root.GetFascistParty]."
  EST_events.803.a:0 "To bardzo ciekawe."
- EST_events.901.t:0 "[From.GetLeader] ustępuje"
+ EST_events.901.t:0 "[?FIN.EST_previous_finnish_leader.GetName] ustępuje"
  EST_events.901.d:0 "Niespodziewanie, gdy siły partii [FROM.GetFascistParty] ruszyły dziś na [From.GetAdjective] stolicę, rząd [From.GetAdjective] nie wywołał wojny domowej, ale ogłosił, że ustąpi i odda władzę w ręce partii [FROM.GetFascistParty]."
  EST_events.901.a:0 "Cóż, tego się nie spodziewaliśmy!"
  EST_events.10.t:0 "Sprawa interwencji"

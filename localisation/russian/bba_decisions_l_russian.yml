@@ -810,7 +810,7 @@
  SWI_support_for_militias_desc:0 "Мы сможем усилить свое ополчение, обеспечив ему достойное снабжение. Так отряды ополчения станут крепче и универсальнее."
  SWI_president_gave_MR_speech:0 "Текущий президент вдохновил гражданское ополчение"
  SWI_broaden_militias:0 "Расширить ополчение"
- SWI_building_up_military_readiness_mission:0 "Наращивание боевой готовности £GFX_SWI_military_readiness_text_icon"
+ SWI_building_up_military_readiness_mission:0 "Наращивание боевой готовности £GFX_SWI_military_readiness_text_icon "
  SWI_building_up_military_readiness_mission_desc:0 "Мы направляем свою нацию к укреплению обороны государства [ROOT.GetName]. Выпущены в продажу военные облигации, граждане тренируются дома, образуются ассоциации, в школах и на предприятиях проводятся занятия по военной подготовке. Мы должны быть готовы любой ценой."
  SWI_building_up_mr_cont_focus_active:0 "Активен непрерывный фокус $SWI_build_up_military_readiness$"
 
@@ -826,6 +826,7 @@
  SWI_decision_cost_max_MR_blocked:1 "£GFX_SWI_military_readiness_text_icon §R[?ROOT.SWI_mr_max_amount]§!"
  SWI_decision_cost_total_MR:1 "£GFX_SWI_military_readiness_text_icon [?ROOT.SWI_military_readiness]"
  SWI_decision_cost_total_MR_blocked:0 "£GFX_SWI_military_readiness_text_icon §R[?ROOT.SWI_military_readiness]§!"
+ SWI_decision_add_var_MR:0 "Повышает £GFX_SWI_military_readiness_text_icon §Yбоевую готовность§! на §G+$RIGHT|0$§!"
  SWI_decision_add_low_medium_MR:1 "Повышает £GFX_SWI_military_readiness_text_icon §Yбоевую готовность§! на §G[?ROOT.SWI_mr_low_medium_amount]§!"
  SWI_decision_add_medium_MR:1 "Повышает £GFX_SWI_military_readiness_text_icon §Yбоевую готовность§! на §G[?ROOT.SWI_mr_medium_amount]§!"
  SWI_decision_add_high_MR:1 "Повышает £GFX_SWI_military_readiness_text_icon §Yбоевую готовность§! на §G[?ROOT.SWI_mr_high_amount]§!"

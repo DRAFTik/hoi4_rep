@@ -1714,7 +1714,7 @@
  SWI_fight_until_death:0 "Walka do śmierci"
  SWI_fight_until_death_desc:1 "Wróg jest silniejszy, ma przewagę liczebną, siły ognia i wyszkolenia. Dlatego wszyscy [ROOT.GetAdjective] obywatele muszą być gotowi oddać życie za swój kanton i Konfederację. "
  SWI_total_defense:0 "Obrona totalna"
- SWI_total_defense_def:0 "Wojna totalna oznacza, że musimy prowadzić obronę totalną. Jeśli każdy milicjant jest przygotowany i da z siebie wszystko w walce z najeźdźcami, być może przetrwamy."
+ SWI_total_defense_desc:0 "Wojna totalna oznacza, że musimy prowadzić obronę totalną. Jeśli każdy milicjant jest przygotowany i da z siebie wszystko w walce z najeźdźcami, być może przetrwamy."
  SWI_the_army_position:0 "Pozycja armii"
  SWI_the_army_position_desc:0 "Rozmieścimy oddziały milicji obywatelskiej i armię zawodową na granicy państwa [ROOT.GetAdjective], więc będą im potrzebne umocnienia, zwiększające potencjał do zatrzymania najeźdźców."
  SWI_prolonged_service:0 "Wydłużona służba"

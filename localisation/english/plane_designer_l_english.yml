@@ -389,7 +389,7 @@
  modern_large_airframe_desc:0 "$large_plane_airframe_4_desc$"
  early_bombs:0 "Bombs"
  early_bombs_desc:0 "Since the early days of the Great War, airplanes have been increasingly used to drop explosives onto enemy targets. Over time, this has developed more and more into a fundamental aspect of aerial warfare."
- photo_reconnaisance:0 "Photo Reconnaisance"
+ photo_reconnaisance:0 "Photo Reconnaissance"
  photo_reconnaisance_desc:0 "The first clear military purpose of the aeroplane was to find the enemy and report their location to the Generals on the ground. This still remains one of the most common tasks of military aviation."
  aa_lmg:0 "Light MG"
  aa_lmg_desc:0 "Rifle-caliber machine guns have formed the mainstay of air-to-air weaponry since the days of the Great War."

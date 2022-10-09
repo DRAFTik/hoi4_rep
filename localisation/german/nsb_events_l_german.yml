@@ -315,7 +315,7 @@
  EST_events.803.t:0 "Überwältigender faschistischer Marsch in [From.GetName]"
  EST_events.803.d:0 "Im gesamten Staat [From.GetName] sind [Root.GetFascistParty]-Anhänger in Scharen auf die Straße gegangen, um einen nationalistischen Staat zu fordern. Die Behörden haben zwar versucht, die Demonstranten daran zu hindern, auf große Bevölkerungszentren zu marschieren, doch die Beamten haben die Waffen niedergelegt und den [Root.GetFascistParty]-Anhängern gestattet, friedlich durch die Straßen zu marschieren. Da es keine nennenswerten Gegenproteste gab, waren die Demonstrationszüge ein durchschlagender Erfolg für die [Root.GetFascistParty]-Bewegung."
  EST_events.803.a:0 "Sehr interessant."
- EST_events.901.t:0 "[From.GetLeader] tritt zurück"
+ EST_events.901.t:0 "[?FIN.EST_previous_finnish_leader.GetName] tritt zurück"
  EST_events.901.d:0 "Als die [FROM.GetFascistParty]-Truppen heute auf die [From.GetAdjective]e Hauptstadt marschiert sind, war dies nicht wie erwartet der Auslöser für einen Bürgerkrieg. Überraschenderweise hat die bisherige [From.GetAdjective]e Regierung ihren Rücktritt erklärt und die Macht an die [FROM.GetFascistParty] abgetreten."
  EST_events.901.a:0 "Also das kam wirklich unerwartet!"
  EST_events.10.t:0 "Die Frage der Intervention"

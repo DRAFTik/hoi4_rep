@@ -810,7 +810,7 @@
  SWI_support_for_militias_desc:0 "Podemos reforzar nuestras milicias proporcionándoles un amplio apoyo para que sean más flexibles y resistentes."
  SWI_president_gave_MR_speech:0 "El presidente actual ha alentado a las milicias ciudadanas"
  SWI_broaden_militias:0 "Desplegar milicias"
- SWI_building_up_military_readiness_mission:0 "Acrecentar la disposición del ejército £GFX_SWI_military_readiness_text_icon"
+ SWI_building_up_military_readiness_mission:0 "Acrecentar la disposición del ejército £GFX_SWI_military_readiness_text_icon "
  SWI_building_up_military_readiness_mission_desc:0 "Estamos dirigiendo a nuestra nación hacia los preparativos para la defensa de [ROOT.GetName]. Se venden bonos de defensa, los ciudadanos se entrenan en casa, las asociaciones organizan escuelas y las empresas realizan simulacros. Debemos estar preparados a toda costa."
  SWI_building_up_mr_cont_focus_active:0 "El enfoque continuo $SWI_build_up_military_readiness$ está activo"
 
@@ -826,6 +826,7 @@
  SWI_decision_cost_max_MR_blocked:1 "£GFX_SWI_military_readiness_text_icon §R[?ROOT.SWI_mr_max_amount]§!"
  SWI_decision_cost_total_MR:1 "£GFX_SWI_military_readiness_text_icon [?ROOT.SWI_military_readiness]"
  SWI_decision_cost_total_MR_blocked:0 "£GFX_SWI_military_readiness_text_icon §R[?ROOT.SWI_military_readiness]§!"
+ SWI_decision_add_var_MR:0 "Aumenta la £GFX_SWI_military_readiness_text_icon §Ydisposición del ejército§! en §G+$RIGHT|0$§! "
  SWI_decision_add_low_medium_MR:1 "Aumenta la £GFX_SWI_military_readiness_text_icon §Ydisposición del ejército§! en §G+[?ROOT.SWI_mr_low_medium_amount]§!"
  SWI_decision_add_medium_MR:1 "Aumenta la £GFX_SWI_military_readiness_text_icon §Ydisposición del ejército§! en §G+[?ROOT.SWI_mr_medium_amount]§!"
  SWI_decision_add_high_MR:1 "Aumenta la £GFX_SWI_military_readiness_text_icon §Ydisposición del ejército§! en §G+[?ROOT.SWI_mr_high_amount]§!"

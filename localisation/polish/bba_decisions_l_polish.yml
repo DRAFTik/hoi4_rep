@@ -810,7 +810,7 @@
  SWI_support_for_militias_desc:0 "Odpowiednie wsparcie może wzmocnić naszą milicję, dzięki czemu stanie się bardziej elastyczna i silniejsza."
  SWI_president_gave_MR_speech:0 "Obecny prezydent zachęca do tworzenia milicji obywatelskiej"
  SWI_broaden_militias:0 "Rozbudowa milicji"
- SWI_building_up_military_readiness_mission:0 "Budowanie gotowości bojowej£GFX_SWI_military_readiness_text_icon"
+ SWI_building_up_military_readiness_mission:0 "Budowanie gotowości bojowej£GFX_SWI_military_readiness_text_icon "
  SWI_building_up_military_readiness_mission_desc:0 "[ROOT.GetName]: Kierujemy nasz kraj na tory ku przygotowaniom do obrony. Sprzedajemy obligacje obronne, obywatele ćwiczą w domach, stowarzyszenia organizują szkolenia, a firmy ćwiczenia. Musimy przygotować się za wszelką cenę."
  SWI_building_up_mr_cont_focus_active:0 "$SWI_build_up_military_readiness$ Ciągły cel jest aktywny"
 
@@ -826,6 +826,7 @@
  SWI_decision_cost_max_MR_blocked:1 "£GFX_SWI_military_readiness_text_icon  §R[?ROOT.SWI_mr_max_amount]§!"
  SWI_decision_cost_total_MR:1 "£GFX_SWI_military_readiness_text_icon  [?ROOT.SWI_military_readiness]"
  SWI_decision_cost_total_MR_blocked:0 "£GFX_SWI_military_readiness_text_icon  §R[?ROOT.SWI_military_readiness]§!"
+ SWI_decision_add_var_MR:0 "Zwiększenie £GFX_SWI_military_readiness_text_icon§Ygotowości bojowej§! o §G+$RIGHT|0$§! "
  SWI_decision_add_low_medium_MR:1 "Zwiększenie £GFX_SWI_military_readiness_text_icon§Ygotowości bojowej§! o §G[?ROOT.SWI_mr_low_medium_amount]§!"
  SWI_decision_add_medium_MR:1 "Zwiększenie £GFX_SWI_military_readiness_text_icon§Ygotowości bojowej§! o §G[?ROOT.SWI_mr_medium_amount]§!"
  SWI_decision_add_high_MR:1 "Zwiększenie £GFX_SWI_military_readiness_text_icon§Ygotowości bojowej§! o §G[?ROOT.SWI_mr_high_amount]§!"

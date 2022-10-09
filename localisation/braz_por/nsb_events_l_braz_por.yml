@@ -315,7 +315,7 @@
  EST_events.803.t:0 "Protesto fascista esmagador em [From.GetName]"
  EST_events.803.d:0 "Por todo o estado de [From.GetName], manifestantes [Root.GetFascistParty] saíram aos montes para mostrar seu apoio por um forte estado nacionalista. Embora os oficiais tentaram impedir os manifestantes de passarem por grandes centros, esses oficiais baixaram suas armas e permitiram que os homens [Root.GetFascistParty] caminhassem pacificamente pelas ruas. Sem ter que lidar com nenhum grande anti-manifestante, essa foi uma enorme vitória para o movimento [Root.GetFascistParty]."
  EST_events.803.a:0 "Muito interessante."
- EST_events.901.t:0 "[From.GetLeader] renuncia"
+ EST_events.901.t:0 "[?FIN.EST_previous_finnish_leader.GetName] renuncia"
  EST_events.901.d:0 "Surpreendentemente, quando as forças [FROM.GetFascistParty] avançaram na capital [From.GetAdjective] hoje, em vez de acender uma guerra civil como era esperado, o antigo governo [From.GetAdjective] declarou que renderia o poder e abdicaria à autoridade do partido [FROM.GetFascistParty]."
  EST_events.901.a:0 "Ora, por essa eu não esperava!"
  EST_events.10.t:0 "A questão da intervenção"

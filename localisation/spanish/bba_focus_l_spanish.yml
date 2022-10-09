@@ -1714,7 +1714,7 @@
  SWI_fight_until_death:0 "Lucha hasta la muerte"
  SWI_fight_until_death_desc:1 "Los pronósticos no nos favorecen. [ROOT.GetName] cuenta con menos tropas y armas, y no está preparada para lo que se avecina. Por eso, todo ciudadano [ROOT.GetAdjective] debe disponerse a entregar su vida por su cantón y la confederación. "
  SWI_total_defense:0 "Defensa total"
- SWI_total_defense_def:0 "En una guerra total, la defensa ha de ser total. Si las milicias están preparadas y se emplean a fondo cuando los invasores lleguen, tal vez logremos salir airosos."
+ SWI_total_defense_desc:0 "En una guerra total, la defensa ha de ser total. Si las milicias están preparadas y se emplean a fondo cuando los invasores lleguen, tal vez logremos salir airosos."
  SWI_the_army_position:0 "La posición del ejército"
  SWI_the_army_position_desc:0 "Vamos a posicionar nuestras milicias y nuestro ejército permanente en las fronteras de [ROOT.GetName], así que necesitarán fortificaciones que les permitan repeler eficazmente a los invasores."
  SWI_prolonged_service:0 "Servicio prolongado"

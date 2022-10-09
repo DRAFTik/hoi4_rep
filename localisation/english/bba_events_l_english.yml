@@ -1386,7 +1386,7 @@
 
  BBA_italy_colonial_management.1.t:0 "Colonial Police"
  BBA_italy_colonial_management.1.desc:1 "Our colonial possessions have grown considerably ever since the formation of our nation, less than a century ago. This growth has started to strain our manpower, however. There are ways to alleviate these limitations though, by using local police forces such as Meharisti, Savari, Spahi, and others. Recruiting these groups would be less taxing on our own forces and they have the benefit of being native to their lands, with all of what that entails."
- BBA_italy_colonial_management.1.a:1 "Recruite them!"
+ BBA_italy_colonial_management.1.a:1 "Recruit them!"
  BBA_italy_colonial_management.1.b:0 "We have other plans"
  BBA_italy_colonial_management.1_do_not_apply_tt:1 "Occupation law §Y$colonial_police$§! will be available in controlled [GetAfricanStates][GetAndOrNothing][GetAlbanianStates]."
  BBA_italy_colonial_management_african_states:0 "African states"

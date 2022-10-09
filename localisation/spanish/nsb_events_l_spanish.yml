@@ -315,7 +315,7 @@
  EST_events.803.t:0 "Marcha fascista abrumadora en [From.GetName]"
  EST_events.803.d:0 "Los manifestantes de [Root.GetFascistParty] han salido en masa en [From.GetName] para mostrar su apoyo a un Estado nacionalista más fuerte. Los oficiales han depuesto las armas y han permitido que los partidarios de [Root.GetFascistParty] marchen pacíficamente por las calles, aunque han intentado evitar las marchas en los principales centros de población. La manifestación, que apenas ha encontrado oposición, ha sido una importante victoria para el movimiento [Root.GetFascistParty]."
  EST_events.803.a:0 "Muy interesante."
- EST_events.901.t:0 "[From.GetLeader] cede"
+ EST_events.901.t:0 "[?FIN.EST_previous_finnish_leader.GetName] cede"
  EST_events.901.d:0 "Sorprendentemente, hoy, cuando las fuerzas [FROM.GetFascistParty] avanzaban a la capital [From.GetAdjective], en lugar de provocar una guerra civil como se esperaba, el antiguo gobierno [From.GetAdjective] ha declarado que abandonaría el poder y abdicaría ante la autoridad del partido [FROM.GetFascistParty]."
  EST_events.901.a:0 "¡Nadie se lo esperaba!"
  EST_events.10.t:0 "La cuestión de la intervención"

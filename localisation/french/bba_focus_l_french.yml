@@ -1714,7 +1714,7 @@
  SWI_fight_until_death:0 "Combattre jusqu'à la mort"
  SWI_fight_until_death_desc:1 "Les chances ne sont pas en notre faveur. Nous sommes en infériorité numérique et matérielle, et non préparés pour ce qui s'annonce. Tous les citoyens doivent donc être prêts à donner leur vie pour leur canton et pour [SWI.GetLeLaLNP] [SWI.GetName]."
  SWI_total_defense:0 "Défense totale"
- SWI_total_defense_def:0 "La guerre totale implique une défense totale. Si chaque milice est prête et donne tout face à l'ennemi, alors peut-être [SWI.GetLeLaLNP] [SWI.GetName] aur[SWI.GetAOntInterrNP]-[SWI.GetIlElleNP] une chance."
+ SWI_total_defense_desc:0 "La guerre totale implique une défense totale. Si chaque milice est prête et donne tout face à l'ennemi, alors peut-être [SWI.GetLeLaLNP] [SWI.GetName] aur[SWI.GetAOntInterrNP]-[SWI.GetIlElleNP] une chance."
  SWI_the_army_position:0 "Position de l'armée"
  SWI_the_army_position_desc:0 "Les milices et l'armée permanente seront positionnées aux frontières. Nous devons donc y disposer de fortifications afin d'accroître leur capacité à résister à toute tentative d'invasion."
  SWI_prolonged_service:0 "Service prolongé"
