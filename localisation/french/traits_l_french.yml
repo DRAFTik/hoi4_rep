@@ -1092,13 +1092,13 @@
  ITA_aviation_hero_tt:0 "  – $air_equipment_research$: §G+5%§!"
  military_modernizer:0 "Modernisateur de l'armée"
  silver_tongue:0 "Beau parleur"
- silver_tongue_no_lar: "$silver_tongue$"
+ silver_tongue_no_lar:0 "$silver_tongue$"
  father_of_the_empire:0 "Père de l'Empire"
  political_reformer_1:0 "Réformateur politique"
  political_reformer_2_no_lar:0 "$political_reformer_1$"
  political_reformer_2:0 "$political_reformer_1$"
  political_reformer_3:0 "$political_reformer_1$" # [LocEditor:CustomLanguageKey]
- ITA_political_reformer_tt:0 "  – Coût de tous les conseillers : §G-25%§!"
+ ITA_political_reformer_tt:1 "Coût de tous les conseillers : §G-25%§!"
  hierarch_minister_of_foreign_affairs:0 "Hiérarque, ministre des Aff. étrangères"
  hierarch_minister_of_justice:0 "Hiérarque, ministre de la Justice"
  hierarch_minister_of_education:0 "Hiérarque, ministre de l'Éducation"
@@ -1205,3 +1205,6 @@
  communist_orator:0 "Orateur de la résistance"
  harsh_propagandist:0 "Propagandiste sévère"
  SWI_brandy_the_st_bernard_trait:0 "Conseiller incompétent"
+ 
+ evans_deakin_trait:0 "Compagnie du Pacifique"
+ cockatoo_trait:0 "Spécialiste des navires légers"

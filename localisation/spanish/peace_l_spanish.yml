@@ -166,7 +166,7 @@
  PEACE_CONFERENCE_OVERLAPPING_SELECTED_ACTION:1 "§RNo se puede seleccionar§! porque ya tienes una exigencia sin presentar en este estado. Cancélala y podrás seleccionar esta."
  PEACE_CONFERENCE_TOO_EXPENSIVE_ACTION:0 "§RNo se puede seleccionar§! porque la exigencia es demasiado costosa."
  NEW_PEACE_CONFERENCE:0 "§RNUEVA CONFERENCIA DE PAZ§!"
- WAIT_END_TURN:0 "Espera"
+ WAIT_END_TURN:1 "Deliberando"
  PEACE_BIDDINGS_POPUP_CONTESTED_TITLE:1 "Exigencias en disputa"
  PEACE_BIDDINGS_POPUP_SELECTED_TITLE:1 "Exigencias sin presentar"
  PEACE_BIDDINGS_POPUP_DESCRIPTION:1 "Tu exigencia de $BIDNAME|Y$ ha entrado en £peace_conf_icons|3 §Rdisputa§! porque otra nación ha reivindicado el mismo territorio. Para mantenerla, presenta otra exigencia por el territorio en disputa, o bien renuncia para dejar de seguirle la pista.\n\nLas exigencias en disputa no se tienen en cuenta entre aquellas para las que has presentado una exigencia. Si no vuelves a presentar esta exigencia, no se incluirá en las exigencias completadas."
@@ -268,6 +268,7 @@
  PEACE_CONFERENCE_BID_WILL_RESULT_IN_CONFLICT:0 "Presentar esta exigencia provocará que haya £peace_conf_icons|3 exigencias §Ren disputa§!."
  PEACE_CONFERENCE_BID_WILL_PULL_BACK_PLAYER:0 "Este jugador ha £accept_decline_icon|2 salido de la conferencia. Volverá si se presenta esta exigencia."
  PEACE_CONFERENCE_SELECT_A_VICTOR:0 "Selecciona un país victorioso para consultar su punto de vista"
+ TRIGGER_PC_CURRENT_TURN:0 "Turno actual"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  PEACE_FILTER_DEMANDS_CHOICE:0 "Acción actual: $ACTION|Y$"

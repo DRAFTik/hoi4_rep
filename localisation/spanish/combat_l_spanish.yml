@@ -392,6 +392,8 @@
  CARRIER_PLANE_SCREEN_DETAIL:0 "Los portaaviones pueden ayudar a cubrir a $NUM|.0H$ barcos y actualmente cubren a $NUM_2|.0H$."
  CARRIER_PLANE_SCREEN_DESC:0 "Los portaaviones limitarán la libertad de movimiento del enemigo y ampliarán la cobertura."
  POSITIONING_CARRIER_RATIO_PENALTY:0 "Más aviones portadores enemigos: $NUM|+%$"
+ COMBAT_LOG_FRIENDLY:0 "Fuerzas aliadas"
+ COMBAT_LOG_ENEMY:0 "Fuerzas enemigas"
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===

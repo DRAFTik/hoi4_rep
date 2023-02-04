@@ -250,7 +250,10 @@
  LOADING_DATABASES:0 "Datenbanken werden geladen"
  LOADING_MAP_SPRITES:0 "Animationen werden geladen"
  OLD_SAVEGAME:0 "§RDieser Spielstand stammt von einer anderen Spielversion und kann deshalb nicht geladen werden.§!"
+ OLD_SAVEGAME_POPUP:0 "Dieser Speicherstand stammt von einer anderen Spielversion und kann deshalb nicht geladen werden."
  OLD_SAVEGAME_ALLOWED:0 "§RDieser Speicherstand stammt aus einer anderen Version des Spiels und kann zu unvorhergesehenem Verhalten führen, wenn er geladen wird.§!"
+ CANTCONTINUEGAME:0 "Das Spiel kann nicht vom letzten Speicherstand ($SAVE$) fortgesetzt werden"
+ CANTCONTINUEGAME_TITLE:0 "Der Speicherstand konnte nicht geladen werden"
  CONFIRMUNSYNCTITLE:0 "Nicht synchronisierte Datei"
  CONFIRMUNSYNCTEXT:0 "Soll $NAME|H$ wirklich aus der Cloud entfernt werden?"
  CLOUDSAVE_SPACE_NEEED:0 "$NEEDED$ wird benötigt, um das Spiel zu speichern."
@@ -1883,6 +1886,8 @@
  CHARACTER_NAME_TOOLTIP:0 "$NAME|Y$"
  CHARACTER_ADVISOR_ON_ADD_TOOLTIP:0 "Bei Einstellung:"
  CHARACTER_ADVISOR_ON_REMOVE_TOOLTIP:0 "Bei Entlassung:"
+ CHARACTER_ADVISOR_CANT_BE_FIRED_ONCE_HIRED:0 "§HEinmal eingestellte Berater können nicht entlassen werden§!"
+ CHARACTER_ADVISOR_CANT_BE_FIRED:0 "§REingestellte Berater können nicht entlassen werden§!"
  RAILWAY_CONNECTION_TOOLTIP_HEADER:0 "§HEisenbahnverbindung§! Stufe $LEVEL|H$"
  RAILWAY_CONNECTION_TOOLTIP_BETWEEN:0 "$PLACE1|H$ nach $PLACE2|H$"
  RAILWAY_CONNECTION_TOOLTIP_THROUGHPUT:0 "Nachschubdurchsatz-Grenze: $SUPPLY|H$ £supply_texticon£"
@@ -1947,6 +1952,8 @@
  LOGISTICS_ONLY_FOR_ALLIES:0 "Wir können das Logistikmenü nur für Bündnismitglieder oder Untertanen einsehen."
  TRAINING_ACCIDENT:0 "einen Ausbildungsunfall"
  SUNK_BY_MINES:0 "Minen"
+ PARADROP_PLANES_REQUIRED:0 "\n§RDieser Befehl kann nicht ausgeführt werden:§!\n$WINGS|H$ Luftgeschwader fehlen, damit er ausgeführt werden kann."
+ RETAIN_CORES:0 "Kernstaaten behalten"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  SUPPLY_NODE_TOOLTIP_HEADER:2 "Nachschubknoten in $PROVINCE_NAME|H$:"

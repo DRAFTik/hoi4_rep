@@ -190,8 +190,8 @@
  maurice_thorez:0 "Maurice Thorez"
  leon_blum:0 "Léon Blum"
  marcel_bucard:0 "Marcel Bucard"
- vittorio_emanuele:0 "Victor-Emmanuel III"
- vittorio_emanuele_desc:0 "Le « Roi Soldat » rappelle aux Italiens leurs victoires récentes lors de la Grande Guerre. Sa présence et leur loyauté envers lui sont une source d'unité puissante pour la patrie."
+ vittorio_emanuele:1 "Victor-Emmanuel III"
+ vittorio_emanuele_desc:1 "Le « Roi Soldat » rappelle aux Italiens leurs victoires récentes lors de la Grande Guerre. Sa présence et leur loyauté envers lui sont une source d'unité puissante pour la patrie."
  amadeo_bordiga:0 "Amadeo Bordiga"
  ivanoe_bonomi:0 "Ivanoe Bonomi"
  carlo_scorza:0 "Carlo Scorza"
@@ -1056,6 +1056,7 @@
  POR_julio_botelho_moniz:0 "Júlio Botelho Moniz"
  POR_manuel_goncalves_cerejeira:0 "Dom Manuel II"
  POR_alvaro_cunhal:0 "Álvaro Cunhal"
+ POR_agostinho_lourenco:0 "Agostinho Lourenço"
  CAN_chuck_crate:0 "Chuck Crate"
  CAN_robert_manion:0 "Robert James Manion"
  CAN_william_kashtan:0 "William Kashtan"
@@ -1641,7 +1642,9 @@
  RAJ_all_india_forward_bloc_communism:0 "$RAJ_all_india_forward_bloc$"
  RAJ_all_india_forward_bloc_fascism:0 "$RAJ_all_india_forward_bloc$"
  RAJ_agrarian_society:0 "Société agraire"
- RAJ_agrarian_society_desc:0 "Les administrateurs locaux sont persuadés que son mode de vie agrarien a rendu une grande partie de la population indienne incapable de faire de bons soldats ou de mener la moindre activité militaire avec une quelconque efficacité. Selon ces théories, seuls des hommes issus des prétendues « races martiales » devraient être recrutés.\n   Cette conviction est si répandue qu'il va falloir au moins une génération pour qu'elle s'efface. En attendant, nous devons nous y faire et accepter le fait qu'ils ignoreront purement et simplement tout ordre de conscription des fermiers."
+ RAJ_agrarian_society_desc:1 "Les administrateurs locaux sont persuadés que son mode de vie agrarien a rendu une grande partie de la population indienne incapable de faire de bons soldats ou de mener la moindre activité militaire avec une quelconque efficacité. Selon ces théories, seuls des hommes issus des prétendues « races martiales » devraient être recrutés.\n$tab_news$Cette conviction est si répandue qu'il va falloir au moins une génération pour qu'elle s'efface, ou des investissements importants dans les campagnes."
+ RAJ_agrarian_society_dynamic:0 "$RAJ_agrarian_society$"
+ RAJ_agrarian_society_dynamic_desc:0 "$RAJ_agrarian_society_desc$"
  PRC_generic_fascist_demagogue:0 "Luo Wu Sun"
  PRC_generic_democratic_reformer:0 "Tan Kenon"
  PRC_generic_communist_revolutionary:0 "Zhang Guotao"
@@ -2607,6 +2610,8 @@
  MTG_naval_treaty_adherent_desc:0 "[Root.GetLeLaLNPCap] [Root.GetName] [Root.GetAOntNP] signé le traité naval de Londres, et doi[Root.GetTVentNP] par conséquent limiter la taille de [Root.GetSesLeursNP] navires capitaux."
  MTG_naval_treaty_adherent_reduced:0 "Invocation de la clause de non-respect"
  MTG_naval_treaty_adherent_reduced_desc:0 "Après que quelques signataires du traité naval de Washington ont choisi de se retirer de celui de Londres, [Root.GetLeLaLNP] [Root.GetName] [Root.GetAOntNP] invoqué la clause de non-respect, qui [Root.GetLuiLeurNP] permet d'assouplir les restrictions sur la taille et l'armement de [Root.GetSesLeursNP] navires capitaux."
+ GER_western_trade_cooperation:0 "Coopération économique européenne"
+ GER_western_trade_cooperation_tt:0 "Ajoute une usine militaire et une usine civile hors carte."
  GER_air_safety_regulations:0 "Réglementations sur la sécurité aérienne"
  GER_hans_oster:0 "Hans Oster"
  GER_alfred_hugenberg:0 "Alfred Hugenberg"
@@ -2676,8 +2681,6 @@
  LoN_disbanded_flag:0 "La Société des Nations n'a plus aucune activité"
 
  organization_of_african_unity_member_idea:0 "Membre de l'Organisation de l'unité africaine"
-
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  heinz_guderian_desc:0 "§LHeinz Wilhelm Guderian§!" # [LocEditor:CustomLanguageKey]
  walther_von_brauchitsch_desc:0 "§LWalther Heinrich Alfred Hermann von Brauchitsch§!" # [LocEditor:CustomLanguageKey]
  erwin_rommel_desc:0 "§LJohannes Erwin Eugen Rommel§!" # [LocEditor:CustomLanguageKey]
@@ -3520,7 +3523,7 @@
  whittaker_chambers_desc:0 "§LJay Vivian « Whittaker » Chambers§!" # [LocEditor:CustomLanguageKey]
  ENG_george_orwell_desc:0 "§LEric Arthur Blair, dit George Orwell§!" # [LocEditor:CustomLanguageKey]
  ENG_sylvia_pankhurst_desc:0 "§LEstelle Sylvia Pankhurst§!" # [LocEditor:CustomLanguageKey]
- ENG_winston_churchill_desc:0 "§LWinston Leonard Spencer-Churchill§!" # [LocEditor:CustomLanguageKey]
+ ENG_winston_churchill_desc:0 "§LWinston Leonard Spencer Churchill§!" # [LocEditor:CustomLanguageKey]
  ENG_oswald_mosley_desc:0 "§LOswald Ernald Mosley§!" # [LocEditor:CustomLanguageKey]
  ENG_jfc_fuller_desc:0 "§LJohn Frederick Charles « Boney » Fuller§!" # [LocEditor:CustomLanguageKey]
  HOL_jan_goudriaan_desc:0 "§LJan Goudriaan Jr.§!" # [LocEditor:CustomLanguageKey]
@@ -3546,3 +3549,10 @@
  ETH_ras_imru_haile_selassie_long:0 "Emrou Haïlé Sélassié" # [LocEditor:CustomLanguageKey]
  ETH_ras_kassa_desc:0 "§LKassa Haïlé Darge§!" # [LocEditor:CustomLanguageKey]
  organization_of_african_unity_member_idea_desc:0 "[Root.GetLeLaLNPCap] [Root.GetName] [Root.GetEstSontNP] membre[Root.GetXSNP] de l'Organisation de l'unité africaine." # [LocEditor:CustomLanguageKey]
+ RAJ_industrialized_personnel:0 "Main-d'œuvre rurale intégrée"
+ ROM_white_squadron:0 "$ROM_white_squadron_focus$"
+ ROM_white_squadron_desc:0 "L'Escadrille blanche est un service d'ambulances aériennes pilotées exclusivement par des femmes. Sachant que des secours peuvent arriver très vite, les hommes gardent tout leur esprit combatif."
+ MAN_hoankyoku_idea:0 "$MAN_hoankyoku$"
+ MAN_hoankyoku_idea_desc:0 "Une organisation secrète formée pour s'occuper des éléments indésirables au sein de la société."
+ AST_central_bureau_idea:0 "Central Bureau"
+ AST_central_bureau_idea_desc:0 "Une équipe conjointe, en charge des renseignements, établie en coopération avec [USA.GetLeLaLNP] [USA.GetName], afin de contrer nos ennemis communs sur le théâtre du Pacifique."

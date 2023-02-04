@@ -392,6 +392,8 @@
  CARRIER_PLANE_SCREEN_DETAIL:0 "Nasze samoloty pokładowe mogą pomóc chronić następującą liczbę statków: $NUM|.0H$. Aktualna liczba osłanianych: $NUM_2|.0H$."
  CARRIER_PLANE_SCREEN_DESC:0 "Nasze samoloty pokładowe utrudnią wrogowi posunięcia, co ułatwi nasze działania osłonowe."
  POSITIONING_CARRIER_RATIO_PENALTY:0 "Więcej samolotów pokładowych wroga: $NUM|+%$"
+ COMBAT_LOG_FRIENDLY:0 "Siły sojusznicze"
+ COMBAT_LOG_ENEMY:0 "Siły wroga"
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===

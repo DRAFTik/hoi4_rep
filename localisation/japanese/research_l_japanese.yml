@@ -452,7 +452,7 @@
  rocket_interceptor_3_desc:0 "新しい着陸技術と安全な燃料システムはロケット戦闘機の生存性と成功確率を大幅に向上させ、この最先端の航空機の理論的可能性を満たした。"
  nukes:0 "核爆弾"
  nukes_desc:0 "原子爆弾の製造計画は国家が取り組みうる中でも最も高い機密性を要し、さらにその完遂は困難を極めることとなるだろうが、もし成功すれば戦争の推移だけでなく世界の未来をも変えてしまうかもしれない。"
- interwar_artillery:0 "戦間期型野戦砲"
+ interwar_artillery:1 "戦間期型大砲"
  interwar_artillery_desc:0 "多様な砲の開発で学んだ教訓は、それぞれの設計において相乗効果を発揮する。"
  artillery1:0 "野戦砲 I"
  artillery1_desc:0 "より近代的な素材と機構によって先の大戦からの榴弾砲と野砲は薬室の改造と近代戦争への近代化がなされた。"
@@ -1115,6 +1115,9 @@
  basic_train:0 "$train_equipment_1$"
  gwtank:0 "前大戦型戦車"
  basic_light_tank:0 "軽戦車 I"
+ armored_car1:0 "$gw_armored_car_equipment$"
+ armored_car2:0 "$armored_car_equipment_1$"
+ armored_car3:0 "$armored_car_equipment_2$"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  dp_medium_battery:0 "発展型の中型両用砲"

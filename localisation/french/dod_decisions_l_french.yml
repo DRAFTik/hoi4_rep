@@ -58,3 +58,6 @@
  ROM_change_sides_to_axis:0 "Intégrer l'Axe"
  ROM_change_sides_to_axis_desc:0 "Les changements au gouvernement facilitent le changement d'allégeance dans la guerre. En rejoignant l'Axe, nos actuels « frères d'armes » dans le conflit mondial seront plongés dans la plus grande confusion, et les balles [Root.GetAdjFP] auront de nouvelles cibles."
  ROM_present_ultimatum:0 "Présenter un ultimatum"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ YUG_brigadistas_idea_desc:0 "$YUG_brigadistas_desc$"

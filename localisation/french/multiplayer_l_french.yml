@@ -150,6 +150,8 @@
  OOS_82:0 "Tactique favorite"
  OOS_83:0 "Pays contrôleurs"
  OOS_84:0 "Escadres"
+ OOS_85:0 "Escadrilles"
+ OOS_86:0 "As"
  MULTIPLAYER_PLAYERS:0 "$NUM$"
  MULTIPLAYER_MESSAGES:0 "$NUM$"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS:0 "§GJoue déjà§!"

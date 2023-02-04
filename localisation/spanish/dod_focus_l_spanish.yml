@@ -369,7 +369,7 @@
  ROM_royal_guards_divisions_tt:0 "Ganas una unidad con §Y7 batallones de infantería§! y §Y2 de artillería§!.\n"
  ROM_royal_guards_divisions_desc:0 "La Guardia Real se debe ampliar según estime nuestro gran monarca."
  ROM_the_armored_division:0 "La división blindada"
- ROM_the_armored_division_tt:1 "Ganas una unidad con §Y4 batallones de blindados [ROM_UnlockedArmor]§! y §Y4 motorizados§!.\n"
+ ROM_the_armored_division_tt:2 "Ganas dos unidades con §Y4 batallones de blindados [ROM_UnlockedArmor]§! y §Y4 motorizados§!.\n"
  ROM_the_armored_division_desc:0 "Los tanques son el camino a seguir. Debemos crear divisiones especiales que aprovechen la fuerza de estas nuevas armas."
  ROM_acquire_modern_tanks:0 "Conseguir tanques modernos"
  ROM_acquire_modern_tanks_desc:0 "El desarrollo de carros blindados sigue a buen ritmo. Adquirir modelos obsoletos no servirá."

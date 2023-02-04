@@ -52,8 +52,8 @@
  EQUIPMENT_SUBMARINE:0 "Submarino"
  EQUIPMENT_SCREEN:0 "Rastrear"
  EQUIPMENT_CONVOY:0 "Comboio de comércio"
- EQUIPMENT_AIR_FIGHTER:0 "Caça"
- EQUIPMENT_AIR_CAS:0 "Apoio Aéreo Aproximado"
+ EQUIPMENT_FIGHTER:0 "Caça"
+ EQUIPMENT_CAS:0 "Apoio Aéreo Aproximado (CAS)"
  EQUIPMENT_INTERCEPTOR:0 "Interceptador"
  EQUIPMENT_SUICIDE:1 "Avião Suicida"
  EQUIPMENT_SCOUT_PLANE:0 "Avião de observação"
@@ -2022,7 +2022,7 @@
 
  gw_tank_equipment:0 "Tanque da Grande Guerra"
  gw_tank_equipment_short:0 "Tanque da Grande Guerra"
- gw_tank_equipment_desc:0 "Tanques na Primeira Guerra Mundial foram desenvolvidos separadamente e simultaneamente pelo Reino Unido e pela França como formas de quebrar o impasse das guerras de trincheiras no Fonte Ocidental. O Tanque de nome foi adotado pelos britânicos durante os estágios inicias de seu desenvolvimento, como uma medida de segurança para esconder seu propósito. Tanques inicias eram armados com metralhadoras e pequenos canhões, se moviam lentamente e eram blindados apenas o suficiente para parar pequenas armas de fogo."
+ gw_tank_equipment_desc:0 "Tanques na Primeira Guerra Mundial foram desenvolvidos separadamente e simultaneamente pelo Reino Unido e pela França como formas de quebrar o impasse da guerra de trincheira na Frente Ocidental. O nome "tanque" foi adotado pelos britânicos durante os estágios inicias de seu desenvolvimento como uma medida de segurança para esconder seu propósito. Os tanques inicias eram armados com metralhadoras e canhões de pequeno calibre, moviam-se lentamente e sua blindagem era grossa o bastante para deter apenas disparos de armas leves."
  GER_gw_tank_equipment:0 "Leichttraktor"
  GER_gw_tank_equipment_short:0 "Leichttraktor"
  GER_gw_tank_equipment_desc:0 "O Leichttraktor foi um tanque alemão experimental. Depois da Primeira Guerra Mundial, a Alemanha foi restrinida no desenvolvimento militar pelo Tratado de Versalhes mas um programa secreto com o nome de 'Traktor’ estava desenvolvendo veículos militares blindados e artilharia. "
@@ -3100,7 +3100,7 @@
  infantry_equipment_3_short:0 "Armas III"
  infantry_equipment_3_desc:0 "Armas e equipamentos pessoais para a infantaria, assim como os vários outros itens que um soldado precisa. Modernizados ainda mais para incluir rifles de assalto e foguetes anti-tanque."
 
- gw_armored_car_equipment:0 "Carro blindado entre guerras"
+ gw_armored_car_equipment:1 "Carro Blindado Entreguerras"
  gw_armored_car_equipment_desc:0 "Enquanto carros blindados antigamente eram simples modelos comerciais com uma fina placa de aço, esse modelo foi projetado desde o início para carregar blindagem e armamento leve."
  armored_car_equipment_1:0 "Carro blindado básico"
  armored_car_equipment_1_desc:0 "Um layout interno melhorado e armazenamento adicional de munição geram um carro blindado mais eficaz."

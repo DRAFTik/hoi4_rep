@@ -2127,7 +2127,7 @@ SOV_ultimatum_ROM = {
 	ai_strategy = {
 		type = antagonize
 		id = "ROM"
-		value = -200
+		value = -10
 	}
 	ai_strategy = {
 		type = conquer

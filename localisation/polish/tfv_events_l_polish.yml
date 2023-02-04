@@ -169,7 +169,7 @@
  tfv_canada.61.a:0 "Linia brzegowa to jedyna bezpieczna granica!"
  tfv_canada.62.t:0 "Imperium pychy"
  tfv_canada.62.d:0 "Uparcie nazywając Labrador i Nową Fundlandię kolonialnymi posiadłościami, a nie pełnoprawnymi terytoriami, i powołując się na swe "prawo imperialne", [From.GetNameDef] odmawia oddania nam naszych ziem! W tych regionach mieszkają nasi obywatele, korzystający z zasobów [Root.GetAdjective], ale służący [From.GetAdjective] władcom.\nTo niedopuszczalne, ale [From.GetNameDef] nie zaakceptuje żadnego rozwiązania dyplomatycznego..."
- tfv_canada.62.a:0 "[From.GetNameDef] będzie jednością!"
+ tfv_canada.62.a:1 "[Root.GetNameDefCap] będzie jednością!"
  mex_nationalists_chosen:0 "Stańmy po stronie nacjonalistów."
  mex_republicans_chosen:0 "Stańmy po stronie republikanów."
  tfv_south_africa.1.t:0 "[From.GetNameDef] domaga się afrykańskiego mandatu"

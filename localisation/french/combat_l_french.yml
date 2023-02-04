@@ -232,9 +232,9 @@
  COMBAT_EXILES_DESC:0 "Avantages au combat pour les §Hvétérans en exil§! face à $AMOUNT|H$ des $TOTAL|H$ divisions de l'ennemi."
  COMBAT_EXILES_DESC_DELAYED:0 "Combattent contre les ennemis occupant leurs territoires nationaux. Attaque : $ATK_VS_OCCUPIER|%+$ Défense : $DEF_VS_OCCUPIER|%+$"
  COMBAT_ARMOR_DESC:0 "Sur $TOTAL|H$ divisions ennemies, $PIERCING|H$ peuvent transpercer le blindage de cette division."
- PIERCING_THRESHOLD_ENTRY:0 "$NUM|H$ divisions ennemies subissent $PIERCE_VALUE|%H$ de dommage à travers le blindage de cette division."
+ PIERCING_THRESHOLD_ENTRY:0 "$NUM|H$ divisions ennemies infligent $PIERCE_VALUE|%H$ de dommage à travers le blindage de cette division."
  NON_PIERCING_THRESHOLD_ENTRY:0 "$NUM|H$ divisions ennemies ne peuvent pas transpercer le blindage de cette division et lui infligent $PIERCE_VALUE|%H$ de dommages."
- COMBAT_PIERCING_DESC:0 "Sur $TOTAL|H$ divisions blindées ennemies, cette division peut en transpercer $PIERCING|H$."
+ COMBAT_PIERCING_DESC:0 "Sur $TOTAL|H$ divisions blindées ennemies, cette division peut transpercer le blindage de $PIERCING|H$."
  PIERCING_ENEMIES_THRESHOLD_ENTRY:0 "Cette division peut infliger $PIERCE_VALUE|%H$ de dommages à travers le blindage de $NUM|H$ divisions ennemies."
  ATTACKING:0 "attaquants"
  DEFENDING:0 "défenseurs"
@@ -392,6 +392,8 @@
  CARRIER_PLANE_SCREEN_DETAIL:0 "Les avions embarqués peuvent escorter $NUM|.0H$ navires. Ils en escortent actuellement $NUM_2|.0H$."
  CARRIER_PLANE_SCREEN_DESC:0 "Les avions embarqués limitent la liberté de mouvement de l'ennemi et contribuent donc à escorter nos navires."
  POSITIONING_CARRIER_RATIO_PENALTY:0 "Davantage d'avions embarqués ennemis : $NUM|+%$"
+ COMBAT_LOG_FRIENDLY:0 "Forces amies"
+ COMBAT_LOG_ENEMY:0 "Forces ennemies"
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===

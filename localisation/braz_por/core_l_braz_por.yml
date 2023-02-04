@@ -250,7 +250,10 @@
  LOADING_DATABASES:0 "Carregando bancos de dados"
  LOADING_MAP_SPRITES:0 "Carregando sprites"
  OLD_SAVEGAME:0 "§REsta gravação é de outra verão do jogo e não pode ser carregada.§!"
+ OLD_SAVEGAME_POPUP:0 "Este salvamento é de outra versão do jogo e não pode ser carregado."
  OLD_SAVEGAME_ALLOWED:0 "§REste salvo é de outra versão do jogo e pode ter um comportamento imprevisível ao ser carregado.§!"
+ CANTCONTINUEGAME:0 "Não é possível continuar do último salvamento $SAVE$"
+ CANTCONTINUEGAME_TITLE:0 "Falha ao carregar jogo salvo"
  CONFIRMUNSYNCTITLE:0 "Dessincronizar arquivo"
  CONFIRMUNSYNCTEXT:0 "Tem certeza de que deseja remover $NAME|H$ da nuvem?"
  CLOUDSAVE_SPACE_NEEED:0 "$NEEDED$ necessário para salvar o jogo."
@@ -1883,6 +1886,8 @@
  CHARACTER_NAME_TOOLTIP:0 "$NAME|Y$"
  CHARACTER_ADVISOR_ON_ADD_TOOLTIP:0 "Quando contratado:"
  CHARACTER_ADVISOR_ON_REMOVE_TOOLTIP:0 "Quando dispensado:"
+ CHARACTER_ADVISOR_CANT_BE_FIRED_ONCE_HIRED:0 "§HConselheiro(a) não pode ser demitido(a) depois de contratado(a)§!"
+ CHARACTER_ADVISOR_CANT_BE_FIRED:0 "§RConselheiro(a) não pode ser demitido(a)§!"
  RAILWAY_CONNECTION_TOOLTIP_HEADER:0 "§HConexão ferroviária§! Nível $LEVEL|H$"
  RAILWAY_CONNECTION_TOOLTIP_BETWEEN:0 "$PLACE1|H$ para $PLACE2|H$"
  RAILWAY_CONNECTION_TOOLTIP_THROUGHPUT:0 "Limite da taxa de transferência de abastecimento: $SUPPLY|H$ £supply_texticon£"
@@ -1947,6 +1952,8 @@
  LOGISTICS_ONLY_FOR_ALLIES:0 "Só podemos ver o menu de logística de membros de facção ou súditos."
  TRAINING_ACCIDENT:0 "acidente de treinamento"
  SUNK_BY_MINES:0 "minas"
+ PARADROP_PLANES_REQUIRED:0 "\n§REsta ordem não pode ser executada:§!\nUma ou mais alas de transporte $WINGS|H$ são necessárias."
+ RETAIN_CORES:0 "Manter estados com nosso núcleo"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  SUPPLY_NODE_TOOLTIP_HEADER:2 "Centro de abastecimento em $PROVINCE_NAME|H$:"

@@ -285,19 +285,19 @@ medals = {
 		debug = { max_air_supply_to_region }
 		bronze = { career_profile_check_value = {
 			var = max_air_supply_to_region
-			value = 10
+			value = 1
 			compare = greater_than_or_equals
 			tooltip = "CAREER_PROFILE_TRIGGER_SUPPLIES"
 		} }
 		silver = { career_profile_check_value = {
 			var = max_air_supply_to_region
-			value = 15
+			value = 3
 			compare = greater_than_or_equals
 			tooltip = "CAREER_PROFILE_TRIGGER_SUPPLIES"
 		} }
 		gold = { career_profile_check_value = {
 			var = max_air_supply_to_region
-			value = 20
+			value = 5
 			compare = greater_than_or_equals
 			tooltip = "CAREER_PROFILE_TRIGGER_SUPPLIES"
 		} }

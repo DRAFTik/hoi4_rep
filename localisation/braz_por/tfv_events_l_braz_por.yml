@@ -169,7 +169,7 @@
  tfv_canada.61.a:0 "A costa é a única borda segura!"
  tfv_canada.62.t:0 "Orgulho imperial"
  tfv_canada.62.d:0 "Chamando Labrador e Newfoundland de colônias, e não territórios, [From.GetNameDef] busca utilizar o seu fraco "direito imperial", e se recusa a entregar o território que é nosso por direito!  [Root.GetAdjective] vivem nestas regiões, de recursos [Root.GetAdjective], mas servindo aos [From.GetAdjective].\nEste é um estado inaceitável, e está claro que [From.GetNameDef] não vai aceitar a solução diplomática..."
- tfv_canada.62.a:0 "[From.GetNameDef] será unificado!"
+ tfv_canada.62.a:1 "[ROOT.GetNameDefCap] será um só país!"
  mex_nationalists_chosen:0 "Aliar-se aos nacionalistas."
  mex_republicans_chosen:0 "Aliar-se aos republicanos."
  tfv_south_africa.1.t:0 "[From.GetNameDef] solicita o mandato africano"

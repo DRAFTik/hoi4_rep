@@ -136,7 +136,7 @@
  COMBAT_UNDECIDED:0 "§YO resultado é atualmente incerto!§!"
  UNIT_COMBAT_WIDTH:0 "Amplitude de combate"
  COMBAT_SIDE_SUMMARY:0 "$MANPOWER|*1Y$ de mão de obra, $VEHICLES|Y$ veículos, $ARTILLERY|Y$ de artilharia"
- COMBAT_RESERVES:1 "Reservas são divisões que ainda não puderam entrar para o combate.\n\nSe houver uma largura de combate suficiente, a cada hora de batalha uma única divisão das reservas será selecionada para tentar entrar.\n\nDivisões com um índice de reforço comparativamente alto nas reservas têm mais chances de serem selecionadas."
+ COMBAT_RESERVES:1 "Reservas são divisões que ainda não puderam entrar em combate.\n\nSe houver uma amplitude de combate suficiente, a cada hora de batalha uma única divisão das reservas será selecionada para tentar entrar.\n\nDivisões com um índice de reforço comparativamente alto nas reservas têm mais chances de serem selecionadas."
  BATTLE_REINFORCE_CHANCE2:1 "Chance de reforças a linha de frente se selecionada: $VALUE|2G%$\n"
  COMREIC_NOT_FIGHT:0 "Não está em condições de lutar."
  COMREIC_TOO_MUCH_WIDTH:0 "Unidade ampla demais, concederá uma penalidade maior."
@@ -317,7 +317,7 @@
  COMBAT_LOG_BATTLE_LOSS_OTHER:0 "Outro"
  COMBAT_LOG_BATTLE_PART_COUNTRIES:0 "§HPaíses participantes:§!"
  COMBAT_LOG_MP_LOST_DESC:0 "§HMão de obra perdida§!\nDas forças terrestres inimigas: $GND|R$\nPerdidas dos aviões inimigos: $AIR|R$"
- COMBAT_USED_COMBAT_WIDTH:0 "Largura de combate usada"
+ COMBAT_USED_COMBAT_WIDTH:0 "Amplitude de combate usada"
  COMBAT_LOG_MP_LOST_WITH_NAVY_DESC:1 "§HMão de obra perdida§!\nPerdas por forças terrestres inimigas: $GND|R$\nPerdas por aeronaves inimigas: $AIR|R$\nPerdas pela marinha inimigas: $NAVY|R$"
  COMBAT_LOG_EQ_CAPTURED:0 "§HEquipamento capturado§!"
  EQUIPMENT_CAPTURED_ENTRY:0 "($NUM|Y0$ capturados)"
@@ -392,6 +392,8 @@
  CARRIER_PLANE_SCREEN_DETAIL:0 "Nossos aviões de transporte podem proteger $NUM|.0H$ navios e estão protegendo $NUM_2|.0H$ no momento."
  CARRIER_PLANE_SCREEN_DESC:0 "Nossos aviões de transporte limitarão a liberdade de movimento do inimigo e assim ajudarão nossos esforços de proteção."
  POSITIONING_CARRIER_RATIO_PENALTY:0 "Mais aviões de transporte inimigos: $NUM|+%$"
+ COMBAT_LOG_FRIENDLY:0 "Forças aliadas"
+ COMBAT_LOG_ENEMY:0 "Forças inimigas"
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===

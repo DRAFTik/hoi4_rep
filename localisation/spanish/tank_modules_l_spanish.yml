@@ -215,7 +215,7 @@
  medium_tank_amphibious_chassis_3:0 "Chasis de tanque mediano avanzado (anfibio)"
  medium_tank_amphibious_equipment_0:0 "Tanque anfibio mediano del periodo de entreguerras"
  basic_medium_tank_chassis:0 "Chasis de tanque mediano básico"
- basic_medium_tank_chassis_short:0 "1934 mediano"
+ basic_medium_tank_chassis_short:0 "1938 mediano"
  basic_medium_tank_chassis_desc:0 "Aunque los tanques ligeros han sido la espina dorsal de las formaciones mecanizadas, es evidente que su potencial de crecimiento está casi agotado. En el futuro necesitaremos un vehículo más grande que siga teniendo un nivel alto de movilidad."
  improved_medium_tank_chassis:0 "Chasis de tanque mediano mejorado"
  improved_medium_tank_chassis_short:1 "1940 mediano"

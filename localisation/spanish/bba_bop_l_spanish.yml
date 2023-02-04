@@ -2,7 +2,7 @@
 
  BOP_TOOLTIP:1 "El §Y[root.GetPowerBalanceName]§! es ahora mismo del [?.root.power_balance_value|0%H] a favor de §Y[root.GetActiveSideName]§!"
  BOP_TOOLTIP_TREND:0 "El equilibrio de poder se inclina actualmente hacia el lado de §Y[root.GetTrendingSideName]§! por [root.GetBopTrendTextIcon][root.GetChangeRateDesc].\n[root.GetPowerBalanceModDesc]"
- BOP_TOOLTIP_STABLE:0 "El equilibrio de poder se mantiene estable ahora mismo."
+ BOP_TOOLTIP_STABLE:1 "El equilibrio de poder se mantiene estable ahora mismo."
  BOP_LEFT_SIDE_TOOLTIP:0 "[root.GetLeftSideName]"
  BOP_RIGHT_SIDE_TOOLTIP:0 "[root.GetRightSideName]"
  BOP_ACTIVE_RANGE_DESC:0 "[root.GetActiveRangeName]"
@@ -52,6 +52,10 @@
  # Ethiopia Static Modifiers 
  ETH_withdraw_priviliges_power_balance:0 "Reducción de los privilegios de los mesafint"
  ETH_increase_priviliges_power_balance:0 "Aumento de los privilegios de los mesafint"
+ ETH_increase_communist_power_balance:0 "Apoyo al comunismo en aumento"
+ ETH_increase_anarchist_power_balance:0 "Apoyo al anarquismo en aumento"
+ ETH_bop_anarchist_communist_changed:0 "Menos de un año desde el inicio de la campaña de apoyo."
+ ETH_bop_anarchist_privileges_changed:0 "Menos de un año desde el inicio de la campaña de apoyo."
  ETH_mesafint_side:0 "§YBando mesafint§!"
  ETH_mekwanint_side:0 "§YBando mekwanint§!"
 
@@ -95,7 +99,7 @@
 
  ####### ITALY #######
  ITA_power_balance:0 "Equilibrio de poder nacional"
- ITA_grand_council_side:0 "$ITA_grand_council$"
+ ITA_grand_council_side:1 "[GetGrandCouncilName]"
  ITA_mussolini_side:0 "$ITA_benito_mussolini$"
  ITA_balbo_side:0 "$ITA_italo_balbo$"
  ITA_grandi_side:0 "$ITA_dino_grandi$"
@@ -142,6 +146,7 @@
  ITA_pope_medium_control_range:0 "Influencia papal consolidada"
  ITA_pope_high_control_range:0 "Predominio papal"
  ITA_pope_total_control_range:0 "Preeminencia del papa"
+ ITA_bop_cap_for_colonies_impact_tt:0 "La pérdida de estados no esenciales ya no afectará al equilibrio de poder mientras el valor sea mayor del §Y30%§! de §Y$ITA_grand_council_side$§!."
 
  ITA_power_balance_lost_core_1:0 "Regiones esenciales perdidas"
  ITA_power_balance_lost_core_2:0 "$ITA_power_balance_lost_core_1$"

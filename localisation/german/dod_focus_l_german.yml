@@ -369,7 +369,7 @@
  ROM_royal_guards_divisions_tt:0 "Erhalten Sie eine Einheit mit §Y7 Infanterie§!- und §Y2 Artillerie§!-Bataillonen.\n"
  ROM_royal_guards_divisions_desc:0 "Unsere Königliche Garde muss vergrößert werden, wie es unseres großen Königs angemessen ist."
  ROM_the_armored_division:0 "Die Panzerdivision"
- ROM_the_armored_division_tt:1 "Erhalten Sie eine Einheit mit §Y[ROM_UnlockedArmor] Panzer§!- und §Y4 Motorisierten§! Bataillonen.\n"
+ ROM_the_armored_division_tt:2 "Sie erhalten zwei Einheiten mit §Y4 [ROM_UnlockedArmor]-Panzer§!- und §Y4 Motorisierten§! Bataillonen.\n"
  ROM_the_armored_division_desc:0 "Panzer sind die Zukunft. Wir müssen eigene Panzerdivisionen aufbauen, die sich die Stärke dieser neuen Waffen zunutze machen."
  ROM_acquire_modern_tanks:0 "Moderne Panzer kaufen"
  ROM_acquire_modern_tanks_desc:0 "Die Entwicklung neuer Panzer setzt sich mit ungebrochener Geschwindigkeit fort. Es wäre Unsinn, veraltete Modelle zu kaufen."

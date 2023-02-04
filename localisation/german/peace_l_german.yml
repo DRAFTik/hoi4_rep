@@ -166,7 +166,7 @@
  PEACE_CONFERENCE_OVERLAPPING_SELECTED_ACTION:1 "§RKann nicht ausgewählt werden§!, da Sie bereits eine nicht eingereichte Forderung in diesem Staat haben. Diese muss erst abgebrochen werden, bevor eine neue ausgewählt werden kann."
  PEACE_CONFERENCE_TOO_EXPENSIVE_ACTION:0 "§RKann nicht ausgewählt werden§!, da die Forderung zu teuer ist."
  NEW_PEACE_CONFERENCE:0 "§RNEUE FRIEDENSKONFERENZ§!"
- WAIT_END_TURN:0 "Abwarten"
+ WAIT_END_TURN:1 "Überlegt"
  PEACE_BIDDINGS_POPUP_CONTESTED_TITLE:1 "Angefochtene Forderungen"
  PEACE_BIDDINGS_POPUP_SELECTED_TITLE:1 "Nicht eingereichte Forderungen"
  PEACE_BIDDINGS_POPUP_DESCRIPTION:1 "Ihre Forderung für $BIDNAME|Y$ wurde £peace_conf_icons|3 §Rangefochten§!, weil eine andere Nation dasselbe Territorium fordert. Stellen Sie eine weitere Forderung für das umstrittene Territorium, um es zu behalten, oder geben Sie es auf, um es nicht mehr zu verfolgen.\n\nAngefochtene Forderungen werden nicht zu den Forderungen gezählt, die Sie derzeit fordern. Wenn Sie keine neue Forderung für das Territorium stellen, wird es nicht zu Ihren abgeschlossenen Forderungen gezählt."
@@ -268,6 +268,7 @@
  PEACE_CONFERENCE_BID_WILL_RESULT_IN_CONFLICT:0 "Diese Forderung einzureichen, führt zu £peace_conf_icons|3 §Rangefochtenen§! Forderungen."
  PEACE_CONFERENCE_BID_WILL_PULL_BACK_PLAYER:0 "Dieser Spieler hat die Konferenz £accept_decline_icon|2 verlassen. Diese Forderung zu stellen, wird ihn wieder zurück an den Konferenztisch bringen."
  PEACE_CONFERENCE_SELECT_A_VICTOR:0 "Wählen Sie einen Sieger aus, um dessen Perspektive zu sehen"
+ TRIGGER_PC_CURRENT_TURN:0 "Aktuelle Runde"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  PEACE_FILTER_DEMANDS_CHOICE:0 "Derzeitige Aktion: $ACTION|Y$"

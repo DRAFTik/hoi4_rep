@@ -215,7 +215,7 @@
  medium_tank_amphibious_chassis_3:0 "Zaawansowane podwozie czołgu średniego (amfibijne)"
  medium_tank_amphibious_equipment_0:0 "Międzywojenny średni czołg pływający"
  basic_medium_tank_chassis:0 "Podstawowe podwozie czołgu średniego"
- basic_medium_tank_chassis_short:0 "1934 średnie"
+ basic_medium_tank_chassis_short:0 "1938 średnie"
  basic_medium_tank_chassis_desc:0 "W przeszłości to czołgi lekkie stanowiły fundament dywizji zmechanizowanych, ale coraz wyraźniej widać, że ich potencjał został już niemal wyczerpany. W przyszłości będziemy potrzebować większych pojazdów o podobnie wysokim poziomie mobilności."
  improved_medium_tank_chassis:0 "Ulepszone podwozie czołgu średniego"
  improved_medium_tank_chassis_short:1 "1940 średnie"

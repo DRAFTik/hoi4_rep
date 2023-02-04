@@ -948,6 +948,8 @@
  develop_eastern_desert_oil_fields:0 "Développer les champs pétrolifères de Ras Gharib"
  develop_qatar_oil_fields:0 "Développer les champs pétrolifères de Dukhan"
  burma_road_expansion_tt:0 "Soit a adopté la priorité §YLa route de Birmanie§!, soit est membre de la faction ou une dépendance d'un pays qui l'a adoptée." #NOTE: these are names of uk_burma_focus and CHI_burma_road
+ develop_transdanubia_aluminium_deposits:0 "Développer les gisements de bauxite de Transdanubie"
+ develop_derna_oilfield:0 "Exploiter les champs pétrolifères de Derna"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  CHI_detect_infiltration_desc:0 "On a rapporté que des groupes communistes avaient établi des bases dans des régions reculées du pays. Nous devrions envoyer des agents pour confirmer ces informations, de manière à pouvoir mettre un terme à ces opérations."

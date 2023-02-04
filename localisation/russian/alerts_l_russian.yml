@@ -48,6 +48,7 @@
  alert_pick_new_idea_delayed:1 "§TВы можете изменить:§!"
  alert_pick_new_idea_delayed_bop:0 "§TБаланс сил§!"
  alert_pick_new_idea_group_type:0 "$TYPE|H$"
+ alert_pick_new_idea_advisor_delayed:0 "Можно выбрать:\n$ADVISOR|Y$\n"
  alert_available_wargoal_instant:0 "§HДоступна цель войны§!"
  alert_enemy_generate_wargoal_instant:0 "§HОбоснованы цели войны с нами или нашими союзниками§!"
  alert_faction_generate_wargoal_instant:0 "§HЧлены нашего альянса обосновывают цели войны§!"

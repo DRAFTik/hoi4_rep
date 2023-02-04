@@ -1081,8 +1081,8 @@
  modifier_state_production_nuclear_reactor_factor_desc:0 "Modifie la vitesse de construction des réacteurs nucléaires dans l'État."
  intel_network_state_level_bonus:0 "£operative_mission_icons_small|1£Réseau de renseignement"
  intel_network_state_level_penalty:0 "£operative_mission_icons_small|1£Réseau de renseignement ennemi"
- created_intelligence_agency:0 "Services de renseignement"
- root_out_resistance_mission_modifier:0 "Mission d'éradication de la résistance"
+ created_intelligence_agency:0 "Service de renseignement "
+ root_out_resistance_mission_modifier:0 "Mission d'éradication de la résistance "
  operative_nationality_mission:0 "Nationalité du pays "
  operative_nationality_operation:0 "Nationalité du pays "
  MODIFIER_CIVILIAN_INTEL_TO_OTHERS:1 "Transmission des renseign. civils "
@@ -1534,24 +1534,24 @@
  modifier_trait_thorough_planner_xp_gain_factor:0 "Gain d'exp. du trait $thorough_planner$ "
  modifier_trait_torpedo_bomber_xp_gain_factor:0 "Gain d'exp. du trait $torpedo_bomber$ "
  modifier_trait_torpedo_expert_xp_gain_factor:0 "Gain d'exp. du trait $torpedo_expert$ "
- # [LocEditor:UntranslatedKey] `modifier_trait_BUL_ff_sympathizer_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_BUL_tsar_loyalist_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_BUL_zveno_member_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_cautious_xp_gain_factor`
+ modifier_trait_BUL_ff_sympathizer_xp_gain_factor:0 "Gain d'exp. du trait $trait_BUL_ff_sympathizer$"
+ modifier_trait_BUL_tsar_loyalist_xp_gain_factor:0 "Gain d'exp. du trait $trait_BUL_tsar_loyalist$"
+ modifier_trait_BUL_zveno_member_xp_gain_factor:0 "Gain d'exp. du trait $trait_BUL_zveno_member$"
+ modifier_trait_cautious_xp_gain_factor:0 "Gain d'exp. du trait $trait_cautious$"
  modifier_trait_engineer_xp_gain_factor:0 "$modifier_trait_chief_engineer_xp_gain_factor$"
- # [LocEditor:UntranslatedKey] `modifier_trait_GRE_fascist_sympathizer_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_GRE_marxist_acolyte_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_GRE_stauch_monarchist_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_GRE_venezelist_loyalist_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_mountaineer_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_reckless_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_SPA_carlist_loyalties_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_SPA_falangist_loyalties_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_SPA_nationalist_sympathies_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_SPR_anti_stalinist_loyalties_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_SPR_republican_loyalties_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_SPR_stalinist_loyalties_xp_gain_factor`
- # [LocEditor:UntranslatedKey] `modifier_trait_TUR_kemalist_champion_xp_gain_factor`
+ modifier_trait_GRE_fascist_sympathizer_xp_gain_factor:0 "Gain d'exp. du trait $trait_GRE_fascist_sympathizer$"
+ modifier_trait_GRE_marxist_acolyte_xp_gain_factor:0 "Gain d'exp. du trait $trait_GRE_marxist_acolyte$"
+ modifier_trait_GRE_stauch_monarchist_xp_gain_factor:0 "Gain d'exp. du trait $trait_GRE_stauch_monarchist$"
+ modifier_trait_GRE_venezelist_loyalist_xp_gain_factor:0 "Gain d'exp. du trait $trait_GRE_venezelist_loyalist$"
+ modifier_trait_mountaineer_xp_gain_factor:0 "Gain d'exp. du trait $trait_mountaineer$"
+ modifier_trait_reckless_xp_gain_factor:0 "Gain d'exp. du trait $trait_reckless$"
+ modifier_trait_SPA_carlist_loyalties_xp_gain_factor:0 "Gain d'exp. du trait $trait_SPA_carlist_loyalties$"
+ modifier_trait_SPA_falangist_loyalties_xp_gain_factor:0 "Gain d'exp. du trait $trait_SPA_falangist_loyalties$"
+ modifier_trait_SPA_nationalist_sympathies_xp_gain_factor:0 "Gain d'exp. du trait $trait_SPA_nationalist_sympathies$"
+ modifier_trait_SPR_anti_stalinist_loyalties_xp_gain_factor:0 "Gain d'exp. du trait $trait_SPR_anti_stalinist_loyalties$"
+ modifier_trait_SPR_republican_loyalties_xp_gain_factor:0 "Gain d'exp. du trait $trait_SPR_republican_loyalties$"
+ modifier_trait_SPR_stalinist_loyalties_xp_gain_factor:0 "Gain d'exp. du trait $trait_SPR_stalinist_loyalties$"
+ modifier_trait_TUR_kemalist_champion_xp_gain_factor:0 "Gain d'exp. du trait $trait_TUR_kemalist_champion$"
  modifier_trait_trickster_xp_gain_factor:0 "Gain d'exp. du trait $trickster$ "
  modifier_trait_unyielding_defender_xp_gain_factor:0 "Gain d'exp. du trait $unyielding_defender$ "
  modifier_trait_urban_assault_specialist_xp_gain_factor:0 "Gain d'exp. du trait $urban_assault_specialist$ "
@@ -1564,7 +1564,7 @@
  MODIFIER_EXILED_GOVERNMENT_WEEKLY_MANPOWER:0 "Effectifs hebdomadaires du gouvernement en exil "
  MODIFIER_NAVY_WEATHER_PENALTY:0 "Pénalités de gros temps "
  MODIFIER_NAVY_WEATHER_PENALTY_DESC:0 "Réduit la pénalité pour les opérations navales en cas de gros temps."
- MODIFIER_AIR_MANPOWER_REQUIREMENT_FACTOR:0 "Main-d'œuvre aérienne nécessaire "
+ MODIFIER_AIR_MANPOWER_REQUIREMENT_FACTOR:0 "Main-d'œuvre aérienne nécessaire "
  MODIFIER_AIR_CAS_ORG_DAMAGE_FACTOR:0 "Dommage à l'organisation des attaques d'AAR "
  MODIFIER_AIR_ADVISOR_COST_FACTOR:0 "Coût des conseillers aériens "
  MODIFIER_NAVY_ADVISOR_COST_FACTOR:0 "Coût des conseillers de la marine "

@@ -215,7 +215,7 @@
  medium_tank_amphibious_chassis_3:0 "Шасси модернизированного среднего танка (плавающего)"
  medium_tank_amphibious_equipment_0:0 "Межвоенный средний плавающий танк"
  basic_medium_tank_chassis:0 "Шасси базового среднего танка"
- basic_medium_tank_chassis_short:0 "Средняя модель 1934 г."
+ basic_medium_tank_chassis_short:0 "Средняя модель 1938 г."
  basic_medium_tank_chassis_desc:0 "В прошлом легкие танки формировали костяк механизированных соединений, но сейчас ясно, что их потенциал роста подходит к концу. В будущем нам понадобятся более крупные боевые машины, сохраняющие высокую степень мобильности."
  improved_medium_tank_chassis:0 "Шасси улучшенного среднего танка"
  improved_medium_tank_chassis_short:1 "Средняя модель 1940 г."

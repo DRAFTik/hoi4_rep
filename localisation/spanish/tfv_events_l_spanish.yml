@@ -169,7 +169,7 @@
  tfv_canada.61.a:0 "¡La única frontera segura es la línea de costa!"
  tfv_canada.62.t:0 "Soberbia imperial"
  tfv_canada.62.d:0 "¡[From.GetNameDef] insiste en considerar Labrador y Terranova posesiones coloniales en lugar de territorios en sí mismos recurriendo a su agonizante "derecho imperial", y se ha negado a ceder unas tierras que nos pertenecen por derecho! La población [Root.GetAdjective] en esas regiones sobrevive gracias al estado [Root.GetAdjective], pero debe servir a su amo [From.GetAdjective].\nEsta situación es inaceptable, pero ha quedado claro que no convenceremos a [From.GetNameDef] mediante la diplomacia..."
- tfv_canada.62.a:0 "¡[From.GetNameDef] será una!"
+ tfv_canada.62.a:1 "¡[ROOT.GetNameDefCap] será una única nación!"
  mex_nationalists_chosen:0 "Alinéate con los nacionalistas."
  mex_republicans_chosen:0 "Alinéate con los republicanos."
  tfv_south_africa.1.t:0 "[From.GetNameDef] solicita el mandato en África"

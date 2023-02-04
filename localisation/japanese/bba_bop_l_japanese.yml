@@ -2,7 +2,7 @@
 
  BOP_TOOLTIP:1 "[root.GetActiveSideName]における[root.GetPowerBalanceName]は、現在[?.root.power_balance_value|0%]\n均衡は現状、[root.GetTrendingSideName]のほうに[root.GetChangeRateDesc]傾いている。\n[root.GetPowerBalanceModDesc]"
  BOP_TOOLTIP_TREND:0 "勢力の均衡は現在[root.GetBopTrendTextIcon][root.GetChangeRateDesc]§Y[root.GetTrendingSideName]§!の側へと傾いている。\n[root.GetPowerBalanceModDesc]"
- BOP_TOOLTIP_STABLE:0 "勢力均衡は現在安定している。"
+ BOP_TOOLTIP_STABLE:1 "勢力均衡は現在安定している。"
  BOP_LEFT_SIDE_TOOLTIP:0 "[root.GetLeftSideName]"
  BOP_RIGHT_SIDE_TOOLTIP:0 "[root.GetRightSideName]"
  BOP_ACTIVE_RANGE_DESC:0 "[root.GetActiveRangeName]"
@@ -52,6 +52,10 @@
  # Ethiopia Static Modifiers 
  ETH_withdraw_priviliges_power_balance:0 "メサフィントの特権が縮小"
  ETH_increase_priviliges_power_balance:0 "メサフィントの特権が拡大"
+ ETH_increase_communist_power_balance:0 "共産主義の支持者が増加"
+ ETH_increase_anarchist_power_balance:0 "無政府主義の支持者が増加"
+ ETH_bop_anarchist_communist_changed:0 "支援運動を開始してから一年も経っていない。"
+ ETH_bop_anarchist_privileges_changed:0 "支援運動を開始してから一年も経っていない。"
  ETH_mesafint_side:0 "§Yメサフィント§!陣営"
  ETH_mekwanint_side:0 "§Yメクワニント陣営§!"
 
@@ -95,7 +99,7 @@
 
  ####### ITALY #######
  ITA_power_balance:0 "国家の勢力均衡"
- ITA_grand_council_side:0 "$ITA_grand_council$"
+ ITA_grand_council_side:1 "[GetGrandCouncilName]"
  ITA_mussolini_side:0 "$ITA_benito_mussolini$"
  ITA_balbo_side:0 "$ITA_italo_balbo$"
  ITA_grandi_side:0 "$ITA_dino_grandi$"
@@ -142,6 +146,7 @@
  ITA_pope_medium_control_range:0 "ローマ法皇の影響力が強化された"
  ITA_pope_high_control_range:0 "ローマ法皇が頂点に君臨"
  ITA_pope_total_control_range:0 "ローマ法皇が優勢"
+ ITA_bop_cap_for_colonies_impact_tt:0 "§Y$ITA_grand_council_side$§!に傾いていて、なおかつ値が§Y30%§!より大きければ、この先非中核州を失っても勢力均衡への影響がなくなる。"
 
  ITA_power_balance_lost_core_1:0 "失われた中核州"
  ITA_power_balance_lost_core_2:0 "$ITA_power_balance_lost_core_1$"

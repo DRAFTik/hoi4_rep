@@ -392,6 +392,8 @@
  CARRIER_PLANE_SCREEN_DETAIL:0 "Наши самолёты на авианосцах могут помочь охранять корабли ($NUM|.0H$). Сейчас они охраняют следующее число кораблей: $NUM_2|.0H$."
  CARRIER_PLANE_SCREEN_DESC:0 "Наши самолёты на авианосцах ограничат свободу перемещения противника и тем самым помогут в охране."
  POSITIONING_CARRIER_RATIO_PENALTY:0 "Превосходство морской авиации противника: $NUM|+%$"
+ COMBAT_LOG_FRIENDLY:0 "Войска союзника"
+ COMBAT_LOG_ENEMY:0 "Войска противника"
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===

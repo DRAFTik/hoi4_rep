@@ -169,7 +169,7 @@
  tfv_canada.61.a:0 "安全な国境線は海岸線だけだ！"
  tfv_canada.62.t:0 "帝国の驕慢"
  tfv_canada.62.d:0 "崩壊した「帝国の所有権」（ラブラドールとニューファンドランドと呼ばれる保護された植民地としての地位）にすがって、[From.GetNameDef]は、明らかに我々のものであるその土地を譲り渡すことを拒否した！これらの人々は[Root.GetAdjective]人であり、ニューファンドランドとラブラドールは[Root.GetAdjective]の資源を保持しているが、彼らは[From.GetAdjective]の宗主国に答える必要がある。\nこれは容認できない状況であるが、[From.GetNameDef]が外交的な解決に訴えるとは確信できない……"
- tfv_canada.62.a:0 "[From.GetNameDefCap]は一つになる！"
+ tfv_canada.62.a:1 "[ROOT.GetNameDefCap]は一つになる！"
  mex_nationalists_chosen:0 "国粋主義者側。"
  mex_republicans_chosen:0 "共和主義者側。"
  tfv_south_africa.1.t:0 "[From.GetNameDefCap]がアフリカの委任を要求"

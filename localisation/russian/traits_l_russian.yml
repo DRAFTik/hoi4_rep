@@ -1092,12 +1092,12 @@
  ITA_aviation_hero_tt:0 "  - $air_equipment_research$: §G+5%§!"
  military_modernizer:0 "Модернизатор вооруженных сил"
  silver_tongue:0 "Красноречивый оратор"
- silver_tongue_no_lar: "$silver_tongue$"
+ silver_tongue_no_lar:0 "$silver_tongue$"
  father_of_the_empire:0 "Отец империи"
  political_reformer_1:0 "Политический реформатор"
  political_reformer_2_no_lar:0 "$political_reformer_1$"
  political_reformer_2:0 "$political_reformer_1$"
- ITA_political_reformer_tt:0 "  - Стоимость всех советников: §G-25%§!"
+ ITA_political_reformer_tt:1 "Стоимость всех советников: §G-25%§!"
  hierarch_minister_of_foreign_affairs:0 "Иерарх — министр иностранных дел"
  hierarch_minister_of_justice:0 "Иерарх — министр юстиции"
  hierarch_minister_of_education:0 "Иерарх — министр образования"
@@ -1174,6 +1174,9 @@
  communist_orator:0 "Оратор сопротивления"
  harsh_propagandist:0 "Суровый пропагандист"
  SWI_brandy_the_st_bernard_trait:0 "Некомпетентный советник"
+ 
+ evans_deakin_trait:0 "Тихоокеанское предприятие"
+ cockatoo_trait:0 "Специалист по легким кораблям"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  political_reformer_3:0 "$political_reformer_1$"

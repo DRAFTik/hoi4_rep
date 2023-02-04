@@ -215,7 +215,7 @@
  medium_tank_amphibious_chassis_3:0 "Weiterentwickeltes mittleres Panzerchassis (Amphibisch)"
  medium_tank_amphibious_equipment_0:0 "Mittlerer amphibischer Zwischenkriegspanzer"
  basic_medium_tank_chassis:0 "Einfaches mittleres Panzerchassis"
- basic_medium_tank_chassis_short:0 "1934 Mittel"
+ basic_medium_tank_chassis_short:0 "1938 Mittel"
  basic_medium_tank_chassis_desc:0 "Leichte Panzer waren in den letzten Jahren das Rückgrat mechanisierter Formationen, doch es wird immer offensichtlicher, dass ihr Wachstumspotenzial nun ausgeschöpft ist. In Zukunft werden wir ein größeres Fahrzeug benötigen, das dennoch ein hohes Maß an Mobilität bietet."
  improved_medium_tank_chassis:0 "Verbessertes mittleres Panzerchassis"
  improved_medium_tank_chassis_short:1 "1940 Mittel"

@@ -948,3 +948,5 @@
  develop_eastern_desert_oil_fields:0 "ラス・ガリブ油田の開発"
  develop_qatar_oil_fields:0 "ドゥハーン油田の開発"
  burma_road_expansion_tt:0 "イギリスまたは中華民国の国家方針§Yビルマ公路§!のいずれかを完了しているか、もしくは陣営または従属国が領有している。" #NOTE: these are names of uk_burma_focus and CHI_burma_road
+ develop_transdanubia_aluminium_deposits:0 "ドナウ川流域におけるボーキサイト鉱床の開発"
+ develop_derna_oilfield:0 "デルナ油田をタップ"

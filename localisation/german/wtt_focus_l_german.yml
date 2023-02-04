@@ -640,7 +640,7 @@
  JAP_long_lance_torpedoes_desc:0 "Die Grausamkeiten der globalen Ressourcenverteilung führen dazu, dass unsere Flotte dem Feind zahlenmäßig unterlegen ist. Wir werden daher den modernsten Torpedo der Welt entwickeln: Eine Langstreckenwaffe von großer Feuerkraft, angetrieben durch Sauerstoff anstatt durch Druckluft. Mit diesem Torpedo sind unsere kleineren Oberflächenschiffe stärker, als man glauben würde."
  JAP_torpedo_cruisers:0 "Torpedokreuzer"
  JAP_torpedo_cruisers_desc:0 "Wir entwickeln eine eigene Schiffsklasse, die gewaltige Mengen unseres neuen Torpedotyps mit sich führt und die feindliche Flotte damit terrorisieren kann."
- JAP_yamato_tt:0 "Fügt der Produktionswarteliste zwei Superschlachtschiffe der Yamato-Klasse hinzu, von denen eines zu 75% und das andere zu 50% fertiggestellt ist."
+ JAP_yamato_tt:1 "Fügt der Produktionsanlage zwei Überschwere Schlachtschiffe der §YYamato-Klasse§! hinzu, von denen eines zu 75% und das andere zu 50% fertiggestellt ist."
  cost_reduced_last_stand:1 "Ermöglicht den Einsatz der Kommandantenfähigkeit §Letzter Kampf§! zu deutlich reduzierten Kosten.\n"
  MAN_pacify_the_countryside:0 "Die ländlichen Gebiete befrieden"
  MAN_pacify_the_countryside_desc:0 "Seit wir an die Macht gekommen sind, versuchen Gesetzlose und Rebellen in den entlegeneren Gebieten des Landes, unsere Herrschaft herauszufordern. Wenn wir als Regierung ernstgenommen werden wollen, müssen wir diese Terroristen ausrotten und der Bevölkerung zeigen, dass wir unsere Herrschaft durchsetzen können."

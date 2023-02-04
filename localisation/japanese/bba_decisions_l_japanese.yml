@@ -10,6 +10,10 @@
  ETH_bop_increase_the_power_of_the_mekwanint:0 "メクワニントの権力を拡大させる"
  ETH_bop_increase_the_power_of_the_mekwanint_desc:1 "任命された大臣たちには、より大きな力でもって現場を仕切ってもらわねばならない。我々も、メサフィントからメクワニントに権力を移行させるべく働かねば。そうやって次第に中央政府へ、そして[ROOT.GetLeader]へと支配権を移して行くのだ。当然ラス達はこれに怒りを覚えるだろうが、強力な[ROOT.GetName]を築くためには必要なことだ。"
  ETH_bop_privileges_changed:0 " 前に特権に変更を加えた時から、一年も経っていない"
+ ETH_bop_increase_anarchist_influence:0 "無政府主義の支持者を増やす"
+ ETH_bop_increase_communist_influence:0 "共産主義の支持者を増やす"
+ ETH_bop_increase_anarchist_influence_desc:0 "中央政府が再び皆の権利を制限することのないよう、無政府主義者達が十分な影響力を持っている状態を確立しなくてはならない。我々の大義を為すためにもプロパガンダ活動を始めて、民衆からの支持を高めなくては。 "
+ ETH_bop_increase_communist_influence_desc:0 "中央政府が下した決断に対し、共産主義者達が最終決定権を握っているようにしなくてはならない。我々の大義を為すためにも、国家が崩壊する前にプロパガンダ活動を始めて、民衆からの支持を高めなくては。"
 
 # Decisions Menu
  ETH_placeholder_political_category:0 "PLACEHOLDER - TO BE REMOVED"
@@ -23,7 +27,7 @@
  war_escalation_4_tt:1 "レベル4\n §Y国際連盟§!: エチオピアが武器提供要請の可能性あり。\n §Yイタリア§!: イタリア国民の関心が高まる\n §Yエチオピア§!: §Y武器購入§!国家方針がアンロックされる。"
  war_escalation_5_tt:1 "レベル5\n §Y国際連盟§!: エチオピアがスエズ運河閉鎖要請の可能性あり。\n §Yイタリア§!: アフリカ精鋭部隊が失意に陥る\n §Yエチオピア§!: §Yスエズ運河閉鎖§!国家方針がアンロックされる"
  war_escalation_6_tt:1 "レベル6\n §Y国際連盟§!: エチオピアが国際旅団要請の可能性あり。\n §Yエチオピア§!: 軍の士気が増幅、§Y国際旅団§!国家方針がアンロックされる。\n §Yイタリア§!: 植民地に動揺が走る"
- war_escalation_7_tt:1 "レベル7\n §Y国際連盟§!: エチオピアが国際調停要請の可能性あり。\n§Yイタリア§!: イタリア国民が戦争目標に疑問を持つ\n§Yエチオピア§!: §Y国際調停§!国家方針がアンロックされる。"
+ war_escalation_7_tt:2 "レベル7\n §Y国際連盟§!: エチオピアが国際調停要請の可能性あり。\n§Yイタリア§!: イタリア国民が戦争目標に疑問を持つ\n§Yエチオピア§!: §Y国際調停§!の国家方針がアンロックされる。"
  war_escalation_8_tt:0 "レベル8\n §Yエチオピア§!: 敵の敗走\n §Yイタリア§!: 大規模な敗走"
  war_escalation_9_tt:1 "レベル9\n §Yエチオピア§!: あらゆる困難を乗り越えた生存\n"
  war_escalation_10_tt:0 "レベル10\n §Yエチオピア§!: 人民戦争\n §Yイタリア§!: 植民地で騒動が巻き起こる"
@@ -387,8 +391,8 @@
  ITA_missiolini_stockpile_fuel_desc:1 "近代的な軍隊の行進には食料のみならず、燃料も欠かせない。燃料が底を突けば、全ての兵器が停止に追い込まれるからだ。どの部門にとっても燃料は必需品であり、戦場で勝利を収めるには、大量のガスの供給が必要となる。"
  ITA_missiolini_strengthen_the_airforce:0 "空軍の強化"
  ITA_missiolini_strengthen_the_airforce_desc:1 "王国空軍は国家の威信を象徴するものとなり、一時は世界屈指の戦闘力を誇る空軍だった。航空機の生産数を増やして空軍を強化し、再び偉大なものにしなければならない。"
- ITA_missiolini_strengthen_the_airforce_fighters_goal_tt:0 "新しい§Y$fighter_equipment$§!用の航空機を§Y[?ROOT.ITA_missiolinis_fighters_to_produce]§!機生産した、あるいは入手した。\n現在配置されている戦闘機: §G[?ROOT.num_deployed_planes_with_type@fighter_equipment]§! - 現在の戦闘機の予備数 §G[?ROOT.num_equipment@fighter_equipment]§! - 戦闘機の合計目標数 §Y[?ITA_missiolinis_fighters_goal]§! \n\n"
- ITA_missiolini_strengthen_the_airforce_bombers_goal_tt:0 "新しい§Y$CAS_equipment$§!、§Y$nav_bomber_equipment$§!、または§Y$tac_bomber_equipment$§!用の航空機（一種類のみ）を§Y[?ROOT.ITA_missiolinis_bombers_to_produce]§!機生産した、あるいは入手した。\n現在配置されている近接航空支援機: §G[?ROOT.num_deployed_planes_with_type@CAS_equipment]§! - 現在のCAS機の予備数 §G[?ROOT.num_equipment@CAS_equipment]§! - 近接航空支援機の合計目標数 §Y[?ITA_missiolinis_cas_goal]§! \n現在配置されている対艦攻撃機: §G[?ROOT.num_deployed_planes_with_type@nav_bomber_equipment]§! - 現在の対艦攻撃機の予備数 §G[?ROOT.num_equipment@nav_bomber_equipment]§! - 対艦攻撃機の合計目標 §Y[?ITA_missiolinis_naval_bombers_goal]§! \n現在配置されている戦術爆撃機: §G[?ROOT.num_deployed_planes_with_type@tac_bomber_equipment]§! - 現在の戦術爆撃機の予備数 §G[?ROOT.num_equipment@tac_bomber_equipment]§! - 戦術爆撃機の合計目標数 §Y[?ITA_missiolinis_tactical_bombers_goal]§!"
+ ITA_missiolini_strengthen_the_airforce_fighters_goal_tt:1 "新しい§Y$fighter_equipment$§!用の航空機を§Y[?ROOT.ITA_missiolinis_fighters_to_produce]§!機生産した、あるいは入手した。\n現在配置されている戦闘機: §G[?ROOT.num_deployed_planes_with_type@small_plane_airframe]§! - 現在の戦闘機の予備数 §G[?ROOT.num_equipment@small_plane_airframe]§! - 戦闘機の合計目標数 §Y[?ITA_missiolinis_fighters_goal]§! \n\n"
+ ITA_missiolini_strengthen_the_airforce_bombers_goal_tt:1 "新しい§Y$CAS_equipment$§!、§Y$nav_bomber_equipment$§!、または§Y$tac_bomber_equipment$§!用の航空機（一種類のみ）を§Y[?ROOT.ITA_missiolinis_bombers_to_produce]§!機生産した、あるいは入手した。\n現在配置されている近接航空支援機: §G[?ROOT.num_deployed_planes_with_type@small_plane_cas_airframe]§! - 現在のCAS機の予備数 §G[?ROOT.num_equipment@small_plane_cas_airframe]§! - 近接航空支援機の合計目標数 §Y[?ITA_missiolinis_cas_goal]§! \n現在配置されている対艦攻撃機: §G[?ROOT.num_deployed_planes_with_type@small_plane_naval_bomber_airframe]§! - 現在の対艦攻撃機の予備数 §G[?ROOT.num_equipment@small_plane_naval_bomber_airframe]§! - 対艦攻撃機の合計目標 §Y[?ITA_missiolinis_naval_bombers_goal]§! \n現在配置されている戦術爆撃機: §G[?ROOT.num_deployed_planes_with_type@medium_plane_airframe]§! - 現在の戦術爆撃機の予備数 §G[?ROOT.num_equipment@medium_plane_airframe]§! - 戦術爆撃機の合計目標数 §Y[?ITA_missiolinis_tactical_bombers_goal]§!"
  ITA_missiolini_industrial_research:0 "産業研究"
  ITA_missiolini_industrial_research_desc:1 "我々はファシズムとイタリア人民が、技術の偉大な飛躍をいかに素早く達成できるかを世界に示さなければならない。"
  ITA_missiolini_expand_intelligence_agency:0 "諜報機関の拡大"
@@ -478,6 +482,7 @@
  ITA_give_the_dodecanese_islands_to_turkey_for_an_alliance:0 "ドデカネス諸島を[TUR.GetNameDef]に差し出し、同盟を持ちかける"
 
  ITA_human_torpedo_raid:0 "人間魚雷襲撃"
+ ITA_human_torpedo_raid_trigger_tt:0 "最低でも1隻の§Y主力艦§!、または§Y直衛艦§!が$naval_base$に停泊している"
  
  develop_tripoli_oil_fields:0 "トリポリ油田の開発"
  develop_tripoli_steel_deposits:0 "トリポリ銅鉄堆積の開発"
@@ -640,8 +645,7 @@
  SWI_in_breach_of_neutrality:0 "中立違反中"
 
  SWI_concessions_to_fascists:0 "[ROOT.GetAdjective] [FROM.GetRulingIdeology]党に対する譲歩"
- SWI_concessions_to_monarchists:0 "[ROOT.GetAdjective]君主制主義者への譲歩"
- SWI_cancel_trade_agreement_prematurely:0 "貿易協定を時期尚早に中止"
+ SWI_concessions_to_monarchists:1 "[FROM.GetAdjective]君主制主義者への譲歩"
  SWI_concessions_to_communists:0 "[ROOT.GetAdjective] [FROM.GetRulingIdeology]党に対する譲歩"
  SWI_concessions_to_democrats:0 "[ROOT.GetAdjective] [FROM.GetRulingIdeology]党に対する譲歩"
  SWI_concessions_to_fascists_desc:0 "[SWI_concessions_to_political_party_desc]"
@@ -649,6 +653,7 @@
  SWI_concessions_to_communists_desc:0 "[SWI_concessions_to_political_party_desc]"
  SWI_concessions_to_democrats_desc:0 "[SWI_concessions_to_political_party_desc]"
  SWI_concessions_to_political_party_desc:0 "我々の[ROOT.GetAdjective] [FROM.GetRulingIdeology]に対する強硬姿勢は、[FROM.GetAdjective]達を遠ざけ、外交問題を招くか、最悪侵略の引き金となる可能性がある。そろそろ[FROM.GetRulingIdeologyNoun]に対する姿勢を、軟化させるべき時かもしれない。"
+ SWI_cancel_trade_agreement_prematurely:0 "貿易協定を時期尚早に中止"
  SWI_weapons_production_for_civilian_supplies:0 "武器の部品を物資と交換"
  SWI_weapons_production_for_civilian_supplies_desc:0 "物資が不足している今、一部の軍需産業施設での、[FROM.GetAdjective]兵器の部品の製造を認めるより他ない。そうすれば少なくとも、民需補給はいくらか保証できるし、[FROM.GetNameDef]による[ROOT.GetName]の侵略も阻めるかもしれない。"
  SWI_country_angry_mission:0 "[SWI_get_country_angry_mission_title]"
@@ -774,7 +779,7 @@
  SWI_buy_ships_USA:0 "旧式[USA.GetAdjective]駆逐艦を購入"
  SWI_buy_ships_from_country_generic:0 "他国から旧式駆逐艦を購入"
  SWI_basic_council_TT:0 "\n\n§Y政治顧問§!に任命された三人は、§Y主要参事§!の役割を担う。その内の一人が毎年§Y連邦大統領§!に選出され、またこの時、特別なディシジョンがアンロックされる。§R政治顧問の座に空席をつくることは認められておらず、席が空いてしまった場合は国にペナルティが課せられる。§!"
-
+ SWI_research_slot_tooltip:0 "§Y連邦大統領§!に昇格すると、追加の§G研究枠§!を与える§Y$SWI_expand_arms_industry$§!のディシジョンがアンロックされる。"
 
  ##########  Balance of Power - Council/Cantons   ###############
 
@@ -810,7 +815,7 @@
  SWI_support_for_militias_desc:0 "十分な支援を行き渡らせることで、市民軍をより柔軟かつ回復力の高い組織へと強化できるはずだ。"
  SWI_president_gave_MR_speech:0 "現大統領が市民軍を激励"
  SWI_broaden_militias:0 "市民軍の拡張"
- SWI_building_up_military_readiness_mission:0 "軍事的緊張£GFX_SWI_military_readiness_text_iconの高まり "
+ SWI_building_up_military_readiness_mission:1 "軍事的緊張£GFX_SWI_military_readiness_text_iconの高まり "
  SWI_building_up_military_readiness_mission_desc:0 "我々は[ROOT.GetName]の防衛に向けた準備に舵を切っている。防衛債が売られ、市民は家庭で訓練し、協会は学校を組織し、企業は訓練を行っている。我々は何としても準備しておかなければならない。"
  SWI_building_up_mr_cont_focus_active:0 "$SWI_build_up_military_readiness$継続方針が有効"
 
@@ -826,7 +831,7 @@
  SWI_decision_cost_max_MR_blocked:1 "§R[?ROOT.SWI_mr_max_amount]§!軍事的緊張"
  SWI_decision_cost_total_MR:1 "[?ROOT.SWI_military_readiness]軍事的緊張"
  SWI_decision_cost_total_MR_blocked:0 "£GFX_SWI_military_readiness_text_icon  §R[?ROOT.SWI_military_readiness]§!"
- SWI_decision_add_var_MR:0 "§Y軍事的緊張§!を§G+$RIGHT|0$§!高める"
+ SWI_decision_add_var_MR:0 "£GFX_SWI_military_readiness_text_icon§Y軍事的用意§!が§G$RIGHT|0$§!増加"
  SWI_decision_add_low_medium_MR:1 "§Y軍事的緊張§!を§G+[?ROOT.SWI_mr_low_medium_amount]§!高める"
  SWI_decision_add_medium_MR:1 "§Y軍事的緊張§!を§G+[?ROOT.SWI_mr_medium_amount]§!高める"
  SWI_decision_add_high_MR:1 "§Y軍事的緊張§!を§G+[?ROOT.SWI_mr_high_amount]§!高める"

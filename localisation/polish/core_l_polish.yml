@@ -250,7 +250,10 @@
  LOADING_DATABASES:0 "Wczytywanie baz danych"
  LOADING_MAP_SPRITES:0 "Wczytywanie sprite'ów"
  OLD_SAVEGAME:0 "§RZapis nie został wczytany, ponieważ pochodzi z innej wersji gry.§!"
+ OLD_SAVEGAME_POPUP:0 "Ten zapis nie został wczytany, ponieważ pochodzi z innej wersji gry."
  OLD_SAVEGAME_ALLOWED:0 "§RTen zapis może zachowywać się nieprzewidywalnie, ponieważ pochodzi z innej wersji gry.§!"
+ CANTCONTINUEGAME:0 "Nie można kontynuować gry od ostatniego zapisu $SAVE$"
+ CANTCONTINUEGAME_TITLE:0 "Nie udało się wczytać zapisu"
  CONFIRMUNSYNCTITLE:0 "Wyłącz synchr. pliku"
  CONFIRMUNSYNCTEXT:0 "Na pewno chcesz usunąć plik $NAME|H$ z chmury?"
  CLOUDSAVE_SPACE_NEEED:0 "Potrzebne do zapisu: $NEEDED$."
@@ -1883,6 +1886,8 @@
  CHARACTER_NAME_TOOLTIP:0 "$NAME|Y$"
  CHARACTER_ADVISOR_ON_ADD_TOOLTIP:0 "Po zatrudnieniu:"
  CHARACTER_ADVISOR_ON_REMOVE_TOOLTIP:0 "Po zwolnieniu:"
+ CHARACTER_ADVISOR_CANT_BE_FIRED_ONCE_HIRED:0 "§HZatrudnionego doradcy nie można zwolnić§!"
+ CHARACTER_ADVISOR_CANT_BE_FIRED:0 "§RDoradcy nie można zwolnić§!"
  RAILWAY_CONNECTION_TOOLTIP_HEADER:0 "§HPołączenie kolejowe§! poz. $LEVEL|H$"
  RAILWAY_CONNECTION_TOOLTIP_BETWEEN:0 "$PLACE1|H$ do $PLACE2|H$"
  RAILWAY_CONNECTION_TOOLTIP_THROUGHPUT:0 "Limit przepustowości zaopatrzenia: $SUPPLY|H$ £supply_texticon£"
@@ -1947,6 +1952,8 @@
  LOGISTICS_ONLY_FOR_ALLIES:0 "W menu logistyki można zobaczyć tylko członków frakcji lub poddanych."
  TRAINING_ACCIDENT:0 "wypadek podczas szkolenia"
  SUNK_BY_MINES:0 "miny"
+ PARADROP_PLANES_REQUIRED:0 "\n§RNie można wykonać tego polecenia:§!\nPotrzeba dodatkowo $WINGS|H$ skrzydła/skrzydeł transportowych."
+ RETAIN_CORES:0 "Zatrzymajmy regiony naszej prowincji narodowej"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  SUPPLY_NODE_TOOLTIP_HEADER:2 "Punkt zaopatrzenia $PROVINCE_NAME|H$:"

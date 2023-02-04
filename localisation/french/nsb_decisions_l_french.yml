@@ -249,7 +249,7 @@
  SOV_last_purge_focus_name:0 "$SOV_the_bloc_of_rights_and_trotskyites$"
 
  SOV_paranoia_value_text:1 "£SOV_paranoia_text_icon£Paranoïa politique : [GetParanoiaValueColor][?SOV_paranoia]%§! [GetParanoiaWeeklyModifier]"
- SOV_paranoia_weekly_modifier_tt:0 "(évolution hebdomadaire : [GetParanoiaModifierValueColor][?ROOT.SOV_paranoia_weekly_modifier_ui]%§!)"
+ SOV_paranoia_weekly_modifier_tt:0 "([GetParanoiaModifierValueColor][?ROOT.SOV_paranoia_weekly_modifier_ui]%§!/semaine)"
  SOV_color_red:0 "§R+"
  SOV_color_yellow:0 "§Y"
  SOV_color_green:0 "§G-"

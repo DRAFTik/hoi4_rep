@@ -2,7 +2,7 @@
 
  BOP_TOOLTIP:1 "Der §Y[root.GetPowerBalanceName]§! ist auf der Seite von §Y[root.GetActiveSideName]§! derzeit bei [?.root.power_balance_value|0%H]"
  BOP_TOOLTIP_TREND:0 "Das Machtgleichgewicht tendiert derzeit [root.GetBopTrendTextIcon][root.GetChangeRateDesc] in Richtung von §Y[root.GetTrendingSideName]§!.\n[root.GetPowerBalanceModDesc]"
- BOP_TOOLTIP_STABLE:0 "Das Machtgleichgewicht ist derzeit stabil."
+ BOP_TOOLTIP_STABLE:1 "Das Machtgleichgewicht ist derzeit stabil."
  BOP_LEFT_SIDE_TOOLTIP:0 "[root.GetLeftSideName]"
  BOP_RIGHT_SIDE_TOOLTIP:0 "[root.GetRightSideName]"
  BOP_ACTIVE_RANGE_DESC:0 "[root.GetActiveRangeName]"
@@ -52,6 +52,10 @@
  # Ethiopia Static Modifiers 
  ETH_withdraw_priviliges_power_balance:0 "Privilegien der Mesafint reduziert"
  ETH_increase_priviliges_power_balance:0 "Privilegien der Mesafint erhöht"
+ ETH_increase_communist_power_balance:0 "Unterstützung für Kommunisten erhöht"
+ ETH_increase_anarchist_power_balance:0 "Unterstützung für Anarchisten erhöht"
+ ETH_bop_anarchist_communist_changed:0 "Seit Beginn der Unterstützungskampagne ist weniger als ein Jahr vergangen."
+ ETH_bop_anarchist_privileges_changed:0 "Seit Beginn der Unterstützungskampagne ist weniger als ein Jahr vergangen."
  ETH_mesafint_side:0 "Seite der §YMesafint§!"
  ETH_mekwanint_side:0 "Seite der §YMekwanint§!"
 
@@ -95,7 +99,7 @@
 
  ####### ITALY #######
  ITA_power_balance:0 "Nationales Machtgleichgewicht"
- ITA_grand_council_side:0 "$ITA_grand_council$"
+ ITA_grand_council_side:1 "[GetGrandCouncilName]"
  ITA_mussolini_side:0 "$ITA_benito_mussolini$"
  ITA_balbo_side:0 "$ITA_italo_balbo$"
  ITA_grandi_side:0 "$ITA_dino_grandi$"
@@ -142,6 +146,7 @@
  ITA_pope_medium_control_range:0 "Konsolidierter Papsteinfluss"
  ITA_pope_high_control_range:0 "Päpstliche Dominanz"
  ITA_pope_total_control_range:0 "Vorherrschaft des Papstes"
+ ITA_bop_cap_for_colonies_impact_tt:0 "Der Verlust von Nicht-Kernstaaten wirkt sich nicht länger auf das Machtgleichgewicht aus, solange der Wert in Richtung §Y$ITA_grand_council_side$§! größer als §Y30%§! ist."
 
  ITA_power_balance_lost_core_1:0 "Verlorene Kerne"
  ITA_power_balance_lost_core_2:0 "$ITA_power_balance_lost_core_1$"

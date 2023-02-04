@@ -48,6 +48,7 @@
  alert_pick_new_idea_delayed:1 "§T変更可能:§!"
  alert_pick_new_idea_delayed_bop:0 "§T勢力均衡: §!"
  alert_pick_new_idea_group_type:0 "$TYPE|H$"
+ alert_pick_new_idea_advisor_delayed:0 "次の選択が可能: \n$ADVISOR|Y$\n"
  alert_available_wargoal_instant:0 "§H宣戦布告が可能§!"
  alert_enemy_generate_wargoal_instant:0 "§H我々または同盟国に対して宣戦布告が可能な国家がある§!"
  alert_faction_generate_wargoal_instant:0 "§H我々の陣営で他国に宣戦布告可能な加盟国がある§!"

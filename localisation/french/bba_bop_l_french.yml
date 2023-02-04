@@ -2,7 +2,7 @@
 
  BOP_TOOLTIP:1 "§Y[Root.GetPowerBalanceName]§! : actuellement de [?.root.power_balance_value|0%H] en faveur de §Y[Root.GetActiveSideName]§!."
  BOP_TOOLTIP_TREND:0 "L'équilibre des pouvoirs évolue actuellement en faveur de §Y[Root.GetTrendingSideName]§!, à hauteur de [Root.GetBopTrendTextIcon][Root.GetChangeRateDesc].\n[Root.GetPowerBalanceModDesc]"
- BOP_TOOLTIP_STABLE:0 "Actuellement, l'équilibre des pouvoirs est stable."
+ BOP_TOOLTIP_STABLE:1 "Actuellement, l'équilibre des pouvoirs est stable."
  BOP_LEFT_SIDE_TOOLTIP:0 "[Root.GetLeftSideName]"
  BOP_RIGHT_SIDE_TOOLTIP:0 "[Root.GetRightSideName]"
  BOP_ACTIVE_RANGE_DESC:0 "[Root.GetActiveRangeName]"
@@ -52,6 +52,10 @@
  # Ethiopia Static Modifiers 
  ETH_withdraw_priviliges_power_balance:0 "Privilèges des mesafint réduits"
  ETH_increase_priviliges_power_balance:0 "Privilèges des mesafint renforcés"
+ ETH_increase_communist_power_balance:0 "Soutien croissant aux communistes"
+ ETH_increase_anarchist_power_balance:0 "Soutien croissant aux anarchistes"
+ ETH_bop_anarchist_communist_changed:0 "Moins d'un an écoulé depuis le lancement de la campagne de soutien"
+ ETH_bop_anarchist_privileges_changed:0 "Moins d'un an écoulé depuis le lancement de la campagne de soutien"
  ETH_mesafint_side:0 "§YFaction des mesafint§!"
  ETH_mekwanint_side:0 "§YFaction des mekwanent§!"
 
@@ -95,7 +99,7 @@
 
  ####### ITALY #######
  ITA_power_balance:0 "Équilibre national des pouvoirs"
- ITA_grand_council_side:0 "$ITA_grand_council$"
+ ITA_grand_council_side:1 "[GetGrandCouncilName]"
  ITA_mussolini_side:0 "$ITA_benito_mussolini$"
  ITA_balbo_side:0 "$ITA_italo_balbo$"
  ITA_grandi_side:0 "$ITA_dino_grandi$"
@@ -142,6 +146,7 @@
  ITA_pope_medium_control_range:0 "Influence pontificale renforcée"
  ITA_pope_high_control_range:0 "Domination pontificale"
  ITA_pope_total_control_range:0 "Domination totale du pape"
+ ITA_bop_cap_for_colonies_impact_tt:0 "Perdre des États non nationaux n'aura plus de conséquences sur l'équilibre des pouvoirs s'il penche au moins de §Y30%§! en faveur du §Y$ITA_grand_council_side$§!."
 
  ITA_power_balance_lost_core_1:0 "États nationaux perdus"
  ITA_power_balance_lost_core_2:0 "$ITA_power_balance_lost_core_1$"

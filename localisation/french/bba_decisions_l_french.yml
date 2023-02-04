@@ -10,6 +10,10 @@
  ETH_bop_increase_the_power_of_the_mekwanint:0 "Renforcer les pouvoirs des mekwanent"
  ETH_bop_increase_the_power_of_the_mekwanint_desc:1 "Les ministres et mekwanent nommés par le pouvoir central doivent disposer d'une plus grande liberté d'intervention sur les affaires locales. Nous devrions donc leur confier une partie des pouvoirs conférés aux mesafint afin que le gouvernement central et [Root.GetLeLaLDir] [Root.GetLeader] disposent progressivement d'une plus grande marge de manœuvre.\n$tab_dec$Cela va évidemment mécontenter les ras, mais c'est indispensable pour bâtir [Root.GetUnUneDesNP] [Root.GetName] plus fort[Root.GetXENP]."
  ETH_bop_privileges_changed:0 "Les privilèges ont été modifiés il y a moins d'un an"
+ ETH_bop_increase_anarchist_influence:0 "Renforcer le soutien aux anarchistes"
+ ETH_bop_increase_communist_influence:0 "Renforcer le soutien aux communistes"
+ ETH_bop_increase_anarchist_influence_desc:0 "Nous devons nous assurer que les anarchistes disposent d'une influence suffisante pour empêcher que le gouvernement central s'attaque à nouveau aux droits du peuple. Nous devrions donc lancer une campagne de propagande afin de renforcer le soutien de la population à notre cause."
+ ETH_bop_increase_communist_influence_desc:0 "Nous devons nous assurer que les communistes aient leur mot à dire dans les décisions du gouvernement central. Nous devrions donc lancer une campagne de propagande afin de renforcer le soutien de la population à la cause, avant que le pays ne s'effondre."
 
 # Decisions Menu
  ETH_placeholder_political_category:0 "PLACEHOLDER - TO BE REMOVED"
@@ -23,7 +27,7 @@
  war_escalation_4_tt:1 "Niveau 4\n §YSociété des Nations§! : [ETH.GetLeLaLNP] [ETH.GetName] peu[ETH.GetTVentNP] demander de l'armement ;\n [ITA.GetFlag]§Y[ITA.GetName]§! : inquiétude de la population ;\n [ETH.GetFlag]§Y[ETH.GetName]§! : priorité §YAcheter des armes§! déverrouillée."
  war_escalation_5_tt:1 "Niveau 5\n §YSociété des Nations§! : [ETH.GetLeLaLNP] [ETH.GetName] peu[ETH.GetTVentNP] demander la fermeture du canal de Suez ;\n [ITA.GetFlag]§Y[ITA.GetName]§! : découragement de l'Armée d'Afrique ;\n [ETH.GetFlag]§Y[ETH.GetName]§! : priorité §YFermer Suez§! déverrouillée."
  war_escalation_6_tt:1 "Niveau 6 \n §YSociété des Nations§! : [ETH.GetLeLaLNP] [ETH.GetName] peu[ETH.GetTVentNP] demander l'envoi de brigades internationales ;\n [ETH.GetFlag]§Y[ETH.GetName]§! : moral en hausse dans l'armée, priorité §YBrigades internationales§! déverrouillée ;\n [ITA.GetFlag]§Y[ITA.GetName]§! : agitation dans les colonies."
- war_escalation_7_tt:1 "Niveau 7\n §YSociété des Nations§! : [ETH.GetLeLaLNP] [ETH.GetName] peu[ETH.GetTVentNP] demander une médiation internationale ;\n [ITA.GetFlag]§Y[ITA.GetName]§! : remise en cause de l'effort de guerre ;\n [ETH.GetFlag]§Y[ETH.GetName]§! : priorité §YDemande de médiation internationale§! déverrouillée."
+ war_escalation_7_tt:2 "Niveau 7\n §YSociété des Nations§! : [ETH.GetLeLaLNP] [ETH.GetName] peu[ETH.GetTVentNP] demander une médiation internationale ;\n [ITA.GetFlag]§Y[ITA.GetName]§! : remise en cause de l'effort de guerre ;\n [ETH.GetFlag]§Y[ETH.GetName]§! : priorité §YDemande de médiation internationale§! déverrouillée."
  war_escalation_8_tt:0 "Niveau 8\n [ETH.GetFlag]§Y[ETH.GetName]§! : désertions chez l'ennemi ;\n [ITA.GetFlag]§Y[ITA.GetName]§! : désertions nombreuses."
  war_escalation_9_tt:1 "Niveau 9\n [ETH.GetFlag]§Y[ETH.GetName]§! : la survie contre toute attente."
  war_escalation_10_tt:0 "Niveau 10\n [ETH.GetFlag]§Y[ETH.GetName]§! : le peuple en guerre ;\n [ITA.GetFlag]§Y[ITA.GetName]§! : protestations dans les colonies."
@@ -387,8 +391,8 @@
  ITA_missiolini_stockpile_fuel_desc:1 "De nos jours, une armée ne marche plus seulement sur son estomac, mais aussi sur des barils de carburant. S'il n'y en a plus, c'est l'ensemble de la machine militaire qui se trouve à l'arrêt. Toutes les branches des forces armées en dépendent, aussi devons-nous en fournir en quantités importantes si nous voulons nous assurer de la victoire."
  ITA_missiolini_strengthen_the_airforce:0 "Renforcer les forces aériennes"
  ITA_missiolini_strengthen_the_airforce_desc:1 "L'Aeronautica était déjà l'une des meilleures au monde, et elle est devenue l'orgueil de la nation. Mais nous devons maintenant produire davantage d'appareils pour la renforcer et en faire la plus puissante qui soit."
- ITA_missiolini_strengthen_the_airforce_fighters_goal_tt:0 "§Y[?ROOT.ITA_missiolinis_fighters_to_produce]§! nouveaux §Ychasseurs§! ont été produits ou acquis.\n§G[?ROOT.num_deployed_planes_with_type@small_plane_airframe]§! chasseurs actuellement déployés ; §G[?ROOT.num_equipment@small_plane_airframe]§! en réserve ; total visé : §Y[?ITA_missiolinis_fighters_goal]§! appareils.\n\n"
- ITA_missiolini_strengthen_the_airforce_bombers_goal_tt:0 "§Y[?ROOT.ITA_missiolinis_bombers_to_produce]§! nouveaux §Yappareils d'AAR§!, §Ybombardiers navals§! ou §Ybombardiers tactiques§! ont été produits ou acquis (un seul type).\n§G[?ROOT.num_deployed_planes_with_type@small_plane_cas_airframe]§! appareils d'AAR actuellement déployés ; §G[?ROOT.num_equipment@small_plane_cas_airframe]§! en réserve ; total visé : §Y[?ITA_missiolinis_cas_goal]§! appareils.\n§G[?ROOT.num_deployed_planes_with_type@small_plane_naval_bomber_airframe]§! bombardiers navals actuellement déployés ; §G[?ROOT.num_equipment@small_plane_naval_bomber_airframe]§! en réserve ; total visé : §Y[?ITA_missiolinis_naval_bombers_goal]§! appareils.\n§G[?ROOT.num_deployed_planes_with_type@medium_plane_airframe]§! bombardiers tactiques actuellement déployés ; §G[?ROOT.num_equipment@medium_plane_airframe]§! en réserve ; total visé : §Y[?ITA_missiolinis_tactical_bombers_goal]§! appareils."
+ ITA_missiolini_strengthen_the_airforce_fighters_goal_tt:1 "§Y[?ROOT.ITA_missiolinis_fighters_to_produce]§! nouveaux §Ychasseurs§! ont été produits ou acquis.\n§G[?ROOT.num_deployed_planes_with_type@small_plane_airframe]§! chasseurs actuellement déployés ; §G[?ROOT.num_equipment@small_plane_airframe]§! en réserve ; total visé : §Y[?ITA_missiolinis_fighters_goal]§! appareils.\n\n"
+ ITA_missiolini_strengthen_the_airforce_bombers_goal_tt:1 "§Y[?ROOT.ITA_missiolinis_bombers_to_produce]§! nouveaux §Yappareils d'AAR§!, §Ybombardiers navals§! ou §Ybombardiers tactiques§! ont été produits ou acquis (un seul type).\n§G[?ROOT.num_deployed_planes_with_type@small_plane_cas_airframe]§! appareils d'AAR actuellement déployés ; §G[?ROOT.num_equipment@small_plane_cas_airframe]§! en réserve ; total visé : §Y[?ITA_missiolinis_cas_goal]§! appareils.\n§G[?ROOT.num_deployed_planes_with_type@small_plane_naval_bomber_airframe]§! bombardiers navals actuellement déployés ; §G[?ROOT.num_equipment@small_plane_naval_bomber_airframe]§! en réserve ; total visé : §Y[?ITA_missiolinis_naval_bombers_goal]§! appareils.\n§G[?ROOT.num_deployed_planes_with_type@medium_plane_airframe]§! bombardiers tactiques actuellement déployés ; §G[?ROOT.num_equipment@medium_plane_airframe]§! en réserve ; total visé : §Y[?ITA_missiolinis_tactical_bombers_goal]§! appareils."
  ITA_missiolini_industrial_research:0 "Recherche industrielle"
  ITA_missiolini_industrial_research_desc:1 "Nous devons prouver au monde entier avec quelle rapidité le fascisme et les [ITA.GetHabitants] peuvent accomplir de véritables prouesses dans le domaine de la technologie."
  ITA_missiolini_expand_intelligence_agency:0 "Développer les services de renseignement"
@@ -478,6 +482,7 @@
  ITA_give_the_dodecanese_islands_to_turkey_for_an_alliance:0 "Céder le Dodécanèse aux [TUR.GetHabitants] contre une alliance"
 
  ITA_human_torpedo_raid:0 "Raid de torpille habitée"
+ ITA_human_torpedo_raid_trigger_tt:0 "A au moins un §Ynavire capital§! ou un §Ynavire d'escorte§! à quai dans une base navale."
  
  develop_tripoli_oil_fields:0 "Développer les champs pétrolifères de Tripoli"
  develop_tripoli_steel_deposits:0 "Développer les gisements de fer de Tripoli"
@@ -640,8 +645,7 @@
  SWI_in_breach_of_neutrality:0 "Neutralité rompue"
 
  SWI_concessions_to_fascists:0 "Concessions [Root.GetAuAlaAlPartiFasc] [Root.GetFascistParty]"
- SWI_concessions_to_monarchists:0 "Concessions [Root.GetAuAlaAlPartiNeut] [Root.GetNeutralParty]"
- SWI_cancel_trade_agreement_prematurely:0 "Rompre l'accord commercial avec [From.GetLeLaLNP] [From.GetName]"
+ SWI_concessions_to_monarchists:1 "Concessions [From.GetAuAlaAlPartiNeut] [From.GetNeutralParty]"
  SWI_concessions_to_communists:0 "Concessions [Root.GetAuAlaAlPartiComm] [Root.GetCommunistParty]"
  SWI_concessions_to_democrats:0 "Concessions [Root.GetAuAlaAlPartiDemo] [Root.GetDemocraticParty]"
  SWI_concessions_to_fascists_desc:0 "$SWI_concessions_to_political_party_desc$"
@@ -649,6 +653,7 @@
  SWI_concessions_to_communists_desc:0 "$SWI_concessions_to_political_party_desc$"
  SWI_concessions_to_democrats_desc:0 "$SWI_concessions_to_political_party_desc$"
  SWI_concessions_to_political_party_desc:0 "Notre intransigeance face aux [From.GetIdeoAdjMPInan] [Root.GetAdjMP] pourrait susciter la colère [From.GetDuDelaDelNP] [From.GetName] et provoquer un incident diplomatique ou, pire encore, une invasion. Sans doute est-il temps de nous montrer plus conciliants..."
+ SWI_cancel_trade_agreement_prematurely:0 "Rompre l'accord commercial avec [From.GetLeLaLNP] [From.GetName]"
  SWI_weapons_production_for_civilian_supplies:0 "Produire des armes pour les [From.GetHabitants]"
  SWI_weapons_production_for_civilian_supplies_desc:0 "Les réserves de denrées se vident, aussi n'avons-nous guère d'autres choix que donner l'autorisation aux fabricants d'armes de produire pour la machine de guerre [From.GetAdjFS]. Au moins pourrons-nous ainsi garantir notre approvisionnement en produits civils, et peut-être même empêcher une invasion [From.GetAdjFS]."
  SWI_country_angry_mission:0 "[SWI_get_country_angry_mission_title]"
@@ -774,7 +779,7 @@
  SWI_buy_ships_USA:0 "Acheter de vieux destroyers [USA.GetAdjMP]"
  SWI_buy_ships_from_country_generic:0 "Acheter de vieux navires étrangers"
  SWI_basic_council_TT:0 "\n$tab_dec$Les trois §Yconseillers politiques§! nommés vont assumer la fonction de §Yconseillers principaux§!. Chaque année, l'un d'entre eux pourra devenir §Yprésident§!, donnant accès à une £decision_icon_small£décision particulière. §RÀ aucun moment un poste de conseiller politique ne devrait rester vide ou le pays subira des pénalités.§!"
-
+ SWI_research_slot_tooltip:0 "Une fois devenu §Yprésident de la Confédération§!, donne accès à la décision £decision_icon_small£§Y$SWI_expand_arms_industry$§! qui permet de bénéficier d'un §Gemplacement de recherche§! supplémentaire."
 
  ##########  Balance of Power - Council/Cantons   ###############
 
@@ -810,7 +815,7 @@
  SWI_support_for_militias_desc:0 "Nous devrions donner aux milices des unités de soutien pour les rendre plus polyvalentes et accroître leurs capacités de combat."
  SWI_president_gave_MR_speech:0 "L'actuel président du Conseil a encouragé les milices citoyennes"
  SWI_broaden_militias:0 "Élargir les milices"
- SWI_building_up_military_readiness_mission:0 "£GFX_SWI_military_readiness_text_icon£Préparation défensive"
+ SWI_building_up_military_readiness_mission:1 "£GFX_SWI_military_readiness_text_icon£Préparation défensive"
  SWI_building_up_military_readiness_mission_desc:0 "[Root.GetLeLaLNPCap] [Root.GetName] se prépar[Root.GetEEntNP] à se défendre. Des obligations de guerre sont vendues, les citoyens s'entraînent chez eux, les associations organisent des entraînements dans les écoles et les entreprises. Quel que soit le prix à payer, la population doit se tenir prête."
  SWI_building_up_mr_cont_focus_active:0 "La priorité permanente $SWI_build_up_military_readiness$ est en cours"
 
@@ -826,7 +831,7 @@
  SWI_decision_cost_max_MR_blocked:1 "§R[?ROOT.SWI_mr_max_amount]§!£GFX_SWI_military_readiness_text_icon£"
  SWI_decision_cost_total_MR:1 "[?ROOT.SWI_military_readiness]£GFX_SWI_military_readiness_text_icon£"
  SWI_decision_cost_total_MR_blocked:0 "§R[?ROOT.SWI_military_readiness]§!£GFX_SWI_military_readiness_text_icon£"
- SWI_decision_add_var_MR:0 "§G+$RIGHT|0$§!£GFX_SWI_military_readiness_text_icon£ "
+ SWI_decision_add_var_MR:0 "§YPréparation militaire§! : §G+$RIGHT|0$§!£GFX_SWI_military_readiness_text_icon£"
  SWI_decision_add_low_medium_MR:1 "§YPréparation militaire§! : §G+[?ROOT.SWI_mr_low_medium_amount]§!£GFX_SWI_military_readiness_text_icon£"
  SWI_decision_add_medium_MR:1 "§YPréparation militaire§! : §G+[?ROOT.SWI_mr_medium_amount]§!£GFX_SWI_military_readiness_text_icon£"
  SWI_decision_add_high_MR:1 "§YPréparation militaire§! : §G+[?ROOT.SWI_mr_high_amount]§!£GFX_SWI_military_readiness_text_icon£"
@@ -974,3 +979,13 @@
  ETH_BoP_purge_anarchists_tt_FR:0 "[Root.GetLeLaLNPCap] [Root.GetFlag]§Y[Root.GetName]§! v[Root.GetAOntNP] être dirigé[Root.GetXENP] par un §Y$ETH_prov_mil_admin$§!."
  ITA_export_midget_submarines_tt_ROOT:0 "Construit §Y5 sous-marins de poche§! pour [Root.GetLeLaLNP] [Root.GetFlag]§Y[Root.GetName]§!. Les produire prendra §Y[?ITA.ITA_export_midget_submarines_days]§! jours."
  SWI_fake_country_word_FR_FROM:0 "[From.GetAuEnANP] [From.GetName]"
+ ETH_Education_reform_decentralized_BoP_desc:0 "$ETH_Education_reform_decentralized_BoP_tt$"
+ ETH_Education_reform_centralized_BoP_desc:0 "$ETH_Education_reform_centralized_BoP_tt$"
+ ETH_road_reform_highways_BoP_desc:0 "$ETH_road_reform_highways_BoP_tt$"
+ ETH_officer_reforms_centralized_BoP_desc:0 "$ETH_officer_reforms_centralized_BoP_tt$"
+ ETH_officer_reforms_decentralized_BoP_desc:0 "$ETH_officer_reforms_decentralized_BoP_tt$"
+ ETH_BoP_purge_communists_desc:0 "$ETH_BoP_purge_communists_tt$"
+ ETH_BoP_purge_anarchists_desc:0 "Le calme précaire qui règne entre l'armée et les Lions noirs commence à se fissurer. Leurs idées anarchistes, si naïves, affaiblissent de l'intérieur [ETH.GetLeLaLNP] [ETH.GetName], et nous mettent en mauvaise posture en cas d'attaque étrangère. Pour garantir la sécurité de la Révolution, il va falloir nous débarrasser définitivement des Lions."
+ ETH_BoP_expand_black_lions_desc:0 "$ETH_BoP_expand_black_lions_tt$"
+ ETH_BoP_expand_red_guards_desc:0 "$ETH_BoP_expand_red_guards_tt$"
+ ETH_italo-ethiopian_empire_decisions_desc:0 "$ETH_the_italo-ethiopian_empire_desc$"

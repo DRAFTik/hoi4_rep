@@ -169,7 +169,7 @@
  tfv_canada.61.a:0 "La seule frontière sûre,\nc'est la ligne de côte"
  tfv_canada.62.t:0 "Arrogance impériale"
  tfv_canada.62.d:0 "Invoquant [From.GetSonLeurNP] prétendu « droit impérial », et au prétexte d'assurer une protection [From.GetAdjFS] à [From.GetSesLeursNP] colonies du Labrador et de Terre-Neuve, [From.GetLeLaLNP] [From.GetName] [From.GetSestSesontNP] refusé[From.GetXENP] à nous rendre ces territoires qui nous reviennent de plein droit ! La population y est [Root.GetAdjFS], Terre-Neuve et le Labrador détiennent des ressources [Root.GetAdjFP], mais les [From.GetHabitants] prétendraient continuer de s'y comporter en maîtres absolus ?\n\nUne chose au moins paraît évidente : aussi inadmissible que ce soit, [From.GetLeLaLDir] [From.GetLeader] ne saura être convaincu[From.GetXEDir] par de simples démarches diplomatiques..."
- tfv_canada.62.a:0 "Les [Root.GetHabitants] seront réunis enfin !"
+ tfv_canada.62.a:1 "Les [Root.GetHabitants] seront réunis enfin !"
  mex_nationalists_chosen:0 "Nous allons nous ranger dans le parti des §Ysynarchistes§!."
  mex_republicans_chosen:0 "Nous allons nous ranger dans le parti des §Yrépublicains§!."
  tfv_south_africa.1.t:0 "[From.GetLeLaLNPCap] [From.GetName] exig[From.GetEEntNP]\nle mandat africain"

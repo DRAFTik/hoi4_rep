@@ -10,6 +10,10 @@
  ETH_bop_increase_the_power_of_the_mekwanint:0 "Aumentar el poder de los mekwanint"
  ETH_bop_increase_the_power_of_the_mekwanint_desc:1 "Los ministros designados deben tener más poder sobre los asuntos locales. Debemos trabajar para trasvasar el poder de los mesafint a los mekwanint, moviendo gradualmente el control al gobierno central y a [ROOT.GetLeader]. Esto molestará a los rases, por supuesto, pero es necesario si queremos que [ROOT.GetName] sea fuerte."
  ETH_bop_privileges_changed:0 " Menos de un año desde el último cambio de privilegios"
+ ETH_bop_increase_anarchist_influence:0 "Aumenta el apoyo a los anarquistas"
+ ETH_bop_increase_communist_influence:0 "Aumenta el apoyo a los comunistas"
+ ETH_bop_increase_anarchist_influence_desc:0 "Tenemos que asegurarnos de que los anarquistas tengan la influencia suficiente para evitar que un gobierno central vuelva a recortar los derechos del pueblo. Debemos iniciar una campaña de propaganda para impulsar el apoyo del pueblo a nuestra causa. "
+ ETH_bop_increase_communist_influence_desc:0 "Tenemos que asegurarnos de que los comunistas controlen las decisiones del gobierno central. Debemos iniciar una campaña de propaganda para impulsar el apoyo del pueblo a nuestra causa antes de que la nación se desmorone."
 
 # Decisions Menu
  ETH_placeholder_political_category:0 "PLACEHOLDER - TO BE REMOVED"
@@ -23,7 +27,7 @@
  war_escalation_4_tt:1 "Nivel 4\n §YSociedad de Naciones§!: Etiopía puede pedir armas.\n §YItalia§!: preocupación del pueblo italiano. \n §YEtiopía§!: desbloquea el enfoque §YCompras de armas§!."
  war_escalation_5_tt:1 "Nivel 5\n §YSociedad de Naciones§!: Etiopía puede solicitar el cierre de Suez.\n §YItalia§!: desaliento en el ejército de África. \n §YEtiopía§!: desbloquea el enfoque §YCierre de Suez§!."
  war_escalation_6_tt:1 "Nivel 6 \n §YSociedad de Naciones§!: Etiopía puede solicitar brigadas internacionales.\n §YEtiopía§!: la moral del ejército mejora, desbloquea el enfoque §YBrigadas internacionales§!.\n §YItalia§!: agitación en las colonias."
- war_escalation_7_tt:1 "Nivel 7\n §YSociedad de Naciones§!: Etiopía puede solicitar una mediación internacional.\n§Y Italia§!: el pueblo italiano pone en duda el esfuerzo bélico. \n§YEtiopía§!: desbloquea el enfoque §YMediación internacional§!."
+ war_escalation_7_tt:2 "Nivel 7\n §YSociedad de Naciones§!: Etiopía puede solicitar una mediación internacional.\n§Y Italia§!: el pueblo italiano pone en duda el esfuerzo bélico. \n§YEtiopía§!: desbloquea el enfoque §YMediación internacional§!."
  war_escalation_8_tt:0 "Nivel 8\n §YEtiopía§!: deserciones enemigas.\n §YItalia§!: deserciones en masa."
  war_escalation_9_tt:1 "Nivel 9\n §YEtiopía§!: supervivencia contra todo pronóstico."
  war_escalation_10_tt:0 "Nivel 10\n §YEtiopía§!: guerra popular.\n §YItalia§!: protestas en las colonias."
@@ -387,8 +391,8 @@
  ITA_missiolini_stockpile_fuel_desc:1 "Un ejército moderno necesita, además de provisiones, combustible. Si se agota, la maquinaria de guerra encalla. Todo sector militar lo necesita, y debemos ser capaces de procurarlo en grandes cantidades si aspiramos a triunfar en batalla."
  ITA_missiolini_strengthen_the_airforce:0 "Fortalecer las fuerzas aéreas"
  ITA_missiolini_strengthen_the_airforce_desc:1 "La Aeronautica se ha convertido en un símbolo del orgullo patrio y una vez fue una de las mejores fuerzas aéreas del mundo. Debemos fabricar más aviones para reforzar nuestras fuerzas aéreas y devolverles su grandeza."
- ITA_missiolini_strengthen_the_airforce_fighters_goal_tt:0 "Ha producido o adquirido §Y[?ROOT.ITA_missiolinis_fighters_to_produce]§! aviones de tipo §Y$fighter_equipment$§! nuevos.\nCazas desplegados: §G[?ROOT.num_deployed_planes_with_type@fighter_equipment]§! - Cazas en reserva §G[?ROOT.num_equipment@fighter_equipment]§! - Objetivo total de cazas §Y[?ITA_missiolinis_fighters_goal]§!\n\n"
- ITA_missiolini_strengthen_the_airforce_bombers_goal_tt:0 "Ha producido o adquirido §Y[?ROOT.ITA_missiolinis_bombers_to_produce]§! aviones de tipo §Y$CAS_equipment$§!, §Y$nav_bomber_equipment$§! o §Y$tac_bomber_equipment$§! nuevos (solo de un tipo).\nAAC desplegados: §G[?ROOT.num_deployed_planes_with_type@CAS_equipment]§! - AAC en reserva §G[?ROOT.num_equipment@CAS_equipment]§! - Objetivo total de AAC §Y[?ITA_missiolinis_cas_goal]§!\nBombarderos navales desplegados: §G[?ROOT.num_deployed_planes_with_type@nav_bomber_equipment]§! - Bombarderos navales en reserva §G[?ROOT.num_equipment@nav_bomber_equipment]§! - Objetivo total de bombarderos navales §Y[?ITA_missiolinis_naval_bombers_goal]§!\nBombarderos tácticos desplegados: §G[?ROOT.num_deployed_planes_with_type@tac_bomber_equipment]§! - Bombarderos tácticos en reserva §G[?ROOT.num_equipment@tac_bomber_equipment]§! - Objetivo total de bombarderos tácticos §Y[?ITA_missiolinis_tactical_bombers_goal]§!"
+ ITA_missiolini_strengthen_the_airforce_fighters_goal_tt:1 "Ha producido o adquirido §Y[?ROOT.ITA_missiolinis_fighters_to_produce]§! aviones de tipo §Y$fighter_equipment$§! nuevos.\nCazas desplegados: §G[?ROOT.num_deployed_planes_with_type@small_plane_airframe]§! - Cazas en reserva §G[?ROOT.num_equipment@small_plane_airframe]§! - Objetivo total de cazas §Y[?ITA_missiolinis_fighters_goal]§! \n\n"
+ ITA_missiolini_strengthen_the_airforce_bombers_goal_tt:1 "Ha producido o adquirido §Y[?ROOT.ITA_missiolinis_bombers_to_produce]§! aviones de tipo §Y$CAS_equipment$§!, §Y$nav_bomber_equipment$§! o §Y$tac_bomber_equipment$§! nuevos (solo de un tipo).\nAAC desplegados: §G[?ROOT.num_deployed_planes_with_type@small_plane_cas_airframe]§! - AAC en reserva §G[?ROOT.num_equipment@small_plane_cas_airframe]§! - Objetivo total de AAC §Y[?ITA_missiolinis_cas_goal]§!\nBombarderos navales desplegados: §G[?ROOT.num_deployed_planes_with_type@small_plane_naval_bomber_airframe]§! - Bombarderos navales en reserva §G[?ROOT.num_equipment@small_plane_naval_bomber_airframe]§! - Objetivo total de bombarderos navales §Y[?ITA_missiolinis_naval_bombers_goal]§! \nBombarderos tácticos desplegados: §G[?ROOT.num_deployed_planes_with_type@medium_plane_airframe]§! - Bombarderos tácticos en reserva §G[?ROOT.num_equipment@medium_plane_airframe]§! - Objetivo total de bombarderos tácticos §Y[?ITA_missiolinis_tactical_bombers_goal]§!"
  ITA_missiolini_industrial_research:0 "Investigación industrial"
  ITA_missiolini_industrial_research_desc:1 "Debemos mostrar al mundo la velocidad a la que el fascismo y el pueblo italiano pueden realizar grandes avances tecnológicos."
  ITA_missiolini_expand_intelligence_agency:0 "Ampliar servicio de inteligencia"
@@ -478,6 +482,7 @@
  ITA_give_the_dodecanese_islands_to_turkey_for_an_alliance:0 "Ofrecer el Dodecaneso a [TUR.GetNameDef] a cambio de una alianza"
 
  ITA_human_torpedo_raid:0 "Incursión con torpedos humanos"
+ ITA_human_torpedo_raid_trigger_tt:0 "Tiene al menos un §Ybuque capital§! o §Ybarco pantalla§! atracado en una $naval_base$"
  
  develop_tripoli_oil_fields:0 "Desarrollar campos petrolíferos en Trípoli"
  develop_tripoli_steel_deposits:0 "Desarrollar depósitos de acero en Trípoli"
@@ -640,8 +645,7 @@
  SWI_in_breach_of_neutrality:0 "Incumplimiento de la neutralidad"
 
  SWI_concessions_to_fascists:0 "Concesiones al partido [FROM.GetRulingIdeology] [ROOT.GetAdjective]"
- SWI_concessions_to_monarchists:0 "Concesiones al partido monárquico [ROOT.GetAdjective]"
- SWI_cancel_trade_agreement_prematurely:0 "Cancelar prematuramente el acuerdo comercial"
+ SWI_concessions_to_monarchists:1 "Concesiones al partido monárquico [FROM.GetAdjective]"
  SWI_concessions_to_communists:0 "Concesiones al partido [FROM.GetRulingIdeology] [ROOT.GetAdjective]"
  SWI_concessions_to_democrats:0 "Concesiones al partido [FROM.GetRulingIdeology] [ROOT.GetAdjective]"
  SWI_concessions_to_fascists_desc:0 "[SWI_concessions_to_political_party_desc]"
@@ -649,6 +653,7 @@
  SWI_concessions_to_communists_desc:0 "[SWI_concessions_to_political_party_desc]"
  SWI_concessions_to_democrats_desc:0 "[SWI_concessions_to_political_party_desc]"
  SWI_concessions_to_political_party_desc:0 "Nuestra dura posición hacia el [FROM.GetRulingIdeology] [ROOT.GetAdjective] podría irritar al gobierno [FROM.GetAdjective] y provocar un incidente diplomático o, peor aún, una invasión. Tal vez sea hora de suavizar nuestra postura ante la ideología [FROM.GetRulingIdeologyNoun]."
+ SWI_cancel_trade_agreement_prematurely:0 "Cancelar prematuramente el acuerdo comercial"
  SWI_weapons_production_for_civilian_supplies:0 "Cambiar piezas de armas por suministros"
  SWI_weapons_production_for_civilian_supplies_desc:0 "Con la disminución de los suministros, no tenemos más remedio que permitir que parte de nuestra industria militar fabrique piezas para la máquina de guerra [FROM.GetAdjective]. De esta manera, al menos obtendremos suministros para los civiles y tal vez logremos disuadir a [FROM.GetNameDef] de invadir [ROOT.GetName]."
  SWI_country_angry_mission:0 "[SWI_get_country_angry_mission_title]"
@@ -774,7 +779,7 @@
  SWI_buy_ships_USA:0 "Comprar destructores antiguos [USA.GetAdjective]"
  SWI_buy_ships_from_country_generic:0 "Comprar buques viejos del país"
  SWI_basic_council_TT:0 "\n\nLos tres §Yconsejeros políticos§! asignados se convierten en §Yconsejeros principales§! y, todos los años, se puede elegir a uno de ellos como §Ypresidente de la confederación§!, lo que desbloquea una decisión especial. §RNo debe quedar ningún puesto de consejero político vacante porque, de lo contrario, se aplicarán penalizaciones al país.§!"
-
+ SWI_research_slot_tooltip:0 "Al llegar a la §Ypresidencia de la confederación§!, desbloqueará la decisión §Y$SWI_expand_arms_industry$§!, que otorga una §Granura de investigación§! adicional"
 
  ##########  Balance of Power - Council/Cantons   ###############
 
@@ -810,7 +815,7 @@
  SWI_support_for_militias_desc:0 "Podemos reforzar nuestras milicias proporcionándoles un amplio apoyo para que sean más flexibles y resistentes."
  SWI_president_gave_MR_speech:0 "El presidente actual ha alentado a las milicias ciudadanas"
  SWI_broaden_militias:0 "Desplegar milicias"
- SWI_building_up_military_readiness_mission:0 "Acrecentar la disposición del ejército £GFX_SWI_military_readiness_text_icon "
+ SWI_building_up_military_readiness_mission:1 "Acrecentar la disposición del ejército £GFX_SWI_military_readiness_text_icon "
  SWI_building_up_military_readiness_mission_desc:0 "Estamos dirigiendo a nuestra nación hacia los preparativos para la defensa de [ROOT.GetName]. Se venden bonos de defensa, los ciudadanos se entrenan en casa, las asociaciones organizan escuelas y las empresas realizan simulacros. Debemos estar preparados a toda costa."
  SWI_building_up_mr_cont_focus_active:0 "El enfoque continuo $SWI_build_up_military_readiness$ está activo"
 
@@ -826,7 +831,7 @@
  SWI_decision_cost_max_MR_blocked:1 "£GFX_SWI_military_readiness_text_icon §R[?ROOT.SWI_mr_max_amount]§!"
  SWI_decision_cost_total_MR:1 "£GFX_SWI_military_readiness_text_icon [?ROOT.SWI_military_readiness]"
  SWI_decision_cost_total_MR_blocked:0 "£GFX_SWI_military_readiness_text_icon §R[?ROOT.SWI_military_readiness]§!"
- SWI_decision_add_var_MR:0 "Aumenta la £GFX_SWI_military_readiness_text_icon §Ydisposición del ejército§! en §G+$RIGHT|0$§! "
+ SWI_decision_add_var_MR:0 "Aumenta la £GFX_SWI_military_readiness_text_icon §Ydisposición del ejército§! en §G+$RIGHT|0$§!"
  SWI_decision_add_low_medium_MR:1 "Aumenta la £GFX_SWI_military_readiness_text_icon §Ydisposición del ejército§! en §G+[?ROOT.SWI_mr_low_medium_amount]§!"
  SWI_decision_add_medium_MR:1 "Aumenta la £GFX_SWI_military_readiness_text_icon §Ydisposición del ejército§! en §G+[?ROOT.SWI_mr_medium_amount]§!"
  SWI_decision_add_high_MR:1 "Aumenta la £GFX_SWI_military_readiness_text_icon §Ydisposición del ejército§! en §G+[?ROOT.SWI_mr_high_amount]§!"

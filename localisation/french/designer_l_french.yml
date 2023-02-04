@@ -192,6 +192,14 @@
  EQUIPMENT_DESIGNER_WEIGHT_EXCEEDS_THRUST_FOR_MISSIONS:0 "§RPour ces missions, le poids excède la poussée :§!"
  EQUIPMENT_DESIGNER_PLANE_ROLE_REQUIRE_WEAPON:0 "§RAjouter un armement principal§!"
 
+ # Specialized names can be provided by appending the archetype/hull token. These will take priority if available. E.g.
+ #ship_designer_screen_ship_hull_cruiser: "Light Cruiser"
+ #ship_designer_capital_ship_ship_hull_cruiser: "Heavy Cruiser"
+ ship_designer_submarine:0 "$EQUIPMENT_SUBMARINE$"
+ ship_designer_capital_ship:0 "$EQUIPMENT_CAPITAL_SHIP$"
+ ship_designer_screen:0 "$EQUIPMENT_SCREEN$"
+ ship_designer_carrier:0 "$EQUIPMENT_CARRIER$"
+
  tank_designer_light_tank_chassis:0 "Char léger"
  tank_designer_light_tank_chassis_role_disallowed:0 "Pour passer au rôle de §Hchar léger§!, retirer au préalable le composant qui l'interdit."
  tank_designer_medium_tank_chassis:0 "Char moyen"
@@ -318,7 +326,7 @@ l_french:
  EQUIPMENT_MODULE_MISSING_DIRECT_REQUIREMENT_HEADER:1 "§R$CATEGORY|H$ requiert :§!"
  EQUIPMENT_MODULE_MISSING_DIRECT_REQUIREMENT_ENTRY:1 "– $MODULE|H$ dans un emplacement de $SLOT|H$"
  EQUIPMENT_MODULE_CATEGORY_NOT_ALLOWED:1 "§RLes composants de la catégorie $CATEGORY|lH$ ne sont pas autorisés aux emplacements de $SLOT|lH$.§!"
- # [LocEditor:UntranslatedKey] `EQUIPMENT_MODULE_CATEGORY_NOT_ALLOWED_BY_MODULE`
+ EQUIPMENT_MODULE_CATEGORY_NOT_ALLOWED_BY_MODULE:0 "§RLe composant $MODULE|H$ interdit ceux de la catégorie $CATEGORY|H$§!.\n\n"
  EQUIPMENT_MODULE_CATEGORY_BLOCKED_BY:0 "§RLes composants de la catégorie $CATEGORY|H$ sont bloqués par $BLOCKING|H$§!"
  EQUIPMENT_MODULE_CATEGORY_WOULD_BLOCK:0 "§RBloquerait des composants actuels : $BLOCK|H$§!"
  DESIGNER_COMPOSITION_VALUE:0 "$TYPE$ : $VALUE|%1Y$\n"

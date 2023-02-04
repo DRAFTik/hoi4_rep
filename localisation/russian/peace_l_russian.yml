@@ -166,7 +166,7 @@
  PEACE_CONFERENCE_OVERLAPPING_SELECTED_ACTION:1 "§RНельзя выбрать§!, т. к. у вас уже есть неотправленное требование в этом регионе. Отмените его, если хотите выбрать это требование."
  PEACE_CONFERENCE_TOO_EXPENSIVE_ACTION:0 "§RНельзя выбрать§!, т. к. это требование слишком дорого."
  NEW_PEACE_CONFERENCE:0 "§RНОВАЯ МИРНАЯ КОНФЕРЕНЦИЯ§!"
- WAIT_END_TURN:0 "Подождите"
+ WAIT_END_TURN:1 "Размышления"
  PEACE_BIDDINGS_POPUP_CONTESTED_TITLE:1 "Оспариваемые требования"
  PEACE_BIDDINGS_POPUP_SELECTED_TITLE:1 "Неотправленные требования"
  PEACE_BIDDINGS_POPUP_DESCRIPTION:1 "Ваше требование ($BIDNAME|Y$) было £peace_conf_icons|3 §Rоспорено§!, так как на эту территорию претендует другая держава. Предъявите новое требование, чтобы сохранить притязания на территорию, или откажитесь от них.\n\nОспоренные претензии не считаются входящими в список ваших требований. Если вы не обновите это требование, оно не будет включено в список удовлетворенных требований."
@@ -268,6 +268,7 @@
  PEACE_CONFERENCE_BID_WILL_RESULT_IN_CONFLICT:0 "Выдвижение этого требования приведет к £peace_conf_icons|3 §Rоспариванию§! требований."
  PEACE_CONFERENCE_BID_WILL_PULL_BACK_PLAYER:0 "Этот игрок £accept_decline_icon|2 покинул конференцию. Если выставить это требование, он будет возвращен."
  PEACE_CONFERENCE_SELECT_A_VICTOR:0 "Выберите победителя, чтобы увидеть его точку зрения"
+ TRIGGER_PC_CURRENT_TURN:0 "Текущий ход"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  PEACE_FILTER_DEMANDS_CHOICE:0 "Текущее действие: $ACTION|Y$"

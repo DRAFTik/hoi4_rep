@@ -362,7 +362,7 @@
  armored_car_desc:0 ""
  engineer:0 "Engenheiros"
  engineer_desc:0 "Construções de fortificações e rompimento de obstáculos fazem com que os engenheiros de combate sejam vitais no campo de batalha. Dar versatilidade aos nossos engenheiros permitirá que os implantemos em diversas situações onde sejam necessários."
- field_hospital:0 "Hospital de campo"
+ field_hospital:0 "Hospital de campanha"
  field_hospital_desc:0 "Fornece atendimento médico de emergência a soldados feridos no campo de batalha."
  logistics_company:0 "Companhia de logística"
  logistics_company_desc:0 "Lida com o planejamento, solicitação e distribuição de recursos para a divisão."

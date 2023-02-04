@@ -2,7 +2,7 @@
 
  BOP_TOOLTIP:1 "§Y[root.GetPowerBalanceName]§! jest obecnie w [?.root.power_balance_value|0%H] po stronie: §Y[root.GetActiveSideName]§!"
  BOP_TOOLTIP_TREND:0 "Równowaga sił przechyla się obecnie na korzyść strony: §Y[root.GetTrendingSideName]§! o [root.GetBopTrendTextIcon][root.GetChangeRateDesc].\n[root.GetPowerBalanceModDesc]"
- BOP_TOOLTIP_STABLE:0 "Równowaga sił pozostaje stabilna."
+ BOP_TOOLTIP_STABLE:1 "Równowaga sił pozostaje stabilna."
  BOP_LEFT_SIDE_TOOLTIP:0 "[root.GetLeftSideName]"
  BOP_RIGHT_SIDE_TOOLTIP:0 "[root.GetRightSideName]"
  BOP_ACTIVE_RANGE_DESC:0 "[root.GetActiveRangeName]"
@@ -52,6 +52,10 @@
  # Ethiopia Static Modifiers 
  ETH_withdraw_priviliges_power_balance:0 "Mniejsze przywileje Mesafinta"
  ETH_increase_priviliges_power_balance:0 "Większe przywileje Mesafinta"
+ ETH_increase_communist_power_balance:0 "Rosnące poparcie dla komunizmu"
+ ETH_increase_anarchist_power_balance:0 "Rosnące poparcie dla anarchizmu"
+ ETH_bop_anarchist_communist_changed:0 "Mniej niż rok od rozpoczęcia kampanii poparcia."
+ ETH_bop_anarchist_privileges_changed:0 "Mniej niż rok od rozpoczęcia kampanii poparcia."
  ETH_mesafint_side:0 "Stronnictwo §YMesafint§!"
  ETH_mekwanint_side:0 "§YStronnictwa Mekwaninta§!"
 
@@ -95,7 +99,7 @@
 
  ####### ITALY #######
  ITA_power_balance:0 "Krajowa równowaga sił"
- ITA_grand_council_side:0 "$ITA_grand_council$"
+ ITA_grand_council_side:1 "[GetGrandCouncilName]"
  ITA_mussolini_side:0 "$ITA_benito_mussolini$"
  ITA_balbo_side:0 "$ITA_italo_balbo$"
  ITA_grandi_side:0 "$ITA_dino_grandi$"
@@ -142,6 +146,7 @@
  ITA_pope_medium_control_range:0 "Znaczne wpływy papiestwa"
  ITA_pope_high_control_range:0 "Dominacja papiestwa"
  ITA_pope_total_control_range:0 "Panowanie papieża"
+ ITA_bop_cap_for_colonies_impact_tt:0 "Utrata regionów innych niż narodowe nie będzie już wpływać na równowagę sił, gdy wartość wynosi więcej niż §Y30%§! na korzyść: §Y$ITA_grand_council_side$§!."
 
  ITA_power_balance_lost_core_1:0 "Utracone prowincje narodowe"
  ITA_power_balance_lost_core_2:0 "$ITA_power_balance_lost_core_1$"

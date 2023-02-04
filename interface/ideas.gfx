@@ -3724,28 +3724,28 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_man_low_legitimacy5"
-		texturefile = "gfx/interface/ideas/idea_man_low_legitimacy5.dds"
+		name = "GFX_idea_man_legitimacy_35"
+		texturefile = "gfx/interface/ideas/idea_man_legitimacy_35.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_man_low_legitimacy4"
-		texturefile = "gfx/interface/ideas/idea_man_low_legitimacy4.dds"
+		name = "GFX_idea_man_legitimacy_34"
+		texturefile = "gfx/interface/ideas/idea_man_legitimacy_34.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_man_low_legitimacy3"
-		texturefile = "gfx/interface/ideas/idea_man_low_legitimacy3.dds"
+		name = "GFX_idea_man_legitimacy_33"
+		texturefile = "gfx/interface/ideas/idea_man_legitimacy_33.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_man_low_legitimacy2"
-		texturefile = "gfx/interface/ideas/idea_man_low_legitimacy2.dds"
+		name = "GFX_idea_man_legitimacy_32"
+		texturefile = "gfx/interface/ideas/idea_man_legitimacy_32.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_man_low_legitimacy"
-		texturefile = "gfx/interface/ideas/idea_man_low_legitimacy.dds"
+		name = "GFX_idea_man_legitimacy_3"
+		texturefile = "gfx/interface/ideas/idea_man_legitimacy_3.dds"
 	}
 	
 	spriteType = {

@@ -166,7 +166,7 @@
  PEACE_CONFERENCE_OVERLAPPING_SELECTED_ACTION:1 "§RNão é possível selecionar§!, porque você já possui uma Exigência neste estado que não foi enviada. Cancele-a primeiro para selecionar outra."
  PEACE_CONFERENCE_TOO_EXPENSIVE_ACTION:0 "§RNão é possível selecionar§!, porque a Exigência é cara demais."
  NEW_PEACE_CONFERENCE:0 "§RNOVA CONF DE PAZ§!"
- WAIT_END_TURN:0 "Aguarde"
+ WAIT_END_TURN:1 "Deliberando"
  PEACE_BIDDINGS_POPUP_CONTESTED_TITLE:1 "Ofertas contestadas"
  PEACE_BIDDINGS_POPUP_SELECTED_TITLE:1 "Ofertas não enviadas"
  PEACE_BIDDINGS_POPUP_DESCRIPTION:1 "Sua oferta por $BIDNAME|Y$ foi £peace_conf_icons|3 §Rcontestada§!, pois outra nação fez uma oferta ao mesmo território. Faça outra oferta no território contestado para mantê-la ou desista para deixar de acompanhar.\n\nOfertas contestadas não contam entre as já feitas por você. Caso não faça outra oferta, ela não será adicionada às concluídas."
@@ -268,6 +268,7 @@
  PEACE_CONFERENCE_BID_WILL_RESULT_IN_CONFLICT:0 "Enviar essa Exigência resultará em £peace_conf_icons|3 Exigências §Rcontestadas§!."
  PEACE_CONFERENCE_BID_WILL_PULL_BACK_PLAYER:0 "Este jogador £accept_decline_icon|2 saiu da conferência. Enviar essa Exigência o trará de volta."
  PEACE_CONFERENCE_SELECT_A_VICTOR:0 "Selecione um vencedor para ver seu ponto de vista"
+ TRIGGER_PC_CURRENT_TURN:0 "Turno atual"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  PEACE_CONFERENCE_PROVINCE_TOOLTIP:3 "$STATE|Y$ (£victory_points£ $COST$)"

@@ -408,7 +408,7 @@
  lar_decryption_bonus_tech_desc:0 "Nous allons bénéficier de §G+10§! en puissance de décryptage."
  OPERATIVE_RESUME_MISSION_AFTER_OPERATION_CHECKBOX_LABEL:0 "Reprendre la mission"
  OPERATIVE_RESUME_MISSION_AFTER_OPERATION_TOOLTIP:0 "Décide si l'agent reprendra la mission à laquelle il était affecté au moment où l'opération a commencé."
- OPERATIVE_RESUME_MISSION_AFTER_OPERATION_INDICATOR_TOOLTIP:0 "Cet agent reprendre la mission à laquelle il était affecté lorsque l'opération a débuté."
+ OPERATIVE_RESUME_MISSION_AFTER_OPERATION_INDICATOR_TOOLTIP:0 "Cet agent va reprendre la mission à laquelle il était affecté lorsque l'opération a débuté."
  OPERATIVE_DISBAND_TITLE:0 "Renvoi d'un agent"
  OPERATIVE_DISBAND_DESC:0 "Voulez-vous vraiment §Rrenvoyer§! cet agent ? En recruter un nouveau à sa place va demander du temps."
 

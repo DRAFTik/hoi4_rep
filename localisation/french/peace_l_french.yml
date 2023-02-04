@@ -166,7 +166,7 @@
  PEACE_CONFERENCE_OVERLAPPING_SELECTED_ACTION:1 "§RImpossible§! : nous avons déjà une demande non soumise sur cet État. Il faut l'annuler avant de pouvoir choisir celle-ci."
  PEACE_CONFERENCE_TOO_EXPENSIVE_ACTION:0 "§RImpossible§! : cette demande est trop coûteuse."
  NEW_PEACE_CONFERENCE:0 "§RNOUVELLE CONF. DE PAIX§!"
- WAIT_END_TURN:0 "Attendre"
+ WAIT_END_TURN:1 "Délibération"
  PEACE_BIDDINGS_POPUP_CONTESTED_TITLE:1 "Demandes contestées"
  PEACE_BIDDINGS_POPUP_SELECTED_TITLE:1 "Demandes non soumises"
  PEACE_BIDDINGS_POPUP_DESCRIPTION:1 "Notre demande de $BIDNAME|Y$ a été £peace_conf_icons|3£§Rcontestée§! : un autre pays exige le même territoire. Nous devons faire une autre demande sur le territoire contesté pour continuer de le réclamer, ou renoncer pour qu'elle ne soit plus décomptée.\n\nLes demandes contestées ne sont pas incluses dans les demandes déjà soumises et décomptées. Si nous ne poussons pas à nouveau la demande, elle ne sera pas incluse dans les demandes achevées."
@@ -268,6 +268,7 @@
  PEACE_CONFERENCE_BID_WILL_RESULT_IN_CONFLICT:0 "Soumettre cette demande va créer une £peace_conf_icons|3£§Rdemande contestée§!."
  PEACE_CONFERENCE_BID_WILL_PULL_BACK_PLAYER:0 "Ce joueur a £accept_decline_icon|2£quitté la conférence. Soumettre cette demande va l'y faire revenir."
  PEACE_CONFERENCE_SELECT_A_VICTOR:0 "Sélectionner un vainqueur pour voir son point de vue."
+ TRIGGER_PC_CURRENT_TURN:0 "Tour actuel"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  PEACE_CONFERENCE_PROVINCE_TOOLTIP:2 "$STATE|Y$ ($COST$£victory_points£)"

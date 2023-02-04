@@ -392,6 +392,8 @@
  CARRIER_PLANE_SCREEN_DETAIL:0 "Unsere Trägerflugzeuge können helfen, $NUM|.0H$ Schiffen Geleit zu geben, und geben aktuell $NUM_2|.0H$ Schiffen Geleit."
  CARRIER_PLANE_SCREEN_DESC:0 "Unsere Trägerflugzeuge schränken ein, wie frei der Feind sich bewegen kann, und helfen daher allen unseren Geleitbemühungen."
  POSITIONING_CARRIER_RATIO_PENALTY:0 "Mehr feindliche Trägerflugzeuge: $NUM|+%$"
+ COMBAT_LOG_FRIENDLY:0 "Befreundete Truppen"
+ COMBAT_LOG_ENEMY:0 "Feindliche Truppen"
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===

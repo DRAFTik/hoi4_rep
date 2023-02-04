@@ -48,6 +48,7 @@
  alert_pick_new_idea_delayed:1 "§TPuedes cambiar:§!"
  alert_pick_new_idea_delayed_bop:0 "§TEquilibrio de poder:§!"
  alert_pick_new_idea_group_type:0 "$TYPE|H$"
+ alert_pick_new_idea_advisor_delayed:0 "Puedes seleccionar:\n$ADVISOR|Y$\n"
  alert_available_wargoal_instant:0 "§HObjetivo de guerra disponible§!"
  alert_enemy_generate_wargoal_instant:0 "§HSe han fabricado objetivos de guerra contra nosotros o aliados§!"
  alert_faction_generate_wargoal_instant:0 "§HHay miembros de facción fabricando objetivos de guerra§!"

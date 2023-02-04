@@ -215,7 +215,7 @@
  medium_tank_amphibious_chassis_3:0 "発展型中戦車車台（水陸両用）"
  medium_tank_amphibious_equipment_0:0 "戦間期型水陸両用中戦車"
  basic_medium_tank_chassis:0 "基本型中戦車車台"
- basic_medium_tank_chassis_short:0 "1934年型中戦車"
+ basic_medium_tank_chassis_short:0 "1938年型中戦車"
  basic_medium_tank_chassis_desc:0 "これまでの機械化編制の基幹を担ってきた軽戦車であるが、その成長性はほぼ枯渇していることが明白となりつつある。将来的には、高機動性を維持したまま、より大型化した車両が必要になるであろう。"
  improved_medium_tank_chassis:0 "改良型中戦車車台"
  improved_medium_tank_chassis_short:1 "1940年型中戦車"

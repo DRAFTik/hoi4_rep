@@ -948,6 +948,8 @@
  develop_eastern_desert_oil_fields:0 "Desarrollar campos petrolíferos de Ras Gharib"
  develop_qatar_oil_fields:0 "Desarrollar campos petrolíferos de Dukhan"
  burma_road_expansion_tt:0 "Ha completado §YLa carretera de Birmania§!, el enfoque §YCarretera de Birmania§!, está en una facción o es súbdito de un país que lo ha hecho." #NOTE: these are names of uk_burma_focus and CHI_burma_road
+ develop_transdanubia_aluminium_deposits:0 "Desarrollar depósitos de bauxita en Transdanubia"
+ develop_derna_oilfield:0 "Aprovechar los yacimientos petrolíferos de Derna"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  pepare_for_fascist_civil_war:0 "Prepararse para la guerra civil"

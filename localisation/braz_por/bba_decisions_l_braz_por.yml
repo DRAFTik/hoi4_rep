@@ -10,6 +10,10 @@
  ETH_bop_increase_the_power_of_the_mekwanint:0 "Aumentar o Poder do Mekwanint"
  ETH_bop_increase_the_power_of_the_mekwanint_desc:1 "Os ministros nomeados precisam ter mais poder sobre assuntos locais. Devemos trabalhar para passar o poder do Mesafint ao Mekwanint, movendo gradativamente o controle ao governo central e para [ROOT.GetLeader]. É claro que os Ras não vão gostar disso, mas é o necessário para que [ROOT.GetNameDef] se torne uma nação forte."
  ETH_bop_privileges_changed:0 " Menos de um ano desde a última mudança de privilégios"
+ ETH_bop_increase_anarchist_influence:0 "Aumentar o apoio aos Anarquistas"
+ ETH_bop_increase_communist_influence:0 "Aumentar o apoio aos Comunistas"
+ ETH_bop_increase_anarchist_influence_desc:0 "Precisamos garantir que os anarquistas tenham influência o bastante para impedir que um governo central volte a cercear os direitos do povo. Devemos começar uma campanha de propaganda para reforçar o apoio da população à nossa causa. "
+ ETH_bop_increase_communist_influence_desc:0 "Precisamos garantir que os comunistas tenham controle sobre as decisões tomadas pelo governo central. Devemos começar uma campanha de propaganda para reforçar o apoio da população à nossa causa antes que a nação desmorone."
 
 # Decisions Menu
  ETH_placeholder_political_category:0 "PLACEHOLDER - A SER REMOVIDO"
@@ -23,7 +27,7 @@
  war_escalation_4_tt:1 "Nível 4\n §YLiga das Nações§!: Etiópia pode solicitar armas.\n §YItália§!: Povo italiano preocupado \n §YEtiópia§!: Foco §YCompra de Armas§! desbloqueado."
  war_escalation_5_tt:1 "Nível 5\n §YLiga das Nações§!: Etiópia pode solicitar fechamento de Suez.\n §YItália§!: Exército da África abalado \n §YEtiópia§!: Foco §YFechando o Suez§! desbloqueado"
  war_escalation_6_tt:1 "Nível 6 \n §YLiga das Nações§!: Etiópia pode solicitar brigadas internacionais.\n §YEtiópia§!: Moral do exército elevado, foco §YBrigadas Internacionais§! desbloqueado.\n §YItália§!: Agitação nas colônias"
- war_escalation_7_tt:1 "Nível 7\n §YLiga das Nações§!: Etiópia pode solicitar mediação internacional.\n§Y Itália§!: Povo italiano questiona os esforços de guerra \n§YEtiópia§!: Foco §YMediação Internacional§! desbloqueado."
+ war_escalation_7_tt:2 "Nível 7\n §YLiga das Nações§!: Etiópia pode solicitar mediação internacional.\n§Y Itália§!: Povo italiano questiona os esforços de guerra \n§YEtiópia§!: Foco §YMediação Internacional§! desbloqueado."
  war_escalation_8_tt:0 "Nível 8\n §YEtiópia§!: Deserções inimigas\n §YItália§!: Deserções em massa"
  war_escalation_9_tt:1 "Nível 9\n §YEtiópia§!: Sobrevivência totalmente inesperada"
  war_escalation_10_tt:0 "Nível 10\n §YEtiópia§!: A guerra do povo\n §YItália§!: Alvoroço nas colônias"
@@ -124,7 +128,7 @@
  ITA_war_escalation_inc_tt:0 "Escalada da guerra aumenta em §R1§!"
  ITA_war_deescalation_inc_tt:0 "A escalada da guerra diminui em §G1§!"
  ETH_hold_the_south_mission:0 "Defender o Sul"
- ETH_hold_the_south_mission_desc:0 "O fronte do Sul esteve quieto até agora, mas com certeza os italianos estão se preparando para lançar outra ofensiva a partir de suas propriedades no sul. Temos que resistir e mostrar ao mundo que as reivindicações vomitadas por eles e seus fantoches da Somália são ilegítimas."
+ ETH_hold_the_south_mission_desc:0 "A frente Sul esteve quieta até agora, mas com certeza os italianos estão se preparando para lançar outra ofensiva a partir de suas propriedades no sul. Temos que resistir e mostrar ao mundo que as reivindicações vomitadas por eles e seus fantoches da Somália são ilegítimas."
  ETH_hold_the_south_mission_success:0 "\n[ETH.GetName] conseguiu defender o Sul (+1) £trigger_yes\n"
  ITA_conquer_the_south_mission:0 "Conquistar o Sul da Etiópia"
  ITA_conquer_the_south_mission_desc:0 "Os etíopes provavelmente não esperam um ataque vindo do sul. Precisamos desmoralizar o exército deles e diminuir o apoio da Liga das Nações, capturando rapidamente [837.GetName] e [836.GetName]."
@@ -387,8 +391,8 @@
  ITA_missiolini_stockpile_fuel_desc:1 "Um exército moderno não só "marcha sobre seu estômago", mas também depende de combustível para que a máquina de guerra continue em pé. Isso é necessário a todas as ramificações do exército e precisamos melhorar nosso fornecimento de gasolina em grandes quantidades para triunfarmos nos campos de batalha."
  ITA_missiolini_strengthen_the_airforce:0 "Fortalecer a Força Aérea"
  ITA_missiolini_strengthen_the_airforce_desc:1 "A Aeronautica se tornou um símbolo do orgulho nacional e era uma das grandes forças aéreas mundiais. Precisamos produzir aeronaves adicionais para reforçar nossa força aérea e torná-la grandiosa novamente."
- ITA_missiolini_strengthen_the_airforce_fighters_goal_tt:0 "Produziu ou adquiriu §Y[?ROOT.ITA_missiolinis_fighters_to_produce]§! nova aeronave §Y$fighter_equipment$§!. \nCaças atualmente implantados: §G[?ROOT.num_deployed_planes_with_type@fighter_equipment]§! - Caças atualmente na reserva §G[?ROOT.num_equipment@fighter_equipment]§! - Objetivo Total de Caças §Y[?ITA_missiolinis_fighters_goal]§! \n\n"
- ITA_missiolini_strengthen_the_airforce_bombers_goal_tt:0 "Produziu ou adquiriu §Y[?ROOT.ITA_missiolinis_bombers_to_produce]§! aeronave de §Y$CAS_equipment$§!, §Y$nav_bomber_equipment$§! ou §Y$tac_bomber_equipment$§! (somente um tipo). \nCAS implantado atualmente: §G[?ROOT.num_deployed_planes_with_type@CAS_equipment]§! - CAS atualmente na reserva §G[?ROOT.num_equipment@CAS_equipment]§! - Objetivo Total de CAS §Y[?ITA_missiolinis_cas_goal]§! \nBombardeiros Navais atualmente implantados: §G[?ROOT.num_deployed_planes_with_type@nav_bomber_equipment]§! - Bombardeiros Navais atualmente na reserva §G[?ROOT.num_equipment@nav_bomber_equipment]§! - Objetivo Total de Bombardeiros Navais §Y[?ITA_missiolinis_naval_bombers_goal]§! \nBombardeiros Táticos atualmente implantados: §G[?ROOT.num_deployed_planes_with_type@tac_bomber_equipment]§! - Bombardeiros Táticos atualmente na reserva §G[?ROOT.num_equipment@tac_bomber_equipment]§! - Objetivo Total de Bombardeiros Táticos §Y[?ITA_missiolinis_tactical_bombers_goal]§!"
+ ITA_missiolini_strengthen_the_airforce_fighters_goal_tt:1 "Produziu ou adquiriu §Y[?ROOT.ITA_missiolinis_fighters_to_produce]§! novas aeronaves de §Y$fighter_equipment$§!. \nCaças atualmente implantados: §G[?ROOT.num_deployed_planes_with_type@small_plane_airframe]§! - Caças atualmente na reserva §G[?ROOT.num_equipment@small_plane_airframe]§! - Objetivo Total de Caças §Y[?ITA_missiolinis_fighters_goal]§! \n\n"
+ ITA_missiolini_strengthen_the_airforce_bombers_goal_tt:1 "Produziu ou adquiriu §Y[?ROOT.ITA_missiolinis_bombers_to_produce]§! novas aeronaves de §Y$CAS_equipment$§!, §Y$nav_bomber_equipment$§! ou §Y$tac_bomber_equipment$§! (somente um tipo). \nCAS atualmente implantados: §G[?ROOT.num_deployed_planes_with_type@small_plane_cas_airframe]§! - CAS atualmente na reserva §G[?ROOT.num_equipment@small_plane_cas_airframe]§! - Objetivo Total de CAS §Y[?ITA_missiolinis_cas_goal]§! \nBombardeiros Navais atualmente implantados: §G[?ROOT.num_deployed_planes_with_type@small_plane_naval_bomber_airframe]§! - Bombardeiros Navais atualmente na reserva §G[?ROOT.num_equipment@small_plane_naval_bomber_airframe]§! - Objetivo Total de Bombardeiros Navais §Y[?ITA_missiolinis_naval_bombers_goal]§! \nBombardeiros Táticos atualmente implantados: §G[?ROOT.num_deployed_planes_with_type@medium_plane_airframe]§! - Bombardeiros Táticos atualmente na reserva §G[?ROOT.num_equipment@medium_plane_airframe]§! - Objetivo Total de Bombardeiros Táticos §Y[?ITA_missiolinis_tactical_bombers_goal]§!"
  ITA_missiolini_industrial_research:0 "Pesquisa Industrial"
  ITA_missiolini_industrial_research_desc:1 "Devemos mostrar ao mundo a grande velocidade com que o fascismo e o povo italiano conseguem dar grandes saltos na tecnologia."
  ITA_missiolini_expand_intelligence_agency:0 "Expandir Serviço de Inteligência"
@@ -478,6 +482,7 @@
  ITA_give_the_dodecanese_islands_to_turkey_for_an_alliance:0 "Oferecer o Dodecaneso para [TUR.GetNameDef] em troca de uma aliança"
 
  ITA_human_torpedo_raid:0 "Ataque de Torpedo Humano"
+ ITA_human_torpedo_raid_trigger_tt:0 "Possui ao menos um §YNavio Capital§! ou §YNavio Tela§! ancorado em uma $naval_base$"
  
  develop_tripoli_oil_fields:0 "Desenvolver campos de petróleo de Trípoli"
  develop_tripoli_steel_deposits:0 "Desenvolver depósitos de aço de Trípoli"
@@ -640,8 +645,7 @@
  SWI_in_breach_of_neutrality:0 "Violação da neutralidade"
 
  SWI_concessions_to_fascists:0 "Concessões ao Partido [FROM.GetRulingIdeology] [ROOT.GetAdjective]"
- SWI_concessions_to_monarchists:0 "Concessões ao Partido Monarquista [ROOT.GetAdjective]"
- SWI_cancel_trade_agreement_prematurely:0 "Cancelar acordo comercial prematuramente"
+ SWI_concessions_to_monarchists:1 "Concessões ao Partido Monarquista [FROM.GetAdjective]"
  SWI_concessions_to_communists:0 "Concessões ao Partido [FROM.GetRulingIdeology] [ROOT.GetAdjective]"
  SWI_concessions_to_democrats:0 "Concessões ao Partido [FROM.GetRulingIdeology] [ROOT.GetAdjective]"
  SWI_concessions_to_fascists_desc:0 "[SWI_concessions_to_political_party_desc]"
@@ -649,6 +653,7 @@
  SWI_concessions_to_communists_desc:0 "[SWI_concessions_to_political_party_desc]"
  SWI_concessions_to_democrats_desc:0 "[SWI_concessions_to_political_party_desc]"
  SWI_concessions_to_political_party_desc:0 "Nossa posição agressiva em relação à ideologia [FROM.GetRulingIdeology] [ROOT.GetAdjective] pode alienar o povo [FROM.GetAdjective] e acabar provocando um incidente diplomático, ou pior, uma invasão. Talvez seja hora de repensar nossa posição em relação a essa ideologia."
+ SWI_cancel_trade_agreement_prematurely:0 "Cancelar acordo comercial prematuramente"
  SWI_weapons_production_for_civilian_supplies:0 "Trocar peças de Armas por Suprimentos"
  SWI_weapons_production_for_civilian_supplies_desc:0 "Com a diminuição dos suprimentos, não temos outra escolha a não ser permitir que parte da nossa indústria militar produza peças para a máquina de guerra [FROM.GetAdjective]. Assim, poderemos ao menos garantir alguns suprimentos civis e quem sabe dissuadir [FROM.GetNameDef] de invadir [ROOT.GetName]."
  SWI_country_angry_mission:0 "[SWI_get_country_angry_mission_title]"
@@ -774,7 +779,7 @@
  SWI_buy_ships_USA:0 "Comprar antigos Contratorpedeiros do governo [USA.GetAdjective]"
  SWI_buy_ships_from_country_generic:0 "Comprar navios antigos do país"
  SWI_basic_council_TT:0 "\n\nOs três §YConselheiros Políticos§! nomeados assumem as funções de §YPrincipais Conselheiros§! e, a cada ano, um deles pode ser escolhido como §YPresidente(a) da Confederação§!, desbloqueando uma decisão especial. §RAs posições de Conselheiro Político devem estar sempre ocupadas. Caso contrário, o país sofrerá penalidades.§!"
-
+ SWI_research_slot_tooltip:0 "Após promoção para §YPresidente(a) da Confederação§!, será desbloqueada a decisão §Y$SWI_expand_arms_industry$§!, que concede um §GEspaço de Pesquisa§! adicional"
 
  ##########  Balance of Power - Council/Cantons   ###############
 
@@ -810,7 +815,7 @@
  SWI_support_for_militias_desc:0 "Podemos fortalecer nossas milícias com amplo suporte, tornando-as mais flexíveis e resilientes."
  SWI_president_gave_MR_speech:0 "Presidente(a) atual incentivou milícias civis"
  SWI_broaden_militias:0 "Expandir milícias"
- SWI_building_up_military_readiness_mission:0 "Fortalecendo a Prontidão Militar£GFX_SWI_military_readiness_text_icon "
+ SWI_building_up_military_readiness_mission:1 "Fortalecendo a Prontidão Militar£GFX_SWI_military_readiness_text_icon "
  SWI_building_up_military_readiness_mission_desc:0 "Estamos guiando nossa nação rumo às preparações para defender [ROOT.GetName]. Títulos de defesa estão sendo vendidos, cidadãos estão treinando em suas casas, associações estão organizando escolas e empresas estão realizando exercícios. Devemos estar preparados a qualquer custo."
  SWI_building_up_mr_cont_focus_active:0 "O foco contínuo $SWI_build_up_military_readiness$ está ativo"
 
@@ -826,7 +831,7 @@
  SWI_decision_cost_max_MR_blocked:1 "Prontidão Militar §R[?ROOT.SWI_mr_max_amount]§!"
  SWI_decision_cost_total_MR:1 "Prontidão Militar [?ROOT.SWI_military_readiness]"
  SWI_decision_cost_total_MR_blocked:0 "£GFX_SWI_military_readiness_text_icon  §R[?ROOT.SWI_military_readiness]§!"
- SWI_decision_add_var_MR:0 "Aumenta a §YProntidão Militar§! em §G+$RIGHT|0$§!"
+ SWI_decision_add_var_MR:0 "Aumenta a £GFX_SWI_military_readiness_text_icon §YProntidão Militar§! em §G+$RIGHT|0$§!"
  SWI_decision_add_low_medium_MR:1 "Aumenta a §YProntidão Militar§! em §G+[?ROOT.SWI_mr_low_medium_amount]§!"
  SWI_decision_add_medium_MR:1 "Aumenta a §YProntidão Militar§! em §G+[?ROOT.SWI_mr_medium_amount]§!"
  SWI_decision_add_high_MR:1 "Aumenta a §YProntidão Militar§! em §G+[?ROOT.SWI_mr_high_amount]§!"

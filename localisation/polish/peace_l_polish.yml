@@ -166,7 +166,7 @@
  PEACE_CONFERENCE_OVERLAPPING_SELECTED_ACTION:1 "§RNie możesz wybrać§!, ponieważ już masz nieprzedstawione żądanie wobec tego regionu. Anuluj je, by móc wybrać to."
  PEACE_CONFERENCE_TOO_EXPENSIVE_ACTION:0 "§RNie możesz wybrać§!, ponieważ to żądanie jest zbyt drogie."
  NEW_PEACE_CONFERENCE:0 "§RNOWA KONFERENCJA POKOJOWA§!"
- WAIT_END_TURN:0 "Zaczekajmy"
+ WAIT_END_TURN:1 "Obrady"
  PEACE_BIDDINGS_POPUP_CONTESTED_TITLE:1 "Żądania sporne"
  PEACE_BIDDINGS_POPUP_SELECTED_TITLE:1 "Nieprzedstawione żądania"
  PEACE_BIDDINGS_POPUP_DESCRIPTION:1 "Twoje żądanie na $BIDNAME|Y$ jest £peace_conf_icons|3 §Rsporne§!, ponieważ inny kraj przedstawił żądanie dotyczące tego samego terytorium. Złóż kolejną ofertę, by zatrzymać to terytorium, lub zrezygnuj, by przestać je obserwować.\n\nSporne żądania nie liczą się do aktualnie przedstawionych przez ciebie żądań. Jeśli nie ponowisz tego żądania, nie zostanie ono dodane do twoich rozstrzygniętych żądań."
@@ -268,6 +268,7 @@
  PEACE_CONFERENCE_BID_WILL_RESULT_IN_CONFLICT:0 "Przedstawienie tego żądania spowoduje pojawienie się £peace_conf_icons|3 §Rspornych§! żądań."
  PEACE_CONFERENCE_BID_WILL_PULL_BACK_PLAYER:0 "Gracz £accept_decline_icon|2 opuszcza konferencję. Przedstawienie tego żądania przywoła go z powrotem."
  PEACE_CONFERENCE_SELECT_A_VICTOR:0 "Wybierz zwycięzcę, by poznać jego punkt widzenia"
+ TRIGGER_PC_CURRENT_TURN:0 "Aktualna tura"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  PEACE_FILTER_DEMANDS_CHOICE:0 "Aktualna akcja: $ACTION|Y$"

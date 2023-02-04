@@ -57,18 +57,18 @@
  achievement_race_for_germany:1 "フランス降伏後、ドイツの中核州が他国に奪われる前にドイツを征服する。"
  siberian_tiger_tt:0 "シベリアを形成する。"
  achievement_not_much_fun_in_stalingrad:1 "スターリングラードを占領しない、もしくはその州に部隊を置かずにソ連を降伏させる。"
- disarmed_and_demilitarized_rhineland_flag:0 "ラインラントは武装解除され、非武装化された。" # [LocEditor:ForFutureBatchExport]
- ITA_stalin_how_many_guns_achievement:0 "[ITA.GetFlag] §Y[ITA.GetNameDef]§! としてプレイし、ローマ法王がいて、[SOV.GetFlag] §Y[SOV.GetNameDef]§ 降伏する。" # [LocEditor:ForFutureBatchExport]
- ITA_pope_took_over_italy_flag:0 "ローマ法王が [ITA.GetFlag] §Y[ITA.GetNameDef]§!. 制圧した。" # [LocEditor:ForFutureBatchExport]
- form_roman_empire_flag:0 "[ITA.GetFlag] §Y[ITA.GetNameDefCap]§! が §YRoman Empire§! 成立した。" # [LocEditor:ForFutureBatchExport]
- ITA_joined_faction_with_literally_hitler_achievement_flag:0 "[ITA.GetFlag] §Y[ITA.GetNameDefCap]§! がファシスト §Y[GER.GetName]§! 組んだ事がある。" # [LocEditor:ForFutureBatchExport]
- AUS_annexed:0 "アンシュルスに成功した。" # [LocEditor:ForFutureBatchExport]
- field_promotion_achievement:0 "昇格した。" # [LocEditor:ForFutureBatchExport]
- you_get_a_canton_tt:0 "§Y24§! 以上の中核州を所有する。" # [LocEditor:ForFutureBatchExport]
- swi_declared_war_on_GER_achievement_flag:0 "[GER.GetFlag] §Y[GER.GetNameDef]§! に宣戦布告をした。" # [LocEditor:ForFutureBatchExport]
- swi_won_war_on_GER_achievement_flag:0 "[GER.GetFlag] §Y[GER.GetNameDef]§! との戦争に勝利した。" # [LocEditor:ForFutureBatchExport]
- swiss_cheese_tt:0 "平和会議後に §Y5§! っか所の接している中核州を所有している。" # [LocEditor:ForFutureBatchExport]
- swi_you_shall_not_pass_achievement:0 "§Y[847.GetName]§!, §Y[151.GetName]§! か §Y[846.GetName]§!を失わずに防衛戦争に勝利した。" # [LocEditor:ForFutureBatchExport]
- ETH_forced_ITA_peace_achievement:0 "イタリアに平和を強制する。" # [LocEditor:ForFutureBatchExport]
- BRA_snakes_on_a_plane_achievement:0 "空挺部隊で §Y[2.GetName]§! を制圧した。" # [LocEditor:ForFutureBatchExport]
+ disarmed_and_demilitarized_rhineland_flag:0 "ラインラントが非武装化および非軍事化された。"
+ ITA_stalin_how_many_guns_achievement:0 "[ITA.GetFlag] §Y[ITA.GetNameDef]§!としてプレイし、教皇を権力の座につけた状態で[SOV.GetFlag] §Y[SOV.GetNameDef]§!を屈服させる。"
+ ITA_pope_took_over_italy_flag:0 "教皇が[ITA.GetFlag] §Y[ITA.GetNameDef]§!を支配下に置いた。"
+ form_roman_empire_flag:0 "[ITA.GetFlag] §Y[ITA.GetNameDefCap]§!が§Yローマ帝国§!を形成した。"
+ ITA_joined_faction_with_literally_hitler_achievement_flag:0 "いつの間にか[ITA.GetFlag] §Y[ITA.GetNameDefCap]§!が、ファシスト・§Y[GER.GetName]§!派と手を組んでいた。"
+ AUS_annexed:0 "アンシュルスが達成された"
+ field_promotion_achievement:0 "昇格された。"
+ you_get_a_canton_tt:0 "§Y24§!を超える州を所有している。"
+ swi_declared_war_on_GER_achievement_flag:0 "[GER.GetFlag]§Y[GER.GetNameDef]§!に対して宣戦を布告した。"
+ swi_won_war_on_GER_achievement_flag:0 "[GER.GetFlag]§Y[GER.GetNameDef]§!との戦争に勝利した。"
+ swiss_cheese_tt:0 "講和会議後、互いに隣接していない§Y5つ§!の州が存在することになる。"
+ swi_you_shall_not_pass_achievement:0 "§Y[847.GetName]§!、§Y[151.GetName]§!、および§Y[846.GetName]§!のいずれも失うことなく、防衛戦に勝利した。"
+ ETH_forced_ITA_peace_achievement:0 "イタリアに強制的に和平を結ばせた。"
+ BRA_snakes_on_a_plane_achievement:0 "空挺兵を使って§Y[2.GetName]§!を占領した。"
  

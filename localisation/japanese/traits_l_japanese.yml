@@ -1092,12 +1092,12 @@
  ITA_aviation_hero_tt:0 "  - $air_equipment_research$: §G+5%§!"
  military_modernizer:0 "軍の近代化推進者"
  silver_tongue:0 "弁舌家"
- silver_tongue_no_lar: "$silver_tongue$"
+ silver_tongue_no_lar:0 "$silver_tongue$"
  father_of_the_empire:0 "帝国の父"
  political_reformer_1:0 "政治改革者"
  political_reformer_2_no_lar:0 "$political_reformer_1$"
  political_reformer_2:0 "$political_reformer_1$"
- ITA_political_reformer_tt:0 "  - 全顧問のコスト: §G-25%§!"
+ ITA_political_reformer_tt:1 "全顧問のコスト: §G-25%§!"
  hierarch_minister_of_foreign_affairs:0 "高位権力者 - 外務大臣"
  hierarch_minister_of_justice:0 "高位権力者 - 法務大臣"
  hierarch_minister_of_education:0 "高位権力者 - 文部大臣"
@@ -1174,6 +1174,9 @@
  communist_orator:0 "レジスタンスの演説者"
  harsh_propagandist:0 "辛辣なる伝道者"
  SWI_brandy_the_st_bernard_trait:0 "無能な参事"
+ 
+ evans_deakin_trait:0 "太平洋の新興企業"
+ cockatoo_trait:0 "小型艦の専門家"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  political_reformer_3:0 "$political_reformer_1$"

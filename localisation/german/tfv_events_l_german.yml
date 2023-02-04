@@ -169,7 +169,7 @@
  tfv_canada.61.a:0 "Eine Küste ist die einzige sichere Grenze!"
  tfv_canada.62.t:0 "Imperialer Hochmut"
  tfv_canada.62.d:0 "[From.GetNameDef] betrachtet Labrador und Neufundland weiterhin als Kolonialbesitz, nicht als vollwertige Territorien. Sie berufen sich auf ihr bröckelndes "imperiales Recht" und weigern sich, uns das Land zu überlassen, das rechtmäßig uns gehört! Es leben [Root.GetAdjective]e Bürger in diesen Gebieten, die von [Root.GetAdjective]en Ressourcen leben, aber [From.GetAdjective]en Herren dienen.\nDas ist ein inakzeptabler Zustand, doch [From.GetNameDef] wird keine diplomatische Lösung akzeptieren ..."
- tfv_canada.62.a:0 "[From.GetNameDef] wird vereint sein!"
+ tfv_canada.62.a:1 "[ROOT.GetNameDefCap] wird vereint sein!"
  mex_nationalists_chosen:0 "Auf die Seite der Nationalisten schlagen."
  mex_republicans_chosen:0 "Auf die Seite der Republikaner schlagen."
  tfv_south_africa.1.t:0 "[From.GetNameDef] erbittet afrikanisches Mandat"

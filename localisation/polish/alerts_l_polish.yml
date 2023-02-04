@@ -48,6 +48,7 @@
  alert_pick_new_idea_delayed:1 "§TMożesz zmienić:§!"
  alert_pick_new_idea_delayed_bop:0 "§TRównowaga sił:§!"
  alert_pick_new_idea_group_type:0 "$TYPE|H$"
+ alert_pick_new_idea_advisor_delayed:0 "Możesz wybrać:\n$ADVISOR|Y$\n"
  alert_available_wargoal_instant:0 "§HPotencjalne cele wojenne§!"
  alert_enemy_generate_wargoal_instant:0 "§HKtoś przygotowuje cele wymierzone w nas lub sojuszników§!"
  alert_faction_generate_wargoal_instant:0 "§HCzłonkowie frakcji przygotowują cele wojenne§!"

@@ -215,7 +215,7 @@
  medium_tank_amphibious_chassis_3:0 "Châssis de char moyen amphibie avancé"
  medium_tank_amphibious_equipment_0:0 "Char amphibie moyen de l'entre-deux-guerres"
  basic_medium_tank_chassis:0 "$medium_tank_chassis_1$"
- basic_medium_tank_chassis_short:0 "Char moyen 1934"
+ basic_medium_tank_chassis_short:0 "Char moyen 1938"
  basic_medium_tank_chassis_desc:0 "Si les chars légers ont formé le cœur de toutes les formations mécanisées ces dernières années, il paraît de plus en plus évident que leur usage est de plus en plus réduit. Nous aurons besoin à l'avenir d'un véhicule plus imposant, malgré tout capable d'une très grande mobilité."
  improved_medium_tank_chassis:0 "$medium_tank_chassis_2$"
  improved_medium_tank_chassis_short:1 "Char moyen 1940"

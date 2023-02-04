@@ -452,7 +452,7 @@
  rocket_interceptor_3_desc:0 "Las nuevas técnicas de aterrizaje y unos sistemas de combustible más seguros han mejorado las opciones de éxito y supervivencia de los cazas a cohetes para aprovechar el potencial de estos innovadores vehículos."
  nukes:0 "Bombas nucleares"
  nukes_desc:0 "El proyecto para construir una bomba atómica es una de empresas más secretas y complicadas que una nación puede afrontar. No obstante, su éxito cambiaría no solo el curso de las guerras actuales, sino el futuro del mundo."
- interwar_artillery:0 "Artillería de entreguerras"
+ interwar_artillery:1 "Artillería de entreguerras"
  interwar_artillery_desc:0 "Las lecciones aprendidas en el desarrollo de artillería de distintos tipos pueden aplicarse simultáneamente al diseño de otras piezas."
  artillery1:0 "Artillería I"
  artillery1_desc:0 "Al contar con más materiales y mecanismos modernos, los obuses y armas de campo de la Gran Guerra pueden rediseñarse y modernizarse para la guerra moderna."
@@ -1115,6 +1115,9 @@
  basic_train:0 "$train_equipment_1$"
  gwtank:0 "Tanque de la Gran Guerra"
  basic_light_tank:0 "Tanque l. I"
+ armored_car1:0 "$gw_armored_car_equipment$"
+ armored_car2:0 "$armored_car_equipment_1$"
+ armored_car3:0 "$armored_car_equipment_2$"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  dp_medium_battery:0 "Batería de doble utilidad mediana avanzada"

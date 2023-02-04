@@ -96,7 +96,7 @@
  DESIGNER_EMPTY_REGIMENT:0 "§RVocê precisa adicionar um batalhão de combate para criar um novo modelo de divisão§!"
  DESIGNER_EMPTY_NAME:0 "§RO modelo de divisão não pode ter o nome vazio§!"
  DESIGNER_TEMPLATE_NAME_EXISTS:0 "§RJá existe outro molde de divisão com o mesmo nome§!"
- DESIGNER_SUPPORT_COLUMN_TITLE:1 "Companhias de Suporte Essas tropas fornecem suporte por detrás das tropas de linha de frente sendo de grande ajuda.\n\nVocê pode selecionar apenas um de cada tipo e Companhias de Suporte não afetam a §YVelocidade Máxima§! da Divisão (além do bônus de terreno) e não aumentam a §YAmplitude do Combate§!."
+ DESIGNER_SUPPORT_COLUMN_TITLE:1 "Companhias de Suporte. Essas tropas fornecem suporte por detrás das tropas de linha de frente sendo de grande ajuda.\n\nVocê pode selecionar apenas um de cada tipo e Companhias de Suporte não afetam a §YVelocidade Máxima§! da Divisão (além do bônus de terreno) e não aumentam a §YAmplitude de Combate§!."
  DESIGNER_MAIN_COLUMN_TITLE:2 "Batalhões de linha são suas tropas da linha de frente.\n\nCada coluna é um Regimento de uma base específica como  §YBlindados§!, §YInfantaria§! ou §YTropas motorizadas§!. O tipo principal decide o que mais você pode colocar na coluna de Regimento. Quanto mais Batalhões de linha você tiver maior sua §YAmplitude de Combate§! cabendo menos dessas divisões na mesma batalha."
  REINFORCE_WITH_RESEARCHED_EQUIPMENT:1 "Desabilite para proibir automaticamente todo equipamento novo quando for desenvolvido."
  REINFORCE_WITH_RESEARCHED_EQUIPMENT_FORBIDDEN:0 "Novo equipamento está atualmente proibido."
@@ -191,6 +191,14 @@
  EQUIPMENT_DESIGNER_WEIGHT_EXCEEDS_THRUST:0 "§RPeso excede a Propulsão§!"
  EQUIPMENT_DESIGNER_WEIGHT_EXCEEDS_THRUST_FOR_MISSIONS:0 "§RPeso excede a Propulsão para estas missões:§!"
  EQUIPMENT_DESIGNER_PLANE_ROLE_REQUIRE_WEAPON:0 "Adicionar armamento principal para conceder função"
+
+ # Specialized names can be provided by appending the archetype/hull token. These will take priority if available. E.g.
+ #ship_designer_screen_ship_hull_cruiser: "Light Cruiser"
+ #ship_designer_capital_ship_ship_hull_cruiser: "Heavy Cruiser"
+ ship_designer_submarine:0 "$EQUIPMENT_SUBMARINE$"
+ ship_designer_capital_ship:0 "$EQUIPMENT_CAPITAL_SHIP$"
+ ship_designer_screen:0 "$EQUIPMENT_SCREEN$"
+ ship_designer_carrier:0 "$EQUIPMENT_CARRIER$"
 
  tank_designer_light_tank_chassis:0 "Tanque leve"
  tank_designer_light_tank_chassis_role_disallowed:0 "Remove o módulo que proíbe o papel $tank_designer_light_tank_chassis|H$ como opção."

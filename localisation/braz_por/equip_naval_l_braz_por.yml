@@ -548,7 +548,7 @@
  USA_destroyer_2_desc:0 "A Classe Sims é o maior design de "1500 Toneladas" com um arranjo de torpedos mais aerodinâmicos e um casco mais longo. Melhoria em controle de fogo garante capacidade de ataque melhores com suas armas de calibre 5"/38 e incluía 12 tubos de torpedo de linha central."
  #USA_destroyer_2b: "Benson & Gleaves Class"
  USA_destroyer_3:0 "Classe Fletcher"
- USA_destroyer_3_desc:0 "A Classe Fletcher representa um grande avanço em termos de capacidades de contratorpedeiros, graças em grande parte a seu aumento de 2500 toneladas. Enquanto mantendo as armas de propósito duplo 5"/38 e a linha central do arranjo de torpedo, a classe adicionou uma torre única extra recebeu aumentos significativos em armamento antiaéreo assim como alcance melhorado e maior deslocamento."
+ USA_destroyer_3_desc:0 "A Classe Fletcher representa um grande avanço em termos de capacidade para contratorpedeiros, em grande parte graças ao seu aumento de deslocamento para 2.500 toneladas. Apesar de manter os canhões de 5"/38 de duplo propósito e os lançadores de torpedos montados na linha central, a classe adicionou uma torre com um canhão extra e recebeu aumentos significativos em armamento antiaéreo, bem como alcance melhorado e maior deslocamento."
  USA_destroyer_4:0 "Classe Allen M Sumner"
  USA_destroyer_4_desc:0 "A Classe Summer continua a Classe Fletcher com deslocamento aumentado apenas marginalmente, o navio é capaz de portar mais armamento ganhado armas de calibre duplo 5"/33 e um conjunto de armamento antiaéreo muito mais completo. A adição de um segundo leme permite manobras melhoradas durante operações antissubmarino."
  USA_light_cruiser_1:0 "Classe Omaha"
@@ -582,7 +582,7 @@
  USA_battleship_3:0 "Classe Iowa"
  USA_battleship_3_desc:0 "A Classe Iowa adiciona todas as inovações e capacidades da Classe North Carolina antecessora, mas aumenta substancialmente seu deslocamento e velocidade tática. O Iowa tem a responsabilidade primária de escoltar grupos de porta-aviões e é projetado com o segundo papel de "matador de cruzadores" em mente."
  USA_battleship_4:0 "Classe Illinois"
- USA_battleship_4_desc:0 "A Classe Illinois continua com o design e papel definido pela Classe Iowa e mantem velocidade e armamento sobre blindagem. A Classe Illinois aumenta o número de armas de calibre 16" 50 de 9 para 12 enquanto também melhorando caldeiras e maquinário para garantir velocidades altas mais eficientes. Como a Classe Montana, designs inicias incluíam quatro a torres duplas de armas de 4 6", mas isso foi revertido para as torres gêmeas armas de 5" de propósito duplo para maximizar capacidades antiaéreas."
+ USA_battleship_4_desc:0 "A Classe Illinois continua com o projeto e o papel estabelecidos pela Classe Iowa, mantendo a filosofia de maior velocidade e armamento em troca de uma blindagem mais leve. Ela aumenta o número de canhões de calibre 16"/50 de 9 para 12, além de caldeiras e maquinário melhorados para garantir altas velocidades de forma mais eficiente. Assim como a Classe Montana, os designs iniciais incluíam quatro torres com dois canhões de 4 6", mas o armamento foi revisto e alterado para torres duplas com canhões de 5" de duplo propósito para maximizar sua capacidade antiaérea."
  USA_carrier_1:0 "Classe Lexington"
  USA_carrier_1_desc:0 "A Classe Lexington de porta-aviões nasceu dos cascos convertidos de dois cruzadores de batalha para estar de acordo com as limitações impostas pelo Tratado Naval de Washington. A classe foi a primeira classe operacional de porta-aviões na Marinha dos Estados Unidos e gastou os últimos anos melhorando nossas operações de porta-aviões."
  USA_carrier_2:0 "Classe Ranger"
@@ -596,7 +596,7 @@
  USA_SH_battleship_1:0 "Classe Virginia"
  USA_SH_battleship_1_desc:0 "EM 1920 começamos a construir os encouraçados da grande Classe South Dakota com armas de 12 x 16"/50. A classe teria entrado em uma nova era de designs de encouraçados pesados mas foi cancelado em 1922 para se adequar ao Tratado Naval de Washington. Com o tratado não mais em efeito e a ameaça de um projeto de navio de batalha japonês podemos modernizar o design, aumentar o deslocamento para mais 55.000 toneladas e aumentar o design de armas com armas de calibre de 18"/50 e criar uma nova classe de encouraçados pesados."
  USA_SH_battleship_2:0 "Classe Montana"
- USA_SH_battleship_2_desc:0 "A Classe Montana é para ser maior e mais bem equipada que a Classe Illinois, sacrificando velocidade para acomodar o aumento. Seu arranjo principal de armas de calibre 12 x 18"/50e nosso sistema de controle de disparo mais moderno farão o poder de fogo do Montana sem igual. designs inicias incluíam armas de 6", mas isso foi revertido para as torres gêmeas armas de 5" de propósito duplo."
+ USA_SH_battleship_2_desc:0 "A Classe Montana é maior e mais bem protegida que a Classe Illinois, sacrificando velocidade para acomodar o aumento de tamanho e blindagem. Seu armamento principal conta com 12 canhões de calibre 18"/50 e nosso mais moderno sistema de controle de disparo torna o poder de fogo do Montana sem igual. Designs inicias incluíam canhões de 6", mas o armamento foi revisto e alterado para torres gêmeas com canhões de 5" de duplo propósito."
  ### ALB - ALBANIA -- all generic ###
  ### ARG - ARGENTINA ###
  ARG_submarine_1:0 "Classe Santa Fe"

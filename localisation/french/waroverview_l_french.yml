@@ -65,6 +65,3 @@
  WAR_OVERVIEW_CALL_COUNTRY_LIST:0 "Le message va être envoyé à tous ces pays : $COUNTRIES$"
  WAR_OVERVIEW_CALL_ALL_FACTION_DISABLED:0 "§RAucun pays membre de la faction ne peut être appelé à prendre les armes.§!"
  WAR_OVERVIEW_ALLY_ALREADY_CALLED:0 "§RCet allié a déjà été appelé, nous attendons sa réponse.§!"
-
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- WARSCORE_BREAKDOWN_NOCASUALTIES:1 "Détails :\nOccupations : $OCCUPATION|Y0$\nBombardements : $BOMBING|Y0$ sur $BOMBING_MAX|Y0$\nNavires ennemis coulés : $SUNK_SHIPS|Y0$"

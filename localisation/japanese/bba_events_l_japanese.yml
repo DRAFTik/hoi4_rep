@@ -124,7 +124,7 @@
  BBA_italo_ethiopian_war_events.204.a:0 "もはや勝利は目前だ"
 
  BBA_italo_ethiopian_war_events.300.t:0 "イタリア国民の関心が高まる"
- BBA_italo_ethiopian_war_events.300.desc:1 "TODO_Manu"
+ BBA_italo_ethiopian_war_events.300.desc:2 "我が軍は[ETH.GetName]で苦戦するものの前進できず、[ITA.GetName]内部でも進展の無さが感じられている。[ITA.GetAdjective]国民もこの度の戦争の正当性を疑い始めており、最終的に勝利を確保するべき我々の指導力にさえ疑問を持ち始めている。"
  BBA_italo_ethiopian_war_events.300.a:1 "TODO_Manu"
 
  BBA_italo_ethiopian_war_events.301.t:0 "アフリカ精鋭部隊が失意に陥る"
@@ -177,12 +177,18 @@
  BBA_italo_ethiopian_war_events.501.t:0 "強制的な和平交渉"
  BBA_italo_ethiopian_war_events.501.desc:0 "我が国を[ITA.GetNameDefCap]に制圧された後に受け入れてくれた慈悲深いホスト国は、我々に疲れてしまったようだ。我々の背後で卑劣なイタリア侵略軍と和平条約を強制的に結ばせようと企んでいる。残念ながら、我々に出来る事はない。"
  BBA_italo_ethiopian_war_events.501.a:0 "選択の余地は無い"
+ BBA_italo_ethiopian_war_events.501.b:0 "このまま戦い続けるのだ！"
+ BBA_ethiopia_is_expelled_tt:0 "§Y[ETH.GetNameWithFlag]§!政府が§Y[ENG.GetNameWithFlag]§!から追放されたため、別のところで亡命政府を樹立できるようになった。"
 
  BBA_italo_ethiopian_war_events.502.t:0 "和平交渉失敗"
  BBA_italo_ethiopian_war_events.502.desc:0 "[GetItalyRefusesPeaceTalks]"
  BBA_italo_ethiopian_war_events.502.desc_guarantees:0 "イタリア政府は、我々がドイツ戦で援助する代わりに[ETH.GetNameDefCap]と和解する要請を拒否した。彼らは自分達で猛攻に立ち向かわないといけない。"
  BBA_italo_ethiopian_war_events.502.desc_territories:0 "イタリア政府は、我々の植民地地域の一部を受け渡す代わりに[ETH.GetNameDefCap]と和解する要請を拒否した。あんな犯罪者達とは交渉など成り立たない事が証明されただけだった！"
  BBA_italo_ethiopian_war_events.502.a:0 "残念だ"
+
+ BBA_italo_ethiopian_war_events.503.t:0 "[ETH.GetNameDefCap]が和平交渉を拒否"
+ BBA_italo_ethiopian_war_events.503.desc:0 "エチオピア政府が、我々との和平協定への署名を促したイギリスの要請を拒否した。これを受けて[ENG.GetLeader]は、エチオピアを同国内から追放することを決意し、自分達がどちらの国により重きを置いているかを明確に示す形となった。今回のことはアフリカにおける我々の保有資産を、さらに補強するいい機会となるだろう！"
+ BBA_italo_ethiopian_war_events.503.a:0 "必ず奴らを服従させてやろう"
 
  BBA_italo_ethiopian_war_events.510.t:0 "[ITA.GetNameDef]がエチオピアの権威を弱体化"
  BBA_italo_ethiopian_war_events.510.desc:0 "イタリア国民が本国での我々の支配と正統性を弱体化させるために、偽情報の宣伝活動を開始したという報告を受けた。このような卑劣な嘘は、一部の属国に対し[ITA.GetNameDef]の理念になびく影響を与え、我々の王位継承権を弱めるかもしれない。彼らがさらなる被害をもたらす前に、エチオピアの支配を回復しなければならない！"
@@ -580,7 +586,7 @@
  BBA_ethiopia_anti_colonialism_events.3.a:0 "これでやっと自由だ"
 
  BBA_ethiopia_anti_colonialism_events.4.t:0 "[FROM.GetNameDefCap]が[?global.african_revolt_country.GetAdjective]の独立の承認を拒否"
- BBA_ethiopia_anti_colonialism_events.4.desc:0 "こちらから圧力をかけたにも関わらず、[?global.african_colonial_country.GetAdjective]政府は[?global.african_revolt_country.GetNameDef]の認知を拒否しており、戦争行為の中止も認めない姿勢だ。[?global.african_colonial_country.GetAdjective]側はどうやら、独立運動を潰す方向で固まっているらしい。恐らく外交のみでできることは、もうこの辺りが限界だろう。"
+ BBA_ethiopia_anti_colonialism_events.4.desc:1 "こちらから圧力をかけたにも関わらず、[?global.african_colonial_country.GetAdjective]政府は[?global.african_revolt_country.GetNameDef]の認知を拒否しており、戦争行為の中止も認めない姿勢だ。[?global.african_colonial_country.GetAdjective]側はどうやら、独立運動を潰す方向で固まっているらしい。恐らく外交のみでできることは、もうこの辺りが限界だろう。"
  BBA_ethiopia_anti_colonialism_events.4.a:0 "少なくとも行動はしてみせた"
  BBA_ethiopia_anti_colonialism_events.4.b:0 "では、力づくで認めさせるしかないな"
 
@@ -1386,7 +1392,7 @@
 
  BBA_italy_colonial_management.1.t:0 "植民地警察"
  BBA_italy_colonial_management.1.desc:1 "TODO_Manu - or Danne >:) -: By using local units such as Meharisti, Savari, Spahi, etc. as military police and gendarmerie or wahtever we can save Manpower and it's gonna be great (Check with Manu about actual unit names) // Could have scripted loc for Albania too"
- BBA_italy_colonial_management.1.a:1 "TODO: We should use them!"
+ BBA_italy_colonial_management.1.a:2 "是非とも彼らを雇うのだ！"
  BBA_italy_colonial_management.1.b:0 "我々には別の考えがある"
  BBA_italy_colonial_management.1_do_not_apply_tt:1 "占領法§Y$$§!は、統治下にある[GetAfricanStates][GetAndOrNothing][GetAlbanianStates]で利用可能となる。"
  BBA_italy_colonial_management_african_states:0 "アフリカの州"
@@ -1400,7 +1406,7 @@
  BBA_italy_bop.2.t:1 "[?ITA_lost_colony]が陥落"
  BBA_italy_bop.2.desc:1 "TODO_Manu: State has fallen people are not happy but meh we can deal with it."
  BBA_italy_bop.2.a:1 "TODO_Manu: OK"
- ITA_losing_colonies_tt:0 "[ROOT.GetName]が§Y非中核州§!の支配権を敵に奪われるたびに、効果が適用される。"
+ ITA_losing_colonies_tt:1 "§Y$ITA_grand_council_side$§!と比較した時の値が§Y30%§!を下回っている限り、[ROOT.GetName]が§Y非中核州§!の支配権を敵に奪われるたびに効果が適用される。"
  BBA_italy_bop.3.t:0 "[?ITA.ITA_reclaimed_core.GetName]を奪還した"
  BBA_italy_bop.3.desc:0 "我々の軍隊は[?ITA.ITA_reclaimed_core.GetName]を取り戻し、世界中のイタリア人の精神を高揚させた！これで戦争の流れを変え、我々が愛する[ITA.GetNameDef]から敵を追い返せるかもしれない。"
  BBA_italy_bop.3.a:0 "我々に有利に展開している！"
@@ -1606,10 +1612,13 @@
  BBA_italy_interaction_events.30.a:0 "是非そうしてくれ！"
  BBA_italy_interaction_events.30.b:0 "イタリア人が信用に足ると思える根拠はなんだ？"
 
- BBA_italy_interaction_events.31.t:1 "[ITA.GetName]がソマリアの支配権の交渉を望む"
+ BBA_italy_interaction_events.31.t:2 "[NegotiatingItalianClaimsTitle]"
+ BBA_italy_interaction_events.31.t_negotiate_claims:0 "[ITA.GetNameDefCap]がソマリアの支配権の交渉を望む"
+ BBA_italy_interaction_events.31.t_refused_peace:0 "[ETH.GetNameDefCap]が和平交渉を拒否"
  BBA_italy_interaction_events.31.desc:1 "本日、イタリア政府がなかなか興味深い提案を持ちかけてきた。ヨーロッパで戦争が勃発した場合に備えて、我々への支援体制を確固たるものにするため、ストレーザ戦線の承認を求めているのだ。ただ、彼らが署名する条件として、領土を譲り渡すようにも言ってきている。今のところ、あちらが要求しているのは[269.GetName]と[903.GetName]だが、どう返答したものか？ 承諾すれば、暫定的に金銭は支払ってもらえる見込みだ。"
  BBA_italy_interaction_events.31.desc_no_war:0 "本日、イタリア政府がなかなか興味深い提案を持ちかけてきた。ヨーロッパで戦争が勃発した場合に備えて、我々への支援体制を確固たるものにするため、ストレーザ戦線の承認を求めているのだ。ただ、彼らが署名する条件として、領土を譲り渡すようにも言ってきている。今のところ、あちらが要求しているのは[269.GetName]と[903.GetName]だが、どう返答したものか？ 承諾すれば、暫定的に金銭は支払ってもらえる見込みだ。"
  BBA_italy_interaction_events.31.desc_peace_signed:0 "我々の巧みな外交も大いに関わり、[ITA.GetNameDefCap]と[ETH.GetNameDefCap]は意見の相違を乗り越え、平和条約を締結した。イタリア政府は、ストレーザ戦線の承認ために彼らに[269.GetName]と[903.GetName]を受け渡すという我々との取引について念を押した。"
+ BBA_italy_interaction_events.31.desc_no_peace_deal:0 "本件に対する我々のこだわりを知りながら、恩知らずの[ETH.GetLeader]は[ITA.GetAdjective]政府と和平交渉に入ることを拒否した。この戦争において、自分のほうが優位に立っていると思い込んでいるらしい。こうなっては、我が国からエチオピアの指導者を追放する以外にない。我々としては、より国益に適うイタリアの提案のほうに注力したいからな。"
  BBA_italy_interaction_events.31.a:0 "もちろんだ、くれてやれ"
  BBA_italy_interaction_events.31.b:0 "とんでもない話だ"
 
@@ -1619,22 +1628,30 @@
  BBA_italy_interaction_events.32.b:0 "ダメだ！"
 
  BBA_italy_interaction_events.33.t:1 "[ITA.GetName]が[906.GetName]の支配権の交渉を望む"
- BBA_italy_interaction_events.33.desc:0 "イタリアがさらなる要求と共に、我々の元を再び訪れた。今度は[906.GetName]島の所有権が欲しいようだ。イタリア領東アフリカで輸出入されている、貿易財の流れを調整しやすくなることと、紅海に繋がる入り江を一つ、支配下に置きたいことを理由として挙げている。ちなみに、もう一方の入り江はこちらに任せるとのことだ。彼らにこの地を譲り渡たすべきだろうか？ あちらは我々の尽力に報いるため、暫定的に金銭を支払うとも言ってきている。"
+ BBA_italy_interaction_events.33.desc:1 "[GetItalyWantsSocotra]"
+ BBA_italy_interaction_events.33.desc_first_negotiation:0 "本日、イタリア政府がなかなか興味深い提案を持ちかけてきた。ヨーロッパで戦争が勃発した場合に備えて、我々への支援体制を確固たるものにするため、ストレーザ戦線の承認を求めているのだ。ただ、彼らが署名する条件として、領土を譲り渡すようにも言ってきている。具体的には、[906.GetName]を欲しがっているのだが、どう返答したものか？ 承諾すれば、暫定的に金銭は支払ってもらえる見込みだ。"
+ BBA_italy_interaction_events.33.desc_continued_negotiation:0 "イタリアがさらなる要求と共に、我々の元を再び訪れた。今度は[906.GetName]島の所有権が欲しいようだ。イタリア領東アフリカで輸出入されている、貿易財の流れを調整しやすくなることと、紅海に繋がる入り江を一つ、支配下に置きたいことを理由として挙げている。ちなみに、もう一方の入り江はこちらに任せるとのことだ。彼らにこの地を譲り渡たすべきだろうか？ あちらは我々の尽力に報いるため、暫定的に金銭を支払うとも言ってきている。"
  BBA_italy_interaction_events.33.a:0 "平和のためならば安いものだ"
  BBA_italy_interaction_events.33.b:0 "何故そんな場所を、奴らに明け渡さねばならない？"
 
  BBA_italy_interaction_events.34.t:1 "[ITA.GetName]がチュニジアの支配権の交渉を望む"
- BBA_italy_interaction_events.34.desc:0 "イタリアがさらなる要求と共に、我々の元を再び訪れた。今度は[458.GetName]島および[665.GetName]の所有権が欲しいようだ。我が国やイギリスと比較した時に、北アフリカ地域での、より公平な市場占有率を確保したいことを理由として挙げている。彼らにこの地を譲り渡たすべきだろうか？ あちらは我々の尽力に報いるため、暫定的に金銭を支払うとも言ってきている。"
+ BBA_italy_interaction_events.34.desc:1 "[GetItalyWantsTunisia]"
+ BBA_italy_interaction_events.34.desc_first_negotiation:0 "本日、イタリア政府がなかなか興味深い提案を持ちかけてきた。ヨーロッパで戦争が勃発した場合に備えて、我々への支援体制を確固たるものにするため、ストレーザ戦線の承認を求めているのだ。ただ、彼らが署名する条件として、領土を譲り渡すようにも言ってきている。今のところ、あちらが要求しているのは[458.GetName]と[665.GetName]だが、どう返答したものか？ 承諾すれば、暫定的に金銭は支払ってもらえる見込みだ。"
+ BBA_italy_interaction_events.34.desc_continued_negotiation:0 "イタリアがさらなる要求と共に、我々の元を再び訪れた。今度は[458.GetName]および[665.GetName]の所有権が欲しいようだ。我が国やイギリスと比較した時に、北アフリカ地域での、より公平な市場占有率を確保したいことを理由として挙げている。彼らにこの地を譲り渡たすべきだろうか？ あちらは我々の尽力に報いるため、暫定的に金銭を支払うとも言ってきている。"
  BBA_italy_interaction_events.34.a:0 "いいだろう"
  BBA_italy_interaction_events.34.b:0 "とんでもないことだ"
 
  BBA_italy_interaction_events.35.t:1 "[ITA.GetName]がマルタの支配権の交渉を望む"
- BBA_italy_interaction_events.35.desc:0 "イタリアがさらなる要求と共に、我々の元を再び訪れた。今度は[116.GetName]島の所有権が欲しいようだ。理由としては、地中海の管理がしやすくなることを挙げている。彼らにこの地を譲り渡たすべきだろうか？ あちらは我々の尽力に報いるため、暫定的に金銭を支払うとも言ってきている。"
+ BBA_italy_interaction_events.35.desc:1 "[GetItalyWantsMalta]"
+ BBA_italy_interaction_events.35.desc_first_negotiation:0 "本日、イタリア政府がなかなか興味深い提案を持ちかけてきた。ヨーロッパで戦争が勃発した場合に備えて、我々への支援体制を確固たるものにするため、ストレーザ戦線の承認を求めているのだ。ただ、彼らが署名する条件として、領土を譲り渡すようにも言ってきている。具体的には、[116.GetName]を欲しがっているのだが、どう返答したものか？ 承諾すれば、暫定的に金銭は支払ってもらえる見込みだ。"
+ BBA_italy_interaction_events.35.desc_continued_negotiation:0 "イタリアがさらなる要求と共に、我々の元を再び訪れた。今度は[116.GetName]島の所有権が欲しいようだ。理由としては、地中海の管理がしやすくなることを挙げている。彼らにこの地を譲り渡たすべきだろうか？ あちらは我々の尽力に報いるため、暫定的に金銭を支払うとも言ってきている。"
  BBA_italy_interaction_events.35.a:0 "彼らが持っていたほうが、有効に活用できるだろう"
  BBA_italy_interaction_events.35.b:0 "馬鹿げている"
 
  BBA_italy_interaction_events.36.t:1 "[ITA.GetName]がバルカン半島の支配権の交渉を望む"
- BBA_italy_interaction_events.36.desc:0 "[ITA.GetName]は、条約に署名する前の最後の要求として、バルカン半島の所有権を認めてほしいとしている。我々の関心の範囲外のことなので、我が国の政府としては特にこれに反対する理由はない。"
+ BBA_italy_interaction_events.36.desc:1 "[GetItalyClaimsBalkan]"
+ BBA_italy_interaction_events.36.desc_first_negotiation:0 "本日、イタリア政府がなかなか興味深い提案を持ちかけてきた。ヨーロッパで戦争が勃発した場合に備えて、我々への支援体制を確固たるものにするため、ストレーザ戦線の承認を求めているのだ。彼らはバルカン半島の所有権を認めてほしいとも言ってきている。我々にとってはさほど関心のない地域であり、それゆえに我が国の政府も積極的に否定しようとは考えていない様子だ。"
+ BBA_italy_interaction_events.36.desc_continued_negotiation:0 "[ITA.GetName]は、条約に署名する前の最後の要求として、バルカン半島の所有権を認めてほしいとしている。我々の関心の範囲外のことなので、我が国の政府としては特にこれに反対する理由はない。"
  BBA_italy_interaction_events.36.a:0 "わざわざ議論する意味もない"
 
  BBA_italy_interaction_events.37.t:0 "領土交渉が完了"
@@ -1693,6 +1710,18 @@
 
  BBA_italy_interaction_events.60.t:0 "[ITA.GetName]が和平交渉に調印"
  BBA_italy_interaction_events.60.desc:0 "イタリアはエチオピアと和平交渉を交わし、彼らが占領した土地の一部を返却した。現在、イタリア政府は我々に、ドイツの拡張主義に直面しているオーストリアの独立を保証するという契約を守るよう要請している。"
+
+ BBA_italy_interaction_events.70.t:0 "回答待ち"
+ BBA_italy_interaction_events.70.desc:0 "我々は[GetAdjective]の指導者の元に使者を遣わし、お互いの違いを一旦脇に置いて、イタリアの監督下で新たな政府を形成する意思があるか否かを問うことにした。"
+ BBA_italy_interaction_events.70.a:0 "大人しく待つとしよう"
+ BBA_italy_interaction_events.71.t:0 "イタリアからの提案"
+ BBA_italy_interaction_events.71.desc:0 "[ITA.GetNameDef]からの使者が我々に接触し、お互いの違いを一旦脇に置いて、イタリアの監督下で新たな政府を形成する意思があるか否かを問うてきた。その使者の話によれば、我々の協力があっても無くても我が国に新たな政権を打ち立てる計画は続行されるようだ。この提案を拒絶すればこの新政府の思惑通り、世界中から見放されることになるだろう。"
+ BBA_italy_interaction_events.71.a:0 "我々にできることはほとんどない"
+ ITA_create_puppet_tt:0 "§Y[ROOT.GetNameWithFlag]§!が、新たな§Y国家方針ツリー§!を獲得することになる"
+ BBA_italy_interaction_events.71.b:0 "我々にもまだ誇りがある！"
+ BBA_italy_interaction_events.72.t:0 "[FROM.GetAdjective]の退去"
+ BBA_italy_interaction_events.72.desc:0 "亡命中の[FROM.GetAdjective]達の指導者である[FROM.GetLeader]が昨夜、[ROOT.GetLeader]の私邸を密かに訪ね、イタリアの支配下で新たな政府を形成するという、同国からの提案を承諾する旨を静かに通達した。そして、このような困難な時期に我々が見せた寛容さに感謝しながらも、自国民にとっての最善の道を模索する必要があると語った。"
+ BBA_italy_interaction_events.72.a:0 "ずいぶん長いこと抗い続けたものだ"
 
  BBA_italy_interaction_events.666.t:0 "[454.GetName]か戦争か"
  BBA_italy_interaction_events.666.desc:1 "聖下である[From.GetLeader]教皇は[454.GetName]の州を引き渡すよう我々に要請している。このような聖地は教皇制の管轄でなければならず、拒否することは異端であると彼の使者は主張する。それに応じる事は[FROM.GetName]との関係に大いに有益だが、[454.GetName]はヨーロッパ、アジア、そしてアフリカの交差路に位置し、今も昔も戦略的に重要な場所だ。"
@@ -1831,8 +1860,8 @@
  BBA_italy_anti_colonialism_events.03.a:0 "和平を結ぼう！"
  BBA_italy_anti_colonialism_events.04.t:0 "[FROM.GetLeader]が我々の提案を拒絶"
  BBA_italy_anti_colonialism_events.04.desc:0 "血に飢えた[FROM.GetLeader]は、我々が内戦で流した血の匂いを嗅ぎつけ、我々を弱いと思っているようだ。[FROM.GetSheHeCap]は我々が寛大に提案した和平を拒否し、戦争を続けようとしている。[FROM.GetHerHim]にこちらの力を見せつけてやろう！"
- BBA_italy_anti_colonialism_events.04.a:0 "[FROm.GetLeader]を後悔させてやる！"
- BBA_italy_anti_colonialism_events.05.t:0 "[FROM.GetAdjective]が[ROOT.Adjective]の統一を要求"
+ BBA_italy_anti_colonialism_events.04.a:1 "[FROM.GetLeader]を後悔させてやる！"
+ BBA_italy_anti_colonialism_events.05.t:1 "[FROM.GetAdjective]が[ROOT.GetAdjective]の統一を要求"
  BBA_italy_anti_colonialism_events.05.desc:0 "[FROM.GetName]の政府は我々の領土を直接支配し、[FROM.GetAdjective]の大政府と統合させようとしている。これが我々の人々、文化、そして伝統にどんな影響を与えるかは誰にもわからない。"
  BBA_italy_anti_colonialism_events.05.a:0 "喜んで従おう。"
  BBA_italy_anti_colonialism_events.05.b:0 "我々の限られた自治権を諦めない！"
@@ -1957,6 +1986,19 @@
  bba_news.666.desc:0 "教皇[FROM.GetLeader]は、[FROM.GetName]の[?ITA.ITA_var_deposed_leader.GetName]王を退位させ自ら権力を掌握し、神のご意思と主張して世界中の指導者を驚かせている。多くのイタリア人もショックを受けているが、教皇制度は国内で広く支持されており、一部の者はこの突然の政権交代を、[FROM.GetNameDefCap]の新しい輝かしい時代の始まりと歓迎している。"
  bba_news.666.a:0 "まったく予想外だった"
 
+ bba_news.200.t:0 "ヒトラーの死"
+ bba_news.200.desc:0 "[GER.GetAdjective]のラジオがアドルフ・ヒトラー総統の死亡を報道した。報せが流れたのは、[GER.Capital.GetCapitalVictoryPointName]での激しい戦いののちのことであり、連合軍や[SOV.GetAdjective]軍が[GER.GetAdjective]の中心部にまで到達する大規模な侵攻をおこなった後だ。訃報の発表に当たったのは、フューラーが自ら選んだ後継者と思われる[GER.GetLeader]で、ヒトラーを喪った国家の悲しみを述べると同時に、指揮所で国を守るための策を練っていた同氏の死の詳細について語った。ヒトラーが本当に死んだのか、また本当に伝えられたような死に方をしたのかは確認のしようがない。しかし、この発表が[GER.GetAdjective]国民の士気に影響を与えることだけは確かだ。 "
+ bba_news.200.a:0 "[GER.GetAdjective]はこの先も戦い続けるのだろうか？"
+ bba_news.200.b:0 "あのろくでなしが死んだと？ 生きたまま捕らえることができなかったのが、残念でならない！"
+ bba_news.200.c:0 "本当に死んだと考えていいのか？"
+ bba_news.200.d:0 "別に何も変わりはしない。最後の一人まで戦い続けるのみだ。"
+
+ bba_news.201.t:0 "[POL.GetAdjective]政府が[SOV.GetNameDef]と一体化"
+ bba_news.201.desc:0 "戦争中に[POL.GetAdjective]の亡命政府がロンドンに置かれていたにも関わらず、連合軍は[SOV.GetAdjective]が育成した共産主義者達のほうを正規の[POL.GetName]政府として認知した。外交筋によると連合軍と[SOV.GetName]の間で、戦後のヨーロッパを各国で分割する協定が結ばれたらしく、その際に[SOV.GetAdjective]の[SOV.GetLeader]はポーランドを自国の勢力圏とすることを望んだそうだ。残念ながらロンドンにある[POL.GetAdjective]の亡命政府は、それを阻む障害でしかなかったのである。\n\n多くの者はこれを[POL.GetName]の裏切りと見做すだろうが、既に国が[SOV.GetAdjective]軍に占領されていた状態では、あちらの最後通告を拒否してこの先のヨーロッパの安定を脅かす理由は無いに等しかったとの反論も一部で挙がっている。"
+ bba_news.201.a:0 "平和な未来を築くための不幸な犠牲といったところか。"
+ bba_news.201.b:0 "連合軍は信用に値しない。"
+ bba_news.201.c:0 "ヨーロッパからのファシストの攻撃に対して、無防備を晒すようなマネは二度と許されない。"
+
  ###ITALYS NEWS EVENTS####
  #PURGE THE PARTY
  bba_news.100.t:0 "[GetPurgeEventTitles]"
@@ -2034,14 +2076,14 @@
 
 #Trial Approaches
  BBA_switzerland.3.t:0 "ダヴィッド・フランクフルターの公判日が近づく"
- BBA_switzerland.3.desc:0 "2月にダボスでナチ党の代表を暗殺した、ダヴィッド・フランクフルターの裁判が近づいている。彼には公平かつ中立な裁判を約束したものの、当然選択肢は他にもある。\n\n秘密裡に彼を解放し、諜報活動員として雇うこともできるし、[GER.GetNameDef]に取り入るために裁判を中止し、すぐに刑を言い渡すこともできる。\n\n我々が何をするにしても、全方面を満足させることは決してないだろう。"
+ BBA_switzerland.3.desc:1 "2月にダボスでナチ党の代表を暗殺した、ダヴィッド・フランクフルターの裁判が近づいている。彼には公平かつ中立な裁判を約束したものの、当然選択肢は他にもある。\n\n秘密裡に彼を解放し、諜報活動員として雇うこともできるし、[?SWI.SWI_fascist_germany.GetNameDef]に取り入るために裁判を中止し、すぐに刑を言い渡すこともできる。\n\n我々が何をするにしても、全方面を満足させることは決してないだろう。"
  BBA_switzerland.3.a:0 "予定通り、裁判を開こう"
  BBA_switzerland.3.b:0 "我が国の諜報活動員として、丁重に迎え入れよう"
  BBA_switzerland.3.c:0 "よくよく考えてみれば、彼が罪を犯したことに変わりはなかった"
 
 #Germany thanks Switzerland for swift action
- BBA_switzerland.4.t:0 "[GER.GetLeader]が[SWI.GetName]の決定を喜ぶ"
- BBA_switzerland.4.desc:0 "[GER.GetNameDef]の指導者である[GER.Getleader]が、ヴィルヘルム・グストロフ殺害の犯人に対する[SWI.GetNameDef]の迅速な処置に謝意を表した。もはやこうした問題における[SWI.GetName]の立ち位置は、決定したも同然だ。今回、人権と民主主義的な価値観を無視したことで、我が国に対する[GER.GetName]の態度は間違いなく改善されることだろう。\n\nこの件について、[GER.Getleader]は肯定的な意見を述べつつ、また今の[SWI.GetNameDef]にとっては論外な選択であることを承知の上で、こうも語った。ナチ党としての理想的な結果は、犯人を[GER.GetNameDef]に引き渡すことだったと。"
+ BBA_switzerland.4.t:1 "[?SWI.SWI_fascist_germany.GetLeader]が[SWI.GetName]の決定を喜ぶ"
+ BBA_switzerland.4.desc:1 "[?SWI.SWI_fascist_germany.GetNameDef]の指導者である[?SWI.SWI_fascist_germany.Getleader]が、ヴィルヘルム・グストロフ殺害の犯人に対する[SWI.GetNameDef]の迅速な処置に謝意を表した。もはやこうした問題における[SWI.GetName]の立ち位置は、決定したも同然だ。今回、人権と民主主義的な価値観を無視したことで、我が国に対する[?SWI.SWI_fascist_germany.GetName]の態度は間違いなく改善されることだろう。\n\nこの件について、[GER.Getleader]は肯定的な意見を述べつつ、また今の[SWI.GetNameDef]にとっては論外な選択であることを承知の上で、こうも語った。ナチ党としての理想的な結果は、犯人を[?SWI.SWI_fascist_germany.GetNameDef]に引き渡すことだったと。"
  BBA_switzerland.4.a:0 "もう済んだことだ"
 
  #Germany is notified Switzerland decides to continue with the trial. 
@@ -2052,13 +2094,13 @@
 
  #Germany INSISTS on harsher trial  
  BBA_switzerland.6.t:0 "[GER.GetAdjective]が、ダヴィッド・フランクフルターへの厳しい判決を強く望む"
- BBA_switzerland.6.desc:0 "確実に[GER.GetNameDef]から送り込まれたと考えられる、亡くなったグストロフの妻の法定代理人が、裁判所にてダヴィッド・フランクフルターに厳しい判決が下るよう、連邦参事会に強く要請してきている。これは大変異例な要求であり、[GER.GetNameDef]が我々に力を誇示しようと暗躍していると考えて間違いない。\n\n要求を受け入れれば我が国の国際的評価にも影響が出る可能性があるが、断るにしてもまずは我々の今後に支障がないことを確認してからにする必要がある。"
+ BBA_switzerland.6.desc:1 "確実に[?SWI.SWI_fascist_germany.GetNameDef]から送り込まれたと考えられる、亡くなったグストロフの妻の法定代理人が、裁判所にてダヴィッド・フランクフルターに厳しい判決が下るよう、連邦参事会に強く要請してきている。これは大変異例な要求であり、[?SWI.SWI_fascist_germany.GetNameDef]が我々に力を誇示しようと暗躍していると考えて間違いない。\n\n要求を受け入れれば我が国の国際的評価にも影響が出る可能性があるが、断るにしてもまずは我々の今後に支障がないことを確認してからにする必要がある。"
  BBA_switzerland.6.a:0 "この問題は裁判所の管轄だ"
  BBA_switzerland.6.b:0 "検討しておこう"
 
 #Frankfurter "dies" under mysterious circumstances
  BBA_switzerland.7.t:0 "フランクフルターが獄中で謎の死を遂げる"
- BBA_switzerland.7.desc:0 "グラウビュンデン当局からの報告によると、ナチ党代表のヴィルヘルム・グストロフ殺害を自供し、拘置中だったダヴィッド・フランクフルターが今朝、独房で死んでいるところが発見されたらしい。自死だったのか、監獄内の怒り狂ったナチシンパの仕業なのかは現時点では不明とされるが、連邦警察のほうで必ず真相を突き止めるとのことだ。\n\n犯罪行為がおこなわれた証拠こそ見つかっていないが、状況的にかなり不審な点が見られ、中には[GER.GetAdjective]の代表に遺体はおろか、現場の検視すら許可しない[SWI.GetAdjective]政府に疑念を抱く者も出ている。"
+ BBA_switzerland.7.desc:1 "グラウビュンデン当局からの報告によると、ナチ党代表のヴィルヘルム・グストロフ殺害を自供し、拘置中だったダヴィッド・フランクフルターが今朝、独房で死んでいるところが発見されたらしい。自死だったのか、監獄内の怒り狂ったナチシンパの仕業なのかは現時点では不明とされるが、連邦警察のほうで必ず真相を突き止めるとのことだ。\n\n犯罪行為がおこなわれた証拠こそ見つかっていないが、状況的にかなり不審な点が見られ、中には[?SWI.SWI_fascist_germany.GetAdjective]の代表に遺体はおろか、現場の検視すら許可しない[SWI.GetAdjective]政府に疑念を抱く者も出ている。"
  BBA_switzerland.7.a:0 "仕方がない"
 
 #Frankfurter Trial 
@@ -2066,23 +2108,23 @@
  BBA_switzerland.8.desc:0 "[SWI.GetName]全国とその隣国が、ダヴィッド・フランクフルターの裁判に注目している。どのような判決が出るかによって、自ら有罪を認めた者の運命が決まり、また[SWI.GetNameDef]という国が、どこまで自国の制度や伝統に対する妥協が可能なのかも明らかになる。\n\n法廷はとにかく公平な判決を言い渡す姿勢を見せているが、参事会からの働きかけがあれば裁判の結果を変えることも可能なはずで、それはひいてはこの国の本質をも決定づけることになる。"
  BBA_switzerland.8.a:0 "判決をどうするかは、法廷に任せればいい"
  BBA_switzerland.8.b:0 "彼は民主主義に貢献したのだから、釈放されるべきだ！"
- BBA_switzerland.8.c:0 "[GER.GetNameDef]を遠ざけるようなリスクは冒せない。最高刑を言い渡すのだ"
+ BBA_switzerland.8.c:1 "[?SWI.SWI_fascist_germany.GetNameDef]を遠ざけるようなリスクは冒せない。最高刑を言い渡すのだ"
 
 #To SWI: Germany is angry
  BBA_switzerland.9.t:0 "[SWI.GetName]が我々の怒りを刺激している！"
- BBA_switzerland.9.desc_default:0 "[SWI.GetNameDefCap]は正義の裁きを求める我々の声を無視し、中立性と法治性などというもっともらしい言葉を言い訳に、ナチ党の党員を殺しただけではなく、自らその罪を認めたダヴィッド・フランクフルターを釈放した！\n\nこれで奴らがどちらについたのかが明白になり、将来戦争になった時は真っ先に我々の的となることが確定した。こんな風に[GER.GetNameDef]を侮辱されて、黙っているわけにはいかない。"
- BBA_switzerland.9.desc_alt:0 "[SWI.GetName]にいる我が国の工作員達の報告で、もっともらしく中立性と法治性を謳う同国が、あろうことか密かにヴィルヘルム・グストロフ殺害を自白したダヴィッド・フランクフルターの死を偽装して牢から出したばかりか、諜報員として雇い入れたことがわかった。\n\nこれで奴らが信用ならない国であることが判明し、機会が巡ってきた際には排除するべき敵であることが確定した。[GER.GetNameDef]に対するここまであからさまな侮辱を、見過ごしてなるものか。"
+ BBA_switzerland.9.desc_default:1 "[SWI.GetNameDefCap]は正義の裁きを求める我々の声を無視し、中立性と法治性などというもっともらしい言葉を言い訳に、ナチ党の党員を殺しただけではなく、自らその罪を認めたダヴィッド・フランクフルターを釈放した！\n\nこれで奴らがどちらについたのかが明白になり、将来戦争になった時は真っ先に我々の的となることが確定した。こんな風に[?SWI.SWI_fascist_germany.GetNameDef]を侮辱されて、黙っているわけにはいかない。"
+ BBA_switzerland.9.desc_alt:1 "[SWI.GetName]にいる我が国の工作員達の報告で、もっともらしく中立性と法治性を謳う同国が、あろうことか密かにヴィルヘルム・グストロフ殺害を自白したダヴィッド・フランクフルターの死を偽装して牢から出したばかりか、諜報員として雇い入れたことがわかった。\n\nこれで奴らが信用ならない国であることが判明し、機会が巡ってきた際には排除するべき敵であることが確定した。[?SWI.SWI_fascist_germany.GetNameDef]に対するここまであからさまな侮辱を、見過ごしてなるものか。"
  BBA_switzerland.9.a:0 "必ず報いを受けさせてやる！"
 
 #To SWI: Germany is pleased
- BBA_switzerland.10.t:0 "[GER.GetNameDefCap]が[SWI.GetNameDef]の決定を喜ぶ"
- BBA_switzerland.10.desc:0 "[GER.GetNameDef]の代表数名と亡きヴィルヘルム・グストロフの妻が、フランクフルターに毅然とした判決を言い渡した[SWI.GetNameDef]に対し謝意を表した。もはやこうした問題における[SWI.GetNameDef]の立ち位置は、決定したも同然だ。今回のことで、[SWI.GetName]に対する[GER.GetName]の態度は間違いなく改善されることだろう。\n\nこの件について、[GER.Getleader]は肯定的な意見を述べつつも、ナチ党としての理想的な結果は、犯人を引き渡してもらうことだったと語っている。"
+ BBA_switzerland.10.t:1 "[?SWI.SWI_fascist_germany.GetNameDefCap]が[SWI.GetNameDef]の決定を喜ぶ"
+ BBA_switzerland.10.desc:1 "[?SWI.SWI_fascist_germany.GetNameDef]の代表数名と亡きヴィルヘルム・グストロフの妻が、フランクフルターに毅然とした判決を言い渡した[SWI.GetNameDef]に対し謝意を表した。もはやこうした問題における[SWI.GetNameDef]の立ち位置は、決定したも同然だ。今回のことで、[SWI.GetName]に対する[?SWI.SWI_fascist_germany.GetName]の態度は間違いなく改善されることだろう。\n\nこの件について、[GER.Getleader]は肯定的な意見を述べつつも、ナチ党としての理想的な結果は、犯人を引き渡してもらうことだったと語っている。"
  BBA_switzerland.10.a:0 "これで我々の安全が保障されるかもしれない"
 
 #Trial Verdict 
  BBA_switzerland.11.t:0 "ダヴィッド・フランクフルターに懲役の言い渡し"
- BBA_switzerland.11.desc_SWI:0 "参事会が事件への介入を避け、全てを裁判所とグラウビュンデンの法に任せたため、自らの意思でヴィルヘルム・グストロフを暗殺したダヴィッド・フランクフルターに、18年の懲役が課せられることになった。\n\n[GER.GetNameDef]がこれよりももっと残酷な刑を求めていたことは想像がつくため、我が国の外交官達にはこれから彼らを宥める仕事が待っているだろうが、このような状況で明確な立場を取るのは得策ではない。中立性を保つことでこそ、来たる嵐から[SWI.GetAdjective]の国民を守れる可能性があるならば尚更だ。"
- BBA_switzerland.11.desc_GER:0 "[SWI.GetNameDefCap]が厚かましくも、グストロフを殺した犯人に、たった18年の懲役を言い渡すだけで終わった！ 残念だが、さらに残酷な刑を求めてより強い圧力をかけていたら、オリンピックのボイコットを呼びかける声が勢いづくリスクがあった。\n\n現行の結果でも、グストロフを[GER.GetNameDef]の殉教者に仕立て上げ、今回の殺人事件をプロパガンダに利用することくらいは可能だ。また将来的に侵略した際に、改めてフランクフルターを捕まえられる可能性もある。その時こそ、我々の求める正義を執行すればいい。"
+ BBA_switzerland.11.desc_SWI:1 "参事会が事件への介入を避け、全てを裁判所とグラウビュンデンの法に任せたため、自らの意思でヴィルヘルム・グストロフを暗殺したダヴィッド・フランクフルターに、18年の懲役が課せられることになった。\n\n[?SWI.SWI_fascist_germany.GetNameDef]がこれよりももっと残酷な刑を求めていたことは想像がつくため、我が国の外交官達にはこれから彼らを宥める仕事が待っているだろうが、このような状況で明確な立場を取るのは得策ではない。中立性を保つことでこそ、来たる嵐から[SWI.GetAdjective]の国民を守れる可能性があるならば尚更だ。"
+ BBA_switzerland.11.desc_GER:1 "[SWI.GetNameDefCap]が厚かましくも、グストロフを殺した犯人に、たった18年の懲役を言い渡すだけで終わった！ 残念だが、さらに残酷な刑を求めてより強い圧力をかけていたら、オリンピックのボイコットを呼びかける声が勢いづくリスクがあった。\n\n現行の結果でも、グストロフを[?SWI.SWI_fascist_germany.GetNameDef]の殉教者に仕立て上げ、今回の殺人事件をプロパガンダに利用することくらいは可能だ。また将来的に侵略した際に、改めてフランクフルターを捕まえられる可能性もある。その時こそ、我々の求める正義を執行すればいい。"
  BBA_switzerland.11.a:0 "これが今、我々にできる精一杯だ"
  BBA_switzerland.11.b:0 "この事は決して忘れまい！" #THE GALLLLL!!!!
 
@@ -2143,17 +2185,17 @@
  BBA_switzerland.20.desc:0 "[ROOT.GetFactionName]の参加に招待した後、[FROM.GetNameDef]はその申し出を却下したが、彼らの独立を保障するならば我々のも保証すると伝えた。彼らの中立性を保つための妥協案だ。"
  BBA_switzerland.20.a:0 "仕方ない"
  
- BBA_switzerland.21.t:1 "必死な[FROM.GetNameDef]が我々の保証を要請"
- BBA_switzerland.21.desc:0 "中立性の違反が増加しているとして[?FROM.SWI_angriest_country.GetNameDef]が[FROM.GetName]との戦争をほめのかす中、[From.GetNameDef]は我々が[FROM.GetAdjective]の独立を保障する事でこの戦争挑発から彼らを保護する約束を要請している。"
+ BBA_switzerland.21.t:2 "必死な[FROM.GetName]が我々の保証を要請"
+ BBA_switzerland.21.desc:2 "中立性の違反が増加しているとして[?FROM.SWI_angriest_country.GetNameDef]が[FROM.GetName]との戦争をほめのかす中、[From.GetNameDef]は我々が[FROM.GetAdjective]の独立を保障する事でこの戦争挑発から彼らを保護する約束を要請している。"
  BBA_switzerland.21.a:0 "彼らは我々の保護が必要だ"
  BBA_switzerland.21.b:0 "[?FROM.SWI_angriest_country.GetName]との争いは避けたい"
 
  BBA_switzerland.22.t:0 "[FROM.GetNameDefCap]は我々の保護を約束した！"
- BBA_switzerland.22.desc:1 "[FROM.GetName]から素晴らしいニュースをもたらす外交文書が届いた。彼らは我々の独立を保証し、我々が[?SWI.SWI_angriest_country.GetName]を含む国に攻撃を受けた場合は保護する事を約束した。"
+ BBA_switzerland.22.desc:2 "[FROM.GetName]から素晴らしいニュースをもたらす外交文書が届いた。彼らは我々の独立を保証し、我々が[?SWI.SWI_angriest_country.GetName]を含む国に攻撃を受けた場合は保護する事を約束した。"
  BBA_switzerland.22.a:0 "多分助かった。"
 
  BBA_switzerland.23.t:0 "[FROM.GetNameDefCap]は我々の目的への関与を拒否"
- BBA_switzerland.23.desc:1 "残念ながら、[FROM.GetAdjective]は我々の[?SWI.SWI_angriest_country.GetName]に対する厳しい状況を無視した。彼らの脅威に、共に戦ってはくれないだろう。"
+ BBA_switzerland.23.desc:2 "残念ながら、[FROM.GetName]は我々の[?SWI.SWI_angriest_country.GetNameDef]に対する厳しい状況を無視した。彼らの脅威に、共に戦ってはくれないだろう。"
  BBA_switzerland.23.a:0 "自分達でなんとかするしかない"
 
  BBA_switzerland.24.t:0 "[?SWI.SWI_angriest_country.GetNameDefCap]は我々が中立違反中と判断した"
@@ -2234,7 +2276,7 @@
  BBA_switzerland_trade.9.a:0 "使えそうだ"
 
  BBA_switzerland_trade.10.t:0 "[FROM.GetNameDefCap]は我々の銀行システムの使用を拒否"
- BBA_switzerland_trade.10.desc:0 "相互利益が明らかなのにも関わらず、[GetName]は全世界と金取引を拡大させる事に興味がないようだ。"
+ BBA_switzerland_trade.10.desc:1 "相互利益が明らかなのにも関わらず、[FROM.GetName]は全世界と金取引を拡大させる事に興味がないようだ。"
  BBA_switzerland_trade.10.a:0 "仕方がない"
  
  BBA_switzerland_trade.11.t:0 "[FROM.GetAdjective]を通してさらに金を取引する事ができる"

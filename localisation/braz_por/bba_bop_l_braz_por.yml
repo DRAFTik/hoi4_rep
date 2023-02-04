@@ -2,7 +2,7 @@
 
  BOP_TOOLTIP:1 "[root.GetPowerBalanceName] é atualmente de [?.root.power_balance_value|0%] em [root.GetActiveSideName]\nNo momento, a balança está favorável a [root.GetTrendingSideName] em [root.GetChangeRateDesc].\n[root.GetPowerBalanceModDesc]"
  BOP_TOOLTIP_TREND:0 "A balança de poder está atualmente favorável a §Y[root.GetTrendingSideName]§! em [root.GetBopTrendTextIcon][root.GetChangeRateDesc].\n[root.GetPowerBalanceModDesc]"
- BOP_TOOLTIP_STABLE:0 "Atualmente, a balança de poder está estável."
+ BOP_TOOLTIP_STABLE:1 "Atualmente, a balança de poder está estável."
  BOP_LEFT_SIDE_TOOLTIP:0 "[root.GetLeftSideName]"
  BOP_RIGHT_SIDE_TOOLTIP:0 "[root.GetRightSideName]"
  BOP_ACTIVE_RANGE_DESC:0 "[root.GetActiveRangeName]"
@@ -52,6 +52,10 @@
  # Ethiopia Static Modifiers 
  ETH_withdraw_priviliges_power_balance:0 "Privilégios do Mesafint Reduzidos"
  ETH_increase_priviliges_power_balance:0 "Privilégios do Mesafint Aumentados"
+ ETH_increase_communist_power_balance:0 "Aumentando o apoio Comunista"
+ ETH_increase_anarchist_power_balance:0 "Aumentando o apoio Anarquista"
+ ETH_bop_anarchist_communist_changed:0 "Menos de um ano desde o início da campanha de apoio."
+ ETH_bop_anarchist_privileges_changed:0 "Menos de um ano desde o início da campanha de apoio."
  ETH_mesafint_side:0 "Lado §YMesafint§!"
  ETH_mekwanint_side:0 "§YLado Mekwanint§!"
 
@@ -95,7 +99,7 @@
 
  ####### ITALY #######
  ITA_power_balance:0 "Balança de Poder nacional"
- ITA_grand_council_side:0 "$ITA_grand_council$"
+ ITA_grand_council_side:1 "[GetGrandCouncilName]"
  ITA_mussolini_side:0 "$ITA_benito_mussolini$"
  ITA_balbo_side:0 "$ITA_italo_balbo$"
  ITA_grandi_side:0 "$ITA_dino_grandi$"
@@ -142,6 +146,7 @@
  ITA_pope_medium_control_range:0 "Influência papal consolidada"
  ITA_pope_high_control_range:0 "Domínio papal"
  ITA_pope_total_control_range:0 "Ascendência do papa"
+ ITA_bop_cap_for_colonies_impact_tt:0 "Perder estados que não são núcleos não impactará mais a Balança de Poder enquanto o valor for maior que §Y30%§! a favor de §Y$ITA_grand_council_side$§!."
 
  ITA_power_balance_lost_core_1:0 "Núcleos perdidos"
  ITA_power_balance_lost_core_2:0 "$ITA_power_balance_lost_core_1$"

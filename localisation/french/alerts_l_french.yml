@@ -48,6 +48,7 @@
  alert_pick_new_idea_delayed:1 "§TNous pouvons y faire entrer : §!"
  alert_pick_new_idea_delayed_bop:0 "§TÉquilibre des pouvoirs :§!"
  alert_pick_new_idea_group_type:0 "$TYPE|H$"
+ alert_pick_new_idea_advisor_delayed:0 "Un $ADVISOR|lY$ peut être choisi.\n"
  alert_available_wargoal_instant:0 "§HBut de guerre disponible§!"
  alert_enemy_generate_wargoal_instant:0 "§HDes buts de guerre sont fabriqués de toute pièce contre nous ou nos alliés.§!"
  alert_faction_generate_wargoal_instant:0 "§HDes pays membres de la faction sont en train de justifier un but de guerre.§!"

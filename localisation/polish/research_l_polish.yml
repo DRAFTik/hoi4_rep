@@ -452,7 +452,7 @@
  rocket_interceptor_3_desc:0 "Nowe techniki lądowania oraz bezpieczniejsze układy paliwa znacznie zwiększają skuteczność i niezawodność tych maszyn, które niegdyś wydawały się tylko marzeniem ambitnych konstruktorów."
  nukes:0 "Bomby jądrowe"
  nukes_desc:0 "Budowa bomby jądrowej będzie jednym z najtrudniejszych i najbardziej utajnionych projektów w historii świata. Jeżeli jednak zdołamy tego dokonać, zmienimy nie tylko przebieg dzisiejszych wojen, ale i przyszłość całego świata."
- interwar_artillery:0 "Artyleria międzywojenna"
+ interwar_artillery:1 "Artyleria międzywojenna"
  interwar_artillery_desc:0 "Wnioski wyciągnięte z produkcji różnych rodzajów artylerii mogą zostać wykorzystane przy projektowaniu nowych dział."
  artillery1:0 "Artyleria I"
  artillery1_desc:0 "Dzięki nowoczesnym materiałom i mechanizmom możemy dokonać modernizacji dział z wielkiej wojny, by wciąż były one przydatne."
@@ -1115,6 +1115,9 @@
  basic_train:0 "$train_equipment_1$"
  gwtank:0 "Czołg z wielkiej wojny"
  basic_light_tank:0 "Czołg l. I"
+ armored_car1:0 "$gw_armored_car_equipment$"
+ armored_car2:0 "$armored_car_equipment_1$"
+ armored_car3:0 "$armored_car_equipment_2$"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  dp_medium_battery:0 "Zaawansowana średnia bateria podwójnego zastosowania"

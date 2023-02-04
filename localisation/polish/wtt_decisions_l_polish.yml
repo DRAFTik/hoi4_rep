@@ -948,6 +948,8 @@
  develop_eastern_desert_oil_fields:0 "Rozbudowa pól naftowych Ras Gharib"
  develop_qatar_oil_fields:0 "Rozbudowa pól naftowych Duchan"
  burma_road_expansion_tt:0 "Posiada cel narodowy §YDroga Birmańska§! albo §YDroga Birmańska§!, ewentualnie należy to frakcji lub podlega krajowi, który ten cel posiada." #NOTE: these are names of uk_burma_focus and CHI_burma_road
+ develop_transdanubia_aluminium_deposits:0 "Eksploatacja złóż boksytu w Kraju Zadunajskim"
+ develop_derna_oilfield:0 "Eksploatacja pól naftowych w Dernie"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  pepare_for_fascist_civil_war:0 "Przygotowania do wojny domowej"

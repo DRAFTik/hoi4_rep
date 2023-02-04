@@ -640,7 +640,7 @@
  JAP_long_lance_torpedoes_desc:0 "Brutalność globalnej dystrybucji zasobów spowodowała, że marynarka wroga jest liczniejsza niż nasza. Dlatego stworzymy najnowocześniejszą torpedę świata o bardzo dalekim zasięgu i potężnej sile rażenia, napędzaną sprężonym tlenem – a nie sprężonym powietrzem – dzięki niej jednostki nawodne będą mogły atakować znacznie większe okręty przeciwnika."
  JAP_torpedo_cruisers:0 "Krążowniki torpedowe"
  JAP_torpedo_cruisers_desc:0 "Stworzymy nową klasę okrętów przenoszących olbrzymią liczbę naszych nowych torped, za pomocą których będą siać zniszczenie we flocie wroga."
- JAP_yamato_tt:0 "Dodaje do kolejki produkcji dwa syperpancerniki klasy Yamato, ukończone odpowiednio w 75% i 50%."
+ JAP_yamato_tt:1 "Dodaje dwie linie produkcyjne superciężkich pancerników §Yklasy Yamato§!, ukończone odpowiednio w 75% i 50%."
  cost_reduced_last_stand:1 "Pozwala używać zdolności §Yostatni bastion§! znacznie mniejszym kosztem.\n"
  MAN_pacify_the_countryside:0 "Pacyfikacja wsi"
  MAN_pacify_the_countryside_desc:0 "Od kiedy przejęliśmy władzę, banici i rebelianci próbują osłabić nasze wpływy w bardziej odległych zakątkach kraju. Jeżeli nasz rząd ma być traktowany poważnie, musimy pozbyć się tych terrorystów i pokazać obywatelom, że potrafimy egzekwować naszą władzę."

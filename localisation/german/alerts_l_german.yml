@@ -48,6 +48,7 @@
  alert_pick_new_idea_delayed:1 "§TSie können ändern:§!"
  alert_pick_new_idea_delayed_bop:0 "§TMachtgleichgewicht§!"
  alert_pick_new_idea_group_type:0 "$TYPE|H$"
+ alert_pick_new_idea_advisor_delayed:0 "Folgendes kann ausgewählt werden:\n$ADVISOR|Y$\n"
  alert_available_wargoal_instant:0 "§HVerfügbares Kriegsziel§!"
  alert_enemy_generate_wargoal_instant:0 "§HEs werden Kriegsziele gegen uns oder Alliierte fingiert§!"
  alert_faction_generate_wargoal_instant:0 "§HMitglieder unseres Bündnisses fingieren Kriegsziele§!"

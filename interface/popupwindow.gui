@@ -1571,7 +1571,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "release_puppet_checkbox"
-			position = { x = 50 y = 230 }
+			position = { x = 50 y = 198 }
 			quadTextureSprite ="GFX_generic_checkbox"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -1579,7 +1579,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 100 y = 234 }
+			position = {x = 100 y = 202 }
 			name = "release_puppet_label"
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -1591,6 +1591,26 @@ guiTypes = {
 
 		checkboxType = {
 			name = "play_as_checkbox"
+			position = { x = 50 y = 234 }
+			quadTextureSprite ="GFX_generic_checkbox"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_checkbox
+		}
+
+		instantTextBoxType={
+			position = {x = 100 y = 238 }
+			name = "play_as_label"
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 130
+			maxHeight = 18
+			text = "PLAY_AS"
+			format = left
+		}
+		
+		checkboxType = {
+			name = "retain_cores_checkbox"
 			position = { x = 50 y = 270 }
 			quadTextureSprite ="GFX_generic_checkbox"
 			buttonText = ""
@@ -1600,12 +1620,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			position = {x = 100 y = 274 }
-			name = "play_as_label"
+			name = "retain_cores_label"
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 130
+			maxWidth = 200
 			maxHeight = 18
-			text = "PLAY_AS"
+			text = "RETAIN_CORES"
 			format = left
 		}
 

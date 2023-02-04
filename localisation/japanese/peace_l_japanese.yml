@@ -166,7 +166,7 @@
  PEACE_CONFERENCE_OVERLAPPING_SELECTED_ACTION:1 "§R選択できません§!。この州に対して、既に未提示の要求があります。そちらをキャンセルしてから選択してください。"
  PEACE_CONFERENCE_TOO_EXPENSIVE_ACTION:0 "要求が高額すぎるため§R選択できません§!。"
  NEW_PEACE_CONFERENCE:0 "§R新たな和平会議§!"
- WAIT_END_TURN:0 "静観する"
+ WAIT_END_TURN:1 "審議中"
  PEACE_BIDDINGS_POPUP_CONTESTED_TITLE:1 "競争中の入札"
  PEACE_BIDDINGS_POPUP_SELECTED_TITLE:1 "未提示の入札"
  PEACE_BIDDINGS_POPUP_DESCRIPTION:1 "別の国が同じ領土に入札しているため、$BIDNAME|Y$への入札が£peace_conf_icons|3§R競争§!状態になっています。入札を取り下げない場合は競争中の領土にもう一度入札を行い、諦める場合は入札を放棄してください。\n\n競争中の入札は現在提示中のものにはカウントされません。もう一度入札を行わない場合は、入札を確定したことにはなりません。"
@@ -268,6 +268,7 @@
  PEACE_CONFERENCE_BID_WILL_RESULT_IN_CONFLICT:0 "この要求を提示すると、£peace_conf_icons|3 §R競争状態§!の要求が発生することになります。"
  PEACE_CONFERENCE_BID_WILL_PULL_BACK_PLAYER:0 "このプレイヤーは会議から£accept_decline_icon|2退出しました。この要求を提示することで、再びに席につけることができます。"
  PEACE_CONFERENCE_SELECT_A_VICTOR:0 "戦勝国を選択して相手の考えを確認"
+ TRIGGER_PC_CURRENT_TURN:0 "現在のターン"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  PEACE_FILTER_DEMANDS_CHOICE:0 "現在の行動: $ACTION|Y$"
