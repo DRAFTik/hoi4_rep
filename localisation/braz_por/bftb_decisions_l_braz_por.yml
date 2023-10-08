@@ -298,6 +298,7 @@
  TUR_pay_off_our_debts_desc:0 "O império otomano acumulou uma grande dívida ao longo de sua existência, e nós também gastamos muito na reconstrução de nossa nação. Atualmente, estamos em uma boa posição para pagar uma parte dessa dívida!"
  TUR_discuss_investment_possibilities_with_FROM:0 "Discutir possibilidades de investimento com [FROM.GetNameDef]"
  TUR_discuss_investment_possibilities_with_FROM_desc:0 "No passado, a política [ROOT.GetAdjective] era evitar investimentos e interferência estrangeira onde fosse possível - mas não podemos mais ter medo de simples transações como investimentos. Eles nos abordarão como iguais e nós podemos ficar mais ricos com isso."
+ TUR_investment_in_turkey_pending_flag:0 "[FROM.GetNameDefCap] concordou com nosso portfólio de investimentos, mas ainda não o adotou."
  TUR_investment_opinion_tt:0 "Teremos mais oportunidades de investimento se a opinião de §Y[FROM.GetNameDef]§! sobre nós for mais alta.\n"
  ROOT_invest_in_turkish_state_building:1 "Investir na construção estatal [FROM.GetAdjective]"
  ROOT_invest_in_turkish_state_building_desc:0 "A infraestrutura crítica [FROM.GetAdjective] é obsoleta em várias regiões do país; isso é algo que podemos corrigir."
@@ -920,7 +921,7 @@
  BUL_secure_occupation_in_balkan_state:0 "Garantir a ocupação em [FROM.GetName]"
  BUL_secure_occupation_in_balkan_state_desc:0 "Devemos assumir nosso papel como guardiões da paz nos Balcãs e propor aos nossos aliados que nos concedam o controle administrativo sobre seus territórios ocupados na região, aliviando as guarnições estrangeiras do [ROOT.GetFactionName], para que possam reforçar outras frentes."
  BUL_secure_occupation_in_balkan_state_tt:0 "(Países com pouca §Ymão de obra§! e §Yequipamento de infantaria§! ficarão mais inclinados a aceitar)"
- BUL_bulgarian_reintegration_campaign:1 "Campanha de Reintegração Búlgara em [FROM.GetName]"
+ BUL_bulgarian_reintegration_campaign:2 "Campanha de Reintegração Búlgara em [FROM.GetName]"
  bulgarian_territorial_expansion_arranged:0 "Expansão territorial búlgara pré-arranjada"
  BUL_bulgarian_territorial_expansion_arranged_tt:0 "Estados com §YExpansão territorial búlgara pré-arranjada§! O modificador será transferido para a Bulgária assim que qualquer aliado da facção controle o estado e a Bulgária entrou para a mesma facção que a Alemanha"
 

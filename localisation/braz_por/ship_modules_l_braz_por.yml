@@ -122,7 +122,7 @@
  ship_secondaries_1_desc:0 "Abrigada em uma casamata no lado do navio, este canhão leve dá a navios maiores algumas medidas de defesa contra navios menores."
  ship_secondaries_2:0 "120mm RF. Canhão"
  ship_secondaries_2_short:0 "Bateria secundária II"
- ship_secondaries_2_desc:0 "Uma montagem de torre menor para canhões de disparo rápido, projetado para defender capitanias de contratorpedeiros e torpedeiros."
+ ship_secondaries_2_desc:0 "Uma montagem de torre menor para canhões de disparo rápido, projetado para defender navios capitânias de contratorpedeiros e torpedeiros."
  dp_ship_secondaries_1:0 "Bateria Secundária de Propósito Duplo de 100 mm"
  dp_ship_secondaries_1_short:0 "Bateria Secundária de Propósito Duplo I"
  dp_ship_secondaries_1_desc:0 "Essa montagem combina atributos de armamentos antiaéreos pesados com atributos de baterias secundárias. Também aumenta drasticamente as capacidades antiaéreas de um navio, ao mesmo tempo que fornece certo grau de defesa contra alvos de superfície menores."

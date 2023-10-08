@@ -235,7 +235,7 @@
  superior_firepower_army_spirit_desc:1 "Si la artillería no te sirve para ganar batallas, es que no tienes suficiente.\n\n§GEste espíritu está disponible gracias a nuestras doctrinas.§!"
  grand_battleplan_army_spirit:0 "Punta de la lanza"
  grand_battleplan_army_spirit_desc:1 "Una daga de noche es más efectiva que una espada de día.\n\n§GEste espíritu está disponible gracias a nuestras doctrinas.§!"
- mass_assault_army_spirit:0 "Fuerza de la bayoneta"
+ mass_assault_army_spirit:1 "Fuerza de la bayoneta"
  mass_assault_army_spirit_desc:1 "Al final, no son los tanques ni los aviones los que mantienen la posición.\n\n§GEste espíritu está disponible gracias a nuestras doctrinas.§!"
  political_connections_spirit:0 "Conexiones políticas"
  political_connections_spirit_desc:0 "Bien, ¡veamos qué dice el ministro al respecto!"

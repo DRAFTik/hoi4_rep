@@ -1101,6 +1101,7 @@
  CAN_communist_ideals:0 "Ideais Comunistas"
  CAN_communist_ideals_2:0 "Ideais Comunistas"
  CAN_communist_ideals_3:0 "Ideais Comunistas"
+ CAN_communist_ideals_4:0 "Ideais Comunistas"
  AUS_eduard_freiherr:0 "Eduard Freiherr"
  AUS_alexander_lohr:0 "Alexander Löhr"
  AUS_lothar_rendulic:0 "Dr. Lothar Rendulic"
@@ -2607,9 +2608,9 @@
  HOL_godfried_van_voorst_tot_voorst:0 "Godfried van Voorst tot Voorst"
  HOL_hendrik_seyffardt:0 "Hendrik Seyffardt"
  MTG_naval_treaty_adherent:0 "Signatário do Tratado Naval de Londres"
- MTG_naval_treaty_adherent_desc:0 "Nós assinamos o Tratado Naval de Londres e estamos igualmente restritos no tamanho de nossas capitanias."
+ MTG_naval_treaty_adherent_desc:0 "Nós assinamos o Tratado Naval de Londres e estamos igualmente restritos no tamanho de nossos navios capitânias."
  MTG_naval_treaty_adherent_reduced:0 "Cláusula escada-rolante invocada"
- MTG_naval_treaty_adherent_reduced_desc:0 "Após signatários do Tratado Naval de Washington abandonarem o Tratado Naval de Londres, nós invocamos a Cláusula de Escada-Rolante, reduzindo as restrições de tamanho e armamento de nossas capitanias."
+ MTG_naval_treaty_adherent_reduced_desc:0 "Após signatários do Tratado Naval de Washington abandonarem o Tratado Naval de Londres, nós invocamos a Cláusula de Escada-Rolante, reduzindo as restrições de tamanho e armamento de nossos navios capitânias."
  GER_western_trade_cooperation:0 "Cooperação Comercial Europeia"
  GER_western_trade_cooperation_tt:0 "Adiciona uma $arms_factory$ externa e um $industrial_complex$ externo"
  GER_air_safety_regulations:0 "Regulamentações de segurança aérea"
@@ -2688,6 +2689,13 @@
  MAN_hoankyoku_idea_desc:0 "Uma organização secreta dedicada a lidar com os elementos indesejáveis da sociedade."
  AST_central_bureau_idea:0 "Gabinete Central"
  AST_central_bureau_idea_desc:0 "Uma força-tarefa de inteligência conjunta estabelecida e coordenada com os EUA, que visa contrapor os esforços dos nossos inimigos no teatro de guerra do Pacífico."
+ ROM_national_christian_party_in_power:0 "Partido Nacional Cristão"
+ 
+ CAN_unified_communist_party:0 "O Povo Unido"
+ CAN_unified_communist_party_desc:0 "As velhas rixas foram superadas e as relações reatadas. Ainda assim, nossa tolerância a serviço de um destino comum é vista com desconfiança por aqueles que falam da causa apenas da boca para fora, motivados pela mais vulgar das motivações: a busca pelo poder."
+ CAN_true_revolution:0 "Revolução Verdadeira"
+ CAN_booming_economy:0 "Economia em Expansão"
+ CAN_booming_economy_desc:0 "Com a Grande Depressão claramente ficando no passado, nossa economia começa a melhorar graças às demandas significativas geradas pela atual situação mundial."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  SPR_louis_gonzalez_ubieta:0 "Luis González de Ubieta"

@@ -1166,7 +1166,7 @@
  SWI_humanitarian:0 "Гуманист"
  SWI_small_arms_designer:0 "Оружейный конструктор"
  SWI_guisan_leader_trait:0 "Популярный диктатор"
- SWI_weapons_designer:1 "Оружейный конструктор"
+ SWI_weapons_designer:2 "Оружейный конструктор"
  SWI_soviet_spy:0 "Советский шпион"
  
  constitutional_philosopher:0 "Конституционный философ"
@@ -1177,6 +1177,12 @@
  
  evans_deakin_trait:0 "Тихоокеанское предприятие"
  cockatoo_trait:0 "Специалист по легким кораблям"
+
+ cautious_arbiter:0 "Осторожный судья"
+ viceroy_emeritus:0 "Эмерит-вице-король"
+ viceroy_emeritus_desc:0 "Лорд Галифакс долго служил вице-королем Индии. Его правление не обошлось без противоречий, но его дипломатические таланты принесли плоды."
+ viceroy_emeritus_tt:0 "\nЕсли §Hлорд Галифакс§! — лидер нашего государства, эффекты автономии от этого фокуса будут удвоены."
+ viceroy_emeritus_downside_tt:0 "\nВ связи с противоречивостью правления лорда Галифакса в Индии:"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  political_reformer_3:0 "$political_reformer_1$"

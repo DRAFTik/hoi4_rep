@@ -1166,7 +1166,7 @@
  SWI_humanitarian:0 "Humanitär"
  SWI_small_arms_designer:0 "Waffendesigner"
  SWI_guisan_leader_trait:0 "Beliebter Diktator"
- SWI_weapons_designer:1 "Waffenkonstrukteur"
+ SWI_weapons_designer:2 "Waffendesigner"
  SWI_soviet_spy:0 "Sowjetischer Spion"
  
  constitutional_philosopher:0 "Konstitutioneller Philosoph"
@@ -1177,6 +1177,12 @@
  
  evans_deakin_trait:0 "Pazifik-Projekt"
  cockatoo_trait:0 "Spezialist für Leichtschiffe"
+
+ cautious_arbiter:0 "Vorsichtiger Vermittler"
+ viceroy_emeritus:0 "Vizekönig-Emerit"
+ viceroy_emeritus_desc:0 "Lord Halifax war über einen längeren Zeitraum Vizekönig von Indien. Seine Zeit im Gouverneursamt war höchst umstritten, doch sein diplomatisches Talent scheint Früchte zu tragen."
+ viceroy_emeritus_tt:0 "\nWenn §HLord Halifax§! unser Staatsoberhaupt ist, zählen die Autonomieeffekte dieses Schwerpunkts doppelt."
+ viceroy_emeritus_downside_tt:0 "\nAufgrund der umstrittenen Geschichte von Lord Halifax in Indien:"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  political_reformer_3:0 "$political_reformer_1$"

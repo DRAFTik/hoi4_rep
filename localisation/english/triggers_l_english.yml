@@ -761,6 +761,8 @@
  TRIGGER_ALL_CHARACTER_STARTS:0 "All Characters"
  TRIGGER_IS_NOT_ADVISOR:0 "Is not an advisor"
  TRIGGER_IS_ADVISOR:0 "Is an advisor"
+ TRIGGER_IS_HIRED_AS_ADVISOR:0 "Is hired as advisor"
+ TRIGGER_IS_NOT_HIRED_AS_ADVISOR:0 "Is not hired as advisor"
  TRIGGER_IS_NOT_POLITICAL_ADVISOR:0 "Is not a political advisor"
  TRIGGER_IS_POLITICAL_ADVISOR:0 "Is a political advisor"
  TRIGGER_IS_NOT_THEORIST:0 "Is not a theorist"
@@ -891,7 +893,7 @@
  
  TRIGGER_PC_IS_INSIDE_INFLUENCE_RANGE:0 "Is inside max AI influence range" ##Will never be displayed
  TRIGGER_PC_IS_OUTSIDE_INFLUENCE_RANGE:0 "Is outside max AI influence range" ##Will never be displayed
- TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Has completed achievement $ACHIEVEMENT$"
- TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Has not completed achievement $ACHIEVEMENT$"
+ TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Has completed achievement $ACHIEVEMENT|H$"
+ TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Has not completed achievement $ACHIEVEMENT|H$"
  
 

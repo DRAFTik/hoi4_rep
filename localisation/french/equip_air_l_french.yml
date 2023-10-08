@@ -1954,18 +1954,18 @@
  MEX_cv_nav_bomber_equipment_3_short:0 "Tlaloc (p.)"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- scout_plane_equipment_1_short:0 "Reconnaissance I" # [LocEditor:CustomLanguageKey]
- scout_plane_equipment_2_short:0 "Reconnaissance II" # [LocEditor:CustomLanguageKey]
- ENG_scout_plane_equipment_1_short:0 "Spitfire PR" # [LocEditor:CustomLanguageKey]
- ENG_scout_plane_equipment_2_short:0 "Mosquito PR" # [LocEditor:CustomLanguageKey]
- SOV_scout_plane_equipment_1_short:0 "R-10" # [LocEditor:CustomLanguageKey]
- SOV_scout_plane_equipment_2_short:0 "Yak-2" # [LocEditor:CustomLanguageKey]
- FRA_scout_plane_equipment_2_short:0 "CAO.700" # [LocEditor:CustomLanguageKey]
- GER_transport_plane_equipment_1_short:0 "Ju 52" # [LocEditor:CustomLanguageKey]
- USA_transport_plane_equipment_1_short:0 "DC-3" # [LocEditor:CustomLanguageKey]
- JAP_transport_plane_equipment_1_short:0 "Ki-56" # [LocEditor:CustomLanguageKey]
- SOV_transport_plane_equipment_1_short:0 "Li-2" # [LocEditor:CustomLanguageKey]
- ENG_transport_plane_equipment_1_short:0 "Bristol Bombay" # [LocEditor:CustomLanguageKey]
- ITA_transport_plane_equipment_1_short:0 "Ca.133" # [LocEditor:CustomLanguageKey]
- FRA_transport_plane_equipment_1_short:0 "MB.220" # [LocEditor:CustomLanguageKey]
- SWE_transport_plane_equipment_1_short:0 "Trp 2" # [LocEditor:CustomLanguageKey]
+ scout_plane_equipment_1_short:0 "Reconnaissance I"
+ scout_plane_equipment_2_short:0 "Reconnaissance II"
+ ENG_scout_plane_equipment_1_short:0 "Spitfire PR"
+ ENG_scout_plane_equipment_2_short:0 "Mosquito PR"
+ SOV_scout_plane_equipment_1_short:0 "R-10"
+ SOV_scout_plane_equipment_2_short:0 "Yak-2"
+ FRA_scout_plane_equipment_2_short:0 "CAO.700"
+ GER_transport_plane_equipment_1_short:0 "Ju 52"
+ USA_transport_plane_equipment_1_short:0 "DC-3"
+ JAP_transport_plane_equipment_1_short:0 "Ki-56"
+ SOV_transport_plane_equipment_1_short:0 "Li-2"
+ ENG_transport_plane_equipment_1_short:0 "Bristol Bombay"
+ ITA_transport_plane_equipment_1_short:0 "Ca.133"
+ FRA_transport_plane_equipment_1_short:0 "MB.220"
+ SWE_transport_plane_equipment_1_short:0 "Trp 2"

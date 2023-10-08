@@ -2429,7 +2429,7 @@
  BBA_swiss_expansion.19.desc:0 "\n[From.Capital.GetCapitalVictoryPointName] semble avoir très mal pris notre déclaration d'indépendance. [From.GetLeLaLNPCap] [From.GetName] vien[From.GetTNentNP] de nous faire parvenir une déclaration de guerre, dans l'espoir de s'emparer de tout le territoire national par la force. Les [Root.GetHabitants] vont donc devoir prendre les armes pour montrer à l'envahisseur qu'ils ne sont pas si faciles à soumettre."
  BBA_swiss_expansion.19.a:0 "Aux armes !"
 
- SWI_delayed_anschluss_TT:0 "[GER.GetLeLaLNPCap] [GER.GetFlag]§Y[GER.GetName]§! ne pourr[GER.GetAOntNP] pas procéder à l'Anschluss§! jusqu'à ce que [AUS.GetLeLaLNP] [AUS.GetFlag]§Y[AUS.GetName]§! ai[AUS.GetTEntNP] perdu l'esprit national §Y$SWI_swiss_democratic_propaganda$§!, au bout de trois mois."
+ SWI_delayed_anschluss_TT:0 "[GER.GetLeLaLNPCap] [GER.GetFlag]§Y[GER.GetName]§! ne pourr[GER.GetAOntNP] pas procéder à §Yl'Anschluss§! jusqu'à ce que [AUS.GetLeLaLNP] [AUS.GetFlag]§Y[AUS.GetName]§! ai[AUS.GetTEntNP] perdu l'esprit national §Y$SWI_swiss_democratic_propaganda$§!, au bout de trois mois."
  SWI_expantion_state_loc:0 "[?SWI.SWI_influence_target_state.GetName]"
  SWI_expansion_no_state:0 "un État"
  SWI_claiming_state_loc:0 "[?SWI_state_being_claimed.GetName]"

@@ -37,7 +37,7 @@
  UNIT_LEADER_ADD_ADVISOR_HAS_ROLES:0 "$NAME|Y$ ma dostępne stanowiska ($NUMBER$)."
  UNIT_LEADER_ADD_ADVISOR_ROLE:0 "Udostępnij tę osobę ($NAME|Y$) jako doradcę ($TYPE|Y$) ze specjalizacjami: "
  UNIT_LEADER_CANNOT_ADD_ADVISOR_ROLE:0 "$NAME|Y$ nie dysponuje odpowiednimi umiejętnościami, by zostać doradcą."
- UNIT_LEADER_CANNOT_ADD_ADVISOR_ROLE_MIN_SKILL_LEVEL:0 "§RAby zostać doradcą, potrzebuje poziomu umiejętności min. §Y$LEVEL$§!.\n"
+ UNIT_LEADER_CANNOT_ADD_ADVISOR_ROLE_MIN_SKILL_LEVEL:0 "§RAby zostać doradcą, potrzebuje poziomu umiejętności min. §Y$LEVEL$§!§!.\n"
  UNIT_LEADER_CHOOSE_ADVISOR_ROLE:0 "Wybierz stanowisko doradcze"
  UNIT_LEADER_APPLICABLE_ADVISOR_ROLES:0 "Może objąć następujące stanowiska"
  UNIT_LEADER_ADD_ADVISOR_TITLE:0 "Dodaje dowódcę jako doradcę"

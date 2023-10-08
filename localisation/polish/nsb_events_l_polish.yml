@@ -1057,7 +1057,7 @@
  NSB_soviet_policies_of_collective_security_refusing_poland_inclusion_tt:0 "Odrzucimy [FROM.GetAdjective] propozycję uczynienia rządu [POL.GetAdjective] jedną ze stron układu. [FROM.GetNameDefCap] musi wybrać między naszą początkową propozycją albo zrezygnowaniem z zawarcia wspólnej umowy o wzajemnej pomocy."
  NSB_soviet_policies_of_collective_security_tt:0 "Jeśli rząd [POL.GetAdjective] zgodzi się, [POL.GetNameDef] stanie się jedną ze stron wspólnej umowy o wzajemnej pomocy, tak jak [FROM.GetNameDef] i [ROOT.GetNameDef]."
  NSB_soviet_policies_of_collective_security_poland_included_effects_from_tt:0 "[SOV.GetFlag]§Y[SOV.GetNameDefCap]§!, [FROM.GetFlag]§Y[FROM.GetNameDefCap]§! i [POL.GetFlag]§Y[POL.GetNameDefCap]§! zrzekną się wszelkich roszczeń lub celów wojennych wobec siebie i podpiszą pakt o nieagresji oraz udzielą sobie wzajemnych gwarancji."
- NSB_soviet_policies_of_collective_security_poland_included_effects_root_tt:0 "[SOV.GetFlag]§Y[SOV.GetNameDefCap]§!, [ROOT.GetFlag]§Y[ROOT.GetNameDefCap]§ i [POL.GetFlag]§Y[POL.GetNameDefCap]§! zrzekną się wszelkich roszczeń lub celów wojennych wobec siebie i podpiszą pakt o nieagresji oraz udzielą sobie wzajemnych gwarancji."
+ NSB_soviet_policies_of_collective_security_poland_included_effects_root_tt:0 "[SOV.GetFlag]§Y[SOV.GetNameDefCap]§!, [ROOT.GetFlag]§Y[ROOT.GetNameDefCap]§! i [POL.GetFlag]§Y[POL.GetNameDefCap]§! zrzekną się wszelkich roszczeń lub celów wojennych wobec siebie i podpiszą pakt o nieagresji oraz udzielą sobie wzajemnych gwarancji."
 
  NSB_soviet_comecon.1.t:0 "[ROOT.GetNameDef]: Projekt industrializacji państwa [FROM.GetAdjective]"
  NSB_soviet_comecon.1.desc:0 "W ramach działań RWPG rząd [FROM.GetAdjective] zaczął inwestować w naszą gospodarkę. Dzięki temu jej rozwój przyśpieszy w najbliższych miesiącach."
@@ -1158,7 +1158,7 @@
  NSB_soviet_communist_civil_war.005.a:0 "Witamy"
 
  NSB_soviet_communist_civil_war.006.t:0 "[?SOV_uprising_state.GetName]: masowe protesty"
- NSB_soviet_communist_civil_war.006.desc:0 "[?SOV_uprising_state.GetName]: robotnicy wyszli na ulice, by wziąć udział w wielkiej demokracji. Przeważają postulaty zwiększenia wpływów związków zawodowych, ale widoczne są też inne slogany i transparenty. Pojawiły się nawet doniesienia o otwarcie antystalinowskich hasłach."
+ NSB_soviet_communist_civil_war.006.desc:1 "[?SOV_uprising_state.GetName]: robotnicy wyszli na ulice, by wziąć udział w wielkiej demokracji. Przeważają postulaty zwiększenia wpływów związków zawodowych, ale widoczne są też inne slogany i transparenty. Pojawiły się nawet doniesienia o otwarcie antystalinowskich hasłach."
  NSB_soviet_communist_civil_war.006.a:0 "Niech protestują"
  NSB_soviet_communist_civil_war.006.b:0 "Trzeba to powstrzymać, zanim sytuacja wymknie się spod kontroli"
 
@@ -1529,7 +1529,7 @@
  nsb_news.304.a:0 "Tym razem pozostanie zjednoczone!"
  nsb_news.304.b:0 "A gdzie to w ogóle jest?"
  nsb_news.400.t:1 "Koronacja Władimira III"
- nsb_news.400.desc:0 "[SOV.GetName]: Po prawie trzech dekadach rządów bolszewików kraj ponownie staje się caratem, czego symbolem jest koronacja cara Władimira I podczas uroczystej ceremonii w moskiewskim Soborze Zaśnięcia Matki Bożej. Gdy królewska procesja przeszła pomiędzy zgromadzonymi tłumami, car przemówił do ludu, wychwalał ducha narodu rosyjskiego i obiecał przywrócenie ojczyźnie dawnej chwały."
+ nsb_news.400.desc:1 "[SOV.GetName]: Po prawie trzech dekadach rządów bolszewików kraj ponownie staje się caratem, czego symbolem jest koronacja cara Władimira III podczas uroczystej ceremonii w moskiewskim Soborze Zaśnięcia Matki Bożej. Gdy królewska procesja przeszła pomiędzy zgromadzonymi tłumami, car przemówił do ludu, wychwalał ducha narodu rosyjskiego i obiecał przywrócenie ojczyźnie dawnej chwały."
  nsb_news.400.a:0 "Wspaniałe wydarzenie!"
  nsb_news.400.b:0 "Podżeganie!"
  nsb_news.400.c:0 "To farsa!"

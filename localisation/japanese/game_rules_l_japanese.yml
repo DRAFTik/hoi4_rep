@@ -522,6 +522,16 @@
  LON_NON_INTERFERENCE_RESOLUTION_JOIN:0 "国際連盟が不干渉の決議を出しているため、[FROM.GetNameDef]に参加できない"
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT:0 "現在[ETH.GetName]には、義勇軍しか派遣できない"
 
+ RULE_GROUP_PEACE_SCORE:0 "平和スコアの分配"
+ PEACE_SCORE_TO_OVERLORD:0 "傀儡国家から宗主国へ"
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_YES_DESC:0 "傀儡国家は宗主国に平和スコアの一部を差し出すことになる。割合はその国の自治度による。"
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_NO_DESC:0 "傀儡国家は、戦争中に獲得した平和スコアの全てを自分のものにできる。"
+ PEACE_SCORE_TO_FACTION_LEADER:0 "加盟国から盟主へ"
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_YES_DESC:0 "加盟国は盟主に平和スコアの10%を差し出すことになる。"
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_NO_DESC:0 "加盟国は、戦争中に獲得した平和スコアの全てを自分のものにできる。"
+ PEACE_SCORE_RESET_LOW_SCORES:0 "低スコアの再分配"
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_YES_DESC:0 "戦争貢献度が5%未満の勝者は、その他の勝者にスコアの全てを差し出すことになる。\n勝者の中に最低10%の戦争貢献度を記録した者がいない場合は適用外。\n人間のプレイヤーにも適用されることはない。"
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_NO_DESC:0 "全ての勝者は、戦争中に獲得した平和スコアの全てを自分のものにできる。"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  RULE_OPTION_IMPERIAL_SWI_AI_DESC:0 "AIがアルプス保護領の形成に向けて動き始める。目標達成のため、中立性と民主主義は放棄されることになり、代わりに軍国主義と領土拡大を目指す政権が樹立される。"

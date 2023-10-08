@@ -1101,6 +1101,7 @@
  CAN_communist_ideals:0 "Kommunistische Ideale"
  CAN_communist_ideals_2:0 "Kommunistische Ideale"
  CAN_communist_ideals_3:0 "Kommunistische Ideale"
+ CAN_communist_ideals_4:0 "Kommunistische Ideale"
  AUS_eduard_freiherr:0 "Eduard Freiherr"
  AUS_alexander_lohr:0 "Alexander Löhr"
  AUS_lothar_rendulic:0 "Dr. Lothar Rendulic"
@@ -2688,6 +2689,13 @@
  MAN_hoankyoku_idea_desc:0 "Eine Geheimorganisation, die sich der Bekämpfung unerwünschter Elemente in der Gesellschaft widmet."
  AST_central_bureau_idea:0 "Zentralbüro"
  AST_central_bureau_idea_desc:0 "Ein gemeinsamer Nachrichtendienst zur Koordination mit den USA, der dazu eingerichtet wurde, unseren Feinden im pazifischen Raum entgegenzuwirken."
+ ROM_national_christian_party_in_power:0 "Nationale Christenpartei"
+ 
+ CAN_unified_communist_party:0 "Das Volk, vereint"
+ CAN_unified_communist_party_desc:0 "Alte Konflikte werden überwunden und Bande neu geknüpft, doch unsere Toleranz füreinander, um einem gemeinsamen Schicksal zu dienen, wird von denjenigen mit Argwohn betrachtet, die lediglich ein Lippenbekenntnis für die große Sache ablegen und von der niedersten aller Motivationen getrieben werden: dem Streben nach Macht."
+ CAN_true_revolution:0 "Wahre Revolution"
+ CAN_booming_economy:0 "Boomende Wirtschaft"
+ CAN_booming_economy_desc:0 "Die Große Depression gehört endgültig der Vergangenheit an, und unsere Wirtschaft hat begonnen, sich unter den erheblichen Anforderungen der aktuellen Weltlage zu verbessern."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  SPR_louis_gonzalez_ubieta:0 "Luis González de Ubieta"

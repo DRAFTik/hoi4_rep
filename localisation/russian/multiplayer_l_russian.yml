@@ -152,6 +152,7 @@
  OOS_84:0 "Оперативные соединения"
  OOS_85:0 "Авиакрылья"
  OOS_86:0 "Асы"
+ OOS_87:0 "Статистика прохождения"
  MULTIPLAYER_PLAYERS:0 "$NUM$"
  MULTIPLAYER_MESSAGES:0 "$NUM$"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS:0 "§GУже играет§!"

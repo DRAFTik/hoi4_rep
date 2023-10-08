@@ -276,7 +276,7 @@
  controls_ethiopian_cores_tt:0 "Tous les États nationaux [Root.GetAdjMP] sont sous contrôle."
  ETH_move_capital_to_axum:0 "Transférer la capitale à Aksoum"
  ETH_move_capital_to_axum_desc:0 "La cité ancienne d'Aksoum devrait de nouveau être la capitale de notre puissant empire."
- ETH_prevents_further_capital_moves_tt:0 "Transférer la capitale ne sera plus possible à l'avenir."
+ ETH_prevents_further_capital_moves_tt:1 "Transférer la capitale à Jérusalem interdira tout autre transfert à l'avenir."
  ETH_has_moved_capital_flag:0 "La capitale a déjà été transférée"
  form_empire_of_solomon:0 "Former l'Empire de Salomon"
  ETH_move_capital_to_jerusalem:0 "Transférer la capitale à Jérusalem"
@@ -308,7 +308,7 @@
  ETH_offer_peace_UGA:0 "Proposer la paix aux [UGA.Capital.Owner.GetFlag][UGA.Capital.Owner.GetHabitants] contre l'indépendance [UGA.GetDuDelaDelNP] [UGA.GetName]"
  ETH_offer_peace_UGA_tt:0 "Nous allons offrir la paix [UGA.Capital.Owner.GetAuAlaAlNP] [UGA.Capital.Owner.GetFlag]§Y[UGA.Capital.Owner.GetName]§! [UGA.Capital.Owner.GetSilSielleNP] accept[UGA.Capital.Owner.GetEEntNP] de renoncer à [UGA.Capital.Owner.GetSesLeursNP] revendications sur les États [UGA.GetAdjMP] actuellement sous contrôle [ETH.GetAdjMS]. Ceux-ci deviendront un fantoche [ETH.GetDuDelaDelNP] [ETH.GetFlag]§Y[ETH.GetName]§!."
  ETH_freedom_at_gunpoint_offer_peace:0 "Proposer la paix aux [From.Capital.Owner.GetFlag][From.Capital.Owner.GetHabitants] contre l'indépendance [From.GetDuDelaDelNP] [From.GetName]"
- ETH_freedom_at_gunpoint_offer_peace_tt:1 "Nous allons proposer la paix [From.Capital.Owner.GetAuAlaAlNP] [From.Capital.Owner.GetFlag]§Y[From.Capital.Owner.GetName]§! [From.Capital.Owner.GetSilSielleNP] accept[From.Capital.Owner.GetEEntNP] de renoncer aux territoires §Y[From.GetAdjMP]§! actuellement sous contrôle §Y[This.GetAdjMS]§!. [From.Capital.Owner.GetSilSielleNPCap] l'accept[From.Capital.Owner.GetEEntNP], [This.GetLeLaLNP] [This.GetFlag]§Y[This.GetName]§! v[This.GetAOntNP] disposer d'une dépendance dans les territoires nationaux [From.GetAdjMP] qu'[This.GetIlElleNP] contrôl[This.GetEEntNP].\n\n§R[Root.GetLeLaLNPCap] [Root.GetFlag]§Y[Root.GetName]§! v[Root.GetAOntNP] quitter [Root.GetSaLeurNP] faction si la paix est acceptée et que cette faction est en guerre contre [From.Capital.Owner.GetLeLaLNP] [From.Capital.Owner.GetFlag]§Y[From.Capital.Owner.GetName].§!\n\n§R[From.Capital.Owner.GetLeLaLNPCap] [From.Capital.Owner.GetFlag]§Y[From.Capital.Owner.GetName]§! ne v[From.Owner.Capital.GetAOntNP] envisager la paix que si [Root.GetLeLaLNP] [Root.GetFlag]§Y[Root.GetName]§! contrôl[Root.GetEEntNP] le territoire [From.GetAdjMS].§!"
+ ETH_freedom_at_gunpoint_offer_peace_tt:1 "Nous allons proposer la paix [From.Capital.Owner.GetAuAlaAlNP] [From.Capital.Owner.GetFlag]§Y[From.Capital.Owner.GetName]§! [From.Capital.Owner.GetSilSielleNP] accept[From.Capital.Owner.GetEEntNP] de renoncer aux territoires §Y[From.GetAdjMP]§! actuellement sous contrôle §Y[This.GetAdjMS]§!. [From.Capital.Owner.GetSilSielleNPCap] l'accept[From.Capital.Owner.GetEEntNP], [This.GetLeLaLNP] [This.GetFlag]§Y[This.GetName]§! v[This.GetAOntNP] disposer d'une dépendance dans les territoires nationaux [From.GetAdjMP] qu'[This.GetIlElleNP] contrôl[This.GetEEntNP].\n\n§R[Root.GetLeLaLNPCap] [Root.GetFlag]§Y[Root.GetName]§! v[Root.GetAOntNP] quitter [Root.GetSaLeurNP] faction si la paix est acceptée et que cette faction est en guerre contre [From.Capital.Owner.GetLeLaLNP] [From.Capital.Owner.GetFlag]§Y[From.Capital.Owner.GetName].§!\n\n§R[From.Capital.Owner.GetLeLaLNPCap] [From.Capital.Owner.GetFlag]§Y[From.Capital.Owner.GetName]§! ne v[From.Owner.Capital.GetAOntNP] envisager la paix que si [Root.GetLeLaLNP] [Root.GetFlag]§Y[Root.GetName]§! contrôl[Root.GetEEntNP] le territoire [From.GetAdjMS].§!§!"
 
  ETH_exploit_french_weakness_category:0 "$ETH_exploit_french_weakness$"
  ETH_exploit_french_weakness_category_desc:0 "Aussitôt que l'attention des Français sera consacrée à des affaires plus proches de chez eux et que l'heure sera venue, nous devrions prendre le contrôle de la $STATE_268$."
@@ -908,7 +908,7 @@
 
  aoi_required_ethiopian_states:0 "[ITA.GetLeLaLNPCap] [ITA.GetFlag]§Y[ITA.GetName]§! ou l'une de [ITA.GetSesLeursNP] dépendances possèdent l'ensemble des États nationaux §Yéthiopiens§!."
 
- aoi_founded_tt:0 "[AOI.GetLeLaLNPCap] [AOI.GetFlag]§Y[AOI.GetName]§! v[AOI.GetAOntNP] devenir une dépendance [Root.GetDuDelaDelNP] [Root.GetFlag]§Y[Root.GetName]."
+ aoi_founded_tt:0 "[AOI.GetLeLaLNPCap] [AOI.GetFlag]§Y[AOI.GetName]§! v[AOI.GetAOntNP] devenir une dépendance [Root.GetDuDelaDelNP] [Root.GetFlag]§Y[Root.GetName]§!."
 
  give_somaliland_to_the_aoi:0 "Céder le Somaliland [AOI.GetAuAlaAlNP] [AOI.GetName]"
 
@@ -920,13 +920,17 @@
 
  send_more_weapons_to_the_AOI:0 "Envoyer des armes [AOI.GetAuAlaAlNP] [AOI.GetName]"
 
- form_country_albania_required_states_tt:0 "Contrôle tous les États §Yalbanais§!."
+ form_country_albania_required_states_tt:1 "Contrôle tous les États nationaux §Yalbanais§! sur la Méditerranée."
 
- form_country_mare_nostrum_required_states_tt:0 "Contrôle les États de §YLjubljana§!, de §YDalmatie§!, de §YBosnie§!, d'§YHerzégovine§! et du §YMonténégro§!."
- form_country_mare_nostrum_turkey_required_states_tt:0 "Contrôle tous les États §Yturcs§! bordant la §YMéditerranée§!."
- form_spqr_coastal_spain_required_states_tt:0 "Contrôle tous les États §Yespagnols§! bordant la §YMéditerranée§!."
- form_spqr_coastal_france_required_states_tt:0 "Contrôle tous les États §Yfrançais§! bordant la §YMéditerranée§!."
- form_spqr_coastal_uk_required_states_tt:0 "Contrôle tous les États §Ybritanniques§! bordant la §YMéditerranée§!."
+ form_country_mare_nostrum_required_states_tt:1 "Contrôle les États nationaux §Yyougoslaves§! de §Y$STATE_163$§!, de §Y$STATE_853$§!, de §Y$STATE_103$§!, de §Y$STATE_104$§!, d'§Y$STATE_804$§! et du §Y$STATE_105$§!."
+ form_country_mare_nostrum_turkey_required_states_tt:1 "Contrôle tous les États nationaux §Yturcs§! sur la Méditerranée."
+ form_spqr_coastal_spain_required_states_tt:1 "Contrôle tous les États nationaux §Yespagnols§! sur la Méditerranée."
+ form_spqr_coastal_france_required_states_tt:1 "Contrôle tous les États nationaux §Yfrançais§! sur la Méditerranée."
+ form_spqr_coastal_uk_required_states_tt:1 "Contrôle tous les États nationaux §Ybritanniques§! sur la Méditerranée."
+ form_country_mare_nostrum_north_africa_required_states_tt:0 "Contrôle tous les États d'§YAfrique du Nord§! sur la Méditerranée et tous les États nationaux §Ylibyens§!."
+ form_country_mare_nostrum_middle_east_required_states_tt:0 "Contrôle tous les États du §YMoyen-Orient§! sur la Méditerranée."
+ form_country_mare_nostrum_greece_required_states_tt:0 "Contrôle tous les États nationaux §Ygrecs§! sur la Méditerranée."
+ form_mare_nostrum_coastal_uk_required_states_tt:0 "Contrôle les États de §Y$STATE_118$§!, de §Y$STATE_116$§! et de §Y$STATE_183$§!."
 
  form_spqr_core_mare_nostrum_states_tt:0 "§YTous§! les États requis pour prendre la décision deviennent des États nationaux."
 

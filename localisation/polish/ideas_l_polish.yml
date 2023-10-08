@@ -1101,6 +1101,7 @@
  CAN_communist_ideals:0 "Komunistyczne ideały"
  CAN_communist_ideals_2:0 "Komunistyczne ideały"
  CAN_communist_ideals_3:0 "Komunistyczne ideały"
+ CAN_communist_ideals_4:0 "Komunistyczne ideały"
  AUS_eduard_freiherr:0 "Eduard Freiherr"
  AUS_alexander_lohr:0 "Alexander Löhr"
  AUS_lothar_rendulic:0 "Dr Lothar Rendulic"
@@ -2688,6 +2689,13 @@
  MAN_hoankyoku_idea_desc:0 "Tajna organizacja zajmująca się usuwaniem niepożądanego elementu ze społeczeństwa."
  AST_central_bureau_idea:0 "Biuro Centralne"
  AST_central_bureau_idea_desc:0 "Wspólna grupa operacyjna stworzona w USA i stamtąd koordynowana. Jej zadaniem jest niweczenie działań wrogów w rejonie Oceanu Spokojnego."
+ ROM_national_christian_party_in_power:0 "Partia Chrześcijańsko-Narodowa"
+ 
+ CAN_unified_communist_party:0 "Lud, Zjednoczony"
+ CAN_unified_communist_party_desc:0 "Dawne podziały zniknęły, stosunki zostały naprawione. Jednak nasza tolerancja, która pozwala realizować wspólne przeznaczenie, spotyka się z podejrzliwością tych, którzy wspierają sprawę tylko słowem, kierowani najbardziej prymitywną motywacją: żądzą władzy."
+ CAN_true_revolution:0 "Prawdziwa rewolucja"
+ CAN_booming_economy:0 "Kwitnąca gospodarka"
+ CAN_booming_economy_desc:0 "Wielki kryzys to już przeszłość, stan naszej gospodarki zaczął się poprawiać w obliczu potężnych wymagań kreowanych przez obecną sytuację na świecie."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  SPR_louis_gonzalez_ubieta:0 "Luis González de Ubieta"
@@ -2763,3 +2771,4 @@
  ckd:0 "CKD"
  HOL_DAF_trucks:0 "DAF Trucks"
  GRE_georgios_papandreou_bftb:0 "Jeorjos Papandreu"
+ POR_agostinho_lourenco_desc:0 "§LAgostinho Lourenço da Conceição Pereira§!"

@@ -276,7 +276,7 @@
  controls_ethiopian_cores_tt:0 "Контролирует все [ROOT.GetAdjective] национальные территории."
  ETH_move_capital_to_axum:0 "Перенести столицу в Аксум"
  ETH_move_capital_to_axum_desc:0 "Новой столицей империи должен стать древний город Аксум."
- ETH_prevents_further_capital_moves_tt:0 "Перенести столицу можно только один раз"
+ ETH_prevents_further_capital_moves_tt:1 "Перенос столицы в Иерусалим предотвращает дальнейшие переносы столицы."
  ETH_has_moved_capital_flag:0 " Столица уже была перенесена"
  form_empire_of_solomon:0 "Создать Империю Соломона"
  ETH_move_capital_to_jerusalem:0 "Сделать Иерусалим столицей империи"
@@ -920,13 +920,17 @@
 
  send_more_weapons_to_the_AOI:0 "Отправить оружие в ИВА"
 
- form_country_albania_required_states_tt:0 "Контролирует все §Yалбанские§! регионы"
+ form_country_albania_required_states_tt:1 "Контролирует все §Yалбанские§! национальные территории в Средиземноморье."
 
- form_country_mare_nostrum_required_states_tt:0 "Контролирует §YЛюбляну§!, §YДалмацию§!, §YБоснию§!, §YГерцеговину§! и §YЧерногорию§!"
- form_country_mare_nostrum_turkey_required_states_tt:0 "Контролирует все §Yтурецкие§! регионы, граничащие со §YСредиземным морем§!."
- form_spqr_coastal_spain_required_states_tt:0 "Контролирует все §Yиспанские§! регионы, граничащие со §YСредиземным морем§!."
- form_spqr_coastal_france_required_states_tt:0 "Контролирует все §Yфранцузские§! регионы, граничащие со §YСредиземным морем§!."
- form_spqr_coastal_uk_required_states_tt:0 "Контролирует все §Yбританские§! регионы, граничащие со §YСредиземным морем§!."
+ form_country_mare_nostrum_required_states_tt:1 "Контролирует югославские национальные территории §Y[163.GetName]§!, §Y[853.GetName]§!, §Y[103.GetName]§!, §Y[104.GetName]§!, §Y[804.GetName]§! и §Y[105.GetName]§!."
+ form_country_mare_nostrum_turkey_required_states_tt:1 "Контролирует все §Yтурецкие§! национальные территории в Средиземноморье."
+ form_spqr_coastal_spain_required_states_tt:1 "Контролирует все §Yиспанские§! национальные территории в Средиземноморье."
+ form_spqr_coastal_france_required_states_tt:1 "Контролирует все §Yфранцузские§! национальные территории в Средиземноморье."
+ form_spqr_coastal_uk_required_states_tt:1 "Контролирует все §Yбританские§! национальные территории в Средиземноморье."
+ form_country_mare_nostrum_north_africa_required_states_tt:0 "Контролирует все §Yсевероафриканские§! регионы в Средиземноморье и все §Yливийские§! национальные территории."
+ form_country_mare_nostrum_middle_east_required_states_tt:0 "Контролирует все §Yближневосточные§! регионы в Средиземноморье."
+ form_country_mare_nostrum_greece_required_states_tt:0 "Контролирует все §Yгреческие§! национальные территории в Средиземноморье."
+ form_mare_nostrum_coastal_uk_required_states_tt:0 "Контролирует регионы §Y[118.GetName]§!, §Y[116.GetName]§! и §Y[183.GetName]§!."
 
  form_spqr_core_mare_nostrum_states_tt:0 "Территории §Yвсех регионов§!, нужных для принятия решения, становятся национальными"
 

@@ -522,6 +522,16 @@
  LON_NON_INTERFERENCE_RESOLUTION_JOIN:0 "Nie możesz dołączyć do: [FROM.GetNameDef], ze względu na rezolucję Ligi Narodów o nieingerencji"
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT:0 "Obecnie na terytorium [ETH.GetAdjective] możesz wysyłać tylko jednostki ochotników"
 
+ RULE_GROUP_PEACE_SCORE:0 "Dystrybucja wskaźnika pokoju"
+ PEACE_SCORE_TO_OVERLORD:0 "Marionetki dla władcy"
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_YES_DESC:0 "Marionetki oddają swojemu władcy część swojego wskaźnika pokoju. Ilość zależy od ich poziomu autonomii."
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_NO_DESC:0 "Marionetki zachowują cały wskaźnik pokoju zgromadzony w czasie wojny."
+ PEACE_SCORE_TO_FACTION_LEADER:0 "Członkowie frakcji dla przywódcy frakcji"
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_YES_DESC:0 "Członkowie frakcji oddają przywódcy frakcji 10% swojego wskaźnika pokoju."
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_NO_DESC:0 "Członkowie frakcji zachowują cały wskaźnik pokoju zgromadzony w czasie wojny."
+ PEACE_SCORE_RESET_LOW_SCORES:0 "Redystrybucja niskich wskaźników"
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_YES_DESC:0 "Zwycięzcy o wskaźniku udziału w wojnie mniejszym niż 5% oddają cały swój wynik innym zwycięzcom.\nNie stosuje się, jeśli żaden zwycięzca nie ma co najmniej 10% udziału w wojnie.\nNie stosuje się do państw sterowanych przez człowieka."
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_NO_DESC:0 "Wszyscy zwycięzcy zachowują cały wskaźnik pokoju zgromadzony w czasie wojny."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  GAME_RULE_OPTION_YES:0 "Tak"

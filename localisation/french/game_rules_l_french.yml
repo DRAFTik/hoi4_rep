@@ -522,6 +522,16 @@
  LON_NON_INTERFERENCE_RESOLUTION_JOIN:0 "[Root.GetLeLaLNPCap] [Root.GetName] ne peu[Root.GetTVentNP] pas rejoindre [From.GetLeLaLNP] [From.GetName] à cause d'une résolution de non-intervention de la Société des Nations"
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT:0 "Actuellement, seules des unités de volontaires peuvent être envoyées [ETH.GetAuEnANP] [ETH.GetName]."
 
+ RULE_GROUP_PEACE_SCORE:0 "Distribution du score de paix"
+ PEACE_SCORE_TO_OVERLORD:0 "Fantoches au suzerain"
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_YES_DESC:0 "Les pays fantoches versent une part de leur score de paix au pays suzerain, cette part étant déterminée par leur niveau d'£autonomy_texticon£autonomie."
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_NO_DESC:0 "Les pays fantoches conservent l'intégralité du score de paix engrangé au cours des conflits."
+ PEACE_SCORE_TO_FACTION_LEADER:0 "Membres au dirigeant de la faction"
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_YES_DESC:0 "Les membres de la faction versent 10% de leur score de paix au pays dirigeant la faction."
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_NO_DESC:0 "Les membres de la faction conservent l'intégralité du score de paix engrangé au cours des conflits."
+ PEACE_SCORE_RESET_LOW_SCORES:0 "Scores faibles redistribués"
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_YES_DESC:0 "Les pays vainqueurs dont la participation au conflit est inférieure à 5% versent l'ensemble de leur score aux autres vainqueurs.\nNe s'applique pas si aucun pays vainqueur n'a au moins 10% en participation à la guerre.\nNe s'applique pas aux joueurs humains."
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_NO_DESC:0 "Tous les pays vainqueurs conservent l'intégralité du score de paix engrangé au cours des conflits."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  RULE_OPTION_IMPERIAL_SWI_AI_DESC:0 "L'I.A. suisse va tenter de former le Protectorat des Alpes en renonçant à la neutralité et à la démocratie pour adopter un régime militariste et expansionniste."

@@ -349,6 +349,8 @@
  MENU_FORUM:0 "Foro de Hearts of Iron IV"
  MENU_FACEBOOK:0 "Facebook de Hearts of Iron IV"
  MENU_TWITTER:0 "Twitter de Hearts of Iron IV"
+ MENU_INSTAGRAM:0 "Instagram de Hearts of Iron IV"
+ MENU_DISCORD:0 "Discord de Hearts of Iron IV"
  MENU_PRIVACY_POLICY:0 "Política de privacidad"
  MAIN_MENU:0 "Menú principal"
  MAIN_MENU_BACK:0 "Volver al menú"
@@ -1954,6 +1956,7 @@
  SUNK_BY_MINES:0 "minas"
  PARADROP_PLANES_REQUIRED:0 "\n§REsta orden no puede ejecutarse:§!\nSe necesita(n) $WINGS|H$ ala(s) más de transporte."
  RETAIN_CORES:0 "Conservar Estados con nuestros territorios esenciales"
+ DIVISION_VIEW_HAS_MEDALS:0 "Se puede conceder una §Hmedalla§! a esta división.\n§GHaz clic para abrir el menú de medallas.§!"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  SUPPLY_NODE_TOOLTIP_HEADER:2 "Centro de suministros en $PROVINCE_NAME|H$:"

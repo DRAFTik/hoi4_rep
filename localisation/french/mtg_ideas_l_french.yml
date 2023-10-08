@@ -67,7 +67,7 @@
  MEX_abelardo_rodriguez:0 "Abelardo L. Rodríguez"
  MEX_abelardo_rodriguez_desc:0 "§LDès son entrée dans la révolution en 1913, Abelardo Rodríguez Luján gravit les échelons grâce à son intelligence et à son zèle. Sa loyauté à la cause fut récompensée en 1932, lorsqu'il devint Président du Mexique lors des deux dernières années du mandat de son prédécesseur, Álvaro Obregón Salido, mort assassiné.§!"
  MEX_jose_gonzalo_escobar:0 "José Gonzalo Escobar"
- MEX_jose_gonzalo_escobar_desc:0 "§LLe général Escobar a combattu contre les rebelles de Pancho Villa au cours des événements agités de la révolution, menant lui-même les charges de cavalerie contre les ennemis du gouvernement.\n   Opposé au président Calles, il a été exilé après s'être lui-même révolté en 1929 ; mais rien n'empêche qu'il rentre au pays si un nouveau gouvernement est formé.§!§!"
+ MEX_jose_gonzalo_escobar_desc:0 "§LLe général Escobar a combattu contre les rebelles de Pancho Villa au cours des événements agités de la révolution, menant lui-même les charges de cavalerie contre les ennemis du gouvernement.\n   Opposé au président Calles, il a été exilé après s'être lui-même révolté en 1929 ; mais rien n'empêche qu'il rentre au pays si un nouveau gouvernement est formé.§!"
  MEX_pablo_gonzalez:0 "Pablo González Garza"
  MEX_pablo_gonzalez_desc:0 "§LGonzález, en tant que général de l'armée, avait le don pour s'occuper du « sale boulot ». Ainsi, c'est lui qui a monté l'embuscade au cours de laquelle fut tué le célèbre rebelle et caudillo Emiliano Zapata en 1919.§!"
  MEX_plutarco_calles:0 "Plutarco Elías Calles"
@@ -197,4 +197,4 @@
  ENG_joint_air_training_scheme_desc:0 "Le gouvernement [ENG.GetAdjMS] a lancé un programme d'entraînement aérien commun à tous les équipages venus des pays membres du Commonwealth. Nous en tirerons assurément grand profit."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- HOL_prince_bernhard_desc:0 "§LBernhard Leopold Frederik Everhard Julius Coert Karel Godfried Pieter de Lippe-Biesterfeld, prince des Pays-Bas§!" # [LocEditor:CustomLanguageKey]
+ HOL_prince_bernhard_desc:0 "§LBernhard Leopold Frederik Everhard Julius Coert Karel Godfried Pieter de Lippe-Biesterfeld, prince des Pays-Bas§!"

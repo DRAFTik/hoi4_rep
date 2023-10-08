@@ -761,6 +761,8 @@
  TRIGGER_ALL_CHARACTER_STARTS:0 "Wszystkie postacie"
  TRIGGER_IS_NOT_ADVISOR:0 "Nie jest doradcą"
  TRIGGER_IS_ADVISOR:0 "Jest doradcą"
+ TRIGGER_IS_HIRED_AS_ADVISOR:0 "Jest zatrudnionym doradcą"
+ TRIGGER_IS_NOT_HIRED_AS_ADVISOR:0 "Nie jest zatrudnionym doradcą"
  TRIGGER_IS_NOT_POLITICAL_ADVISOR:0 "Nie jest doradcą politycznym"
  TRIGGER_IS_POLITICAL_ADVISOR:0 "Jest doradcą politycznym"
  TRIGGER_IS_NOT_THEORIST:0 "Nie jest teoretykiem"
@@ -891,8 +893,8 @@
  
  TRIGGER_PC_IS_INSIDE_INFLUENCE_RANGE:0 "Znajduje się w obrębie maksymalnego zasięgu wpływu SI" ##Will never be displayed
  TRIGGER_PC_IS_OUTSIDE_INFLUENCE_RANGE:0 "Znajduje się poza obrębem maksymalnego zasięgu wpływu SI" ##Will never be displayed
- TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Zrealizowano osiągnięcie $ACHIEVEMENT$"
- TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Nie zrealizowano osiągnięcia $ACHIEVEMENT$"
+ TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Zrealizowano osiągnięcie $ACHIEVEMENT|H$"
+ TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Nie zrealizowano osiągnięcia $ACHIEVEMENT|H$"
  
 
 

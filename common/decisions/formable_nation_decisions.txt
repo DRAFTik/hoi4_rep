@@ -2240,15 +2240,16 @@ form_roman_empire_category = {
 			# Yugoslavia
 			custom_trigger_tooltip = {
 				tooltip = form_country_mare_nostrum_required_states_tt
+				controls_state = 163
+				controls_state = 853
 				controls_state = 103
 				controls_state = 104 
 				controls_state = 804
 				controls_state = 105
-				controls_state = 853
 			}
 			# Greece
 			custom_trigger_tooltip = {
-				tooltip = form_country_greece_required_states_tt
+				tooltip = form_country_mare_nostrum_greece_required_states_tt
 				controls_state = 185
 				controls_state = 731
 				controls_state = 47
@@ -2256,6 +2257,7 @@ form_roman_empire_category = {
 				controls_state = 184
 				controls_state = 187
 				controls_state = 182
+				controls_state = 164 #DODECANESE initially controlled by Italy
 			}
 			# Turkey
 			custom_trigger_tooltip = {
@@ -2267,40 +2269,36 @@ form_roman_empire_category = {
 				controls_state = 342
 				controls_state = 345
 				controls_state = 344
+				if = { # HATAY will most likely be handed over from FRA to TUR, this hopefully prevents some confusion
+					limit = {
+						799 = {
+							is_controlled_by = TUR
+						}
+					}
+					controls_state = 799
+				}
 			}
 			# Italy
 			custom_trigger_tooltip = {
 				tooltip = form_spqr_italy_required_states_tt
 				controls_state = 158
-				controls_state = 159
-				controls_state = 39
-				controls_state = 850
-				controls_state = 160
-				controls_state = 161
 				controls_state = 162
-				controls_state = 157
+				controls_state = 114
 				controls_state = 2
 				controls_state = 117
-				controls_state = 849
 				controls_state = 156
 				controls_state = 115
-				controls_state = 114
+				controls_state = 849
+				controls_state = 157
+				controls_state = 161
+				controls_state = 160
 				controls_state = 736
 				controls_state = 852
-				controls_state = 163
-				controls_state = 164
-				controls_state = 849
+				controls_state = 39
 				controls_state = 850
+				controls_state = 849
 				controls_state = 852
-				# North Africa / Dodecanese
-				controls_state = 164
-				controls_state = 448
-				controls_state = 661
-				controls_state = 449
-				controls_state = 662
-				controls_state = 450
-				controls_state = 451
-				controls_state = 663
+				controls_state = 159
 			}
 			# Spain
 			custom_trigger_tooltip = {
@@ -2310,8 +2308,6 @@ form_roman_empire_category = {
 				controls_state = 167
 				controls_state = 168
 				controls_state = 173
-				controls_state = 290
-
 			}
 			# France
 			custom_trigger_tooltip = {
@@ -2322,29 +2318,58 @@ form_roman_empire_category = {
 				controls_state = 21
 				controls_state = 22
 				controls_state = 31
-				# North Africa
-				controls_state = 458
-				controls_state = 665
-				controls_state = 460
-				controls_state = 459
-				controls_state = 461
-				# Syria
-				controls_state = 677
-				controls_state = 553
-				controls_state = 799
 			}
 			# British Mediterranean
 			custom_trigger_tooltip = {
-				tooltip = form_spqr_coastal_uk_required_states_tt
+				tooltip = form_mare_nostrum_coastal_uk_required_states_tt
 				controls_state = 118
 				controls_state = 116
 				controls_state = 183
-				controls_state = 454 
-				controls_state = 453
-				controls_state = 446
-				controls_state = 907
-				controls_state = 447
+			}
+			# North Africa (Morocco to Libya)
+			custom_trigger_tooltip = {
+				tooltip = form_country_mare_nostrum_north_africa_required_states_tt
+				#Morocco
+				controls_state = 290
+				controls_state = 461
+				#Algeria
+				controls_state = 459
+				controls_state = 460
+				#Tunisia
+				controls_state = 458
+				controls_state = 665
+				#Libya
+				controls_state = 448
+				controls_state = 449
+				controls_state = 450
+				controls_state = 451
+				controls_state = 661
+				controls_state = 662
+				controls_state = 663
+			}
+			# Middle East (Egypt to Syria)
+			custom_trigger_tooltip = {
+				tooltip = form_country_mare_nostrum_middle_east_required_states_tt
+				#Egypt
 				controls_state = 452
+				controls_state = 447
+				controls_state = 907
+				controls_state = 446
+				controls_state = 453
+				#Palestine
+				controls_state = 454
+				#Lebanon
+				controls_state = 553
+				#Syria
+				controls_state = 677
+				if = { # HATAY will most likely be handed over from FRA to TUR, this hopefully prevents some confusion
+					limit = {
+						799 = {
+							NOT = { is_controlled_by = TUR }
+						}
+					}
+					controls_state = 799
+				}
 			}
 		}
 
@@ -8817,8 +8842,8 @@ form_ethiopian_empire_category  = {
 				}
 				ETH_upgrade_state_category = yes 
 			}
-			custom_effect_tooltip = ETH_prevents_further_capital_moves_tt
-			set_country_flag = ETH_has_moved_capital_flag
+			#custom_effect_tooltip = ETH_prevents_further_capital_moves_tt
+			#set_country_flag = ETH_has_moved_capital_flag
 		}
 
 		ai_will_do = {
@@ -8923,11 +8948,6 @@ form_ethiopian_empire_category  = {
 			}
 			custom_effect_tooltip = ETH_prevents_further_capital_moves_tt
 			set_country_flag = ETH_has_moved_capital_flag
-		
-			hidden_effect = { 
-				#TODO_TA make news event 
-				# news_event = { id = nsb_news.304 hours = 8 }
-			}
 		}
 
 		ai_will_do = {

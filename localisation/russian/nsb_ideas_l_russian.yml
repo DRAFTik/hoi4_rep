@@ -235,7 +235,7 @@
  superior_firepower_army_spirit_desc:1 "Если артиллерия не выигрывает войны, значит, вы недостаточно ею пользуетесь.\n\n§GЭтот национальный дух доступен благодаря нашим доктринам.§!"
  grand_battleplan_army_spirit:0 "Острие копья"
  grand_battleplan_army_spirit_desc:1 "Кинжал ночью часто эффективнее меча днем.\n\n§GЭтот национальный дух доступен благодаря нашим доктринам.§!"
- mass_assault_army_spirit:0 "Сила штыка"
+ mass_assault_army_spirit:1 "Сила штыка"
  mass_assault_army_spirit_desc:1 "Когда все уже сказано и сделано, землю не удержишь танком или самолетом.\n\n§GЭтот национальный дух доступен благодаря нашим доктринам.§!"
  political_connections_spirit:0 "Политические связи"
  political_connections_spirit_desc:0 "Посмотрим, что на это скажет министр!"

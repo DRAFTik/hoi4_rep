@@ -90,7 +90,7 @@
  ETH_regional_supply_depots_desc:0 "Unsere Truppen sind nicht in der Lage, ihr Heimatland zu verteidigen, wenn sie keine Munition oder Nahrung haben. Schließlich marschiert eine Armee auf ihrem Magen. Wir sollten dafür sorgen, dass sie immer gut versorgt sind, indem wir regionale militärische Versorgungsdepots in ganz [ETH.GetName] einrichten."
  ETH_expand_the_levy:1 "Die [GetChitetName] erweitern"
  ETH_expand_the_levy_desc:0 "Die bessere Versorgung und Ausbildung hat die [GetChitetName] zu einer robusten und flexiblen Truppe gemacht. Mit dieser starken Basis, auf der wir aufbauen können, werden wir die [GetChitetName] ausbauen und jeden Aggressor abschrecken, der uns anzugreifen plant."
- ETH_expand_the_levy_tt:0 "Erhöht die Anzahl an Chitet-Sefari-Divisionen, die aufgestellt werden können, auf §Y40§!.\nFügt Chitet-Sefari-Divisionen §Y3 Bataillone $irregular_infantry$§! hinzu. Fügt §Y$engineer$§!, §Y$military_police$§! und §Y$field_hospital$§! hinzu, wenn die entsprechenden Technologien erforscht wurden."
+ ETH_expand_the_levy_tt:1 "Erhöht die Anzahl an Chitet-Sefari-Divisionen, die aufgestellt werden können, auf §Y48§!.\nFügt Chitet-Sefari-Divisionen §Y3 Bataillone $irregular_infantry$§! hinzu. Fügt §Y$engineer$§!, §Y$military_police$§! und §Y$field_hospital$§! hinzu, sofern die entsprechenden Technologien erforscht wurden."
  ETH_the_junior_officer_corps:0 "Das Junior-Offizierskorps"
  ETH_the_junior_officer_corps_desc:0 "Unsere Armee wird seit Jahrhunderten von Aristokraten beherrscht. Wenn wir auf dem Schlachtfeld effektiver sein wollen, müssen wir Offiziersschulen und Ausbildungsprogramme einrichten, die Leistung vor Vetternwirtschaft stellt. Ein erster Schritt in diese Richtung wäre die Einrichtung eines Junioroffizierskorps."
  ETH_camouflage:0 "Tarnung"
@@ -1855,7 +1855,7 @@
  SWI_request_french_alps_occupation:0 "[FRA.GetAdjective]e Besetzung fordern"
  SWI_request_french_alps_occupation_desc:0 "[FRA.GetNonIdeologyName] begehrt unser Land seit Generationen, und es ist daher nur angemessen, dass wir nun umgekehrt die Kontrolle über das Territorium von [FRA.GetNonIdeologyName] übernehmen und es verwalten, damit wir beide eine Zukunft haben."
  SWI_the_alpine_supremacy:0 "Alpenvormacht"
- SWI_the_alpine_supremacy_desc:0 "[SWI.GetNonIdeologyName], eine ehedem sanftmütige und richtungslose Nation, die im Äther der Diplomatie existierte, ist nicht mehr. Wir werden von nun als Alpenvormacht bekannt sein, um unsere Herrschaft über die Alpen, ihre Menschen und einiges darüber hinaus zu repräsentieren."
+ SWI_the_alpine_supremacy_desc:1 "[SWI.GetNonIdeologyName], eine ehedem sanftmütige und richtungslose Nation, die im Äther der Diplomatie existierte, ist nicht mehr. Wir werden von nun als Alpenvormacht bekannt sein, um unsere Herrschaft über die Alpen, ihre Menschen und einiges darüber hinaus zu repräsentieren."
 
  SWI_professionalize_militias:0 "Professionelle Milizen"
  SWI_professionalize_militias_desc:0 "So wie die Dinge laufen, wird eine lockere Miliz, die nur aus Reservisten besteht, nicht ausreichen. Wir müssen alle fähigen Männer für den vor uns liegenden Konflikt ausbilden und sie zu einer gefürchteten Berufsarmee machen."

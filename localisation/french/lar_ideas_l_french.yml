@@ -191,71 +191,71 @@
  mastermind_code_cracker:0 "Génie du décryptage"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- acl_desc:0 "Ateliers et Chantiers de la Loire\n" # [LocEditor:CustomLanguageKey]
- acf_desc:0 "Ateliers et Chantiers de France\n" # [LocEditor:CustomLanguageKey]
- FRA_APX_desc:0 "Atelier de construction de Puteaux\n" # [LocEditor:CustomLanguageKey]
- SNCAN:0 "SNCAN" # [LocEditor:CustomLanguageKey]
- SNCAN_desc:0 "Société nationale des constructions aéronautiques du Nord\n" # [LocEditor:CustomLanguageKey]
- SNCAO:0 "SNCAO" # [LocEditor:CustomLanguageKey]
- SNCAO_desc:0 "Société nationale des constructions aéronautiques de l'Ouest\n" # [LocEditor:CustomLanguageKey]
- SNCASE:0 "SNCASE" # [LocEditor:CustomLanguageKey]
- SNCASE_desc:0 "Société nationale des constructions aéronautiques du Sud-Est\n" # [LocEditor:CustomLanguageKey]
- SNCASO:0 "SNCASO" # [LocEditor:CustomLanguageKey]
- SNCASO_desc:0 "Société nationale des constructions aéronautiques du Sud-Ouest\n" # [LocEditor:CustomLanguageKey]
- SNCAC:0 "SNCAC" # [LocEditor:CustomLanguageKey]
- SNCAC_desc:0 "Société nationale des constructions aéronautiques du Centre\n" # [LocEditor:CustomLanguageKey]
- georges_bonnet_desc:0 "§LÉtienne Georges Bonnet§!" # [LocEditor:CustomLanguageKey]
- SPR_juan_negrin_desc:0 "§LJuan Negrín López§!" # [LocEditor:CustomLanguageKey]
- SPR_indalecio_prieto_desc:0 "$SPR_indalecio_prieto_tuero_desc$" # [LocEditor:CustomLanguageKey]
- SPR_jesus_hernandez_tomas_desc:0 "§LJesús Hernández Tomás§!" # [LocEditor:CustomLanguageKey]
- SPR_federica_montseny_desc:0 "§LFederica Montseny Mañé§!" # [LocEditor:CustomLanguageKey]
- SPR_domenec_batet_desc:0 "§LDomingo Batet Mestres§!" # [LocEditor:CustomLanguageKey]
- SPR_etelvino_vega_desc:0 "§LEtelvino Vega Martínez§!" # [LocEditor:CustomLanguageKey]
- SPR_mate_zalka_desc:0 "§LBéla Frankl, dit « Máté Zalka »§!" # [LocEditor:CustomLanguageKey]
- SPR_ignacio_hidalgo_de_cisneros_desc:0 "$SPR_ignacio_hidalgo_cisneros_desc$" # [LocEditor:CustomLanguageKey]
- SPR_andres_garcia_la_calle_desc:0 "$SPR_andres_garcia_calle_desc$" # [LocEditor:CustomLanguageKey]
- SPR_luis_gonzalez_de_ubieta_desc:0 "§LLuis González de Ubieta y González del Campillo§!" # [LocEditor:CustomLanguageKey]
- SPR_toribio_martinez_cabrera_desc:0 "§LToribio Martínez Cabrera§!" # [LocEditor:CustomLanguageKey]
- SPR_francisco_ciutat_de_miguel_desc:0 "§LFrancisco Ciutat de Miguel§!" # [LocEditor:CustomLanguageKey]
- SPR_janos_galicz_desc:0 "§LGálicz János§!" # [LocEditor:CustomLanguageKey]
- SPR_antonio_azarola_y_gresillon_desc:0 "$SPR_antonio_azarola_gresillon_desc$" # [LocEditor:CustomLanguageKey]
- SPR_antonia_adroher_i_pascual_desc:0 "§LAntonia Adroher Pascual§!" # [LocEditor:CustomLanguageKey]
- SPR_juan_andrade_desc:0 "§LJuan Andrade Rodríguez§!" # [LocEditor:CustomLanguageKey]
- SPR_alexander_orlov_desc:0 "§LLev Lazarévitch Feldbine, dit Aleksandr Mikhaïlovitch Orlov§!" # [LocEditor:CustomLanguageKey]
- SPR_alberto_bayo_desc:0 "§LAlberto Bayo Giroud§!" # [LocEditor:CustomLanguageKey]
- SPR_joakin_egia_unzueta_desc:0 "§LJoaquín de Eguía y Unzueta§!" # [LocEditor:CustomLanguageKey]
- SPR_jose_rovira_desc:0 "§LJosé Rovira Canales§!" # [LocEditor:CustomLanguageKey]
- SPR_antonio_escobar_huerta_desc:0 "§LAntonio Escobar Huerta§!" # [LocEditor:CustomLanguageKey]
- SPR_andres_nin_desc:0 "§LAndrés Nin Pérez§!" # [LocEditor:CustomLanguageKey]
- SPR_antonio_ortega_gutierrez_desc:0 "§LAntonio Ortega Gutiérrez§!" # [LocEditor:CustomLanguageKey]
- SPA_jose_antonio_giron_desc:0 "§LJosé Antonio Girón de Velasco§!" # [LocEditor:CustomLanguageKey]
- SPA_manuel_hedilla_desc:0 "§LFederico Manuel Hedilla Larrey§!" # [LocEditor:CustomLanguageKey]
- SPA_raimundo_fernandez_cuesta_desc:0 "§LRaimundo Fernández-Cuesta Merelo§!" # [LocEditor:CustomLanguageKey]
- SPA_tomas_dominguez_arevalo_desc:0 "§LTomás Domínguez Arévalo§!" # [LocEditor:CustomLanguageKey]
- SPA_diego_hidalgo_y_duran_desc:0 "§LDiego Hidalgo y Durán§!" # [LocEditor:CustomLanguageKey]
- SPA_luis_hernando_de_larramendi_desc:0 "§LLuis Hernando de Larramendi§!" # [LocEditor:CustomLanguageKey]
- SPA_jose_antonio_primo_de_rivera_desc:0 "§LJosé Antonio Primo de Rivera y Sáenz de Heredia§!" # [LocEditor:CustomLanguageKey]
- SPA_juan_yague_desc:0 "§LJuan Yagüe Blanco§!" # [LocEditor:CustomLanguageKey]
- SPA_rafael_garcia_valino_desc:0 "§LRafael García-Valiño y Marcén§!" # [LocEditor:CustomLanguageKey]
- SPA_heli_rolando_de_tella_desc:0 "§LHeliodoro Rolando de Tella y Cantos§!" # [LocEditor:CustomLanguageKey]
- SPA_miguel_ponte_desc:0 "§LLuis Miguel Limia Ponte y Manso de Zúñiga§!" # [LocEditor:CustomLanguageKey]
- SPA_emilio_mola_desc:0 "§LEmilio Mola Vidal§!" # [LocEditor:CustomLanguageKey]
- SPA_wilhelm_ritter_von_thoma_desc:0 "§LWilhelm Josef von Thoma§!" # [LocEditor:CustomLanguageKey]
- SPA_enrique_canovas_lacruz_desc:0 "§LEnrique Cánovas Lacruz§!" # [LocEditor:CustomLanguageKey]
- SPA_miguel_cabanellas_desc:0 "§LMiguel Cabanellas Ferrer§!" # [LocEditor:CustomLanguageKey]
- SPA_martin_de_riquer_desc:0 "§LMartín de Riquer y Morera§!" # [LocEditor:CustomLanguageKey]
- SPA_mauricio_de_sivatte_desc:0 "§LMauricio de Sivatte y de Bobadilla§!" # [LocEditor:CustomLanguageKey]
- SPA_juan_vigon_suero_diaz_desc:0 "§LJuan Vigón Suero-Díaz§!" # [LocEditor:CustomLanguageKey]
- SPR_euskalduna_desc:0 "Compañía Euskalduna de Construcción y Reparación de Buques – Compagnie Euskalduna de construction et réparation de navires\n" # [LocEditor:CustomLanguageKey]
- SPR_star_bonifacio_echeverria_desc:0 "Star, Bonifacio Echeverría S.A.\n" # [LocEditor:CustomLanguageKey]
- SPR_esperanza_y_cia_desc:0 "Esperanza y Compañía\n" # [LocEditor:CustomLanguageKey]
- SPR_hispano_suiza_desc:0 "La Hispano-Suiza, Fábrica de Automóviles – Fabrique automobile hispano-suisse\n" # [LocEditor:CustomLanguageKey]
- SPR_compania_telefonica_nacional_desc:0 "Compañía Telefónica Nacional de España – Compagnie téléphonique nationale espagnole\n" # [LocEditor:CustomLanguageKey]
- SPR_industria_de_guerra_de_cataluna_desc:0 "Industrias de guerra de Cataluña – Industries de guerre catalanes\n" # [LocEditor:CustomLanguageKey]
- SPR_altos_hornos_de_vizcaya_desc:0 "Altos Hornos de Vizcaya – Hauts fourneaux de Biscaye\n" # [LocEditor:CustomLanguageKey]
- SPR_campsa_desc:0 "Compañía Arrendataria del Monopolio del Petróleo, S.A. – Compagnie allocataire du monopole pétrolier\n" # [LocEditor:CustomLanguageKey]
- soviet_vsevolod_merkulov_desc:0 "§LVsevolod Nikolaïevitch Merkoulov§!" # [LocEditor:CustomLanguageKey]
- ger_wilhelm_canaris_desc:0 "§LWilhelm Franz Canaris§!" # [LocEditor:CustomLanguageKey]
- usa_william_donovan_desc:0 "§LWilliam Joseph Donovan§!" # [LocEditor:CustomLanguageKey]
- eng_stewart_menzies_desc:0 "§LStewart Graham Menzies§!" # [LocEditor:CustomLanguageKey]
- eng_alan_turing_desc:0 "§LAlan Mathison Turing§!" # [LocEditor:CustomLanguageKey]
+ acl_desc:0 "Ateliers et Chantiers de la Loire\n"
+ acf_desc:0 "Ateliers et Chantiers de France\n"
+ FRA_APX_desc:0 "Atelier de construction de Puteaux\n"
+ SNCAN:0 "SNCAN"
+ SNCAN_desc:0 "Société nationale des constructions aéronautiques du Nord\n"
+ SNCAO:0 "SNCAO"
+ SNCAO_desc:0 "Société nationale des constructions aéronautiques de l'Ouest\n"
+ SNCASE:0 "SNCASE"
+ SNCASE_desc:0 "Société nationale des constructions aéronautiques du Sud-Est\n"
+ SNCASO:0 "SNCASO"
+ SNCASO_desc:0 "Société nationale des constructions aéronautiques du Sud-Ouest\n"
+ SNCAC:0 "SNCAC"
+ SNCAC_desc:0 "Société nationale des constructions aéronautiques du Centre\n"
+ georges_bonnet_desc:0 "§LÉtienne Georges Bonnet§!"
+ SPR_juan_negrin_desc:0 "§LJuan Negrín López§!"
+ SPR_indalecio_prieto_desc:0 "$SPR_indalecio_prieto_tuero_desc$"
+ SPR_jesus_hernandez_tomas_desc:0 "§LJesús Hernández Tomás§!"
+ SPR_federica_montseny_desc:0 "§LFederica Montseny Mañé§!"
+ SPR_domenec_batet_desc:0 "§LDomingo Batet Mestres§!"
+ SPR_etelvino_vega_desc:0 "§LEtelvino Vega Martínez§!"
+ SPR_mate_zalka_desc:0 "§LBéla Frankl, dit « Máté Zalka »§!"
+ SPR_ignacio_hidalgo_de_cisneros_desc:0 "$SPR_ignacio_hidalgo_cisneros_desc$"
+ SPR_andres_garcia_la_calle_desc:0 "$SPR_andres_garcia_calle_desc$"
+ SPR_luis_gonzalez_de_ubieta_desc:0 "§LLuis González de Ubieta y González del Campillo§!"
+ SPR_toribio_martinez_cabrera_desc:0 "§LToribio Martínez Cabrera§!"
+ SPR_francisco_ciutat_de_miguel_desc:0 "§LFrancisco Ciutat de Miguel§!"
+ SPR_janos_galicz_desc:0 "§LGálicz János§!"
+ SPR_antonio_azarola_y_gresillon_desc:0 "$SPR_antonio_azarola_gresillon_desc$"
+ SPR_antonia_adroher_i_pascual_desc:0 "§LAntonia Adroher Pascual§!"
+ SPR_juan_andrade_desc:0 "§LJuan Andrade Rodríguez§!"
+ SPR_alexander_orlov_desc:0 "§LLev Lazarévitch Feldbine, dit Aleksandr Mikhaïlovitch Orlov§!"
+ SPR_alberto_bayo_desc:0 "§LAlberto Bayo Giroud§!"
+ SPR_joakin_egia_unzueta_desc:0 "§LJoaquín de Eguía y Unzueta§!"
+ SPR_jose_rovira_desc:0 "§LJosé Rovira Canales§!"
+ SPR_antonio_escobar_huerta_desc:0 "§LAntonio Escobar Huerta§!"
+ SPR_andres_nin_desc:0 "§LAndrés Nin Pérez§!"
+ SPR_antonio_ortega_gutierrez_desc:0 "§LAntonio Ortega Gutiérrez§!"
+ SPA_jose_antonio_giron_desc:0 "§LJosé Antonio Girón de Velasco§!"
+ SPA_manuel_hedilla_desc:0 "§LFederico Manuel Hedilla Larrey§!"
+ SPA_raimundo_fernandez_cuesta_desc:0 "§LRaimundo Fernández-Cuesta Merelo§!"
+ SPA_tomas_dominguez_arevalo_desc:0 "§LTomás Domínguez Arévalo§!"
+ SPA_diego_hidalgo_y_duran_desc:0 "§LDiego Hidalgo y Durán§!"
+ SPA_luis_hernando_de_larramendi_desc:0 "§LLuis Hernando de Larramendi§!"
+ SPA_jose_antonio_primo_de_rivera_desc:0 "§LJosé Antonio Primo de Rivera y Sáenz de Heredia§!"
+ SPA_juan_yague_desc:0 "§LJuan Yagüe Blanco§!"
+ SPA_rafael_garcia_valino_desc:0 "§LRafael García-Valiño y Marcén§!"
+ SPA_heli_rolando_de_tella_desc:0 "§LHeliodoro Rolando de Tella y Cantos§!"
+ SPA_miguel_ponte_desc:0 "§LLuis Miguel Limia Ponte y Manso de Zúñiga§!"
+ SPA_emilio_mola_desc:0 "§LEmilio Mola Vidal§!"
+ SPA_wilhelm_ritter_von_thoma_desc:0 "§LWilhelm Josef von Thoma§!"
+ SPA_enrique_canovas_lacruz_desc:0 "§LEnrique Cánovas Lacruz§!"
+ SPA_miguel_cabanellas_desc:0 "§LMiguel Cabanellas Ferrer§!"
+ SPA_martin_de_riquer_desc:0 "§LMartín de Riquer y Morera§!"
+ SPA_mauricio_de_sivatte_desc:0 "§LMauricio de Sivatte y de Bobadilla§!"
+ SPA_juan_vigon_suero_diaz_desc:0 "§LJuan Vigón Suero-Díaz§!"
+ SPR_euskalduna_desc:0 "Compañía Euskalduna de Construcción y Reparación de Buques – Compagnie Euskalduna de construction et réparation de navires\n"
+ SPR_star_bonifacio_echeverria_desc:0 "Star, Bonifacio Echeverría S.A.\n"
+ SPR_esperanza_y_cia_desc:0 "Esperanza y Compañía\n"
+ SPR_hispano_suiza_desc:0 "La Hispano-Suiza, Fábrica de Automóviles – Fabrique automobile hispano-suisse\n"
+ SPR_compania_telefonica_nacional_desc:0 "Compañía Telefónica Nacional de España – Compagnie téléphonique nationale espagnole\n"
+ SPR_industria_de_guerra_de_cataluna_desc:0 "Industrias de guerra de Cataluña – Industries de guerre catalanes\n"
+ SPR_altos_hornos_de_vizcaya_desc:0 "Altos Hornos de Vizcaya – Hauts fourneaux de Biscaye\n"
+ SPR_campsa_desc:0 "Compañía Arrendataria del Monopolio del Petróleo, S.A. – Compagnie allocataire du monopole pétrolier\n"
+ soviet_vsevolod_merkulov_desc:0 "§LVsevolod Nikolaïevitch Merkoulov§!"
+ ger_wilhelm_canaris_desc:0 "§LWilhelm Franz Canaris§!"
+ usa_william_donovan_desc:0 "§LWilliam Joseph Donovan§!"
+ eng_stewart_menzies_desc:0 "§LStewart Graham Menzies§!"
+ eng_alan_turing_desc:0 "§LAlan Mathison Turing§!"

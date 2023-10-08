@@ -514,6 +514,7 @@ ideas = {
 
 		CZE_ckd = {
 
+			picture = generic_tank_manufacturer_1
 
 			allowed = {
 				original_tag = CZE
@@ -575,6 +576,7 @@ ideas = {
 
 		CZE_skoda_shipyards = {
 
+			picture = generic_naval_manufacturer_3
 
 			allowed = {
 				original_tag = CZE
@@ -753,6 +755,8 @@ ideas = {
 
 		CZE_elektra = {
 
+			picture = generic_industrial_concern_1
+
 			allowed = {
 				original_tag = CZE
 			}
@@ -769,6 +773,8 @@ ideas = {
 		}
 
 		CZE_skoda_works_2 = {
+
+			picture = generic_electronics_concern_1
 
 			allowed = {
 				original_tag = CZE

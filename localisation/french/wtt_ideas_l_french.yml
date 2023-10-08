@@ -96,22 +96,22 @@
  LUX_alexander_von_falkenhausen:0 "A. von Falkenhausen"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- CHI_army_corruption_1_desc:0 "L'armée est gangrenée par la corruption et le népotisme. Si nous voulons en faire un véritable outil de combat, nous allons devoir lancer un programme de réforme militaire long et coûteux." # [LocEditor:CustomLanguageKey]
- CHI_army_corruption_2_desc:0 "L'armée est gangrenée par la corruption et le népotisme. Si nous voulons en faire un véritable outil de combat, nous allons devoir lancer un programme de réforme militaire long et coûteux." # [LocEditor:CustomLanguageKey]
- CHI_army_corruption_3_desc:0 "L'armée est gangrenée par la corruption et le népotisme. Si nous voulons en faire un véritable outil de combat, nous allons devoir lancer un programme de réforme militaire long et coûteux." # [LocEditor:CustomLanguageKey]
- CHI_ineffective_bureaucracy_warlord_desc:0 "Le chaos engendré par la guerre civile a interrompu la création d'un appareil d'État efficace. Ainsi, plus d'un tiers des nouvelles recrues disponibles ne sont pas levées, tout simplement parce que personne ne sait qu'elles existent. Vérifier la compétence et la bonne volonté des fonctionnaires sur le terrain nous permettra donc de revoir tout cela." # [LocEditor:CustomLanguageKey]
- CHI_h_h_kung_desc:0 "§LKong Xiangxi, dit « H. H. Kung »§!" # [LocEditor:CustomLanguageKey]
- PRC_the_long_march_1_desc:0 "La longue retraite jusqu'au Shanxi a amenuisé nos forces, et la région de Yan'an n'est pas prête à soutenir un soulèvement majeur. Il va nous falloir du temps ou une aide extérieure pour recouvrer..." # [LocEditor:CustomLanguageKey]
- PRC_the_long_march_2_desc:0 "La longue retraite jusqu'au Shanxi a amenuisé nos forces, et la région de Yan'an n'est pas prête à soutenir un soulèvement majeur. Il va nous falloir du temps ou une aide extérieure pour recouvrer..." # [LocEditor:CustomLanguageKey]
- PRC_low_popular_support_1_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien." # [LocEditor:CustomLanguageKey]
- PRC_low_popular_support_2_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien." # [LocEditor:CustomLanguageKey]
- PRC_low_popular_support_3_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien." # [LocEditor:CustomLanguageKey]
- PRC_low_popular_support_4_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien." # [LocEditor:CustomLanguageKey]
- PRC_low_popular_support_5_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien." # [LocEditor:CustomLanguageKey]
- PRC_otto_braun_desc:0 "§LOtto Braun, dit « Li De »§!" # [LocEditor:CustomLanguageKey]
- CHI_alexander_von_falkenhausen_desc:0 "Ernst Alexander Alfred Herrmann Freiherr von Falkenhausen\n" # [LocEditor:CustomLanguageKey]
- MAN_mamc_light_desc:0 "Manshû Koku Hikôki Seizô Kabushiki Kaisha – Compagnie aéronautique Manshû, département des chasseurs\n" # [LocEditor:CustomLanguageKey]
- MAN_mamc_medium_desc:0 "Manshû Koku Hikôki Seizô Kabushiki Kaisha – Compagnie aéronautique Manshû, département des bombardiers\n" # [LocEditor:CustomLanguageKey]
- MAN_mamc_heavy_desc:0 "Manshû Koku Hikôki Seizô Kabushiki Kaisha – Compagnie aéronautique Manshû, département des Grands projets\n" # [LocEditor:CustomLanguageKey]
- german_chinese_tank_designer_desc:0 "Mission technique sino-allemande\n" # [LocEditor:CustomLanguageKey]
- sino_soviet_resource_surveyors_desc:0 "Mission de prospection sino-soviétique\n" # [LocEditor:CustomLanguageKey]
+ CHI_army_corruption_1_desc:0 "L'armée est gangrenée par la corruption et le népotisme. Si nous voulons en faire un véritable outil de combat, nous allons devoir lancer un programme de réforme militaire long et coûteux."
+ CHI_army_corruption_2_desc:0 "L'armée est gangrenée par la corruption et le népotisme. Si nous voulons en faire un véritable outil de combat, nous allons devoir lancer un programme de réforme militaire long et coûteux."
+ CHI_army_corruption_3_desc:0 "L'armée est gangrenée par la corruption et le népotisme. Si nous voulons en faire un véritable outil de combat, nous allons devoir lancer un programme de réforme militaire long et coûteux."
+ CHI_ineffective_bureaucracy_warlord_desc:0 "Le chaos engendré par la guerre civile a interrompu la création d'un appareil d'État efficace. Ainsi, plus d'un tiers des nouvelles recrues disponibles ne sont pas levées, tout simplement parce que personne ne sait qu'elles existent. Vérifier la compétence et la bonne volonté des fonctionnaires sur le terrain nous permettra donc de revoir tout cela."
+ CHI_h_h_kung_desc:0 "§LKong Xiangxi, dit « H. H. Kung »§!"
+ PRC_the_long_march_1_desc:0 "La longue retraite jusqu'au Shanxi a amenuisé nos forces, et la région de Yan'an n'est pas prête à soutenir un soulèvement majeur. Il va nous falloir du temps ou une aide extérieure pour recouvrer..."
+ PRC_the_long_march_2_desc:0 "La longue retraite jusqu'au Shanxi a amenuisé nos forces, et la région de Yan'an n'est pas prête à soutenir un soulèvement majeur. Il va nous falloir du temps ou une aide extérieure pour recouvrer..."
+ PRC_low_popular_support_1_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien."
+ PRC_low_popular_support_2_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien."
+ PRC_low_popular_support_3_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien."
+ PRC_low_popular_support_4_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien."
+ PRC_low_popular_support_5_desc:0 "Les paysans ont beaucoup souffert de la guerre civile. Si nous voulons être reconnus comme le gouvernement légitime de la Chine, nous allons devoir nous assurer de leur soutien."
+ PRC_otto_braun_desc:0 "§LOtto Braun, dit « Li De »§!"
+ CHI_alexander_von_falkenhausen_desc:0 "Ernst Alexander Alfred Herrmann Freiherr von Falkenhausen\n"
+ MAN_mamc_light_desc:0 "Manshû Koku Hikôki Seizô Kabushiki Kaisha – Compagnie aéronautique Manshû, département des chasseurs\n"
+ MAN_mamc_medium_desc:0 "Manshû Koku Hikôki Seizô Kabushiki Kaisha – Compagnie aéronautique Manshû, département des bombardiers\n"
+ MAN_mamc_heavy_desc:0 "Manshû Koku Hikôki Seizô Kabushiki Kaisha – Compagnie aéronautique Manshû, département des Grands projets\n"
+ german_chinese_tank_designer_desc:0 "Mission technique sino-allemande\n"
+ sino_soviet_resource_surveyors_desc:0 "Mission de prospection sino-soviétique\n"

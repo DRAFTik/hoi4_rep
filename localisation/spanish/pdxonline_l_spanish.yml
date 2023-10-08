@@ -33,7 +33,7 @@
  LAST_NAME:0 "Apellido"
  LOGGED_IN:0 "Sesión iniciada"
  LOGIN_DESCRIPTION:0 "Disfruta de las ventajas de las partidas en línea, el guardado en la nube, los logros y las nuevas características iniciando sesión con tu cuenta de Paradox."
- LOGIN_DESCRIPTION_BOLD:0 "Inicia sesión con tu cuenta de Paradox para participar en las partidas multijugador"
+ LOGIN_DESCRIPTION_BOLD:1 "Inicia sesión con tu cuenta de Paradox para participar en las partidas multijugador"
  LOGIN_EMAIL_INVALID:0 "§RDebes introducir un correo electrónico válido§!"
  LOGIN_NO_EMAIL:0 "§RFalta el correo electrónico§!"
  LOGIN_NO_PASSWORD:0 "§RFalta la contraseña§!"

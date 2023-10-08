@@ -1,4 +1,7 @@
-﻿l_japanese:
+﻿# === [LocEditor:OrphanedFile] File contains only orphaned keys ===
+l_japanese:
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  HOW_TO_PLAY:0 "遊び方"
  DISABLE_ALERTS:1 "アラートでの動画再生を無効化"
  MORE_VIDEOS:0 "その他の動画"

@@ -761,6 +761,8 @@
  TRIGGER_ALL_CHARACTER_STARTS:0 "Alle Charaktere"
  TRIGGER_IS_NOT_ADVISOR:0 "Ist kein Berater"
  TRIGGER_IS_ADVISOR:0 "Ist Berater"
+ TRIGGER_IS_HIRED_AS_ADVISOR:0 "Wurde als Berater angestellt"
+ TRIGGER_IS_NOT_HIRED_AS_ADVISOR:0 "Wurde nicht als Berater angestellt"
  TRIGGER_IS_NOT_POLITICAL_ADVISOR:0 "Ist kein politischer Berater"
  TRIGGER_IS_POLITICAL_ADVISOR:0 "Ist politischer Berater"
  TRIGGER_IS_NOT_THEORIST:0 "Ist kein Theoretiker"
@@ -891,8 +893,8 @@
  
  TRIGGER_PC_IS_INSIDE_INFLUENCE_RANGE:0 "Liegt innerhalb des maximalen KI-Einflussbereichs" ##Will never be displayed
  TRIGGER_PC_IS_OUTSIDE_INFLUENCE_RANGE:0 "Liegt außerhalb des maximalen KI-Einflussbereichs" ##Will never be displayed
- TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Hat den Erfolg $ACHIEVEMENT$ abgeschlossen"
- TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Hat den Erfolg $ACHIEVEMENT$ nicht abgeschlossen"
+ TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Hat den Erfolg $ACHIEVEMENT|H$ abgeschlossen"
+ TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Hat den Erfolg $ACHIEVEMENT|H$ nicht abgeschlossen"
  
 
 

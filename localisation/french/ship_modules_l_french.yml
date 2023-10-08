@@ -1332,803 +1332,861 @@
  YUG_ship_armor_cruiser_1:0 "Coque 50 mm, pont 25 mm"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- dp_light_battery:0 "Batterie double-usage 127 mm" # [LocEditor:CustomLanguageKey]
- dp_light_battery_short:0 "127 mm double-usage" # [LocEditor:CustomLanguageKey]
- dp_light_battery_desc:0 "Un canon de calibre réduit agencé de manière à pouvoir tirer sur les avions autant que sur les navires de surface." # [LocEditor:CustomLanguageKey]
- dp_ship_secondaries:0 "Batterie secondaire double-usage de 12,7 cm" # [LocEditor:CustomLanguageKey]
- dp_ship_secondaries_short:0 "12,7 cm double usage" # [LocEditor:CustomLanguageKey]
- dp_ship_secondaries_desc:0 "En combinant le rôle des canons lourds anti-aériens et des batteries secondaires, cette batterie renforce grandement les capacités anti-aériennes du bâtiment tout en permettant une défense contre les navires de surface moins imposants." # [LocEditor:CustomLanguageKey]
- ship_mine_sweeper_1_short:0 "Dispositif de dragage" # [LocEditor:CustomLanguageKey]
- ship_mine_layer_sub_short:0 "Tubes de largage" # [LocEditor:CustomLanguageKey]
- ship_airplane_launcher_2_short:0 "Cat. à hydr. améliorée" # [LocEditor:CustomLanguageKey]
- ENG_ship_light_battery_1_short:0 "4.7in/45 BL Mk I" # [LocEditor:CustomLanguageKey]
- ENG_ship_light_battery_2_short:0 "4.7in QF Mk IX, CP Mk XIV mt" # [LocEditor:CustomLanguageKey]
- ENG_ship_light_battery_3_short:0 "4.7in QF Mk XI, Mk XX mt" # [LocEditor:CustomLanguageKey]
- ENG_ship_light_battery_4_short:0 "4.5in QF Mk IV, RP 50 Mk V mt" # [LocEditor:CustomLanguageKey]
- ENG_dp_light_battery:0 "4,5 pouces QF Mk I double-usage" # [LocEditor:CustomLanguageKey]
- ENG_dp_light_battery_short:0 "4,5" QF Mk dble-usage" # [LocEditor:CustomLanguageKey]
- ENG_ship_heavy_battery_1_short:0 "Mk I 15"" # [LocEditor:CustomLanguageKey]
- ENG_ship_heavy_battery_2_short:0 "Mk VII 14"" # [LocEditor:CustomLanguageKey]
- ENG_ship_heavy_battery_3_short:0 "Mk II/III 16"" # [LocEditor:CustomLanguageKey]
- ENG_ship_heavy_battery_4_short:0 "Mk IV 16"" # [LocEditor:CustomLanguageKey]
- ENG_ship_light_medium_battery_1_short:0 "BL Mk XII 6"" # [LocEditor:CustomLanguageKey]
- ENG_ship_light_medium_battery_2_short:0 "BL Mk XXIII 6"" # [LocEditor:CustomLanguageKey]
- ENG_ship_light_medium_battery_3_short:0 "BL Mk XXIII 6" RP" # [LocEditor:CustomLanguageKey]
- ENG_ship_light_medium_battery_4_short:0 "QF Mk V LA 6"" # [LocEditor:CustomLanguageKey]
- ENG_ship_medium_battery_1_short:0 "Mk VI 7,5"" # [LocEditor:CustomLanguageKey]
- ENG_ship_medium_battery_2_short:0 "Mk VII 8"" # [LocEditor:CustomLanguageKey]
- ENG_ship_medium_battery_3_short:0 "Mk IX/X 8"" # [LocEditor:CustomLanguageKey]
- ENG_ship_medium_battery_4_short:0 "8" automatique" # [LocEditor:CustomLanguageKey]
- ENG_ship_secondaries_1_short:0 "BL Mk XII 6"" # [LocEditor:CustomLanguageKey]
- ENG_ship_secondaries_2_short:0 "BL Mk XXII 6"" # [LocEditor:CustomLanguageKey]
- ENG_dp_ship_secondaries:0 "Mk I 5,25 pouces double-usage" # [LocEditor:CustomLanguageKey]
- ENG_dp_ship_secondaries_short:0 "DP Mk I 5,25"" # [LocEditor:CustomLanguageKey]
- ENG_ship_torpedo_1_short:0 "3x21 pouces" # [LocEditor:CustomLanguageKey]
- ENG_ship_torpedo_2_short:0 "4x21 pouces" # [LocEditor:CustomLanguageKey]
- ENG_ship_torpedo_3_short:0 "5x21 pouces" # [LocEditor:CustomLanguageKey]
- ENG_ship_torpedo_4_short:0 "5x21" à air comprimé" # [LocEditor:CustomLanguageKey]
- ENG_ship_torpedo_sub_1_short:0 "4x21" en arc" # [LocEditor:CustomLanguageKey]
- ENG_ship_torpedo_sub_2_short:0 "6x21" en arc" # [LocEditor:CustomLanguageKey]
- ENG_ship_torpedo_sub_3_short:0 "6x21" à pistons" # [LocEditor:CustomLanguageKey]
- ENG_ship_torpedo_sub_4_short:0 "6x21" à vérins" # [LocEditor:CustomLanguageKey]
- ENG_ship_anti_air_1_short:0 "Mitrailleuse 0,50"" # [LocEditor:CustomLanguageKey]
- ENG_ship_anti_air_2_short:0 "2 livres « Pom-Pom »" # [LocEditor:CustomLanguageKey]
- ENG_ship_anti_air_3_short:0 "40 mm" # [LocEditor:CustomLanguageKey]
- ENG_ship_mine_layer_1_short:0 "Rails de mouillage" # [LocEditor:CustomLanguageKey]
- ENG_ship_mine_sweeper_1_short:0 "Mouilleur 2 vitesses" # [LocEditor:CustomLanguageKey]
- ENG_ship_depth_charge_1_short:0 "Mk I DC" # [LocEditor:CustomLanguageKey]
- ENG_ship_depth_charge_2_short:0 "Mk IV DC" # [LocEditor:CustomLanguageKey]
- ENG_ship_depth_charge_3_short:0 "Hérisson" # [LocEditor:CustomLanguageKey]
- ENG_ship_depth_charge_4_short:0 "Calmar" # [LocEditor:CustomLanguageKey]
- ENG_ship_airplane_launcher_1_short:0 "Catapulte 7000 livres" # [LocEditor:CustomLanguageKey]
- ENG_ship_airplane_launcher_2_short:0 "Catapulte 8000 livres" # [LocEditor:CustomLanguageKey]
- ENG_ship_radar_1_short:0 "Type 79" # [LocEditor:CustomLanguageKey]
- ENG_ship_radar_2_short:0 "Type 281" # [LocEditor:CustomLanguageKey]
- ENG_ship_radar_3_short:0 "Type 284" # [LocEditor:CustomLanguageKey]
- ENG_ship_radar_4_short:0 "Type 274" # [LocEditor:CustomLanguageKey]
- ENG_light_ship_engine_1_short:0 "Brown-Curtis 27 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_light_ship_engine_2_short:0 "Parsons 38 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_light_ship_engine_3_short:0 "Parsons 48 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_light_ship_engine_4_short:0 "Parsons 54 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_sub_ship_engine_1_short:0 "Admiralty 1550 ch" # [LocEditor:CustomLanguageKey]
- ENG_sub_ship_engine_2_short:0 "Vickers 2500 ch" # [LocEditor:CustomLanguageKey]
- ENG_sub_ship_engine_3_short:0 "Vickers 3100 ch" # [LocEditor:CustomLanguageKey]
- ENG_sub_ship_engine_4_short:0 "Vickers 4300 ch" # [LocEditor:CustomLanguageKey]
- ENG_cruiser_ship_engine_1_short:0 "Parsons 60 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_cruiser_ship_engine_2_short:0 "Parsons 72 400 ch" # [LocEditor:CustomLanguageKey]
- ENG_cruiser_ship_engine_3_short:0 "Parsons 80 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_cruiser_ship_engine_4_short:0 "Parsons 108 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_heavy_ship_engine_1_short:0 "Parsons 40 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_heavy_ship_engine_2_short:0 "Parsons 110 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_heavy_ship_engine_3_short:0 "Parsons 130 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_heavy_ship_engine_4_short:0 "Parsons 160 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_carrier_ship_engine_1_short:0 "Brown-Curtis 50 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_carrier_ship_engine_2_short:0 "Parsons 102 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_carrier_ship_engine_3_short:0 "Parsons 148 000 ch" # [LocEditor:CustomLanguageKey]
- ENG_carrier_ship_engine_4_short:0 "Parsons 200 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_ship_light_battery_1_short:0 "130 mm/40" # [LocEditor:CustomLanguageKey]
- FRA_ship_light_battery_2_short:0 "138,6 mm/40" # [LocEditor:CustomLanguageKey]
- FRA_ship_light_battery_3_short:0 "138,6 mm/50 1934" # [LocEditor:CustomLanguageKey]
- FRA_ship_light_battery_4_short:0 "138,6 mm/50 1938" # [LocEditor:CustomLanguageKey]
- FRA_dp_light_battery:0 "130 mm/45 modèle 1935" # [LocEditor:CustomLanguageKey]
- FRA_dp_light_battery_short:0 "130 mm/45 1932" # [LocEditor:CustomLanguageKey]
- FRA_ship_heavy_battery_1_short:0 "34 cm/45" # [LocEditor:CustomLanguageKey]
- FRA_ship_heavy_battery_2_short:0 "330 mm/50" # [LocEditor:CustomLanguageKey]
- FRA_ship_heavy_battery_3_short:0 "380 mm/45" # [LocEditor:CustomLanguageKey]
- FRA_ship_heavy_battery_4_short:0 "406 mm/45" # [LocEditor:CustomLanguageKey]
- FRA_ship_light_medium_battery_1_short:0 "155 mm/50" # [LocEditor:CustomLanguageKey]
- FRA_ship_light_medium_battery_2_short:0 "152 mm/55" # [LocEditor:CustomLanguageKey]
- FRA_ship_light_medium_battery_3_short:0 "152 mm/55 RPC" # [LocEditor:CustomLanguageKey]
- FRA_ship_light_medium_battery_4_short:0 "152 mm/55 auto." # [LocEditor:CustomLanguageKey]
- FRA_ship_medium_battery_1_short:0 "203 mm/50" # [LocEditor:CustomLanguageKey]
- FRA_ship_medium_battery_2_short:0 "203 mm/55" # [LocEditor:CustomLanguageKey]
- FRA_ship_medium_battery_3_short:0 "203 mm/55 RPC" # [LocEditor:CustomLanguageKey]
- FRA_ship_medium_battery_4_short:0 "203 mm/55 auto." # [LocEditor:CustomLanguageKey]
- FRA_ship_secondaries_1_short:0 "138,6 mm/55" # [LocEditor:CustomLanguageKey]
- FRA_ship_secondaries_2_short:0 "152 mm/55" # [LocEditor:CustomLanguageKey]
- FRA_dp_ship_secondaries:0 "130 mm/45 modèle 1932 double-usage" # [LocEditor:CustomLanguageKey]
- FRA_dp_ship_secondaries_short:0 "130 mm/45 dble-us." # [LocEditor:CustomLanguageKey]
- FRA_ship_torpedo_1_short:0 "Tubes 2x550 mm" # [LocEditor:CustomLanguageKey]
- FRA_ship_torpedo_2_short:0 "Tubes 3x550 mm" # [LocEditor:CustomLanguageKey]
- FRA_ship_torpedo_3_short:0 "Tubes 4x550 mm" # [LocEditor:CustomLanguageKey]
- FRA_ship_torpedo_4_short:0 "4x550 mm à air comp." # [LocEditor:CustomLanguageKey]
- FRA_ship_torpedo_sub_1_short:0 "4x550 mm" # [LocEditor:CustomLanguageKey]
- FRA_ship_torpedo_sub_2_short:0 "6x550 mm" # [LocEditor:CustomLanguageKey]
- FRA_ship_torpedo_sub_3_short:0 "6x550 mm pistons" # [LocEditor:CustomLanguageKey]
- FRA_ship_torpedo_sub_4_short:0 "6x550 mm vérins" # [LocEditor:CustomLanguageKey]
- FRA_ship_anti_air_1_short:0 "13,2 mm/76" # [LocEditor:CustomLanguageKey]
- FRA_ship_anti_air_2_short:0 "Canon 25 mm/60" # [LocEditor:CustomLanguageKey]
- FRA_ship_anti_air_3_short:0 "AA 37 mm/70" # [LocEditor:CustomLanguageKey]
- FRA_light_ship_engine_1_short:0 "Zoelly 33 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_light_ship_engine_2_short:0 "Rateau-Bret. 40 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_light_ship_engine_3_short:0 "Rateau-Bret. 74 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_light_ship_engine_4_short:0 "Rateau-Bret. 92 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_sub_ship_engine_1_short:0 "Sulzer 1 300 ch" # [LocEditor:CustomLanguageKey]
- FRA_sub_ship_engine_2_short:0 "Normand 1 800 ch" # [LocEditor:CustomLanguageKey]
- FRA_sub_ship_engine_3_short:0 "Sulzer 2 900 ch" # [LocEditor:CustomLanguageKey]
- FRA_sub_ship_engine_4_short:0 "Sulzer 6 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_cruiser_ship_engine_1_short:0 "Rateau-Bret. 84 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_cruiser_ship_engine_2_short:0 "Rateau-Bret. 90 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_cruiser_ship_engine_3_short:0 "Rat.-Bret. 100 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_cruiser_ship_engine_4_short:0 "Rat.-Bret. 120 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_heavy_ship_engine_1_short:0 "Parsons 29 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_heavy_ship_engine_2_short:0 "Parsons 112 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_heavy_ship_engine_3_short:0 "Parsons 150 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_heavy_ship_engine_4_short:0 "Parsons 210 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_carrier_ship_engine_1_short:0 "Parsons 37 500 ch" # [LocEditor:CustomLanguageKey]
- FRA_carrier_ship_engine_2_short:0 "Parsons 125 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_carrier_ship_engine_3_short:0 "Parsons 150 000 ch" # [LocEditor:CustomLanguageKey]
- FRA_carrier_ship_engine_4_short:0 "Parsons 210 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_ship_light_battery_1_short:0 "102 mm/35 modèle 1914" # [LocEditor:CustomLanguageKey]
- ITA_ship_light_battery_2_short:0 "120 mm/50 1936" # [LocEditor:CustomLanguageKey]
- ITA_ship_light_battery_3_short:0 "135 mm/50 1938" # [LocEditor:CustomLanguageKey]
- ITA_ship_light_battery_4_short:0 "Ansaldo 135 mm/45 RPC" # [LocEditor:CustomLanguageKey]
- ITA_dp_light_battery:0 "Ansaldo 120 mm/50 double-usage" # [LocEditor:CustomLanguageKey]
- ITA_dp_light_battery_short:0 "135 mm/45 1938 dble-us." # [LocEditor:CustomLanguageKey]
- ITA_ship_heavy_battery_1_short:0 "305 mm/46" # [LocEditor:CustomLanguageKey]
- ITA_ship_heavy_battery_2_short:0 "OTO 320 mm/44" # [LocEditor:CustomLanguageKey]
- ITA_ship_heavy_battery_3_short:0 "Ansaldo 381 mm/50" # [LocEditor:CustomLanguageKey]
- ITA_ship_heavy_battery_4_short:0 "Ansaldo 406 mm/50" # [LocEditor:CustomLanguageKey]
- ITA_ship_light_medium_battery_1_short:0 "152 mm/45" # [LocEditor:CustomLanguageKey]
- ITA_ship_light_medium_battery_2_short:0 "Ansaldo 152 mm/53" # [LocEditor:CustomLanguageKey]
- ITA_ship_light_medium_battery_3_short:0 "OTO 152 mm/55 1936" # [LocEditor:CustomLanguageKey]
- ITA_ship_light_medium_battery_4_short:0 "OTO 152 mm/55 1936 RPC" # [LocEditor:CustomLanguageKey]
- ITA_ship_medium_battery_1_short:0 "190 mm/45" # [LocEditor:CustomLanguageKey]
- ITA_ship_medium_battery_2_short:0 "Ansaldo 203 mm/50" # [LocEditor:CustomLanguageKey]
- ITA_ship_medium_battery_3_short:0 "Ansaldo 203 mm/53" # [LocEditor:CustomLanguageKey]
- ITA_ship_medium_battery_4_short:0 "203 mm/53 auto." # [LocEditor:CustomLanguageKey]
- ITA_ship_secondaries_1_short:0 "152 mm/45 1911" # [LocEditor:CustomLanguageKey]
- ITA_ship_secondaries_2_short:0 "OTO 152 mm/55 1936" # [LocEditor:CustomLanguageKey]
- ITA_dp_ship_secondaries:0 "Ansaldo 120 mm/50 double-usage" # [LocEditor:CustomLanguageKey]
- ITA_dp_ship_secondaries_short:0 "100 mm/45 1924" # [LocEditor:CustomLanguageKey]
- ITA_ship_torpedo_1_short:0 "Tubes 3x450 mm" # [LocEditor:CustomLanguageKey]
- ITA_ship_torpedo_2_short:0 "Tubes 3x533 mm" # [LocEditor:CustomLanguageKey]
- ITA_ship_torpedo_3_short:0 "Tubes 4x533 mm" # [LocEditor:CustomLanguageKey]
- ITA_ship_torpedo_4_short:0 "Tubes 5x533 mm" # [LocEditor:CustomLanguageKey]
- ITA_ship_torpedo_sub_1_short:0 "4x533 mm en arc" # [LocEditor:CustomLanguageKey]
- ITA_ship_torpedo_sub_2_short:0 "6x533 mm en arc" # [LocEditor:CustomLanguageKey]
- ITA_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- ITA_ship_torpedo_sub_4_short:0 "6x533 mm à vérin" # [LocEditor:CustomLanguageKey]
- ITA_ship_anti_air_1_short:0 "Breda 13,2 mm/75,7" # [LocEditor:CustomLanguageKey]
- ITA_ship_anti_air_2_short:0 "Breda 20 mm/65" # [LocEditor:CustomLanguageKey]
- ITA_ship_anti_air_3_short:0 "Breda 37 mm/54" # [LocEditor:CustomLanguageKey]
- ITA_light_ship_engine_1_short:0 "Beluzzo 36 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_light_ship_engine_2_short:0 "Beluzzo 44 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_light_ship_engine_3_short:0 "Beluzzo 48 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_light_ship_engine_4_short:0 "Beluzzo 54 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_sub_ship_engine_1_short:0 "Fiat diesel 1 200 ch" # [LocEditor:CustomLanguageKey]
- ITA_sub_ship_engine_2_short:0 "Fiat diesel 2 400 ch" # [LocEditor:CustomLanguageKey]
- ITA_sub_ship_engine_3_short:0 "Tosi diesel 3 400 ch" # [LocEditor:CustomLanguageKey]
- ITA_sub_ship_engine_4_short:0 "CRDA diesel 4 300 ch" # [LocEditor:CustomLanguageKey]
- ITA_cruiser_ship_engine_1_short:0 "Parsons 60 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_cruiser_ship_engine_2_short:0 "Parsons 95 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_cruiser_ship_engine_3_short:0 "Parsons 106 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_cruiser_ship_engine_4_short:0 "Parsons 120 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_heavy_ship_engine_1_short:0 "Parsons 30 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_heavy_ship_engine_2_short:0 "Beluzzo 75 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_heavy_ship_engine_3_short:0 "Parsons 128 200 ch" # [LocEditor:CustomLanguageKey]
- ITA_carrier_ship_engine_1_short:0 "Beluzzo 50 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_carrier_ship_engine_2_short:0 "Beluzzo 120 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_carrier_ship_engine_3_short:0 "Beluzzo 151 000 ch" # [LocEditor:CustomLanguageKey]
- ITA_carrier_ship_engine_4_short:0 "Beluzzo 200 000 ch" # [LocEditor:CustomLanguageKey]
- USA_ship_light_battery_1_short:0 "4"/50 Mk 9" # [LocEditor:CustomLanguageKey]
- USA_ship_light_battery_2_short:0 "5"/38 Mk 12, Mk 22 mt" # [LocEditor:CustomLanguageKey]
- USA_ship_light_battery_3_short:0 "5"/38 Mk 12, Mk 30 mt" # [LocEditor:CustomLanguageKey]
- USA_ship_light_battery_4_short:0 "5"/38 Mk 12, Mk 38 mt" # [LocEditor:CustomLanguageKey]
- USA_dp_light_battery:0 "5 pouces/38 Mk 12 et Mk 30 double-usage" # [LocEditor:CustomLanguageKey]
- USA_dp_light_battery_short:0 "5"/38 Mk 12, Mk 30 DP" # [LocEditor:CustomLanguageKey]
- USA_ship_heavy_battery_1_short:0 "14"/50 Mk 6" # [LocEditor:CustomLanguageKey]
- USA_ship_heavy_battery_2_short:0 "16"/45 Mk 5" # [LocEditor:CustomLanguageKey]
- USA_ship_heavy_battery_3_short:0 "16"/45 Mk 6" # [LocEditor:CustomLanguageKey]
- USA_ship_heavy_battery_4_short:0 "16"/50 Mk 7" # [LocEditor:CustomLanguageKey]
- USA_ship_light_medium_battery_1_short:0 "6"/53 Mk 12" # [LocEditor:CustomLanguageKey]
- USA_ship_light_medium_battery_2_short:0 "6"/47 Mk 16" # [LocEditor:CustomLanguageKey]
- USA_ship_light_medium_battery_3_short:0 "6"/47 Mk 16 RPC" # [LocEditor:CustomLanguageKey]
- USA_ship_light_medium_battery_4_short:0 "6"/47 Mk 16 RPC auto." # [LocEditor:CustomLanguageKey]
- USA_ship_medium_battery_1_short:0 "8"/55 Mk 9" # [LocEditor:CustomLanguageKey]
- USA_ship_medium_battery_2_short:0 "8"/55 Mk 11" # [LocEditor:CustomLanguageKey]
- USA_ship_medium_battery_3_short:0 "8"/55 Mk 12" # [LocEditor:CustomLanguageKey]
- USA_ship_medium_battery_4_short:0 "8"/55 RF Mk 16" # [LocEditor:CustomLanguageKey]
- USA_ship_secondaries_1_short:0 "5"/51 Mk 8" # [LocEditor:CustomLanguageKey]
- USA_ship_secondaries_2_short:0 "6"/53 Mk 13" # [LocEditor:CustomLanguageKey]
- USA_dp_ship_secondaries:0 "5 pouces/38 Mk 12 et Mk 28 mt" # [LocEditor:CustomLanguageKey]
- USA_dp_ship_secondaries_short:0 "5"/38 Mk 12, Mk 28 mt" # [LocEditor:CustomLanguageKey]
- USA_ship_torpedo_1_short:0 "3x21"" # [LocEditor:CustomLanguageKey]
- USA_ship_torpedo_2_short:0 "4x21"" # [LocEditor:CustomLanguageKey]
- USA_ship_torpedo_3_short:0 "Mk 15 Pentad" # [LocEditor:CustomLanguageKey]
- USA_ship_torpedo_4_short:0 "Pentad air comprimé" # [LocEditor:CustomLanguageKey]
- USA_ship_torpedo_sub_1_short:0 "4x21"" # [LocEditor:CustomLanguageKey]
- USA_ship_torpedo_sub_2_short:0 "4x21" Mk 1 TDC" # [LocEditor:CustomLanguageKey]
- USA_ship_torpedo_sub_3_short:0 "6x21" Mk 3 TDC" # [LocEditor:CustomLanguageKey]
- USA_ship_torpedo_sub_4_short:0 "6x21" Mk 4 TDC" # [LocEditor:CustomLanguageKey]
- USA_ship_anti_air_1_short:0 "Mitrailleuse 0,50"" # [LocEditor:CustomLanguageKey]
- USA_ship_anti_air_2_short:0 "4x1,1" Mk 1" # [LocEditor:CustomLanguageKey]
- USA_ship_anti_air_3_short:0 "40 mm Mk 2" # [LocEditor:CustomLanguageKey]
- USA_ship_depth_charge_1_short:0 "Mk 1 modèle 1" # [LocEditor:CustomLanguageKey]
- USA_ship_depth_charge_2_short:0 "Projecteur Mk 6 DC" # [LocEditor:CustomLanguageKey]
- USA_ship_depth_charge_3_short:0 "Mk 10 « Hérisson »" # [LocEditor:CustomLanguageKey]
- USA_ship_depth_charge_4_short:0 "Mk 15 « Hérisson »" # [LocEditor:CustomLanguageKey]
- USA_ship_airplane_launcher_1_short:0 "Type P Mk 1" # [LocEditor:CustomLanguageKey]
- USA_ship_airplane_launcher_2_short:0 "Type P Mk 6" # [LocEditor:CustomLanguageKey]
- USA_ship_deck_space_short:0 "Pont hangars ouvert" # [LocEditor:CustomLanguageKey]
- USA_ship_sonar_1_short:0 "Sonar QCA, hydr. JK" # [LocEditor:CustomLanguageKey]
- USA_ship_sonar_2_short:0 "Sonar QGA" # [LocEditor:CustomLanguageKey]
- USA_ship_radar_1_short:0 "Radar XAF" # [LocEditor:CustomLanguageKey]
- USA_ship_radar_2_short:0 "Radar CXAM" # [LocEditor:CustomLanguageKey]
- USA_ship_radar_3_short:0 "Radar Mk 3 FC" # [LocEditor:CustomLanguageKey]
- USA_ship_radar_4_short:0 "Radar Mk 13 FC" # [LocEditor:CustomLanguageKey]
- USA_light_ship_engine_1_short:0 "West.H 27 000 ch" # [LocEditor:CustomLanguageKey]
- USA_light_ship_engine_2_short:0 "Curtis 42 800 ch" # [LocEditor:CustomLanguageKey]
- USA_light_ship_engine_3_short:0 "West.H 50 000 ch" # [LocEditor:CustomLanguageKey]
- USA_light_ship_engine_4_short:0 "GE 60 000 ch" # [LocEditor:CustomLanguageKey]
- USA_sub_ship_engine_1_short:0 "NL S&E 1200 ch" # [LocEditor:CustomLanguageKey]
- USA_sub_ship_engine_2_short:0 "GM 3100 ch" # [LocEditor:CustomLanguageKey]
- USA_sub_ship_engine_3_short:0 "Winton 4300 ch" # [LocEditor:CustomLanguageKey]
- USA_sub_ship_engine_4_short:0 "GE 5400 ch" # [LocEditor:CustomLanguageKey]
- USA_cruiser_ship_engine_1_short:0 "West.H 90 000 ch" # [LocEditor:CustomLanguageKey]
- USA_cruiser_ship_engine_2_short:0 "West.H 100 000 ch" # [LocEditor:CustomLanguageKey]
- USA_cruiser_ship_engine_3_short:0 "West.H 100 000 ch" # [LocEditor:CustomLanguageKey]
- USA_cruiser_ship_engine_4_short:0 "GE 120 000 ch" # [LocEditor:CustomLanguageKey]
- USA_heavy_ship_engine_1_short:0 "Curtis 31 500 ch" # [LocEditor:CustomLanguageKey]
- USA_heavy_ship_engine_2_short:0 "GE 121 000 ch" # [LocEditor:CustomLanguageKey]
- USA_heavy_ship_engine_3_short:0 "GE 172 000 ch" # [LocEditor:CustomLanguageKey]
- USA_heavy_ship_engine_4_short:0 "GE 212 000 ch" # [LocEditor:CustomLanguageKey]
- USA_carrier_ship_engine_1_short:0 "Curtis 53 500 ch" # [LocEditor:CustomLanguageKey]
- USA_carrier_ship_engine_2_short:0 "West.H 120 000 ch" # [LocEditor:CustomLanguageKey]
- USA_carrier_ship_engine_3_short:0 "West.H 150 000 ch" # [LocEditor:CustomLanguageKey]
- USA_carrier_ship_engine_4_short:0 "West.H 212 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_ship_light_battery_1_short:0 "12 cm/45 type 3" # [LocEditor:CustomLanguageKey]
- JAP_ship_light_battery_2_short:0 "12,7 cm/50 type 3" # [LocEditor:CustomLanguageKey]
- JAP_ship_light_battery_3_short:0 "12,7 cm/50 type 3" # [LocEditor:CustomLanguageKey]
- JAP_ship_light_battery_4_short:0 "12,7 cm/50 mt D" # [LocEditor:CustomLanguageKey]
- JAP_dp_light_battery:0 "10 cm/65 type 98 double-usage" # [LocEditor:CustomLanguageKey]
- JAP_dp_light_battery_short:0 "10 cm/65 type 98" # [LocEditor:CustomLanguageKey]
- JAP_ship_heavy_battery_1_short:0 "36 cm/45 type 41" # [LocEditor:CustomLanguageKey]
- JAP_ship_heavy_battery_2_short:0 "41 cm/45 type 3" # [LocEditor:CustomLanguageKey]
- JAP_ship_heavy_battery_3_short:0 "41 cm/45 type 98" # [LocEditor:CustomLanguageKey]
- JAP_ship_heavy_battery_4_short:0 "41 cm/50 type 2" # [LocEditor:CustomLanguageKey]
- JAP_ship_super_heavy_battery_1_short:0 "46 cm/45 type 94" # [LocEditor:CustomLanguageKey]
- JAP_ship_light_medium_battery_1_short:0 "14 cm/50 type 3" # [LocEditor:CustomLanguageKey]
- JAP_ship_light_medium_battery_2_short:0 "15,5 cm/60 type 3" # [LocEditor:CustomLanguageKey]
- JAP_ship_light_medium_battery_3_short:0 "15,5 cm/60 RPC" # [LocEditor:CustomLanguageKey]
- JAP_ship_medium_battery_1_short:0 "20 cm/50 n°1, 3e année" # [LocEditor:CustomLanguageKey]
- JAP_ship_medium_battery_2_short:0 "20 cm/50 n°3, 3e année" # [LocEditor:CustomLanguageKey]
- JAP_ship_medium_battery_3_short:0 "20 cm/50 type 3 RPC" # [LocEditor:CustomLanguageKey]
- JAP_ship_secondaries_1_short:0 "15 cm/50 type 41" # [LocEditor:CustomLanguageKey]
- JAP_ship_secondaries_2_short:0 "15,5 cm/60 type 3" # [LocEditor:CustomLanguageKey]
- JAP_dp_ship_secondaries:0 "12,7 cm/40 type 89" # [LocEditor:CustomLanguageKey]
- JAP_dp_ship_secondaries_short:0 "12,7 cm/40 type 89" # [LocEditor:CustomLanguageKey]
- JAP_ship_torpedo_1_short:0 "3x53,3 cm" # [LocEditor:CustomLanguageKey]
- JAP_ship_torpedo_2_short:0 "3x61 cm" # [LocEditor:CustomLanguageKey]
- JAP_ship_torpedo_3_short:0 "4x61 cm" # [LocEditor:CustomLanguageKey]
- JAP_ship_torpedo_4_short:0 "5x61 cm" # [LocEditor:CustomLanguageKey]
- JAP_ship_torpedo_sub_1_short:0 "4x53,3 cm type 15" # [LocEditor:CustomLanguageKey]
- JAP_ship_torpedo_sub_2_short:0 "6x53,3 cm type 88" # [LocEditor:CustomLanguageKey]
- JAP_ship_torpedo_sub_3_short:0 "6x53,3 cm type 95" # [LocEditor:CustomLanguageKey]
- JAP_ship_torpedo_sub_4_short:0 "6x53,3 cm à vérins" # [LocEditor:CustomLanguageKey]
- JAP_ship_anti_air_1_short:0 "13 mm/76 type 93" # [LocEditor:CustomLanguageKey]
- JAP_ship_anti_air_2_short:0 "25 mm/60 type 96" # [LocEditor:CustomLanguageKey]
- JAP_ship_anti_air_3_short:0 "4 cm/60 type 5" # [LocEditor:CustomLanguageKey]
- JAP_ship_airplane_launcher_1_short:0 "Type 2/n°5 modèle 1" # [LocEditor:CustomLanguageKey]
- JAP_ship_airplane_launcher_2_short:0 "Type 2/n°1 modèle 10" # [LocEditor:CustomLanguageKey]
- JAP_ship_radar_1_short:0 "Type 21" # [LocEditor:CustomLanguageKey]
- JAP_ship_radar_2_short:0 "Type 23" # [LocEditor:CustomLanguageKey]
- JAP_ship_radar_3_short:0 "Type 32" # [LocEditor:CustomLanguageKey]
- JAP_ship_radar_4_short:0 "Type 33" # [LocEditor:CustomLanguageKey]
- JAP_light_ship_engine_1_short:0 "Parsons 34 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_light_ship_engine_2_short:0 "Kampon 50 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_light_ship_engine_3_short:0 "Kampon 52 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_light_ship_engine_4_short:0 "Kampon 75 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_sub_ship_engine_1_short:0 "Sulzer 2600 ch" # [LocEditor:CustomLanguageKey]
- JAP_sub_ship_engine_2_short:0 "Sulzer 6800 ch" # [LocEditor:CustomLanguageKey]
- JAP_sub_ship_engine_3_short:0 "Kampon 8000 ch" # [LocEditor:CustomLanguageKey]
- JAP_sub_ship_engine_4_short:0 "Kampon 11000 ch" # [LocEditor:CustomLanguageKey]
- JAP_cruiser_ship_engine_1_short:0 "Brown-Curtis 51 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_cruiser_ship_engine_2_short:0 "Mitsubishi 90 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_cruiser_ship_engine_3_short:0 "Kampon 102 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_cruiser_ship_engine_4_short:0 "Kampon 152 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_heavy_ship_engine_1_short:0 "Brown-Curtis 40 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_heavy_ship_engine_2_short:0 "Gihon 80 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_heavy_ship_engine_3_short:0 "Gihon 131 200 ch" # [LocEditor:CustomLanguageKey]
- JAP_heavy_ship_engine_4_short:0 "Kampon 150 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_carrier_ship_engine_1_short:0 "Kampon 65 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_carrier_ship_engine_2_short:0 "Gihon 131 200 ch" # [LocEditor:CustomLanguageKey]
- JAP_carrier_ship_engine_3_short:0 "Kampon 152 000 ch" # [LocEditor:CustomLanguageKey]
- JAP_carrier_ship_engine_4_short:0 "Kampon 160 000 ch" # [LocEditor:CustomLanguageKey]
- GER_ship_light_battery_1_short:0 "10,5 cm/55 SK C/28" # [LocEditor:CustomLanguageKey]
- GER_ship_light_battery_2_short:0 "12,7 cm/45 SK C/34" # [LocEditor:CustomLanguageKey]
- GER_ship_light_battery_3_short:0 "15 cm/48 Tbts KC/36" # [LocEditor:CustomLanguageKey]
- GER_ship_light_battery_4_short:0 "12,7 cm/45 SK C/41" # [LocEditor:CustomLanguageKey]
- GER_dp_light_battery:0 "12,7 cm/45 SchnelladeKanone C/41 double-usage" # [LocEditor:CustomLanguageKey]
- GER_dp_light_battery_short:0 "12,7 cm/45 SK C/41" # [LocEditor:CustomLanguageKey]
- GER_ship_heavy_battery_1_short:0 "28 cm/40 SK L/40" # [LocEditor:CustomLanguageKey]
- GER_ship_heavy_battery_2_short:0 "28 cm/54.5 SK C/34" # [LocEditor:CustomLanguageKey]
- GER_ship_heavy_battery_3_short:0 "38 cm/52 SK C/34" # [LocEditor:CustomLanguageKey]
- GER_ship_heavy_battery_4_short:0 "40,6 cm/52 SK C/34" # [LocEditor:CustomLanguageKey]
- GER_ship_light_medium_battery_1_short:0 "15 cm/45 SK L/45" # [LocEditor:CustomLanguageKey]
- GER_ship_light_medium_battery_2_short:0 "15 cm/60 SK C/25" # [LocEditor:CustomLanguageKey]
- GER_ship_light_medium_battery_3_short:0 "15 cm/55 SK C/28" # [LocEditor:CustomLanguageKey]
- GER_ship_light_medium_battery_4_short:0 "15 cm/55 SK C/28 auto." # [LocEditor:CustomLanguageKey]
- GER_ship_medium_battery_1_short:0 "21 cm/45 SK L/45" # [LocEditor:CustomLanguageKey]
- GER_ship_medium_battery_2_short:0 "20,3 cm/60 SK C/34" # [LocEditor:CustomLanguageKey]
- GER_ship_medium_battery_3_short:0 "20,3 cm/60 RPC" # [LocEditor:CustomLanguageKey]
- GER_ship_medium_battery_4_short:0 "20,3 cm/60 Selbstlader" # [LocEditor:CustomLanguageKey]
- GER_ship_secondaries_1_short:0 "15 cm/45 SK L/45" # [LocEditor:CustomLanguageKey]
- GER_ship_secondaries_2_short:0 "15 cm/55 Drh L. C/34" # [LocEditor:CustomLanguageKey]
- GER_dp_ship_secondaries:0 "12,7 cm/45 SchnelladeKanone C/41 double-usage" # [LocEditor:CustomLanguageKey]
- GER_dp_ship_secondaries_short:0 "12,7 cm/45 SK C/41" # [LocEditor:CustomLanguageKey]
- GER_ship_torpedo_1_short:0 "3x500 mm" # [LocEditor:CustomLanguageKey]
- GER_ship_torpedo_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- GER_ship_torpedo_3_short:0 "4x533 mm air comp." # [LocEditor:CustomLanguageKey]
- GER_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- GER_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- GER_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- GER_ship_torpedo_sub_3_short:0 "6x533 mm à piston" # [LocEditor:CustomLanguageKey]
- GER_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- GER_ship_anti_air_1_short:0 "2 cm/65 C/30" # [LocEditor:CustomLanguageKey]
- GER_ship_anti_air_2_short:0 "2 cm/65 C/38 Flak 35" # [LocEditor:CustomLanguageKey]
- GER_ship_anti_air_3_short:0 "3,7 cm/57 Flak M43" # [LocEditor:CustomLanguageKey]
- GER_ship_sonar_1_short:0 "Atlas-Werke GHG" # [LocEditor:CustomLanguageKey]
- GER_ship_sonar_2_short:0 "S-Gerät" # [LocEditor:CustomLanguageKey]
- GER_ship_radar_1_short:0 "FuMO 22" # [LocEditor:CustomLanguageKey]
- GER_ship_radar_2_short:0 "FuMO 26" # [LocEditor:CustomLanguageKey]
- GER_ship_radar_3_short:0 "FuMO 27" # [LocEditor:CustomLanguageKey]
- GER_ship_radar_4_short:0 "FuMO 34" # [LocEditor:CustomLanguageKey]
- GER_light_ship_engine_1_short:0 "Vulcan 23 000 ch" # [LocEditor:CustomLanguageKey]
- GER_light_ship_engine_2_short:0 "DeSchiMAG 70 000 ch" # [LocEditor:CustomLanguageKey]
- GER_light_ship_engine_3_short:0 "DeSchiMAG 70 000 ch" # [LocEditor:CustomLanguageKey]
- GER_light_ship_engine_4_short:0 "MAN Diesel 76 000 ch" # [LocEditor:CustomLanguageKey]
- GER_sub_ship_engine_1_short:0 "MWM diesel 700 ch" # [LocEditor:CustomLanguageKey]
- GER_sub_ship_engine_2_short:0 "MAN diesel 2100 ch" # [LocEditor:CustomLanguageKey]
- GER_sub_ship_engine_3_short:0 "MAN diesel 4400 ch" # [LocEditor:CustomLanguageKey]
- GER_sub_ship_engine_4_short:0 "SSW électrique 4626 ch" # [LocEditor:CustomLanguageKey]
- GER_cruiser_ship_engine_1_short:0 "MAN diesel 56 800 ch" # [LocEditor:CustomLanguageKey]
- GER_cruiser_ship_engine_2_short:0 "Schichau 65 000 ch" # [LocEditor:CustomLanguageKey]
- GER_cruiser_ship_engine_3_short:0 "Germania 72 400 ch" # [LocEditor:CustomLanguageKey]
- GER_cruiser_ship_engine_4_short:0 "Blohm+Voß 132 000 ch" # [LocEditor:CustomLanguageKey]
- GER_heavy_ship_engine_1_short:0 "VTE 20 540 ch" # [LocEditor:CustomLanguageKey]
- GER_heavy_ship_engine_2_short:0 "Blohm+Voß 138 000 ch" # [LocEditor:CustomLanguageKey]
- GER_heavy_ship_engine_3_short:0 "DeSchiMAG 160 100 ch" # [LocEditor:CustomLanguageKey]
- GER_heavy_ship_engine_4_short:0 "MAN Diesel 165 000 ch" # [LocEditor:CustomLanguageKey]
- GER_carrier_ship_engine_1_short:0 "DeSchiMAG 50 000 ch" # [LocEditor:CustomLanguageKey]
- GER_carrier_ship_engine_2_short:0 "B.-Boveri 165 000 ch" # [LocEditor:CustomLanguageKey]
- GER_carrier_ship_engine_3_short:0 "Blohm+Voß 180 000 ch" # [LocEditor:CustomLanguageKey]
- GER_carrier_ship_engine_4_short:0 "MAN Diesel 185 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_ship_light_battery_1_short:0 "102 mm/60 M1911" # [LocEditor:CustomLanguageKey]
- SOV_ship_light_battery_2_short:0 "130 mm/50 B13 1936, B-13-2 mt" # [LocEditor:CustomLanguageKey]
- SOV_ship_light_battery_3_short:0 "130 mm/50 B13 RPC, B-2LM mt" # [LocEditor:CustomLanguageKey]
- SOV_ship_light_battery_4_short:0 "130 mm/58 SM-2-1" # [LocEditor:CustomLanguageKey]
- SOV_dp_light_battery:0 "130 mm/50 B13 B-2-U" # [LocEditor:CustomLanguageKey]
- SOV_dp_light_battery_short:0 "130 mm/50 B13 B-2-U" # [LocEditor:CustomLanguageKey]
- SOV_ship_heavy_battery_1_short:0 "305 mm/52 1907" # [LocEditor:CustomLanguageKey]
- SOV_ship_heavy_battery_2_short:0 "305 mm/55 B-36 1937" # [LocEditor:CustomLanguageKey]
- SOV_ship_heavy_battery_3_short:0 "406 mm/50 B-37 1937" # [LocEditor:CustomLanguageKey]
- SOV_ship_heavy_battery_4_short:0 "406 mm/55 1942" # [LocEditor:CustomLanguageKey]
- SOV_ship_light_medium_battery_1_short:0 "130 mm/55 M1913" # [LocEditor:CustomLanguageKey]
- SOV_ship_light_medium_battery_2_short:0 "152 mm/57 Mk 5" # [LocEditor:CustomLanguageKey]
- SOV_ship_light_medium_battery_3_short:0 "152 mm/57 Mk 5-bis" # [LocEditor:CustomLanguageKey]
- SOV_ship_light_medium_battery_4_short:0 "152 mm/57 5-bis auto." # [LocEditor:CustomLanguageKey]
- SOV_ship_medium_battery_1_short:0 "180 mm/60 B-1-K" # [LocEditor:CustomLanguageKey]
- SOV_ship_medium_battery_2_short:0 "180 mm/57 B-1-P" # [LocEditor:CustomLanguageKey]
- SOV_ship_medium_battery_3_short:0 "180 mm/57 B-2-P RPC" # [LocEditor:CustomLanguageKey]
- SOV_ship_medium_battery_4_short:0 "220 mm/65 SM-40" # [LocEditor:CustomLanguageKey]
- SOV_ship_secondaries_1_short:0 "120 mm/50 M1905" # [LocEditor:CustomLanguageKey]
- SOV_ship_secondaries_2_short:0 "152 mm/57 B-38/Mk 4 mt" # [LocEditor:CustomLanguageKey]
- SOV_dp_ship_secondaries:0 "130 mm/50 B13 B-2-U" # [LocEditor:CustomLanguageKey]
- SOV_dp_ship_secondaries_short:0 "130 mm/50 B13 B-2-U" # [LocEditor:CustomLanguageKey]
- SOV_ship_torpedo_1_short:0 "3x450 mm" # [LocEditor:CustomLanguageKey]
- SOV_ship_torpedo_2_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- SOV_ship_torpedo_3_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- SOV_ship_torpedo_4_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- SOV_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- SOV_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- SOV_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- SOV_ship_torpedo_sub_4_short:0 "6x533 mm à vérin" # [LocEditor:CustomLanguageKey]
- SOV_ship_anti_air_1_short:0 "Mitrailleuse 7,62 mm" # [LocEditor:CustomLanguageKey]
- SOV_ship_anti_air_2_short:0 "45 mm/46 21-K" # [LocEditor:CustomLanguageKey]
- SOV_ship_anti_air_3_short:0 "37 mm/67 70-K" # [LocEditor:CustomLanguageKey]
- SOV_ship_airplane_launcher_1_short:0 "Catapulte K-3" # [LocEditor:CustomLanguageKey]
- SOV_ship_airplane_launcher_2_short:0 "Catapulte K-12" # [LocEditor:CustomLanguageKey]
- SOV_ship_radar_1_short:0 "Redout-K" # [LocEditor:CustomLanguageKey]
- SOV_ship_radar_2_short:0 "Guiouis-1" # [LocEditor:CustomLanguageKey]
- SOV_ship_radar_3_short:0 "Redan-1" # [LocEditor:CustomLanguageKey]
- SOV_ship_radar_4_short:0 "Redan-2" # [LocEditor:CustomLanguageKey]
- SOV_light_ship_engine_1_short:0 "B.-Boveri 35 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_light_ship_engine_2_short:0 "GTZA-24 48 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_light_ship_engine_3_short:0 "GTZA-24 54 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_light_ship_engine_4_short:0 "GTZA-24 66 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_sub_ship_engine_1_short:0 "38B8 diesel 1370 ch" # [LocEditor:CustomLanguageKey]
- SOV_sub_ship_engine_2_short:0 "42BM6 diesel 2200 ch" # [LocEditor:CustomLanguageKey]
- SOV_sub_ship_engine_3_short:0 "1D diesel 4000 ch" # [LocEditor:CustomLanguageKey]
- SOV_sub_ship_engine_4_short:0 "9DKR diesel 8400 ch" # [LocEditor:CustomLanguageKey]
- SOV_cruiser_ship_engine_1_short:0 "B.-Parsons 60 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_cruiser_ship_engine_2_short:0 "TV-7 70 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_cruiser_ship_engine_3_short:0 "TV-7 80 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_cruiser_ship_engine_4_short:0 "TV-7 110 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_heavy_ship_engine_1_short:0 "Parsons 42 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_heavy_ship_engine_2_short:0 "B.-Boveri 120 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_heavy_ship_engine_3_short:0 "B.-Boveri 201 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_heavy_ship_engine_4_short:0 "TV-4 240 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_carrier_ship_engine_1_short:0 "Parsons 66 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_carrier_ship_engine_2_short:0 "B.-Boveri 126 500 ch" # [LocEditor:CustomLanguageKey]
- SOV_carrier_ship_engine_3_short:0 "B.-Boveri 154 000 ch" # [LocEditor:CustomLanguageKey]
- SOV_carrier_ship_engine_4_short:0 "TV-4 210 000 ch" # [LocEditor:CustomLanguageKey]
- ARG_ship_light_battery_1_short:0 "120 mm/45 Vickers E" # [LocEditor:CustomLanguageKey]
- ARG_ship_light_battery_2_short:0 "120 mm/45 QF Mk IX" # [LocEditor:CustomLanguageKey]
- ARG_ship_heavy_battery_1_short:0 "30,5 cm/50 Bethlehem" # [LocEditor:CustomLanguageKey]
- ARG_ship_heavy_battery_2_short:0 "35,6 cm" # [LocEditor:CustomLanguageKey]
- ARG_ship_light_medium_battery_2_short:0 "15,2 cm/50 QF Mark W" # [LocEditor:CustomLanguageKey]
- ARG_ship_medium_battery_1_short:0 "23,8 cm/35 Krupp" # [LocEditor:CustomLanguageKey]
- ARG_ship_medium_battery_2_short:0 "19 cm/52 Odero-Terni" # [LocEditor:CustomLanguageKey]
- ARG_ship_secondaries_1_short:0 "152 mm/50 Bethlehem" # [LocEditor:CustomLanguageKey]
- ARG_ship_secondaries_2_short:0 "155 mm/50 RF" # [LocEditor:CustomLanguageKey]
- ARG_ship_torpedo_1_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- ARG_ship_torpedo_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- ARG_ship_torpedo_3_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- ARG_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- ARG_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- ARG_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- ARG_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- ARG_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- ARG_ship_anti_air_1_short:0 "12,7mm Vickers Mk III" # [LocEditor:CustomLanguageKey]
- ARG_light_ship_engine_1_short:0 "Parsons 42 000 ch" # [LocEditor:CustomLanguageKey]
- ARG_sub_ship_engine_1_short:0 "Tosi 1500 ch" # [LocEditor:CustomLanguageKey]
- ARG_cruiser_ship_engine_1_short:0 "Parsons 54 000 ch" # [LocEditor:CustomLanguageKey]
- ARG_cruiser_ship_engine_2_short:0 "Parsons 85 000 ch" # [LocEditor:CustomLanguageKey]
- ARG_cruiser_ship_engine_3_short:0 "Moteur 95 000 ch" # [LocEditor:CustomLanguageKey]
- ARG_cruiser_ship_engine_4_short:0 "Moteur 110 000 ch" # [LocEditor:CustomLanguageKey]
- ARG_heavy_ship_engine_1_short:0 "Curtiss 39 500 ch" # [LocEditor:CustomLanguageKey]
- BRA_ship_light_battery_1_short:0 "102 mm/40 QF Mk IV" # [LocEditor:CustomLanguageKey]
- BRA_ship_light_battery_2_short:0 "127 mm/38 Mk 12" # [LocEditor:CustomLanguageKey]
- BRA_ship_light_battery_3_short:0 "127 mm/38 Mk 12 RPC" # [LocEditor:CustomLanguageKey]
- BRA_ship_heavy_battery_1_short:0 "30,5 cm/45 EOC L" # [LocEditor:CustomLanguageKey]
- BRA_ship_heavy_battery_2_short:0 "35,6 cm" # [LocEditor:CustomLanguageKey]
- BRA_ship_light_medium_battery_1_short:0 "12 cm/50 EOC CC" # [LocEditor:CustomLanguageKey]
- BRA_ship_secondaries_1_short:0 "120 mm/50 EOC CC" # [LocEditor:CustomLanguageKey]
- BRA_ship_secondaries_2_short:0 "152 mm/45 RF" # [LocEditor:CustomLanguageKey]
- BRA_ship_torpedo_1_short:0 "2x450 mm" # [LocEditor:CustomLanguageKey]
- BRA_ship_torpedo_2_short:0 "2x533 mm" # [LocEditor:CustomLanguageKey]
- BRA_ship_torpedo_3_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- BRA_ship_torpedo_4_short:0 "4x533 mm air compr." # [LocEditor:CustomLanguageKey]
- BRA_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- BRA_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- BRA_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- BRA_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- BRA_light_ship_engine_1_short:0 "Parsons 24 500 ch" # [LocEditor:CustomLanguageKey]
- BRA_light_ship_engine_2_short:0 "GE 42 800 ch" # [LocEditor:CustomLanguageKey]
- BRA_sub_ship_engine_1_short:0 "Ansaldo 2 000 ch" # [LocEditor:CustomLanguageKey]
- BRA_sub_ship_engine_2_short:0 "Moteur 2 500 ch" # [LocEditor:CustomLanguageKey]
- BRA_heavy_ship_engine_1_short:0 "Vickers 30 000 ch" # [LocEditor:CustomLanguageKey]
- CHI_ship_light_battery_1_short:0 "100 mm/44 Canet 1898" # [LocEditor:CustomLanguageKey]
- CHI_ship_light_medium_battery_1_short:0 "14,9 cm/37 SK L/40" # [LocEditor:CustomLanguageKey]
- CHI_ship_light_medium_battery_2_short:0 "14 cm/50 3e année" # [LocEditor:CustomLanguageKey]
- CHI_ship_medium_battery_1_short:0 "20,3 cm/45 Armstr. T" # [LocEditor:CustomLanguageKey]
- CHI_ship_medium_battery_2_short:0 "20,3 cm/50" # [LocEditor:CustomLanguageKey]
- CHI_ship_medium_battery_3_short:0 "20,3 cm/50 RPC" # [LocEditor:CustomLanguageKey]
- CHI_ship_medium_battery_4_short:0 "20,3 cm/50 auto." # [LocEditor:CustomLanguageKey]
- CHI_ship_secondaries_1_short:0 "120 mm/45 Armstr. Y" # [LocEditor:CustomLanguageKey]
- CHI_ship_torpedo_1_short:0 "2x356 mm" # [LocEditor:CustomLanguageKey]
- CHL_ship_light_battery_1_short:0 "120 mm/45 Vickers E" # [LocEditor:CustomLanguageKey]
- CHL_ship_heavy_battery_1_short:0 "35,6 cm/45 Armstr. A" # [LocEditor:CustomLanguageKey]
- CHL_ship_heavy_battery_2_short:0 "35,6 cm/50" # [LocEditor:CustomLanguageKey]
- CHL_ship_medium_battery_1_short:0 "20,3 cm/40 Armstr. T" # [LocEditor:CustomLanguageKey]
- CHL_ship_medium_battery_2_short:0 "20,3 cm/45" # [LocEditor:CustomLanguageKey]
- CHL_ship_medium_battery_3_short:0 "20,3 cm/50" # [LocEditor:CustomLanguageKey]
- CHL_ship_medium_battery_4_short:0 "20,3 cm/50 auto." # [LocEditor:CustomLanguageKey]
- CHL_ship_secondaries_1_short:0 "120 mm/40 Armstr. T" # [LocEditor:CustomLanguageKey]
- CHL_ship_secondaries_2_short:0 "152 mm/50 BL Mk XVII" # [LocEditor:CustomLanguageKey]
- CHL_ship_torpedo_1_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- CHL_ship_torpedo_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- CHL_ship_torpedo_3_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- CHL_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- CHL_ship_torpedo_sub_1_short:0 "4x450 mm" # [LocEditor:CustomLanguageKey]
- CHL_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- CHL_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- CHL_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- CHL_light_ship_engine_1_short:0 "Parsons 28 000 ch" # [LocEditor:CustomLanguageKey]
- CHL_sub_ship_engine_1_short:0 "NLSE 480 ch" # [LocEditor:CustomLanguageKey]
- CHL_sub_ship_engine_2_short:0 "Parsons 2750 ch" # [LocEditor:CustomLanguageKey]
- CHL_sub_ship_engine_3_short:0 "Moteur 3500 ch" # [LocEditor:CustomLanguageKey]
- CHL_sub_ship_engine_4_short:0 "Moteur 5000 ch" # [LocEditor:CustomLanguageKey]
- CHL_heavy_ship_engine_1_short:0 "Brown-Curtis 37 000 ch" # [LocEditor:CustomLanguageKey]
- CHL_ship_armor_bb_1_short:0 "Coque 229 mm, pont 37 mm" # [LocEditor:CustomLanguageKey]
- DEN_ship_heavy_battery_1_short:0 "24 cm/42 K/43 M1906" # [LocEditor:CustomLanguageKey]
- DEN_ship_light_medium_battery_1_short:0 "14,9 cm/45 PK L/45" # [LocEditor:CustomLanguageKey]
- DEN_ship_secondaries_1_short:0 "150 mm/49 L/50 M.06" # [LocEditor:CustomLanguageKey]
- DEN_ship_secondaries_2_short:0 "152 mm/55 RF" # [LocEditor:CustomLanguageKey]
- DEN_ship_anti_air_1_short:0 "20 mm/60 Madsen M31" # [LocEditor:CustomLanguageKey]
- DEN_ship_anti_air_2_short:0 "20 mm/60 Madsen M41" # [LocEditor:CustomLanguageKey]
- DEN_sub_ship_engine_1_short:0 "B&W 900 ch" # [LocEditor:CustomLanguageKey]
- DEN_sub_ship_engine_2_short:0 "B&W 1200 ch" # [LocEditor:CustomLanguageKey]
- EST_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- EST_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- EST_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- EST_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- EST_sub_ship_engine_1_short:0 "Vickers 1000 ch" # [LocEditor:CustomLanguageKey]
- FIN_ship_light_battery_1_short:0 "102 mm/60 M1911" # [LocEditor:CustomLanguageKey]
- FIN_ship_heavy_battery_1_short:0 "Bofors 25,4 cm/45" # [LocEditor:CustomLanguageKey]
- FIN_ship_secondaries_1_short:0 "105 mm/50 Bofors M32" # [LocEditor:CustomLanguageKey]
- FIN_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- FIN_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- FIN_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- FIN_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- FIN_ship_anti_air_1_short:0 "20 mm/60 M1931" # [LocEditor:CustomLanguageKey]
- FIN_ship_anti_air_2_short:0 "AA 25 mm" # [LocEditor:CustomLanguageKey]
- FIN_sub_ship_engine_1_short:0 "Atlas 1160 ch" # [LocEditor:CustomLanguageKey]
- GRE_ship_light_battery_1_short:0 "102 mm/50 Armstr. P" # [LocEditor:CustomLanguageKey]
- GRE_ship_light_battery_2_short:0 "128 mm/42 SK C/34" # [LocEditor:CustomLanguageKey]
- GRE_ship_light_medium_battery_1_short:0 "15,2 cm/45 Armstr. NN" # [LocEditor:CustomLanguageKey]
- GRE_ship_light_medium_battery_2_short:0 "15,2 cm/50" # [LocEditor:CustomLanguageKey]
- GRE_ship_light_medium_battery_3_short:0 "15,5 cm/50 RPC" # [LocEditor:CustomLanguageKey]
- GRE_ship_light_medium_battery_4_short:0 "15,5 cm/50 auto." # [LocEditor:CustomLanguageKey]
- GRE_ship_medium_battery_1_short:0 "23,4 cm/45 Armstr. H" # [LocEditor:CustomLanguageKey]
- GRE_ship_medium_battery_2_short:0 "20,3 cm/50" # [LocEditor:CustomLanguageKey]
- GRE_ship_medium_battery_3_short:0 "20,3 cm/50 RPC" # [LocEditor:CustomLanguageKey]
- GRE_ship_medium_battery_4_short:0 "20,3 cm/50 auto." # [LocEditor:CustomLanguageKey]
- GRE_ship_secondaries_1_short:0 "76 mm/40 Armstr. N" # [LocEditor:CustomLanguageKey]
- GRE_ship_torpedo_1_short:0 "2x533 mm" # [LocEditor:CustomLanguageKey]
- GRE_ship_torpedo_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- GRE_ship_torpedo_3_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- GRE_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- GRE_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- GRE_ship_torpedo_sub_2_short:0 "6x553 mm" # [LocEditor:CustomLanguageKey]
- GRE_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- GRE_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- GRE_light_ship_engine_1_short:0 "Parsons 22 000 ch" # [LocEditor:CustomLanguageKey]
- GRE_light_ship_engine_2_short:0 "Parsons 34 000 ch" # [LocEditor:CustomLanguageKey]
- GRE_sub_ship_engine_1_short:0 "Sulzer 1420 ch" # [LocEditor:CustomLanguageKey]
- HOL_ship_light_battery_1_short:0 "120 mm/50 W.-F. 5" # [LocEditor:CustomLanguageKey]
- HOL_ship_light_battery_2_short:0 "120 mm/50 W.-F. 7" # [LocEditor:CustomLanguageKey]
- HOL_ship_light_battery_3_short:0 "120 mm/45 W.-F. 8" # [LocEditor:CustomLanguageKey]
- HOL_dp_light_battery:0 "120 mm/50 Wilton-Fijenoord Mk 10 double-usage" # [LocEditor:CustomLanguageKey]
- HOL_dp_light_battery_short:0 "120 mm/50 dble-usage" # [LocEditor:CustomLanguageKey]
- HOL_ship_heavy_battery_1_short:0 "28 cm/42 Krupp N°3" # [LocEditor:CustomLanguageKey]
- HOL_ship_heavy_battery_2_short:0 "28 cm/55 Krupp" # [LocEditor:CustomLanguageKey]
- HOL_ship_light_medium_battery_1_short:0 "14,9 cm/50 W.-F. 6" # [LocEditor:CustomLanguageKey]
- HOL_ship_light_medium_battery_2_short:0 "14,9 cm/50 W.-F. 9" # [LocEditor:CustomLanguageKey]
- HOL_ship_light_medium_battery_3_short:0 "14,9 cm/50 W.-F. 11" # [LocEditor:CustomLanguageKey]
- HOL_ship_secondaries_1_short:0 "149 mm/37 Krupp N°5" # [LocEditor:CustomLanguageKey]
- HOL_ship_secondaries_2_short:0 "120 mm/45 RF" # [LocEditor:CustomLanguageKey]
- HOL_ship_torpedo_1_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- HOL_ship_torpedo_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- HOL_ship_torpedo_3_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- HOL_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- HOL_ship_torpedo_sub_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- HOL_ship_torpedo_sub_3_short:0 "6x553 mm" # [LocEditor:CustomLanguageKey]
- HOL_ship_torpedo_sub_4_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- HOL_ship_anti_air_2_short:0 "20 mm Hispano-Suiza" # [LocEditor:CustomLanguageKey]
- HOL_ship_anti_air_3_short:0 "40 mm Hazemeyer" # [LocEditor:CustomLanguageKey]
- HOL_light_ship_engine_1_short:0 "Parsons 31 000 ch" # [LocEditor:CustomLanguageKey]
- HOL_light_ship_engine_2_short:0 "Parsons 40 000 ch" # [LocEditor:CustomLanguageKey]
- HOL_light_ship_engine_3_short:0 "Parsons 45 000 ch" # [LocEditor:CustomLanguageKey]
- HOL_sub_ship_engine_1_short:0 "Sulzer 900 ch" # [LocEditor:CustomLanguageKey]
- HOL_sub_ship_engine_2_short:0 "Sulzer 1800 ch" # [LocEditor:CustomLanguageKey]
- HOL_sub_ship_engine_3_short:0 "MAN 3200 ch" # [LocEditor:CustomLanguageKey]
- HOL_sub_ship_engine_4_short:0 "Sulzer 5000 ch" # [LocEditor:CustomLanguageKey]
- HOL_cruiser_ship_engine_1_short:0 "Parsons 56 000 ch" # [LocEditor:CustomLanguageKey]
- HOL_cruiser_ship_engine_2_short:0 "Parsons 66 000 ch" # [LocEditor:CustomLanguageKey]
- HOL_cruiser_ship_engine_3_short:0 "Parsons 78 000 ch" # [LocEditor:CustomLanguageKey]
- HOL_heavy_ship_engine_3_short:0 "Parsons 180 000 ch" # [LocEditor:CustomLanguageKey]
- LAT_ship_torpedo_sub_1_short:0 "6x450 mm" # [LocEditor:CustomLanguageKey]
- LAT_ship_torpedo_sub_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- LAT_ship_torpedo_sub_3_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- LAT_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- LAT_sub_ship_engine_1_short:0 "Sulzer 1300 ch" # [LocEditor:CustomLanguageKey]
- NOR_ship_light_battery_1_short:0 "76 mm/40 Armstr. EOC" # [LocEditor:CustomLanguageKey]
- NOR_ship_light_battery_2_short:0 "120 mm/44 Bofors" # [LocEditor:CustomLanguageKey]
- NOR_ship_medium_battery_1_short:0 "20,9 cm/44 EOC 1899" # [LocEditor:CustomLanguageKey]
- NOR_ship_medium_battery_2_short:0 "20,3 cm/50" # [LocEditor:CustomLanguageKey]
- NOR_ship_medium_battery_3_short:0 "20,3 cm/50 RPC" # [LocEditor:CustomLanguageKey]
- NOR_ship_medium_battery_4_short:0 "20,3 cm/50 auto." # [LocEditor:CustomLanguageKey]
- NOR_ship_secondaries_1_short:0 "149,1 mm/45 EOC FF" # [LocEditor:CustomLanguageKey]
- NOR_ship_secondaries_2_short:0 "152 mm/50 RF" # [LocEditor:CustomLanguageKey]
- NOR_ship_torpedo_1_short:0 "2x533 mm" # [LocEditor:CustomLanguageKey]
- NOR_ship_torpedo_2_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- NOR_ship_torpedo_3_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- NOR_ship_torpedo_4_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- NOR_ship_torpedo_sub_1_short:0 "2x450 mm" # [LocEditor:CustomLanguageKey]
- NOR_ship_torpedo_sub_2_short:0 "4x450 mm" # [LocEditor:CustomLanguageKey]
- NOR_light_ship_engine_1_short:0 "De Laval 30 000 ch" # [LocEditor:CustomLanguageKey]
- NOR_sub_ship_engine_1_short:0 "Sulzer 900 ch" # [LocEditor:CustomLanguageKey]
- POL_ship_light_battery_1_short:0 "130mm/40 M1924" # [LocEditor:CustomLanguageKey]
- POL_ship_light_battery_2_short:0 "12 cm/50 Bofors 34/36" # [LocEditor:CustomLanguageKey]
- POL_ship_torpedo_1_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- POL_ship_torpedo_2_short:0 "4x450 mm" # [LocEditor:CustomLanguageKey]
- POL_ship_torpedo_3_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- POL_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- POL_ship_torpedo_sub_1_short:0 "4x550 mm" # [LocEditor:CustomLanguageKey]
- POL_ship_torpedo_sub_2_short:0 "6x550 mm" # [LocEditor:CustomLanguageKey]
- POL_ship_torpedo_sub_3_short:0 "6x550 mm à pistons" # [LocEditor:CustomLanguageKey]
- POL_ship_torpedo_sub_4_short:0 "6x550 mm à vérins" # [LocEditor:CustomLanguageKey]
- POL_ship_anti_air_1_short:0 "13,2mm/76 Hotchkiss" # [LocEditor:CustomLanguageKey]
- POL_ship_anti_air_2_short:0 "40 mm/40 Vickers" # [LocEditor:CustomLanguageKey]
- POL_ship_anti_air_3_short:0 "40 mm/56 Bofors M36" # [LocEditor:CustomLanguageKey]
- POL_light_ship_engine_1_short:0 "Parsons 33 000 ch" # [LocEditor:CustomLanguageKey]
- POL_light_ship_engine_2_short:0 "Parsons 54 000 ch" # [LocEditor:CustomLanguageKey]
- POL_light_ship_engine_3_short:0 "Moteur 65 000 ch" # [LocEditor:CustomLanguageKey]
- POL_light_ship_engine_4_short:0 "Moteur 75 000 ch" # [LocEditor:CustomLanguageKey]
- POL_sub_ship_engine_1_short:0 "Normand-Vick. 1800 ch" # [LocEditor:CustomLanguageKey]
- POL_sub_ship_engine_2_short:0 "Sulzer 4740 ch" # [LocEditor:CustomLanguageKey]
- POL_sub_ship_engine_3_short:0 "Sulzer 5400 ch" # [LocEditor:CustomLanguageKey]
- POL_sub_ship_engine_4_short:0 "Moteur 6500 ch" # [LocEditor:CustomLanguageKey]
- POR_ship_light_battery_1_short:0 "100 mm/41 Armstr. N" # [LocEditor:CustomLanguageKey]
- POR_ship_light_battery_2_short:0 "120 mm/50 Vickers G" # [LocEditor:CustomLanguageKey]
- POR_ship_torpedo_1_short:0 "2x450 mm" # [LocEditor:CustomLanguageKey]
- POR_ship_torpedo_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- POR_ship_torpedo_3_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- POR_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- POR_ship_torpedo_sub_1_short:0 "4x450 mm" # [LocEditor:CustomLanguageKey]
- POR_ship_torpedo_sub_2_short:0 "6x450 mm" # [LocEditor:CustomLanguageKey]
- POR_ship_torpedo_sub_3_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- POR_ship_torpedo_sub_4_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- POR_ship_anti_air_1_short:0 "12,7 mm/62 Vickers" # [LocEditor:CustomLanguageKey]
- POR_ship_anti_air_2_short:0 "40mm/40 2 livres" # [LocEditor:CustomLanguageKey]
- POR_ship_anti_air_3_short:0 "AA 40 mm/60" # [LocEditor:CustomLanguageKey]
- POR_light_ship_engine_1_short:0 "Parsons 33 000 ch" # [LocEditor:CustomLanguageKey]
- POR_sub_ship_engine_1_short:0 "Vickers 2300 ch" # [LocEditor:CustomLanguageKey]
- POR_sub_ship_engine_2_short:0 "Moteur 2800 ch" # [LocEditor:CustomLanguageKey]
- POR_sub_ship_engine_3_short:0 "Moteur 3500 ch" # [LocEditor:CustomLanguageKey]
- PRU_ship_light_battery_1_short:0 "102 mm/60 M1911" # [LocEditor:CustomLanguageKey]
- PRU_ship_light_medium_battery_1_short:0 "15,2 cm/50 Vickers J" # [LocEditor:CustomLanguageKey]
- PRU_ship_light_medium_battery_2_short:0 "15,5 cm/50" # [LocEditor:CustomLanguageKey]
- PRU_ship_light_medium_battery_3_short:0 "15,5 cm/50 RPC" # [LocEditor:CustomLanguageKey]
- PRU_ship_light_medium_battery_4_short:0 "15,5 cm/50 auto." # [LocEditor:CustomLanguageKey]
- PRU_ship_secondaries_1_short:0 "76 mm/40 Vickers M" # [LocEditor:CustomLanguageKey]
- PRU_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- PRU_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- PRU_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- PRU_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- PRU_ship_anti_air_1_short:0 "Mitrailleuse 0.50" # [LocEditor:CustomLanguageKey]
- PRU_ship_anti_air_2_short:0 "40 mm/40 Vickers 2pdr" # [LocEditor:CustomLanguageKey]
- PRU_light_ship_engine_1_short:0 "B.-Boveri 32 700 ch" # [LocEditor:CustomLanguageKey]
- PRU_sub_ship_engine_1_short:0 "NELSECO 800 ch" # [LocEditor:CustomLanguageKey]
- ROM_ship_light_battery_1_short:0 "120 mm/45 M1918-19" # [LocEditor:CustomLanguageKey]
- ROM_ship_light_battery_2_short:0 "120 mm/50 Bofors" # [LocEditor:CustomLanguageKey]
- ROM_ship_torpedo_1_short:0 "2x450 mm" # [LocEditor:CustomLanguageKey]
- ROM_ship_torpedo_2_short:0 "2x533 mm" # [LocEditor:CustomLanguageKey]
- ROM_ship_torpedo_3_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- ROM_ship_torpedo_4_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- ROM_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- ROM_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- ROM_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- ROM_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- ROM_light_ship_engine_1_short:0 "Tosi 45 000 ch" # [LocEditor:CustomLanguageKey]
- ROM_light_ship_engine_2_short:0 "Parsons 52 000 ch" # [LocEditor:CustomLanguageKey]
- ROM_light_ship_engine_3_short:0 "Moteur 57 000 ch" # [LocEditor:CustomLanguageKey]
- ROM_light_ship_engine_4_short:0 "Moteur 60 000 ch" # [LocEditor:CustomLanguageKey]
- ROM_sub_ship_engine_1_short:0 "Sulzer 800 ch" # [LocEditor:CustomLanguageKey]
- SIA_ship_light_battery_1_short:0 "102 mm/40 QF Mk IV" # [LocEditor:CustomLanguageKey]
- SIA_ship_medium_battery_2_short:0 "20 cm/50 3e année N°2" # [LocEditor:CustomLanguageKey]
- SIA_ship_medium_battery_3_short:0 "20,3 cm/50 RPC" # [LocEditor:CustomLanguageKey]
- SIA_ship_medium_battery_4_short:0 "20,3 cm automatique" # [LocEditor:CustomLanguageKey]
- SIA_ship_secondaries_1_short:0 "76 mm/40 11e année" # [LocEditor:CustomLanguageKey]
- SIA_ship_torpedo_1_short:0 "2x533 mm" # [LocEditor:CustomLanguageKey]
- SIA_ship_torpedo_2_short:0 "4x450 mm" # [LocEditor:CustomLanguageKey]
- SIA_ship_torpedo_3_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- SIA_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- SIA_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- SIA_ship_torpedo_sub_2_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- SIA_ship_torpedo_sub_3_short:0 "6x533 mm à pistons" # [LocEditor:CustomLanguageKey]
- SIA_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- SIA_light_ship_engine_1_short:0 "Brown-Curtis 27 000 ch" # [LocEditor:CustomLanguageKey]
- SPR_ship_light_battery_1_short:0 "102 mm/45 Vickers L" # [LocEditor:CustomLanguageKey]
- SPR_ship_light_battery_2_short:0 "120 mm/45 Vickers F" # [LocEditor:CustomLanguageKey]
- SPR_ship_heavy_battery_1_short:0 "30,5 cm/50 Vickers H" # [LocEditor:CustomLanguageKey]
- SPR_ship_heavy_battery_2_short:0 "35,6 cm" # [LocEditor:CustomLanguageKey]
- SPR_ship_light_medium_battery_1_short:0 "15,2 cm/50 Vickers V" # [LocEditor:CustomLanguageKey]
- SPR_ship_light_medium_battery_2_short:0 "15,2 cm/50 Vickers U" # [LocEditor:CustomLanguageKey]
- SPR_ship_medium_battery_1_short:0 "20,3 cm/50 Vickers D" # [LocEditor:CustomLanguageKey]
- SPR_ship_medium_battery_2_short:0 "20,3 cm/50 Curraca F" # [LocEditor:CustomLanguageKey]
- SPR_ship_medium_battery_3_short:0 "20,3 cm/50 RPC" # [LocEditor:CustomLanguageKey]
- SPR_ship_medium_battery_4_short:0 "20,3 cm/50 auto." # [LocEditor:CustomLanguageKey]
- SPR_ship_secondaries_1_short:0 "102 mm/50 Vickers E" # [LocEditor:CustomLanguageKey]
- SPR_ship_torpedo_1_short:0 "2x450 mm" # [LocEditor:CustomLanguageKey]
- SPR_ship_torpedo_2_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- SPR_ship_torpedo_3_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- SPR_ship_torpedo_4_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- SPR_ship_torpedo_sub_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- SPR_ship_torpedo_sub_3_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- SPR_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- SPR_ship_anti_air_1_short:0 "2 cm/65 C/30" # [LocEditor:CustomLanguageKey]
- SPR_ship_anti_air_2_short:0 "2 cm/65 C/38" # [LocEditor:CustomLanguageKey]
- SPR_light_ship_engine_1_short:0 "Parsons 33 000 ch" # [LocEditor:CustomLanguageKey]
- SPR_light_ship_engine_2_short:0 "Parsons 42 000 ch" # [LocEditor:CustomLanguageKey]
- SPR_light_ship_engine_3_short:0 "Moteur 50 000 ch" # [LocEditor:CustomLanguageKey]
- SPR_light_ship_engine_4_short:0 "Moteur 60 000 ch" # [LocEditor:CustomLanguageKey]
- SPR_sub_ship_engine_1_short:0 "NELSECO 1400 ch" # [LocEditor:CustomLanguageKey]
- SPR_sub_ship_engine_2_short:0 "Vickers 2000 ch" # [LocEditor:CustomLanguageKey]
- SPR_sub_ship_engine_3_short:0 "Sulzer 5000 ch" # [LocEditor:CustomLanguageKey]
- SPR_sub_ship_engine_4_short:0 "Moteur 6000 ch" # [LocEditor:CustomLanguageKey]
- SPR_cruiser_ship_engine_1_short:0 "Parsons 45 000 ch" # [LocEditor:CustomLanguageKey]
- SPR_cruiser_ship_engine_2_short:0 "Parsons 80 000 ch" # [LocEditor:CustomLanguageKey]
- SPR_cruiser_ship_engine_3_short:0 "Parsons 90 000 ch" # [LocEditor:CustomLanguageKey]
- SPR_cruiser_ship_engine_4_short:0 "Moteur 110 000 ch" # [LocEditor:CustomLanguageKey]
- SPR_heavy_ship_engine_1_short:0 "Parsons 15 500 ch" # [LocEditor:CustomLanguageKey]
- SWE_ship_light_battery_1_short:0 "12 cm/45 Bofors M24" # [LocEditor:CustomLanguageKey]
- SWE_ship_light_battery_2_short:0 "12 cm/45 Bofors M24C" # [LocEditor:CustomLanguageKey]
- SWE_ship_light_battery_3_short:0 "12 cm/50 Bofors M36" # [LocEditor:CustomLanguageKey]
- SWE_ship_light_battery_4_short:0 "12 cm/50 Bofors M42" # [LocEditor:CustomLanguageKey]
- SWE_dp_light_battery:0 "12 cm/50 Bofors modèle 1942 double-usage" # [LocEditor:CustomLanguageKey]
- SWE_dp_light_battery_short:0 "12 cm/50 Bofors DP" # [LocEditor:CustomLanguageKey]
- SWE_ship_heavy_battery_1_short:0 "28,3 cm/45 Bofors M12" # [LocEditor:CustomLanguageKey]
- SWE_ship_heavy_battery_2_short:0 "30,5 cm/45 Bofors M29" # [LocEditor:CustomLanguageKey]
- SWE_ship_heavy_battery_3_short:0 "38 cm/48 Bofors M38" # [LocEditor:CustomLanguageKey]
- SWE_ship_heavy_battery_4_short:0 "40,6 cm/48 Bofors M41" # [LocEditor:CustomLanguageKey]
- SWE_ship_light_medium_battery_1_short:0 "15,2 cm/50 Bofors M03" # [LocEditor:CustomLanguageKey]
- SWE_ship_light_medium_battery_2_short:0 "15,2 cm/55 Bofors M30" # [LocEditor:CustomLanguageKey]
- SWE_ship_light_medium_battery_3_short:0 "15,2 cm/53 Bofors M42" # [LocEditor:CustomLanguageKey]
- SWE_ship_light_medium_battery_4_short:0 "15,5 cm/53 M42 auto." # [LocEditor:CustomLanguageKey]
- SWE_ship_medium_battery_1_short:0 "20,8 cm/44 Bofors M98" # [LocEditor:CustomLanguageKey]
- SWE_ship_medium_battery_2_short:0 "20,3 cm/45 Bofors M32" # [LocEditor:CustomLanguageKey]
- SWE_ship_medium_battery_3_short:0 "20,3 cm/50 Bofors M38" # [LocEditor:CustomLanguageKey]
- SWE_ship_medium_battery_4_short:0 "20,3 cm/50 auto." # [LocEditor:CustomLanguageKey]
- SWE_ship_secondaries_1_short:0 "15,2 cm/44 Bofors M98" # [LocEditor:CustomLanguageKey]
- SWE_ship_secondaries_2_short:0 "15,2 cm/53 Bofors M42" # [LocEditor:CustomLanguageKey]
- SWE_dp_ship_secondaries:0 "120 mm/50 Bofors modèle 1942 double-usage" # [LocEditor:CustomLanguageKey]
- SWE_dp_ship_secondaries_short:0 "120 mm/50 Bofors DP" # [LocEditor:CustomLanguageKey]
- SWE_ship_torpedo_1_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- SWE_ship_torpedo_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- SWE_ship_torpedo_3_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- SWE_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- SWE_ship_torpedo_sub_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- SWE_ship_torpedo_sub_3_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- SWE_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- SWE_ship_anti_air_1_short:0 "40 mm/39 Vickers M32" # [LocEditor:CustomLanguageKey]
- SWE_ship_anti_air_2_short:0 "25 mm/64 Bofors M32" # [LocEditor:CustomLanguageKey]
- SWE_ship_anti_air_3_short:0 "40 mm/60 Bofors M36" # [LocEditor:CustomLanguageKey]
- SWE_ship_anti_air_4_short:0 "40 mm/70 Bofors M48" # [LocEditor:CustomLanguageKey]
- SWE_light_ship_engine_1_short:0 "De Laval 26 000 ch" # [LocEditor:CustomLanguageKey]
- SWE_light_ship_engine_2_short:0 "De Laval 32 000 ch" # [LocEditor:CustomLanguageKey]
- SWE_light_ship_engine_3_short:0 "De Laval 44 000 ch" # [LocEditor:CustomLanguageKey]
- SWE_light_ship_engine_4_short:0 "De Laval 58 000 ch" # [LocEditor:CustomLanguageKey]
- SWE_sub_ship_engine_1_short:0 "Atlas 1340 ch" # [LocEditor:CustomLanguageKey]
- SWE_sub_ship_engine_2_short:0 "Götaverken 1920 ch" # [LocEditor:CustomLanguageKey]
- SWE_sub_ship_engine_3_short:0 "Götaverken 3000 ch" # [LocEditor:CustomLanguageKey]
- SWE_sub_ship_engine_4_short:0 "Götaverken 4000 ch" # [LocEditor:CustomLanguageKey]
- SWE_cruiser_ship_engine_1_short:0 "De Laval 33 000 ch" # [LocEditor:CustomLanguageKey]
- SWE_cruiser_ship_engine_2_short:0 "De Laval 70 000 ch" # [LocEditor:CustomLanguageKey]
- SWE_cruiser_ship_engine_3_short:0 "De Laval 80 000 ch" # [LocEditor:CustomLanguageKey]
- SWE_cruiser_ship_engine_4_short:0 "De Laval 90 000 ch" # [LocEditor:CustomLanguageKey]
- SWE_heavy_ship_engine_1_short:0 "Motala 23 910 ch" # [LocEditor:CustomLanguageKey]
- TUR_ship_light_battery_1_short:0 "105 mm/37 SK L/40" # [LocEditor:CustomLanguageKey]
- TUR_ship_light_battery_2_short:0 "120 mm/50 Ansaldo" # [LocEditor:CustomLanguageKey]
- TUR_ship_heavy_battery_1_short:0 "28 cm/50 SK L/50" # [LocEditor:CustomLanguageKey]
- TUR_ship_light_medium_battery_1_short:0 "15,2 cm/45 Armstrong" # [LocEditor:CustomLanguageKey]
- TUR_ship_light_medium_battery_2_short:0 "15,2 cm/50" # [LocEditor:CustomLanguageKey]
- TUR_ship_light_medium_battery_3_short:0 "15,5 cm/50 RPC" # [LocEditor:CustomLanguageKey]
- TUR_ship_light_medium_battery_4_short:0 "15,5 cm/50 auto." # [LocEditor:CustomLanguageKey]
- TUR_ship_secondaries_1_short:0 "149 mm/45 SK L/45" # [LocEditor:CustomLanguageKey]
- TUR_ship_secondaries_2_short:0 "152 mm/50 à tir rapide" # [LocEditor:CustomLanguageKey]
- TUR_ship_torpedo_1_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- TUR_ship_torpedo_2_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- TUR_ship_torpedo_3_short:0 "5x533 mm" # [LocEditor:CustomLanguageKey]
- TUR_ship_torpedo_4_short:0 "5x533 mm air comp." # [LocEditor:CustomLanguageKey]
- TUR_ship_torpedo_sub_2_short:0 "4x533mm" # [LocEditor:CustomLanguageKey]
- TUR_ship_torpedo_sub_3_short:0 "6x533 mm" # [LocEditor:CustomLanguageKey]
- TUR_ship_torpedo_sub_4_short:0 "6x533 mm à vérins" # [LocEditor:CustomLanguageKey]
- TUR_light_ship_engine_1_short:0 "Parsons 35 000 ch" # [LocEditor:CustomLanguageKey]
- TUR_light_ship_engine_2_short:0 "Parsons 40 000 ch" # [LocEditor:CustomLanguageKey]
- TUR_sub_ship_engine_1_short:0 "MAN Diesel 1100 ch" # [LocEditor:CustomLanguageKey]
- TUR_sub_ship_engine_2_short:0 "MAN Diesel 2300 ch" # [LocEditor:CustomLanguageKey]
- TUR_sub_ship_engine_3_short:0 "MAN Diesel 2880 ch" # [LocEditor:CustomLanguageKey]
- TUR_sub_ship_engine_4_short:0 "B&W diesel 3500 ch" # [LocEditor:CustomLanguageKey]
- TUR_heavy_ship_engine_1_short:0 "Parsons 52 000 ch" # [LocEditor:CustomLanguageKey]
- URG_ship_light_battery_1_short:0 "Krupp QF 120 mm/45" # [LocEditor:CustomLanguageKey]
- URG_ship_light_battery_2_short:0 "Canon 120 mm/50" # [LocEditor:CustomLanguageKey]
- YUG_ship_light_battery_1_short:0 "120 mm/46 Škoda" # [LocEditor:CustomLanguageKey]
- YUG_ship_light_battery_2_short:0 "120 mm/56 Škoda" # [LocEditor:CustomLanguageKey]
- YUG_ship_secondaries_1_short:0 "83mm/52 Škoda" # [LocEditor:CustomLanguageKey]
- YUG_ship_torpedo_1_short:0 "3x533 mm" # [LocEditor:CustomLanguageKey]
- YUG_ship_torpedo_2_short:0 "3x550 mm" # [LocEditor:CustomLanguageKey]
- YUG_ship_torpedo_3_short:0 "4x 550 mm" # [LocEditor:CustomLanguageKey]
- YUG_ship_torpedo_4_short:0 "5x550 mm" # [LocEditor:CustomLanguageKey]
- YUG_ship_torpedo_sub_1_short:0 "4x533 mm" # [LocEditor:CustomLanguageKey]
- YUG_ship_torpedo_sub_2_short:0 "4x450 mm" # [LocEditor:CustomLanguageKey]
- YUG_ship_torpedo_sub_3_short:0 "6x550 mm" # [LocEditor:CustomLanguageKey]
- YUG_ship_torpedo_sub_4_short:0 "6x550 mm à vérins" # [LocEditor:CustomLanguageKey]
- YUG_ship_anti_air_1_short:0 "15 mm/84 Zbrojovka" # [LocEditor:CustomLanguageKey]
- YUG_light_ship_engine_1_short:0 "Parsons 42 000 ch" # [LocEditor:CustomLanguageKey]
- YUG_light_ship_engine_2_short:0 "Moteur 45 000 ch" # [LocEditor:CustomLanguageKey]
- YUG_light_ship_engine_3_short:0 "Moteur 50 000 ch" # [LocEditor:CustomLanguageKey]
- YUG_light_ship_engine_4_short:0 "Moteur 60 000 ch" # [LocEditor:CustomLanguageKey]
- YUG_sub_ship_engine_1_short:0 "MAN Diesel 1480 ch" # [LocEditor:CustomLanguageKey]
+ dp_light_battery:0 "Batterie double-usage 127 mm"
+ dp_light_battery_short:0 "127 mm double-usage"
+ dp_light_battery_desc:0 "Un canon de calibre réduit agencé de manière à pouvoir tirer sur les avions autant que sur les navires de surface."
+ dp_ship_secondaries:0 "Batterie secondaire double-usage de 12,7 cm"
+ dp_ship_secondaries_short:0 "12,7 cm double usage"
+ dp_ship_secondaries_desc:0 "En combinant le rôle des canons lourds anti-aériens et des batteries secondaires, cette batterie renforce grandement les capacités anti-aériennes du bâtiment tout en permettant une défense contre les navires de surface moins imposants."
+ ship_mine_sweeper_1_short:0 "Dispositif de dragage"
+ ship_mine_layer_sub_short:0 "Tubes de largage"
+ ship_airplane_launcher_2_short:0 "Cat. à hydr. améliorée"
+ ENG_ship_light_battery_1_short:0 "4.7in/45 BL Mk I"
+ ENG_ship_light_battery_2_short:0 "4.7in QF Mk IX, CP Mk XIV mt"
+ ENG_ship_light_battery_3_short:0 "4.7in QF Mk XI, Mk XX mt"
+ ENG_ship_light_battery_4_short:0 "4.5in QF Mk IV, RP 50 Mk V mt"
+ ENG_dp_light_battery:0 "4,5 pouces QF Mk I double-usage"
+ ENG_dp_light_battery_short:0 "4,5" QF Mk dble-usage"
+ ENG_ship_heavy_battery_1_short:0 "Mk I 15""
+ ENG_ship_heavy_battery_2_short:0 "Mk VII 14""
+ ENG_ship_heavy_battery_3_short:0 "Mk II/III 16""
+ ENG_ship_heavy_battery_4_short:0 "Mk IV 16""
+ ENG_ship_light_medium_battery_1_short:0 "BL Mk XII 6""
+ ENG_ship_light_medium_battery_2_short:0 "BL Mk XXIII 6""
+ ENG_ship_light_medium_battery_3_short:0 "BL Mk XXIII 6" RP"
+ ENG_ship_light_medium_battery_4_short:0 "QF Mk V LA 6""
+ ENG_ship_medium_battery_1_short:0 "Mk VI 7,5""
+ ENG_ship_medium_battery_2_short:0 "Mk VII 8""
+ ENG_ship_medium_battery_3_short:0 "Mk IX/X 8""
+ ENG_ship_medium_battery_4_short:0 "8" automatique"
+ ENG_ship_secondaries_1_short:0 "BL Mk XII 6""
+ ENG_ship_secondaries_2_short:0 "BL Mk XXII 6""
+ ENG_dp_ship_secondaries:0 "Mk I 5,25 pouces double-usage"
+ ENG_dp_ship_secondaries_short:0 "DP Mk I 5,25""
+ ENG_ship_torpedo_1_short:0 "3x21 pouces"
+ ENG_ship_torpedo_2_short:0 "4x21 pouces"
+ ENG_ship_torpedo_3_short:0 "5x21 pouces"
+ ENG_ship_torpedo_4_short:0 "5x21" à air comprimé"
+ ENG_ship_torpedo_sub_1_short:0 "4x21" en arc"
+ ENG_ship_torpedo_sub_2_short:0 "6x21" en arc"
+ ENG_ship_torpedo_sub_3_short:0 "6x21" à pistons"
+ ENG_ship_torpedo_sub_4_short:0 "6x21" à vérins"
+ ENG_ship_anti_air_1_short:0 "Mitrailleuse 0,50""
+ ENG_ship_anti_air_2_short:0 "2 livres « Pom-Pom »"
+ ENG_ship_anti_air_3_short:0 "40 mm"
+ ENG_ship_mine_layer_1_short:0 "Rails de mouillage"
+ ENG_ship_mine_sweeper_1_short:0 "Mouilleur 2 vitesses"
+ ENG_ship_depth_charge_1_short:0 "Mk I DC"
+ ENG_ship_depth_charge_2_short:0 "Mk IV DC"
+ ENG_ship_depth_charge_3_short:0 "Hérisson"
+ ENG_ship_depth_charge_4_short:0 "Calmar"
+ ENG_ship_airplane_launcher_1_short:0 "Catapulte 7000 livres"
+ ENG_ship_airplane_launcher_2_short:0 "Catapulte 8000 livres"
+ ENG_ship_radar_1_short:0 "Type 79"
+ ENG_ship_radar_2_short:0 "Type 281"
+ ENG_ship_radar_3_short:0 "Type 284"
+ ENG_ship_radar_4_short:0 "Type 274"
+ ENG_light_ship_engine_1_short:0 "Brown-Curtis 27 000 ch"
+ ENG_light_ship_engine_2_short:0 "Parsons 38 000 ch"
+ ENG_light_ship_engine_3_short:0 "Parsons 48 000 ch"
+ ENG_light_ship_engine_4_short:0 "Parsons 54 000 ch"
+ ENG_sub_ship_engine_1_short:0 "Admiralty 1550 ch"
+ ENG_sub_ship_engine_2_short:0 "Vickers 2500 ch"
+ ENG_sub_ship_engine_3_short:0 "Vickers 3100 ch"
+ ENG_sub_ship_engine_4_short:0 "Vickers 4300 ch"
+ ENG_cruiser_ship_engine_1_short:0 "Parsons 60 000 ch"
+ ENG_cruiser_ship_engine_2_short:0 "Parsons 72 400 ch"
+ ENG_cruiser_ship_engine_3_short:0 "Parsons 80 000 ch"
+ ENG_cruiser_ship_engine_4_short:0 "Parsons 108 000 ch"
+ ENG_heavy_ship_engine_1_short:0 "Parsons 40 000 ch"
+ ENG_heavy_ship_engine_2_short:0 "Parsons 110 000 ch"
+ ENG_heavy_ship_engine_3_short:0 "Parsons 130 000 ch"
+ ENG_heavy_ship_engine_4_short:0 "Parsons 160 000 ch"
+ ENG_carrier_ship_engine_1_short:0 "Brown-Curtis 50 000 ch"
+ ENG_carrier_ship_engine_2_short:0 "Parsons 102 000 ch"
+ ENG_carrier_ship_engine_3_short:0 "Parsons 148 000 ch"
+ ENG_carrier_ship_engine_4_short:0 "Parsons 200 000 ch"
+ FRA_ship_light_battery_1_short:0 "130 mm/40"
+ FRA_ship_light_battery_2_short:0 "138,6 mm/40"
+ FRA_ship_light_battery_3_short:0 "138,6 mm/50 1934"
+ FRA_ship_light_battery_4_short:0 "138,6 mm/50 1938"
+ FRA_dp_light_battery:0 "130 mm/45 modèle 1935"
+ FRA_dp_light_battery_short:0 "130 mm/45 1932"
+ FRA_ship_heavy_battery_1_short:0 "34 cm/45"
+ FRA_ship_heavy_battery_2_short:0 "330 mm/50"
+ FRA_ship_heavy_battery_3_short:0 "380 mm/45"
+ FRA_ship_heavy_battery_4_short:0 "406 mm/45"
+ FRA_ship_light_medium_battery_1_short:0 "155 mm/50"
+ FRA_ship_light_medium_battery_2_short:0 "152 mm/55"
+ FRA_ship_light_medium_battery_3_short:0 "152 mm/55 RPC"
+ FRA_ship_light_medium_battery_4_short:0 "152 mm/55 auto."
+ FRA_ship_medium_battery_1_short:0 "203 mm/50"
+ FRA_ship_medium_battery_2_short:0 "203 mm/55"
+ FRA_ship_medium_battery_3_short:0 "203 mm/55 RPC"
+ FRA_ship_medium_battery_4_short:0 "203 mm/55 auto."
+ FRA_ship_secondaries_1_short:0 "138,6 mm/55"
+ FRA_ship_secondaries_2_short:0 "152 mm/55"
+ FRA_dp_ship_secondaries:0 "130 mm/45 modèle 1932 double-usage"
+ FRA_dp_ship_secondaries_short:0 "130 mm/45 dble-us."
+ FRA_ship_torpedo_1_short:0 "Tubes 2x550 mm"
+ FRA_ship_torpedo_2_short:0 "Tubes 3x550 mm"
+ FRA_ship_torpedo_3_short:0 "Tubes 4x550 mm"
+ FRA_ship_torpedo_4_short:0 "4x550 mm à air comp."
+ FRA_ship_torpedo_sub_1_short:0 "4x550 mm"
+ FRA_ship_torpedo_sub_2_short:0 "6x550 mm"
+ FRA_ship_torpedo_sub_3_short:0 "6x550 mm pistons"
+ FRA_ship_torpedo_sub_4_short:0 "6x550 mm vérins"
+ FRA_ship_anti_air_1_short:0 "13,2 mm/76"
+ FRA_ship_anti_air_2_short:0 "Canon 25 mm/60"
+ FRA_ship_anti_air_3_short:0 "AA 37 mm/70"
+ FRA_light_ship_engine_1_short:0 "Zoelly 33 000 ch"
+ FRA_light_ship_engine_2_short:0 "Rateau-Bret. 40 000 ch"
+ FRA_light_ship_engine_3_short:0 "Rateau-Bret. 74 000 ch"
+ FRA_light_ship_engine_4_short:0 "Rateau-Bret. 92 000 ch"
+ FRA_sub_ship_engine_1_short:0 "Sulzer 1 300 ch"
+ FRA_sub_ship_engine_2_short:0 "Normand 1 800 ch"
+ FRA_sub_ship_engine_3_short:0 "Sulzer 2 900 ch"
+ FRA_sub_ship_engine_4_short:0 "Sulzer 6 000 ch"
+ FRA_cruiser_ship_engine_1_short:0 "Rateau-Bret. 84 000 ch"
+ FRA_cruiser_ship_engine_2_short:0 "Rateau-Bret. 90 000 ch"
+ FRA_cruiser_ship_engine_3_short:0 "Rat.-Bret. 100 000 ch"
+ FRA_cruiser_ship_engine_4_short:0 "Rat.-Bret. 120 000 ch"
+ FRA_heavy_ship_engine_1_short:0 "Parsons 29 000 ch"
+ FRA_heavy_ship_engine_2_short:0 "Parsons 112 000 ch"
+ FRA_heavy_ship_engine_3_short:0 "Parsons 150 000 ch"
+ FRA_heavy_ship_engine_4_short:0 "Parsons 210 000 ch"
+ FRA_carrier_ship_engine_1_short:0 "Parsons 37 500 ch"
+ FRA_carrier_ship_engine_2_short:0 "Parsons 125 000 ch"
+ FRA_carrier_ship_engine_3_short:0 "Parsons 150 000 ch"
+ FRA_carrier_ship_engine_4_short:0 "Parsons 210 000 ch"
+ ITA_ship_light_battery_1_short:0 "102 mm/35 modèle 1914"
+ ITA_ship_light_battery_2_short:0 "120 mm/50 1936"
+ ITA_ship_light_battery_3_short:0 "135 mm/50 1938"
+ ITA_ship_light_battery_4_short:0 "Ansaldo 135 mm/45 RPC"
+ ITA_dp_light_battery:0 "Ansaldo 120 mm/50 double-usage"
+ ITA_dp_light_battery_short:0 "135 mm/45 1938 dble-us."
+ ITA_ship_heavy_battery_1_short:0 "305 mm/46"
+ ITA_ship_heavy_battery_2_short:0 "OTO 320 mm/44"
+ ITA_ship_heavy_battery_3_short:0 "Ansaldo 381 mm/50"
+ ITA_ship_heavy_battery_4_short:0 "Ansaldo 406 mm/50"
+ ITA_ship_light_medium_battery_1_short:0 "152 mm/45"
+ ITA_ship_light_medium_battery_2_short:0 "Ansaldo 152 mm/53"
+ ITA_ship_light_medium_battery_3_short:0 "OTO 152 mm/55 1936"
+ ITA_ship_light_medium_battery_4_short:0 "OTO 152 mm/55 1936 RPC"
+ ITA_ship_medium_battery_1_short:0 "190 mm/45"
+ ITA_ship_medium_battery_2_short:0 "Ansaldo 203 mm/50"
+ ITA_ship_medium_battery_3_short:0 "Ansaldo 203 mm/53"
+ ITA_ship_medium_battery_4_short:0 "203 mm/53 auto."
+ ITA_ship_secondaries_1_short:0 "152 mm/45 1911"
+ ITA_ship_secondaries_2_short:0 "OTO 152 mm/55 1936"
+ ITA_dp_ship_secondaries:0 "Ansaldo 120 mm/50 double-usage"
+ ITA_dp_ship_secondaries_short:0 "100 mm/45 1924"
+ ITA_ship_torpedo_1_short:0 "Tubes 3x450 mm"
+ ITA_ship_torpedo_2_short:0 "Tubes 3x533 mm"
+ ITA_ship_torpedo_3_short:0 "Tubes 4x533 mm"
+ ITA_ship_torpedo_4_short:0 "Tubes 5x533 mm"
+ ITA_ship_torpedo_sub_1_short:0 "4x533 mm en arc"
+ ITA_ship_torpedo_sub_2_short:0 "6x533 mm en arc"
+ ITA_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ ITA_ship_torpedo_sub_4_short:0 "6x533 mm à vérin"
+ ITA_ship_anti_air_1_short:0 "Breda 13,2 mm/75,7"
+ ITA_ship_anti_air_2_short:0 "Breda 20 mm/65"
+ ITA_ship_anti_air_3_short:0 "Breda 37 mm/54"
+ ITA_light_ship_engine_1_short:0 "Beluzzo 36 000 ch"
+ ITA_light_ship_engine_2_short:0 "Beluzzo 44 000 ch"
+ ITA_light_ship_engine_3_short:0 "Beluzzo 48 000 ch"
+ ITA_light_ship_engine_4_short:0 "Beluzzo 54 000 ch"
+ ITA_sub_ship_engine_1_short:0 "Fiat diesel 1 200 ch"
+ ITA_sub_ship_engine_2_short:0 "Fiat diesel 2 400 ch"
+ ITA_sub_ship_engine_3_short:0 "Tosi diesel 3 400 ch"
+ ITA_sub_ship_engine_4_short:0 "CRDA diesel 4 300 ch"
+ ITA_cruiser_ship_engine_1_short:0 "Parsons 60 000 ch"
+ ITA_cruiser_ship_engine_2_short:0 "Parsons 95 000 ch"
+ ITA_cruiser_ship_engine_3_short:0 "Parsons 106 000 ch"
+ ITA_cruiser_ship_engine_4_short:0 "Parsons 120 000 ch"
+ ITA_heavy_ship_engine_1_short:0 "Parsons 30 000 ch"
+ ITA_heavy_ship_engine_2_short:0 "Beluzzo 75 000 ch"
+ ITA_heavy_ship_engine_3_short:0 "Parsons 128 200 ch"
+ ITA_carrier_ship_engine_1_short:0 "Beluzzo 50 000 ch"
+ ITA_carrier_ship_engine_2_short:0 "Beluzzo 120 000 ch"
+ ITA_carrier_ship_engine_3_short:0 "Beluzzo 151 000 ch"
+ ITA_carrier_ship_engine_4_short:0 "Beluzzo 200 000 ch"
+ USA_ship_light_battery_1_short:0 "4"/50 Mk 9"
+ USA_ship_light_battery_2_short:0 "5"/38 Mk 12, Mk 22 mt"
+ USA_ship_light_battery_3_short:0 "5"/38 Mk 12, Mk 30 mt"
+ USA_ship_light_battery_4_short:0 "5"/38 Mk 12, Mk 38 mt"
+ USA_dp_light_battery:0 "5 pouces/38 Mk 12 et Mk 30 double-usage"
+ USA_dp_light_battery_short:0 "5"/38 Mk 12, Mk 30 DP"
+ USA_ship_heavy_battery_1_short:0 "14"/50 Mk 6"
+ USA_ship_heavy_battery_2_short:0 "16"/45 Mk 5"
+ USA_ship_heavy_battery_3_short:0 "16"/45 Mk 6"
+ USA_ship_heavy_battery_4_short:0 "16"/50 Mk 7"
+ USA_ship_light_medium_battery_1_short:0 "6"/53 Mk 12"
+ USA_ship_light_medium_battery_2_short:0 "6"/47 Mk 16"
+ USA_ship_light_medium_battery_3_short:0 "6"/47 Mk 16 RPC"
+ USA_ship_light_medium_battery_4_short:0 "6"/47 Mk 16 RPC auto."
+ USA_ship_medium_battery_1_short:0 "8"/55 Mk 9"
+ USA_ship_medium_battery_2_short:0 "8"/55 Mk 11"
+ USA_ship_medium_battery_3_short:0 "8"/55 Mk 12"
+ USA_ship_medium_battery_4_short:0 "8"/55 RF Mk 16"
+ USA_ship_secondaries_1_short:0 "5"/51 Mk 8"
+ USA_ship_secondaries_2_short:0 "6"/53 Mk 13"
+ USA_dp_ship_secondaries:0 "5 pouces/38 Mk 12 et Mk 28 mt"
+ USA_dp_ship_secondaries_short:0 "5"/38 Mk 12, Mk 28 mt"
+ USA_ship_torpedo_1_short:0 "3x21""
+ USA_ship_torpedo_2_short:0 "4x21""
+ USA_ship_torpedo_3_short:0 "Mk 15 Pentad"
+ USA_ship_torpedo_4_short:0 "Pentad air comprimé"
+ USA_ship_torpedo_sub_1_short:0 "4x21""
+ USA_ship_torpedo_sub_2_short:0 "4x21" Mk 1 TDC"
+ USA_ship_torpedo_sub_3_short:0 "6x21" Mk 3 TDC"
+ USA_ship_torpedo_sub_4_short:0 "6x21" Mk 4 TDC"
+ USA_ship_anti_air_1_short:0 "Mitrailleuse 0,50""
+ USA_ship_anti_air_2_short:0 "4x1,1" Mk 1"
+ USA_ship_anti_air_3_short:0 "40 mm Mk 2"
+ USA_ship_depth_charge_1_short:0 "Mk 1 modèle 1"
+ USA_ship_depth_charge_2_short:0 "Projecteur Mk 6 DC"
+ USA_ship_depth_charge_3_short:0 "Mk 10 « Hérisson »"
+ USA_ship_depth_charge_4_short:0 "Mk 15 « Hérisson »"
+ USA_ship_airplane_launcher_1_short:0 "Type P Mk 1"
+ USA_ship_airplane_launcher_2_short:0 "Type P Mk 6"
+ USA_ship_deck_space_short:0 "Pont hangars ouvert"
+ USA_ship_sonar_1_short:0 "Sonar QCA, hydr. JK"
+ USA_ship_sonar_2_short:0 "Sonar QGA"
+ USA_ship_radar_1_short:0 "Radar XAF"
+ USA_ship_radar_2_short:0 "Radar CXAM"
+ USA_ship_radar_3_short:0 "Radar Mk 3 FC"
+ USA_ship_radar_4_short:0 "Radar Mk 13 FC"
+ USA_light_ship_engine_1_short:0 "West.H 27 000 ch"
+ USA_light_ship_engine_2_short:0 "Curtis 42 800 ch"
+ USA_light_ship_engine_3_short:0 "West.H 50 000 ch"
+ USA_light_ship_engine_4_short:0 "GE 60 000 ch"
+ USA_sub_ship_engine_1_short:0 "NL S&E 1200 ch"
+ USA_sub_ship_engine_2_short:0 "GM 3100 ch"
+ USA_sub_ship_engine_3_short:0 "Winton 4300 ch"
+ USA_sub_ship_engine_4_short:0 "GE 5400 ch"
+ USA_cruiser_ship_engine_1_short:0 "West.H 90 000 ch"
+ USA_cruiser_ship_engine_2_short:0 "West.H 100 000 ch"
+ USA_cruiser_ship_engine_3_short:0 "West.H 100 000 ch"
+ USA_cruiser_ship_engine_4_short:0 "GE 120 000 ch"
+ USA_heavy_ship_engine_1_short:0 "Curtis 31 500 ch"
+ USA_heavy_ship_engine_2_short:0 "GE 121 000 ch"
+ USA_heavy_ship_engine_3_short:0 "GE 172 000 ch"
+ USA_heavy_ship_engine_4_short:0 "GE 212 000 ch"
+ USA_carrier_ship_engine_1_short:0 "Curtis 53 500 ch"
+ USA_carrier_ship_engine_2_short:0 "West.H 120 000 ch"
+ USA_carrier_ship_engine_3_short:0 "West.H 150 000 ch"
+ USA_carrier_ship_engine_4_short:0 "West.H 212 000 ch"
+ JAP_ship_light_battery_1_short:0 "12 cm/45 type 3"
+ JAP_ship_light_battery_2_short:0 "12,7 cm/50 type 3"
+ JAP_ship_light_battery_3_short:0 "12,7 cm/50 type 3"
+ JAP_ship_light_battery_4_short:0 "12,7 cm/50 mt D"
+ JAP_dp_light_battery:0 "10 cm/65 type 98 double-usage"
+ JAP_dp_light_battery_short:0 "10 cm/65 type 98"
+ JAP_ship_heavy_battery_1_short:0 "36 cm/45 type 41"
+ JAP_ship_heavy_battery_2_short:0 "41 cm/45 type 3"
+ JAP_ship_heavy_battery_3_short:0 "41 cm/45 type 98"
+ JAP_ship_heavy_battery_4_short:0 "41 cm/50 type 2"
+ JAP_ship_super_heavy_battery_1_short:0 "46 cm/45 type 94"
+ JAP_ship_light_medium_battery_1_short:0 "14 cm/50 type 3"
+ JAP_ship_light_medium_battery_2_short:0 "15,5 cm/60 type 3"
+ JAP_ship_light_medium_battery_3_short:0 "15,5 cm/60 RPC"
+ JAP_ship_medium_battery_1_short:0 "20 cm/50 n°1, 3e année"
+ JAP_ship_medium_battery_2_short:0 "20 cm/50 n°3, 3e année"
+ JAP_ship_medium_battery_3_short:0 "20 cm/50 type 3 RPC"
+ JAP_ship_secondaries_1_short:0 "15 cm/50 type 41"
+ JAP_ship_secondaries_2_short:0 "15,5 cm/60 type 3"
+ JAP_dp_ship_secondaries:0 "12,7 cm/40 type 89"
+ JAP_dp_ship_secondaries_short:0 "12,7 cm/40 type 89"
+ JAP_ship_torpedo_1_short:0 "3x53,3 cm"
+ JAP_ship_torpedo_2_short:0 "3x61 cm"
+ JAP_ship_torpedo_3_short:0 "4x61 cm"
+ JAP_ship_torpedo_4_short:0 "5x61 cm"
+ JAP_ship_torpedo_sub_1_short:0 "4x53,3 cm type 15"
+ JAP_ship_torpedo_sub_2_short:0 "6x53,3 cm type 88"
+ JAP_ship_torpedo_sub_3_short:0 "6x53,3 cm type 95"
+ JAP_ship_torpedo_sub_4_short:0 "6x53,3 cm à vérins"
+ JAP_ship_anti_air_1_short:0 "13 mm/76 type 93"
+ JAP_ship_anti_air_2_short:0 "25 mm/60 type 96"
+ JAP_ship_anti_air_3_short:0 "4 cm/60 type 5"
+ JAP_ship_airplane_launcher_1_short:0 "Type 2/n°5 modèle 1"
+ JAP_ship_airplane_launcher_2_short:0 "Type 2/n°1 modèle 10"
+ JAP_ship_radar_1_short:0 "Type 21"
+ JAP_ship_radar_2_short:0 "Type 23"
+ JAP_ship_radar_3_short:0 "Type 32"
+ JAP_ship_radar_4_short:0 "Type 33"
+ JAP_light_ship_engine_1_short:0 "Parsons 34 000 ch"
+ JAP_light_ship_engine_2_short:0 "Kampon 50 000 ch"
+ JAP_light_ship_engine_3_short:0 "Kampon 52 000 ch"
+ JAP_light_ship_engine_4_short:0 "Kampon 75 000 ch"
+ JAP_sub_ship_engine_1_short:0 "Sulzer 2600 ch"
+ JAP_sub_ship_engine_2_short:0 "Sulzer 6800 ch"
+ JAP_sub_ship_engine_3_short:0 "Kampon 8000 ch"
+ JAP_sub_ship_engine_4_short:0 "Kampon 11000 ch"
+ JAP_cruiser_ship_engine_1_short:0 "Brown-Curtis 51 000 ch"
+ JAP_cruiser_ship_engine_2_short:0 "Mitsubishi 90 000 ch"
+ JAP_cruiser_ship_engine_3_short:0 "Kampon 102 000 ch"
+ JAP_cruiser_ship_engine_4_short:0 "Kampon 152 000 ch"
+ JAP_heavy_ship_engine_1_short:0 "Brown-Curtis 40 000 ch"
+ JAP_heavy_ship_engine_2_short:0 "Gihon 80 000 ch"
+ JAP_heavy_ship_engine_3_short:0 "Gihon 131 200 ch"
+ JAP_heavy_ship_engine_4_short:0 "Kampon 150 000 ch"
+ JAP_carrier_ship_engine_1_short:0 "Kampon 65 000 ch"
+ JAP_carrier_ship_engine_2_short:0 "Gihon 131 200 ch"
+ JAP_carrier_ship_engine_3_short:0 "Kampon 152 000 ch"
+ JAP_carrier_ship_engine_4_short:0 "Kampon 160 000 ch"
+ GER_ship_light_battery_1_short:0 "10,5 cm/55 SK C/28"
+ GER_ship_light_battery_2_short:0 "12,7 cm/45 SK C/34"
+ GER_ship_light_battery_3_short:0 "15 cm/48 Tbts KC/36"
+ GER_ship_light_battery_4_short:0 "12,7 cm/45 SK C/41"
+ GER_dp_light_battery:0 "12,7 cm/45 SchnelladeKanone C/41 double-usage"
+ GER_dp_light_battery_short:0 "12,7 cm/45 SK C/41"
+ GER_ship_heavy_battery_1_short:0 "28 cm/40 SK L/40"
+ GER_ship_heavy_battery_2_short:0 "28 cm/54.5 SK C/34"
+ GER_ship_heavy_battery_3_short:0 "38 cm/52 SK C/34"
+ GER_ship_heavy_battery_4_short:0 "40,6 cm/52 SK C/34"
+ GER_ship_light_medium_battery_1_short:0 "15 cm/45 SK L/45"
+ GER_ship_light_medium_battery_2_short:0 "15 cm/60 SK C/25"
+ GER_ship_light_medium_battery_3_short:0 "15 cm/55 SK C/28"
+ GER_ship_light_medium_battery_4_short:0 "15 cm/55 SK C/28 auto."
+ GER_ship_medium_battery_1_short:0 "21 cm/45 SK L/45"
+ GER_ship_medium_battery_2_short:0 "20,3 cm/60 SK C/34"
+ GER_ship_medium_battery_3_short:0 "20,3 cm/60 RPC"
+ GER_ship_medium_battery_4_short:0 "20,3 cm/60 Selbstlader"
+ GER_ship_secondaries_1_short:0 "15 cm/45 SK L/45"
+ GER_ship_secondaries_2_short:0 "15 cm/55 Drh L. C/34"
+ GER_dp_ship_secondaries:0 "12,7 cm/45 SchnelladeKanone C/41 double-usage"
+ GER_dp_ship_secondaries_short:0 "12,7 cm/45 SK C/41"
+ GER_ship_torpedo_1_short:0 "3x500 mm"
+ GER_ship_torpedo_2_short:0 "4x533 mm"
+ GER_ship_torpedo_3_short:0 "4x533 mm air comp."
+ GER_ship_torpedo_4_short:0 "5x533 mm air comp."
+ GER_ship_torpedo_sub_1_short:0 "4x533 mm"
+ GER_ship_torpedo_sub_2_short:0 "6x533 mm"
+ GER_ship_torpedo_sub_3_short:0 "6x533 mm à piston"
+ GER_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ GER_ship_anti_air_1_short:0 "2 cm/65 C/30"
+ GER_ship_anti_air_2_short:0 "2 cm/65 C/38 Flak 35"
+ GER_ship_anti_air_3_short:0 "3,7 cm/57 Flak M43"
+ GER_ship_sonar_1_short:0 "Atlas-Werke GHG"
+ GER_ship_sonar_2_short:0 "S-Gerät"
+ GER_ship_radar_1_short:0 "FuMO 22"
+ GER_ship_radar_2_short:0 "FuMO 26"
+ GER_ship_radar_3_short:0 "FuMO 27"
+ GER_ship_radar_4_short:0 "FuMO 34"
+ GER_light_ship_engine_1_short:0 "Vulcan 23 000 ch"
+ GER_light_ship_engine_2_short:0 "DeSchiMAG 70 000 ch"
+ GER_light_ship_engine_3_short:0 "DeSchiMAG 70 000 ch"
+ GER_light_ship_engine_4_short:0 "MAN Diesel 76 000 ch"
+ GER_sub_ship_engine_1_short:0 "MWM diesel 700 ch"
+ GER_sub_ship_engine_2_short:0 "MAN diesel 2100 ch"
+ GER_sub_ship_engine_3_short:0 "MAN diesel 4400 ch"
+ GER_sub_ship_engine_4_short:0 "SSW électrique 4626 ch"
+ GER_cruiser_ship_engine_1_short:0 "MAN diesel 56 800 ch"
+ GER_cruiser_ship_engine_2_short:0 "Schichau 65 000 ch"
+ GER_cruiser_ship_engine_3_short:0 "Germania 72 400 ch"
+ GER_cruiser_ship_engine_4_short:0 "Blohm+Voß 132 000 ch"
+ GER_heavy_ship_engine_1_short:0 "VTE 20 540 ch"
+ GER_heavy_ship_engine_2_short:0 "Blohm+Voß 138 000 ch"
+ GER_heavy_ship_engine_3_short:0 "DeSchiMAG 160 100 ch"
+ GER_heavy_ship_engine_4_short:0 "MAN Diesel 165 000 ch"
+ GER_carrier_ship_engine_1_short:0 "DeSchiMAG 50 000 ch"
+ GER_carrier_ship_engine_2_short:0 "B.-Boveri 165 000 ch"
+ GER_carrier_ship_engine_3_short:0 "Blohm+Voß 180 000 ch"
+ GER_carrier_ship_engine_4_short:0 "MAN Diesel 185 000 ch"
+ SOV_ship_light_battery_1_short:0 "102 mm/60 M1911"
+ SOV_ship_light_battery_2_short:0 "130 mm/50 B13 1936, B-13-2 mt"
+ SOV_ship_light_battery_3_short:0 "130 mm/50 B13 RPC, B-2LM mt"
+ SOV_ship_light_battery_4_short:0 "130 mm/58 SM-2-1"
+ SOV_dp_light_battery:0 "130 mm/50 B13 B-2-U"
+ SOV_dp_light_battery_short:0 "130 mm/50 B13 B-2-U"
+ SOV_ship_heavy_battery_1_short:0 "305 mm/52 1907"
+ SOV_ship_heavy_battery_2_short:0 "305 mm/55 B-36 1937"
+ SOV_ship_heavy_battery_3_short:0 "406 mm/50 B-37 1937"
+ SOV_ship_heavy_battery_4_short:0 "406 mm/55 1942"
+ SOV_ship_light_medium_battery_1_short:0 "130 mm/55 M1913"
+ SOV_ship_light_medium_battery_2_short:0 "152 mm/57 Mk 5"
+ SOV_ship_light_medium_battery_3_short:0 "152 mm/57 Mk 5-bis"
+ SOV_ship_light_medium_battery_4_short:0 "152 mm/57 5-bis auto."
+ SOV_ship_medium_battery_1_short:0 "180 mm/60 B-1-K"
+ SOV_ship_medium_battery_2_short:0 "180 mm/57 B-1-P"
+ SOV_ship_medium_battery_3_short:0 "180 mm/57 B-2-P RPC"
+ SOV_ship_medium_battery_4_short:0 "220 mm/65 SM-40"
+ SOV_ship_secondaries_1_short:0 "120 mm/50 M1905"
+ SOV_ship_secondaries_2_short:0 "152 mm/57 B-38/Mk 4 mt"
+ SOV_dp_ship_secondaries:0 "130 mm/50 B13 B-2-U"
+ SOV_dp_ship_secondaries_short:0 "130 mm/50 B13 B-2-U"
+ SOV_ship_torpedo_1_short:0 "3x450 mm"
+ SOV_ship_torpedo_2_short:0 "3x533 mm"
+ SOV_ship_torpedo_3_short:0 "4x533 mm"
+ SOV_ship_torpedo_4_short:0 "5x533 mm"
+ SOV_ship_torpedo_sub_1_short:0 "4x533 mm"
+ SOV_ship_torpedo_sub_2_short:0 "6x533 mm"
+ SOV_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ SOV_ship_torpedo_sub_4_short:0 "6x533 mm à vérin"
+ SOV_ship_anti_air_1_short:0 "Mitrailleuse 7,62 mm"
+ SOV_ship_anti_air_2_short:0 "45 mm/46 21-K"
+ SOV_ship_anti_air_3_short:0 "37 mm/67 70-K"
+ SOV_ship_airplane_launcher_1_short:0 "Catapulte K-3"
+ SOV_ship_airplane_launcher_2_short:0 "Catapulte K-12"
+ SOV_ship_radar_1_short:0 "Redout-K"
+ SOV_ship_radar_2_short:0 "Guiouis-1"
+ SOV_ship_radar_3_short:0 "Redan-1"
+ SOV_ship_radar_4_short:0 "Redan-2"
+ SOV_light_ship_engine_1_short:0 "B.-Boveri 35 000 ch"
+ SOV_light_ship_engine_2_short:0 "GTZA-24 48 000 ch"
+ SOV_light_ship_engine_3_short:0 "GTZA-24 54 000 ch"
+ SOV_light_ship_engine_4_short:0 "GTZA-24 66 000 ch"
+ SOV_sub_ship_engine_1_short:0 "38B8 diesel 1370 ch"
+ SOV_sub_ship_engine_2_short:0 "42BM6 diesel 2200 ch"
+ SOV_sub_ship_engine_3_short:0 "1D diesel 4000 ch"
+ SOV_sub_ship_engine_4_short:0 "9DKR diesel 8400 ch"
+ SOV_cruiser_ship_engine_1_short:0 "B.-Parsons 60 000 ch"
+ SOV_cruiser_ship_engine_2_short:0 "TV-7 70 000 ch"
+ SOV_cruiser_ship_engine_3_short:0 "TV-7 80 000 ch"
+ SOV_cruiser_ship_engine_4_short:0 "TV-7 110 000 ch"
+ SOV_heavy_ship_engine_1_short:0 "Parsons 42 000 ch"
+ SOV_heavy_ship_engine_2_short:0 "B.-Boveri 120 000 ch"
+ SOV_heavy_ship_engine_3_short:0 "B.-Boveri 201 000 ch"
+ SOV_heavy_ship_engine_4_short:0 "TV-4 240 000 ch"
+ SOV_carrier_ship_engine_1_short:0 "Parsons 66 000 ch"
+ SOV_carrier_ship_engine_2_short:0 "B.-Boveri 126 500 ch"
+ SOV_carrier_ship_engine_3_short:0 "B.-Boveri 154 000 ch"
+ SOV_carrier_ship_engine_4_short:0 "TV-4 210 000 ch"
+ ARG_ship_light_battery_1_short:0 "120 mm/45 Vickers E"
+ ARG_ship_light_battery_2_short:0 "120 mm/45 QF Mk IX"
+ ARG_ship_heavy_battery_1_short:0 "30,5 cm/50 Bethlehem"
+ ARG_ship_heavy_battery_2_short:0 "35,6 cm"
+ ARG_ship_light_medium_battery_2_short:0 "15,2 cm/50 QF Mark W"
+ ARG_ship_medium_battery_1_short:0 "23,8 cm/35 Krupp"
+ ARG_ship_medium_battery_2_short:0 "19 cm/52 Odero-Terni"
+ ARG_ship_secondaries_1_short:0 "152 mm/50 Bethlehem"
+ ARG_ship_secondaries_2_short:0 "155 mm/50 RF"
+ ARG_ship_torpedo_1_short:0 "3x533 mm"
+ ARG_ship_torpedo_2_short:0 "4x533 mm"
+ ARG_ship_torpedo_3_short:0 "5x533 mm"
+ ARG_ship_torpedo_4_short:0 "5x533 mm air comp."
+ ARG_ship_torpedo_sub_1_short:0 "4x533 mm"
+ ARG_ship_torpedo_sub_2_short:0 "6x533 mm"
+ ARG_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ ARG_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ ARG_ship_anti_air_1_short:0 "12,7mm Vickers Mk III"
+ ARG_light_ship_engine_1_short:0 "Parsons 42 000 ch"
+ ARG_sub_ship_engine_1_short:0 "Tosi 1500 ch"
+ ARG_cruiser_ship_engine_1_short:0 "Parsons 54 000 ch"
+ ARG_cruiser_ship_engine_2_short:0 "Parsons 85 000 ch"
+ ARG_cruiser_ship_engine_3_short:0 "Moteur 95 000 ch"
+ ARG_cruiser_ship_engine_4_short:0 "Moteur 110 000 ch"
+ ARG_heavy_ship_engine_1_short:0 "Curtiss 39 500 ch"
+ BRA_ship_light_battery_1_short:0 "102 mm/40 QF Mk IV"
+ BRA_ship_light_battery_2_short:0 "127 mm/38 Mk 12"
+ BRA_ship_light_battery_3_short:0 "127 mm/38 Mk 12 RPC"
+ BRA_ship_heavy_battery_1_short:0 "30,5 cm/45 EOC L"
+ BRA_ship_heavy_battery_2_short:0 "35,6 cm"
+ BRA_ship_light_medium_battery_1_short:0 "12 cm/50 EOC CC"
+ BRA_ship_secondaries_1_short:0 "120 mm/50 EOC CC"
+ BRA_ship_secondaries_2_short:0 "152 mm/45 RF"
+ BRA_ship_torpedo_1_short:0 "2x450 mm"
+ BRA_ship_torpedo_2_short:0 "2x533 mm"
+ BRA_ship_torpedo_3_short:0 "4x533 mm"
+ BRA_ship_torpedo_4_short:0 "4x533 mm air compr."
+ BRA_ship_torpedo_sub_1_short:0 "4x533 mm"
+ BRA_ship_torpedo_sub_2_short:0 "6x533 mm"
+ BRA_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ BRA_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ BRA_light_ship_engine_1_short:0 "Parsons 24 500 ch"
+ BRA_light_ship_engine_2_short:0 "GE 42 800 ch"
+ BRA_sub_ship_engine_1_short:0 "Ansaldo 2 000 ch"
+ BRA_sub_ship_engine_2_short:0 "Moteur 2 500 ch"
+ BRA_heavy_ship_engine_1_short:0 "Vickers 30 000 ch"
+ CHI_ship_light_battery_1_short:0 "100 mm/44 Canet 1898"
+ CHI_ship_light_medium_battery_1_short:0 "14,9 cm/37 SK L/40"
+ CHI_ship_light_medium_battery_2_short:0 "14 cm/50 3e année"
+ CHI_ship_medium_battery_1_short:0 "20,3 cm/45 Armstr. T"
+ CHI_ship_medium_battery_2_short:0 "20,3 cm/50"
+ CHI_ship_medium_battery_3_short:0 "20,3 cm/50 RPC"
+ CHI_ship_medium_battery_4_short:0 "20,3 cm/50 auto."
+ CHI_ship_secondaries_1_short:0 "120 mm/45 Armstr. Y"
+ CHI_ship_torpedo_1_short:0 "2x356 mm"
+ CHL_ship_light_battery_1_short:0 "120 mm/45 Vickers E"
+ CHL_ship_heavy_battery_1_short:0 "35,6 cm/45 Armstr. A"
+ CHL_ship_heavy_battery_2_short:0 "35,6 cm/50"
+ CHL_ship_medium_battery_1_short:0 "20,3 cm/40 Armstr. T"
+ CHL_ship_medium_battery_2_short:0 "20,3 cm/45"
+ CHL_ship_medium_battery_3_short:0 "20,3 cm/50"
+ CHL_ship_medium_battery_4_short:0 "20,3 cm/50 auto."
+ CHL_ship_secondaries_1_short:0 "120 mm/40 Armstr. T"
+ CHL_ship_secondaries_2_short:0 "152 mm/50 BL Mk XVII"
+ CHL_ship_torpedo_1_short:0 "3x533 mm"
+ CHL_ship_torpedo_2_short:0 "4x533 mm"
+ CHL_ship_torpedo_3_short:0 "5x533 mm"
+ CHL_ship_torpedo_4_short:0 "5x533 mm air comp."
+ CHL_ship_torpedo_sub_1_short:0 "4x450 mm"
+ CHL_ship_torpedo_sub_2_short:0 "6x533 mm"
+ CHL_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ CHL_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ CHL_light_ship_engine_1_short:0 "Parsons 28 000 ch"
+ CHL_sub_ship_engine_1_short:0 "NLSE 480 ch"
+ CHL_sub_ship_engine_2_short:0 "Parsons 2750 ch"
+ CHL_sub_ship_engine_3_short:0 "Moteur 3500 ch"
+ CHL_sub_ship_engine_4_short:0 "Moteur 5000 ch"
+ CHL_heavy_ship_engine_1_short:0 "Brown-Curtis 37 000 ch"
+ CHL_ship_armor_bb_1_short:0 "Coque 229 mm, pont 37 mm"
+ DEN_ship_heavy_battery_1_short:0 "24 cm/42 K/43 M1906"
+ DEN_ship_light_medium_battery_1_short:0 "14,9 cm/45 PK L/45"
+ DEN_ship_secondaries_1_short:0 "150 mm/49 L/50 M.06"
+ DEN_ship_secondaries_2_short:0 "152 mm/55 RF"
+ DEN_ship_anti_air_1_short:0 "20 mm/60 Madsen M31"
+ DEN_ship_anti_air_2_short:0 "20 mm/60 Madsen M41"
+ DEN_sub_ship_engine_1_short:0 "B&W 900 ch"
+ DEN_sub_ship_engine_2_short:0 "B&W 1200 ch"
+ EST_ship_torpedo_sub_1_short:0 "4x533 mm"
+ EST_ship_torpedo_sub_2_short:0 "6x533 mm"
+ EST_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ EST_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ EST_sub_ship_engine_1_short:0 "Vickers 1000 ch"
+ FIN_ship_light_battery_1_short:0 "102 mm/60 M1911"
+ FIN_ship_heavy_battery_1_short:0 "Bofors 25,4 cm/45"
+ FIN_ship_secondaries_1_short:0 "105 mm/50 Bofors M32"
+ FIN_ship_torpedo_sub_1_short:0 "4x533 mm"
+ FIN_ship_torpedo_sub_2_short:0 "6x533 mm"
+ FIN_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ FIN_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ FIN_ship_anti_air_1_short:0 "20 mm/60 M1931"
+ FIN_ship_anti_air_2_short:0 "AA 25 mm"
+ FIN_sub_ship_engine_1_short:0 "Atlas 1160 ch"
+ GRE_ship_light_battery_1_short:0 "102 mm/50 Armstr. P"
+ GRE_ship_light_battery_2_short:0 "128 mm/42 SK C/34"
+ GRE_ship_light_medium_battery_1_short:0 "15,2 cm/45 Armstr. NN"
+ GRE_ship_light_medium_battery_2_short:0 "15,2 cm/50"
+ GRE_ship_light_medium_battery_3_short:0 "15,5 cm/50 RPC"
+ GRE_ship_light_medium_battery_4_short:0 "15,5 cm/50 auto."
+ GRE_ship_medium_battery_1_short:0 "23,4 cm/45 Armstr. H"
+ GRE_ship_medium_battery_2_short:0 "20,3 cm/50"
+ GRE_ship_medium_battery_3_short:0 "20,3 cm/50 RPC"
+ GRE_ship_medium_battery_4_short:0 "20,3 cm/50 auto."
+ GRE_ship_secondaries_1_short:0 "76 mm/40 Armstr. N"
+ GRE_ship_torpedo_1_short:0 "2x533 mm"
+ GRE_ship_torpedo_2_short:0 "4x533 mm"
+ GRE_ship_torpedo_3_short:0 "5x533 mm"
+ GRE_ship_torpedo_4_short:0 "5x533 mm air comp."
+ GRE_ship_torpedo_sub_1_short:0 "4x533 mm"
+ GRE_ship_torpedo_sub_2_short:0 "6x553 mm"
+ GRE_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ GRE_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ GRE_light_ship_engine_1_short:0 "Parsons 22 000 ch"
+ GRE_light_ship_engine_2_short:0 "Parsons 34 000 ch"
+ GRE_sub_ship_engine_1_short:0 "Sulzer 1420 ch"
+ HOL_ship_light_battery_1_short:0 "120 mm/50 W.-F. 5"
+ HOL_ship_light_battery_2_short:0 "120 mm/50 W.-F. 7"
+ HOL_ship_light_battery_3_short:0 "120 mm/45 W.-F. 8"
+ HOL_dp_light_battery:0 "120 mm/50 Wilton-Fijenoord Mk 10 double-usage"
+ HOL_dp_light_battery_short:0 "120 mm/50 dble-usage"
+ HOL_ship_heavy_battery_1_short:0 "28 cm/42 Krupp N°3"
+ HOL_ship_heavy_battery_2_short:0 "28 cm/55 Krupp"
+ HOL_ship_light_medium_battery_1_short:0 "14,9 cm/50 W.-F. 6"
+ HOL_ship_light_medium_battery_2_short:0 "14,9 cm/50 W.-F. 9"
+ HOL_ship_light_medium_battery_3_short:0 "14,9 cm/50 W.-F. 11"
+ HOL_ship_secondaries_1_short:0 "149 mm/37 Krupp N°5"
+ HOL_ship_secondaries_2_short:0 "120 mm/45 RF"
+ HOL_ship_torpedo_1_short:0 "3x533 mm"
+ HOL_ship_torpedo_2_short:0 "4x533 mm"
+ HOL_ship_torpedo_3_short:0 "5x533 mm"
+ HOL_ship_torpedo_4_short:0 "5x533 mm air comp."
+ HOL_ship_torpedo_sub_2_short:0 "4x533 mm"
+ HOL_ship_torpedo_sub_3_short:0 "6x553 mm"
+ HOL_ship_torpedo_sub_4_short:0 "6x533 mm à pistons"
+ HOL_ship_anti_air_2_short:0 "20 mm Hispano-Suiza"
+ HOL_ship_anti_air_3_short:0 "40 mm Hazemeyer"
+ HOL_light_ship_engine_1_short:0 "Parsons 31 000 ch"
+ HOL_light_ship_engine_2_short:0 "Parsons 40 000 ch"
+ HOL_light_ship_engine_3_short:0 "Parsons 45 000 ch"
+ HOL_sub_ship_engine_1_short:0 "Sulzer 900 ch"
+ HOL_sub_ship_engine_2_short:0 "Sulzer 1800 ch"
+ HOL_sub_ship_engine_3_short:0 "MAN 3200 ch"
+ HOL_sub_ship_engine_4_short:0 "Sulzer 5000 ch"
+ HOL_cruiser_ship_engine_1_short:0 "Parsons 56 000 ch"
+ HOL_cruiser_ship_engine_2_short:0 "Parsons 66 000 ch"
+ HOL_cruiser_ship_engine_3_short:0 "Parsons 78 000 ch"
+ HOL_heavy_ship_engine_3_short:0 "Parsons 180 000 ch"
+ LAT_ship_torpedo_sub_1_short:0 "6x450 mm"
+ LAT_ship_torpedo_sub_2_short:0 "4x533 mm"
+ LAT_ship_torpedo_sub_3_short:0 "6x533 mm"
+ LAT_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ LAT_sub_ship_engine_1_short:0 "Sulzer 1300 ch"
+ NOR_ship_light_battery_1_short:0 "76 mm/40 Armstr. EOC"
+ NOR_ship_light_battery_2_short:0 "120 mm/44 Bofors"
+ NOR_ship_medium_battery_1_short:0 "20,9 cm/44 EOC 1899"
+ NOR_ship_medium_battery_2_short:0 "20,3 cm/50"
+ NOR_ship_medium_battery_3_short:0 "20,3 cm/50 RPC"
+ NOR_ship_medium_battery_4_short:0 "20,3 cm/50 auto."
+ NOR_ship_secondaries_1_short:0 "149,1 mm/45 EOC FF"
+ NOR_ship_secondaries_2_short:0 "152 mm/50 RF"
+ NOR_ship_torpedo_1_short:0 "2x533 mm"
+ NOR_ship_torpedo_2_short:0 "3x533 mm"
+ NOR_ship_torpedo_3_short:0 "4x533 mm"
+ NOR_ship_torpedo_4_short:0 "5x533 mm"
+ NOR_ship_torpedo_sub_1_short:0 "2x450 mm"
+ NOR_ship_torpedo_sub_2_short:0 "4x450 mm"
+ NOR_light_ship_engine_1_short:0 "De Laval 30 000 ch"
+ NOR_sub_ship_engine_1_short:0 "Sulzer 900 ch"
+ POL_ship_light_battery_1_short:0 "130mm/40 M1924"
+ POL_ship_light_battery_2_short:0 "12 cm/50 Bofors 34/36"
+ POL_ship_torpedo_1_short:0 "3x533 mm"
+ POL_ship_torpedo_2_short:0 "4x450 mm"
+ POL_ship_torpedo_3_short:0 "5x533 mm"
+ POL_ship_torpedo_4_short:0 "5x533 mm air comp."
+ POL_ship_torpedo_sub_1_short:0 "4x550 mm"
+ POL_ship_torpedo_sub_2_short:0 "6x550 mm"
+ POL_ship_torpedo_sub_3_short:0 "6x550 mm à pistons"
+ POL_ship_torpedo_sub_4_short:0 "6x550 mm à vérins"
+ POL_ship_anti_air_1_short:0 "13,2mm/76 Hotchkiss"
+ POL_ship_anti_air_2_short:0 "40 mm/40 Vickers"
+ POL_ship_anti_air_3_short:0 "40 mm/56 Bofors M36"
+ POL_light_ship_engine_1_short:0 "Parsons 33 000 ch"
+ POL_light_ship_engine_2_short:0 "Parsons 54 000 ch"
+ POL_light_ship_engine_3_short:0 "Moteur 65 000 ch"
+ POL_light_ship_engine_4_short:0 "Moteur 75 000 ch"
+ POL_sub_ship_engine_1_short:0 "Normand-Vick. 1800 ch"
+ POL_sub_ship_engine_2_short:0 "Sulzer 4740 ch"
+ POL_sub_ship_engine_3_short:0 "Sulzer 5400 ch"
+ POL_sub_ship_engine_4_short:0 "Moteur 6500 ch"
+ POR_ship_light_battery_1_short:0 "100 mm/41 Armstr. N"
+ POR_ship_light_battery_2_short:0 "120 mm/50 Vickers G"
+ POR_ship_torpedo_1_short:0 "2x450 mm"
+ POR_ship_torpedo_2_short:0 "4x533 mm"
+ POR_ship_torpedo_3_short:0 "5x533 mm"
+ POR_ship_torpedo_4_short:0 "5x533 mm air comp."
+ POR_ship_torpedo_sub_1_short:0 "4x450 mm"
+ POR_ship_torpedo_sub_2_short:0 "6x450 mm"
+ POR_ship_torpedo_sub_3_short:0 "4x533 mm"
+ POR_ship_torpedo_sub_4_short:0 "6x533 mm"
+ POR_ship_anti_air_1_short:0 "12,7 mm/62 Vickers"
+ POR_ship_anti_air_2_short:0 "40mm/40 2 livres"
+ POR_ship_anti_air_3_short:0 "AA 40 mm/60"
+ POR_light_ship_engine_1_short:0 "Parsons 33 000 ch"
+ POR_sub_ship_engine_1_short:0 "Vickers 2300 ch"
+ POR_sub_ship_engine_2_short:0 "Moteur 2800 ch"
+ POR_sub_ship_engine_3_short:0 "Moteur 3500 ch"
+ PRU_ship_light_battery_1_short:0 "102 mm/60 M1911"
+ PRU_ship_light_medium_battery_1_short:0 "15,2 cm/50 Vickers J"
+ PRU_ship_light_medium_battery_2_short:0 "15,5 cm/50"
+ PRU_ship_light_medium_battery_3_short:0 "15,5 cm/50 RPC"
+ PRU_ship_light_medium_battery_4_short:0 "15,5 cm/50 auto."
+ PRU_ship_secondaries_1_short:0 "76 mm/40 Vickers M"
+ PRU_ship_torpedo_sub_1_short:0 "4x533 mm"
+ PRU_ship_torpedo_sub_2_short:0 "6x533 mm"
+ PRU_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ PRU_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ PRU_ship_anti_air_1_short:0 "Mitrailleuse 0.50"
+ PRU_ship_anti_air_2_short:0 "40 mm/40 Vickers 2pdr"
+ PRU_light_ship_engine_1_short:0 "B.-Boveri 32 700 ch"
+ PRU_sub_ship_engine_1_short:0 "NELSECO 800 ch"
+ ROM_ship_light_battery_1_short:0 "120 mm/45 M1918-19"
+ ROM_ship_light_battery_2_short:0 "120 mm/50 Bofors"
+ ROM_ship_torpedo_1_short:0 "2x450 mm"
+ ROM_ship_torpedo_2_short:0 "2x533 mm"
+ ROM_ship_torpedo_3_short:0 "3x533 mm"
+ ROM_ship_torpedo_4_short:0 "4x533 mm"
+ ROM_ship_torpedo_sub_1_short:0 "4x533 mm"
+ ROM_ship_torpedo_sub_2_short:0 "6x533 mm"
+ ROM_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ ROM_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ ROM_light_ship_engine_1_short:0 "Tosi 45 000 ch"
+ ROM_light_ship_engine_2_short:0 "Parsons 52 000 ch"
+ ROM_light_ship_engine_3_short:0 "Moteur 57 000 ch"
+ ROM_light_ship_engine_4_short:0 "Moteur 60 000 ch"
+ ROM_sub_ship_engine_1_short:0 "Sulzer 800 ch"
+ SIA_ship_light_battery_1_short:0 "102 mm/40 QF Mk IV"
+ SIA_ship_medium_battery_2_short:0 "20 cm/50 3e année N°2"
+ SIA_ship_medium_battery_3_short:0 "20,3 cm/50 RPC"
+ SIA_ship_medium_battery_4_short:0 "20,3 cm automatique"
+ SIA_ship_secondaries_1_short:0 "76 mm/40 11e année"
+ SIA_ship_torpedo_1_short:0 "2x533 mm"
+ SIA_ship_torpedo_2_short:0 "4x450 mm"
+ SIA_ship_torpedo_3_short:0 "5x533 mm"
+ SIA_ship_torpedo_4_short:0 "5x533 mm air comp."
+ SIA_ship_torpedo_sub_1_short:0 "4x533 mm"
+ SIA_ship_torpedo_sub_2_short:0 "6x533 mm"
+ SIA_ship_torpedo_sub_3_short:0 "6x533 mm à pistons"
+ SIA_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ SIA_light_ship_engine_1_short:0 "Brown-Curtis 27 000 ch"
+ SPR_ship_light_battery_1_short:0 "102 mm/45 Vickers L"
+ SPR_ship_light_battery_2_short:0 "120 mm/45 Vickers F"
+ SPR_ship_heavy_battery_1_short:0 "30,5 cm/50 Vickers H"
+ SPR_ship_heavy_battery_2_short:0 "35,6 cm"
+ SPR_ship_light_medium_battery_1_short:0 "15,2 cm/50 Vickers V"
+ SPR_ship_light_medium_battery_2_short:0 "15,2 cm/50 Vickers U"
+ SPR_ship_medium_battery_1_short:0 "20,3 cm/50 Vickers D"
+ SPR_ship_medium_battery_2_short:0 "20,3 cm/50 Curraca F"
+ SPR_ship_medium_battery_3_short:0 "20,3 cm/50 RPC"
+ SPR_ship_medium_battery_4_short:0 "20,3 cm/50 auto."
+ SPR_ship_secondaries_1_short:0 "102 mm/50 Vickers E"
+ SPR_ship_torpedo_1_short:0 "2x450 mm"
+ SPR_ship_torpedo_2_short:0 "3x533 mm"
+ SPR_ship_torpedo_3_short:0 "4x533 mm"
+ SPR_ship_torpedo_4_short:0 "5x533 mm"
+ SPR_ship_torpedo_sub_2_short:0 "4x533 mm"
+ SPR_ship_torpedo_sub_3_short:0 "6x533 mm"
+ SPR_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ SPR_ship_anti_air_1_short:0 "2 cm/65 C/30"
+ SPR_ship_anti_air_2_short:0 "2 cm/65 C/38"
+ SPR_light_ship_engine_1_short:0 "Parsons 33 000 ch"
+ SPR_light_ship_engine_2_short:0 "Parsons 42 000 ch"
+ SPR_light_ship_engine_3_short:0 "Moteur 50 000 ch"
+ SPR_light_ship_engine_4_short:0 "Moteur 60 000 ch"
+ SPR_sub_ship_engine_1_short:0 "NELSECO 1400 ch"
+ SPR_sub_ship_engine_2_short:0 "Vickers 2000 ch"
+ SPR_sub_ship_engine_3_short:0 "Sulzer 5000 ch"
+ SPR_sub_ship_engine_4_short:0 "Moteur 6000 ch"
+ SPR_cruiser_ship_engine_1_short:0 "Parsons 45 000 ch"
+ SPR_cruiser_ship_engine_2_short:0 "Parsons 80 000 ch"
+ SPR_cruiser_ship_engine_3_short:0 "Parsons 90 000 ch"
+ SPR_cruiser_ship_engine_4_short:0 "Moteur 110 000 ch"
+ SPR_heavy_ship_engine_1_short:0 "Parsons 15 500 ch"
+ SWE_ship_light_battery_1_short:0 "12 cm/45 Bofors M24"
+ SWE_ship_light_battery_2_short:0 "12 cm/45 Bofors M24C"
+ SWE_ship_light_battery_3_short:0 "12 cm/50 Bofors M36"
+ SWE_ship_light_battery_4_short:0 "12 cm/50 Bofors M42"
+ SWE_dp_light_battery:0 "12 cm/50 Bofors modèle 1942 double-usage"
+ SWE_dp_light_battery_short:0 "12 cm/50 Bofors DP"
+ SWE_ship_heavy_battery_1_short:0 "28,3 cm/45 Bofors M12"
+ SWE_ship_heavy_battery_2_short:0 "30,5 cm/45 Bofors M29"
+ SWE_ship_heavy_battery_3_short:0 "38 cm/48 Bofors M38"
+ SWE_ship_heavy_battery_4_short:0 "40,6 cm/48 Bofors M41"
+ SWE_ship_light_medium_battery_1_short:0 "15,2 cm/50 Bofors M03"
+ SWE_ship_light_medium_battery_2_short:0 "15,2 cm/55 Bofors M30"
+ SWE_ship_light_medium_battery_3_short:0 "15,2 cm/53 Bofors M42"
+ SWE_ship_light_medium_battery_4_short:0 "15,5 cm/53 M42 auto."
+ SWE_ship_medium_battery_1_short:0 "20,8 cm/44 Bofors M98"
+ SWE_ship_medium_battery_2_short:0 "20,3 cm/45 Bofors M32"
+ SWE_ship_medium_battery_3_short:0 "20,3 cm/50 Bofors M38"
+ SWE_ship_medium_battery_4_short:0 "20,3 cm/50 auto."
+ SWE_ship_secondaries_1_short:0 "15,2 cm/44 Bofors M98"
+ SWE_ship_secondaries_2_short:0 "15,2 cm/53 Bofors M42"
+ SWE_dp_ship_secondaries:0 "120 mm/50 Bofors modèle 1942 double-usage"
+ SWE_dp_ship_secondaries_short:0 "120 mm/50 Bofors DP"
+ SWE_ship_torpedo_1_short:0 "3x533 mm"
+ SWE_ship_torpedo_2_short:0 "4x533 mm"
+ SWE_ship_torpedo_3_short:0 "5x533 mm"
+ SWE_ship_torpedo_4_short:0 "5x533 mm air comp."
+ SWE_ship_torpedo_sub_2_short:0 "4x533 mm"
+ SWE_ship_torpedo_sub_3_short:0 "6x533 mm"
+ SWE_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ SWE_ship_anti_air_1_short:0 "40 mm/39 Vickers M32"
+ SWE_ship_anti_air_2_short:0 "25 mm/64 Bofors M32"
+ SWE_ship_anti_air_3_short:0 "40 mm/60 Bofors M36"
+ SWE_ship_anti_air_4_short:0 "40 mm/70 Bofors M48"
+ SWE_light_ship_engine_1_short:0 "De Laval 26 000 ch"
+ SWE_light_ship_engine_2_short:0 "De Laval 32 000 ch"
+ SWE_light_ship_engine_3_short:0 "De Laval 44 000 ch"
+ SWE_light_ship_engine_4_short:0 "De Laval 58 000 ch"
+ SWE_sub_ship_engine_1_short:0 "Atlas 1340 ch"
+ SWE_sub_ship_engine_2_short:0 "Götaverken 1920 ch"
+ SWE_sub_ship_engine_3_short:0 "Götaverken 3000 ch"
+ SWE_sub_ship_engine_4_short:0 "Götaverken 4000 ch"
+ SWE_cruiser_ship_engine_1_short:0 "De Laval 33 000 ch"
+ SWE_cruiser_ship_engine_2_short:0 "De Laval 70 000 ch"
+ SWE_cruiser_ship_engine_3_short:0 "De Laval 80 000 ch"
+ SWE_cruiser_ship_engine_4_short:0 "De Laval 90 000 ch"
+ SWE_heavy_ship_engine_1_short:0 "Motala 23 910 ch"
+ TUR_ship_light_battery_1_short:0 "105 mm/37 SK L/40"
+ TUR_ship_light_battery_2_short:0 "120 mm/50 Ansaldo"
+ TUR_ship_heavy_battery_1_short:0 "28 cm/50 SK L/50"
+ TUR_ship_light_medium_battery_1_short:0 "15,2 cm/45 Armstrong"
+ TUR_ship_light_medium_battery_2_short:0 "15,2 cm/50"
+ TUR_ship_light_medium_battery_3_short:0 "15,5 cm/50 RPC"
+ TUR_ship_light_medium_battery_4_short:0 "15,5 cm/50 auto."
+ TUR_ship_secondaries_1_short:0 "149 mm/45 SK L/45"
+ TUR_ship_secondaries_2_short:0 "152 mm/50 à tir rapide"
+ TUR_ship_torpedo_1_short:0 "3x533 mm"
+ TUR_ship_torpedo_2_short:0 "4x533 mm"
+ TUR_ship_torpedo_3_short:0 "5x533 mm"
+ TUR_ship_torpedo_4_short:0 "5x533 mm air comp."
+ TUR_ship_torpedo_sub_2_short:0 "4x533mm"
+ TUR_ship_torpedo_sub_3_short:0 "6x533 mm"
+ TUR_ship_torpedo_sub_4_short:0 "6x533 mm à vérins"
+ TUR_light_ship_engine_1_short:0 "Parsons 35 000 ch"
+ TUR_light_ship_engine_2_short:0 "Parsons 40 000 ch"
+ TUR_sub_ship_engine_1_short:0 "MAN Diesel 1100 ch"
+ TUR_sub_ship_engine_2_short:0 "MAN Diesel 2300 ch"
+ TUR_sub_ship_engine_3_short:0 "MAN Diesel 2880 ch"
+ TUR_sub_ship_engine_4_short:0 "B&W diesel 3500 ch"
+ TUR_heavy_ship_engine_1_short:0 "Parsons 52 000 ch"
+ URG_ship_light_battery_1_short:0 "Krupp QF 120 mm/45"
+ URG_ship_light_battery_2_short:0 "Canon 120 mm/50"
+ YUG_ship_light_battery_1_short:0 "120 mm/46 Škoda"
+ YUG_ship_light_battery_2_short:0 "120 mm/56 Škoda"
+ YUG_ship_secondaries_1_short:0 "83mm/52 Škoda"
+ YUG_ship_torpedo_1_short:0 "3x533 mm"
+ YUG_ship_torpedo_2_short:0 "3x550 mm"
+ YUG_ship_torpedo_3_short:0 "4x 550 mm"
+ YUG_ship_torpedo_4_short:0 "5x550 mm"
+ YUG_ship_torpedo_sub_1_short:0 "4x533 mm"
+ YUG_ship_torpedo_sub_2_short:0 "4x450 mm"
+ YUG_ship_torpedo_sub_3_short:0 "6x550 mm"
+ YUG_ship_torpedo_sub_4_short:0 "6x550 mm à vérins"
+ YUG_ship_anti_air_1_short:0 "15 mm/84 Zbrojovka"
+ YUG_light_ship_engine_1_short:0 "Parsons 42 000 ch"
+ YUG_light_ship_engine_2_short:0 "Moteur 45 000 ch"
+ YUG_light_ship_engine_3_short:0 "Moteur 50 000 ch"
+ YUG_light_ship_engine_4_short:0 "Moteur 60 000 ch"
+ YUG_sub_ship_engine_1_short:0 "MAN Diesel 1480 ch"
+ ENG_dp_light_battery_1_short:0 "4" QF Mk V"
+ ENG_dp_light_battery_2_short:0 "4,7" QF Mk IX"
+ ENG_dp_light_battery_3_short:0 "4,5" QF Mk XI"
+ ENG_dp_light_battery_4_short:0 "4,5" QF Mk IV"
+ ENG_dp_ship_medium_1_short:0 "6" QF Mk V, Mk XXV mt"
+ ENG_dp_ship_secondaries_3_short:0 "QF Mk I 5,25""
+ FRA_dp_light_battery_3_short:0 "130 mm/45 1935 double-usage"
+ FRA_dp_ship_medium_1_short:0 "152 mm/55 dble-us. auto."
+ FRA_dp_ship_secondaries_1_short:0 "90 mm/50 1926"
+ FRA_dp_ship_secondaries_2_short:0 "130 mm/45 1932"
+ FRA_dp_ship_secondaries_3_short:0 "130 mm/45 1935"
+ FRA_dp_ship_secondaries_4_short:0 "127 mm/54 1948"
+ ITA_dp_light_battery_1_short:0 "100 mm/45 1924"
+ ITA_dp_light_battery_2_short:0 "102 mm/45 1936"
+ ITA_dp_light_battery_4_short:0 "135 mm/45 dble-usage"
+ ITA_dp_ship_medium_1_short:0 "152 mm/55 double-usage"
+ ITA_dp_ship_secondaries_2_short:0 "90 mm/50 OTO modèle 1939"
+ ITA_dp_ship_secondaries_3_short:0 "135 mm/45 1940"
+ ITA_dp_ship_secondaries_4_short:0 "135 mm/45 contrôle distant"
+ USA_dp_light_battery_1_short:0 "5"/38 Mk 12, Mk 21 mt"
+ USA_dp_light_battery_2_short:0 "5"/38 Mk 12, Mk 25 mt"
+ USA_dp_light_battery_3_short:0 "5"/38 Mk 12, Mk 30"
+ USA_dp_light_battery_4_short:0 "5"/38 Mk 12, Mk 38 mt"
+ USA_dp_ship_medium_1_short:0 "6"/47 Mk 16 DP"
+ USA_dp_ship_secondaries_1_short:0 "5"/25 Mk 10"
+ USA_dp_ship_secondaries_2_short:0 "5"/38 Mk 12, Mk 24 mt"
+ USA_dp_ship_secondaries_3_short:0 "5"/38 Mk 12, Mk 28 Mod 2 mt"
+ USA_dp_ship_secondaries_4_short:0 "5"/54 Mk 16, Mk 41 mt"
+ JAP_dp_light_battery_1_short:0 "12,7 cm/50 T3 mt B"
+ JAP_dp_light_battery_2_short:0 "12,7 cm/50 T3 mt D"
+ JAP_dp_light_battery_3_short:0 "10 cm/65 type 98"
+ JAP_dp_ship_secondaries_2_short:0 "12,7 cm/40 type 89"
+ GER_dp_light_battery_1_short:0 "10,5 cm/55 SK C/28"
+ GER_dp_light_battery_2_short:0 "12,7 cm/45 SK C/41"
+ GER_dp_light_battery_3_short:0 "12,7 cm/45 SK C/41 DP"
+ GER_dp_light_battery_4_short:0 "12,7 cm/45 SK C/41 DP"
+ GER_dp_ship_medium_1_short:0 "15 cm/48 Tbts KC/36T DP"
+ GER_dp_ship_secondaries_2_short:0 "10,5 cm/65 SK C/33"
+ GER_dp_ship_secondaries_4_short:0 "12,7 cm/45 SK C/41"
+ SOV_dp_light_battery_2_short:0 "100 mm/56 B-34 1940"
+ SOV_dp_light_battery_3_short:0 "130 mm/50 B13 B-2-U"
+ SOV_dp_ship_medium_1_short:0 "152 mm/57 B-38 Mk 5-bis DP"
+ SOV_dp_ship_secondaries_2_short:0 "100 mm/56 B-34 1940"
+ SOV_dp_ship_secondaries_3_short:0 "130 mm/50 B13 B-2-U"
+ HOL_ship_light_battery_4_short:0 "120 mm/50 W-F Mk 10 SP"
+ HOL_dp_light_battery_1_short:0 "120 mm/45 W-F Mk 7 DP"
+ HOL_dp_light_battery_2_short:0 "120 mm/45 W-F Mk 8 DP"
+ HOL_dp_light_battery_4_short:0 "120 mm/50 dble-usage"
+ HOL_dp_ship_medium_1_short:0 "152 mm/53 1942 DP"
+ SWE_dp_light_battery_1_short:0 "12 cm/45 M24 DP"
+ SWE_dp_light_battery_2_short:0 "12 cm/45 M24C DP"
+ SWE_dp_light_battery_3_short:0 "12 cm/50 M36 DP"
+ SWE_dp_light_battery_4_short:0 "12 cm/50 Bofors DP"
+ SWE_dp_ship_medium_1_short:0 "15 cm/53 M42 DP"
+ SWE_dp_ship_secondaries_1_short:0 "12 cm/45 M24 DP"
+ SWE_dp_ship_secondaries_2_short:0 "12 cm/45 M24C DP"
+ SWE_dp_ship_secondaries_3_short:0 "12 cm/50 M36 DP"
+ SWE_dp_ship_secondaries_4_short:0 "12 cm/50 M42 DP"

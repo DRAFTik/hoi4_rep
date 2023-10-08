@@ -19,7 +19,7 @@
  ETH_placeholder_political_category:0 "PLACEHOLDER - TO BE REMOVED"
  ETH_placeholder_political_category_desc:0 "PLACEHOLDER - TO BE REMOVED\n- Decentralizacja / Centralizacja: [GetPlaceholderBopText]"
  war_escalation_text:0 "£generic_war_escalation_text_icon Poziom eskalacji wojny: §Y[?ETH.ETH_war_escalation_level]§!"
- war_escalation_level_tt:1 "§YObecna eskalacja wojny§Y\nPoziom eskalacji rośnie z czasem, a także w wyniku różnych działań podejmowanych przez Włochy.\n\nDługość wojny: §Y+[?ETH.ETH_escalation_time_increase_total]§!\nWłochy rozpoczęły dużą ofensywę (+1) [GetItalianRenewedOffensiveText]\n\nWłochy wprowadziły co najmniej 25 regularnych dywizji (+1) [GetItalian20DivisionsText]\n\nWłochy wprowadziły co najmniej 300 samolotów (+1) [GetItalianAircraftsText] [GetDefendTheNorthMissionText][GetDefendTheSouthMissionText][GetDefendHararMissionText][GetDefendTheCapitalMissionText]"
+ war_escalation_level_tt:1 "§YObecna eskalacja wojny§!\nPoziom eskalacji rośnie z czasem, a także w wyniku różnych działań podejmowanych przez Włochy.\n\nDługość wojny: §Y+[?ETH.ETH_escalation_time_increase_total]§!\nWłochy rozpoczęły dużą ofensywę (+1) [GetItalianRenewedOffensiveText]\n\nWłochy wprowadziły co najmniej 25 regularnych dywizji (+1) [GetItalian20DivisionsText]\n\nWłochy wprowadziły co najmniej 300 samolotów (+1) [GetItalianAircraftsText] [GetDefendTheNorthMissionText][GetDefendTheSouthMissionText][GetDefendHararMissionText][GetDefendTheCapitalMissionText]"
  war_escalation_icon_tt:1 "§YEskalacja wojny§!\nEfekty wywoływane przez zwiększenie eskalacji wojny, według poziomów:\n Poziom 3:\n §YLiga Narodów§!: odblokowanie wniosku o embargo.\n §YEtiopia§!: wzrost reputacji na arenie międzynarodowej \n Poziom 4:\n §YLiga Narodów§!: odblokowanie zakupów broni.\n §YWłochy§!: Zaniepokojenie włoskiej opinii publicznej\nPoziom 5:\n §YLiga Narodów§!: odblokowanie zamknięcia Suezu.\n §YWłochy§!: spadek morale armii w Afryce\nPoziom 6: \n §YLiga Narodów§!: odblokowanie Brygad Międzynarodowych.\n §YEtiopia§!: zwiększenie morale armii\n §YWłochy§!: niepokoje w koloniach\nPoziom 7: \n §YLiga Narodów§!: odblokowanie mediacji międzynarodowych.\n§YWłochy§!: włoska opinia publiczna przestaje popierać wojnę \nPoziom 8:\n §YEtiopia§!: dezercje w szeregach wroga\n §YWłochy§!: masowe dezercje \nPoziom 9:\n §YEtiopia§!: przetrwanie wbrew wszystkiemu \nPoziom 10:\n §YEtiopia§!: wojna ludu\n §YWłochy§!: oburzenie w koloniach"
  war_escalation_1_tt:0 "Poziom 1\n Bez efektu"
  war_escalation_2_tt:0 "Poziom 2\n Bez efektu"
@@ -276,7 +276,7 @@
  controls_ethiopian_cores_tt:0 "Kontroluje wszystkie [ROOT.GetAdjective] regiony narodowe."
  ETH_move_capital_to_axum:0 "Przenieś stolicę do Aksum"
  ETH_move_capital_to_axum_desc:0 "Starożytne miasto Aksum powinno być nową stolicą imperium."
- ETH_prevents_further_capital_moves_tt:0 "Stolicę można przenieść tylko raz"
+ ETH_prevents_further_capital_moves_tt:1 "Przeniesienie stolicy do Jerozolimy sprawi, że kolejne przenosiny staną się niemożliwe."
  ETH_has_moved_capital_flag:0 " Stolica była już przenoszona"
  form_empire_of_solomon:0 "Stwórz Imperium Salomona"
  ETH_move_capital_to_jerusalem:0 "Wyznacz Jerozolimę na stolicę imperium"
@@ -920,13 +920,17 @@
 
  send_more_weapons_to_the_AOI:0 "Wysłanie większej ilości uzbrojenia do AOI"
 
- form_country_albania_required_states_tt:0 "Kontroluje wszystkie §Yalbańskie§! regiony"
+ form_country_albania_required_states_tt:1 "Kontroluje wszystkie §Yalbańskie§! regiony narodowe w rejonie Morza Śródziemnego."
 
- form_country_mare_nostrum_required_states_tt:0 "Kontroluje §YLublanę§!, §YDalmację§!, §YBośnię§!, §YHercegowinę§! i §YCzarnogórę§!"
- form_country_mare_nostrum_turkey_required_states_tt:0 "Kontroluje wszystkie §Ytureckie§! regiony graniczące z §YMorzem Śródziemnym§!"
- form_spqr_coastal_spain_required_states_tt:0 "Kontroluje wszystkie §Yhiszpańskie§! regiony graniczące z §YMorzem Śródziemnym§!"
- form_spqr_coastal_france_required_states_tt:0 "Kontroluje wszystkie §Yfrancuskie§! regiony graniczące z §YMorzem Śródziemnym§!"
- form_spqr_coastal_uk_required_states_tt:0 "Kontroluje wszystkie §Ybrytyjskie§! regiony graniczące z §YMorzem Śródziemnym§!"
+ form_country_mare_nostrum_required_states_tt:1 "Kontroluje jugosłowiańskie regiony narodowe §Y[163.GetName]§!, §Y[853.GetName]§!, §Y[103.GetName]§!, §Y[104.GetName]§!, §Y[804.GetName]§! i §Y[105.GetName]§!."
+ form_country_mare_nostrum_turkey_required_states_tt:1 "Kontroluje wszystkie §Ytureckie§! regiony narodowe w rejonie Morza Śródziemnego."
+ form_spqr_coastal_spain_required_states_tt:1 "Kontroluje wszystkie §Yhiszpańskie§! regiony narodowe w rejonie Morza Śródziemnego."
+ form_spqr_coastal_france_required_states_tt:1 "Kontroluje wszystkie §Yfrancuskie§! regiony narodowe w rejonie Morza Śródziemnego."
+ form_spqr_coastal_uk_required_states_tt:1 "Kontroluje wszystkie §Ybrytyjskie§! regiony narodowe w rejonie Morza Śródziemnego."
+ form_country_mare_nostrum_north_africa_required_states_tt:0 "Kontroluje wszystkie §Ypółnocnoafrykańskie§! regiony w rejonie Morza Śródziemnego i wszystkie §Ylibijskie§! regiony narodowe."
+ form_country_mare_nostrum_middle_east_required_states_tt:0 "Kontroluje wszystkie §Ybliskowschodnie§! regiony w rejonie Morza Śródziemnego."
+ form_country_mare_nostrum_greece_required_states_tt:0 "Kontroluje wszystkie §Ygreckie§! regiony narodowe w rejonie Morza Śródziemnego."
+ form_mare_nostrum_coastal_uk_required_states_tt:0 "Kontroluje regiony §Y[118.GetName]§!, §Y[116.GetName]§! i §Y[183.GetName]§!."
 
  form_spqr_core_mare_nostrum_states_tt:0 "Zdobądź prowincje narodowe §Ywszystkich regionów§! potrzebnych do podjęcia decyzji"
 

@@ -90,7 +90,7 @@
  ETH_regional_supply_depots_desc:0 "Nuestras tropas no podrán defender su patria si carecen de munición y alimento. Al fin y al cabo, un ejército no puede combatir bien con la tripa vacía. Debemos asegurarnos de que estén siempre bien abastecidos estableciendo depósitos de suministros militares regionales en toda [ETH.GetName]."
  ETH_expand_the_levy:1 "Ampliar el [GetChitetName]"
  ETH_expand_the_levy_desc:0 "Con un mejor apoyo y entrenamiento, el [GetChitetName] se ha convertido en una fuerza militar robusta y flexible. A partir de esta base sólida, ampliaremos el [GetChitetName] para disuadir a cualquier agresor extranjero."
- ETH_expand_the_levy_tt:0 "Aumenta la cantidad de divisiones de Chitet Sefari que se pueden establecer a §Y40§!.\nAñade §Y3 batallones de $irregular_infantry$§! a las divisiones de Chitet Sefari. Añade §Y$engineer$§!, §Y$military_police$§! y §Y$field_hospital$§! si se han investigado las tecnologías pertinentes."
+ ETH_expand_the_levy_tt:1 "Aumenta la cantidad de divisiones de Chitet Sefari que se pueden establecer a §Y48§!.\nAñade §Y3 batallones de $irregular_infantry$§! a las divisiones de Chitet Sefari. Añade §Y$engineer$§!, §Y$military_police$§! y §Y$field_hospital$§! si se han investigado las tecnologías pertinentes."
  ETH_the_junior_officer_corps:0 "El cuerpo de oficiales subalternos"
  ETH_the_junior_officer_corps_desc:0 "Las fuerzas armadas han estado dominadas por aristócratas durante siglos. Si queremos que sean más eficaces en el campo de batalla, necesitamos crear escuelas de oficiales y programas de entrenamiento que promuevan la meritocracia por encima del nepotismo. Un paso en esa dirección sería la creación de un cuerpo de oficiales subalternos."
  ETH_camouflage:0 "Camuflaje"
@@ -1855,7 +1855,7 @@
  SWI_request_french_alps_occupation:0 "Solicitar la ocupación [FRA.GetAdjective]"
  SWI_request_french_alps_occupation_desc:0 "[FRA.GetNonIdeologyName] codicia nuestras tierras desde hace generaciones. Se merecen que ahora estemos en posición de apoderarnos de su territorio y determinar su porvenir y el nuestro."
  SWI_the_alpine_supremacy:0 "Supremacía Alpina"
- SWI_the_alpine_supremacy_desc:0 "[SWI.GetNonIdeologyName], la débil nación sin rumbo fijo que flotaba en el limbo de la diplomacia, ya es cosa del pasado. En adelante, se nos conocerá por el nombre de Supremacía Alpina, que representa nuestro dominio de los Alpes, su gente y mucho más."
+ SWI_the_alpine_supremacy_desc:1 "[SWI.GetNonIdeologyName], la débil nación sin rumbo fijo que flotaba en el limbo de la diplomacia, ya es cosa del pasado. En adelante, se nos conocerá por el nombre de Supremacía Alpina, que representa nuestro dominio de los Alpes, su gente y mucho más."
 
  SWI_professionalize_militias:0 "Profesionalizar milicias"
  SWI_professionalize_militias_desc:0 "Dada la deriva actual del mundo, una milicia casual conformada por reservistas no será suficiente. Debemos formar a todo ciudadano capaz de luchar en conflictos venideros hasta contar con un ejército profesional temible."

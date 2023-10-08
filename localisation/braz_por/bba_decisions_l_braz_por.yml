@@ -40,7 +40,7 @@
  ETH_improve_country_category:0 "O Avanço de [ROOT.GetName]"
  ETH_improve_country_category_desc:0 "A economia de [ETH.GetNameDefCap] é baseada principalmente na agricultura de subsistência. Para que se torne um país industrializado, precisamos de grandes investimentos em eletrificação e infraestrutura de transporte, a fim de que mais trabalhadores possam migrar das fazendas para as fábricas."
  ETH_build_local_resistance_force:0 "Criar uma Força de Resistência em [FROM.GetName]"
- ETH_build_local_resistance_force_desc:1 "TODO"
+ ETH_build_local_resistance_force_desc:1 "Devemos fazer tudo que estiver ao nosso alcance para apoiar movimentos de resistência nos territórios ocupados. Será de grande ajuda enfraquecer o domínio [ITA.GetAdjective] na região e mantê-los ocupados enquanto nos preparamos para a inevitável liberação de [ETH.GetName]."
  ETH_build_local_resistance_force_increase_tt:0 "Recruta §G1§! divisão Arbegnoch que pode se revoltar no estado."
  ETH_build_local_resistance_force_cost:0 "£command_power  §G25§!"
  ETH_build_local_resistance_force_cost_blocked:0 "£command_power  §R25§!"
@@ -276,7 +276,7 @@
  controls_ethiopian_cores_tt:0 "Controla a totalidade [ROOT.GetAdjective] de estados núcleos."
  ETH_move_capital_to_axum:0 "Mover a capital para Axum"
  ETH_move_capital_to_axum_desc:0 "A antiga cidade de Axum deve ser a nova capital do Império."
- ETH_prevents_further_capital_moves_tt:0 "Só é possível mover a capital uma vez"
+ ETH_prevents_further_capital_moves_tt:1 "Mover a capital para Jerusalém impede novas mudanças de capital."
  ETH_has_moved_capital_flag:0 " Já moveu a capital"
  form_empire_of_solomon:0 "Formar o Império de Salomão"
  ETH_move_capital_to_jerusalem:0 "Mover a capital do Império para Jerusalém"
@@ -482,7 +482,7 @@
  ITA_give_the_dodecanese_islands_to_turkey_for_an_alliance:0 "Oferecer o Dodecaneso para [TUR.GetNameDef] em troca de uma aliança"
 
  ITA_human_torpedo_raid:0 "Ataque de Torpedo Humano"
- ITA_human_torpedo_raid_trigger_tt:0 "Possui ao menos um §YNavio Capital§! ou §YNavio Tela§! ancorado em uma $naval_base$"
+ ITA_human_torpedo_raid_trigger_tt:0 "Possui ao menos um §YNavio Capitânia§! ou §YNavio Tela§! ancorado em uma $naval_base$"
  
  develop_tripoli_oil_fields:0 "Desenvolver campos de petróleo de Trípoli"
  develop_tripoli_steel_deposits:0 "Desenvolver depósitos de aço de Trípoli"
@@ -546,10 +546,10 @@
  ITA_train_irregulars_cd_tt:0 "\nEssa decisão ficará disponível de novo em §Y[?ITA_colonial_management_cd] dias§!.\n"
  ITA_reorganize_irregulars:0 "Reorganizar Grupos Irregulares"
  ITA_reorganize_irregulars_desc:1 "Reorganizando nossas tropas irregulares, talvez possamos fortalecê-las e torná-las uma força mais formidável."
- ITA_reorganize_irregulars_tt:1 "Adiciona §Y2 batalhões de $irregular_infantry$§! e §Y1 batalhão de $recon$§! a todos os Modelos de Divisões de Infantaria Irregular. \nAdiciona §Y2 batalhões de $cavalry$§! e §Y1 batalhão de $recon$§!§! a todos os Modelos de Divisões de Cavalaria Irregular. \nAdiciona §Y2 batalhões de $camelry$§! e §Y1 batalhão de $recon$§!§! a todos os Modelos de Divisões de Cavalaria de Camelos Irregulares."
+ ITA_reorganize_irregulars_tt:1 "Adiciona §Y2 batalhões de $irregular_infantry$§! e §Y1 batalhão de $recon$§! a todos os Modelos de Divisões de Infantaria Irregular. \nAdiciona §Y2 batalhões de $cavalry$§! e §Y1 batalhão de $recon$§! a todos os Modelos de Divisões de Cavalaria Irregular. \nAdiciona §Y2 batalhões de $camelry$§! e §Y1 batalhão de $recon$§! a todos os Modelos de Divisões de Cavalaria de Camelos Irregulares."
  ITA_reorganize_ascari:0 "Reorganizar Ascari"
  ITA_reorganize_ascari_desc:1 "Reorganizando as tropas Ascari irregulares, talvez possamos fortalecê-las e torná-las uma força mais formidável."
- ITA_reorganize_ascari_tt:1 "Adiciona §Y1 batalhão de $armored_car_recon$§! e §Y1 batalhão de $artillery_brigade$§! a todos Modelos de Divisões de Infantaria Colonial. \nAdiciona §Y2 batalhões de $cavalry$§! e §Y1 batalhão de $recon$§!§! a todos Modelos de Divisões de Cavalaria Colonial. \nAdiciona §Y2 batalhões de $camelry$§! e §Y1 batalhão de $recon$§!§! a todos Modelos de Divisões de Cavalaria de Camelos."
+ ITA_reorganize_ascari_tt:1 "Adiciona §Y1 batalhão de $armored_car_recon$§! e §Y1 batalhão de $artillery_brigade$§! a todos Modelos de Divisões de Infantaria Colonial. \nAdiciona §Y2 batalhões de $cavalry$§! e §Y1 batalhão de $recon$§! a todos Modelos de Divisões de Cavalaria Colonial. \nAdiciona §Y2 batalhões de $camelry$§! e §Y1 batalhão de $recon$§! a todos Modelos de Divisões de Cavalaria de Camelos."
  ITA_regional_development_in_state:0 "Desenvolvimento Regional em [FROM.GetName]"
  ITA_regional_development_in_state_desc:1 "Desenvolver as colônias sob nosso controle fará com que elas se tornem mais habitáveis e prósperas."
 
@@ -623,13 +623,13 @@
 
  ##### ABSOLUTE NEUTRALITY ##########
 
- SWI_military_readiness_decisions_category:1 "Milícia Civil Suíça BBA_TODO"
- SWI_military_readiness_decisions_category_desc:1 "O povo Suíço está no olho do furacão do fascismo e por isso precisa estar pronto para defender seu estilo de vida democrático. \n\n\nProntidão Militar: [?SWI.SWI_military_readiness]/[?SWI.SWI_max_mil_readiness]  \nBBA_TODO"
- SWI_absolute_neutrality_decisions_category:1 "Neutralidade Absoluta BBA_TODO"
+ SWI_military_readiness_decisions_category:1 "Milícias civis suíças"
+ SWI_military_readiness_decisions_category_desc:1 "O povo suíço está no olho do furacão do fascismo e por isso precisa estar pronto para defender seu estilo de vida democrático. \n\n\nProntidão Militar: [?SWI.SWI_military_readiness]/[?SWI.SWI_max_mil_readiness]£GFX_SWI_military_readiness_text_icon"
+ SWI_absolute_neutrality_decisions_category:1 "Neutralidade Absoluta"
  SWI_absolute_neutrality_decisions_category_desc:2 "[ROOT.GetNameDefCap] está em meio a potenciais invasores e precisa ter cuidado para não romper nossa frágil neutralidade, ou podemos perder nossa Ilha da Democracia para os ventos fortes da guerra. \n\n"
  SWI_get_character_name:0 "imprimir [?SWI.SWI_councilor_1.GetName][?SWI.SWI_councilor_2.GetName][?SWI.SWI_councilor_3.GetName]"
  SWI_absolute_neutrality_breakdown:1 "[Root.GetNameDefCap] tem [?ROOT.opinion@SWI|+0] de §Yopinião§! em relação a [SWI.GetName]\n\nDevemos manter a aparência de Neutralidade. Se a opinião de §Y[?ROOT.GetName]§! sobre [SWI.GetNonIdeologyName] chegar a §R[?SWI.SWI_angry_threshold]§!, eles considerarão uma §RViolação da Neutralidade§! da nossa parte e podem §Rdeclarar guerra contra [SWI.GetNameDef]§!"
- SWI_add_fallout_to_opinion:1 "Terá repercussões BBA_TODO"
+ SWI_add_fallout_to_opinion:1 "Terá repercussões"
  SWI_country_to_appease_1_opinion_loc:1 "[?SWI.SWI_country_to_appease_1_opinion|0H]"
  SWI_country_to_appease_2_opinion_loc:1 "[?SWI.SWI_country_to_appease_2_opinion|0H]"
  SWI_country_to_appease_3_opinion_loc:1 "[?SWI.SWI_country_to_appease_3_opinion|0H]"
@@ -836,7 +836,7 @@
  SWI_decision_add_medium_MR:1 "Aumenta a §YProntidão Militar§! em §G+[?ROOT.SWI_mr_medium_amount]§!"
  SWI_decision_add_high_MR:1 "Aumenta a §YProntidão Militar§! em §G+[?ROOT.SWI_mr_high_amount]§!"
  SWI_decision_add_max_MR:1 "Aumenta a §YProntidão Militar§! em §G+[?ROOT.SWI_mr_max_amount]§!"
- SWI_decision_add_small_MR_max:2 "Aumenta sua §YProntidão Militar §YMáxima§! em §G+[?ROOT.SWI_mr_low_amount]§!"
+ SWI_decision_add_small_MR_max:2 "Aumenta sua §YProntidão Militar §YMáxima§!§! em §G+[?ROOT.SWI_mr_low_amount]§!"
  SWI_decision_add_medium_MR_max:1 "Aumenta sua §YProntidão Militar Máxima§! em §G+[?ROOT.SWI_mr_medium_amount]§!"
  SWI_decision_add_high_MR_max:1 "Aumenta sua §YProntidão Militar Máxima§! em §G+[?ROOT.SWI_mr_high_amount]§!"
  SWI_decision_substract_total_MR:1 "§RToda§! nossa §YProntidão Militar§! será consumida"
@@ -920,13 +920,17 @@
 
  send_more_weapons_to_the_AOI:0 "Enviar mais armas à AOI"
 
- form_country_albania_required_states_tt:0 "Controla todos os estados §Yalbaneses§!"
+ form_country_albania_required_states_tt:1 "Controla todos os núcleos §Yalbaneses§! no Mediterrâneo."
 
- form_country_mare_nostrum_required_states_tt:0 "Controla §YLiubliana§!, §YDalmácia§!, §YBósnia§!, §YHerzegovina§! e §YMontenegro§!"
- form_country_mare_nostrum_turkey_required_states_tt:0 "Controla todos os estados §Yturcos§! na costa do Mar §YMediterrâneo§!"
- form_spqr_coastal_spain_required_states_tt:0 "Controla todos os estados §Yespanhóis§! na costa do Mar §YMediterrâneo§!"
- form_spqr_coastal_france_required_states_tt:0 "Controla todos os estados §Yfranceses§! na costa do Mar §YMediterrâneo§!"
- form_spqr_coastal_uk_required_states_tt:0 "Controla todos os estados §Ybritânicos§! na costa do Mar §YMediterrâneo§!"
+ form_country_mare_nostrum_required_states_tt:1 "Controla os núcleos iugoslavos §Y[163.GetName]§!, §Y[853.GetName]§!, §Y[103.GetName]§!, §Y[104.GetName]§!, §Y[804.GetName]§! e §Y[105.GetName]§!."
+ form_country_mare_nostrum_turkey_required_states_tt:1 "Controla todos os núcleos §Yturcos§! no Mediterrâneo."
+ form_spqr_coastal_spain_required_states_tt:1 "Controla todos os núcleos §Yespanhóis§! no Mediterrâneo."
+ form_spqr_coastal_france_required_states_tt:1 "Controla todos os núcleos §Yfranceses§! no Mediterrâneo."
+ form_spqr_coastal_uk_required_states_tt:1 "Controla todos os núcleos §Ybritânicos§! no Mediterrâneo."
+ form_country_mare_nostrum_north_africa_required_states_tt:0 "Controla todos os estados do §YNorte da África§! no Mediterrâneo e todos os núcleos da §YLíbia§!."
+ form_country_mare_nostrum_middle_east_required_states_tt:0 "Controla todos os estados do §YOriente Médio§! no Mediterrâneo."
+ form_country_mare_nostrum_greece_required_states_tt:0 "Controla todos os núcleos §Ygregos§! no Mediterrâneo."
+ form_mare_nostrum_coastal_uk_required_states_tt:0 "Controla os estados §Y[118.GetName]§!, §Y[116.GetName]§! e §Y[183.GetName]§!."
 
  form_spqr_core_mare_nostrum_states_tt:0 "Ganha núcleos em §Ytodos os estados§! necessários para tomar a decisão"
 

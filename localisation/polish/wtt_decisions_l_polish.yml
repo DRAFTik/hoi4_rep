@@ -10,7 +10,7 @@
  form_eu_italy_coring_states_tt:0 "Zdobądź prowincje narodowe wszystkich §Ywłoskich§! regionów w Europie.\n"
  form_country_germany_coring_states_tt:0 "Zdobądź prowincje narodowe wszystkich §Yniemieckich§! regionów.\n"
  form_spqr_france_required_states_tt:0 "Kontroluje wszystkie §Yfrancuskie§! regiony w Europie, Afryce Północnej i na Bliskim Wschodzie."
- form_spqr_italy_required_states_tt:0 "Kontroluje wszystkie §Ywłoskie§! regiony w Europie i Afryce Północnej."
+ form_spqr_italy_required_states_tt:1 "Kontroluje wszystkie §Ywłoskie§! regiony narodowe."
  form_spqr_britain_required_states_tt:0 "Kontroluje wszystkie §Ybrytyjskie§! regiony w Europie, na Bliskim Wschodzie i we wschodniej części basenu Morza Śródziemnego."
  form_spqr_spain_required_states_tt:0 "Kontroluje wszystkie §Yhiszpańskie§! regiony w Europie i Hiszpańskiej Afryce Zachodniej."
  form_eu_portugal_required_states_tt:0 "Kontroluje wszystkie §Yportugalskie§! regiony w Europie."

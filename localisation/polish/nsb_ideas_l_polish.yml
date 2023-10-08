@@ -235,7 +235,7 @@
  superior_firepower_army_spirit_desc:1 "Jeśli artyleria nie wygrywa dla ciebie bitew, to znaczy, że za mało jej używasz.\n\n§GTen duch narodowy jest dostępny dzięki naszym doktrynom.§!"
  grand_battleplan_army_spirit:0 "Grot włóczni"
  grand_battleplan_army_spirit_desc:1 "Sztylet nocną porą jest często skuteczniejszy niż długi miecz za dnia.\n\n§GTen duch narodowy jest dostępny dzięki naszym doktrynom.§!"
- mass_assault_army_spirit:0 "Siła bagnetu"
+ mass_assault_army_spirit:1 "Siła bagnetu"
  mass_assault_army_spirit_desc:1 "Koniec końców czołg albo samolot nie mogą utrzymać nawet skrawka ziemi.\n\n§GTen duch narodowy jest dostępny dzięki naszym doktrynom.§!"
  political_connections_spirit:0 "Koneksje polityczne"
  political_connections_spirit_desc:0 "No cóż, przekonajmy się, co minister ma do powiedzenia na ten temat!"

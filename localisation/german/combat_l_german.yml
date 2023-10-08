@@ -245,7 +245,7 @@
  COMBAT_DETAIL_TRAIT_NAME:0 "$NAME|H$"
  COMBAT_DETAIL_TRAIT_SEPARATOR:0 ", "
  CARRIER_EFFICIENCY:1 "Trägereffizienz: $VAL|Y%$"
- CARRIER_EFFICIENCY_BAD:1 "§YTrägereffizienz: $VAL|R%$"
+ CARRIER_EFFICIENCY_BAD:1 "§YTrägereffizienz§!: $VAL|R%$"
  CARRIER_EFFICIENCY_DESC:0 "\nJe niedriger die Effizienz, desto weniger Flugzeuge können starten und Missionen ausführen."
  CARRIER_EFFICIENCY_CROWD:0 "Überfüllt: $VAL$"
  CARRIER_EFFICIENCY_ORG:0 "Organisation: $VAL$"

@@ -33,7 +33,7 @@
  LAST_NAME:0 "姓"
  LOGGED_IN:0 "ログイン中"
  LOGIN_DESCRIPTION:0 "Paradoxアカウントにログインすると、オンライン、クラウドセーブ、実績、その他の将来的な機能を楽しむことができます。"
- LOGIN_DESCRIPTION_BOLD:0 "Paradoxアカウントにログインしてマルチプレイをする"
+ LOGIN_DESCRIPTION_BOLD:1 "Paradoxアカウントにサインインしてマルチプレイをする"
  LOGIN_EMAIL_INVALID:0 "§R有効なEメールを入力する必要があります§!"
  LOGIN_NO_EMAIL:0 "§REメールが見つかりません§!"
  LOGIN_NO_PASSWORD:0 "§Rパスワードが見つかりません§!"

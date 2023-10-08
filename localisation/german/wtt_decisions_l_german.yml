@@ -10,7 +10,7 @@
  form_eu_italy_coring_states_tt:0 "Erlangt Kerngebiete in allen §Yitalienischen§! Staaten in Europa.\n"
  form_country_germany_coring_states_tt:0 "Erlangt Kerngebiete in allen §Ydeutschen§! Staaten.\n"
  form_spqr_france_required_states_tt:0 "Kontrolliert alle §Yfranzösischen§! Staaten in Europa, in Nordafrika und im Mittleren Osten."
- form_spqr_italy_required_states_tt:0 "Kontrolliert alle §Yitalienischen§! Staaten in Europa und Nordafrika."
+ form_spqr_italy_required_states_tt:1 "Kontrolliert alle §Yitalienischen§! Kerne."
  form_spqr_britain_required_states_tt:0 "Kontrolliert alle §Ybritischen§! Staaten in Ägypten, im Mittleren Osten und im östlichen Mittelmeerraum."
  form_spqr_spain_required_states_tt:0 "Kontrolliert alle §Yspanischen§! Staaten in Europa und Spanisch-Afrika."
  form_eu_portugal_required_states_tt:0 "Kontrolliert alle §Yportugiesischen§! Staaten in Europa."

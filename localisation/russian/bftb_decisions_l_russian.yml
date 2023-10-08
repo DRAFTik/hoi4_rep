@@ -298,6 +298,7 @@
  TUR_pay_off_our_debts_desc:0 "За период своего существования Османская империя накопила большой долг, на восстановление нации тоже ушло немало средств. Сейчас у нас есть хорошая возможность выплатить часть долга!"
  TUR_discuss_investment_possibilities_with_FROM:0 "Обсудить возможности инвестиций с государством [FROM.GetNameDef]"
  TUR_discuss_investment_possibilities_with_FROM_desc:0 "В прошлом [ROOT.GetAdjective] политикой было по возможности избегать иностранных инвестиций и вмешательства, но сейчас нам уже не надо этого бояться. Инвесторы будут общаться с нами на равных, и у нас появится шанс разбогатеть."
+ TUR_investment_in_turkey_pending_flag:0 "[FROM.GetNameDefCap] соглашается с нашим пакетом инвестиций, но пока что не подтверждает свое участие."
  TUR_investment_opinion_tt:0 "Чем выше мнение государства §Y[FROM.GetNameDef]§! о нас, тем больше будет возможностей для инвестиций.\n"
  ROOT_invest_in_turkish_state_building:1 "Инвестировать в [FROM.GetAdjective] государственное строительство"
  ROOT_invest_in_turkish_state_building_desc:0 "Важная [FROM.GetAdjective] инфраструктура остаётся недоразвитой во многих регионах страны. Нам по силам это исправить."
@@ -920,7 +921,7 @@
  BUL_secure_occupation_in_balkan_state:0 "Оккупировать регион [FROM.GetName]"
  BUL_secure_occupation_in_balkan_state_desc:0 "Мы должны сыграть роль миротворцев на Балканах и предложить союзникам даровать нам право на управление их оккупированными территориями в регионе. Таким образом [ROOT.GetFactionName] сможет передислоцировать гарнизоны для укрепления позиций на других фронтах."
  BUL_secure_occupation_in_balkan_state_tt:0 "(В странах с малыми §Yлюдскими ресурсами§! и §Yпехотным снаряжением§! вероятность согласия повышена)"
- BUL_bulgarian_reintegration_campaign:1 "Кампания по болгарской реинтеграции в регионе [FROM.GetName]"
+ BUL_bulgarian_reintegration_campaign:2 "Кампания по болгарской реинтеграции в регионе [FROM.GetName]"
  bulgarian_territorial_expansion_arranged:0 "Оговорённая территориальная экспансия Болгарии"
  BUL_bulgarian_territorial_expansion_arranged_tt:0 "Регионы с модификатором §YОговорённая территориальная экспансия Болгарии§! будут переданы Болгарии, когда они окажутся под контролем любого члена союза, а Болгария будет в альянсе с Германией"
 

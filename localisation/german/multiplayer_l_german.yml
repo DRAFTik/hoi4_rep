@@ -152,6 +152,7 @@
  OOS_84:0 "Einsatzgruppen"
  OOS_85:0 "Luftgeschwader"
  OOS_86:0 "Asse"
+ OOS_87:0 "Spielverlauf-Statistiken"
  MULTIPLAYER_PLAYERS:0 "$NUM$"
  MULTIPLAYER_MESSAGES:0 "$NUM$"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS:0 "§GSpielt bereits§!"

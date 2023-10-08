@@ -688,7 +688,7 @@
  SOV_paranoia_system_intro_tt:0 "£SOV_paranoia_text_icon El sistema de paranoia está activo."
  SOV_paranoia_system_nkvd_trait_tt:0 "Los consejeros políticos con el rasgo §Y$head_of_the_nkvd$§! aumentarán la £SOV_paranoia_text_icon paranoia política cada semana."
  NSB_soviet_paranoia_system_events.11.t:0 "Consejero acusado de traición"
- NSB_soviet_paranoia_system_events.11.desc:1 "En reacción a una denuncia anónima, el NKVD ha arrestado a [?ROOT.SOV_purged_character_for_loc.GetName] bajo sospecha de espionaje, sabotaje y conspiración contra el Estado. Aunque él insiste en su inocencia, los investigadores están seguros de que podrán acusarlo formalmente dentro de unas semanas: o bien se derrumbará en el interrogatorio, o reunirán suficientes pruebas entre aquellos de sus allegados que se presten a dar testimonio de sus delitos. En cualquier caso, la condena por esos cargos será probablemente la muerte o una vida de trabajos forzados.  TODO: añadir variable de personaje"
+ NSB_soviet_paranoia_system_events.11.desc:1 "En reacción a una denuncia anónima, el NKVD ha arrestado a [?ROOT.SOV_purged_character_for_loc.GetName] bajo sospecha de espionaje, sabotaje y conspiración contra el Estado. Aunque él insiste en su inocencia, los investigadores están seguros de que podrán acusarlo formalmente dentro de unas semanas: o bien se derrumbará en el interrogatorio, o reunirán suficientes pruebas entre aquellos de sus allegados que se presten a dar testimonio de sus delitos. En cualquier caso, la condena por esos cargos será probablemente la muerte o una vida de trabajos forzados."
  NSB_soviet_paranoia_system_events.11.a:0 "Un tumor tan próximo al corazón se debe extirpar sin piedad."
  NSB_soviet_paranoia_system_events.11.b:0 "¡No podemos condenar a alguien con pruebas tan poco sólidas!"
  NSB_soviet_paranoia_system_events.12.t:0 "Conspiración contra funcionarios públicos"
@@ -1158,7 +1158,7 @@
  NSB_soviet_communist_civil_war.005.a:0 "Una incorporación bienvenida."
 
  NSB_soviet_communist_civil_war.006.t:0 "Protestas masivas en [?SOV_uprising_state.GetName]"
- NSB_soviet_communist_civil_war.006.desc:0 "Los obreros en [?SOV_uprising_state.GetName] han tomado las calles en una congregación masiva. Prevalecen las peticiones de un aumento de la influencia de las sindicatos, pero también se han visto otros eslóganes y símbolos de protesta. Incluso hay informes de cánticos antiestalinistas."
+ NSB_soviet_communist_civil_war.006.desc:1 "Los obreros de [?SOV_uprising_state.GetName] han tomado las calles en una congregación masiva. Prevalecen las peticiones de un aumento de la influencia de los sindicatos, pero también se han visto otros eslóganes y símbolos de protesta. Incluso hay informes de cánticos antiestalinistas."
  NSB_soviet_communist_civil_war.006.a:0 "Que protesten."
  NSB_soviet_communist_civil_war.006.b:0 "Hay que detener esto antes de que se nos vaya de las manos."
 
@@ -1529,7 +1529,7 @@
  nsb_news.304.a:0 "¡Esta vez permanecerá unida!"
  nsb_news.304.b:0 "Esto... ¿me repites dónde queda eso?"
  nsb_news.400.t:1 "La coronación de Vladimiro III"
- nsb_news.400.desc:0 "Tras casi tres décadas bajo el yugo de los bolcheviques, [SOV.GetName] ha recuperado hoy el zarismo con la coronación del zar Vladimiro I en una ceremonia en la catedral de la Dormición de Moscú. Tras una procesión real entre las masas, el nuevo zar se dirigió al público asistente, alabando el espíritu del pueblo ruso y jurando restablecer la antigua gloria de la nación."
+ nsb_news.400.desc:1 "Tras casi tres décadas bajo el yugo de los bolcheviques, [SOV.GetName] ha recuperado hoy el zarismo con la coronación del zar Vladimiro III en una ceremonia en la catedral de la Dormición de Moscú. Tras una procesión real entre las masas, el nuevo zar se dirigió al público asistente, alabando el espíritu del pueblo ruso y jurando restablecer la antigua gloria de la nación."
  nsb_news.400.a:0 "¡Un gran evento!"
  nsb_news.400.b:0 "¡Belicista!"
  nsb_news.400.c:0 "¡Una farsa!"

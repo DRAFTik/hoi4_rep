@@ -1158,7 +1158,7 @@
  NSB_soviet_communist_civil_war.005.a:0 "歓迎しよう"
 
  NSB_soviet_communist_civil_war.006.t:0 "[?SOV_uprising_state.GetName]での大規模な抗議"
- NSB_soviet_communist_civil_war.006.desc:0 "[?SOV_uprising_state.GetName]の労働者が街頭で大規模な集会を開いた。労働組合の影響力増大を求める声が優勢だが、他のスローガンや抗議文も多く見られる。直接スターリンを批判するシュプレヒコールがあったという報告もある。"
+ NSB_soviet_communist_civil_war.006.desc:1 "[?SOV_uprising_state.GetName]の労働者が街頭で大規模な集会を開いた。労働組合の影響力増大を求める声が優勢だが、他のスローガンや抗議文も多く見られる。直接スターリンを批判するシュプレヒコールがあったという報告もある。"
  NSB_soviet_communist_civil_war.006.a:0 "抗議させておけばいい"
  NSB_soviet_communist_civil_war.006.b:0 "手に負えなくなる前に止めなければならない"
 
@@ -1529,7 +1529,7 @@
  nsb_news.304.a:0 "This time it will stay together!"
  nsb_news.304.b:0 "それで、あれどこだっけ？"
  nsb_news.400.t:1 "ウラジーミル3世の戴冠式"
- nsb_news.400.desc:0 "30年近くに及ぶボリシェヴィキによる支配を経て、本日モスクワの生神女就寝大聖堂で行われたツァーリ・ウラジーミル1世の戴冠式により、 [SOV.GetName]はツァーリ国への回帰が実現することとなった。新たなツァーリは群衆の中を行進した後、参列した人々に語りかけ、ロシア国民の精神を讃え、「国家のかつての栄光を取り戻す」ことを誓った。"
+ nsb_news.400.desc:1 "30年近くに及ぶボリシェヴィキによる支配を経て、本日モスクワの生神女就寝大聖堂で行われたツァーリ・ウラジーミル3世の戴冠式により、 [SOV.GetName]はツァーリ国への回帰が実現することとなった。新たなツァーリは群衆の中を行進した後、参列した人々に語りかけ、ロシア国民の精神を讃え、「国家のかつての栄光を取り戻す」ことを誓った。"
  nsb_news.400.a:0 "素晴らしい出来事だ！"
  nsb_news.400.b:0 "戦争を挑発している！"
  nsb_news.400.c:0 "茶番だな！"

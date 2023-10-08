@@ -1,4 +1,7 @@
-﻿l_russian:
+﻿# === [LocEditor:OrphanedFile] File contains only orphaned keys ===
+l_russian:
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  HOW_TO_PLAY:0 "ОСНОВЫ ИГРЫ"
  DISABLE_ALERTS:1 "Отключить видеоролики при оповещениях"
  MORE_VIDEOS:0 "Больше видеороликов"

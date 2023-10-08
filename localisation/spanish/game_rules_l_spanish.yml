@@ -522,6 +522,16 @@
  LON_NON_INTERFERENCE_RESOLUTION_JOIN:0 "No puedes unirte a [FROM.GetNameDef] por la resolución de no interferencia de la Sociedad de Naciones"
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT:0 "Ahora mismo solo puedes enviar unidades voluntarias a [ETH.GetName]"
 
+ RULE_GROUP_PEACE_SCORE:0 "Distribución de la puntuación de paz"
+ PEACE_SCORE_TO_OVERLORD:0 "De títeres a gobernante"
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_YES_DESC:0 "Los títeres ceden a su gobernante parte de su puntuación de paz. La proporción dependerá de su nivel de autonomía."
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_NO_DESC:0 "Los títeres conservan toda la puntuación de paz obtenida durante la guerra."
+ PEACE_SCORE_TO_FACTION_LEADER:0 "De miembros de una facción a su líder"
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_YES_DESC:0 "Los miembros de una facción ceden a su líder el 10% de su puntuación de paz."
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_NO_DESC:0 "Los miembros de una facción conservan toda la puntuación de paz obtenida durante la guerra."
+ PEACE_SCORE_RESET_LOW_SCORES:0 "Redistribuir puntuaciones bajas"
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_YES_DESC:0 "Los vencedores con menos de un 5% de participación en la guerra ceden toda su puntuación a los demás ganadores.\nNo se aplica si ningún ganador tiene, como mínimo, un 10% de participación en la guerra.\nNo se aplica a jugadores humanos."
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_NO_DESC:0 "Todos los ganadores conservan toda la puntuación de paz obtenida durante la guerra."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  GAME_RULE_OPTION_YES:0 "Sí"

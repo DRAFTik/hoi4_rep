@@ -33,7 +33,7 @@
  LAST_NAME:0 "Nom"
  LOGGED_IN:0 "Connecté"
  LOGIN_DESCRIPTION:0 "Profitez des avantages du jeu en ligne, des sauvegardes sur le cloud, des Succès et d'autres choses à venir en vous connectant à votre compte Paradox."
- LOGIN_DESCRIPTION_BOLD:0 "Pour jouer en multijoueur, connectez-vous avec votre compte Paradox."
+ LOGIN_DESCRIPTION_BOLD:1 "Pour jouer en multijoueur, connectez-vous avec votre compte Paradox."
  LOGIN_EMAIL_INVALID:0 "§RVous devez entrer une adresse e-mail valide§!"
  LOGIN_NO_EMAIL:0 "§RAdresse e-mail non renseignée§!"
  LOGIN_NO_PASSWORD:0 "§RMot de passe non renseigné§!"

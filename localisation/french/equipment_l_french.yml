@@ -3925,163 +3925,163 @@
  LAT_train_equipment_1:0 "Type 1-1-1"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- light_tank_artillery_equipment_short:0 "AM léger" # [LocEditor:CustomLanguageKey]
- light_tank_aa_equipment_short:0 "AM AA léger" # [LocEditor:CustomLanguageKey]
- medium_tank_aa_equipment_short:0 "AM AA moyen" # [LocEditor:CustomLanguageKey]
- heavy_tank_artillery_equipment_short:0 "AM lourd" # [LocEditor:CustomLanguageKey]
- heavy_tank_aa_equipment_short:0 "AM AA lourd" # [LocEditor:CustomLanguageKey]
- super_heavy_tank_artillery_equipment_short:0 "AM super-lourd" # [LocEditor:CustomLanguageKey]
- super_heavy_tank_aa_equipment_short:0 "AM AA super-lourd" # [LocEditor:CustomLanguageKey]
- modern_tank_artillery_equipment_short:0 "AM moderne" # [LocEditor:CustomLanguageKey]
- modern_tank_destroyer_equipment_short:0 "CC moderne" # [LocEditor:CustomLanguageKey]
- modern_tank_aa_equipment_short:0 "AM AA moderne" # [LocEditor:CustomLanguageKey]
- GER_motorized_equipment_1_short:0 "Opel Blitz" # [LocEditor:CustomLanguageKey]
- SWE_motorized_equipment_1_short:0 "Scania-Vabis" # [LocEditor:CustomLanguageKey]
- FRA_motorized_equipment_1_short:0 "Citroën U23" # [LocEditor:CustomLanguageKey]
- ENG_motorized_equipment_1_short:1 "Austin K5" # [LocEditor:CustomLanguageKey]
- CAN_motorized_equipment_1_short:1 "Austin K5" # [LocEditor:CustomLanguageKey]
- AST_motorized_equipment_1_short:0 "Ford F30 AP" # [LocEditor:CustomLanguageKey]
- NZL_motorized_equipment_1_short:0 "Ford F30 NZP" # [LocEditor:CustomLanguageKey]
- USA_motorized_equipment_1_short:0 "GMC CCKW" # [LocEditor:CustomLanguageKey]
- HOL_motorized_equipment_1_short:1 "DAF Trado" # [LocEditor:CustomLanguageKey]
- JAP_motorized_equipment_1_short:0 "Type 94" # [LocEditor:CustomLanguageKey]
- ITA_motorized_equipment_1_short:0 "Fiat 626" # [LocEditor:CustomLanguageKey]
- SOV_motorized_equipment_1_short:0 "ZIS-5" # [LocEditor:CustomLanguageKey]
- HUN_motorized_equipment_1_short:0 "38M Botond" # [LocEditor:CustomLanguageKey]
- CZE_motorized_equipment_1_short:0 "Tatra 72" # [LocEditor:CustomLanguageKey]
- ROM_motorized_equipment_1_short:0 "AFB 3-ton" # [LocEditor:CustomLanguageKey]
- POL_motorized_equipment_1_short:0 "Ursus A" # [LocEditor:CustomLanguageKey]
- YUG_motorized_equipment_1_short:0 "VTZ YS-4403" # [LocEditor:CustomLanguageKey]
- FRA_anti_tank_equipment_2_short:0 "47mm SA 37" # [LocEditor:CustomLanguageKey]
- CZE_anti_tank_equipment_2_short:0 "KPÚV vz. 38" # [LocEditor:CustomLanguageKey]
- CZE_anti_tank_equipment_3_short:0 "KPÚV vz. 43" # [LocEditor:CustomLanguageKey]
- ENG_anti_tank_equipment_2_short:0 "QF 6-pounder" # [LocEditor:CustomLanguageKey]
- ENG_anti_tank_equipment_3_short:0 "QF 17-pounder" # [LocEditor:CustomLanguageKey]
- RAJ_anti_tank_equipment_2_short:0 "QF 6-pounder" # [LocEditor:CustomLanguageKey]
- RAJ_anti_tank_equipment_3_short:0 "QF 17-pounder" # [LocEditor:CustomLanguageKey]
- CAN_anti_tank_equipment_2_short:0 "QF 6-pounder" # [LocEditor:CustomLanguageKey]
- CAN_anti_tank_equipment_3_short:0 "QF 17-pounder" # [LocEditor:CustomLanguageKey]
- AST_anti_tank_equipment_2_short:0 "QF 6-pounder" # [LocEditor:CustomLanguageKey]
- AST_anti_tank_equipment_3_short:0 "QF 17-pounder" # [LocEditor:CustomLanguageKey]
- NZL_anti_tank_equipment_2_short:0 "QF 6-pounder" # [LocEditor:CustomLanguageKey]
- NZL_anti_tank_equipment_3_short:0 "QF 17-pounder" # [LocEditor:CustomLanguageKey]
- SAF_anti_tank_equipment_2_short:0 "QF 6-pounder" # [LocEditor:CustomLanguageKey]
- SAF_anti_tank_equipment_3_short:0 "QF 17-pounder" # [LocEditor:CustomLanguageKey]
- GER_anti_tank_equipment_2_short:0 "7,5-cm-PaK 40" # [LocEditor:CustomLanguageKey]
- GER_anti_tank_equipment_3_short:0 "12,8-cm-PaK 44" # [LocEditor:CustomLanguageKey]
- USA_anti_tank_equipment_2_short:0 "57 mm Gun M1" # [LocEditor:CustomLanguageKey]
- USA_anti_tank_equipment_3_short:0 "3-inch Gun M5" # [LocEditor:CustomLanguageKey]
- JAP_anti_tank_equipment_2_short:0 "Type 1 47 mm" # [LocEditor:CustomLanguageKey]
- JAP_anti_tank_equipment_3_short:0 "Type 4 75 mm" # [LocEditor:CustomLanguageKey]
- HUN_anti_tank_equipment_2_short:0 "38M" # [LocEditor:CustomLanguageKey]
- HUN_anti_tank_equipment_3_short:0 "43M" # [LocEditor:CustomLanguageKey]
- SOV_anti_tank_equipment_2_short:0 "M-42" # [LocEditor:CustomLanguageKey]
- SOV_anti_tank_equipment_3_short:0 "ZiS-3" # [LocEditor:CustomLanguageKey]
- ITA_anti_tank_equipment_2_short:0 "Cannone da 47/32" # [LocEditor:CustomLanguageKey]
- ITA_anti_tank_equipment_3_short:0 "Cannone da 75/46" # [LocEditor:CustomLanguageKey]
- POL_anti_tank_equipment_2_short:0 "47 mm wz. 39" # [LocEditor:CustomLanguageKey]
- POL_anti_tank_equipment_3_short:0 "76 mm wz. 43" # [LocEditor:CustomLanguageKey]
- DEN_anti_tank_equipment_2_short:0 "47mm m1940" # [LocEditor:CustomLanguageKey]
- DEN_anti_tank_equipment_3_short:0 "75mm m1943" # [LocEditor:CustomLanguageKey]
- NOR_anti_tank_equipment_2_short:0 "47mm PVK" # [LocEditor:CustomLanguageKey]
- NOR_anti_tank_equipment_3_short:0 "76mm PVK" # [LocEditor:CustomLanguageKey]
- AUS_anti_tank_equipment_2_short:0 "47mm Böhler M35" # [LocEditor:CustomLanguageKey]
- FRA_anti_air_equipment_2_short:0 "Schneider 37 mm" # [LocEditor:CustomLanguageKey]
- FRA_anti_air_equipment_3_short:0 "Canon de 75 CA 1940" # [LocEditor:CustomLanguageKey]
- GER_anti_air_equipment_2_short:0 "2-cm-FlaK 38" # [LocEditor:CustomLanguageKey]
- GER_anti_air_equipment_3_short:0 "8,8-cm-Flak 41" # [LocEditor:CustomLanguageKey]
- JAP_anti_air_equipment_2_short:0 "Type 2 20 mm" # [LocEditor:CustomLanguageKey]
- JAP_anti_air_equipment_3_short:0 "Type 3 80 mm" # [LocEditor:CustomLanguageKey]
- ENG_anti_air_equipment_2_short:0 "QF 40 mm" # [LocEditor:CustomLanguageKey]
- ENG_anti_air_equipment_3_short:0 "QF 3.7-inch" # [LocEditor:CustomLanguageKey]
- RAJ_anti_air_equipment_2_short:0 "QF 40 mm" # [LocEditor:CustomLanguageKey]
- RAJ_anti_air_equipment_3_short:0 "QF 3.7-inch" # [LocEditor:CustomLanguageKey]
- CAN_anti_air_equipment_2_short:0 "QF 40 mm" # [LocEditor:CustomLanguageKey]
- CAN_anti_air_equipment_3_short:0 "QF 3.7-inch" # [LocEditor:CustomLanguageKey]
- AST_anti_air_equipment_2_short:0 "QF 40 mm" # [LocEditor:CustomLanguageKey]
- AST_anti_air_equipment_3_short:0 "QF 3.7-inch" # [LocEditor:CustomLanguageKey]
- NZL_anti_air_equipment_2_short:0 "QF 40 mm" # [LocEditor:CustomLanguageKey]
- NZL_anti_air_equipment_3_short:0 "QF 3.7-inch" # [LocEditor:CustomLanguageKey]
- SAF_anti_air_equipment_2_short:0 "QF 40 mm" # [LocEditor:CustomLanguageKey]
- SAF_anti_air_equipment_3_short:0 "QF 3.7-inch" # [LocEditor:CustomLanguageKey]
- ITA_anti_air_equipment_2_short:0 "Breda modèle 37/54" # [LocEditor:CustomLanguageKey]
- ITA_anti_air_equipment_3_short:0 "Cannone da 90/53" # [LocEditor:CustomLanguageKey]
- USA_anti_air_equipment_2_short:0 "40 mm Gun M1" # [LocEditor:CustomLanguageKey]
- USA_anti_air_equipment_3_short:0 "90 mm Gun M3" # [LocEditor:CustomLanguageKey]
- SOV_anti_air_equipment_2_short:0 "M1940 25 mm AA" # [LocEditor:CustomLanguageKey]
- SOV_anti_air_equipment_3_short:0 "KS-19 100 mm" # [LocEditor:CustomLanguageKey]
- POL_anti_air_equipment_2_short:0 "75 mm wz. 36" # [LocEditor:CustomLanguageKey]
- SWE_anti_air_equipment_2_short:0 "40 mm m/36" # [LocEditor:CustomLanguageKey]
- SWE_anti_air_equipment_3_short:0 "8 cm m/30" # [LocEditor:CustomLanguageKey]
- CZE_anti_air_equipment_2_short:0 "PL vz. 37" # [LocEditor:CustomLanguageKey]
- CZE_anti_air_equipment_3_short:0 "PL vz. 12/20" # [LocEditor:CustomLanguageKey]
- NOR_anti_air_equipment_1_short:0 "Colt mitraljöse m/29" # [LocEditor:CustomLanguageKey]
- NOR_anti_air_equipment_2_short:0 "40mm m/36" # [LocEditor:CustomLanguageKey]
- NOR_anti_air_equipment_3_short:0 "7.5 cm m/32" # [LocEditor:CustomLanguageKey]
- FRA_artillery_equipment_2_short:0 "105 L modèle 1936" # [LocEditor:CustomLanguageKey]
- FRA_artillery_equipment_3_short:0 "Canon de 155 mm GPF" # [LocEditor:CustomLanguageKey]
- CZE_artillery_equipment_2_short:0 "Hrubý kanón vz. 35" # [LocEditor:CustomLanguageKey]
- CZE_artillery_equipment_3_short:0 "Hrubá houfnice vz. 37" # [LocEditor:CustomLanguageKey]
- GER_artillery_equipment_2_short:0 "15-cm sFH 18" # [LocEditor:CustomLanguageKey]
- GER_artillery_equipment_3_short:0 "15-cm K 18" # [LocEditor:CustomLanguageKey]
- ENG_artillery_equipment_2_short:0 "QF 25-pounder" # [LocEditor:CustomLanguageKey]
- ENG_artillery_equipment_3_short:0 "BL 5.5-inch" # [LocEditor:CustomLanguageKey]
- RAJ_artillery_equipment_2_short:0 "QF 25-pounder" # [LocEditor:CustomLanguageKey]
- RAJ_artillery_equipment_3_short:0 "BL 5.5-inch" # [LocEditor:CustomLanguageKey]
- CAN_artillery_equipment_2_short:0 "QF 25-pounder" # [LocEditor:CustomLanguageKey]
- CAN_artillery_equipment_3_short:0 "BL 5.5-inch" # [LocEditor:CustomLanguageKey]
- AST_artillery_equipment_2_short:0 "QF 25-pounder" # [LocEditor:CustomLanguageKey]
- AST_artillery_equipment_3_short:0 "BL 5.5-inch" # [LocEditor:CustomLanguageKey]
- NZL_artillery_equipment_2_short:0 "QF 25-pounder" # [LocEditor:CustomLanguageKey]
- NZL_artillery_equipment_3_short:0 "BL 5.5-inch" # [LocEditor:CustomLanguageKey]
- SAF_artillery_equipment_2_short:0 "QF 25-pounder" # [LocEditor:CustomLanguageKey]
- SAF_artillery_equipment_3_short:0 "BL 5.5-inch" # [LocEditor:CustomLanguageKey]
- USA_artillery_equipment_2_short:0 "105 mm M101A1" # [LocEditor:CustomLanguageKey]
- USA_artillery_equipment_3_short:0 "155 mm M114" # [LocEditor:CustomLanguageKey]
- ITA_artillery_equipment_3_short:0 "Obice da 210/22" # [LocEditor:CustomLanguageKey]
- JAP_artillery_equipment_2_short:0 "Type 91 10 cm" # [LocEditor:CustomLanguageKey]
- JAP_artillery_equipment_3_short:0 "Type 96 15 cm" # [LocEditor:CustomLanguageKey]
- NOR_artillery_equipment_2_short:0 "12 cm felt./m09" # [LocEditor:CustomLanguageKey]
- NOR_artillery_equipment_3_short:0 "12 cm felt./m32" # [LocEditor:CustomLanguageKey]
- POL_artillery_equipment_2_short:0 "100 mm wz. 38 st." # [LocEditor:CustomLanguageKey]
- POL_artillery_equipment_3_short:0 "155 mm wz. 40" # [LocEditor:CustomLanguageKey]
- SWE_artillery_equipment_2_short:0 "10,5 cm Haubits m/40" # [LocEditor:CustomLanguageKey]
- SWE_artillery_equipment_3_short:0 "12 cm Haubits m/14" # [LocEditor:CustomLanguageKey]
- AUS_artillery_equipment_3_short:0 "15 cm M. 15/16" # [LocEditor:CustomLanguageKey]
- HOL_artillery_equipment_2_short:0 "10,5 cm 10-veld" # [LocEditor:CustomLanguageKey]
- HOL_artillery_equipment_3_short:0 "12 cm 12 lang 14" # [LocEditor:CustomLanguageKey]
- BEL_artillery_equipment_2_short:0 "75 mm GP III" # [LocEditor:CustomLanguageKey]
- BEL_artillery_equipment_3_short:0 "120 L modèle 1931" # [LocEditor:CustomLanguageKey]
- GER_rocket_artillery_equipment_2_short:0 "Nebelwerfer 42" # [LocEditor:CustomLanguageKey]
- JAP_rocket_artillery_equipment_2_short:0 "Type 4 40 cm" # [LocEditor:CustomLanguageKey]
- gw_armored_car_equipment_short:0 "Véhicule blindé I" # [LocEditor:CustomLanguageKey]
- armored_car_equipment_1_short:0 "Véhicule blindé II" # [LocEditor:CustomLanguageKey]
- armored_car_equipment_2_short:0 "Véhicule blindé III" # [LocEditor:CustomLanguageKey]
- artillery_equipment_2_short:0 "Canon amélioré" # [LocEditor:CustomLanguageKey]
- artillery_equipment_3_short:0 "Canon avancé" # [LocEditor:CustomLanguageKey]
- anti_air_equipment_2_short:0 "Canon AA amélioré" # [LocEditor:CustomLanguageKey]
- anti_air_equipment_3_short:0 "Canon AA avancé" # [LocEditor:CustomLanguageKey]
- rocket_artillery_equipment_2_short:0 "Lance-roq. avancé" # [LocEditor:CustomLanguageKey]
- anti_tank_equipment_2_short:0 "Canon AC amélioré" # [LocEditor:CustomLanguageKey]
- anti_tank_equipment_3_short:0 "Canon AC avancé" # [LocEditor:CustomLanguageKey]
- amphibious_tank_equipment_1_short:0 "Char amphibie" # [LocEditor:CustomLanguageKey]
- amphibious_tank_equipment_2_short:0 "Char amph. amélioré" # [LocEditor:CustomLanguageKey]
- GER_amphibious_tank_equipment_1_short:0 "Schwimmpanzer II" # [LocEditor:CustomLanguageKey]
- GER_amphibious_tank_equipment_2_short:0 "Tauchpanzer III" # [LocEditor:CustomLanguageKey]
- USA_amphibious_tank_equipment_1_short:0 "LVT-1 (A)" # [LocEditor:CustomLanguageKey]
- USA_amphibious_tank_equipment_2_short:0 "Sherman DD" # [LocEditor:CustomLanguageKey]
- JAP_amphibious_tank_equipment_1_short:0 "Type 2 Ka-Mi" # [LocEditor:CustomLanguageKey]
- JAP_amphibious_tank_equipment_2_short:0 "Type 3 Ka-Chi" # [LocEditor:CustomLanguageKey]
- ENG_amphibious_tank_equipment_1_short:0 "Valentine DD" # [LocEditor:CustomLanguageKey]
- ENG_amphibious_tank_equipment_2_short:0 "Cromwell DD" # [LocEditor:CustomLanguageKey]
- SOV_amphibious_tank_equipment_1_short:0 "T-40" # [LocEditor:CustomLanguageKey]
- SOV_amphibious_tank_equipment_2_short:0 "PT-76" # [LocEditor:CustomLanguageKey]
- USA_train_equipment_1_short:0 "Pennsylvania I1s" # [LocEditor:CustomLanguageKey]
- USA_train_equipment_2_short:0 "USATC S160" # [LocEditor:CustomLanguageKey]
- JAP_train_equipment_1_short:0 "Classe D50" # [LocEditor:CustomLanguageKey]
- JAP_train_equipment_2_short:0 "Classe D52" # [LocEditor:CustomLanguageKey]
- ENG_train_equipment_2_short:0 "WD Austerity 2-8-0" # [LocEditor:CustomLanguageKey]
- FRA_train_equipment_1_short:0 "SNCF 141 B/C " # [LocEditor:CustomLanguageKey]
- FRA_train_equipment_2_short:0 "SNCF 141 P" # [LocEditor:CustomLanguageKey]
- ITA_train_equipment_1_short:0 "FS 685" # [LocEditor:CustomLanguageKey]
- SOV_railway_gun_equipment_1_short:0 "TM-3-12" # [LocEditor:CustomLanguageKey]
+ light_tank_artillery_equipment_short:0 "AM léger"
+ light_tank_aa_equipment_short:0 "AM AA léger"
+ medium_tank_aa_equipment_short:0 "AM AA moyen"
+ heavy_tank_artillery_equipment_short:0 "AM lourd"
+ heavy_tank_aa_equipment_short:0 "AM AA lourd"
+ super_heavy_tank_artillery_equipment_short:0 "AM super-lourd"
+ super_heavy_tank_aa_equipment_short:0 "AM AA super-lourd"
+ modern_tank_artillery_equipment_short:0 "AM moderne"
+ modern_tank_destroyer_equipment_short:0 "CC moderne"
+ modern_tank_aa_equipment_short:0 "AM AA moderne"
+ GER_motorized_equipment_1_short:0 "Opel Blitz"
+ SWE_motorized_equipment_1_short:0 "Scania-Vabis"
+ FRA_motorized_equipment_1_short:0 "Citroën U23"
+ ENG_motorized_equipment_1_short:1 "Austin K5"
+ CAN_motorized_equipment_1_short:1 "Austin K5"
+ AST_motorized_equipment_1_short:0 "Ford F30 AP"
+ NZL_motorized_equipment_1_short:0 "Ford F30 NZP"
+ USA_motorized_equipment_1_short:0 "GMC CCKW"
+ HOL_motorized_equipment_1_short:1 "DAF Trado"
+ JAP_motorized_equipment_1_short:0 "Type 94"
+ ITA_motorized_equipment_1_short:0 "Fiat 626"
+ SOV_motorized_equipment_1_short:0 "ZIS-5"
+ HUN_motorized_equipment_1_short:0 "38M Botond"
+ CZE_motorized_equipment_1_short:0 "Tatra 72"
+ ROM_motorized_equipment_1_short:0 "AFB 3-ton"
+ POL_motorized_equipment_1_short:0 "Ursus A"
+ YUG_motorized_equipment_1_short:0 "VTZ YS-4403"
+ FRA_anti_tank_equipment_2_short:0 "47mm SA 37"
+ CZE_anti_tank_equipment_2_short:0 "KPÚV vz. 38"
+ CZE_anti_tank_equipment_3_short:0 "KPÚV vz. 43"
+ ENG_anti_tank_equipment_2_short:0 "QF 6-pounder"
+ ENG_anti_tank_equipment_3_short:0 "QF 17-pounder"
+ RAJ_anti_tank_equipment_2_short:0 "QF 6-pounder"
+ RAJ_anti_tank_equipment_3_short:0 "QF 17-pounder"
+ CAN_anti_tank_equipment_2_short:0 "QF 6-pounder"
+ CAN_anti_tank_equipment_3_short:0 "QF 17-pounder"
+ AST_anti_tank_equipment_2_short:0 "QF 6-pounder"
+ AST_anti_tank_equipment_3_short:0 "QF 17-pounder"
+ NZL_anti_tank_equipment_2_short:0 "QF 6-pounder"
+ NZL_anti_tank_equipment_3_short:0 "QF 17-pounder"
+ SAF_anti_tank_equipment_2_short:0 "QF 6-pounder"
+ SAF_anti_tank_equipment_3_short:0 "QF 17-pounder"
+ GER_anti_tank_equipment_2_short:0 "7,5-cm-PaK 40"
+ GER_anti_tank_equipment_3_short:0 "12,8-cm-PaK 44"
+ USA_anti_tank_equipment_2_short:0 "57 mm Gun M1"
+ USA_anti_tank_equipment_3_short:0 "3-inch Gun M5"
+ JAP_anti_tank_equipment_2_short:0 "Type 1 47 mm"
+ JAP_anti_tank_equipment_3_short:0 "Type 4 75 mm"
+ HUN_anti_tank_equipment_2_short:0 "38M"
+ HUN_anti_tank_equipment_3_short:0 "43M"
+ SOV_anti_tank_equipment_2_short:0 "M-42"
+ SOV_anti_tank_equipment_3_short:0 "ZiS-3"
+ ITA_anti_tank_equipment_2_short:0 "Cannone da 47/32"
+ ITA_anti_tank_equipment_3_short:0 "Cannone da 75/46"
+ POL_anti_tank_equipment_2_short:0 "47 mm wz. 39"
+ POL_anti_tank_equipment_3_short:0 "76 mm wz. 43"
+ DEN_anti_tank_equipment_2_short:0 "47mm m1940"
+ DEN_anti_tank_equipment_3_short:0 "75mm m1943"
+ NOR_anti_tank_equipment_2_short:0 "47mm PVK"
+ NOR_anti_tank_equipment_3_short:0 "76mm PVK"
+ AUS_anti_tank_equipment_2_short:0 "47mm Böhler M35"
+ FRA_anti_air_equipment_2_short:0 "Schneider 37 mm"
+ FRA_anti_air_equipment_3_short:0 "Canon de 75 CA 1940"
+ GER_anti_air_equipment_2_short:0 "2-cm-FlaK 38"
+ GER_anti_air_equipment_3_short:0 "8,8-cm-Flak 41"
+ JAP_anti_air_equipment_2_short:0 "Type 2 20 mm"
+ JAP_anti_air_equipment_3_short:0 "Type 3 80 mm"
+ ENG_anti_air_equipment_2_short:0 "QF 40 mm"
+ ENG_anti_air_equipment_3_short:0 "QF 3.7-inch"
+ RAJ_anti_air_equipment_2_short:0 "QF 40 mm"
+ RAJ_anti_air_equipment_3_short:0 "QF 3.7-inch"
+ CAN_anti_air_equipment_2_short:0 "QF 40 mm"
+ CAN_anti_air_equipment_3_short:0 "QF 3.7-inch"
+ AST_anti_air_equipment_2_short:0 "QF 40 mm"
+ AST_anti_air_equipment_3_short:0 "QF 3.7-inch"
+ NZL_anti_air_equipment_2_short:0 "QF 40 mm"
+ NZL_anti_air_equipment_3_short:0 "QF 3.7-inch"
+ SAF_anti_air_equipment_2_short:0 "QF 40 mm"
+ SAF_anti_air_equipment_3_short:0 "QF 3.7-inch"
+ ITA_anti_air_equipment_2_short:0 "Breda modèle 37/54"
+ ITA_anti_air_equipment_3_short:0 "Cannone da 90/53"
+ USA_anti_air_equipment_2_short:0 "40 mm Gun M1"
+ USA_anti_air_equipment_3_short:0 "90 mm Gun M3"
+ SOV_anti_air_equipment_2_short:0 "M1940 25 mm AA"
+ SOV_anti_air_equipment_3_short:0 "KS-19 100 mm"
+ POL_anti_air_equipment_2_short:0 "75 mm wz. 36"
+ SWE_anti_air_equipment_2_short:0 "40 mm m/36"
+ SWE_anti_air_equipment_3_short:0 "8 cm m/30"
+ CZE_anti_air_equipment_2_short:0 "PL vz. 37"
+ CZE_anti_air_equipment_3_short:0 "PL vz. 12/20"
+ NOR_anti_air_equipment_1_short:0 "Colt mitraljöse m/29"
+ NOR_anti_air_equipment_2_short:0 "40mm m/36"
+ NOR_anti_air_equipment_3_short:0 "7.5 cm m/32"
+ FRA_artillery_equipment_2_short:0 "105 L modèle 1936"
+ FRA_artillery_equipment_3_short:0 "Canon de 155 mm GPF"
+ CZE_artillery_equipment_2_short:0 "Hrubý kanón vz. 35"
+ CZE_artillery_equipment_3_short:0 "Hrubá houfnice vz. 37"
+ GER_artillery_equipment_2_short:0 "15-cm sFH 18"
+ GER_artillery_equipment_3_short:0 "15-cm K 18"
+ ENG_artillery_equipment_2_short:0 "QF 25-pounder"
+ ENG_artillery_equipment_3_short:0 "BL 5.5-inch"
+ RAJ_artillery_equipment_2_short:0 "QF 25-pounder"
+ RAJ_artillery_equipment_3_short:0 "BL 5.5-inch"
+ CAN_artillery_equipment_2_short:0 "QF 25-pounder"
+ CAN_artillery_equipment_3_short:0 "BL 5.5-inch"
+ AST_artillery_equipment_2_short:0 "QF 25-pounder"
+ AST_artillery_equipment_3_short:0 "BL 5.5-inch"
+ NZL_artillery_equipment_2_short:0 "QF 25-pounder"
+ NZL_artillery_equipment_3_short:0 "BL 5.5-inch"
+ SAF_artillery_equipment_2_short:0 "QF 25-pounder"
+ SAF_artillery_equipment_3_short:0 "BL 5.5-inch"
+ USA_artillery_equipment_2_short:0 "105 mm M101A1"
+ USA_artillery_equipment_3_short:0 "155 mm M114"
+ ITA_artillery_equipment_3_short:0 "Obice da 210/22"
+ JAP_artillery_equipment_2_short:0 "Type 91 10 cm"
+ JAP_artillery_equipment_3_short:0 "Type 96 15 cm"
+ NOR_artillery_equipment_2_short:0 "12 cm felt./m09"
+ NOR_artillery_equipment_3_short:0 "12 cm felt./m32"
+ POL_artillery_equipment_2_short:0 "100 mm wz. 38 st."
+ POL_artillery_equipment_3_short:0 "155 mm wz. 40"
+ SWE_artillery_equipment_2_short:0 "10,5 cm Haubits m/40"
+ SWE_artillery_equipment_3_short:0 "12 cm Haubits m/14"
+ AUS_artillery_equipment_3_short:0 "15 cm M. 15/16"
+ HOL_artillery_equipment_2_short:0 "10,5 cm 10-veld"
+ HOL_artillery_equipment_3_short:0 "12 cm 12 lang 14"
+ BEL_artillery_equipment_2_short:0 "75 mm GP III"
+ BEL_artillery_equipment_3_short:0 "120 L modèle 1931"
+ GER_rocket_artillery_equipment_2_short:0 "Nebelwerfer 42"
+ JAP_rocket_artillery_equipment_2_short:0 "Type 4 40 cm"
+ gw_armored_car_equipment_short:0 "Véhicule blindé I"
+ armored_car_equipment_1_short:0 "Véhicule blindé II"
+ armored_car_equipment_2_short:0 "Véhicule blindé III"
+ artillery_equipment_2_short:0 "Canon amélioré"
+ artillery_equipment_3_short:0 "Canon avancé"
+ anti_air_equipment_2_short:0 "Canon AA amélioré"
+ anti_air_equipment_3_short:0 "Canon AA avancé"
+ rocket_artillery_equipment_2_short:0 "Lance-roq. avancé"
+ anti_tank_equipment_2_short:0 "Canon AC amélioré"
+ anti_tank_equipment_3_short:0 "Canon AC avancé"
+ amphibious_tank_equipment_1_short:0 "Char amphibie"
+ amphibious_tank_equipment_2_short:0 "Char amph. amélioré"
+ GER_amphibious_tank_equipment_1_short:0 "Schwimmpanzer II"
+ GER_amphibious_tank_equipment_2_short:0 "Tauchpanzer III"
+ USA_amphibious_tank_equipment_1_short:0 "LVT-1 (A)"
+ USA_amphibious_tank_equipment_2_short:0 "Sherman DD"
+ JAP_amphibious_tank_equipment_1_short:0 "Type 2 Ka-Mi"
+ JAP_amphibious_tank_equipment_2_short:0 "Type 3 Ka-Chi"
+ ENG_amphibious_tank_equipment_1_short:0 "Valentine DD"
+ ENG_amphibious_tank_equipment_2_short:0 "Cromwell DD"
+ SOV_amphibious_tank_equipment_1_short:0 "T-40"
+ SOV_amphibious_tank_equipment_2_short:0 "PT-76"
+ USA_train_equipment_1_short:0 "Pennsylvania I1s"
+ USA_train_equipment_2_short:0 "USATC S160"
+ JAP_train_equipment_1_short:0 "Classe D50"
+ JAP_train_equipment_2_short:0 "Classe D52"
+ ENG_train_equipment_2_short:0 "WD Austerity 2-8-0"
+ FRA_train_equipment_1_short:0 "SNCF 141 B/C "
+ FRA_train_equipment_2_short:0 "SNCF 141 P"
+ ITA_train_equipment_1_short:0 "FS 685"
+ SOV_railway_gun_equipment_1_short:0 "TM-3-12"

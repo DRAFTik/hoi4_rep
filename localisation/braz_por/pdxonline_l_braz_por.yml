@@ -33,7 +33,7 @@
  LAST_NAME:0 "Sobrenome"
  LOGGED_IN:0 "Entrou"
  LOGIN_DESCRIPTION:0 "Desfrute dos benefícios de jogar online, salvar o jogo na nuvem, conquistas e outras funções entrando com sua conta Paradox."
- LOGIN_DESCRIPTION_BOLD:0 "Entre com sua conta Paradox para jogar no multijogador"
+ LOGIN_DESCRIPTION_BOLD:1 "Entre com sua conta Paradox para jogar no modo multijogador"
  LOGIN_EMAIL_INVALID:0 "§RVocê deve inserir um e-mail válido§!"
  LOGIN_NO_EMAIL:0 "§RInsira o e-mail§!"
  LOGIN_NO_PASSWORD:0 "§RInsira a senha§!"

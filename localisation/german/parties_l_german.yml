@@ -1000,13 +1000,12 @@
  TTS_democratic_party:0 "Neapolitanisch-Republikanische Partei"
  TTS_fascism_party:1 "Partito Partenopea Fascista"
  TTS_neutrality_party:0 "Königspartei"
-
+ transylvania_fascism_party_long:0 "Faschistenpartei"
+ transylvania_fascism_party:0 "Faschist"
  
  
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- transylvania_fascism_party:0 "PD"
- transylvania_fascism_party_long:0 "Partidul Lui Dracula"
  SPA_democratic_party:0 "IR"
  SPA_democratic_party_long:0 "Izquierda Republicana"
  SPA_fascism_party:0 "Falange Española"

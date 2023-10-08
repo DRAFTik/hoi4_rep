@@ -1166,7 +1166,7 @@
  SWI_humanitarian:0 "Humanitarian"
  SWI_small_arms_designer:0 "Weapons Designer"
  SWI_guisan_leader_trait:0 "Popular Dictator"
- SWI_weapons_designer:1 "Weapons designer"
+ SWI_weapons_designer:2 "Weapons Designer"
  SWI_soviet_spy:0 "Soviet Spy"
  
  constitutional_philosopher:0 "Constitutional Philosopher"
@@ -1177,3 +1177,9 @@
  
  evans_deakin_trait:0 "Pacific Venture"
  cockatoo_trait:0 "Light Ship Specialist"
+
+ cautious_arbiter:0 "Cautious Arbiter"
+ viceroy_emeritus:0 "Viceroy Emeritus"
+ viceroy_emeritus_desc:0 "Lord Halifax served as viceroy of India for a prolonged period. His governorship was not without controversy, yet his diplomatic talent appears to produce results."
+ viceroy_emeritus_tt:0 "\nIf §HLord Halifax§! is our country leader, the autonomy effects of this focus will be doubled."
+ viceroy_emeritus_downside_tt:0 "\nDue to Lord Halifax' controversial history in India:"

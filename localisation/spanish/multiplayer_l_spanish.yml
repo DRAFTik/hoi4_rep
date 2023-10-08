@@ -152,6 +152,7 @@
  OOS_84:0 "Fuerzas especiales"
  OOS_85:0 "Alas"
  OOS_86:0 "Ases"
+ OOS_87:0 "Estadísticas de juego"
  MULTIPLAYER_PLAYERS:0 "$NUM$"
  MULTIPLAYER_MESSAGES:0 "$NUM$"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS:0 "§GJugando ya§!"

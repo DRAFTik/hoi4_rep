@@ -276,7 +276,7 @@
  controls_ethiopian_cores_tt:0 "Kontrolliert alle [ROOT.GetAdjective]en Kernstaaten"
  ETH_move_capital_to_axum:0 "Hauptstadt nach Axum verlegen"
  ETH_move_capital_to_axum_desc:0 "Axum ist uralt und sollte die neue Hauptstadt des Reiches werden."
- ETH_prevents_further_capital_moves_tt:0 "Die Hauptstadt kann nur einmal verlegt werden"
+ ETH_prevents_further_capital_moves_tt:1 "Die Hauptstadt nach Jerusalem zu verlegen, verhindert eine weitere Verlegung der Hauptstadt in der Zukunft."
  ETH_has_moved_capital_flag:0 " Hat die Hauptstadt bereits verlegt"
  form_empire_of_solomon:0 "Das Reich Salomos gründen"
  ETH_move_capital_to_jerusalem:0 "Jerusalem zur Hauptstadt des Reiches machen"
@@ -546,10 +546,10 @@
  ITA_train_irregulars_cd_tt:0 "\nDiese Entscheidung steht in §Y[?ITA_colonial_management_cd] Tagen§! erneut zur Verfügung.\n"
  ITA_reorganize_irregulars:0 "Irreguläre Truppen neu organisieren"
  ITA_reorganize_irregulars_desc:1 "Indem wir unsere irregulären Divisionen umstrukturieren, können wir sie stärken und zu einer schlagkräftigeren Truppe machen."
- ITA_reorganize_irregulars_tt:1 "Fügt allen irregulären Infanterie-Divisionsvorlagen §Y2 Bataillone $irregular_infantry$§! und §Y1 Bataillon $recon$§! hinzu.\nFügt allen irregulären Kavallerie-Divisionsvorlagen §Y2 Bataillone $cavalry$§! und §Y1 Bataillon $recon$ hinzu.\nFügt allen irregulären Kamelreiter-Divisionsvorlagen §Y2 Bataillone $camelry$§! und §Y1 Bataillon $recon$§! hinzu."
+ ITA_reorganize_irregulars_tt:1 "Fügt allen irregulären Infanterie-Divisionsvorlagen §Y2 Bataillone $irregular_infantry$§! und §Y1 Bataillon $recon$§! hinzu.\nFügt allen irregulären Kavallerie-Divisionsvorlagen §Y2 Bataillone $cavalry$§! und §Y1 Bataillon $recon$§! hinzu.\nFügt allen irregulären Kamelreiter-Divisionsvorlagen §Y2 Bataillone $camelry$§! und §Y1 Bataillon $recon$§! hinzu."
  ITA_reorganize_ascari:0 "Askari neu organisieren"
  ITA_reorganize_ascari_desc:1 "Indem wir unsere Askari-Divisionen umstrukturieren, können wir sie stärken und zu einer schlagkräftigeren Truppe machen."
- ITA_reorganize_ascari_tt:1 "Fügt allen kolonialen Infanterie-Divisionsvorlagen §Y1 Bataillon $armored_car_recon$§! und §Y1 Bataillon $artillery_brigade$§! hinzu.\nFügt allen kolonialen Kavallerie-Divisionsvorlagen §Y2 Bataillone $cavalry$§! und §Y1 Bataillon $recon$ hinzu.\nFügt allen kolonialen Kamelreiter-Divisionsvorlagen §Y2 Bataillone $camelry$§! und §Y1 Bataillon $recon$§! hinzu."
+ ITA_reorganize_ascari_tt:1 "Fügt allen kolonialen Infanterie-Divisionsvorlagen §Y1 Bataillon $armored_car_recon$§! und §Y1 Bataillon $artillery_brigade$§! hinzu.\nFügt allen kolonialen Kavallerie-Divisionsvorlagen §Y2 Bataillone $cavalry$§! und §Y1 Bataillon $recon$§! hinzu.\nFügt allen kolonialen Kamelreiter-Divisionsvorlagen §Y2 Bataillone $camelry$§! und §Y1 Bataillon $recon$§! hinzu."
  ITA_regional_development_in_state:0 "Regionale Entwicklung von [FROM.GetName]"
  ITA_regional_development_in_state_desc:1 "Unserer kolonialen Besitztümer zu entwickeln, wird sie bewohnbarer und wohlhabender machen."
 
@@ -920,13 +920,17 @@
 
  send_more_weapons_to_the_AOI:0 "Mehr Waffen nach AOI schicken"
 
- form_country_albania_required_states_tt:0 "Kontrolliert alle §Yalbanischen§! Staaten"
+ form_country_albania_required_states_tt:1 "Kontrolliert alle §Yalbanischen§! Kerne im Mittelmeer."
 
- form_country_mare_nostrum_required_states_tt:0 "Kontrolliert §YLaibach§!, §YDalmatien§!, §YBosnien§!, §YHerzegowina§! und §YMontenegro§!"
- form_country_mare_nostrum_turkey_required_states_tt:0 "Kontrolliert alle §Ytürkischen§! Staaten, die an das §YMittelmeer§! angrenzen"
- form_spqr_coastal_spain_required_states_tt:0 "Kontrolliert alle §Yspanischen§! Staaten, die an das §YMittelmeer§! angrenzen"
- form_spqr_coastal_france_required_states_tt:0 "Kontrolliert alle §Yfranzösischen§! Staaten, die an das §YMittelmeer§! angrenzen"
- form_spqr_coastal_uk_required_states_tt:0 "Kontrolliert alle §Ybritischen§! Staaten, die an das §YMittelmeer§! angrenzen"
+ form_country_mare_nostrum_required_states_tt:1 "Kontrolliert die jugoslawischen Kerne §Y[163.GetName]§!, §Y[853.GetName]§!, §Y[103.GetName]§!, §Y[104.GetName]§!, §Y[804.GetName]§! und §Y[105.GetName]§!."
+ form_country_mare_nostrum_turkey_required_states_tt:1 "Kontrolliert alle §Ytürkischen§! Kerne im Mittelmeer."
+ form_spqr_coastal_spain_required_states_tt:1 "Kontrolliert alle §Yspanischen§! Kerne im Mittelmeer."
+ form_spqr_coastal_france_required_states_tt:1 "Kontrolliert alle §Yfranzösischen§! Kerne im Mittelmeer."
+ form_spqr_coastal_uk_required_states_tt:1 "Kontrolliert alle §Ybritischen§! Kerne im Mittelmeer."
+ form_country_mare_nostrum_north_africa_required_states_tt:0 "Kontrolliert alle §Ynordafrikanischen§! Staaten im Mittelmeer und alle §Ylibyschen§! Kerne."
+ form_country_mare_nostrum_middle_east_required_states_tt:0 "Kontrolliert alle Staaten des §YMittleren Ostens§! im Mittelmeer."
+ form_country_mare_nostrum_greece_required_states_tt:0 "Kontrolliert alle §Ygriechischen§! Kerne im Mittelmeer."
+ form_mare_nostrum_coastal_uk_required_states_tt:0 "Kontrolliert die Staaten §Y[118.GetName]§!, §Y[116.GetName]§! und §Y[183.GetName]§!."
 
  form_spqr_core_mare_nostrum_states_tt:0 "Erlangt Kerne in §Yallen Staaten§!, die für die Entscheidung notwendig sind"
 

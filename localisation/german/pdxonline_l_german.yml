@@ -33,7 +33,7 @@
  LAST_NAME:0 "Nachname"
  LOGGED_IN:0 "Angemeldet"
  LOGIN_DESCRIPTION:0 "Melden Sie sich mit Ihrem Paradox-Konto an, um viele Vorteile zu genießen: Online-Spiel, Speichern in der Cloud, Erfolge und weitere zukünftige Features."
- LOGIN_DESCRIPTION_BOLD:0 "Melden Sie sich mit Ihrem Paradox-Konto an, um Multiplayer zu spielen"
+ LOGIN_DESCRIPTION_BOLD:1 "Melden Sie sich mit Ihrem Paradox-Konto an, um den Mehrspieler-Modus zu spielen"
  LOGIN_EMAIL_INVALID:0 "§RSie müssen eine gültige E-Mail-Adresse eingeben§!"
  LOGIN_NO_EMAIL:0 "§RE-Mail-Adresse fehlt§!"
  LOGIN_NO_PASSWORD:0 "§RPasswort fehlt§!"

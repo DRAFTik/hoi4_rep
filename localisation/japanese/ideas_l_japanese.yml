@@ -1101,6 +1101,7 @@
  CAN_communist_ideals:0 "共産主義の理想"
  CAN_communist_ideals_2:0 "共産主義の理想"
  CAN_communist_ideals_3:0 "共産主義の理想"
+ CAN_communist_ideals_4:0 "共産主義の理想"
  AUS_eduard_freiherr:0 "エードゥアルト・フライヘーア"
  AUS_alexander_lohr:0 "アレクサンダー・レーア"
  AUS_lothar_rendulic:0 "ロタール・レンデュリック"
@@ -2688,3 +2689,10 @@
  MAN_hoankyoku_idea_desc:0 "社会の不穏分子の処理を専門とする秘密組織。"
  AST_central_bureau_idea:0 "中央局"
  AST_central_bureau_idea_desc:0 "太平洋戦域にいる敵の取り組みに対抗するために創設された共同諜報部隊で、アメリカと連係関係にある。"
+ ROM_national_christian_party_in_power:0 "キリスト教国民党"
+ 
+ CAN_unified_communist_party:0 "団結した民衆"
+ CAN_unified_communist_party_desc:0 "過去の不和が解消され、関係は修復された。だが、国に仕える者同士、運命共同体と割り切った我々の寛大さは、口先だけで大義を語り、権力の追求というもっとも浅ましい動機しか持たぬ者達によって、疑惑の眼を向けられている。"
+ CAN_true_revolution:0 "真の革命"
+ CAN_booming_economy:0 "経済の急成長"
+ CAN_booming_economy_desc:0 "大恐慌が完全に過去の出来事となった今、我が国の経済は現在の世界情勢における膨大な需要のもと、改善の兆しを見せ始めている。"

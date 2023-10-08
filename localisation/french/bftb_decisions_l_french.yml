@@ -298,6 +298,7 @@
  TUR_pay_off_our_debts_desc:0 "L'Empire ottoman avait accumulé un nombre colossal de dettes au cours de son existence, et nous-mêmes avons dû reconstruire beaucoup de choses dans le pays. Mais [Root.GetLeLaLNP] [Root.GetName] d'aujourd'hui [Root.GetEstSontNP] désormais en mesure de rembourser en partie cette dette."
  TUR_discuss_investment_possibilities_with_FROM:0 "Discuter de possibilités d'investissements avec les [From.GetHabitants]"
  TUR_discuss_investment_possibilities_with_FROM_desc:0 "Par le passé, [Root.GetLeLaLNP] [Root.GetName] [Root.GetAOntNP] cherché à éviter autant que possible les investissements et ingérences étrangères. Mais nous n'avons plus grand-chose à craindre de simples transactions, telles que des investissements économiques. Nous pouvons désormais discuter sur un pied d'égalité avec les [From.GetHabitants], et en tirer profit."
+ TUR_investment_in_turkey_pending_flag:0 "[From.GetLeLaLNPCap] [From.GetFlag]§Y[From.GetName]§! [From.GetAOntNP] accepté d'investir mais ne s'y [From.GetEstSontNP] pas encore attelé[From.GetXENP]."
  TUR_investment_opinion_tt:0 "Meilleure sera l'opinion [From.GetDuDelaDelNP] §Y[From.GetName]§! à notre égard, plus nombreuses seront les opportunités d'investissements.\n"
  ROOT_invest_in_turkish_state_building:1 "Investir dans les infrastructures [From.GetAdjFP]"
  ROOT_invest_in_turkish_state_building_desc:0 "Les infrastructures de nombreuses régions [From.GetAdjFP] sont sous-développées. Il convient de remédier à cette situation."
@@ -920,7 +921,7 @@
  BUL_secure_occupation_in_balkan_state:0 "S'assurer de l'occupation de l'État de [From.GetName]"
  BUL_secure_occupation_in_balkan_state_desc:0 "Nous devons assumer notre rôle de maintien de l'ordre dans les Balkans. Il nous faut donc proposer à nos alliés de nous transmettre le contrôle administratif sur leurs territoires occupés des Balkans afin de soulager les garnisons [Root.GetDuDelaDelFaction] [Root.GetFactionName] en les envoyant renforcer d'autres fronts."
  BUL_secure_occupation_in_balkan_state_tt:0 "(Les pays ayant peu d'§Yeffectifs§! et de §Ymatériel d'infanterie§! seront plus enclins à accepter.)"
- BUL_bulgarian_reintegration_campaign:1 "Campagne de réintégration bulgare dans l'État de [From.GetName]"
+ BUL_bulgarian_reintegration_campaign:2 "Campagne de réintégration bulgare dans l'État de [From.GetName]"
  bulgarian_territorial_expansion_arranged:0 "Expansion territoriale bulgare arrangée par avance"
  BUL_bulgarian_territorial_expansion_arranged_tt:0 "Les États ayant le modificateur §Y$bulgarian_territorial_expansion_arranged$§! seront transférés à la Bulgarie une fois que celle-ci sera membre de la même faction que l'Allemagne et que cette faction contrôlera ces États."
 

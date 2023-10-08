@@ -664,7 +664,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = fascism
+				CAN = { has_same_ideology = yes }
 			}
 		}
 		
@@ -735,6 +735,10 @@ country_event = {
 					target = CAN
 					value > 50
 				}
+			}
+			modifier = {
+				factor = 1.25
+				CAN = { has_same_ideology = yes }
 			}
 		}
 		

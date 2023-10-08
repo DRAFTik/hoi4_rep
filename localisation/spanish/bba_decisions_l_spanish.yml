@@ -276,7 +276,7 @@
  controls_ethiopian_cores_tt:0 "Controla todos los estados esenciales [ROOT.GetAdjective]."
  ETH_move_capital_to_axum:0 "Trasladar la capital a Aksum"
  ETH_move_capital_to_axum_desc:0 "La antigua ciudad de Aksum debería ser la nueva capital del imperio."
- ETH_prevents_further_capital_moves_tt:0 "Solo se puede trasladar la capital una vez."
+ ETH_prevents_further_capital_moves_tt:1 "Trasladar la capital a Jerusalén impide trasladar la capital más veces."
  ETH_has_moved_capital_flag:0 " Ya se ha trasladado la capital"
  form_empire_of_solomon:0 "Formar el Imperio de Salomón"
  ETH_move_capital_to_jerusalem:0 "Hacer que Jerusalén sea la capital del imperio"
@@ -920,13 +920,17 @@
 
  send_more_weapons_to_the_AOI:0 "Enviar más armas al AOI"
 
- form_country_albania_required_states_tt:0 "Controla todos los estados §Yalbaneses§!"
+ form_country_albania_required_states_tt:1 "Controla todos los territorios esenciales §Yalbaneses§! del Mediterráneo."
 
- form_country_mare_nostrum_required_states_tt:0 "Controla §YLiubliana§!, §YDalmacia§!, §YBosnia§!, §YHerzegovina§! y §YMontenegro§!"
- form_country_mare_nostrum_turkey_required_states_tt:0 "Controla todos los estados §Yturcos§! con frontera en el mar §YMediterráneo§!"
- form_spqr_coastal_spain_required_states_tt:0 "Controla todos los estados §Yespañoles§! con frontera en el mar §YMediterráneo§!"
- form_spqr_coastal_france_required_states_tt:0 "Controla todos los estados §Yfranceses§! con frontera en el mar §YMediterráneo§!"
- form_spqr_coastal_uk_required_states_tt:0 "Controla todos los estados §Ybritánicos§! con frontera en el mar §YMediterráneo§!"
+ form_country_mare_nostrum_required_states_tt:1 "Controla los territorios esenciales yugoslavos §Y[163.GetName]§!, §Y[853.GetName]§!, §Y[103.GetName]§!, §Y[104.GetName]§!, §Y[804.GetName]§! y §Y[105.GetName]§!."
+ form_country_mare_nostrum_turkey_required_states_tt:1 "Controla todos los territorios esenciales §Yturcos§! del Mediterráneo."
+ form_spqr_coastal_spain_required_states_tt:1 "Controla todos los territorios esenciales §Yespañoles§! del Mediterráneo."
+ form_spqr_coastal_france_required_states_tt:1 "Controla todos los territorios esenciales §Yfranceses§! del Mediterráneo."
+ form_spqr_coastal_uk_required_states_tt:1 "Controla todos los territorios esenciales §Ybritánicos§! del Mediterráneo."
+ form_country_mare_nostrum_north_africa_required_states_tt:0 "Controla todos los estados §Ynorteafricanos§! del Mediterráneo y todos los territorios esenciales §Ylibios§!."
+ form_country_mare_nostrum_middle_east_required_states_tt:0 "Controla todos los estados de §YOriente Medio§! del Mediterráneo."
+ form_country_mare_nostrum_greece_required_states_tt:0 "Controla todos los territorios esenciales §Ygriegos§! del Mediterráneo."
+ form_mare_nostrum_coastal_uk_required_states_tt:0 "Controla los estados §Y[118.GetName]§!, §Y[116.GetName]§! y §Y[183.GetName]§!."
 
  form_spqr_core_mare_nostrum_states_tt:0 "Gana territorios esenciales en §Ytodos los estados§! requeridos para tomar la decisión"
 

@@ -90,7 +90,7 @@
  OPEN_ARMY_LEADER_PREFERRED_TACTIC_SELECTION:0 "Il est possible de choisir une §Htactique favorite§! pour ce personnage."
  TACTIC_CONDITIONS_NOT_MET:0 "Les conditions pour choisir cette tactique ne sont pas remplies.\n"
  TACTIC_CHANCE_OF_SELECTION:0 "Chances de choisir cette tactique : $CHANCE|H$\n"
- TACTIC_TOTAL_WEIGHT:0 "    Poids total de toutes les tactiques utilisables : $WEIGHT|H$\n"
+ TACTIC_TOTAL_WEIGHT:0 "    Poids total des tactiques utilisables : $WEIGHT|H$\n"
  TACTIC_WEIGHT_OF_TACTIC:0 "    Poids de cette tactique : $WEIGHT|H$\n"
  TACTIC_CHANCE_CALCULATION:0 "    $WEIGHT$/$TOTAL_WEIGHT$ = $CHANCE|H$"
  TACTIC_NOT_UNLOCKED:0 "Tactique non débloquée.\n"

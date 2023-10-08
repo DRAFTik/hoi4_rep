@@ -298,6 +298,7 @@
  TUR_pay_off_our_debts_desc:0 "Das Osmanische Reich hat im Lauf seiner Existenz gewaltige Schulden angehäuft, und auch wir haben beim Wiederaufbau unserer Nation recht viel Geld ausgegeben. Im Moment sind wir in der glücklichen Lage, einen Teil dieser Schulden abbezahlen zu können!"
  TUR_discuss_investment_possibilities_with_FROM:0 "Mit [FROM.GetNameDef] Investitionsmöglichkeiten besprechen"
  TUR_discuss_investment_possibilities_with_FROM_desc:0 "Die [ROOT.GetAdjective]e Politik bestand bisher darin, ausländische Investitionen und Einmischungen so weit wie möglich zu vermeiden. Nun aber wir von einfachen Transaktionen wie einer Investition nicht mehr viel zu befürchten. Sie werden uns als ebenbürtige Partner begegnen, und wir können davon profitieren."
+ TUR_investment_in_turkey_pending_flag:0 "[FROM.GetNameDefCap] hat unserer Investition zugestimmt, sich aber noch nicht verpflichtet."
  TUR_investment_opinion_tt:0 "Je besser die Meinung, die §Y[FROM.GetNameDef]§! von uns hat, desto mehr Investitionsgelegenheiten gibt es.\n"
  ROOT_invest_in_turkish_state_building:1 "In den Aufbau des [FROM.GetAdjective]en Staats investieren"
  ROOT_invest_in_turkish_state_building_desc:0 "Die kritische Infrastruktur ist in den meisten [FROM.GetAdjective]en Regionen unterentwickelt. Das können wir ändern."
@@ -920,7 +921,7 @@
  BUL_secure_occupation_in_balkan_state:0 "Die Besatzung in [FROM.GetName] sichern"
  BUL_secure_occupation_in_balkan_state_desc:0 "Wir müssen unsere Rolle als Friedenshüter auf dem Balkan annehmen und unseren Verbündeten vorschlagen, dass sie uns die administrative Kontrolle über ihre besetzten Gebiete in der Region überlassen. So könnten sie ihre Truppen aus den [ROOT.GetFactionName]-Garnisonen abziehen und dafür andere Fronten verstärken."
  BUL_secure_occupation_in_balkan_state_tt:0 "(Länder mit wenig §YMannstärke§! und §YInfantry-Ausrüstung§! sind eher geneigt, einzuwilligen.)"
- BUL_bulgarian_reintegration_campaign:1 "Bulgarische Reintegrationskampagne in [FROM.GetName]"
+ BUL_bulgarian_reintegration_campaign:2 "Bulgarische Reintegrationskampagne in [FROM.GetName]"
  bulgarian_territorial_expansion_arranged:0 "Vorab arrangierte bulgarische Gebietsexpansion"
  BUL_bulgarian_territorial_expansion_arranged_tt:0 "Staaten mit §YVorab arrangierter bulgarischer Gebietsexpansion§! Modifikatoren werden auf Bulgarien übertragen, sobald ein Bündnismitglied den Staat kontrolliert und Bulgarien demselben Bündnis wie Deutschland beigetreten ist."
 

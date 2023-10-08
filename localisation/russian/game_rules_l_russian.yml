@@ -522,6 +522,16 @@
  LON_NON_INTERFERENCE_RESOLUTION_JOIN:0 "[FROM.GetNameDef] вне доступа: нельзя присоединиться к конфликту из-за принятия Лигой Наций резолюции о невмешательстве"
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT:0 "Сейчас [ETH.GetName] принимает только добровольческие отряды"
 
+ RULE_GROUP_PEACE_SCORE:0 "Перераспределение очков мира"
+ PEACE_SCORE_TO_OVERLORD:0 "Марионетки и метрополия"
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_YES_DESC:0 "Марионетки передают часть своих очков мира метрополии. Доля передаваемых очков зависит от уровня автономии."
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_NO_DESC:0 "Марионетки сохраняют все очки мира, заработанные во время войны."
+ PEACE_SCORE_TO_FACTION_LEADER:0 "Участники альянса и лидер альянса"
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_YES_DESC:0 "Участники альянса передают 10% своих очков мира лидеру альянса."
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_NO_DESC:0 "Участники альянса сохраняют все очки мира, заработанные во время войны."
+ PEACE_SCORE_RESET_LOW_SCORES:0 "Перераспределение малого количества очков"
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_YES_DESC:0 "Победители, чей показатель участия в войне составляет менее 5%, передают все свои очки другим победителям.\nНе действует, если ни один победитель не набрал более 10% участия в войне.\nНе применяется к игрокам-людям."
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_NO_DESC:0 "Все победители сохраняют все очки мира, заработанные во время войны."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  RULE_OPTION_IMPERIAL_SWI_AI_DESC:0 "ИИ попытается образовать Альпийский протекторат, променяв нейтралитет и демократию на милитаристский и экспансионистский режим."

@@ -153,497 +153,7 @@
  LBA_GER_fascism_autonomy_puppet_DEF:0 "le Reichsprotektorat Nordafrika"
  LBA_GER_autonomy_integrated_puppet_DEF:0 "la Deutsch-Nordafrika"
  KEN_GER_autonomy_satellite:0 "Ostafrika"
- KEN_GER_autonomy_protectorate:0 "Reichsprotektorat Ostafrika" # [LocEditor:CustomLanguageKey]
  KEN_GER_autonomy_reichsprotectorate:0 "Reichsprotektorat Ostafrika"
- MNT_ITA_fascism_autonomy_reichskommissariat:0 "Province du Monténégro" # [LocEditor:CustomLanguageKey]
- MNT_ITA_fascism_autonomy_reichskommissariat_DEF:0 "la Province du Monténégro" # [LocEditor:CustomLanguageKey]
- MNT_ITA_fascism_autonomy_reichsprotectorate:0 "Gouvernorat du Monténégro" # [LocEditor:CustomLanguageKey]
- MNT_ITA_fascism_autonomy_reichsprotectorate_DEF:0 "le Gouvernorat du Monténégro" # [LocEditor:CustomLanguageKey]
- MNT_ITA_fascism_autonomy_satellite:0 "Royaume du Monténégro" # [LocEditor:CustomLanguageKey]
- MNT_ITA_fascism_autonomy_satellite_DEF:0 "le Royaume du Monténégro" # [LocEditor:CustomLanguageKey]
- FRLOC_FRA_FREE_democratic_ADJ_MS:0 "français libre" # [LocEditor:CustomLanguageKey]
- FRLOC_FRA_FREE_democratic_ADJ_FS:0 "française libre" # [LocEditor:CustomLanguageKey]
- FRLOC_FRA_FREE_democratic_ADJ_MP:0 "français libres" # [LocEditor:CustomLanguageKey]
- FRLOC_FRA_FREE_democratic_ADJ_FP:0 "françaises libres" # [LocEditor:CustomLanguageKey]
- FRLOC_FRA_FREE_democratic_INHAB:0 "Français libres" # [LocEditor:CustomLanguageKey]
- HUN_MONARCHY_democratic_DEF:0 "le royaume de Hongrie" # [LocEditor:CustomLanguageKey]
- HUN_MONARCHY_fascism_DEF:0 "le royaume de Hongrie" # [LocEditor:CustomLanguageKey]
- FRLOC_NDC_UNIFIED_ADJ_S:0 "nordique" # [LocEditor:CustomLanguageKey]
- FRLOC_NDC_UNIFIED_ADJ_P:0 "nordiques" # [LocEditor:CustomLanguageKey]
- FRLOC_NDC_UNIFIED_INHAB:0 "Nordiques" # [LocEditor:CustomLanguageKey]
- FRLOC_PLC_UNIFIED_ADJ_MS:0 "polono-lituanien" # [LocEditor:CustomLanguageKey]
- FRLOC_PLC_UNIFIED_ADJ_MP:0 "polono-lituaniens" # [LocEditor:CustomLanguageKey]
- FRLOC_PLC_UNIFIED_ADJ_FS:0 "polono-lituanienne" # [LocEditor:CustomLanguageKey]
- FRLOC_PLC_UNIFIED_ADJ_FP:0 "polono-lituaniennes" # [LocEditor:CustomLanguageKey]
- FRLOC_PLC_UNIFIED_INHAB:0 "Polono-Lituaniens" # [LocEditor:CustomLanguageKey]
- BAL_UNIFIED_neutrality_ADJ:0 "balte" # [LocEditor:CustomLanguageKey]
- BAL_UNIFIED_fascism_ADJ:0 "balte" # [LocEditor:CustomLanguageKey]
- BAL_UNIFIED_democratic_ADJ:0 "balte" # [LocEditor:CustomLanguageKey]
- BAL_UNIFIED_communism_ADJ:0 "balte" # [LocEditor:CustomLanguageKey]
- FRLOC_BAL_UNIFIED_ADJ_S:0 "balte" # [LocEditor:CustomLanguageKey]
- FRLOC_BAL_UNIFIED_ADJ_P:0 "baltes" # [LocEditor:CustomLanguageKey]
- FRLOC_BAL_UNIFIED_INHAB:0 "Baltes" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_DEF:0 "l'État provisoire d'Anatolie" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_ADJ:0 "anatolienne" # [LocEditor:CustomLanguageKey]
- FRLOC_TUR_PROVISIONARY_ADJ_MS:0 "anatolien" # [LocEditor:CustomLanguageKey]
- FRLOC_TUR_PROVISIONARY_ADJ_FS:0 "anatolienne" # [LocEditor:CustomLanguageKey]
- FRLOC_TUR_PROVISIONARY_ADJ_MP:0 "anatoliens" # [LocEditor:CustomLanguageKey]
- FRLOC_TUR_PROVISIONARY_ADJ_FP:0 "anatoliennes" # [LocEditor:CustomLanguageKey]
- FRLOC_TUR_PROVISIONARY_INHAB:0 "Anatoliens" # [LocEditor:CustomLanguageKey]
- EUR_UNIFIED_neutrality_ADJ:0 "européenne" # [LocEditor:CustomLanguageKey]
- EUR_UNIFIED_fascism_ADJ:0 "européenne" # [LocEditor:CustomLanguageKey]
- EUR_UNIFIED_democratic_ADJ:0 "européenne" # [LocEditor:CustomLanguageKey]
- EUR_UNIFIED_communism_ADJ:0 "européenne" # [LocEditor:CustomLanguageKey]
- FRLOC_EUR_UNIFIED_ADJ_MS:0 "européen" # [LocEditor:CustomLanguageKey]
- FRLOC_EUR_UNIFIED_ADJ_FS:0 "européenne" # [LocEditor:CustomLanguageKey]
- FRLOC_EUR_UNIFIED_ADJ_MP:0 "européens" # [LocEditor:CustomLanguageKey]
- FRLOC_EUR_UNIFIED_ADJ_FP:0 "européennes" # [LocEditor:CustomLanguageKey]
- FRLOC_EUR_UNIFIED_INHAB:0 "Européens" # [LocEditor:CustomLanguageKey]
- BYZ_UNIFIED_neutrality_ADJ:0 "byzantine" # [LocEditor:CustomLanguageKey]
- BYZ_UNIFIED_fascism_ADJ:0 "byzantine" # [LocEditor:CustomLanguageKey]
- BYZ_UNIFIED_democratic_ADJ:0 "byzantine" # [LocEditor:CustomLanguageKey]
- BYZ_UNIFIED_communism_ADJ:0 "byzantine" # [LocEditor:CustomLanguageKey]
- FRLOC_BYZ_UNIFIED_ADJ_MS:0 "byzantin" # [LocEditor:CustomLanguageKey]
- FRLOC_BYZ_UNIFIED_ADJ_FS:0 "byzantine" # [LocEditor:CustomLanguageKey]
- FRLOC_BYZ_UNIFIED_ADJ_MP:0 "byzantins" # [LocEditor:CustomLanguageKey]
- FRLOC_BYZ_UNIFIED_ADJ_FP:0 "byzantines" # [LocEditor:CustomLanguageKey]
- FRLOC_BYZ_UNIFIED_INHAB:0 "Byzantins" # [LocEditor:CustomLanguageKey]
- GER_provisional_gvt_neutrality_DEF:0 "la Junte militaire allemande" # [LocEditor:CustomLanguageKey]
- GER_provisional_gvt_democratic_DEF:0 "le Gouvernement provisoire allemand" # [LocEditor:CustomLanguageKey]
- PRC_proclaimed_democratic_DEF:0 "la République chinoise" # [LocEditor:CustomLanguageKey]
- PRC_proclaimed_neutrality_DEF:0 "la Chine" # [LocEditor:CustomLanguageKey]
- GER_greater_german_reich_fascism_DEF:0 "le Grand Reich allemand" # [LocEditor:CustomLanguageKey]
- KPB_kingdom_portugal_and_brazil_ADJ_MS:0 "portugo-brésilien" # [LocEditor:CustomLanguageKey]
- KPB_kingdom_portugal_and_brazil_ADJ_FS:0 "portugo-brésilienne" # [LocEditor:CustomLanguageKey]
- KPB_kingdom_portugal_and_brazil_ADJ_MP:0 "portugo-brésiliens" # [LocEditor:CustomLanguageKey]
- KPB_kingdom_portugal_and_brazil_ADJ_FP:0 "portugo-brésiliennes" # [LocEditor:CustomLanguageKey]
- KPB_kingdom_portugal_and_brazil_INHAB:0 "Portugo-Brésiliens" # [LocEditor:CustomLanguageKey]
- ESU_POR_unified_neutrality:0 "Ibérie" # [LocEditor:CustomLanguageKey]
- ESU_POR_unified_neutrality_def:0 "l'Ibérie" # [LocEditor:CustomLanguageKey]
- ESU_POR_unified_neutrality_adj:0 "ibérique" # [LocEditor:CustomLanguageKey]
- ESU_POR_unified_ADJ_S:0 "ibérique" # [LocEditor:CustomLanguageKey]
- ESU_POR_unified_ADJ_P:0 "ibériques" # [LocEditor:CustomLanguageKey]
- ESU_POR_unified_INHAB:0 "Ibères" # [LocEditor:CustomLanguageKey]
- COUNTRY_autonomy_collaboration_government_INHAB:0 "$NONIDEOLOGYADJ|U$$OVERLORDADJ|U$" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_democratic_ADJ_P:0 "pacifiques" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_democratic_INHAB:0 "Pacifiques" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_communism_ADJ_MS:0 "océanien" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_communism_ADJ_MP:0 "océaniens" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_communism_ADJ_FP:0 "océaniennes" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_communism_INHAB:0 "Océaniens" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_neutrality_ADJ_MS:0 "polynésien" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_neutrality_ADJ_MP:0 "polynésiens" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_neutrality_ADJ_FP:0 "polynésiennes" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_neutrality_INHAB:0 "Polynésiens" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_fascism_ADJ_MS:0 "polynésien" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_fascism_ADJ_MP:0 "polynésiens" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_fascism_ADJ_FP:0 "polynésiennes" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_fascism_INHAB:0 "Polynésiens" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_ADJ_MS:0 "polynésien" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_ADJ_MP:0 "polynésiens" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_ADJ_FP:0 "polynésiennes" # [LocEditor:CustomLanguageKey]
- FRLOC_united_polynesia_INHAB:0 "Polynésiens" # [LocEditor:CustomLanguageKey]
- FRLOC_CAT_aragon_ADJ_M:0 "aragonais" # [LocEditor:CustomLanguageKey]
- FRLOC_CAT_aragon_ADJ_FS:0 "aragonaise" # [LocEditor:CustomLanguageKey]
- FRLOC_CAT_aragon_ADJ_FP:0 "aragonaises" # [LocEditor:CustomLanguageKey]
- FRLOC_CAT_aragon_INHAB:0 "Aragonais" # [LocEditor:CustomLanguageKey]
- SPR_castille_democratic:0 "Castille" # [LocEditor:CustomLanguageKey]
- SPR_castille_democratic_DEF:0 "la Castille" # [LocEditor:CustomLanguageKey]
- SPR_castille_democratic_ADJ:0 "castillane" # [LocEditor:CustomLanguageKey]
- FRLOC_SPR_castille_ADJ_MS:0 "castillan" # [LocEditor:CustomLanguageKey]
- FRLOC_SPR_castille_ADJ_FS:0 "castillane" # [LocEditor:CustomLanguageKey]
- FRLOC_SPR_castille_ADJ_MP:0 "castillans" # [LocEditor:CustomLanguageKey]
- FRLOC_SPR_castille_ADJ_FP:0 "castillanes" # [LocEditor:CustomLanguageKey]
- FRLOC_SPR_castille_INHAB:0 "Castillans" # [LocEditor:CustomLanguageKey]
- FRLOC_FRANCO_SPAIN_ADJ_MS:0 "franco-espagnol" # [LocEditor:CustomLanguageKey]
- FRLOC_FRANCO_SPAIN_ADJ_FS:0 "franco-espagnole" # [LocEditor:CustomLanguageKey]
- FRLOC_FRANCO_SPAIN_ADJ_MP:0 "franco-espagnols" # [LocEditor:CustomLanguageKey]
- FRLOC_FRANCO_SPAIN_ADJ_FP:0 "franco-espagnoles" # [LocEditor:CustomLanguageKey]
- FRLOC_FRANCO_SPAIN_INHAB:0 "Franco-Espagnols" # [LocEditor:CustomLanguageKey]
- GRE_byz_republic_communism:0 "$GRE_byz_republic_fascism$" # [LocEditor:CustomLanguageKey]
- GRE_byz_republic_communism_DEF:0 "$GRE_byz_republic_fascism_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_byz_republic_communism_ADJ:0 "$GRE_byz_republic_fascism_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_byz_republic_democratic:0 "$GRE_byz_republic_fascism$" # [LocEditor:CustomLanguageKey]
- GRE_byz_republic_democratic_DEF:0 "$GRE_byz_republic_fascism_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_byz_republic_democratic_ADJ:0 "$GRE_byz_republic_fascism_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_byz_republic_neutrality:0 "$GRE_byz_republic_fascism$" # [LocEditor:CustomLanguageKey]
- GRE_byz_republic_neutrality_DEF:0 "$GRE_byz_republic_fascism_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_byz_republic_neutrality_ADJ:0 "$GRE_byz_republic_fascism_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_dem_monarchy_communism:0 "$GRE_dem_monarchy_democratic$" # [LocEditor:CustomLanguageKey]
- GRE_dem_monarchy_communism_DEF:0 "$GRE_dem_monarchy_democratic_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_dem_monarchy_communism_ADJ:0 "$GRE_dem_monarchy_democratic_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_dem_monarchy_neutrality:0 "$GRE_dem_monarchy_democratic$" # [LocEditor:CustomLanguageKey]
- GRE_dem_monarchy_neutrality_DEF:0 "$GRE_dem_monarchy_democratic_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_dem_monarchy_neutrality_ADJ:0 "$GRE_dem_monarchy_democratic_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_com_independent_democratic:0 "$GRE_com_independent_communism$" # [LocEditor:CustomLanguageKey]
- GRE_com_independent_democratic_DEF:0 "$GRE_com_independent_communism_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_com_independent_democratic_ADJ:0 "$GRE_com_independent_communism_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_com_independent_fascism:0 "$GRE_com_independent_communism$" # [LocEditor:CustomLanguageKey]
- GRE_com_independent_fascism_DEF:0 "$GRE_com_independent_communism_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_com_independent_fascism_ADJ:0 "$GRE_com_independent_communism_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_com_independent_neutrality:0 "$GRE_com_independent_communism$" # [LocEditor:CustomLanguageKey]
- GRE_com_independent_neutrality_DEF:0 "$GRE_com_independent_communism_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_com_independent_neutrality_ADJ:0 "$GRE_com_independent_communism_ADJ$" # [LocEditor:CustomLanguageKey]
- FRLOC_GRE_com_independent_communism_ADJ_S:0 "hellène" # [LocEditor:CustomLanguageKey]
- FRLOC_GRE_com_independent_communism_ADJ_P:0 "hellènes" # [LocEditor:CustomLanguageKey]
- FRLOC_GRE_com_independent_communism_INHAB:0 "Hellènes" # [LocEditor:CustomLanguageKey]
- GRE_stalinist_fascism:0 "$GRE_stalinist_communism$" # [LocEditor:CustomLanguageKey]
- GRE_stalinist_fascism_DEF:0 "$GRE_stalinist_communism_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_stalinist_fascism_ADJ:0 "$GRE_stalinist_communism_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_stalinist_neutrality:0 "$GRE_stalinist_communism$" # [LocEditor:CustomLanguageKey]
- GRE_stalinist_neutrality_DEF:0 "$GRE_stalinist_communism_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_stalinist_neutrality_ADJ:0 "$GRE_stalinist_communism_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_stalinist_democratic:0 "$GRE_stalinist_communism$" # [LocEditor:CustomLanguageKey]
- GRE_stalinist_democratic_DEF:0 "$GRE_stalinist_communism_DEF$" # [LocEditor:CustomLanguageKey]
- GRE_stalinist_democratic_ADJ:0 "$GRE_stalinist_communism_ADJ$" # [LocEditor:CustomLanguageKey]
- GRE_GREATER_GREECE_neutrality_ADJ:0 "grecque" # [LocEditor:CustomLanguageKey]
- FRLOC_GRE_GREATER_GREECE_communism_ADJ_MS:0 "égéen" # [LocEditor:CustomLanguageKey]
- FRLOC_GRE_GREATER_GREECE_communism_ADJ_FS:0 "égéenne" # [LocEditor:CustomLanguageKey]
- FRLOC_GRE_GREATER_GREECE_communism_ADJ_MP:0 "égéens" # [LocEditor:CustomLanguageKey]
- FRLOC_GRE_GREATER_GREECE_communism_ADJ_FP:0 "égéennes" # [LocEditor:CustomLanguageKey]
- FRLOC_GRE_GREATER_GREECE_communism_INHAB:0 "Égéens" # [LocEditor:CustomLanguageKey]
- FRLOC_MAE_NOT_COMMUNISM_ADJ_MS:0 "macédonien" # [LocEditor:CustomLanguageKey]
- FRLOC_MAE_NOT_COMMUNISM_ADJ_FS:0 "macédonienne" # [LocEditor:CustomLanguageKey]
- FRLOC_MAE_NOT_COMMUNISM_ADJ_MP:0 "macédoniens" # [LocEditor:CustomLanguageKey]
- FRLOC_MAE_NOT_COMMUNISM_ADJ_FP:0 "macédoniennes" # [LocEditor:CustomLanguageKey]
- FRLOC_MAE_NOT_COMMUNISM_INHAB:0 "Macédoniens" # [LocEditor:CustomLanguageKey]
- FRLOC_MAE_COMMUNISM_ADJ_S:0 "argéade" # [LocEditor:CustomLanguageKey]
- FRLOC_MAE_COMMUNISM_ADJ_P:0 "argéades" # [LocEditor:CustomLanguageKey]
- FRLOC_MAE_COMMUNISM_INHAB:0 "Argéades" # [LocEditor:CustomLanguageKey]
- FRLOC_UBF_united_balkan_federation_ADJ_S:0 "balkanique" # [LocEditor:CustomLanguageKey]
- FRLOC_UBF_united_balkan_federation_ADJ_P:0 "balkaniques" # [LocEditor:CustomLanguageKey]
- FRLOC_UBF_united_balkan_federation_INHAB:0 "Balkaniques" # [LocEditor:CustomLanguageKey]
- FRLOC_TRN_NOT_COMMUNISM_ADJ_MS:0 "touranien" # [LocEditor:CustomLanguageKey]
- FRLOC_TRN_NOT_COMMUNISM_ADJ_FS:0 "touranienne" # [LocEditor:CustomLanguageKey]
- FRLOC_TRN_NOT_COMMUNISM_ADJ_MP:0 "touraniens" # [LocEditor:CustomLanguageKey]
- FRLOC_TRN_NOT_COMMUNISM_ADJ_FP:0 "touraniennes" # [LocEditor:CustomLanguageKey]
- FRLOC_TRN_NOT_COMMUNISM_INHAB:0 "Touraniens" # [LocEditor:CustomLanguageKey]
- FRLOC_TRN_COMMUNISM_ADJ_S:0 "turcique" # [LocEditor:CustomLanguageKey]
- FRLOC_TRN_COMMUNISM_ADJ_P:0 "turciques" # [LocEditor:CustomLanguageKey]
- FRLOC_TRN_COMMUNISM_INHAB:0 "Turciques" # [LocEditor:CustomLanguageKey]
- FRLOC_SLV_YUG_subject_ADJ_MS:0 "dravien" # [LocEditor:CustomLanguageKey]
- FRLOC_SLV_YUG_subject_ADJ_FS:0 "dravienne" # [LocEditor:CustomLanguageKey]
- FRLOC_SLV_YUG_subject_ADJ_MP:0 "draviens" # [LocEditor:CustomLanguageKey]
- FRLOC_SLV_YUG_subject_ADJ_FP:0 "draviennes" # [LocEditor:CustomLanguageKey]
- FRLOC_SLV_YUG_subject_INHAB:0 "Draviens" # [LocEditor:CustomLanguageKey]
- FRLOC_MAC_YUG_subject_ADJ_MS:0 "vardarien" # [LocEditor:CustomLanguageKey]
- FRLOC_MAC_YUG_subject_ADJ_FS:0 "vardarienne" # [LocEditor:CustomLanguageKey]
- FRLOC_MAC_YUG_subject_ADJ_MP:0 "vardariens" # [LocEditor:CustomLanguageKey]
- FRLOC_MAC_YUG_subject_ADJ_FP:0 "vardariennes" # [LocEditor:CustomLanguageKey]
- FRLOC_MAC_YUG_subject_INHAB:0 "Vardariens" # [LocEditor:CustomLanguageKey]
- FRLOC_MNT_YUG_subject_ADJ_MS:0 "zétien" # [LocEditor:CustomLanguageKey]
- FRLOC_MNT_YUG_subject_ADJ_FS:0 "zétienne" # [LocEditor:CustomLanguageKey]
- FRLOC_MNT_YUG_subject_ADJ_MP:0 "zétiens" # [LocEditor:CustomLanguageKey]
- FRLOC_MNT_YUG_subject_ADJ_FP:0 "zétiennes" # [LocEditor:CustomLanguageKey]
- FRLOC_MNT_YUG_subject_INHAB:0 "Zétiens" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_communism_DEF:0 "$TUR_PROVISIONARY_DEF$" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_communism_ADJ:0 "$TUR_PROVISIONARY_ADJ$" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_democratic_DEF:0 "$TUR_PROVISIONARY_DEF$" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_democratic_ADJ:0 "$TUR_PROVISIONARY_ADJ$" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_fascism_DEF:0 "$TUR_PROVISIONARY_DEF$" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_fascism_ADJ:0 "$TUR_PROVISIONARY_ADJ$" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_neutrality_DEF:0 "$TUR_PROVISIONARY_DEF$" # [LocEditor:CustomLanguageKey]
- TUR_PROVISIONARY_neutrality_ADJ:0 "$TUR_PROVISIONARY_ADJ$" # [LocEditor:CustomLanguageKey]
- POL_KINGDOM_ADJ:0 "polonaise" # [LocEditor:CustomLanguageKey]
- POL_KINGDOM_fascism_ADJ:0 "polonaise" # [LocEditor:CustomLanguageKey]
- PLC_UNIFIED_RUS_ADJ:0 "polonaise" # [LocEditor:CustomLanguageKey]
- PLC_UNIFIED_RUS_fascism_ADJ:0 "polonaise" # [LocEditor:CustomLanguageKey]
- POL_PEASANT_democratic_ADJ:0 "polonaise" # [LocEditor:CustomLanguageKey]
- POL_PEASANT_communism_ADJ:0 "polonaise" # [LocEditor:CustomLanguageKey]
- FRLOC_GREATER_LIT_ADJ_MS:0 "lituanien" # [LocEditor:CustomLanguageKey]
- FRLOC_GREATER_LIT_ADJ_MP:0 "lituaniens" # [LocEditor:CustomLanguageKey]
- FRLOC_GREATER_LIT_ADJ_FS:0 "lituanienne" # [LocEditor:CustomLanguageKey]
- FRLOC_GREATER_LIT_ADJ_FP:0 "lituaniennes" # [LocEditor:CustomLanguageKey]
- FRLOC_GREATER_LIT_INHAB:0 "Lituaniens" # [LocEditor:CustomLanguageKey]
- FRLOC_GREATER_LIT_democratic_ADJ_S:0 "lituano-ruthène" # [LocEditor:CustomLanguageKey]
- FRLOC_GREATER_LIT_democratic_ADJ_P:0 "lituano-ruthènes" # [LocEditor:CustomLanguageKey]
- FRLOC_GREATER_LIT_democratic_INHAB:0 "Lituano-Ruthènes" # [LocEditor:CustomLanguageKey]
- BLR_baltic_ADJ:0 "balto-biélorusse" # [LocEditor:CustomLanguageKey]
- FRLOC_BLR_baltic_ADJ_S:0 "balto-biélorusse" # [LocEditor:CustomLanguageKey]
- FRLOC_BLR_baltic_ADJ_P:0 "balto-biélorusses" # [LocEditor:CustomLanguageKey]
- FRLOC_BLR_baltic_INHAB:0 "Balto-Biélorusses" # [LocEditor:CustomLanguageKey]
- LIT_belarus_communism_ADJ:0 "lituano-biélorusse" # [LocEditor:CustomLanguageKey]
- LIT_belarus_fascism_ADJ:0 "lituano-biélorusse" # [LocEditor:CustomLanguageKey]
- LIT_belarus_democratic_ADJ:0 "lituano-biélorusse" # [LocEditor:CustomLanguageKey]
- LIT_belarus_neutrality:0 "Lituanie-Biélorussie" # [LocEditor:CustomLanguageKey]
- LIT_belarus_neutrality_DEF:0 "la Lituanie-Biélorussie" # [LocEditor:CustomLanguageKey]
- LIT_belarus_neutrality_ADJ:0 "lituano-biélorusse" # [LocEditor:CustomLanguageKey]
- LIT_belarus_ADJ:0 "lituano-biélorusso-" # [LocEditor:CustomLanguageKey]
- FRLOC_LIT_belarus_ADJ_S:0 "lituano-biélorusse" # [LocEditor:CustomLanguageKey]
- FRLOC_LIT_belarus_ADJ_P:0 "lituano-biélorusses" # [LocEditor:CustomLanguageKey]
- FRLOC_LIT_belarus_INHAB:0 "Lituano-Biélorusses" # [LocEditor:CustomLanguageKey]
- LAT_belarus_communism_ADJ:0 "lettono-biélorusse" # [LocEditor:CustomLanguageKey]
- LAT_belarus_fascism_ADJ:0 "lettono-biélorusse" # [LocEditor:CustomLanguageKey]
- LAT_belarus_democratic_ADJ:0 "lettono-biélorusse" # [LocEditor:CustomLanguageKey]
- LAT_belarus_neutrality:0 "Lettonie-Biélorussie" # [LocEditor:CustomLanguageKey]
- LAT_belarus_neutrality_DEF:0 "la Lettonie-Biélorussie" # [LocEditor:CustomLanguageKey]
- LAT_belarus_neutrality_ADJ:0 "lettono-biélorusse" # [LocEditor:CustomLanguageKey]
- LAT_belarus_ADJ:0 "lettono-biélorusso-" # [LocEditor:CustomLanguageKey]
- FRLOC_LAT_belarus_ADJ_S:0 "lettono-biélorusse" # [LocEditor:CustomLanguageKey]
- FRLOC_LAT_belarus_ADJ_P:0 "lettono-biélorusses" # [LocEditor:CustomLanguageKey]
- FRLOC_LAT_belarus_INHAB:0 "Lettono-Biélorusses" # [LocEditor:CustomLanguageKey]
- EST_belarus_communism_ADJ:0 "estono-biélorusse" # [LocEditor:CustomLanguageKey]
- EST_belarus_fascism_ADJ:0 "estono-biélorusse" # [LocEditor:CustomLanguageKey]
- EST_belarus_democratic_ADJ:0 "estono-biélorusse" # [LocEditor:CustomLanguageKey]
- EST_belarus_neutrality:0 "Estonie-Biélorussie" # [LocEditor:CustomLanguageKey]
- EST_belarus_neutrality_DEF:0 "l'Estonie-Biélorussie" # [LocEditor:CustomLanguageKey]
- EST_belarus_neutrality_ADJ:0 "estono-biélorusse" # [LocEditor:CustomLanguageKey]
- EST_belarus_ADJ:0 "estono-biélorusso-" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_belarus_ADJ_S:0 "estono-biélorusse" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_belarus_ADJ_P:0 "estono-biélorusses" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_belarus_INHAB:0 "Estono-Biélorusses" # [LocEditor:CustomLanguageKey]
- OSTLAND_neutrality:0 "Ostland" # [LocEditor:CustomLanguageKey]
- OSTLAND_neutrality_DEF:0 "l'Ostland" # [LocEditor:CustomLanguageKey]
- OSTLAND_neutrality_ADJ:0 "ostlandaise" # [LocEditor:CustomLanguageKey]
- FRLOC_OSTLAND_fascism_neutrality_ADJ_M:0 "ostlandais" # [LocEditor:CustomLanguageKey]
- FRLOC_OSTLAND_fascism_neutrality_ADJ_FS:0 "ostlandaise" # [LocEditor:CustomLanguageKey]
- FRLOC_OSTLAND_fascism_neutrality_ADJ_FP:0 "ostlandaises" # [LocEditor:CustomLanguageKey]
- FRLOC_OSTLAND_fascism_neutrality_INHAB:0 "Ostlandais" # [LocEditor:CustomLanguageKey]
- FRLOC_OSTLAND_democratic_communism_ADJ_S:0 "balto-biélorusse" # [LocEditor:CustomLanguageKey]
- FRLOC_OSTLAND_democratic_communism_ADJ_P:0 "balto-biélorusses" # [LocEditor:CustomLanguageKey]
- FRLOC_OSTLAND_democratic_communism_INHAB:0 "Balto-Biélorusses" # [LocEditor:CustomLanguageKey]
- LIT_MONARCHY_democratic_ADJ:0 "lituanienne" # [LocEditor:CustomLanguageKey]
- LIT_MONARCHY_ADJ:0 "lituanienne" # [LocEditor:CustomLanguageKey]
- LIT_MONARCHY_POL_subject_ADJ:0 "lituanienne" # [LocEditor:CustomLanguageKey]
- DON_SOV_subject_communism_ADJ:0 "donoise" # [LocEditor:CustomLanguageKey]
- KUB_SOV_subject_communism_ADJ:0 "koubane" # [LocEditor:CustomLanguageKey]
- ROM_polish_loyalists_neutrality_ADJ:0 "polono-roumaine" # [LocEditor:CustomLanguageKey]
- FRLOC_ROM_polish_loyalists_neutrality_ADJ_MS:0 "polono-roumain" # [LocEditor:CustomLanguageKey]
- FRLOC_ROM_polish_loyalists_neutrality_ADJ_MP:0 "polono-roumains" # [LocEditor:CustomLanguageKey]
- FRLOC_ROM_polish_loyalists_neutrality_ADJ_FS:0 "polono-roumaine" # [LocEditor:CustomLanguageKey]
- FRLOC_ROM_polish_loyalists_neutrality_ADJ_FP:0 "polono-roumaines" # [LocEditor:CustomLanguageKey]
- FRLOC_ROM_polish_loyalists_neutrality_INHAB:0 "Polono-Roumains" # [LocEditor:CustomLanguageKey]
- POL_ROM_UNION_communism_ADJ:0 "polono-roumaine" # [LocEditor:CustomLanguageKey]
- POL_ROM_UNION_democratic_ADJ:0 "polono-roumaine" # [LocEditor:CustomLanguageKey]
- POL_ROM_UNION_neutrality_ADJ:0 "polono-roumaine" # [LocEditor:CustomLanguageKey]
- POL_ROM_UNION_fascism:0 "Pologne-Roumanie" # [LocEditor:CustomLanguageKey]
- POL_ROM_UNION_fascism_DEF:0 "la Pologne-Roumanie" # [LocEditor:CustomLanguageKey]
- POL_ROM_UNION_fascism_ADJ:0 "polono-roumaine" # [LocEditor:CustomLanguageKey]
- POL_ROM_UNION_ADJ:0 "polono-roumaine" # [LocEditor:CustomLanguageKey]
- FRLOC_POL_ROM_UNION_ADJ_MS:0 "polono-roumain" # [LocEditor:CustomLanguageKey]
- FRLOC_POL_ROM_UNION_ADJ_MP:0 "polono-roumains" # [LocEditor:CustomLanguageKey]
- FRLOC_POL_ROM_UNION_ADJ_FS:0 "polono-roumaine" # [LocEditor:CustomLanguageKey]
- FRLOC_POL_ROM_UNION_ADJ_FP:0 "polono-roumaines" # [LocEditor:CustomLanguageKey]
- FRLOC_POL_ROM_UNION_INHAB:0 "Polono-Roumains" # [LocEditor:CustomLanguageKey]
- POL_EMPIRE_fascism_ADJ:0 "polonaise" # [LocEditor:CustomLanguageKey]
- POL_NATDEM_fascism_ADJ:0 "polonaise" # [LocEditor:CustomLanguageKey]
- SLAVIC_UNIFIED_neutrality_ADJ:0 "slave" # [LocEditor:CustomLanguageKey]
- SLAVIC_UNIFIED_fascism_ADJ:0 "slave" # [LocEditor:CustomLanguageKey]
- SLAVIC_UNIFIED_democratic_ADJ:0 "slave" # [LocEditor:CustomLanguageKey]
- SLAVIC_UNIFIED_communism_ADJ:0 "slave" # [LocEditor:CustomLanguageKey]
- SLAVIC_UNIFIED_ADJ:0 "slave" # [LocEditor:CustomLanguageKey]
- FRLOC_SLAVIC_UNIFIED_ADJ_S:0 "slave" # [LocEditor:CustomLanguageKey]
- FRLOC_SLAVIC_UNIFIED_ADJ_P:0 "slaves" # [LocEditor:CustomLanguageKey]
- FRLOC_SLAVIC_UNIFIED_INHAB:0 "Slaves" # [LocEditor:CustomLanguageKey]
- turkestan_united_SOV_communism_subject_ADJ:0 "turcique" # [LocEditor:CustomLanguageKey]
- turkestan_united_neutrality_ADJ:0 "turcique" # [LocEditor:CustomLanguageKey]
- turkestan_united_democratic_ADJ:0 "turcique" # [LocEditor:CustomLanguageKey]
- turkestan_united_fascism_ADJ:0 "turcique" # [LocEditor:CustomLanguageKey]
- turkestan_united_communism_ADJ:0 "turcique" # [LocEditor:CustomLanguageKey]
- FRLOC_turkestan_united_ADJ_S:0 "turcique" # [LocEditor:CustomLanguageKey]
- FRLOC_turkestan_united_ADJ_P:0 "turciques" # [LocEditor:CustomLanguageKey]
- FRLOC_turkestan_united_INHAB:0 "Turciques" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_FIN_ADJ_MS:0 "fennien" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_FIN_ADJ_MP:0 "fenniens" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_FIN_ADJ_FS:0 "fennienne" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_FIN_ADJ_FP:0 "fenniennes" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_FIN_INHAB:0 "Fenniens" # [LocEditor:CustomLanguageKey]
- EST_UGRA_neutrality_ADJ:0 "finno-ougrienne" # [LocEditor:CustomLanguageKey]
- EST_UGRA_democratic_ADJ:0 "fennique" # [LocEditor:CustomLanguageKey]
- EST_UGRA_fascism_ADJ:0 "fennique" # [LocEditor:CustomLanguageKey]
- EST_UGRA_communism_ADJ:0 "fennique" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_UGRA_not_neutrality_ADJ_S:0 "fennique" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_UGRA_not_neutrality_ADJ_P:0 "fenniques" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_UGRA_not_neutrality_INHAB:0 "Fenniques" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_UGRA_neutrality_ADJ_MS:0 "finno-ougrien" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_UGRA_neutrality_ADJ_MP:0 "finno-ougriens" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_UGRA_neutrality_ADJ_FS:0 "finno-ougrienne" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_UGRA_neutrality_ADJ_FP:0 "finno-ougriennes" # [LocEditor:CustomLanguageKey]
- FRLOC_EST_UGRA_neutrality_INHAB:0 "Finno-Ougriens" # [LocEditor:CustomLanguageKey]
- SOV_ROME_ADJ:0 "triromaine" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_ROME_ADJ_MS:0 "triromain" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_ROME_ADJ_FS:0 "triromaine" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_ROME_ADJ_MP:0 "triromains" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_ROME_ADJ_FP:0 "triromaines" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_ROME_INHAB:0 "Triromains" # [LocEditor:CustomLanguageKey]
- SOV_PANSLAVIC_ADJ:0 "slave" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_PANSLAVIC_ADJ_S:0 "slave" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_PANSLAVIC_ADJ_P:0 "slaves" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_PANSLAVIC_INHAB:0 "Slaves" # [LocEditor:CustomLanguageKey]
- LIVONIA_democratic_ADJ:0 "livonienne" # [LocEditor:CustomLanguageKey]
- LIVONIA_communism_ADJ:0 "livonienne" # [LocEditor:CustomLanguageKey]
- LIVONIA_fascism_ADJ:0 "marianite" # [LocEditor:CustomLanguageKey]
- LIVONIA_neutrality_ADJ:0 "livonienne" # [LocEditor:CustomLanguageKey]
- FRLOC_LIVONIA_fascism_ADJ_S:0 "marianite" # [LocEditor:CustomLanguageKey]
- FRLOC_LIVONIA_fascism_ADJ_P:0 "marianites" # [LocEditor:CustomLanguageKey]
- FRLOC_LIVONIA_fascism_INHAB:0 "Marianites" # [LocEditor:CustomLanguageKey]
- FRLOC_LIVONIA_not_fascism_ADJ_MS:0 "livonien" # [LocEditor:CustomLanguageKey]
- FRLOC_LIVONIA_not_fascism_ADJ_FS:0 "livonienne" # [LocEditor:CustomLanguageKey]
- FRLOC_LIVONIA_not_fascism_ADJ_MP:0 "livoniens" # [LocEditor:CustomLanguageKey]
- FRLOC_LIVONIA_not_fascism_ADJ_FP:0 "livoniennes" # [LocEditor:CustomLanguageKey]
- FRLOC_LIVONIA_not_fascism_INHAB:0 "Livoniens" # [LocEditor:CustomLanguageKey]
- SOV_left_opposition_communism_DEF:0 "l'Union des Républiques soviétiques eurasiatiques" # [LocEditor:CustomLanguageKey]
- SOV_left_opposition_communism_ADJ:0 "soviétique" # [LocEditor:CustomLanguageKey]
- SOV_right_opposition_communism_DEF:1 "la République socialiste soviétique" # [LocEditor:CustomLanguageKey]
- SOV_right_opposition_communism_ADJ:0 "soviétique" # [LocEditor:CustomLanguageKey]
- SOV_PROVISIONAL_neutrality_DEF:0 "le Gouvernement provisoire russe" # [LocEditor:CustomLanguageKey]
- SOV_PROVISIONAL_neutrality_ADJ:0 "russe" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_PROVISIONAL_ADJ_S:0 "russe" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_PROVISIONAL_ADJ_P:0 "russes" # [LocEditor:CustomLanguageKey]
- FRLOC_SOV_PROVISIONAL_INHAB:0 "Russes" # [LocEditor:CustomLanguageKey]
- FRLOC_russian_empire_communism_ADJ_S:0 "russe" # [LocEditor:CustomLanguageKey]
- FRLOC_russian_empire_communism_ADJ_P:0 "russes" # [LocEditor:CustomLanguageKey]
- FRLOC_russian_empire_communism_INHAB:0 "Russes" # [LocEditor:CustomLanguageKey]
- mountainous_republics_unified_SOV_communism_subject_ADJ:0 "nord-caucasienne" # [LocEditor:CustomLanguageKey]
- mountainous_republics_unified_neutrality_ADJ:0 "nord-caucasienne" # [LocEditor:CustomLanguageKey]
- mountainous_republics_unified_democratic_ADJ:0 "nord-caucasienne" # [LocEditor:CustomLanguageKey]
- mountainous_republics_unified_fascism_ADJ:0 "nord-caucasienne" # [LocEditor:CustomLanguageKey]
- mountainous_republics_unified_communism_ADJ:0 "nord-caucasienne" # [LocEditor:CustomLanguageKey]
- FRLOC_mountainous_republics_unified_ADJ_MS:0 "nord-caucasien" # [LocEditor:CustomLanguageKey]
- FRLOC_mountainous_republics_unified_ADJ_FS:0 "nord-caucasienne" # [LocEditor:CustomLanguageKey]
- FRLOC_mountainous_republics_unified_ADJ_MP:0 "nord-caucasiens" # [LocEditor:CustomLanguageKey]
- FRLOC_mountainous_republics_unified_ADJ_FP:0 "nord-caucasiennes" # [LocEditor:CustomLanguageKey]
- FRLOC_mountainous_republics_unified_INHAB:0 "Nord-Caucasiens" # [LocEditor:CustomLanguageKey]
- transcaucasia_unified_SOV_communism_subject_ADJ:0 "transcaucasienne" # [LocEditor:CustomLanguageKey]
- transcaucasia_unified_neutrality_ADJ:0 "transcaucasienne" # [LocEditor:CustomLanguageKey]
- transcaucasia_unified_democratic_ADJ:0 "transcaucasienne" # [LocEditor:CustomLanguageKey]
- transcaucasia_unified_fascism_ADJ:0 "transcaucasienne" # [LocEditor:CustomLanguageKey]
- transcaucasia_unified_communism_ADJ:0 "transcaucasienne" # [LocEditor:CustomLanguageKey]
- FRLOC_transcaucasia_unified_ADJ_MS:0 "transcaucasien" # [LocEditor:CustomLanguageKey]
- FRLOC_transcaucasia_unified_ADJ_FS:0 "transcaucasienne" # [LocEditor:CustomLanguageKey]
- FRLOC_transcaucasia_unified_ADJ_MP:0 "transcaucasiens" # [LocEditor:CustomLanguageKey]
- FRLOC_transcaucasia_unified_ADJ_FP:0 "transcaucasiennes" # [LocEditor:CustomLanguageKey]
- FRLOC_transcaucasia_unified_INHAB:0 "Transcaucasiens" # [LocEditor:CustomLanguageKey]
- siberia_unified_SOV_communism_subject_ADJ:0 "sibérienne" # [LocEditor:CustomLanguageKey]
- siberia_unified_neutrality_ADJ:0 "sibérienne" # [LocEditor:CustomLanguageKey]
- siberia_unified_democratic_ADJ:0 "sibérienne" # [LocEditor:CustomLanguageKey]
- siberia_unified_fascism_ADJ:0 "sibérienne" # [LocEditor:CustomLanguageKey]
- siberia_unified_communism_ADJ:0 "sibérienne" # [LocEditor:CustomLanguageKey]
- FRLOC_siberia_unified_ADJ_MS:0 "sibérien" # [LocEditor:CustomLanguageKey]
- FRLOC_siberia_unified_ADJ_FS:0 "sibérienne" # [LocEditor:CustomLanguageKey]
- FRLOC_siberia_unified_ADJ_MP:0 "sibériens" # [LocEditor:CustomLanguageKey]
- FRLOC_siberia_unified_ADJ_FP:0 "sibériennes" # [LocEditor:CustomLanguageKey]
- FRLOC_siberia_unified_INHAB:0 "Sibériens" # [LocEditor:CustomLanguageKey]
- idel_ural_SOV_communism_subject_ADJ:0 "idel-ourale" # [LocEditor:CustomLanguageKey]
- idel_ural_neutrality_ADJ:0 "idel-ourale" # [LocEditor:CustomLanguageKey]
- idel_ural_democratic_ADJ:0 "idel-ourale" # [LocEditor:CustomLanguageKey]
- idel_ural_fascism_ADJ:0 "idel-ourale" # [LocEditor:CustomLanguageKey]
- idel_ural_communism_ADJ:0 "idel-ourale" # [LocEditor:CustomLanguageKey]
- FRLOC_idel_ural_ADJ_MS:0 "idel-oural" # [LocEditor:CustomLanguageKey]
- FRLOC_idel_ural_ADJ_FS:0 "idel-ourale" # [LocEditor:CustomLanguageKey]
- FRLOC_idel_ural_ADJ_MP:0 "idel-ourals" # [LocEditor:CustomLanguageKey]
- FRLOC_idel_ural_ADJ_FP:0 "idel-ourales" # [LocEditor:CustomLanguageKey]
- FRLOC_idel_ural_INHAB:0 "Idel-Ourals" # [LocEditor:CustomLanguageKey]
- gojjam_DEF:0 "le Godjam" # [LocEditor:CustomLanguageKey]
- gojjam_ADJ:0 "godjam" # [LocEditor:CustomLanguageKey]
- jimma_DEF:0 "Jimma" # [LocEditor:CustomLanguageKey]
- jimma_ADJ:0 "jimma" # [LocEditor:CustomLanguageKey]
- ETH_African_Union_communism_fascism:0 "Empire d'Afrique" # [LocEditor:CustomLanguageKey]
- ETH_African_Union_communism_fascism_ADJ:0 "africaine" # [LocEditor:CustomLanguageKey]
- ETH_African_Union_communism_fascism_DEF:0 "l'Empire d'Afrique" # [LocEditor:CustomLanguageKey]
- FRLOC_ETH_African_Union_communism_ADJ_MS:0 "africain" # [LocEditor:CustomLanguageKey]
- FRLOC_ETH_African_Union_communism_ADJ_FS:0 "africaine" # [LocEditor:CustomLanguageKey]
- FRLOC_ETH_African_Union_communism_ADJ_MP:0 "africains" # [LocEditor:CustomLanguageKey]
- FRLOC_ETH_African_Union_communism_ADJ_FP:0 "africaines" # [LocEditor:CustomLanguageKey]
- FRLOC_ETH_African_Union_communism_INHAB:0 "Africains" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_axum_ADJ_S:0 "aksoumite" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_axum_ADJ_P:0 "aksoumites" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_axum_INHAB:0 "Aksoumites" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_solomon_ADJ_S:0 "salomonique" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_solomon_ADJ_P:0 "salomoniques" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_solomon_INHAB:0 "Salomoniques" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_zion_ADJ_MS:0 "sionien" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_zion_ADJ_FS:0 "sionienne" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_zion_ADJ_MP:0 "sioniens" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_zion_ADJ_FP:0 "sioniennes" # [LocEditor:CustomLanguageKey]
- FRLOC_empire_of_zion_INHAB:0 "Sioniens" # [LocEditor:CustomLanguageKey]
- FRLOC_gojjam_fascism_ADJ_MS:0 "éthiopien" # [LocEditor:CustomLanguageKey]
- FRLOC_gojjam_fascism_ADJ_FS:0 "éthiopienne" # [LocEditor:CustomLanguageKey]
- FRLOC_gojjam_fascism_ADJ_MP:0 "éthiopiens" # [LocEditor:CustomLanguageKey]
- FRLOC_gojjam_fascism_ADJ_FP:0 "éthiopiennes" # [LocEditor:CustomLanguageKey]
- FRLOC_gojjam_fascism_INHAB:0 "Éthiopiens" # [LocEditor:CustomLanguageKey]
- FRLOC_gojjam_ADJ:0 "godjam" # [LocEditor:CustomLanguageKey]
- FRLOC_gojjam_INHAB:0 "Godjam" # [LocEditor:CustomLanguageKey]
- FRLOC_jimma_ADJ:0 "jimma" # [LocEditor:CustomLanguageKey]
- FRLOC_jimma_INHAB:0 "Jimma" # [LocEditor:CustomLanguageKey]
- greater_jimma_neutrality:0 "Grande Union de Jimma" # [LocEditor:CustomLanguageKey]
- greater_jimma_neutrality_DEF:0 "la Grande Union de Jimma" # [LocEditor:CustomLanguageKey]
- greater_jimma_neutrality_ADJ:0 "jimma" # [LocEditor:CustomLanguageKey]
- greater_jimma_fascism:0 "Grande Union de Jimma" # [LocEditor:CustomLanguageKey]
- greater_jimma_fascism_DEF:0 "la Grande Union de Jimma" # [LocEditor:CustomLanguageKey]
- greater_jimma_fascism_ADJ:0 "jimma" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_jimma_neut_fasc_ADJ:0 "jimma" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_jimma_neut_fasc_INHAB:0 "Jimma" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_jimma_dem_comm_ADJ_MS:0 "est-africain" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_jimma_dem_comm_ADJ_FS:0 "est-africaine" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_jimma_dem_comm_ADJ_MP:0 "est-africains" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_jimma_dem_comm_ADJ_FP:0 "est-africaines" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_jimma_dem_comm_INHAB:0 "Est-Africains" # [LocEditor:CustomLanguageKey]
- greater_ethiopia_neutrality:0 "Grande Union éthiopienne" # [LocEditor:CustomLanguageKey]
- greater_ethiopia_neutrality_DEF:0 "la Grande Union éthiopienne" # [LocEditor:CustomLanguageKey]
- greater_ethiopia_neutrality_ADJ:0 "éthiopienne" # [LocEditor:CustomLanguageKey]
- greater_ethiopia_fascism:0 "Grande Union éthiopienne" # [LocEditor:CustomLanguageKey]
- greater_ethiopia_fascism_DEF:0 "la Grande Union éthiopienne" # [LocEditor:CustomLanguageKey]
- greater_ethiopia_fascism_ADJ:0 "éthiopienne" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_neut_fasc_ADJ_MS:0 "éthiopien" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_neut_fasc_ADJ_FS:0 "éthiopienne" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_neut_fasc_ADJ_MP:0 "éthiopiens" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_neut_fasc_ADJ_FP:0 "éthiopiennes" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_neut_fasc_INHAB:0 "Éthiopiens" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_dem_comm_ADJ_MS:0 "est-africain" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_dem_comm_ADJ_FS:0 "est-africaine" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_dem_comm_ADJ_MP:0 "est-africains" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_dem_comm_ADJ_FP:0 "est-africaines" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_ethiopia_dem_comm_INHAB:0 "Est-Africains" # [LocEditor:CustomLanguageKey]
- greater_gojjam_fascism:0 "Grande union du Godjam" # [LocEditor:CustomLanguageKey]
- greater_gojjam_fascism_DEF:0 "la Grande union du Godjam" # [LocEditor:CustomLanguageKey]
- greater_gojjam_fascism_ADJ:0 "godjam" # [LocEditor:CustomLanguageKey]
- greater_gojjam_neutrality:0 "Grande union du Godjam" # [LocEditor:CustomLanguageKey]
- greater_gojjam_neutrality_DEF:0 "la Grande union du Godjam" # [LocEditor:CustomLanguageKey]
- greater_gojjam_neutrality_ADJ:0 "godjam" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_gojjam_dem_comm_ADJ_MS:0 "est-africain" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_gojjam_dem_comm_ADJ_FS:0 "est-africaine" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_gojjam_dem_comm_ADJ_MP:0 "est-africains" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_gojjam_dem_comm_ADJ_FP:0 "est-africaines" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_gojjam_dem_comm_INHAB:0 "Est-Africains" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_gojjam_fasc_neut_ADJ:0 "godjam" # [LocEditor:CustomLanguageKey]
- FRLOC_greater_gojjam_fasc_neut_INHAB:0 "Godjam" # [LocEditor:CustomLanguageKey]
- FRLOC_east_africa_ADJ_MS:0 "est-africain" # [LocEditor:CustomLanguageKey]
- FRLOC_east_africa_ADJ_FS:0 "est-africaine" # [LocEditor:CustomLanguageKey]
- FRLOC_east_africa_ADJ_MP:0 "est-africains" # [LocEditor:CustomLanguageKey]
- FRLOC_east_africa_ADJ_FP:0 "est-africaines" # [LocEditor:CustomLanguageKey]
- FRLOC_east_africa_INHAB:0 "Est-Africains" # [LocEditor:CustomLanguageKey]
- FRLOC_horn_of_africa_ADJ_MS:0 "cornafricain" # [LocEditor:CustomLanguageKey]
- FRLOC_horn_of_africa_ADJ_FS:0 "cornafricaine" # [LocEditor:CustomLanguageKey]
- FRLOC_horn_of_africa_ADJ_MP:0 "cornafricains" # [LocEditor:CustomLanguageKey]
- FRLOC_horn_of_africa_ADJ_FP:0 "cornafricaines" # [LocEditor:CustomLanguageKey]
- FRLOC_horn_of_africa_INHAB:0 "Cornafricains" # [LocEditor:CustomLanguageKey]
- FRLOC_regnum_bospori_ADJ_MS:0 "bosphoran" # [LocEditor:CustomLanguageKey]
- FRLOC_regnum_bospori_ADJ_FS:0 "bosphorane" # [LocEditor:CustomLanguageKey]
- FRLOC_regnum_bospori_ADJ_MP:0 "bosphorans" # [LocEditor:CustomLanguageKey]
- FRLOC_regnum_bospori_ADJ_FP:0 "bosphoranes" # [LocEditor:CustomLanguageKey]
- FRLOC_regnum_bospori_INHAB:0 "Bosphorans" # [LocEditor:CustomLanguageKey]
- papal_states_neutrality_ADJ:0 "pontificale" # [LocEditor:CustomLanguageKey]
- papal_states_fascism_ADJ:0 "divine" # [LocEditor:CustomLanguageKey]
- papal_states_communism_ADJ:0 "italo-catholique" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_neutrality_ADJ_MS:0 "pontifical" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_neutrality_ADJ_FS:0 "pontificale" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_neutrality_ADJ_MP:0 "pontificaux" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_neutrality_ADJ_FP:0 "pontificales" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_neutrality_INHAB:0 "Pontificaux" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_fascism_ADJ_MS:0 "divin" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_fascism_ADJ_FS:0 "divine" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_fascism_ADJ_MP:0 "divins" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_fascism_ADJ_FP:0 "divines" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_fascism_INHAB:0 "Divins" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_communism_ADJ_S:0 "italo-catholique" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_communism_ADJ_P:0 "italo-catholiques" # [LocEditor:CustomLanguageKey]
- FRLOC_papal_states_communism_INAHB:0 "Italo-Catholiques" # [LocEditor:CustomLanguageKey]
- FRLOC_ethiopia_anarcho_communist_ADJ_MS:0 "anarcho-africain" # [LocEditor:CustomLanguageKey]
- FRLOC_ethiopia_anarcho_communist_ADJ_FS:0 "anarcho-africaine" # [LocEditor:CustomLanguageKey]
- FRLOC_ethiopia_anarcho_communist_ADJ_MP:0 "anarcho-africains" # [LocEditor:CustomLanguageKey]
- FRLOC_ethiopia_anarcho_communist_ADJ_FP:0 "anarcho-africaines" # [LocEditor:CustomLanguageKey]
- FRLOC_ethiopia_anarcho_communist_INHAB:0 "Anarcho-africains" # [LocEditor:CustomLanguageKey]
  KEN_GER_autonomy_reichskommissariat:0 "Deutsch-Ostafrika"
  ZIM_GER_autonomy_satellite:0 "Mittelafrika"
  ZIM_GER_autonomy_reichsprotectorate:0 "Reichsprotektorat Mittelafrika"
@@ -1952,11 +1462,6 @@
  ethiopia_anarcho_communist:1 "Union africaine anarcho-communiste"
  ethiopia_anarcho_communist_DEF:1 "l'Union africaine anarcho-communiste"
  ethiopia_anarcho_communist_ADJ:1 "anarcho-africaine"
- COG_subject_DEF:0 "le Congo $OVERLORDADJ$" # [LocEditor:CustomLanguageKey]
- MAL_subject_DEF:0 "la Malaisie $OVERLORDADJ$" # [LocEditor:CustomLanguageKey]
- LBA_subject_DEF:0 "l'Afrique du Nord $OVERLORDADJ$" # [LocEditor:CustomLanguageKey]
- SAU_subject_DEF:0 "l'Arabie $OVERLORDADJ$" # [LocEditor:CustomLanguageKey]
- RAJ_UK_subject_DEF:0 "le Raj $OVERLORDADJ$" # [LocEditor:CustomLanguageKey]
 
  SWI_FRA_puppet_democratic:0 "République helvétique"
  SWI_FRA_puppet_democratic_DEF:0 "la République helvétique"
@@ -2015,3 +1520,581 @@
  ITA_italian_empire_democratic_DEF:0 "l'Empire italien uni"
  ITA_italian_empire_communism:0 "Grande Union italienne"
  ITA_italian_empire_communism_DEF:0 "la Grande Union italienne"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ KEN_GER_autonomy_protectorate:0 "Reichsprotektorat Ostafrika"
+ MNT_ITA_fascism_autonomy_reichskommissariat:0 "Province du Monténégro"
+ MNT_ITA_fascism_autonomy_reichskommissariat_DEF:0 "la Province du Monténégro"
+ MNT_ITA_fascism_autonomy_reichsprotectorate:0 "Gouvernorat du Monténégro"
+ MNT_ITA_fascism_autonomy_reichsprotectorate_DEF:0 "le Gouvernorat du Monténégro"
+ MNT_ITA_fascism_autonomy_satellite:0 "Royaume du Monténégro"
+ MNT_ITA_fascism_autonomy_satellite_DEF:0 "le Royaume du Monténégro"
+ FRLOC_FRA_FREE_democratic_ADJ_MS:0 "français libre"
+ FRLOC_FRA_FREE_democratic_ADJ_FS:0 "française libre"
+ FRLOC_FRA_FREE_democratic_ADJ_MP:0 "français libres"
+ FRLOC_FRA_FREE_democratic_ADJ_FP:0 "françaises libres"
+ FRLOC_FRA_FREE_democratic_INHAB:0 "Français libres"
+ HUN_MONARCHY_democratic_DEF:0 "le royaume de Hongrie"
+ HUN_MONARCHY_fascism_DEF:0 "le royaume de Hongrie"
+ FRLOC_NDC_UNIFIED_ADJ_S:0 "nordique"
+ FRLOC_NDC_UNIFIED_ADJ_P:0 "nordiques"
+ FRLOC_NDC_UNIFIED_INHAB:0 "Nordiques"
+ FRLOC_PLC_UNIFIED_ADJ_MS:0 "polono-lituanien"
+ FRLOC_PLC_UNIFIED_ADJ_MP:0 "polono-lituaniens"
+ FRLOC_PLC_UNIFIED_ADJ_FS:0 "polono-lituanienne"
+ FRLOC_PLC_UNIFIED_ADJ_FP:0 "polono-lituaniennes"
+ FRLOC_PLC_UNIFIED_INHAB:0 "Polono-Lituaniens"
+ BAL_UNIFIED_neutrality_ADJ:0 "balte"
+ BAL_UNIFIED_fascism_ADJ:0 "balte"
+ BAL_UNIFIED_democratic_ADJ:0 "balte"
+ BAL_UNIFIED_communism_ADJ:0 "balte"
+ FRLOC_BAL_UNIFIED_ADJ_S:0 "balte"
+ FRLOC_BAL_UNIFIED_ADJ_P:0 "baltes"
+ FRLOC_BAL_UNIFIED_INHAB:0 "Baltes"
+ TUR_PROVISIONARY_DEF:0 "l'État provisoire d'Anatolie"
+ TUR_PROVISIONARY_ADJ:0 "anatolienne"
+ FRLOC_TUR_PROVISIONARY_ADJ_MS:0 "anatolien"
+ FRLOC_TUR_PROVISIONARY_ADJ_FS:0 "anatolienne"
+ FRLOC_TUR_PROVISIONARY_ADJ_MP:0 "anatoliens"
+ FRLOC_TUR_PROVISIONARY_ADJ_FP:0 "anatoliennes"
+ FRLOC_TUR_PROVISIONARY_INHAB:0 "Anatoliens"
+ EUR_UNIFIED_neutrality_ADJ:0 "européenne"
+ EUR_UNIFIED_fascism_ADJ:0 "européenne"
+ EUR_UNIFIED_democratic_ADJ:0 "européenne"
+ EUR_UNIFIED_communism_ADJ:0 "européenne"
+ FRLOC_EUR_UNIFIED_ADJ_MS:0 "européen"
+ FRLOC_EUR_UNIFIED_ADJ_FS:0 "européenne"
+ FRLOC_EUR_UNIFIED_ADJ_MP:0 "européens"
+ FRLOC_EUR_UNIFIED_ADJ_FP:0 "européennes"
+ FRLOC_EUR_UNIFIED_INHAB:0 "Européens"
+ BYZ_UNIFIED_neutrality_ADJ:0 "byzantine"
+ BYZ_UNIFIED_fascism_ADJ:0 "byzantine"
+ BYZ_UNIFIED_democratic_ADJ:0 "byzantine"
+ BYZ_UNIFIED_communism_ADJ:0 "byzantine"
+ FRLOC_BYZ_UNIFIED_ADJ_MS:0 "byzantin"
+ FRLOC_BYZ_UNIFIED_ADJ_FS:0 "byzantine"
+ FRLOC_BYZ_UNIFIED_ADJ_MP:0 "byzantins"
+ FRLOC_BYZ_UNIFIED_ADJ_FP:0 "byzantines"
+ FRLOC_BYZ_UNIFIED_INHAB:0 "Byzantins"
+ GER_provisional_gvt_neutrality_DEF:0 "la Junte militaire allemande"
+ GER_provisional_gvt_democratic_DEF:0 "le Gouvernement provisoire allemand"
+ PRC_proclaimed_democratic_DEF:0 "la République chinoise"
+ PRC_proclaimed_neutrality_DEF:0 "la Chine"
+ GER_greater_german_reich_fascism_DEF:0 "le Grand Reich allemand"
+ KPB_kingdom_portugal_and_brazil_ADJ_MS:0 "portugo-brésilien"
+ KPB_kingdom_portugal_and_brazil_ADJ_FS:0 "portugo-brésilienne"
+ KPB_kingdom_portugal_and_brazil_ADJ_MP:0 "portugo-brésiliens"
+ KPB_kingdom_portugal_and_brazil_ADJ_FP:0 "portugo-brésiliennes"
+ KPB_kingdom_portugal_and_brazil_INHAB:0 "Portugo-Brésiliens"
+ ESU_POR_unified_neutrality:0 "Ibérie"
+ ESU_POR_unified_neutrality_def:0 "l'Ibérie"
+ ESU_POR_unified_neutrality_adj:0 "ibérique"
+ ESU_POR_unified_ADJ_S:0 "ibérique"
+ ESU_POR_unified_ADJ_P:0 "ibériques"
+ ESU_POR_unified_INHAB:0 "Ibères"
+ COUNTRY_autonomy_collaboration_government_INHAB:0 "$NONIDEOLOGYADJ|U$$OVERLORDADJ|U$"
+ FRLOC_united_polynesia_democratic_ADJ_P:0 "pacifiques"
+ FRLOC_united_polynesia_democratic_INHAB:0 "Pacifiques"
+ FRLOC_united_polynesia_communism_ADJ_MS:0 "océanien"
+ FRLOC_united_polynesia_communism_ADJ_MP:0 "océaniens"
+ FRLOC_united_polynesia_communism_ADJ_FP:0 "océaniennes"
+ FRLOC_united_polynesia_communism_INHAB:0 "Océaniens"
+ FRLOC_united_polynesia_neutrality_ADJ_MS:0 "polynésien"
+ FRLOC_united_polynesia_neutrality_ADJ_MP:0 "polynésiens"
+ FRLOC_united_polynesia_neutrality_ADJ_FP:0 "polynésiennes"
+ FRLOC_united_polynesia_neutrality_INHAB:0 "Polynésiens"
+ FRLOC_united_polynesia_fascism_ADJ_MS:0 "polynésien"
+ FRLOC_united_polynesia_fascism_ADJ_MP:0 "polynésiens"
+ FRLOC_united_polynesia_fascism_ADJ_FP:0 "polynésiennes"
+ FRLOC_united_polynesia_fascism_INHAB:0 "Polynésiens"
+ FRLOC_united_polynesia_ADJ_MS:0 "polynésien"
+ FRLOC_united_polynesia_ADJ_MP:0 "polynésiens"
+ FRLOC_united_polynesia_ADJ_FP:0 "polynésiennes"
+ FRLOC_united_polynesia_INHAB:0 "Polynésiens"
+ FRLOC_CAT_aragon_ADJ_M:0 "aragonais"
+ FRLOC_CAT_aragon_ADJ_FS:0 "aragonaise"
+ FRLOC_CAT_aragon_ADJ_FP:0 "aragonaises"
+ FRLOC_CAT_aragon_INHAB:0 "Aragonais"
+ SPR_castille_democratic:0 "Castille"
+ SPR_castille_democratic_DEF:0 "la Castille"
+ SPR_castille_democratic_ADJ:0 "castillane"
+ FRLOC_SPR_castille_ADJ_MS:0 "castillan"
+ FRLOC_SPR_castille_ADJ_FS:0 "castillane"
+ FRLOC_SPR_castille_ADJ_MP:0 "castillans"
+ FRLOC_SPR_castille_ADJ_FP:0 "castillanes"
+ FRLOC_SPR_castille_INHAB:0 "Castillans"
+ FRLOC_FRANCO_SPAIN_ADJ_MS:0 "franco-espagnol"
+ FRLOC_FRANCO_SPAIN_ADJ_FS:0 "franco-espagnole"
+ FRLOC_FRANCO_SPAIN_ADJ_MP:0 "franco-espagnols"
+ FRLOC_FRANCO_SPAIN_ADJ_FP:0 "franco-espagnoles"
+ FRLOC_FRANCO_SPAIN_INHAB:0 "Franco-Espagnols"
+ GRE_byz_republic_communism:0 "$GRE_byz_republic_fascism$"
+ GRE_byz_republic_communism_DEF:0 "$GRE_byz_republic_fascism_DEF$"
+ GRE_byz_republic_communism_ADJ:0 "$GRE_byz_republic_fascism_ADJ$"
+ GRE_byz_republic_democratic:0 "$GRE_byz_republic_fascism$"
+ GRE_byz_republic_democratic_DEF:0 "$GRE_byz_republic_fascism_DEF$"
+ GRE_byz_republic_democratic_ADJ:0 "$GRE_byz_republic_fascism_ADJ$"
+ GRE_byz_republic_neutrality:0 "$GRE_byz_republic_fascism$"
+ GRE_byz_republic_neutrality_DEF:0 "$GRE_byz_republic_fascism_DEF$"
+ GRE_byz_republic_neutrality_ADJ:0 "$GRE_byz_republic_fascism_ADJ$"
+ GRE_dem_monarchy_communism:0 "$GRE_dem_monarchy_democratic$"
+ GRE_dem_monarchy_communism_DEF:0 "$GRE_dem_monarchy_democratic_DEF$"
+ GRE_dem_monarchy_communism_ADJ:0 "$GRE_dem_monarchy_democratic_ADJ$"
+ GRE_dem_monarchy_neutrality:0 "$GRE_dem_monarchy_democratic$"
+ GRE_dem_monarchy_neutrality_DEF:0 "$GRE_dem_monarchy_democratic_DEF$"
+ GRE_dem_monarchy_neutrality_ADJ:0 "$GRE_dem_monarchy_democratic_ADJ$"
+ GRE_com_independent_democratic:0 "$GRE_com_independent_communism$"
+ GRE_com_independent_democratic_DEF:0 "$GRE_com_independent_communism_DEF$"
+ GRE_com_independent_democratic_ADJ:0 "$GRE_com_independent_communism_ADJ$"
+ GRE_com_independent_fascism:0 "$GRE_com_independent_communism$"
+ GRE_com_independent_fascism_DEF:0 "$GRE_com_independent_communism_DEF$"
+ GRE_com_independent_fascism_ADJ:0 "$GRE_com_independent_communism_ADJ$"
+ GRE_com_independent_neutrality:0 "$GRE_com_independent_communism$"
+ GRE_com_independent_neutrality_DEF:0 "$GRE_com_independent_communism_DEF$"
+ GRE_com_independent_neutrality_ADJ:0 "$GRE_com_independent_communism_ADJ$"
+ FRLOC_GRE_com_independent_communism_ADJ_S:0 "hellène"
+ FRLOC_GRE_com_independent_communism_ADJ_P:0 "hellènes"
+ FRLOC_GRE_com_independent_communism_INHAB:0 "Hellènes"
+ GRE_stalinist_fascism:0 "$GRE_stalinist_communism$"
+ GRE_stalinist_fascism_DEF:0 "$GRE_stalinist_communism_DEF$"
+ GRE_stalinist_fascism_ADJ:0 "$GRE_stalinist_communism_ADJ$"
+ GRE_stalinist_neutrality:0 "$GRE_stalinist_communism$"
+ GRE_stalinist_neutrality_DEF:0 "$GRE_stalinist_communism_DEF$"
+ GRE_stalinist_neutrality_ADJ:0 "$GRE_stalinist_communism_ADJ$"
+ GRE_stalinist_democratic:0 "$GRE_stalinist_communism$"
+ GRE_stalinist_democratic_DEF:0 "$GRE_stalinist_communism_DEF$"
+ GRE_stalinist_democratic_ADJ:0 "$GRE_stalinist_communism_ADJ$"
+ GRE_GREATER_GREECE_neutrality_ADJ:0 "grecque"
+ FRLOC_GRE_GREATER_GREECE_communism_ADJ_MS:0 "égéen"
+ FRLOC_GRE_GREATER_GREECE_communism_ADJ_FS:0 "égéenne"
+ FRLOC_GRE_GREATER_GREECE_communism_ADJ_MP:0 "égéens"
+ FRLOC_GRE_GREATER_GREECE_communism_ADJ_FP:0 "égéennes"
+ FRLOC_GRE_GREATER_GREECE_communism_INHAB:0 "Égéens"
+ FRLOC_MAE_NOT_COMMUNISM_ADJ_MS:0 "macédonien"
+ FRLOC_MAE_NOT_COMMUNISM_ADJ_FS:0 "macédonienne"
+ FRLOC_MAE_NOT_COMMUNISM_ADJ_MP:0 "macédoniens"
+ FRLOC_MAE_NOT_COMMUNISM_ADJ_FP:0 "macédoniennes"
+ FRLOC_MAE_NOT_COMMUNISM_INHAB:0 "Macédoniens"
+ FRLOC_MAE_COMMUNISM_ADJ_S:0 "argéade"
+ FRLOC_MAE_COMMUNISM_ADJ_P:0 "argéades"
+ FRLOC_MAE_COMMUNISM_INHAB:0 "Argéades"
+ FRLOC_UBF_united_balkan_federation_ADJ_S:0 "balkanique"
+ FRLOC_UBF_united_balkan_federation_ADJ_P:0 "balkaniques"
+ FRLOC_UBF_united_balkan_federation_INHAB:0 "Balkaniques"
+ FRLOC_TRN_NOT_COMMUNISM_ADJ_MS:0 "touranien"
+ FRLOC_TRN_NOT_COMMUNISM_ADJ_FS:0 "touranienne"
+ FRLOC_TRN_NOT_COMMUNISM_ADJ_MP:0 "touraniens"
+ FRLOC_TRN_NOT_COMMUNISM_ADJ_FP:0 "touraniennes"
+ FRLOC_TRN_NOT_COMMUNISM_INHAB:0 "Touraniens"
+ FRLOC_TRN_COMMUNISM_ADJ_S:0 "turcique"
+ FRLOC_TRN_COMMUNISM_ADJ_P:0 "turciques"
+ FRLOC_TRN_COMMUNISM_INHAB:0 "Turciques"
+ FRLOC_SLV_YUG_subject_ADJ_MS:0 "dravien"
+ FRLOC_SLV_YUG_subject_ADJ_FS:0 "dravienne"
+ FRLOC_SLV_YUG_subject_ADJ_MP:0 "draviens"
+ FRLOC_SLV_YUG_subject_ADJ_FP:0 "draviennes"
+ FRLOC_SLV_YUG_subject_INHAB:0 "Draviens"
+ FRLOC_MAC_YUG_subject_ADJ_MS:0 "vardarien"
+ FRLOC_MAC_YUG_subject_ADJ_FS:0 "vardarienne"
+ FRLOC_MAC_YUG_subject_ADJ_MP:0 "vardariens"
+ FRLOC_MAC_YUG_subject_ADJ_FP:0 "vardariennes"
+ FRLOC_MAC_YUG_subject_INHAB:0 "Vardariens"
+ FRLOC_MNT_YUG_subject_ADJ_MS:0 "zétien"
+ FRLOC_MNT_YUG_subject_ADJ_FS:0 "zétienne"
+ FRLOC_MNT_YUG_subject_ADJ_MP:0 "zétiens"
+ FRLOC_MNT_YUG_subject_ADJ_FP:0 "zétiennes"
+ FRLOC_MNT_YUG_subject_INHAB:0 "Zétiens"
+ TUR_PROVISIONARY_communism_DEF:0 "$TUR_PROVISIONARY_DEF$"
+ TUR_PROVISIONARY_communism_ADJ:0 "$TUR_PROVISIONARY_ADJ$"
+ TUR_PROVISIONARY_democratic_DEF:0 "$TUR_PROVISIONARY_DEF$"
+ TUR_PROVISIONARY_democratic_ADJ:0 "$TUR_PROVISIONARY_ADJ$"
+ TUR_PROVISIONARY_fascism_DEF:0 "$TUR_PROVISIONARY_DEF$"
+ TUR_PROVISIONARY_fascism_ADJ:0 "$TUR_PROVISIONARY_ADJ$"
+ TUR_PROVISIONARY_neutrality_DEF:0 "$TUR_PROVISIONARY_DEF$"
+ TUR_PROVISIONARY_neutrality_ADJ:0 "$TUR_PROVISIONARY_ADJ$"
+ POL_KINGDOM_ADJ:0 "polonaise"
+ POL_KINGDOM_fascism_ADJ:0 "polonaise"
+ PLC_UNIFIED_RUS_ADJ:0 "polonaise"
+ PLC_UNIFIED_RUS_fascism_ADJ:0 "polonaise"
+ POL_PEASANT_democratic_ADJ:0 "polonaise"
+ POL_PEASANT_communism_ADJ:0 "polonaise"
+ FRLOC_GREATER_LIT_ADJ_MS:0 "lituanien"
+ FRLOC_GREATER_LIT_ADJ_MP:0 "lituaniens"
+ FRLOC_GREATER_LIT_ADJ_FS:0 "lituanienne"
+ FRLOC_GREATER_LIT_ADJ_FP:0 "lituaniennes"
+ FRLOC_GREATER_LIT_INHAB:0 "Lituaniens"
+ FRLOC_GREATER_LIT_democratic_ADJ_S:0 "lituano-ruthène"
+ FRLOC_GREATER_LIT_democratic_ADJ_P:0 "lituano-ruthènes"
+ FRLOC_GREATER_LIT_democratic_INHAB:0 "Lituano-Ruthènes"
+ BLR_baltic_ADJ:0 "balto-biélorusse"
+ FRLOC_BLR_baltic_ADJ_S:0 "balto-biélorusse"
+ FRLOC_BLR_baltic_ADJ_P:0 "balto-biélorusses"
+ FRLOC_BLR_baltic_INHAB:0 "Balto-Biélorusses"
+ LIT_belarus_communism_ADJ:0 "lituano-biélorusse"
+ LIT_belarus_fascism_ADJ:0 "lituano-biélorusse"
+ LIT_belarus_democratic_ADJ:0 "lituano-biélorusse"
+ LIT_belarus_neutrality:0 "Lituanie-Biélorussie"
+ LIT_belarus_neutrality_DEF:0 "la Lituanie-Biélorussie"
+ LIT_belarus_neutrality_ADJ:0 "lituano-biélorusse"
+ LIT_belarus_ADJ:0 "lituano-biélorusso-"
+ FRLOC_LIT_belarus_ADJ_S:0 "lituano-biélorusse"
+ FRLOC_LIT_belarus_ADJ_P:0 "lituano-biélorusses"
+ FRLOC_LIT_belarus_INHAB:0 "Lituano-Biélorusses"
+ LAT_belarus_communism_ADJ:0 "lettono-biélorusse"
+ LAT_belarus_fascism_ADJ:0 "lettono-biélorusse"
+ LAT_belarus_democratic_ADJ:0 "lettono-biélorusse"
+ LAT_belarus_neutrality:0 "Lettonie-Biélorussie"
+ LAT_belarus_neutrality_DEF:0 "la Lettonie-Biélorussie"
+ LAT_belarus_neutrality_ADJ:0 "lettono-biélorusse"
+ LAT_belarus_ADJ:0 "lettono-biélorusso-"
+ FRLOC_LAT_belarus_ADJ_S:0 "lettono-biélorusse"
+ FRLOC_LAT_belarus_ADJ_P:0 "lettono-biélorusses"
+ FRLOC_LAT_belarus_INHAB:0 "Lettono-Biélorusses"
+ EST_belarus_communism_ADJ:0 "estono-biélorusse"
+ EST_belarus_fascism_ADJ:0 "estono-biélorusse"
+ EST_belarus_democratic_ADJ:0 "estono-biélorusse"
+ EST_belarus_neutrality:0 "Estonie-Biélorussie"
+ EST_belarus_neutrality_DEF:0 "l'Estonie-Biélorussie"
+ EST_belarus_neutrality_ADJ:0 "estono-biélorusse"
+ EST_belarus_ADJ:0 "estono-biélorusso-"
+ FRLOC_EST_belarus_ADJ_S:0 "estono-biélorusse"
+ FRLOC_EST_belarus_ADJ_P:0 "estono-biélorusses"
+ FRLOC_EST_belarus_INHAB:0 "Estono-Biélorusses"
+ OSTLAND_neutrality:0 "Ostland"
+ OSTLAND_neutrality_DEF:0 "l'Ostland"
+ OSTLAND_neutrality_ADJ:0 "ostlandaise"
+ FRLOC_OSTLAND_fascism_neutrality_ADJ_M:0 "ostlandais"
+ FRLOC_OSTLAND_fascism_neutrality_ADJ_FS:0 "ostlandaise"
+ FRLOC_OSTLAND_fascism_neutrality_ADJ_FP:0 "ostlandaises"
+ FRLOC_OSTLAND_fascism_neutrality_INHAB:0 "Ostlandais"
+ FRLOC_OSTLAND_democratic_communism_ADJ_S:0 "balto-biélorusse"
+ FRLOC_OSTLAND_democratic_communism_ADJ_P:0 "balto-biélorusses"
+ FRLOC_OSTLAND_democratic_communism_INHAB:0 "Balto-Biélorusses"
+ LIT_MONARCHY_democratic_ADJ:0 "lituanienne"
+ LIT_MONARCHY_ADJ:0 "lituanienne"
+ LIT_MONARCHY_POL_subject_ADJ:0 "lituanienne"
+ DON_SOV_subject_communism_ADJ:0 "donoise"
+ KUB_SOV_subject_communism_ADJ:0 "koubane"
+ ROM_polish_loyalists_neutrality_ADJ:0 "polono-roumaine"
+ FRLOC_ROM_polish_loyalists_neutrality_ADJ_MS:0 "polono-roumain"
+ FRLOC_ROM_polish_loyalists_neutrality_ADJ_MP:0 "polono-roumains"
+ FRLOC_ROM_polish_loyalists_neutrality_ADJ_FS:0 "polono-roumaine"
+ FRLOC_ROM_polish_loyalists_neutrality_ADJ_FP:0 "polono-roumaines"
+ FRLOC_ROM_polish_loyalists_neutrality_INHAB:0 "Polono-Roumains"
+ POL_ROM_UNION_communism_ADJ:0 "polono-roumaine"
+ POL_ROM_UNION_democratic_ADJ:0 "polono-roumaine"
+ POL_ROM_UNION_neutrality_ADJ:0 "polono-roumaine"
+ POL_ROM_UNION_fascism:0 "Pologne-Roumanie"
+ POL_ROM_UNION_fascism_DEF:0 "la Pologne-Roumanie"
+ POL_ROM_UNION_fascism_ADJ:0 "polono-roumaine"
+ POL_ROM_UNION_ADJ:0 "polono-roumaine"
+ FRLOC_POL_ROM_UNION_ADJ_MS:0 "polono-roumain"
+ FRLOC_POL_ROM_UNION_ADJ_MP:0 "polono-roumains"
+ FRLOC_POL_ROM_UNION_ADJ_FS:0 "polono-roumaine"
+ FRLOC_POL_ROM_UNION_ADJ_FP:0 "polono-roumaines"
+ FRLOC_POL_ROM_UNION_INHAB:0 "Polono-Roumains"
+ POL_EMPIRE_fascism_ADJ:0 "polonaise"
+ POL_NATDEM_fascism_ADJ:0 "polonaise"
+ SLAVIC_UNIFIED_neutrality_ADJ:0 "slave"
+ SLAVIC_UNIFIED_fascism_ADJ:0 "slave"
+ SLAVIC_UNIFIED_democratic_ADJ:0 "slave"
+ SLAVIC_UNIFIED_communism_ADJ:0 "slave"
+ SLAVIC_UNIFIED_ADJ:0 "slave"
+ FRLOC_SLAVIC_UNIFIED_ADJ_S:0 "slave"
+ FRLOC_SLAVIC_UNIFIED_ADJ_P:0 "slaves"
+ FRLOC_SLAVIC_UNIFIED_INHAB:0 "Slaves"
+ turkestan_united_SOV_communism_subject_ADJ:0 "turcique"
+ turkestan_united_neutrality_ADJ:0 "turcique"
+ turkestan_united_democratic_ADJ:0 "turcique"
+ turkestan_united_fascism_ADJ:0 "turcique"
+ turkestan_united_communism_ADJ:0 "turcique"
+ FRLOC_turkestan_united_ADJ_S:0 "turcique"
+ FRLOC_turkestan_united_ADJ_P:0 "turciques"
+ FRLOC_turkestan_united_INHAB:0 "Turciques"
+ FRLOC_EST_FIN_ADJ_MS:0 "fennien"
+ FRLOC_EST_FIN_ADJ_MP:0 "fenniens"
+ FRLOC_EST_FIN_ADJ_FS:0 "fennienne"
+ FRLOC_EST_FIN_ADJ_FP:0 "fenniennes"
+ FRLOC_EST_FIN_INHAB:0 "Fenniens"
+ EST_UGRA_neutrality_ADJ:0 "finno-ougrienne"
+ EST_UGRA_democratic_ADJ:0 "fennique"
+ EST_UGRA_fascism_ADJ:0 "fennique"
+ EST_UGRA_communism_ADJ:0 "fennique"
+ FRLOC_EST_UGRA_not_neutrality_ADJ_S:0 "fennique"
+ FRLOC_EST_UGRA_not_neutrality_ADJ_P:0 "fenniques"
+ FRLOC_EST_UGRA_not_neutrality_INHAB:0 "Fenniques"
+ FRLOC_EST_UGRA_neutrality_ADJ_MS:0 "finno-ougrien"
+ FRLOC_EST_UGRA_neutrality_ADJ_MP:0 "finno-ougriens"
+ FRLOC_EST_UGRA_neutrality_ADJ_FS:0 "finno-ougrienne"
+ FRLOC_EST_UGRA_neutrality_ADJ_FP:0 "finno-ougriennes"
+ FRLOC_EST_UGRA_neutrality_INHAB:0 "Finno-Ougriens"
+ SOV_ROME_ADJ:0 "triromaine"
+ FRLOC_SOV_ROME_ADJ_MS:0 "triromain"
+ FRLOC_SOV_ROME_ADJ_FS:0 "triromaine"
+ FRLOC_SOV_ROME_ADJ_MP:0 "triromains"
+ FRLOC_SOV_ROME_ADJ_FP:0 "triromaines"
+ FRLOC_SOV_ROME_INHAB:0 "Triromains"
+ SOV_PANSLAVIC_ADJ:0 "slave"
+ FRLOC_SOV_PANSLAVIC_ADJ_S:0 "slave"
+ FRLOC_SOV_PANSLAVIC_ADJ_P:0 "slaves"
+ FRLOC_SOV_PANSLAVIC_INHAB:0 "Slaves"
+ LIVONIA_democratic_ADJ:0 "livonienne"
+ LIVONIA_communism_ADJ:0 "livonienne"
+ LIVONIA_fascism_ADJ:0 "marianite"
+ LIVONIA_neutrality_ADJ:0 "livonienne"
+ FRLOC_LIVONIA_fascism_ADJ_S:0 "marianite"
+ FRLOC_LIVONIA_fascism_ADJ_P:0 "marianites"
+ FRLOC_LIVONIA_fascism_INHAB:0 "Marianites"
+ FRLOC_LIVONIA_not_fascism_ADJ_MS:0 "livonien"
+ FRLOC_LIVONIA_not_fascism_ADJ_FS:0 "livonienne"
+ FRLOC_LIVONIA_not_fascism_ADJ_MP:0 "livoniens"
+ FRLOC_LIVONIA_not_fascism_ADJ_FP:0 "livoniennes"
+ FRLOC_LIVONIA_not_fascism_INHAB:0 "Livoniens"
+ SOV_left_opposition_communism_DEF:0 "l'Union des Républiques soviétiques eurasiatiques"
+ SOV_left_opposition_communism_ADJ:0 "soviétique"
+ SOV_right_opposition_communism_DEF:1 "la République socialiste soviétique"
+ SOV_right_opposition_communism_ADJ:0 "soviétique"
+ SOV_PROVISIONAL_neutrality_DEF:0 "le Gouvernement provisoire russe"
+ SOV_PROVISIONAL_neutrality_ADJ:0 "russe"
+ FRLOC_SOV_PROVISIONAL_ADJ_S:0 "russe"
+ FRLOC_SOV_PROVISIONAL_ADJ_P:0 "russes"
+ FRLOC_SOV_PROVISIONAL_INHAB:0 "Russes"
+ FRLOC_russian_empire_communism_ADJ_S:0 "russe"
+ FRLOC_russian_empire_communism_ADJ_P:0 "russes"
+ FRLOC_russian_empire_communism_INHAB:0 "Russes"
+ mountainous_republics_unified_SOV_communism_subject_ADJ:0 "nord-caucasienne"
+ mountainous_republics_unified_neutrality_ADJ:0 "nord-caucasienne"
+ mountainous_republics_unified_democratic_ADJ:0 "nord-caucasienne"
+ mountainous_republics_unified_fascism_ADJ:0 "nord-caucasienne"
+ mountainous_republics_unified_communism_ADJ:0 "nord-caucasienne"
+ FRLOC_mountainous_republics_unified_ADJ_MS:0 "nord-caucasien"
+ FRLOC_mountainous_republics_unified_ADJ_FS:0 "nord-caucasienne"
+ FRLOC_mountainous_republics_unified_ADJ_MP:0 "nord-caucasiens"
+ FRLOC_mountainous_republics_unified_ADJ_FP:0 "nord-caucasiennes"
+ FRLOC_mountainous_republics_unified_INHAB:0 "Nord-Caucasiens"
+ transcaucasia_unified_SOV_communism_subject_ADJ:0 "transcaucasienne"
+ transcaucasia_unified_neutrality_ADJ:0 "transcaucasienne"
+ transcaucasia_unified_democratic_ADJ:0 "transcaucasienne"
+ transcaucasia_unified_fascism_ADJ:0 "transcaucasienne"
+ transcaucasia_unified_communism_ADJ:0 "transcaucasienne"
+ FRLOC_transcaucasia_unified_ADJ_MS:0 "transcaucasien"
+ FRLOC_transcaucasia_unified_ADJ_FS:0 "transcaucasienne"
+ FRLOC_transcaucasia_unified_ADJ_MP:0 "transcaucasiens"
+ FRLOC_transcaucasia_unified_ADJ_FP:0 "transcaucasiennes"
+ FRLOC_transcaucasia_unified_INHAB:0 "Transcaucasiens"
+ siberia_unified_SOV_communism_subject_ADJ:0 "sibérienne"
+ siberia_unified_neutrality_ADJ:0 "sibérienne"
+ siberia_unified_democratic_ADJ:0 "sibérienne"
+ siberia_unified_fascism_ADJ:0 "sibérienne"
+ siberia_unified_communism_ADJ:0 "sibérienne"
+ FRLOC_siberia_unified_ADJ_MS:0 "sibérien"
+ FRLOC_siberia_unified_ADJ_FS:0 "sibérienne"
+ FRLOC_siberia_unified_ADJ_MP:0 "sibériens"
+ FRLOC_siberia_unified_ADJ_FP:0 "sibériennes"
+ FRLOC_siberia_unified_INHAB:0 "Sibériens"
+ idel_ural_SOV_communism_subject_ADJ:0 "idel-ourale"
+ idel_ural_neutrality_ADJ:0 "idel-ourale"
+ idel_ural_democratic_ADJ:0 "idel-ourale"
+ idel_ural_fascism_ADJ:0 "idel-ourale"
+ idel_ural_communism_ADJ:0 "idel-ourale"
+ FRLOC_idel_ural_ADJ_MS:0 "idel-oural"
+ FRLOC_idel_ural_ADJ_FS:0 "idel-ourale"
+ FRLOC_idel_ural_ADJ_MP:0 "idel-ourals"
+ FRLOC_idel_ural_ADJ_FP:0 "idel-ourales"
+ FRLOC_idel_ural_INHAB:0 "Idel-Ourals"
+ gojjam_DEF:0 "le Godjam"
+ gojjam_ADJ:0 "godjam"
+ jimma_DEF:0 "Jimma"
+ jimma_ADJ:0 "jimma"
+ ETH_African_Union_communism_fascism:0 "Empire d'Afrique"
+ ETH_African_Union_communism_fascism_ADJ:0 "africaine"
+ ETH_African_Union_communism_fascism_DEF:0 "l'Empire d'Afrique"
+ FRLOC_ETH_African_Union_communism_ADJ_MS:0 "africain"
+ FRLOC_ETH_African_Union_communism_ADJ_FS:0 "africaine"
+ FRLOC_ETH_African_Union_communism_ADJ_MP:0 "africains"
+ FRLOC_ETH_African_Union_communism_ADJ_FP:0 "africaines"
+ FRLOC_ETH_African_Union_communism_INHAB:0 "Africains"
+ FRLOC_empire_of_axum_ADJ_S:0 "aksoumite"
+ FRLOC_empire_of_axum_ADJ_P:0 "aksoumites"
+ FRLOC_empire_of_axum_INHAB:0 "Aksoumites"
+ FRLOC_empire_of_solomon_ADJ_S:0 "salomonique"
+ FRLOC_empire_of_solomon_ADJ_P:0 "salomoniques"
+ FRLOC_empire_of_solomon_INHAB:0 "Salomoniques"
+ FRLOC_empire_of_zion_ADJ_MS:0 "sionien"
+ FRLOC_empire_of_zion_ADJ_FS:0 "sionienne"
+ FRLOC_empire_of_zion_ADJ_MP:0 "sioniens"
+ FRLOC_empire_of_zion_ADJ_FP:0 "sioniennes"
+ FRLOC_empire_of_zion_INHAB:0 "Sioniens"
+ FRLOC_gojjam_fascism_ADJ_MS:0 "éthiopien"
+ FRLOC_gojjam_fascism_ADJ_FS:0 "éthiopienne"
+ FRLOC_gojjam_fascism_ADJ_MP:0 "éthiopiens"
+ FRLOC_gojjam_fascism_ADJ_FP:0 "éthiopiennes"
+ FRLOC_gojjam_fascism_INHAB:0 "Éthiopiens"
+ FRLOC_gojjam_ADJ:0 "godjam"
+ FRLOC_gojjam_INHAB:0 "Godjam"
+ FRLOC_jimma_ADJ:0 "jimma"
+ FRLOC_jimma_INHAB:0 "Jimma"
+ greater_jimma_neutrality:0 "Grande Union de Jimma"
+ greater_jimma_neutrality_DEF:0 "la Grande Union de Jimma"
+ greater_jimma_neutrality_ADJ:0 "jimma"
+ greater_jimma_fascism:0 "Grande Union de Jimma"
+ greater_jimma_fascism_DEF:0 "la Grande Union de Jimma"
+ greater_jimma_fascism_ADJ:0 "jimma"
+ FRLOC_greater_jimma_neut_fasc_ADJ:0 "jimma"
+ FRLOC_greater_jimma_neut_fasc_INHAB:0 "Jimma"
+ FRLOC_greater_jimma_dem_comm_ADJ_MS:0 "est-africain"
+ FRLOC_greater_jimma_dem_comm_ADJ_FS:0 "est-africaine"
+ FRLOC_greater_jimma_dem_comm_ADJ_MP:0 "est-africains"
+ FRLOC_greater_jimma_dem_comm_ADJ_FP:0 "est-africaines"
+ FRLOC_greater_jimma_dem_comm_INHAB:0 "Est-Africains"
+ greater_ethiopia_neutrality:0 "Grande Union éthiopienne"
+ greater_ethiopia_neutrality_DEF:0 "la Grande Union éthiopienne"
+ greater_ethiopia_neutrality_ADJ:0 "éthiopienne"
+ greater_ethiopia_fascism:0 "Grande Union éthiopienne"
+ greater_ethiopia_fascism_DEF:0 "la Grande Union éthiopienne"
+ greater_ethiopia_fascism_ADJ:0 "éthiopienne"
+ FRLOC_greater_ethiopia_neut_fasc_ADJ_MS:0 "éthiopien"
+ FRLOC_greater_ethiopia_neut_fasc_ADJ_FS:0 "éthiopienne"
+ FRLOC_greater_ethiopia_neut_fasc_ADJ_MP:0 "éthiopiens"
+ FRLOC_greater_ethiopia_neut_fasc_ADJ_FP:0 "éthiopiennes"
+ FRLOC_greater_ethiopia_neut_fasc_INHAB:0 "Éthiopiens"
+ FRLOC_greater_ethiopia_dem_comm_ADJ_MS:0 "est-africain"
+ FRLOC_greater_ethiopia_dem_comm_ADJ_FS:0 "est-africaine"
+ FRLOC_greater_ethiopia_dem_comm_ADJ_MP:0 "est-africains"
+ FRLOC_greater_ethiopia_dem_comm_ADJ_FP:0 "est-africaines"
+ FRLOC_greater_ethiopia_dem_comm_INHAB:0 "Est-Africains"
+ greater_gojjam_fascism:0 "Grande union du Godjam"
+ greater_gojjam_fascism_DEF:0 "la Grande union du Godjam"
+ greater_gojjam_fascism_ADJ:0 "godjam"
+ greater_gojjam_neutrality:0 "Grande union du Godjam"
+ greater_gojjam_neutrality_DEF:0 "la Grande union du Godjam"
+ greater_gojjam_neutrality_ADJ:0 "godjam"
+ FRLOC_greater_gojjam_dem_comm_ADJ_MS:0 "est-africain"
+ FRLOC_greater_gojjam_dem_comm_ADJ_FS:0 "est-africaine"
+ FRLOC_greater_gojjam_dem_comm_ADJ_MP:0 "est-africains"
+ FRLOC_greater_gojjam_dem_comm_ADJ_FP:0 "est-africaines"
+ FRLOC_greater_gojjam_dem_comm_INHAB:0 "Est-Africains"
+ FRLOC_greater_gojjam_fasc_neut_ADJ:0 "godjam"
+ FRLOC_greater_gojjam_fasc_neut_INHAB:0 "Godjam"
+ FRLOC_east_africa_ADJ_MS:0 "est-africain"
+ FRLOC_east_africa_ADJ_FS:0 "est-africaine"
+ FRLOC_east_africa_ADJ_MP:0 "est-africains"
+ FRLOC_east_africa_ADJ_FP:0 "est-africaines"
+ FRLOC_east_africa_INHAB:0 "Est-Africains"
+ FRLOC_horn_of_africa_ADJ_MS:0 "cornafricain"
+ FRLOC_horn_of_africa_ADJ_FS:0 "cornafricaine"
+ FRLOC_horn_of_africa_ADJ_MP:0 "cornafricains"
+ FRLOC_horn_of_africa_ADJ_FP:0 "cornafricaines"
+ FRLOC_horn_of_africa_INHAB:0 "Cornafricains"
+ FRLOC_regnum_bospori_ADJ_MS:0 "bosphoran"
+ FRLOC_regnum_bospori_ADJ_FS:0 "bosphorane"
+ FRLOC_regnum_bospori_ADJ_MP:0 "bosphorans"
+ FRLOC_regnum_bospori_ADJ_FP:0 "bosphoranes"
+ FRLOC_regnum_bospori_INHAB:0 "Bosphorans"
+ papal_states_neutrality_ADJ:0 "pontificale"
+ papal_states_fascism_ADJ:0 "divine"
+ papal_states_communism_ADJ:0 "italo-catholique"
+ FRLOC_papal_states_neutrality_ADJ_MS:0 "pontifical"
+ FRLOC_papal_states_neutrality_ADJ_FS:0 "pontificale"
+ FRLOC_papal_states_neutrality_ADJ_MP:0 "pontificaux"
+ FRLOC_papal_states_neutrality_ADJ_FP:0 "pontificales"
+ FRLOC_papal_states_neutrality_INHAB:0 "Pontificaux"
+ FRLOC_papal_states_fascism_ADJ_MS:0 "divin"
+ FRLOC_papal_states_fascism_ADJ_FS:0 "divine"
+ FRLOC_papal_states_fascism_ADJ_MP:0 "divins"
+ FRLOC_papal_states_fascism_ADJ_FP:0 "divines"
+ FRLOC_papal_states_fascism_INHAB:0 "Divins"
+ FRLOC_papal_states_communism_ADJ_S:0 "italo-catholique"
+ FRLOC_papal_states_communism_ADJ_P:0 "italo-catholiques"
+ FRLOC_papal_states_communism_INAHB:0 "Italo-Catholiques"
+ FRLOC_ethiopia_anarcho_communist_ADJ_MS:0 "anarcho-africain"
+ FRLOC_ethiopia_anarcho_communist_ADJ_FS:0 "anarcho-africaine"
+ FRLOC_ethiopia_anarcho_communist_ADJ_MP:0 "anarcho-africains"
+ FRLOC_ethiopia_anarcho_communist_ADJ_FP:0 "anarcho-africaines"
+ FRLOC_ethiopia_anarcho_communist_INHAB:0 "Anarcho-africains"
+ COG_subject_DEF:0 "le Congo $OVERLORDADJ$"
+ MAL_subject_DEF:0 "la Malaisie $OVERLORDADJ$"
+ LBA_subject_DEF:0 "l'Afrique du Nord $OVERLORDADJ$"
+ SAU_subject_DEF:0 "l'Arabie $OVERLORDADJ$"
+ RAJ_UK_subject_DEF:0 "le Raj $OVERLORDADJ$"
+ ETH_ethiopian_federation_democratic_ADJ:0 "éthiopienne"
+ FRLOC_ETH_African_Union_ADJ_MS:0 "africain"
+ FRLOC_ETH_African_Union_ADJ_FS:0 "africaine"
+ FRLOC_ETH_African_Union_ADJ_MP:0 "africains"
+ FRLOC_ETH_African_Union_ADJ_FP:0 "africaines"
+ FRLOC_ETH_African_Union_INHAB:0 "Africains"
+ east_africa_neutrality_ADJ:0 "est-africaine"
+ east_africa_democratic_ADJ:0 "est-africaine"
+ east_africa_communism_ADJ:0 "est-africaine"
+ east_africa_fascism_ADJ:0 "est-africaine"
+ FRLOC_italo_ethiopian_empire_ADJ_MS:0 "italo-éthiopien"
+ FRLOC_italo_ethiopian_empire_ADJ_FS:0 "italo-éthiopienne"
+ FRLOC_italo_ethiopian_empire_ADJ_MP:0 "italo-éthiopiens"
+ FRLOC_italo_ethiopian_empire_ADJ_FP:0 "italo-éthiopiennes"
+ FRLOC_italo_ethiopian_empire_INHAB:0 "Italo-Éthiopiens"
+ papal_states_democratic_ADJ:0 "pontificale"
+ FRLOC_papal_states_neut_dem_ADJ_MS:0 "pontifical"
+ FRLOC_papal_states_neut_dem_ADJ_FS:0 "pontificale"
+ FRLOC_papal_states_neut_dem_ADJ_MP:0 "pontificaux"
+ FRLOC_papal_states_neut_dem_ADJ_FP:0 "pontificales"
+ FRLOC_papal_states_neut_dem_INHAB:0 "Pontificaux"
+ FRLOC_papal_papal_states_communism_ADJ_S:0 "italo-catholique"
+ FRLOC_papal_papal_states_communism_ADJ_P:0 "italo-catholiques"
+ FRLOC_papal_papal_states_communism_INHAB:0 "Italo-Catholiques"
+ ITA_socialist_republic_neutrality_ADJ:0 "italienne"
+ ITA_socialist_republic_fascism_ADJ:0 "italienne"
+ ITA_socialist_republic_democratic_ADJ:0 "italienne"
+ ITA_socialist_republic_communism_ADJ:0 "italienne"
+ FRLOC_ITA_socialist_republic_ADJ_MS:0 "italien"
+ FRLOC_ITA_socialist_republic_ADJ_FS:0 "italienne"
+ FRLOC_ITA_socialist_republic_ADJ_MP:0 "italiens"
+ FRLOC_ITA_socialist_republic_ADJ_FP:0 "italiennes"
+ FRLOC_ITA_socialist_republic_INHAB:0 "Italiens"
+ FRLOC_SWI_FRA_puppet_democratic_ADJ_S:0 "helvétique"
+ FRLOC_SWI_FRA_puppet_democratic_ADJ_P:0 "helvétiques"
+ FRLOC_SWI_FRA_puppet_democratic_INHAB:0 "Helvètes"
+ FRLOC_SWI_GER_puppet_democratic_ADJ_S:0 "suisse"
+ FRLOC_SWI_GER_puppet_democratic_ADJ_P:0 "suisses"
+ FRLOC_SWI_GER_puppet_democratic_INHAB:0 "Suisses"
+ FRLOC_SWI_ITA_puppet_democratic_ADJ_S:0 "suisse"
+ FRLOC_SWI_ITA_puppet_democratic_ADJ_P:0 "suisses"
+ FRLOC_SWI_ITA_puppet_democratic_INHAB:0 "Suisses"
+ FRLOC_SWI_ENG_puppet_democratic_ADJ_MS:0 "alpin"
+ FRLOC_SWI_ENG_puppet_democratic_ADJ_FS:0 "alpine"
+ FRLOC_SWI_ENG_puppet_democratic_ADJ_MP:0 "alpins"
+ FRLOC_SWI_ENG_puppet_democratic_ADJ_FP:0 "alpines"
+ FRLOC_SWI_ENG_puppet_democratic_INHAB:0 "Alpins"
+ FRLOC_SWI_GER_puppet_fascism_ADJ_S:0 "suisse"
+ FRLOC_SWI_GER_puppet_fascism_ADJ_P:0 "suisses"
+ FRLOC_SWI_GER_puppet_fascism_INHAB:0 "Suisses"
+ FRLOC_SWI_FRA_puppet_fascism_ADJ_S:0 "helvétique"
+ FRLOC_SWI_FRA_puppet_fascism_ADJ_P:0 "helvétiques"
+ FRLOC_SWI_FRA_puppet_fascism_INHAB:0 "Helvètes"
+ FRLOC_SWI_ITA_puppet_fascism_ADJ_S:0 "suisse"
+ FRLOC_SWI_ITA_puppet_fascism_ADJ_P:0 "suisses"
+ FRLOC_SWI_ITA_puppet_fascism_INHAB:0 "Suisses"
+ FRLOC_SWI_ENG_puppet_fascism_ADJ_MS:0 "alpin"
+ FRLOC_SWI_ENG_puppet_fascism_ADJ_FS:0 "alpine"
+ FRLOC_SWI_ENG_puppet_fascism_ADJ_MP:0 "alpins"
+ FRLOC_SWI_ENG_puppet_fascism_ADJ_FP:0 "alpines"
+ FRLOC_SWI_ENG_puppet_fascism_INHAB:0 "Alpins"
+ FRLOC_SWI_SOV_puppet_communism_ADJ_S:0 "suisse"
+ FRLOC_SWI_SOV_puppet_communism_ADJ_P:0 "suisses"
+ FRLOC_SWI_SOV_puppet_communism_INHAB:0 "Suisses"
+ FRLOC_SWI_helvetic_republic_ADJ_S:0 "helvétique"
+ FRLOC_SWI_helvetic_republic_ADJ_P:0 "helvétiques"
+ FRLOC_SWI_helvetic_republic_INHAB:0 "Helvètes"
+ FRLOC_SWI_alpine_ADJ_MS:0 "alpin"
+ FRLOC_SWI_alpine_ADJ_FS:0 "alpine"
+ FRLOC_SWI_alpine_ADJ_MP:0 "alpins"
+ FRLOC_SWI_alpine_ADJ_FP:0 "alpines"
+ FRLOC_SWI_alpine_INHAB:0 "Alpins"
+ ITA_italian_empire_neutrality_ADJ:0 "italienne"
+ ITA_italian_empire_fascism_ADJ:0 "italienne"
+ ITA_italian_empire_democratic_ADJ:0 "italienne"
+ ITA_italian_empire_communism_ADJ:0 "italienne"
+ FRLOC_ITA_italian_empire_ADJ_MS:0 "italien"
+ FRLOC_ITA_italian_empire_ADJ_FS:0 "italienne"
+ FRLOC_ITA_italian_empire_ADJ_MP:0 "italiens"
+ FRLOC_ITA_italian_empire_ADJ_FP:0 "italiennes"
+ FRLOC_ITA_italian_empire_INHAB:0 "Italiens"

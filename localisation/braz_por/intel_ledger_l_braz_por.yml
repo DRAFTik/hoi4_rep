@@ -99,7 +99,7 @@
  INTEL_LEDGER_FACTORIES_USED_IN_EQUIPMENT:0 "Fábricas militares utilizadas na fabricação de equipamento militar: $RANGE|H%.0$"
  INTEL_LEDGER_FACTORIES_USED_IN_ARMOR:0 "Fábricas militares utilizadas na fabricação de equipamento de blindagem: $RANGE|H%.0$"
  INTEL_LEDGER_FACTORIES_USED_IN_AIR:0 "Fábricas militares utilizadas na fabricação de aviões: $RANGE|H%.0$"
- INTEL_LEDGER_FACTORIES_USED_IN_CAPITAL_SHIPS:0 "Docas utilizadas na fabricação de capitanias: $RANGE|H%.0$"
+ INTEL_LEDGER_FACTORIES_USED_IN_CAPITAL_SHIPS:0 "Docas utilizadas na fabricação de navios capitânias: $RANGE|H%.0$"
  INTEL_LEDGER_FACTORIES_USED_IN_SCREEN_SHIPS:0 "Docas utilizadas na fabricação de navios tela: $RANGE|H%.0$"
  INTEL_LEDGER_FACTORIES_USED_IN_OTHER_SHIPS:0 "Docas utilizadas na fabricação de outros navios: $RANGE|H%.0$"
  MIN_INTEL_REQUIRED_FOR_IDEAS:0 "Informação necessária para exibir ministros e leis: $MIN|H.0%$"

@@ -235,7 +235,7 @@
  superior_firepower_army_spirit_desc:1 "野戦砲をそろえても勝利できないと言うことは、まだ数が足りないと言うことだ。\n\n§G特定のドクトリンを採用したことにより、この軍事精神が解放されている。§!"
  grand_battleplan_army_spirit:0 "槍の穂先"
  grand_battleplan_army_spirit_desc:1 "昼の長剣よりも、夜の短剣の方が効果的なことが多い。\n\n§G特定のドクトリンを採用したことにより、この軍事精神が解放されている。§!"
- mass_assault_army_spirit:0 "銃剣の力"
+ mass_assault_army_spirit:1 "銃剣の力"
  mass_assault_army_spirit_desc:1 "全ての努力が成されたとき、祖国を守りうるのは航空機や戦車ではない。\n\n§G特定のドクトリンを採用したことにより、この軍事精神が解放されている。§!"
  political_connections_spirit:0 "政治的縁故"
  political_connections_spirit_desc:0 "さて、それについて大臣が何と言っているか見てみよう！"

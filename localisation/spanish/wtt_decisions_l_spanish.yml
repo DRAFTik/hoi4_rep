@@ -10,7 +10,7 @@
  form_eu_italy_coring_states_tt:0 "Gana territorios esenciales en todos los estados §Yitalianos§! de Europa.\n"
  form_country_germany_coring_states_tt:0 "Gana territorios esenciales en todos los estados §Yalemanes§!.\n"
  form_spqr_france_required_states_tt:0 "Controla todos los estados §Yfranceses§! en Europa, el norte de África y Oriente Medio."
- form_spqr_italy_required_states_tt:0 "Controla todos los estados §Yitalianos§! en Europa y el norte de África."
+ form_spqr_italy_required_states_tt:1 "Controla todos los territorios esenciales §Yitalianos§!."
  form_spqr_britain_required_states_tt:0 "Controla todos los estados §Ybritánicos§! en Egipto, Oriente Medio y el este del Mediterráneo."
  form_spqr_spain_required_states_tt:0 "Controla todos los estados §Yespañoles§! en Europa y el África española."
  form_eu_portugal_required_states_tt:0 "Controla todos los estados §Yportugueses§! en Europa."

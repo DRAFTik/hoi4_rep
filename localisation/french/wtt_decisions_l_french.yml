@@ -10,7 +10,7 @@
  form_eu_italy_coring_states_tt:0 "Tous les États §Yitaliens§! d'Europe deviennent des États nationaux.\n"
  form_country_germany_coring_states_tt:0 "Tous les États §Yallemands§! deviennent des États nationaux.\n"
  form_spqr_france_required_states_tt:0 "Contrôle tous les États §Yfrançais§! en Europe, en Afrique du Nord et au Proche-Orient."
- form_spqr_italy_required_states_tt:0 "Contrôle tous les États §Yitaliens§! en Europe et en Afrique du Nord."
+ form_spqr_italy_required_states_tt:1 "Contrôle tous les États nationaux §Yitaliens§!."
  form_spqr_britain_required_states_tt:0 "Contrôle tous les États §Ybritanniques§! en Égypte, au Proche-Orient et en Méditerranée orientale."
  form_spqr_spain_required_states_tt:0 "Contrôle tous les États §Yespagnols§! en Europe et au Maroc espagnol."
  form_eu_portugal_required_states_tt:0 "Contrôle tous les États §Yportugais§! en Europe."

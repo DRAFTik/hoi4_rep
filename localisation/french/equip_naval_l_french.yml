@@ -1255,28 +1255,30 @@
  YUG_light_cruiser_1_desc:0 "Le vieux croiseur allemand SMS Niobe fut vendu en 1925 à la jeune Marine royale yougoslave et totalement réarmé. Équipé d'une artillerie anti-aérienne moderne et des canons les plus lourds de la marine, le Dalmacija servit principalement comme navire-école pour les artilleurs."
  screen_ship:0 "Navires d'escorte"
  capital_ship:0 "Navires capitaux"
- ship_hull_light_1_short:2 "Destroyer" # [LocEditor:CustomLanguageKey]
- ship_hull_light_2_short:2 "Destroyer 1936" # [LocEditor:CustomLanguageKey]
- ship_hull_light_3_short:2 "Destroyer 1940" # [LocEditor:CustomLanguageKey]
- ship_hull_light_4_short:2 "Destroyer 1944" # [LocEditor:CustomLanguageKey]
- ship_hull_cruiser_1_short:1 "Croiseur" # [LocEditor:CustomLanguageKey]
- ship_hull_cruiser_2_short:1 "Croiseur 1936" # [LocEditor:CustomLanguageKey]
- ship_hull_cruiser_3_short:1 "Croiseur 1940" # [LocEditor:CustomLanguageKey]
- ship_hull_cruiser_4_short:1 "Croiseur 1944" # [LocEditor:CustomLanguageKey]
- ship_hull_heavy_1_short:1 "Cuirassé" # [LocEditor:CustomLanguageKey]
- ship_hull_heavy_2_short:1 "Cuirassé 1936" # [LocEditor:CustomLanguageKey]
- ship_hull_heavy_3_short:1 "Cuirassé 1940" # [LocEditor:CustomLanguageKey]
- ship_hull_heavy_4_short:1 "Cuirassé 1944" # [LocEditor:CustomLanguageKey]
- ship_hull_carrier_0_short:1 "Porte-avions" # [LocEditor:CustomLanguageKey]
- ship_hull_carrier_1_short:1 "Porte-avions 1936" # [LocEditor:CustomLanguageKey]
- ship_hull_carrier_2_short:1 "Porte-avions 1940" # [LocEditor:CustomLanguageKey]
- ship_hull_carrier_3_short:1 "Porte-avions 1944" # [LocEditor:CustomLanguageKey]
- ship_hull_submarine_1_short:1 "Sous-marin" # [LocEditor:CustomLanguageKey]
- ship_hull_submarine_2_short:1 "Sous-marin 1936" # [LocEditor:CustomLanguageKey]
- ship_hull_submarine_3_short:1 "Sous-marin 1940" # [LocEditor:CustomLanguageKey]
- ship_hull_submarine_4_short:1 "Sous-marin 1944" # [LocEditor:CustomLanguageKey]
- ship_hull_pre_dreadnought_short:0 "Pré-dreadnought" # [LocEditor:CustomLanguageKey]
- ship_hull_super_heavy_1_short:0 "Cuirassé super-lourd" # [LocEditor:CustomLanguageKey]
- screen_ship_desc:0 "Les navires d'escorte sont conçus pour protéger les navires capitaux et convois des torpilles lors des engagements en mer." # [LocEditor:CustomLanguageKey]
- capital_ship_desc:0 "Principaux bâtiments de surface, les navires capitaux sont conçus pour couler les navires ennemis lors des engagements de surface." # [LocEditor:CustomLanguageKey]
  
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ ship_hull_light_1_short:2 "Destroyer"
+ ship_hull_light_2_short:2 "Destroyer 1936"
+ ship_hull_light_3_short:2 "Destroyer 1940"
+ ship_hull_light_4_short:2 "Destroyer 1944"
+ ship_hull_cruiser_1_short:1 "Croiseur"
+ ship_hull_cruiser_2_short:1 "Croiseur 1936"
+ ship_hull_cruiser_3_short:1 "Croiseur 1940"
+ ship_hull_cruiser_4_short:1 "Croiseur 1944"
+ ship_hull_heavy_1_short:1 "Cuirassé"
+ ship_hull_heavy_2_short:1 "Cuirassé 1936"
+ ship_hull_heavy_3_short:1 "Cuirassé 1940"
+ ship_hull_heavy_4_short:1 "Cuirassé 1944"
+ ship_hull_carrier_0_short:1 "Porte-avions"
+ ship_hull_carrier_1_short:1 "Porte-avions 1936"
+ ship_hull_carrier_2_short:1 "Porte-avions 1940"
+ ship_hull_carrier_3_short:1 "Porte-avions 1944"
+ ship_hull_submarine_1_short:1 "Sous-marin"
+ ship_hull_submarine_2_short:1 "Sous-marin 1936"
+ ship_hull_submarine_3_short:1 "Sous-marin 1940"
+ ship_hull_submarine_4_short:1 "Sous-marin 1944"
+ ship_hull_pre_dreadnought_short:0 "Pré-dreadnought"
+ ship_hull_super_heavy_1_short:0 "Cuirassé super-lourd"
+ screen_ship_desc:0 "Les navires d'escorte sont conçus pour protéger les navires capitaux et convois des torpilles lors des engagements en mer."
+ capital_ship_desc:0 "Principaux bâtiments de surface, les navires capitaux sont conçus pour couler les navires ennemis lors des engagements de surface."

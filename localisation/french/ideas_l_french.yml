@@ -1101,6 +1101,7 @@
  CAN_communist_ideals:0 "Idéaux communistes"
  CAN_communist_ideals_2:0 "$CAN_communist_ideals$"
  CAN_communist_ideals_3:0 "$CAN_communist_ideals$"
+ CAN_communist_ideals_4:0 "$CAN_communist_ideals$"
  AUS_eduard_freiherr:0 "E. von Böhm-Ermolli"
  AUS_alexander_lohr:0 "Alexander Löhr"
  AUS_lothar_rendulic:0 "Lothar Rendulic"
@@ -2681,874 +2682,6 @@
  LoN_disbanded_flag:0 "La Société des Nations n'a plus aucune activité"
 
  organization_of_african_unity_member_idea:0 "Membre de l'Organisation de l'unité africaine"
- heinz_guderian_desc:0 "§LHeinz Wilhelm Guderian§!" # [LocEditor:CustomLanguageKey]
- walther_von_brauchitsch_desc:0 "§LWalther Heinrich Alfred Hermann von Brauchitsch§!" # [LocEditor:CustomLanguageKey]
- erwin_rommel_desc:0 "§LJohannes Erwin Eugen Rommel§!" # [LocEditor:CustomLanguageKey]
- gerd_von_rundstedt_desc:0 "§LKarl Rudolf Gerd von Rundstedt§!" # [LocEditor:CustomLanguageKey]
- kurt_student_desc:0 "§LKurt Arthur Benno Student§!" # [LocEditor:CustomLanguageKey]
- gunther_lutjens_desc:0 "§LJohann Günther Lütjens§!" # [LocEditor:CustomLanguageKey]
- wolfram_von_richthofen_desc:0 "§LWolfram Karl Ludwig Moritz Hermann von Richthofen§!" # [LocEditor:CustomLanguageKey]
- joseph_goebbels_desc:0 "§LPaul Joseph Goebbels§!" # [LocEditor:CustomLanguageKey]
- heinrich_himmler_desc:0 "§LHeinrich Luitpold Himmler§!" # [LocEditor:CustomLanguageKey]
- joachim_von_ribbentrop_desc:0 "§LUllrich Friedrich Willy Joachim von Ribbentrop§!" # [LocEditor:CustomLanguageKey]
- konstantin_von_neurath_desc:0 "§LKonstantin Hermann Karl Freiherr von Neurath§!" # [LocEditor:CustomLanguageKey]
- hjalmar_schacht_desc:0 "§LHorace Greeley Hjalmar Schacht§!" # [LocEditor:CustomLanguageKey]
- walther_funk_desc:0 "§LWalther Immanuel Funk§!" # [LocEditor:CustomLanguageKey]
- aichi_desc:0 "Aichi Kôkûki Kabushiki Kaisha – Société des avions Aichi\n" # [LocEditor:CustomLanguageKey]
- somua_desc:0 "Société d'Outillage Mécanique et d'Usinage d'Artillerie\n" # [LocEditor:CustomLanguageKey]
- mas_desc:0 "Manufacture d'armes de Saint-Étienne\n" # [LocEditor:CustomLanguageKey]
- bloch_desc:0 "Société des avions Marcel Bloch\n" # [LocEditor:CustomLanguageKey]
- amiot_desc:0 "Société d'emboutissage et de constructions mécaniques Amiot\n" # [LocEditor:CustomLanguageKey]
- fcm_desc:0 "Société nouvelle des forges et chantiers de la Méditerranée\n" # [LocEditor:CustomLanguageKey]
- famh_desc:0 "Compagnie des forges et aciéries de la Marine et d'Homécourt\n" # [LocEditor:CustomLanguageKey]
- fiat_desc:0 "Fabbrica Italiana Automobili Torino – Fabrique italienne d'automobiles de Turin\n" # [LocEditor:CustomLanguageKey]
- crda_desc:0 "Cantieri Riuniti dell'Adriatico – Chantiers réunis de l'Adriatique\n" # [LocEditor:CustomLanguageKey]
- mig_design_bureau_desc:0 "Bureau d'études Mikoyan-Gourévitch\n" # [LocEditor:CustomLanguageKey]
- ilyushin_design_bureau_desc:0 "Bureau d'études Iliouchine\n" # [LocEditor:CustomLanguageKey]
- tupolev_design_bureau_desc:0 "Bureau d'études Tupolev\n" # [LocEditor:CustomLanguageKey]
- grabin_design_bureau_desc:0 "Bureau d'études Grabine\n" # [LocEditor:CustomLanguageKey]
- morozov_design_bureau_desc:0 "Kharkivs'ke Konstrouktors'ke Biouro z Machynoboudouvannia im. O.O. Morozova – Bureau de conception de machines A. A. Morozov\n" # [LocEditor:CustomLanguageKey]
- astrov_design_bureau_desc:0 "Bureau d'études Astrov\n" # [LocEditor:CustomLanguageKey]
- okmo_desc:0 "Opytni Konstruktorsko-Mekhanitcheski Otdel – Département Mécanique de Conception Expérimentale\n" # [LocEditor:CustomLanguageKey]
- stalingrad_tractor_factory_desc:0 "Usine de tracteurs de Stalingrad\n" # [LocEditor:CustomLanguageKey]
- leningrad_polytechnical_institute_desc:0 "Leningradski Indystrialy Institout – Institut industriel de Léningrad\n" # [LocEditor:CustomLanguageKey]
- tula_arms_plant_desc:0 "Toulski Oroujeïny Zavod – Usine d'armes de Toula\n" # [LocEditor:CustomLanguageKey]
- gaz_desc:0 "Gorkovski Avtomobilni Zavod – Usine d'automobiles de Gorki\n" # [LocEditor:CustomLanguageKey]
- nevskoye_design_bureau_desc:0 "Bureau d'études Nevskoïé\n" # [LocEditor:CustomLanguageKey]
- rsaf_enfield_desc:0 "Royal Small Arms Factory, Enfield – Arsenal royal d'Enfield\n" # [LocEditor:CustomLanguageKey]
- vauxhall_desc:0 "Vauxhall Motors\n" # [LocEditor:CustomLanguageKey]
- royal_arsenal_desc:0 "Royal Arsenal, Woolwich – Arsenal royal de Woolwich\n" # [LocEditor:CustomLanguageKey]
- de_havilland_desc:0 "De Havilland Aircraft Company Ltd – Compagnie aéronautique de Havilland\n" # [LocEditor:CustomLanguageKey]
- avro_desc:0 "A.V.Roe & Company Ltd\n" # [LocEditor:CustomLanguageKey]
- vickers_armstrong_bel_desc:0 "Vickers-Armstrongs Ltd\n" # [LocEditor:CustomLanguageKey]
- vickers_armstrong_eng_desc:0 "Vickers-Armstrongs Ltd\n" # [LocEditor:CustomLanguageKey]
- vickers_armstrong_can_desc:0 "Canadian Vickers Ltd\n" # [LocEditor:CustomLanguageKey]
- yarrow_shipbuilders_desc:0 "Yarrow Shipbuilders Ltd" # [LocEditor:CustomLanguageKey]
- john_brown_company_desc:0 "John Brown & Company\n" # [LocEditor:CustomLanguageKey]
- aioc_desc:0 "Anglo-Iranian Oil Company\n" # [LocEditor:CustomLanguageKey]
- english_electric_desc:0 "English Electric Company Ltd\n" # [LocEditor:CustomLanguageKey]
- springfield_armory_desc:0 "Manufacture d'armes à feu de Springfield\n" # [LocEditor:CustomLanguageKey]
- standard_oil_california_desc:0 "Standard Oil Company of California\n" # [LocEditor:CustomLanguageKey]
- general_electric_desc:0 "General Electric Company\n" # [LocEditor:CustomLanguageKey]
- marmon_herrington_desc:0 "Marmon-Herrington Company, Inc.\n" # [LocEditor:CustomLanguageKey]
- army_ordnance_department_desc:0 "Army Ordnance Department\n" # [LocEditor:CustomLanguageKey]
- rock_island_arsenal_desc:0 "Arsenal de Rock Island\n" # [LocEditor:CustomLanguageKey]
- grumman_desc:0 "Grumman Aircraft Engineering Corporation\n" # [LocEditor:CustomLanguageKey]
- lockheed_desc:0 "Lockheed Corporation\n" # [LocEditor:CustomLanguageKey]
- douglas_aircraft_company_desc:0 "Douglas Aircraft Company\n" # [LocEditor:CustomLanguageKey]
- boeing_desc:0 "The Boeing Company\n" # [LocEditor:CustomLanguageKey]
- north_american_aviation_desc:0 "North American Aviation\n" # [LocEditor:CustomLanguageKey]
- norfolk_naval_yard_desc:0 "Chantier naval de Norfolk\n" # [LocEditor:CustomLanguageKey]
- brooklyn_naval_yard_desc:0 "Chantier naval de Brooklyn\n" # [LocEditor:CustomLanguageKey]
- newport_news_shipbuilding_desc:0 "Newport News Shipbuilding - NNS\n" # [LocEditor:CustomLanguageKey]
- electric_boat_company_desc:0 "Electric Boat Company\n" # [LocEditor:CustomLanguageKey]
- germaniawerft_desc:0 "Arsenal Germania\n" # [LocEditor:CustomLanguageKey]
- levasseur_desc:0 "Société Pierre Levasseur\n" # [LocEditor:CustomLanguageKey]
- fairey_aviation_desc:0 "Fairey Aviation Company Ltd\n" # [LocEditor:CustomLanguageKey]
- yakovlev_design_bureau_desc:0 "Bureau d'études Iakovlev\n" # [LocEditor:CustomLanguageKey]
- von_braun_desc:0 "§LWernher Magnus Maximilian von Braun§!" # [LocEditor:CustomLanguageKey]
- heisenberg_desc:0 "§LWerner Karl Heisenberg§!" # [LocEditor:CustomLanguageKey]
- guderian_desc:0 "§LHeinz Wilhelm Guderian§!" # [LocEditor:CustomLanguageKey]
- manstein_desc:0 "§LFritz Erich von Lewinski, dit Erich von Manstein§!" # [LocEditor:CustomLanguageKey]
- mikhail_kalinin_desc:0 "§LMikhaïl Ivanovitch Kalinine§!" # [LocEditor:CustomLanguageKey]
- nikita_khrushchev_desc:0 "§LNikita Sergueïevitch Khrouchtchev§!" # [LocEditor:CustomLanguageKey]
- alexander_kerensky_desc:0 "§LAleksandr Fiodorovitch Kérenski§!" # [LocEditor:CustomLanguageKey]
- konstantin_rodzaevsky_desc:0 "§LKonstantin Vladimirovitch Rodzaïevski§!" # [LocEditor:CustomLanguageKey]
- john_beckett_desc:0 "§LJohn Warburton Beckett§!" # [LocEditor:CustomLanguageKey]
- earl_browder_desc:0 "§LEarl Russel Browder§!" # [LocEditor:CustomLanguageKey]
- harold_ickes_desc:0 "§LHarold LeClair Ickes§!" # [LocEditor:CustomLanguageKey]
- charles_coughlin_desc:0 "§LCharles Edward Coughlin§!" # [LocEditor:CustomLanguageKey]
- ernst_thalmann_desc:0 "§LErnst Johannes Fritz Thälmann§!" # [LocEditor:CustomLanguageKey]
- kurt_schumacher_desc:0 "§LKurt Ernst Carl Schumacher§!" # [LocEditor:CustomLanguageKey]
- rudolf_hess_desc:0 "§LRudolf Walter Richard Heß§!" # [LocEditor:CustomLanguageKey]
- kanin_kotohito_desc:0 "§LPrince Kan'in Kotohito§!" # [LocEditor:CustomLanguageKey]
- fushimi_hiroyasu_desc:0 "§LPrince Fushimi Hiroyasu§!" # [LocEditor:CustomLanguageKey]
- douglas_macarthur_desc:0 "§LDouglas « Big Chief » MacArthur§!" # [LocEditor:CustomLanguageKey]
- george_marshall_desc:0 "§LGeorge Catlett Marshall Jr.§!" # [LocEditor:CustomLanguageKey]
- dwight_eisenhower_desc:0 "§LDwight David « Ike » Eisenhower§!" # [LocEditor:CustomLanguageKey]
- courtney_hodges_desc:0 "§LCourtney Hicks Hodges§!" # [LocEditor:CustomLanguageKey]
- joseph_stilwell_desc:0 "§LJoseph Warren « Vinegar Joe » Stilwell§!" # [LocEditor:CustomLanguageKey]
- mark_clark_desc:0 "§LMark Wayne Clark§!" # [LocEditor:CustomLanguageKey]
- henry_arnold_desc:0 "§LHenry Harley « Hap » Arnold§!" # [LocEditor:CustomLanguageKey]
- carl_spaatz_desc:0 "§LCarl Andrew « Tooey » Spaatz§!" # [LocEditor:CustomLanguageKey]
- george_kenney_desc:0 "§LGeorge Churchill Kenney§!" # [LocEditor:CustomLanguageKey]
- jimmy_doolittle_desc:0 "§LJames Harold « Jimmy » Doolittle§!" # [LocEditor:CustomLanguageKey]
- john_cannon_desc:0 "§LJohn Kenneth Cannon§!" # [LocEditor:CustomLanguageKey]
- claire_lee_chennault_desc:0 "§LClaire Lee « Old Leatherface » Chennault§!" # [LocEditor:CustomLanguageKey]
- ernest_king_desc:0 "§LErnest Joseph « Ernie » King§!" # [LocEditor:CustomLanguageKey]
- chester_nimitz_desc:0 "§LChester William Nimitz Sr.§!" # [LocEditor:CustomLanguageKey]
- william_halsey_desc:0 "§LWilliam Frederick « Bull » Halsey Jr.§!" # [LocEditor:CustomLanguageKey]
- raymond_spruance_desc:0 "§LRaymond Ames « Electric Brain » Spruance§!" # [LocEditor:CustomLanguageKey]
- frank_jack_fletcher_desc:0 "§LFrank Jack « Black Jack » Fletcher§!" # [LocEditor:CustomLanguageKey]
- thomas_kinkaid_desc:0 "§LThomas Cassin Kinkaid§!" # [LocEditor:CustomLanguageKey]
- john_vereker_desc:0 "§LJohn Standish Surtees Prendergast « Tiger » Vereker§!" # [LocEditor:CustomLanguageKey]
- edmund_ironside_desc:0 "§LWilliam Edmund « Tiny » Ironside§!" # [LocEditor:CustomLanguageKey]
- alan_brooke_desc:0 "§LAlan Francis Brooke§!" # [LocEditor:CustomLanguageKey]
- archibald_wavell_desc:0 "§LArchibald Percival Wavell§!" # [LocEditor:CustomLanguageKey]
- claude_auchinleck_desc:0 "§LClaude John Eyre Auchinleck§!" # [LocEditor:CustomLanguageKey]
- kenneth_anderson_desc:0 "§LKenneth Arthur Noel « Sunshine » Anderson§!" # [LocEditor:CustomLanguageKey]
- cyril_newall_desc:0 "§LCyril Louis Norton Newall§!" # [LocEditor:CustomLanguageKey]
- charles_portal_desc:0 "§LCharles Frederick Algernon « Peter » Portal§!" # [LocEditor:CustomLanguageKey]
- edward_ellington_desc:0 "§LEdward Leonard Ellington§!" # [LocEditor:CustomLanguageKey]
- sholto_douglas_desc:0 "§LWilliam Sholto Douglas§!" # [LocEditor:CustomLanguageKey]
- trafford_leigh_mallory_desc:0 "§LTrafford Leigh-Mallory§!" # [LocEditor:CustomLanguageKey]
- frederick_bowhill_desc:0 "§LFrederick William Bowhill§!" # [LocEditor:CustomLanguageKey]
- ernle_chatfield_desc:0 "§LAlfred Ernle Montacute Chatfield§!" # [LocEditor:CustomLanguageKey]
- dudley_pound_desc:0 "§LAlfred Dudley Pickman Rogers Pound§!" # [LocEditor:CustomLanguageKey]
- andrew_cunningham_desc:0 "§LAndrew Browne « ABC » Cunningham§!" # [LocEditor:CustomLanguageKey]
- louis_mountbatten_desc:0 "§LLouis Francis Albert Victor Nicholas Mountbatten§!" # [LocEditor:CustomLanguageKey]
- henry_harwood_desc:0 "§LHenry Harwood Harwood§!" # [LocEditor:CustomLanguageKey]
- max_horton_desc:0 "§LMax Kennedy Horton§!" # [LocEditor:CustomLanguageKey]
- semyon_timoshenko_desc:0 "§LSémion Konstantinovitch Timochenko§!" # [LocEditor:CustomLanguageKey]
- kliment_voroshilov_desc:0 "§LKliment Iefrémovitch Vorochilov§!" # [LocEditor:CustomLanguageKey]
- alexander_yegorov_desc:0 "§LAleksandr Ilitch Iégorov§!" # [LocEditor:CustomLanguageKey]
- vasily_blucher_desc:0 "§LVassili Konstantinovitch Blücher§!" # [LocEditor:CustomLanguageKey]
- aleksandr_vasilevsky_desc:0 "§LAleksandr Mikhaïlovitch Vassilievski§!" # [LocEditor:CustomLanguageKey]
- konstantin_rokossovsky_desc:0 "§LKonstantin Konstantinovitch Rokossovski§!" # [LocEditor:CustomLanguageKey]
- alexander_novikov_desc:0 "§LAleksandr Aleksandrovitch Novikov§!" # [LocEditor:CustomLanguageKey]
- konstantin_vershinin_desc:0 "§LKonstantine Andreïevitch Verchinine§!" # [LocEditor:CustomLanguageKey]
- yakov_smushkevich_desc:0 "§LIakov Vladimirovitch Smouchkévitch§!" # [LocEditor:CustomLanguageKey]
- pavel_rychagov_desc:0 "§LPavel Vassiliévitch Rytchagov§!" # [LocEditor:CustomLanguageKey]
- pavel_zhigarev_desc:0 "§LPavel Fiodorovitch Jigarev§!" # [LocEditor:CustomLanguageKey]
- sergei_khudyakov_desc:0 "§LSergueï Aleksandrovitch Khoudiakov§!" # [LocEditor:CustomLanguageKey]
- stepan_krasovsky_desc:0 "§LStépane Akimovitch Krassovski§!" # [LocEditor:CustomLanguageKey]
- pyotr_smirnov_desc:0 "§LPiotr Aleksandrovitch Smirnov§!" # [LocEditor:CustomLanguageKey]
- mikhail_frinovsky_desc:0 "§LMikhaïl Petrovitch Frinovski§!" # [LocEditor:CustomLanguageKey]
- nikolay_kuznetsov_desc:0 "§LNikolaï Guérassimovitch Kouznetsov§!" # [LocEditor:CustomLanguageKey]
- ivan_yumashev_desc:0 "§LIvan Stépanovitch Ioumachev§!" # [LocEditor:CustomLanguageKey]
- vladimir_kasatonov_desc:0 "§LVladimir Afanassiévitch Kassatonov§!" # [LocEditor:CustomLanguageKey]
- gordey_levchenko_desc:0 "§LGordeï Ivanovitch Levtchenko§!" # [LocEditor:CustomLanguageKey]
- arseniy_golovko_desc:0 "§LArséni Grigoriévitch Golovko§!" # [LocEditor:CustomLanguageKey]
- maurice_gamelin_desc:0 "§LMaurice Gustave Gamelin§!" # [LocEditor:CustomLanguageKey]
- alphonse_georges_desc:0 "§LAlphonse-Joseph Georges§!" # [LocEditor:CustomLanguageKey]
- rene_prioux_desc:0 "§LRené Jacques Adolphe Prioux§!" # [LocEditor:CustomLanguageKey]
- philippe_leclerc_desc:0 "§LPhilippe de Hauteclocque, dit « Leclerc »§!" # [LocEditor:CustomLanguageKey]
- alfred_heurtaux_desc:0 "§LAlfred Marie Joseph Heurtaux§!" # [LocEditor:CustomLanguageKey]
- jean_francois_jannekeyn_desc:0 "§LJean-François Jannekeyn§!" # [LocEditor:CustomLanguageKey]
- jean_marie_abrial_desc:0 "§LJean-Marie Charles Abrial§!" # [LocEditor:CustomLanguageKey]
- jean_de_laborde_desc:0 "§LJean Joseph Jules Noël de Laborde§!" # [LocEditor:CustomLanguageKey]
- emile_muselier_desc:0 "§LÉmile Henry Muselier§!" # [LocEditor:CustomLanguageKey]
- mario_roatta_desc:0 "§LMario Giuseppe Leon Roatta§!" # [LocEditor:CustomLanguageKey]
- charles_de_gaulle_desc:0 "§LCharles André Joseph Marie de Gaulle§!" # [LocEditor:CustomLanguageKey]
- henri_giraud_desc:0 "§LHenri Honoré Giraud§!" # [LocEditor:CustomLanguageKey]
- louis_kahn_desc:0 "§LLouis-Lazare Kahn§!" # [LocEditor:CustomLanguageKey]
- victor_denain_desc:0 "§LVictor Léon Ernest Denain§!" # [LocEditor:CustomLanguageKey]
- frederic_irene_joliot_curie_desc:0 "§LJean Frédéric Joliot et Irène Joliot-Curie§!" # [LocEditor:CustomLanguageKey]
- gaetano_crocco_desc:0 "§LGaetano Arturo Crocco§!" # [LocEditor:CustomLanguageKey]
- omar_bradley_desc:0 "§LOmar Nelson « Brad » Bradley§!" # [LocEditor:CustomLanguageKey]
- george_patton_desc:0 "§LGeorge Smith « Old Blood and Guts » Patton Jr.§!" # [LocEditor:CustomLanguageKey]
- dewitt_clinton_ramsey_desc:0 "§LDeWitt Clinton Ramsey§!" # [LocEditor:CustomLanguageKey]
- marc_mitscher_desc:0 "§LMarc Andrew « Pete » Mitscher§!" # [LocEditor:CustomLanguageKey]
- curtis_lemay_desc:0 "§LCurtis Emerson « The Demon » LeMay§!" # [LocEditor:CustomLanguageKey]
- harold_mcclelland_desc:0 "§LHarold Mark McClelland§!" # [LocEditor:CustomLanguageKey]
- robert_oppenheimer_desc:0 "§LJulius Robert Oppenheimer§!" # [LocEditor:CustomLanguageKey]
- robert_goddard_desc:0 "§LRobert Hutchings Goddard§!" # [LocEditor:CustomLanguageKey]
- harold_alexander_desc:0 "§LHarold Rupert Leofric George Alexander§!" # [LocEditor:CustomLanguageKey]
- james_somerville_desc:0 "§LJames Fownes Somerville§!" # [LocEditor:CustomLanguageKey]
- tom_phillips_desc:0 "§LThomas Spencer Vaughan « Tom Thumb » Phillips§!" # [LocEditor:CustomLanguageKey]
- hugh_dowding_desc:0 "§LHugh Caswall Tremenheere « Stuffy » Dowding§!" # [LocEditor:CustomLanguageKey]
- arthur_harris_desc:0 "§LArthur Travers « Bomber » Harris§!" # [LocEditor:CustomLanguageKey]
- mikhail_tukhachevsky_desc:0 "§LMikhaïl Nikolaïevitch Toukhatchevski§!" # [LocEditor:CustomLanguageKey]
- boris_shaposhnikov_desc:0 "§LBoris Mikhaïlovitch Chapochnikov§!" # [LocEditor:CustomLanguageKey]
- georgy_zhukov_desc:0 "§LGuéorgui Konstantinovitch Joukov§!" # [LocEditor:CustomLanguageKey]
- sergey_gorshkov_desc:0 "§LSergueï Guéorguiévitch Gorchkov§!" # [LocEditor:CustomLanguageKey]
- vladimir_tributs_desc:0 "§LVladimir Filippovitch Tribouts§!" # [LocEditor:CustomLanguageKey]
- sergei_rudenko_desc:0 "§LSergueï Ignatévitch Roudenko§!" # [LocEditor:CustomLanguageKey]
- alexander_golovanov_desc:0 "§LAleksandr Ievguéniévitch Golovanov§!" # [LocEditor:CustomLanguageKey]
- igor_kurchatov_desc:0 "§LIgor Vassiliévitch Kourtchatov§!" # [LocEditor:CustomLanguageKey]
- sergei_korolev_desc:0 "§LSergueï Pavlovitch Korolev§!" # [LocEditor:CustomLanguageKey]
- generic_light_aircraft_manufacturer_desc:0 "Compagnie générale des avions légers\n" # [LocEditor:CustomLanguageKey]
- generic_medium_aircraft_manufacturer_desc:0 "Compagnie générale des avions moyens\n" # [LocEditor:CustomLanguageKey]
- generic_heavy_aircraft_manufacturer_desc:0 "Compagnie générale des avions lourds\n" # [LocEditor:CustomLanguageKey]
- generic_naval_aircraft_manufacturer_desc:0 "Compagnie générale aéronautique\n" # [LocEditor:CustomLanguageKey]
- POL_fb_desc:0 "Fabryka Broni ,,Łucznik" – Usine d'armement « Archer »\n" # [LocEditor:CustomLanguageKey]
- POL_lrl_desc:0 "Lilpop, Rau i Loewenstein – Lilpop, Rau & Loewenstein\n" # [LocEditor:CustomLanguageKey]
- POL_smpa_desc:0 "Stowarzyszenia Mechaników Polskich z Ameryki – Association polonaise de mécanismes américains\n" # [LocEditor:CustomLanguageKey]
- POL_pzinz_desc:0 "Państwowe Zakłady Inżynierii – Institut national d'ingénierie\n" # [LocEditor:CustomLanguageKey]
- POL_pkp_desc:0 "Polskie Koleje Państwowe – Chemins de fer de l'État polonais\n" # [LocEditor:CustomLanguageKey]
- POL_ava_desc:0 "Wytwórnia Radiotechniczna AVA – Société Radio AVA\n" # [LocEditor:CustomLanguageKey]
- POL_pws_desc:0 "Podlaska Wytwórnia Samolotów – Manufacture aéronautique de Podlachie\n" # [LocEditor:CustomLanguageKey]
- POL_pzl_desc:0 "Państwowe Zakłady Lotnicze – Département des travaux d'aviation\n" # [LocEditor:CustomLanguageKey]
- POL_stocznia_gdynia_desc:0 "Chantier naval de Gdynia\n" # [LocEditor:CustomLanguageKey]
- casa_desc:0 "Construcciones Aeronáuticas S.A. – Constructions aéronautiques S.A.\n" # [LocEditor:CustomLanguageKey]
- secn_desc:0 "Sociedad Española de Construcción Naval – Société espagnole de construction navale\n" # [LocEditor:CustomLanguageKey]
- CHI_camco_1_desc:0 "Central Aircraft Manufacturing Company\n" # [LocEditor:CustomLanguageKey]
- CHI_camco_2_desc:0 "Central Aircraft Manufacturing Company – Département des chasseurs\n" # [LocEditor:CustomLanguageKey]
- CHI_camco_3_desc:0 "Central Aircraft Manufacturing Company – Département des bombardiers\n" # [LocEditor:CustomLanguageKey]
- jiangnan_shipyard_group_desc:0 "Chantier naval de Jiangnan\n" # [LocEditor:CustomLanguageKey]
- mw_aircraft_desc:0 "Weiss Manfréd Acél- és Fémmüvek – Aciérie et sidérurgie Manfréd Weiss\n" # [LocEditor:CustomLanguageKey]
- iar_desc:0 "Industria Aeronautică Română – Industrie aéronautique roumaine\n" # [LocEditor:CustomLanguageKey]
- constanta_shipyard_desc:0 "Chantiers navals de Constanta\n" # [LocEditor:CustomLanguageKey]
- dar_desc:0 "Darzhavna aeroplanna rabotilnitsa – Ateliers aéronautiques d'État\n" # [LocEditor:CustomLanguageKey]
- crichton_desc:0 "Ab Crichton-Vulcan Oy – Chantier naval de la société Crichton-Vulcan\n" # [LocEditor:CustomLanguageKey]
- valtion_lentokonetehdas_desc:0 "Valtion lentokonetehdas – Ateliers aéronautiques de l'État\n" # [LocEditor:CustomLanguageKey]
- marinvarkstaderna_desc:0 "Marinverkstäderna – Ateliers navals de la Marine\n" # [LocEditor:CustomLanguageKey]
- husqvarna_desc:0 "Husqvarna Vapenfabriks AB – Manufacture d'armes Husqvarna\n" # [LocEditor:CustomLanguageKey]
- CZE_aero_desc:0 "Aero Vodochody\n" # [LocEditor:CustomLanguageKey]
- CZE_ckd_desc:0 "Českomoravská-Kolben-Daněk\n" # [LocEditor:CustomLanguageKey]
- CZE_ckd_praga_desc:0 "Českomoravská-Kolben-Daněk Praga\n" # [LocEditor:CustomLanguageKey]
- CZE_skoda_shipyards_desc:0 "Chantiers navals Škoda\n" # [LocEditor:CustomLanguageKey]
- jadransko_brodogradiliste_desc:0 "Jadransko Brodogradilište – Chantiers navals de l'Adriatique\n" # [LocEditor:CustomLanguageKey]
- rogozarski_desc:0 "Prva srpska fabrika aeroplana Živojin Rogožarski A. D. – Première usine aéronautique serbe Živojin Rogožarski\n" # [LocEditor:CustomLanguageKey]
- zmaj_desc:0 "Fabrika aeroplana i hidroaviona Zmaj – Usine d'avions et d'hydravions Zmaj\n" # [LocEditor:CustomLanguageKey]
- zastava_arms_desc:0 "Zastava oružje – Armement Zastava\n" # [LocEditor:CustomLanguageKey]
- artillerie_inrichtingen_desc:0 "Artillerie-Inrichtingen du Hembrug - Matériel d'artillerie du Hambrug\n" # [LocEditor:CustomLanguageKey]
- koolhoven_desc:0 "Nationale Vliegtuig Industrie, Koolhoven – Industrie Aéronautique Nationale Koolhoven\n" # [LocEditor:CustomLanguageKey]
- nsm_amsterdam_desc:0 "Nederlandsche Scheepsbouw Maatschappij Amsterdam – Compagnie portuaire et de construction navale néerlandaise, Amsterdam\n" # [LocEditor:CustomLanguageKey]
- golcuk_nsy_desc:0 "Gölcük Donanma Tersanesi – Chantiers navals de Gölcük\n" # [LocEditor:CustomLanguageKey]
- thk_desc:0 "Türk Hava Kurumu – Association aéronautique turque\n" # [LocEditor:CustomLanguageKey]
- ktf_desc:0 "Kayseri Tayyare Fabrikası – Usine aéronautique de Kayseri\n" # [LocEditor:CustomLanguageKey]
- istanbul_military_industries_desc:0 "İstanbul Askeri Endüstrileri – Industries militaires d'Istanbul\n" # [LocEditor:CustomLanguageKey]
- royal_hellenic_naval_shipyard_desc:0 "Arsenal royal hellénique\n" # [LocEditor:CustomLanguageKey]
- gnaf_desc:0 "Kratikó Ergostásio Aeroplánon – Ateliers aéronautiques d'État\n" # [LocEditor:CustomLanguageKey]
- burmeister_wain_desc:0 "Burmeister & Wains Maskin- og Skibsbyggeri A/S – Société des moteurs et navires Burmeister & Wain\n" # [LocEditor:CustomLanguageKey]
- disa_desc:0 "Dansk Industri Syndikat A/S – Syndicat industriel danois\n" # [LocEditor:CustomLanguageKey]
- htk_orlogsvaerftet_desc:0 "Chantiers navals de la flotte royale du Danemark\n" # [LocEditor:CustomLanguageKey]
- fma_desc:0 "Fábrica de Munições de Artilharia, Armamento e Viaturas – Fabrique de munitions d'artillerie, d'armement et de véhicules\n" # [LocEditor:CustomLanguageKey]
- fnmal_desc:0 "Fábrica Nacional de Munições de Armas Ligeiras – Fabrique nationale de munitions d'armes légères\n" # [LocEditor:CustomLanguageKey]
- fabrica_material_guerra_desc:0 "Fabrica de Material de Guerra – Manufacture de matériel militaire\n" # [LocEditor:CustomLanguageKey]
- companhia_uniao_fabril_desc:0 "Companhia União Fabril\n" # [LocEditor:CustomLanguageKey]
- fabrica_nacional_armas_desc:0 "Fabrica Nacional de Armas – Manufacture nationale des armes\n" # [LocEditor:CustomLanguageKey]
- comesa_desc:0 "Compañía Mexicana S.A.\n" # [LocEditor:CustomLanguageKey]
- kingston_shipbuilding_desc:0 "Kingston Shipbuilding Co. Ltd.\n" # [LocEditor:CustomLanguageKey]
- havilland_canada_desc:0 "de Havilland Aircraft of Canada Ltd.\n" # [LocEditor:CustomLanguageKey]
- canadian_car_foundry_desc:0 "Canadian Car & Foundry\n" # [LocEditor:CustomLanguageKey]
- anbo_desc:0 "Antanas Nori Bûti Ore – « Antanas veut être dans les airs »\n" # [LocEditor:CustomLanguageKey]
- arsenal_desc:0 "Tallinna Arsenal – Arsenal de Tallinn\n" # [LocEditor:CustomLanguageKey]
- vef_desc:0 "Valsts elektrotehniskâ fabrika – Fabrique électronique d'État\n" # [LocEditor:CustomLanguageKey]
- lkod_desc:0 "Liepâjas Kara Ostas Darbnîcas – Ateliers du port militaire de Liepâja\n" # [LocEditor:CustomLanguageKey]
- cockerill_desc:0 "Société Anonyme John Cockerill\n" # [LocEditor:CustomLanguageKey]
- fn_herstol_desc:0 "Fabrique Nationale d'Armes de Guerre\n" # [LocEditor:CustomLanguageKey]
- renard_desc:0 "Renard Constructions Aéronautiques\n" # [LocEditor:CustomLanguageKey]
- collectivist_ethos_focus_desc:0 "Nos ennemis peuvent bien diviser et conquérir les pays moins forts que le nôtre ; mais quant à notre population, elle restera unie. Un pour tous et tous pour un !" # [LocEditor:CustomLanguageKey]
- POL_roman_dmowski_desc:0 "§LRoman Stanisław Dmowski§!" # [LocEditor:CustomLanguageKey]
- POL_mieczyslaw_michalowicz_desc:0 "§LMieczysław Jan Michałowicz§!" # [LocEditor:CustomLanguageKey]
- POL_mieczyslaw_michalowicz_nsb_desc:0 "$POL_mieczyslaw_michalowicz_desc$" # [LocEditor:CustomLanguageKey]
- POL_eugeniusz_kwiatkowiski_desc:0 "§LEugeniusz Felicjan Kwiatkowski§!" # [LocEditor:CustomLanguageKey]
- POL_jozef_haller_desc:0 "§LJózef Haller von Hallenburg§!" # [LocEditor:CustomLanguageKey]
- POL_wladyslaw_kalkus_desc:0 "§LWładysław Jan Kalkus§!" # [LocEditor:CustomLanguageKey]
- POL_wladyslaw_anders_desc:0 "§LWładysław Albert Anders§!" # [LocEditor:CustomLanguageKey]
- POL_jozef_zajac_desc:0 "§LJózef Ludwik Zając§!" # [LocEditor:CustomLanguageKey]
- POL_ludomil_rayski_desc:0 "§LLudomił Antoni Korab Rayski§!" # [LocEditor:CustomLanguageKey]
- POL_josef_unrug_desc:0 "§LJózef Michał Hubert Unrug§!" # [LocEditor:CustomLanguageKey]
- POL_zygmunt_buhusz_szysko_desc:0 "§LZygmunt Piotr Bohusz-Szyszko§!" # [LocEditor:CustomLanguageKey]
- POL_stanislav_maczek_desc:0 "§LStanisław Władysław Maczek§!" # [LocEditor:CustomLanguageKey]
- HUN_gyula_gombos_de_jakfa_desc:0 "§LGömbös Gyula§!" # [LocEditor:CustomLanguageKey]
- HUN_jozsef_szell_desc:0 "§LSzéll József Kristóf Kálmám§!" # [LocEditor:CustomLanguageKey]
- HUN_laszlo_rajk_desc:0 "§LRajk László§!" # [LocEditor:CustomLanguageKey]
- HUN_kalman_kanya_desc:0 "§LKányai Kánya Kálmán József Edvárd§!" # [LocEditor:CustomLanguageKey]
- HUN_kalman_daranyi_desc:0 "§LDarányi Kálmán§!" # [LocEditor:CustomLanguageKey]
- HUN_zoltan_tildy_desc:0 "§LTildy Zoltán§!" # [LocEditor:CustomLanguageKey]
- HUN_hugo_sonyi_desc:0 "§LSónyi Hugó§!" # [LocEditor:CustomLanguageKey]
- HUN_ferenc_szombathelyi_desc:0 "§LSzombathelyi Ferenc§!" # [LocEditor:CustomLanguageKey]
- HUN_bela_rakosi_desc:0 "§LRákosi Béla§!" # [LocEditor:CustomLanguageKey]
- HUN_jeno_ratz_desc:0 "§LRátz Jenö§!" # [LocEditor:CustomLanguageKey]
- HUN_gyorgy_jendrassik_desc:0 "§LJendrassik György§!" # [LocEditor:CustomLanguageKey]
- HUN_shvoy_kalman_desc:0 "§LShvoy Kálmán§!" # [LocEditor:CustomLanguageKey]
- HUN_gusztav_jany_desc:0 "§LJány Gusztáv§!" # [LocEditor:CustomLanguageKey]
- HUN_dezso_laszlo_desc:0 "§LLászló Dezsö§!" # [LocEditor:CustomLanguageKey]
- HUN_henrik_werth_desc:0 "§LWerth Henrik§!" # [LocEditor:CustomLanguageKey]
- HUN_sandor_magyarossy_desc:0 "§LMagyarosy Sándor§!" # [LocEditor:CustomLanguageKey]
- HUN_francois_deak_desc:0 "§LDeák Ferenc§!" # [LocEditor:CustomLanguageKey]
- HUN_reszo_kastner_desc:0 "§LKasztner Rezsö§!" # [LocEditor:CustomLanguageKey]
- HUN_lajos_remenyi_schneller_desc:0 "§LReményi-Schneller Lajos§!" # [LocEditor:CustomLanguageKey]
- HUN_vilmos_roder_desc:0 "§LRöder Vilmos§!" # [LocEditor:CustomLanguageKey]
- HUN_mavag_desc:0 "Magyar Királyi Állami Vas-, Acél- és Gépgyárak – Manufactures de machines, aciéries et fonderies royales de l'État\n" # [LocEditor:CustomLanguageKey]
- HUN_femaru_fegyver_es_gepgyar_desc:0 "Fémáru, Fegyver- és Gépgyár – Manufacture d'objets métalliques, d'armes et de machines\n" # [LocEditor:CustomLanguageKey]
- SPR_dolores_ibarruri_desc:0 "§LDolores Ibárruri Gómez§!" # [LocEditor:CustomLanguageKey]
- SPR_generic_democratic_reformer_desc:0 "§LLluís Companys i Jover§!" # [LocEditor:CustomLanguageKey]
- SPR_francisco_largo_caballero_desc:0 "§LFrancisco Largo Caballero§!" # [LocEditor:CustomLanguageKey]
- SPR_carlos_masquelet_lacaci_desc:0 "§LCarlos Masquelet Lacaci§!" # [LocEditor:CustomLanguageKey]
- SPR_fransisco_franco_desc:0 "§LFrancisco Franco Bahamonde§!" # [LocEditor:CustomLanguageKey]
- SPR_ignacio_hidalgo_cisneros_desc:0 "§LIgnacio Hidalgo de Cisneros y López de Montenegro§!" # [LocEditor:CustomLanguageKey]
- SPR_andres_garcia_calle_desc:0 "§LAndrés García Calle, dit « La Calle »§!" # [LocEditor:CustomLanguageKey]
- SPR_jose_miaja_desc:0 "§LJosé Miaja Menant§!" # [LocEditor:CustomLanguageKey]
- SPR_andres_saborit_colomer_desc:0 "§LAndrés Avelino Saborit Colomer§!" # [LocEditor:CustomLanguageKey]
- SPR_nicolas_molero_desc:0 "§LNicolás Molero Lobo§!" # [LocEditor:CustomLanguageKey]
- SPR_antonio_azarola_gresillon_desc:0 "§LAntonio Azarola Gresillón§!" # [LocEditor:CustomLanguageKey]
- SPR_diego_hidalgo_duran_desc:0 "§LDiego Hidalgo y Durán§!" # [LocEditor:CustomLanguageKey]
- SPR_indalecio_prieto_tuero_desc:0 "§LIndalecio Prieto Tuero§!" # [LocEditor:CustomLanguageKey]
- SPA_emilio_herrera_desc:0 "§LEmilio Herrera Linares§!" # [LocEditor:CustomLanguageKey]
- SPA_jose_enrique_varela_desc:0 "§LJosé Enrique Varela Iglesias§!" # [LocEditor:CustomLanguageKey]
- SPA_miguel_cabanellas_ferrer_desc:0 "§LMiguel Cabanellas Ferrer§!" # [LocEditor:CustomLanguageKey]
- SPA_ricardo_rada_desc:0 "§LRicardo de Rada y Peral§!" # [LocEditor:CustomLanguageKey]
- SPA_emilio_mola_vidal_desc:0 "§LEmilio Mola Vidal§!" # [LocEditor:CustomLanguageKey]
- SPA_emilio_esteban_infantes_desc:0 "§LEmilio Esteban-Infantes y Martín§!" # [LocEditor:CustomLanguageKey]
- SPA_agustin_munoz_grandes_desc:0 "§LAgustín Muñoz Grandes§!" # [LocEditor:CustomLanguageKey]
- SPA_joaquin_garcia_morato_desc:0 "§LJoaquín García-Morato y Castaño§!" # [LocEditor:CustomLanguageKey]
- SPA_alfredo_kindelan_duany_desc:0 "§LAlfredo Kindelán Duany§!" # [LocEditor:CustomLanguageKey]
- SPA_juan_yague_blanco_desc:0 "§LJuan Yagüe Blanco§!" # [LocEditor:CustomLanguageKey]
- SPA_salvador_moreno_fernandez_desc:0 "§LSalvador Moreno Fernández§!" # [LocEditor:CustomLanguageKey]
- ROM_gheorghe_gheorghiu_dej_desc:0 "§LGheorghe Gheorghiu-Dej§!" # [LocEditor:CustomLanguageKey]
- ROM_gheorghe_potopeanu_desc:0 "§LGheorghe T. Potopeanu§!" # [LocEditor:CustomLanguageKey]
- ROM_ermil_gheorghiu_desc:0 "§LErmil F. Gheorghiu§!" # [LocEditor:CustomLanguageKey]
- ROM_gheorghe_jienescu_desc:0 "§LGheorghe I. Jienescu§!" # [LocEditor:CustomLanguageKey]
- ROM_emanoil_ionescu_desc:0 "§LEmanoil M. Ionescu§!" # [LocEditor:CustomLanguageKey]
- FIN_generic_fascist_demagogue_desc:0 "§LBruno Aleksander Salmiala§!" # [LocEditor:CustomLanguageKey]
- FIN_generic_democratic_reformer_desc:0 "§LOnni Alfred Hiltunen§!" # [LocEditor:CustomLanguageKey]
- FIN_generic_communist_revolutionary_desc:0 "§LOtto Wilhelm « Ville » Kuusinen§!" # [LocEditor:CustomLanguageKey]
- FIN_hugo_osterman_desc:0 "§LHugo Viktor Österman§!" # [LocEditor:CustomLanguageKey]
- FIN_carl_mannerheim_desc:0 "§LCarl Gustaf Emil Mannerheim§!" # [LocEditor:CustomLanguageKey]
- FIN_lauri_malmberg_desc:0 "§LKaarlo Lauri Torvald Malmberg§!" # [LocEditor:CustomLanguageKey]
- FIN_jarl_lundqvist_desc:0 "§LJarl Frithiof Lundqvist§!" # [LocEditor:CustomLanguageKey]
- FIN_karl_oesch_desc:0 "§LKarl Lennart Oesch§!" # [LocEditor:CustomLanguageKey]
- FIN_olavi_arho_desc:0 "§LJouko Olavi Kaarlo Arho§!" # [LocEditor:CustomLanguageKey]
- FIN_lauri_tiainen_desc:0 "§LLauri Taavetti Tiainen§!" # [LocEditor:CustomLanguageKey]
- FIN_ralf_torngren_desc:0 "§LRalf Johan Gustaf Törngren§!" # [LocEditor:CustomLanguageKey]
- FIN_ake_henrik_gartz_desc:0 "§LÅke Henrik Gartz§!" # [LocEditor:CustomLanguageKey]
- FIN_antti_hackzell_desc:0 "§LAnders « Antti » Verner Hackzell§!" # [LocEditor:CustomLanguageKey]
- FIN_vaino_valve_desc:0 "§LVäinö Lahja Rikhard Valve§!" # [LocEditor:CustomLanguageKey]
- FIN_akseli_anttila_desc:0 "§LAkseli Moïsseïevitch Anttila§!" # [LocEditor:CustomLanguageKey]
- BUL_hristo_lukov_desc:0 "§LHristo Nikolov (Kolev) Lukov§!" # [LocEditor:CustomLanguageKey]
- BUL_vasil_boydev_desc:0 "§LVasil Tenev Boydev§!" # [LocEditor:CustomLanguageKey]
- BUL_nikola_hadzipetkov_desc:0 "§LNikola Petkov Hadzhipetkov§!" # [LocEditor:CustomLanguageKey]
- BUL_stoyan_stoyanov_desc:0 "§LStoyan Iliev Stoyanov§!" # [LocEditor:CustomLanguageKey]
- BUL_generic_fascist_demagogue_desc:0 "§LAleksandar Tsolov Tsankov§!" # [LocEditor:CustomLanguageKey]
- BUL_generic_democratic_reformer_desc:0 "§LNikola Dimitrov Petkov§!" # [LocEditor:CustomLanguageKey]
- BUL_generic_communist_revolutionary_desc:0 "§LVassil Petrov Kolarov§!" # [LocEditor:CustomLanguageKey]
- BUL_konstantin_muraviev_desc:0 "§LKonstantin Vladov Muraviev§!" # [LocEditor:CustomLanguageKey]
- BUL_dobri_bozhilov_desc:0 "§LDobri Bozhilov Hadzhiyanakiеv§!" # [LocEditor:CustomLanguageKey]
- BUL_georgi_ivanov_kyoseivanov_desc:0 "§LGeorgi Ivanov Kyoseivanov§!" # [LocEditor:CustomLanguageKey]
- BUL_kiril_stanchev_desc:0 "§LKiril Nikolov Stanchev§!" # [LocEditor:CustomLanguageKey]
- BUL_asen_dobrev_nikolov_desc:0 "§LAsen Dobrev Nikolov§!" # [LocEditor:CustomLanguageKey]
- BUL_kiril_dimitrov_yanchule_desc:0 "§LKiril Dimitrov Iantchoulev§!" # [LocEditor:CustomLanguageKey]
- BUL_atanas_pavlov_zhilkov_desc:0 "§LAtanas Pavlov Zhilkov§!" # [LocEditor:CustomLanguageKey]
- SWE_generic_fascist_demagogue_desc:0 "§LPer Claes Sven Edvard Engdahl§!" # [LocEditor:CustomLanguageKey]
- SWE_generic_democratic_reformer_desc:0 "§LTage Fritjof Erlander§!" # [LocEditor:CustomLanguageKey]
- SWE_generic_communist_revolutionary_desc:0 "§LKarl Hilding Hagberg§!" # [LocEditor:CustomLanguageKey]
- SWE_thorwald_bergquist_desc:0 "§LThorwald Erik Natanael Bergquist§!" # [LocEditor:CustomLanguageKey]
- SWE_osten_unden_desc:0 "§LBo Östen Undén§!" # [LocEditor:CustomLanguageKey]
- SWE_helge_jung_desc:0 "§LHelge Victor Jung§!" # [LocEditor:CustomLanguageKey]
- SWE_ernst_wigforss_desc:0 "§LErnst Johannes Wigforss§!" # [LocEditor:CustomLanguageKey]
- SWE_erik_palmstierna_desc:0 "§LErik Kule Palmstierna§!" # [LocEditor:CustomLanguageKey]
- SWE_oscar_nygren_desc:0 "§LAxel Oscar Nygren§!" # [LocEditor:CustomLanguageKey]
- SWE_per_sylvan_desc:0 "§LPer Gustaf Sylvan§!" # [LocEditor:CustomLanguageKey]
- SWE_olof_thornell_desc:0 "§LOlof Gerhard Thörnell§!" # [LocEditor:CustomLanguageKey]
- SWE_ivar_holmquist_desc:0 "§LCarl Axel Fredrik Ivar Holmquist§!" # [LocEditor:CustomLanguageKey]
- SWE_archibald_douglas_desc:0 "§LWilhelm Archibald Douglas§!" # [LocEditor:CustomLanguageKey]
- SWE_bengt_nordenskiold_desc:0 "§LBengt Gustavsson Nordenskiöld§!" # [LocEditor:CustomLanguageKey]
- SWE_charles_de_champs_desc:0 "§LCharles Léon de Champs§!" # [LocEditor:CustomLanguageKey]
- SWE_fabian_tamm_desc:0 "§LClaës Fabian Tamm§!" # [LocEditor:CustomLanguageKey]
- SWE_gosta_ehrensvard_desc:0 "§LGösta Carl Albert Ehrensvärd§!" # [LocEditor:CustomLanguageKey]
- SWE_axel_ljungdahl_desc:0 "§LAxel Georg Ljungdahl§!" # [LocEditor:CustomLanguageKey]
- SWE_axel_rappe_desc:0 "§LAxel Oscar Rappe§!" # [LocEditor:CustomLanguageKey]
- SWE_helge_stromback_desc:0 "§LHelge Hjalmar Immanuel Strömbäck§!" # [LocEditor:CustomLanguageKey]
- CZE_karel_kuttelwascher_desc:0 "§LKarel Miloslav Kuttelwascher§!" # [LocEditor:CustomLanguageKey]
- CZE_konrad_henlein_desc:0 "§LKonrad Ernst Eduard Henlein§!" # [LocEditor:CustomLanguageKey]
- CZE_gustav_husak_desc:0 "§LAugustín, dit Gustáv Husák§!" # [LocEditor:CustomLanguageKey]
- NOR_kristian_laake_desc:0 "§LKristian Kristiansen Laake§!" # [LocEditor:CustomLanguageKey]
- NOR_bjarne_oen_desc:0 "§LAdolf Bjarne Øen§!" # [LocEditor:CustomLanguageKey]
- NOR_ole_reistad_desc:0 "§LOle Imerslun Reistad§!" # [LocEditor:CustomLanguageKey]
- NOR_willhelm_von_tangen_hansteen_desc:0 "§LWilhelm von Tangen Hansteen§!" # [LocEditor:CustomLanguageKey]
- NOR_henry_diesen_desc:0 "§LHenry Edward Diesen§!" # [LocEditor:CustomLanguageKey]
- NOR_generic_democratic_reformer_desc:0 "§LHaakon Steen Lie§!" # [LocEditor:CustomLanguageKey]
- NOR_adolf_indrebo_desc:0 "§LAdolf Oliverson Indrebø§!" # [LocEditor:CustomLanguageKey]
- NOR_trygve_halvdan_lie_desc:0 "§LTrygve Halvdan Lie§!" # [LocEditor:CustomLanguageKey]
- NOR_alfred_roscher-lund_desc:0 "§LRagnvald Alfred Roscher Lund§!" # [LocEditor:CustomLanguageKey]
- NOR_tryggve_gran_desc:0 "§LJens Tryggve Herman Gran§!" # [LocEditor:CustomLanguageKey]
- NOR_skule_storheil_desc:0 "§LSkule Valentin Storheill§!" # [LocEditor:CustomLanguageKey]
- NOR_wilhelm_von_tangen-hansteen_desc:0 "$NOR_willhelm_von_tangen_hansteen_desc$" # [LocEditor:CustomLanguageKey]
- NOR_marinens_flyvebaatfabrikk_desc:0 "Marinens flyvebaatfabrikk – Fabrique des navires volants de la Marine\n" # [LocEditor:CustomLanguageKey]
- NOR_honefoss_karosserifabrikk_desc:0 "Hønefoss Karosserifabrikk A/S – Fabrique de carrosseries de Hønefoss\n" # [LocEditor:CustomLanguageKey]
- NOR_tandbergs_radiofabrikk_desc:0 "Tandbergs Radiofabrikk – Fabrique de radios Tandberg\n" # [LocEditor:CustomLanguageKey]
- NOR_norsk_hydro_desc:0 "Norsk Hydro-Elektrisk Kvælstofaktieselskab – Société norvégienne d'hydro-électricité et de nitrogène\n" # [LocEditor:CustomLanguageKey]
- YUG_dimitrije_ljotic_desc:0 "Dimitrije « Mita » Ljotić\n" # [LocEditor:CustomLanguageKey]
- YUG_milovan_djilas_desc:0 "Milovan Đilas Đido\n" # [LocEditor:CustomLanguageKey]
- YUG_ivo_lola_ribar_desc:0 "$YUG_ivan_ribar_desc$" # [LocEditor:CustomLanguageKey]
- YUG_draza_mihailovic_desc:1 "§LDragoljub « Draža » Mihailović§!" # [LocEditor:CustomLanguageKey]
- YUG_arso_jovanovic_desc:0 "Arsenije « Arso » Jovanović\n" # [LocEditor:CustomLanguageKey]
- YUG_ivan_ribar_desc:0 "Ivan Ribar, dit Ivo Lola Ribar\n" # [LocEditor:CustomLanguageKey]
- TUR_generic_fascist_demagogue_desc:0 "§LHüseyin Nihâl Atsız§!" # [LocEditor:CustomLanguageKey]
- TUR_generic_democratic_reformer_desc:0 "§LMehmet Cevat Abbas Gürer§!" # [LocEditor:CustomLanguageKey]
- TUR_rauf_orbay_desc:0 "§LHüseyin Rauf Orbay§!" # [LocEditor:CustomLanguageKey]
- TUR_kazim_orbay_desc:0 "§LMehmet Kâzım Orbay§!" # [LocEditor:CustomLanguageKey]
- TUR_fevzi_cakmak_desc:0 "§LMustafa Fevzi Çakmak§!" # [LocEditor:CustomLanguageKey]
- TUR_abdurrahman_gurman_desc:0 "§LAbdurrahman Nafiz Gürman§!" # [LocEditor:CustomLanguageKey]
- TUR_refik_saydam_desc:0 "§Lİbrahim Refik Saydam§!" # [LocEditor:CustomLanguageKey]
- TUR_hassan_saka_desc:0 "§LHasan Hüsnü Saka§!" # [LocEditor:CustomLanguageKey]
- TUR_kazim_ozalp_desc:0 "§LKâzım Fikri Özalp§!" # [LocEditor:CustomLanguageKey]
- TUR_mehmet_gunaltay_desc:0 "§LMehmet Şemsettin Günaltay§!" # [LocEditor:CustomLanguageKey]
- MEX_eduardo_hay_desc:0 "§LEduardo Leonardo Francisco de Sales Guadalupe del Sagrado Corazón de Jesús Hay Fortuño§!" # [LocEditor:CustomLanguageKey]
- MEX_manuel_avila_camacho_desc:0 "$MEX_manuel_avila_desc$" # [LocEditor:CustomLanguageKey]
- MEX_enrique_estrada_desc:0 "§LEnrique Estrada Reynoso§!" # [LocEditor:CustomLanguageKey]
- MEX_agustin_olachea_desc:0 "§LJosé Agustín Olachea Avilés§!" # [LocEditor:CustomLanguageKey]
- MEX_hector_meixueiro_desc:0 "§LHéctor Meixueiro Alexandres§!" # [LocEditor:CustomLanguageKey]
- MEX_pablo_macias_desc:0 "§LPablo Macías Valenzuela§!" # [LocEditor:CustomLanguageKey]
- MEX_antonio_cardenas_rodriguez_desc:0 "§LAntonio Cárdenas Rodríguez§!" # [LocEditor:CustomLanguageKey]
- MEX_gilberto_limon_desc:1 "§LGilberto Raymundo Limón Márquez§!" # [LocEditor:CustomLanguageKey]
- POR_generic_communist_revolutionary_desc:0 "§LÁlvaro Barreirinhas Cunhal§!" # [LocEditor:CustomLanguageKey]
- POR_vieira_da_rocha_desc:0 "§LErnesto Maria Vieira da Rocha§!" # [LocEditor:CustomLanguageKey]
- POR_domingos_oliveira_desc:0 "§LDomingos Augusto Alves da Costa Oliveira§!" # [LocEditor:CustomLanguageKey]
- POR_rolao_preto_desc:0 "§LFrancisco de Barcelos Rolão Preto§!" # [LocEditor:CustomLanguageKey]
- POR_lobato_guerra_desc:0 "§LJosé Augusto Lobato Guerra§!" # [LocEditor:CustomLanguageKey]
- POR_antonio_oscar_carmona_desc:0 "§LAntónio Óscar Fragoso Carmona§!" # [LocEditor:CustomLanguageKey]
- POR_francisco_da_costa_gomes_desc:0 "§LFrancisco da Costa Gomes§!" # [LocEditor:CustomLanguageKey]
- POR_jaime_afreixo_desc:0 "§LJaime Maria da Graça Afreixo§!" # [LocEditor:CustomLanguageKey]
- POR_americo_tomas_desc:0 "§LAmérico Deus Rodrigues Tomás§!" # [LocEditor:CustomLanguageKey]
- POR_humberto_delgado_desc:0 "§LHumberto da Silva Delgado§!" # [LocEditor:CustomLanguageKey]
- POR_francisco_craveiro_lopes_desc:0 "§LFrancisco Higino Craveiro Lopes§!" # [LocEditor:CustomLanguageKey]
- POR_fernando_dos_santos_costa_desc:0 "§LFernando dos Santos Costa§!" # [LocEditor:CustomLanguageKey]
- POR_jaime_cortesao_desc:0 "§LJaime Zuzarte Cortesão§!" # [LocEditor:CustomLanguageKey]
- POR_augusto_de_vasconcelos_desc:0 "§LAugusto César de Almeida de Vasconcelos Correia§!" # [LocEditor:CustomLanguageKey]
- POR_jose_manuel_sarmento_de_beires_desc:0 "§LJosé Manuel Sarmento de Beires§!" # [LocEditor:CustomLanguageKey]
- POR_manuel_ortins_torres_de_bettencourt_desc:0 "§LManuel Ortins Torres de Bettencourt§!" # [LocEditor:CustomLanguageKey]
- POR_manuel_quintao_meireles_desc:0 "§LManuel Carlos Quintão Meireles§!" # [LocEditor:CustomLanguageKey]
- POR_jose_adriano_pequito_rebelo_desc:0 "§LJosé Adriano Pequito Rebelo§!" # [LocEditor:CustomLanguageKey]
- POR_jose_norton_de_matos_desc:0 "§LJosé Maria Mendes Ribeiro Norton de Matos§!" # [LocEditor:CustomLanguageKey]
- POR_jose_filipe_de_barros_rodrigues_desc:0 "§LJosé Filipe de Barros Rodrigues§!" # [LocEditor:CustomLanguageKey]
- POR_francisco_da_cunha_leal_desc:0 "§LFrancisco Pinto da Cunha Leal§!" # [LocEditor:CustomLanguageKey]
- POR_duarte_jose_pacheco_desc:0 "§LDuarte José Pacheco§!" # [LocEditor:CustomLanguageKey]
- POR_maria_lamas_desc:0 "§LMaria da Conceição Vassalo e Silva da Cunha Lamas§!" # [LocEditor:CustomLanguageKey]
- POR_joao_francisco_de_barbosa_azevedo_desc:0 "§LJoão Francisco de Barbosa Azevedo de Sande Aires de Campos, dit « João Ameal »§!" # [LocEditor:CustomLanguageKey]
- POR_joao_de_azevedo_coutinho_desc:0 "§LJoão António de Azevedo Coutinho Fragoso de Sequeira§!" # [LocEditor:CustomLanguageKey]
- POR_julio_botelho_moniz_desc:0 "§LJúlio Carlos Alves Dias Botelho Moniz§!" # [LocEditor:CustomLanguageKey]
- POR_manuel_goncalves_cerejeira_desc:0 "§LManuel Gonçalves Cerejeira§!" # [LocEditor:CustomLanguageKey]
- POR_alvaro_cunhal_desc:0 "§LÁlvaro Barreirinhas Cunhal§!" # [LocEditor:CustomLanguageKey]
- CAN_chuck_crate_desc:0 "§LCharles Brandle « Chuck » Crate§!" # [LocEditor:CustomLanguageKey]
- CAN_harry_crerar_desc:0 "§LHenry Duncan Graham « Harry » Crerar§!" # [LocEditor:CustomLanguageKey]
- CAN_guy_simonds_desc:0 "§LGuy Granville Simonds§!" # [LocEditor:CustomLanguageKey]
- CAN_andrew_mcnaughton_desc:0 "§LAndrew George Latta McNaughton§!" # [LocEditor:CustomLanguageKey]
- CAN_george_pearkes_desc:0 "§LGeorge Randolph Pearkes§!" # [LocEditor:CustomLanguageKey]
- CAN_percy_nelles_desc:0 "§LPercy Walker Nelles§!" # [LocEditor:CustomLanguageKey]
- CAN_lloyd_samuel_breadner_desc:0 "§LLloyd Samuel Breadner§!" # [LocEditor:CustomLanguageKey]
- CAN_george_croil_desc:0 "§LGeorge Mitchell Croil§!" # [LocEditor:CustomLanguageKey]
- CAN_ian_a_mackenzie_desc:0 "§LIan Alistair Mackenzie§!" # [LocEditor:CustomLanguageKey]
- CAN_r_b_bennett_desc:0 "§LRichard Bedford Bennett§!" # [LocEditor:CustomLanguageKey]
- CAN_newton_wesley_rowell_desc:0 "§LNewton Wesley Rowell§!" # [LocEditor:CustomLanguageKey]
- CAN_frederick_m_w_harvey_desc:0 "§LFrederick Maurice Watson Harvey§!" # [LocEditor:CustomLanguageKey]
- CAN_george_volkoff_desc:0 "§LGeorge Michael Volkoff§!" # [LocEditor:CustomLanguageKey]
- CAN_harold_edwards_desc:0 "§LHarold Leslie Edwards§!" # [LocEditor:CustomLanguageKey]
- CAN_james_ilsley_desc:0 "§LJames Lorimer Ilsley§!" # [LocEditor:CustomLanguageKey]
- CAN_louis_st_laurent_desc:0 "§LLouis-Étienne St-Laurent§!" # [LocEditor:CustomLanguageKey]
- CAN_c_d_howe_desc:0 "§LClarence Decatur « C. D. » Howe§!" # [LocEditor:CustomLanguageKey]
- AUS_eduard_freiherr_desc:0 "§LEduard Freiherr von Böhm-Ermolli§!" # [LocEditor:CustomLanguageKey]
- AUS_odilo_globocnik_desc:0 "§LOdilo Lothar Ludwig Globocnik§!" # [LocEditor:CustomLanguageKey]
- AUS_otto_meixner_von_zweienstamm_desc:0 "§LOtto Meixner von Zweienstamm§!" # [LocEditor:CustomLanguageKey]
- VIC_jean_marie_abrial_desc:0 "Jean-Marie Charles Abrial\n" # [LocEditor:CustomLanguageKey]
- VIC_jean_francois_jannekeyn_desc:0 "$jean_francois_jannekeyn_desc$" # [LocEditor:CustomLanguageKey]
- VIC_jean_de_laborde_desc:0 "Jean Joseph Jules Noël de Laborde\n" # [LocEditor:CustomLanguageKey]
- AST_arthur_calwell_desc:0 "§LArthur Augustus Calwell§!" # [LocEditor:CustomLanguageKey]
- AST_lance_sharkey_desc:0 "§LLawrence Louis « Lance » Sharkey§!" # [LocEditor:CustomLanguageKey]
- AST_arthur_drakeford_desc:0 "§LArthur Samuel Drakeford§!" # [LocEditor:CustomLanguageKey]
- AST_frank_forde_desc:0 "§LFrancis Michael « Frank » Forde§!" # [LocEditor:CustomLanguageKey]
- AST_john_lavarack_desc:0 "§LJohn Dudley Lavarack§!" # [LocEditor:CustomLanguageKey]
- AST_jack_beasley_desc:0 "§LJohn Albert « Stabbing Jack » Beasley§!" # [LocEditor:CustomLanguageKey]
- AST_jack_piddington_desc:0 "§LJohn Hobart « Jack » Piddington§!" # [LocEditor:CustomLanguageKey]
- AST_sydney_rowell_desc:0 "§LSydney Fairbairn Rowell§!" # [LocEditor:CustomLanguageKey]
- AST_vernon_sturdee_desc:0 "§LVernon Ashton Hobart Sturdee§!" # [LocEditor:CustomLanguageKey]
- AST_charles_burnett_desc:0 "§LCharles Stuart Burnett§!" # [LocEditor:CustomLanguageKey]
- AST_ragnar_colvin_desc:0 "§LRagnar Musgrave Colvin§!" # [LocEditor:CustomLanguageKey]
- AST_jack_crace_desc:0 "§LJohn Gregory « Jack » Crace§!" # [LocEditor:CustomLanguageKey]
- AST_edmund_herring_desc:0 "§LEdmund Francis Herring§!" # [LocEditor:CustomLanguageKey]
- AST_john_collins_desc:0 "§LJohn Augustine Collins§!" # [LocEditor:CustomLanguageKey]
- AST_clive_caldwell_desc:0 "§LClive Robertson Caldwell§!" # [LocEditor:CustomLanguageKey]
- AST_arthur_allen_desc:0 "§LArthur Samuel « Tubby » Allen§!" # [LocEditor:CustomLanguageKey]
- AST_james_fairbairn_desc:0 "§LJames Valentine Fairbairn§!" # [LocEditor:CustomLanguageKey]
- AST_norman_makin_desc:0 "§LNorman John Oswald Makin§!" # [LocEditor:CustomLanguageKey]
- AST_alexander_hore_ruthven_desc:0 "§LAlexander Gore Arkwright Hore-Ruthven§!" # [LocEditor:CustomLanguageKey]
- AST_robert_g_menzies_desc:0 "§LRobert Gordon Menzies§!" # [LocEditor:CustomLanguageKey]
- AST_ben_chifley_desc:0 "§LJoseph Benedict Chifley§!" # [LocEditor:CustomLanguageKey]
- AST_herbert_v_evatt_desc:0 "§LHerbert Vere Evatt§!" # [LocEditor:CustomLanguageKey]
- AST_cederic_hicks_desc:0 "§LCedric Stanton Hicks§!" # [LocEditor:CustomLanguageKey]
- IRE_generic_fascist_demagogue_desc:0 "§LThomas Francis O'Higgins§!" # [LocEditor:CustomLanguageKey]
- IRE_generic_democratic_reformer_desc:0 "§LDaniel Richard Buckley, Domhnall Ua Buachalla§!" # [LocEditor:CustomLanguageKey]
- IRE_sean_lemass_desc:0 "§LSeán Francis Lemass§!" # [LocEditor:CustomLanguageKey]
- IRE_douglas_hyde_desc:0 "§LDouglas Ross Hyde§!" # [LocEditor:CustomLanguageKey]
- IRE_sean_ceallaigh_desc:0 "§LSeán Thomas O'Kelly§!" # [LocEditor:CustomLanguageKey]
- IRE_michael_joe_costello_desc:0 "§LMichael Joseph Costello§!" # [LocEditor:CustomLanguageKey]
- IRE_frank_fahy_desc:0 "§LFrancis Patrick « Frank » Fahy§!" # [LocEditor:CustomLanguageKey]
- IRE_richard_james_mulcahy_desc:0 "§LRichard James Mulcahy§!" # [LocEditor:CustomLanguageKey]
- GRE_alexandros_sakellariou_desc:0 "§LAléxandros Pilátos Sakellaríou§!" # [LocEditor:CustomLanguageKey]
- GRE_aris_velouchiotis_desc:0 "§LAthanásios Kláras, dit « Áris Veloukhiótis »§!" # [LocEditor:CustomLanguageKey]
- GRE_eleftherios_venizelos_desc:0 "§LElefthérios Kyriákou Venizélos§!" # [LocEditor:CustomLanguageKey]
- GRE_damaskinos_desc:0 "§LDimítrios Papandréou, archevêque-primat Damaskinós d'Athènes et de toute la Grèce§!" # [LocEditor:CustomLanguageKey]
- HOL_henri_winkelman_desc:0 "§LHenri Gerard Winkelman§!" # [LocEditor:CustomLanguageKey]
- HOL_hendrik_van_oyen_desc:0 "§LLudolph Hendrik van Oyen§!" # [LocEditor:CustomLanguageKey]
- HOL_karel_doorman_desc:0 "§LKarel Willem Frederik Marie Doorman§!" # [LocEditor:CustomLanguageKey]
- HOL_conrad_helfrich_desc:0 "§LConrad Emile Lambert Helfrich§!" # [LocEditor:CustomLanguageKey]
- HOL_willem_schermerhorn_desc:0 "§LWillem Schermerhorn§!" # [LocEditor:CustomLanguageKey]
- HOL_meinout_rost_van_tonningen_desc:0 "§LMeinoud Marinus Rost van Tonningen§!" # [LocEditor:CustomLanguageKey]
- HOL_saul_de_groot_desc:0 "§LSaul, dit Paul de Groot§!" # [LocEditor:CustomLanguageKey]
- HOL_petrus_wilhelmus_best_desc:0 "§LPetrus Wilhelmus Best§!" # [LocEditor:CustomLanguageKey]
- HOL_charles_douw_van_der_krap_desc:0 "§LCharles Louis Jean François « Siki » Douw van der Krap§!" # [LocEditor:CustomLanguageKey]
- HOL_nico_van_straten_desc:0 "§LNico Leonard Willem van Straten§!" # [LocEditor:CustomLanguageKey]
- HOL_philips_desc:0 "Koninklijke Philips – Société royale Philips\n" # [LocEditor:CustomLanguageKey]
- DEN_aage_vedel_desc:0 "Aage Helgesen Vedel\n" # [LocEditor:CustomLanguageKey]
- DEN_generic_democratic_reformer_desc:0 "Alsing Emanuel Andersen\n" # [LocEditor:CustomLanguageKey]
- DEN_generic_communist_revolutionary_desc:0 "Jørgen Ib Nørlund\n" # [LocEditor:CustomLanguageKey]
- DEN_viggo_kampman_desc:0 "Olfert Viggo Fischer Kampmann\n" # [LocEditor:CustomLanguageKey]
- DEN_hans_a_rolsted_desc:0 "Hans Aage Rolsted\n" # [LocEditor:CustomLanguageKey]
- DEN_christian_frederik_von_schalburg_desc:0 "Christian Frederik von Schalburg\n" # [LocEditor:CustomLanguageKey]
- DEN_hans_lunding_desc:0 "Hans Mathiesen Lunding\n" # [LocEditor:CustomLanguageKey]
- LIT_feliksas_baltusis_desc:0 "§LFeliksas Baltušis-Žemaitis§!" # [LocEditor:CustomLanguageKey]
- LIT_juoza_barzda_bradauskas_desc:0 "§LJuozas Barzda-Bradauskas§!" # [LocEditor:CustomLanguageKey]
- LIT_adolfas_ramanauskas_desc:0 "§LAdolfas Ramanauskas, dit « Vanagas »§!" # [LocEditor:CustomLanguageKey]
- LIT_juozas_ambrazevicius_desc:0 "§LJuozas Ambrazevičius, dit Jozuas Brazaitis§!" # [LocEditor:CustomLanguageKey]
- EST_alfons_rebane_desc:0 "§LAlfons Vilhelm Robert Rebane§!" # [LocEditor:CustomLanguageKey]
- EST_generic_fascist_demagogue_desc:0 "§LJohannes Vares-Barbarus§!" # [LocEditor:CustomLanguageKey]
- EST_leo_sepp_desc:0 "§LLeo Bodo Sepp§!" # [LocEditor:CustomLanguageKey]
- EST_juhan_tuuling_desc:0 "§LJuhan Tuuling, né Johannes Tuling§!" # [LocEditor:CustomLanguageKey]
- LAT_generic_democratic_reformer_desc:0 "§LKârlis Reinholds Zariņš§!" # [LocEditor:CustomLanguageKey]
- LAT_konstantins_cakste_desc:0 "§LKonstantîns Jêkabs Marģers Čakste§!" # [LocEditor:CustomLanguageKey]
- LAT_vilis_lacis_desc:0 "§LJânis Vilhelms Lâce§!" # [LocEditor:CustomLanguageKey]
- LAT_vilhelms_munters_desc:0 "§LGothards Vilhelms Nikolajs Munters, ou Gotthard Wilhelm Nikolai Munter§!" # [LocEditor:CustomLanguageKey]
- LAT_kornelijs_veidnieks_desc:0 "§LKornêlijs Veitmanis, puis Kornêlijs Veidnieks§!" # [LocEditor:CustomLanguageKey]
- LAT_arturs_silgailis_desc:0 "§LArtûrs Mihails Silgailis§!" # [LocEditor:CustomLanguageKey]
- BEL_victor_strydonck_burkel_desc:0 "§LVictor Jean Clément van Strydonck de Burkel§!" # [LocEditor:CustomLanguageKey]
- BEL_raoul_overstraeten_desc:0 "§LRaoul François Casimir Van Overstraeten§!" # [LocEditor:CustomLanguageKey]
- BEL_paul_van_zeeland_desc:0 "§LPaul Guillaume van Zeeland§!" # [LocEditor:CustomLanguageKey]
- BEL_gaston_eyskens_desc:0 "§LGaston François Marie Eyskens§!" # [LocEditor:CustomLanguageKey]
- BEL_victor_van_strydonck_de_burkel_desc:0 "$BEL_victor_strydonck_burkel_desc$" # [LocEditor:CustomLanguageKey]
- BEL_jules_pire_desc:0 "§LJules Joseph Pire§!" # [LocEditor:CustomLanguageKey]
- BEL_oscar_michiels_desc:0 "§LFrançois-Fidèle-Oscar Michiels§!" # [LocEditor:CustomLanguageKey]
- SWI_hans_peter_bichsel_sohn_desc:0 "§LHans Peter Bichsel-Sohn§!" # [LocEditor:CustomLanguageKey]
- SWI_hermann_hessel_lorenz_desc:0 "§LHermann Hessel-Lorenz§!" # [LocEditor:CustomLanguageKey]
- IRQ_nuri_as_said_desc:0 "§LNuri Basha al-Sayyid§!" # [LocEditor:CustomLanguageKey]
- IRQ_generic_communist_revolutionary_desc:0 "§LArshad Pasha al-Umari§!" # [LocEditor:CustomLanguageKey]
- IRQ_abdullah_desc:0 "§LAbdalilah ibn Ali al-Hachimi§!" # [LocEditor:CustomLanguageKey]
- ARG_generic_fascist_demagogue_desc:0 "Carlos Alberto Pueyrredon\n" # [LocEditor:CustomLanguageKey]
- ARG_ramon_castillo_desc:0 "Ramón Antonio Castillo Barrionuevo\n" # [LocEditor:CustomLanguageKey]
- ARG_luis_podesta_costa_desc:0 "Luis Agustín Podestá Costa\n" # [LocEditor:CustomLanguageKey]
- ARG_manuel_maria_de_iriondo_desc:0 "Manuel María de Iriondo\n" # [LocEditor:CustomLanguageKey]
- ARG_pedro_s_casal_desc:0 "Pedro Segundo Casal\n" # [LocEditor:CustomLanguageKey]
- ARG_uribaldi_diaz_brittenberg_desc:0 "Uribaldi Díaz Brittenberg\n" # [LocEditor:CustomLanguageKey]
- ARG_eleazar_videla_desc:0 "§LEleazar T. Videla§!" # [LocEditor:CustomLanguageKey]
- ARG_edelmiro_farrell_desc:0 "Edelmiro Julián Farrell\n" # [LocEditor:CustomLanguageKey]
- AFG_haji_faiz_muhammed_zikeria_desc:0 "§LSardar Haji Faiz Muhammad Khan Zikeria§!" # [LocEditor:CustomLanguageKey]
- AFG_mohammad_hashim_khan_desc:0 "§LMohammad Hashim Khan§!" # [LocEditor:CustomLanguageKey]
- AFG_muhammad_amin_bughra_desc:0 "§LMuhammad Amin Bughra§!" # [LocEditor:CustomLanguageKey]
- AFG_mohammed_daoud_khan_desc:0 "§LMuhammad Da'ud Khan§!" # [LocEditor:CustomLanguageKey]
- AFG_mohammed_etemadi_khan_desc:0 "§LMohammad Etemadi Khan§!" # [LocEditor:CustomLanguageKey]
- BOL_enrique_finot_desc:0 "§LEnrique Finot Franco§!" # [LocEditor:CustomLanguageKey]
- BOL_gualberto_villarroel_lopez_desc:0 "§LGualberto Villarroel López§!" # [LocEditor:CustomLanguageKey]
- BOL_jose_santos_quinteros_desc:0 "§LJosé Santos Quinteros§!" # [LocEditor:CustomLanguageKey]
- BOL_david_toro_ruilova_desc:0 "§LJosé David Toro Ruilova§!" # [LocEditor:CustomLanguageKey]
- BOL_tomas_monje_gutierrez_desc:0 "§LTomás Monje Gutiérrez§!" # [LocEditor:CustomLanguageKey]
- BOL_julian_montellano_carrasco_desc:0 "§LJulián V. Montellano Carrasco§!" # [LocEditor:CustomLanguageKey]
- BOL_enrique_baldivieso_aparicio_desc:0 "§LEnrique Baldivieso Aparicio§!" # [LocEditor:CustomLanguageKey]
- BOL_alberto_ostria_gutierrez_desc:0 "§LAlberto Ostria Gutiérrez§!" # [LocEditor:CustomLanguageKey]
- BRA_generic_fascist_demagogue_desc:0 "§LTarcísio Meirelles Padilha§!" # [LocEditor:CustomLanguageKey]
- BRA_generic_communist_revolutionary_desc:0 "§LArthur Ernest Ewert§!" # [LocEditor:CustomLanguageKey]
- BRA_washington_luis_pereira_desc:0 "§LWashington Luís Pereira de Sousa§!" # [LocEditor:CustomLanguageKey]
- BRA_osvaldo_aranha_desc:0 "§LOsvaldo Euclides de Sousa Aranha§!" # [LocEditor:CustomLanguageKey]
- BRA_afranio_de_mello_franco_desc:0 "§LAfrânio Camorim Jacaúna de Otingi de Melo Franco§!" # [LocEditor:CustomLanguageKey]
- BRA_newton_cavalcanti_desc:0 "§LNewton de Andrade Cavalcanti§!" # [LocEditor:CustomLanguageKey]
- BRA_joao_neves_da_fontoura_desc:0 "§LJoão Neves da Fontoura§!" # [LocEditor:CustomLanguageKey]
- BRA_nero_fiuza_de_castro_desc:0 "§LÁlvaro Fiúza de Castro§!" # [LocEditor:CustomLanguageKey]
- BRA_salgado_filho_desc:0 "§LJoaquim Pedro Salgado Filho§!" # [LocEditor:CustomLanguageKey]
- BRA_aristides_guilhem_desc:0 "§LHenrique Aristides Guilhem§!" # [LocEditor:CustomLanguageKey]
- BRA_floriano_peixoto_desc:0 "§LFloriano Peixoto Faria Lima§!" # [LocEditor:CustomLanguageKey]
- BRA_epaminondas_dos_santos_desc:0 "§LEpaminondas dos Santos§!" # [LocEditor:CustomLanguageKey]
- BRA_agliberto_vieira_desc:0 "§LAgliberto Vieira de Azevedo§!" # [LocEditor:CustomLanguageKey]
- BRA_moreira_lima_desc:0 "§LRui Barbosa Moreira Lima§!" # [LocEditor:CustomLanguageKey]
- CHL_generic_democratic_reformer_desc:0 "§LJuan Antonio Ríos Morales§!" # [LocEditor:CustomLanguageKey]
- CHL_gustavo_ross_santa_maria_desc:0 "§LGustavo Ross Santa María§!" # [LocEditor:CustomLanguageKey]
- CHL_miguel_cruchaga_tacomal_desc:0 "§LMiguel Cruchaga Tocornal§!" # [LocEditor:CustomLanguageKey]
- CHL_julio_allard_pinto_desc:0 "§LJulio Allard Pinto§!" # [LocEditor:CustomLanguageKey]
- CHL_marmaduke_grove_desc:0 "§LMarmaduke Grove Vallejo§!" # [LocEditor:CustomLanguageKey]
- CHL_c_j_de_la_motte_desc:0 "§LCarlos Jouanne de la Motte du Portail§!" # [LocEditor:CustomLanguageKey]
- CHL_francisco_o_ryan_orrego_desc:0 "§LFrancisco O'Ryan Orrego§!" # [LocEditor:CustomLanguageKey]
- CHL_arturo_espinoza_mujica_desc:0 "§LCarlos Arturo Espinoza Mujica§!" # [LocEditor:CustomLanguageKey]
- CHL_jose_luis_sanchez_besa_desc:0 "§LJosé Luis Sánchez Besa§!" # [LocEditor:CustomLanguageKey]
- CHL_ariosto_herrera_desc:0 "§LAriosto Herrera Ramírez§!" # [LocEditor:CustomLanguageKey]
- COL_generic_democratic_reformer_desc:0 "§LUlpiano Rengifo Cárdenas§!" # [LocEditor:CustomLanguageKey]
- COL_generic_communist_revolutionary_desc:0 "§LFrancisco de Asís León Bogislao de Greiff Häusler§!" # [LocEditor:CustomLanguageKey]
- COL_m_e_rojas_de_moreno_desc:0 "§LMario Eugenio Rojas Correa de Moreno Díaz§!" # [LocEditor:CustomLanguageKey]
- COL_guillermo_padilla_manrique_desc:0 "§LGuillermo Padilla Manrique§!" # [LocEditor:CustomLanguageKey]
- COL_eduardo_poirier_escobar_desc:0 "§LEduardo Poirier Escobar§!" # [LocEditor:CustomLanguageKey]
- COL_german_olano_moreno_desc:0 "§LGermán Olano Moreno§!" # [LocEditor:CustomLanguageKey]
- COL_luis_bernardo_andrade_desc:0 "§LLuis Bernardo Andrade§!" # [LocEditor:CustomLanguageKey]
- COL_ruben_piedrahita_arango_desc:0 "§LJosé Rubén Piedrahíta Arango§!" # [LocEditor:CustomLanguageKey]
- COL_salvador_tiaga_gonzalez_desc:0 "§LSalvador Tiaga González§!" # [LocEditor:CustomLanguageKey]
- SAF_j_f_van_rensburg_fascist_desc:0 "$SAF_j_f_van_rensburg_desc$" # [LocEditor:CustomLanguageKey]
- SAF_nicolaas_havenga_desc:0 "§LNicolaas Christiaan Havenga§!" # [LocEditor:CustomLanguageKey]
- SAF_d_f_malan_desc:0 "§LDaniel François « D. F. » Malan§!" # [LocEditor:CustomLanguageKey]
- iscor_desc:0 "South African Iron and Steel Industrial Corporation\n" # [LocEditor:CustomLanguageKey]
- SAF_adolf_malan_desc:0 "§LAdolph Gysbert « Sailor » Malan§!" # [LocEditor:CustomLanguageKey]
- SAF_pierre_van_ryneveld_desc:0 "§LHesperus Andrias, dit Pierre van Ryneveld§!" # [LocEditor:CustomLanguageKey]
- SAF_cornelis_van_zuigenbrogge_desc:0 "§LCornelis van Zuigenbrogge§!" # [LocEditor:CustomLanguageKey]
- SAF_c_de_weenburg_du_toit_desc:0 "§LC. de Weenburg du Toit§!" # [LocEditor:CustomLanguageKey]
- SAF_marinus_van_osterkamp_desc:0 "§LMarinus van Osterkamp§!" # [LocEditor:CustomLanguageKey]
- SAF_j_f_van_rensburg_desc:0 "§LJohannes Frederik Janse « Hans » van Rensburg§!" # [LocEditor:CustomLanguageKey]
- SAF_s_p_le_roux_desc:0 "§LStephanus Petrus le Roux§!" # [LocEditor:CustomLanguageKey]
- SAF_voortrekker_monument_2_desc:0 "$SAF_voortrekker_monument_desc$" # [LocEditor:CustomLanguageKey]
- SAF_king_edward_desc:0 "§LEdward Albert Christian George Andrew Patrick David de Windsor§!" # [LocEditor:CustomLanguageKey]
- SAU_sa_ad_shaddad_al_outaibi_desc:0 "§LSa'd Shaddad al-Otaibi§!" # [LocEditor:CustomLanguageKey]
- SAU_saud_al_saud_desc:0 "§LSaoud ibn Abdelaziz al-Saoud§!" # [LocEditor:CustomLanguageKey]
- SAU_faisal_saud_desc:0 "§LFayçal ibn Abdelaziz al-Saoud§!" # [LocEditor:CustomLanguageKey]
- SAU_faisal_al_saud_desc:0 "$SAU_faisal_saud_desc$" # [LocEditor:CustomLanguageKey]
- TAN_generic_communist_revolutionary_desc:0 "Valéry Ivanovitch Mejlaouk\n" # [LocEditor:CustomLanguageKey]
- TAN_homushku_churguj_ool_desc:0 "§LTchourgouï-ool Namgaiévitch Khomoushkou§!" # [LocEditor:CustomLanguageKey]
- VEN_generic_democratic_reformer_desc:0 "§LRómulo Ernesto Betancourt Bello§!" # [LocEditor:CustomLanguageKey]
- VEN_generic_communist_revolutionary_desc:0 "§LManuel Díaz Rodríguez§!" # [LocEditor:CustomLanguageKey]
- VEN_romulo_gallegos_freire_desc:0 "§LRómulo Ángel del Monte Carmelo Gallegos Freire§!" # [LocEditor:CustomLanguageKey]
- VEN_isaias_medina_angarita_desc:0 "§LIsaías Medina Angarita§!" # [LocEditor:CustomLanguageKey]
- VEN_tomas_contreras_villalobos_desc:0 "§LTomás Contreras Villalobos§!" # [LocEditor:CustomLanguageKey]
- VEN_david_lopez_henriques_desc:0 "§LDavid López Henriques§!" # [LocEditor:CustomLanguageKey]
- VEN_humberto_santabria_villa_desc:0 "§LHumberto Santabria Villa§!" # [LocEditor:CustomLanguageKey]
- VEN_carlos_molina_talavayo_desc:0 "§LCarlos Molina Talavayo§!" # [LocEditor:CustomLanguageKey]
- VEN_carlos_delgado_chalbaud_desc:0 "§LCarlos Román Delgado Chalbaud Gómez§!" # [LocEditor:CustomLanguageKey]
- VEN_roberto_de_luca_varesano_desc:0 "§LRoberto de Luca Varesano§!" # [LocEditor:CustomLanguageKey]
- VEN_carlos_garcia_mendoza_desc:0 "§LCarlos García Mendoza§!" # [LocEditor:CustomLanguageKey]
- VEN_antonio_casas_gonzalez_desc:0 "§LAntonio Casas González§!" # [LocEditor:CustomLanguageKey]
- CRO_generic_democratic_reformer_desc:0 "Vladimir Matija Adam « Vladko » Maček\n" # [LocEditor:CustomLanguageKey]
- CRO_friedrich_navratil_desc:0 "Miroslav « Friedrich » Navratil\n" # [LocEditor:CustomLanguageKey]
- CRO_vilko_begic_desc:0 "Vilim « Vilko » Begić\n" # [LocEditor:CustomLanguageKey]
- CRO_slavko_kvaternik_desc:0 "Slavko « Vitez » Kvaternik\n" # [LocEditor:CustomLanguageKey]
- RAJ_bhimrao_ramji_ambedkar_desc:0 "§LBhimrao Ramji « Babasaheb » Ambedkar§!" # [LocEditor:CustomLanguageKey]
- RAJ_chakravarti_rajagopalachari_desc:0 "§LChakravarti Rajagopalachari§!" # [LocEditor:CustomLanguageKey]
- RAJ_mahatma_mohandas_gandhi_desc:0 "§LMohandas Karamchand Gandhi§!" # [LocEditor:CustomLanguageKey]
- RAJ_agha_khan_iii_desc:0 "§LSultan Mohammed Shah, Aga Khan III§!" # [LocEditor:CustomLanguageKey]
- RAJ_bahadur_jayla_of_khoch_bahur_desc:0 "§LBahadur Jayla of Khoch Bahur§!" # [LocEditor:CustomLanguageKey]
- RAJ_arthur_a_barrett_desc:0 "§LArthur Arnold Barrett§!" # [LocEditor:CustomLanguageKey]
- RAJ_archibald_wavell_desc:0 "$archibald_wavell_desc$" # [LocEditor:CustomLanguageKey]
- RAJ_reginald_savory_desc:0 "§LReginald Arthur « Reggie » Savory§!" # [LocEditor:CustomLanguageKey]
- RAJ_kodandera_cariappa_desc:0 "§LKodandera « Kipper » Madappa Cariappa§!" # [LocEditor:CustomLanguageKey]
- RAJ_ravindra_darshan_singh_desc:0 "§LRavinder Hari Darshan Singh§!" # [LocEditor:CustomLanguageKey]
- RAJ_louis_mountbatten_desc:0 "§LLouis Francis Albert Victor Nicholas Mountbatten§!" # [LocEditor:CustomLanguageKey]
- RAJ_william_e_parry_desc:0 "§LWilliam Edward Parry§!" # [LocEditor:CustomLanguageKey]
- RAJ_bhaskar_soman_desc:0 "§LBhaskar Sadashiv Soman§!" # [LocEditor:CustomLanguageKey]
- RAJ_homi_j_bhabha_desc:0 "§LHomi Jehangir Bhabha§!" # [LocEditor:CustomLanguageKey]
- ALB_eqrem_libohova_desc:0 "§LMahmut Eqrem bej Libohova Asllan Pashali§!" # [LocEditor:CustomLanguageKey]
- BHU_jigme_dorji_wangchuck_desc:0 "§LJigme Dorji Wangchuck§!" # [LocEditor:CustomLanguageKey]
- COS_generic_democratic_reformer_desc:0 "§LMiguel Ángel Ramírez Alcántara§!" # [LocEditor:CustomLanguageKey]
- COS_otto_cortes_fernandez_desc:0 "§LOtto Cortés Fernández§!" # [LocEditor:CustomLanguageKey]
- COS_roberto_brenes_mesen_desc:0 "§LRoberto Brenes Mesén§!" # [LocEditor:CustomLanguageKey]
- COS_chico_orlich_bolmarich_desc:0 "§LFrancisco José Orlich Bolmarcich§!" # [LocEditor:CustomLanguageKey]
- COS_luis_fernandez_rodriguez_desc:0 "§LLuis Fernández Rodríguez§!" # [LocEditor:CustomLanguageKey]
- COS_francisco_rosendo_arguello_desc:0 "§LFrancisco Rosendo Argüello§!" # [LocEditor:CustomLanguageKey]
- COS_guillermo_macho_nunez_desc:0 "§LGuillermo Macho Núñez§!" # [LocEditor:CustomLanguageKey]
- COS_baptista_e_gutierrez_desc:0 "§LBaptista E. Gutiérrez§!" # [LocEditor:CustomLanguageKey]
- COS_roberto_juarez_camposino_desc:0 "§LRoberto Juárez Camposino§!" # [LocEditor:CustomLanguageKey]
- NIC_carlos_brenes_jarquin_desc:0 "§LCarlos Alberto Brenes Jarquín§!" # [LocEditor:CustomLanguageKey]
- NIC_augusto_caraval_antonio_desc:0 "§LAugusto Caraval Antonio§!" # [LocEditor:CustomLanguageKey]
- NIC_victor_roman_y_reyes_desc:0 "§LVíctor Manuel Román y Reyes§!" # [LocEditor:CustomLanguageKey]
- NIC_gustavo_flores_mendienta_desc:0 "§LGustavo Flores Mendieta§!" # [LocEditor:CustomLanguageKey]
- NIC_noel_esto_nino_miranda_desc:0 "§LNoel Esto Niño Miranda§!" # [LocEditor:CustomLanguageKey]
- ELS_generic_democratic_reformer_desc:0 "§LAndrés Ignacio Menéndez§!" # [LocEditor:CustomLanguageKey]
- ELS_salvador_castaneda_castro_desc:0 "§LSalvador Castaneda Castro§!" # [LocEditor:CustomLanguageKey]
- ELS_osmin_aguirre_y_salinas_desc:0 "§LOsmín Aguirre y Salinas" # [LocEditor:CustomLanguageKey]
- ELS_manuel_de_jesus_cordova_desc:0 "§LManuel de Jesús Córdova§!" # [LocEditor:CustomLanguageKey]
- ELS_ricardo_abrego_abrego_desc:0 "§LRicardo Ábrego Ábrego§!" # [LocEditor:CustomLanguageKey]
- ELS_horacio_carnejo_ibanez_desc:0 "§LHoracio Carnejo Ibáñéz§!" # [LocEditor:CustomLanguageKey]
- ELS_hector_escobar_serrano_desc:0 "§LHéctor Escobar Serrano§!" # [LocEditor:CustomLanguageKey]
- ELS_mauro_espinola_castro_desc:0 "§LMauro Espínola Castro§!" # [LocEditor:CustomLanguageKey]
- ELS_milton_andrade_cabrera_desc:0 "§LMilton Andrade Cabrera§!" # [LocEditor:CustomLanguageKey]
- ELS_augustin_farabundo_marti_desc:0 "§LAgustín Farabundo Martí Rodríguez§!" # [LocEditor:CustomLanguageKey]
- ELS_manuel_jose_maria_lemus_lopez_desc:0 "§LManuel José María Lemus López§!" # [LocEditor:CustomLanguageKey]
- ECU_generic_democratic_reformer_desc:0 "§LIsidro Ramón Antonio Ayora Cueva§!" # [LocEditor:CustomLanguageKey]
- ECU_carlos_arosemena_tola_desc:0 "§LCarlos Julio Arosemena Tola§!" # [LocEditor:CustomLanguageKey]
- ECU_carlos_arroyo_del_rio_desc:0 "§LCarlos Alberto Arroyo del Río§!" # [LocEditor:CustomLanguageKey]
- ECU_juan_pablo_martinez_iguarte_desc:0 "§LJuan Pablo Martínez Iguarte§!" # [LocEditor:CustomLanguageKey]
- ECU_federico_paez_chiriboaga_desc:0 "§LFederico Páez Chiriboga§!" # [LocEditor:CustomLanguageKey]
- ECU_hugo_endara_penaherrera_desc:0 "§LCésar Endara Peñaherrera§!" # [LocEditor:CustomLanguageKey]
- ECU_jorge_escobedo_duarte_desc:0 "§LJorge Escobedo Duarte§!" # [LocEditor:CustomLanguageKey]
- ECU_ramon_moran_valverde_desc:0 "§LRamón Morán Valverde§!" # [LocEditor:CustomLanguageKey]
- ECU_ramon_baquerizo_davila_desc:0 "§LRamón Baquerizo Dávila§!" # [LocEditor:CustomLanguageKey]
- ECU_benigno_andrade_flores_desc:0 "§LBenigno Andrade Flores§!" # [LocEditor:CustomLanguageKey]
- ECU_gilberto_enriquez_gallo_desc:0 "§LGilberto Enríquez Gallo§!" # [LocEditor:CustomLanguageKey]
- ECU_uriarte_fanquil_del_ponte_desc:0 "§LUriarte Fanquil del Ponte§!" # [LocEditor:CustomLanguageKey]
- ECU_cosme_renella_barbatto_desc:0 "§LCosme Rennella Barbatto§!" # [LocEditor:CustomLanguageKey]
- ECU_julio_salem_gallegos_desc:0 "§LJulio Teodoro Salem Gallegos§!" # [LocEditor:CustomLanguageKey]
- NZL_generic_communist_revolutionary_desc:1 "Frederick Engels « Fred » Freeman§!" # [LocEditor:CustomLanguageKey]
- NZL_a_e_davy_desc:0 "§LAlbert Ernest Davy§!" # [LocEditor:CustomLanguageKey]
- NZL_keith_j_holyoake_desc:0 "§LKeith Jacka Holyoake§!" # [LocEditor:CustomLanguageKey]
- NZL_r_a_cochrane_desc:0 "§LRalph Alexander Cochrane§!" # [LocEditor:CustomLanguageKey]
- NZL_j_c_nichols_desc:0 "§LJoseph Cowie Nichols§!" # [LocEditor:CustomLanguageKey]
- NZL_h_d_mcgregor_desc:0 "§LHector Douglas McGregor§!" # [LocEditor:CustomLanguageKey]
- NZL_william_sinclair_burgess_desc:0 "§LWilliam Livingston Hatchwell Sinclair-Burgess§!" # [LocEditor:CustomLanguageKey]
- NZL_n_weir_desc:0 "§LNorman William McDonald Weir§!" # [LocEditor:CustomLanguageKey]
- NZL_a_j_stallworthy_desc:0 "§LArthur John Stallworthy§!" # [LocEditor:CustomLanguageKey]
- NZL_h_e_horan_desc:0 "§LHenry Edward Horan§!" # [LocEditor:CustomLanguageKey]
- NZL_w_h_stratton_desc:0 "§LWilliam Hector Stratton§!" # [LocEditor:CustomLanguageKey]
- ETH_bedjironde_tekle_hawariate_desc:0 "§LBedjironde Tekle Hawariate§!" # [LocEditor:CustomLanguageKey]
- ETH_ras_imru_haile_selassie_desc:0 "§L$ETH_ras_imru_haile_selassie_long$§!" # [LocEditor:CustomLanguageKey]
- ETH_makonnen_endelkatchew_desc:0 "§LMekonnen Endelkachew§!" # [LocEditor:CustomLanguageKey]
- PHI_generic_fascist_demagogue_desc:0 "§LJosé Paciano Laurel y García§!" # [LocEditor:CustomLanguageKey]
- PHI_generic_democratic_reformer_desc:0 "§LElpidio Quirino y Rivera§!" # [LocEditor:CustomLanguageKey]
- PHI_emilio_aguinaldo_desc:0 "§LEmilio Aguinaldo y Famy§!" # [LocEditor:CustomLanguageKey]
- PHI_juan_sumulong_desc:0 "§LJuan Sumulong y Marquez§!" # [LocEditor:CustomLanguageKey]
- PHI_leoncio_s_tan_desc:0 "§LLeoncio S. Tan§!" # [LocEditor:CustomLanguageKey]
- PHI_basilio_j_valdez_desc:0 "§LBasilio José Segundo Pica Valdés§!" # [LocEditor:CustomLanguageKey]
- PHI_pelagio_cruz_desc:0 "§LPelagio A. Cruz§!" # [LocEditor:CustomLanguageKey]
- PHI_santiago_nuval_desc:0 "§LSantiago C. Nuval§!" # [LocEditor:CustomLanguageKey]
- PHI_eustacio_orobia_desc:0 "§LEustacio D. Orobia§!" # [LocEditor:CustomLanguageKey]
- PHI_vicente_p_lim_desc:0 "§LVicente Podico Lim§!" # [LocEditor:CustomLanguageKey]
- PHI_jose_v_andrada_desc:0 "§LJosé V. Andrada§!" # [LocEditor:CustomLanguageKey]
- PHI_benito_n_ebuen_desc:0 "§LBenito Nicano R. Ebuen§!" # [LocEditor:CustomLanguageKey]
- PHI_ramon_a_alcaraz_desc:0 "§LRamón Abacan Alcaraz§!" # [LocEditor:CustomLanguageKey]
- PHI_victor_h_dizon_desc:0 "§LVictor H. Dizon§!" # [LocEditor:CustomLanguageKey]
- PRU_armando_reveredo_iglesias_desc:0 "§LArmando Revoredo Iglesias§!" # [LocEditor:CustomLanguageKey]
- PRU_oscar_miro_quesada_desc:0 "§LÓscar Miró Quesada de la Guerra§!" # [LocEditor:CustomLanguageKey]
- PRU_jose_bustamante_y_rivero_desc:0 "§LJosé Luis Pablo Bustamante y Rivero§!" # [LocEditor:CustomLanguageKey]
- PRU_eloy_g_ureta_desc:0 "§LEloy Gaspar Ureta Montehermoso§!" # [LocEditor:CustomLanguageKey]
- PRU_eduardo_montero_rojas_desc:0 "§LEduardo Montero Rojas§!" # [LocEditor:CustomLanguageKey]
- PRU_fernando_m_quesada_blanco_desc:0 "§LFernando Quesada Blanco§!" # [LocEditor:CustomLanguageKey]
- PRU_oscar_benavides_larrea_desc:0 "§LÓscar Raimundo Benavides Larrea§!" # [LocEditor:CustomLanguageKey]
- PRU_vladimiro_lopez_trigoso_desc:0 "§LVladimiro López Trigoso§!" # [LocEditor:CustomLanguageKey]
- PRU_manuel_odria_amoretti_desc:0 "§LManuel Arturo Odría Amoretti§!" # [LocEditor:CustomLanguageKey]
- PRU_eduardo_cantabria_gomez_desc:0 "§LEduardo Cantabria Gómez§!" # [LocEditor:CustomLanguageKey]
- YEM_ahmad_bin_yaha_desc:0 "§LAhmad ibn Yahya Hamid ed-Din§!" # [LocEditor:CustomLanguageKey]
- SIK_isa_yusuf_alptekin_desc:0 "§LIsa Yusuf Alptekin, dit « Ai Sha »§!" # [LocEditor:CustomLanguageKey]
- SIK_habibullah_huseinov_desc:0 "§LHäbibulla Eynulla oğlu Hüseynov§!" # [LocEditor:CustomLanguageKey]
- URG_alfredo_baldomir_desc:0 "§LAlfredo Baldomir Ferrari§!" # [LocEditor:CustomLanguageKey]
- URG_emilio_frugoni_desc:0 "§LEmilio Frugoni Queirolo§!" # [LocEditor:CustomLanguageKey]
- URG_horacio_arredondo_desc:0 "§LHoracio Arredondo de Navas§!" # [LocEditor:CustomLanguageKey]
- URG_vittorio_amato_masso_desc:0 "§LVittorio Amato Masso§!" # [LocEditor:CustomLanguageKey]
- URG_ernesto_sanchez_elizondo_desc:0 "§LErnesto Sánchez Elizondo§!" # [LocEditor:CustomLanguageKey]
- URG_cosme_alvarez_berisso_desc:0 "§LCosme Alvaréz Berisso§!" # [LocEditor:CustomLanguageKey]
- URG_enrico_amancias_rodriguez_desc:0 "§LEnrico Amancias Rodríguez§!" # [LocEditor:CustomLanguageKey]
- PAR_juan_natalicio_gonzalez_desc:0 "§LJuan Natalicio González Paredes§!" # [LocEditor:CustomLanguageKey]
- PAR_higenio_morinigo_martinez_desc:0 "§LHiginio Nicolás Morínigo Martínez§!" # [LocEditor:CustomLanguageKey]
- PAR_alfred_stroessner_matiauda_desc:0 "§LAlfredo Stroessner Matiauda§!" # [LocEditor:CustomLanguageKey]
- PAR_juan_manuel_frutos_desc:0 "§LJuan Manuel Frutos Escurra§!" # [LocEditor:CustomLanguageKey]
- PAR_hernan_rojas_baltassare_desc:0 "§LHernán Rojas Baltassare§!" # [LocEditor:CustomLanguageKey]
- CUB_generic_democratic_reformer_desc:0 "Miguel Ángel de la Campa y Caraveda\n" # [LocEditor:CustomLanguageKey]
- CUB_generic_communist_revolutionary_desc:0 "§LAntonio Guiteras Holmes§!" # [LocEditor:CustomLanguageKey]
- CUB_gerardo_machado_desc:0 "§LGerardo Machado y Morales§!" # [LocEditor:CustomLanguageKey]
- CUB_eugenio_molinet_castro_desc:0 "§LEugenio Molinet Castro§!" # [LocEditor:CustomLanguageKey]
- CUB_salvador_castaneda_castro_desc:0 "§LSalvador Castaneda Castro§!" # [LocEditor:CustomLanguageKey]
- CUB_fulgencio_batista_desc:0 "§LFulgencio Batista y Zaldívar§!" # [LocEditor:CustomLanguageKey]
- CUB_palaez_menendez_desc:0 "§LAntonio Menéndez Peláez§!" # [LocEditor:CustomLanguageKey]
- CUB_fidel_castro_desc:0 "§LFidel Alejandro Castro Ruz§!" # [LocEditor:CustomLanguageKey]
- CUB_eduardo_chibas_desc:0 "§LEduardo René Chibás y Ribas§!" # [LocEditor:CustomLanguageKey]
- GUA_generic_communist_revolutionary_desc:0 "§LCarlos Argumedo Salazar§!" # [LocEditor:CustomLanguageKey]
- GUA_eduardo_villagran_ariza_desc:0 "§LEduardo Villagrán Ariza§!" # [LocEditor:CustomLanguageKey]
- GUA_juan_arevalo_bermejo_desc:0 "§LJuan José Arévalo Bermejo§!" # [LocEditor:CustomLanguageKey]
- GUA_federico_ponce_vaides_desc:0 "§LJuan Federico Ponce Vaides§!" # [LocEditor:CustomLanguageKey]
- GUA_jacopo_arbenz_guzman_desc:0 "§LJuan Jacobo Árbenz Guzmán§!" # [LocEditor:CustomLanguageKey]
- GUA_tomas_mendoza_urribe_desc:0 "§LTomás Mendoza Urribe§!" # [LocEditor:CustomLanguageKey]
- GUA_manuel_orellana_desc:0 "§LManuel María Orellana Contreras§!" # [LocEditor:CustomLanguageKey]
- GUA_carlos_diaz_de_leon_desc:0 "§LCarlos Enrique Díaz de León§!" # [LocEditor:CustomLanguageKey]
- GUA_miguel_garcia_granados_desc:0 "§LMiguel García Granados§!" # [LocEditor:CustomLanguageKey]
- GUA_m_ydigaras_fuentes_desc:0 "§LMiguel Ydígoras Fuentes§!" # [LocEditor:CustomLanguageKey]
- HON_roberto_michelleti_bain_desc:0 "§LRoberto Michelleti Bain§!" # [LocEditor:CustomLanguageKey]
- HON_orlando_rodriguez_jimino_desc:0 "§LOrlando Rodríguez Jimeno§!" # [LocEditor:CustomLanguageKey]
- HON_abraham_williams_calderon_desc:0 "§LAbraham Williams Calderón§!" # [LocEditor:CustomLanguageKey]
- HON_hernan_fernandez_silva_desc:0 "§LHernán Fernández Silva§!" # [LocEditor:CustomLanguageKey]
- HON_juan_b_valladares_desc:0 "§LJuan Valladares Rodríguez§!" # [LocEditor:CustomLanguageKey]
- HON_oswaldo_lopez_arellano_desc:0 "§LOswaldo Enrique López Arellano§!" # [LocEditor:CustomLanguageKey]
- HON_raimundo_stochler_garcia_desc:0 "§LRaimundo Stochler García§!" # [LocEditor:CustomLanguageKey]
- HON_jose_zuniga_huete_desc:0 "§LJosé Ángel Zúñiga Huete§!" # [LocEditor:CustomLanguageKey]
- HON_francisco_s_tapio_toro_desc:0 "§LFrancisco S. Tapio Toro§!" # [LocEditor:CustomLanguageKey]
- NEP_william_stevenson_meyer_desc:0 "§LWilliam Stevenson Meyer§!" # [LocEditor:CustomLanguageKey]
- NEP_mohan_rana_desc:0 "§LMohan Shumsher Jung Bahadur Rana§!" # [LocEditor:CustomLanguageKey]
- NEP_baber_rana_desc:0 "§LBaber Shumsher Jang Bahadur Rana§!" # [LocEditor:CustomLanguageKey]
- NEP_kiran_rana_desc:0 "§LKiran Shamsher Jang Bahadur Rana§!" # [LocEditor:CustomLanguageKey]
- NEP_rudra_rana_desc:0 "§LRudra Shumsher Jung Bahadur Rana§!" # [LocEditor:CustomLanguageKey]
- LIB_generic_democratic_reformer_desc:0 "§LClarence Lorenzo Simpson§!" # [LocEditor:CustomLanguageKey]
- LIB_william_s_tubman_desc:0 "§LWilliam Vacanarat Shadrach Tubman§!" # [LocEditor:CustomLanguageKey]
- PAN_nicolas_ardito_barletta_desc:0 "§LNicolás Ardito Barletta§!" # [LocEditor:CustomLanguageKey]
- PAN_enrique_jimenez_brin_desc:0 "§LEnrique Adolfo Jiménez Brin§!" # [LocEditor:CustomLanguageKey]
- PAN_marcos_a_gelabert_desc:0 "§LMarcos A. Gelabert§!" # [LocEditor:CustomLanguageKey]
- PAN_margarita_belloso_jimenez_desc:0 "§LMargarita Belloso Jiménez§!" # [LocEditor:CustomLanguageKey]
- PAN_ferdinando_hernandez_ytuarte_desc:0 "§LFerdinando Hernández Ytuarte§!" # [LocEditor:CustomLanguageKey]
- PER_mahmud_jam_desc:0 "§LMahmoud Modir al-Molk Djam§!" # [LocEditor:CustomLanguageKey]
- PER_ali_khan_mansour_desc:0 "§LAli Khan Mansour§!" # [LocEditor:CustomLanguageKey]
- PER_mohammed_nakhjavani_desc:0 "§LMohammad Nakhjavani§!" # [LocEditor:CustomLanguageKey]
- PER_fazlollah_zahedi_desc:0 "§LMohammad Fazlollah Zahedi§!" # [LocEditor:CustomLanguageKey]
- PER_ahmad_mira_khosravani_desc:0 "§LAhmad Mira Khosravani§!" # [LocEditor:CustomLanguageKey]
- PER_mohammed_reza_pahlavi_desc:0 "§LMohammadreza Pahlavi§!" # [LocEditor:CustomLanguageKey]
- DOM_generic_democratic_reformer_desc:0 "§LJuan Emilio Bosch Gaviño§!" # [LocEditor:CustomLanguageKey]
- DOM_generic_communist_revolutionary_desc:0 "§LFrancisco Prats Ramírez§!" # [LocEditor:CustomLanguageKey]
- DOM_jacinto_bienvenido_peynado_desc:0 "§LJacinto Bienvenido Peynado Peynado§!" # [LocEditor:CustomLanguageKey]
- DOM_manuel_de_jesus_troncoso_desc:0 "§LManuel de Jesús María Ulpiano « Pipí » Troncoso de la Concha§!" # [LocEditor:CustomLanguageKey]
- DOM_victor_vinas_roman_desc:0 "§LVíctor Elby Viñas Román§!" # [LocEditor:CustomLanguageKey]
- DOM_domingo_de_los_santos_ortiz_desc:0 "§LDomingo de los Santos Ortiz§!" # [LocEditor:CustomLanguageKey]
- DOM_julio_ortega_frier_desc:0 "§LJulio César Ortega Frier§!" # [LocEditor:CustomLanguageKey]
- DOM_honoracio_yuna_robles_desc:0 "§LHonoracio Yuna Robles§!" # [LocEditor:CustomLanguageKey]
- HAI_luis_dabtes_bellegarde_desc:0 "§LDantès Louis Bellegarde§!" # [LocEditor:CustomLanguageKey]
- HAI_louis_dejoie_desc:0 "§LPierre Joseph Louis Déjoie§!" # [LocEditor:CustomLanguageKey]
- HAI_emilie_lescot_desc:0 "§LAntoine Louis Léocardie Élie Lescot§!" # [LocEditor:CustomLanguageKey]
- HAI_paul_magloire_desc:0 "§LPaul Eugène Magloire§!" # [LocEditor:CustomLanguageKey]
- FRA_gaston_henry_haye_desc:0 "§LHenry Gaston Auguste Haye§!" # [LocEditor:CustomLanguageKey]
- FRA_paul_baudouin_desc:0 "§LPaul Louis Arthur Baudouin§!" # [LocEditor:CustomLanguageKey]
- FRA_zivony_peshkov_desc:0 "§LZinovi Alekseïevitch Pechkoff§!" # [LocEditor:CustomLanguageKey]
- FRA_paul_reynaud_desc:0 "§LJean Paul Reynaud§!" # [LocEditor:CustomLanguageKey]
- FRA_henri_marie_auguste_bineau_desc:0 "§LHenri Marie Auguste Bineau§!" # [LocEditor:CustomLanguageKey]
- FRA_pierre_alombert_goget_desc:0 "§LPierre-Paul-Étienne Alombert-Goget§!" # [LocEditor:CustomLanguageKey]
- ENG_david_stirling_desc:0 "§LArchibald David « The Phantom Major » Stirling§!" # [LocEditor:CustomLanguageKey]
- SOV_lavrentiy_beria_desc:0 "§LLavrenti Pavlovitch Béria§!" # [LocEditor:CustomLanguageKey]
- SOV_vyacheslav_molotov_desc:0 "§LViatcheslav Mikhaïlovitch Molotov§!" # [LocEditor:CustomLanguageKey]
- SOV_nikolai_voznesensky_desc:0 "§LNikolaï Alekseïevitch Voznessenski§!" # [LocEditor:CustomLanguageKey]
- SOV_nikolai_yezhov_desc:0 "§LNikolaï Ivanovitch Iéjov§!" # [LocEditor:CustomLanguageKey]
- USA_robert_taft_desc:0 "§LRobert Alphonso Taft Sr.§!" # [LocEditor:CustomLanguageKey]
- USA_john_winant_desc:0 "§LJohn Gilbert Winant§!" # [LocEditor:CustomLanguageKey]
- USA_henry_stimson_desc:0 "§LHenry Lewis Stimson§!" # [LocEditor:CustomLanguageKey]
- USA_donald_nelson_desc:0 "§LDonald Marr Nelson§!" # [LocEditor:CustomLanguageKey]
- USA_william_regnery_desc:0 "§LWilliam Henry Regnery§!" # [LocEditor:CustomLanguageKey]
- USA_joseph_patterson_desc:0 "§LJoseph Medill Patterson§!" # [LocEditor:CustomLanguageKey]
- ITA_junio_valerio_borghese_desc:0 "§LJunio Valerio Scipione Ghezzo Marcantonio Maria dei principi Borghese, dit « Junio Valerio Borghese »§!" # [LocEditor:CustomLanguageKey]
- ENG_philip_kerr_desc:0 "§LPhilip Henry Kerr§!" # [LocEditor:CustomLanguageKey]
- ENG_nevile_henderson_desc:0 "§LNevile Meyrick Henderson§!" # [LocEditor:CustomLanguageKey]
- ENG_maxwell_aitken_desc:0 "§LWilliam « Max » Maxwell Aitken§!" # [LocEditor:CustomLanguageKey]
- BLR_generic_communist_revolutionary_desc:0 "Alekseï Vladimirovitch Volkov\n" # [LocEditor:CustomLanguageKey]
- BLR_generic_democratic_reformer_desc:0 "Nikolaï Semionovitch Abramtchik\n" # [LocEditor:CustomLanguageKey]
- BLR_boris_berman_desc:0 "Boris Davidovitch Berman\n" # [LocEditor:CustomLanguageKey]
- BLR_jozeph_ryzhykov_desc:0 "Iossif Ivanovitch Ryjikov\n" # [LocEditor:CustomLanguageKey]
- BLR_aleksei_antonov_desc:0 "Alekseï Innokentievitch Antonov\n" # [LocEditor:CustomLanguageKey]
- BLR_stepan_krasovsky_desc:0 "Stepan Akimovitch Krassovski\n" # [LocEditor:CustomLanguageKey]
- BLR_vasily_sokolovsky_desc:0 "Vassili Danilovitch Sokolovski\n" # [LocEditor:CustomLanguageKey]
- BLR_ivan_yakubovsky_desc:0 "Ivan Ignatievitch Iakoubovski\n" # [LocEditor:CustomLanguageKey]
- BLR_ivan_pstygo_desc:0 "Ivan Ivanovitch Pstygo\n" # [LocEditor:CustomLanguageKey]
- BLR_fedor_dobysh_desc:0 "Fiodor Ivanovitch Dobych\n" # [LocEditor:CustomLanguageKey]
- BLR_valentin_drozd_desc:0 "Valentin Petrovitch Drozd\n" # [LocEditor:CustomLanguageKey]
- BLR_georgy_holostyakov_desc:0 "Gueorgui Nikitch Holostiakov\n" # [LocEditor:CustomLanguageKey]
- BLR_piotr_kozlov_desc:0 "Dmitri Timofeïevitch Kozlov\n" # [LocEditor:CustomLanguageKey]
- BLR_maksim_antonyuk_desc:0 "Maksim Antanavitch Antoniouk\n" # [LocEditor:CustomLanguageKey]
- ishapore_rifle_factory_desc:0 "Rifle Factory of Ishapore – Manufacture d'armes d'Icchapur\n" # [LocEditor:CustomLanguageKey]
- ordnance_factories_board_desc:0 "Ordnance Factories Board – Usines militaires indiennes\n" # [LocEditor:CustomLanguageKey]
- garden_reach_shipbuilders_desc:0 "Garden Reach Shipbuilders & Engineers" # [LocEditor:CustomLanguageKey]
- mazagon_dock_limited_desc:0 "Mazagon Dock Limited" # [LocEditor:CustomLanguageKey]
- NZL_st_mary_bay_ship_desc:0 "Saint Marys Bay Shipbuilding – Chantier naval de Saint Marys Bay\n" # [LocEditor:CustomLanguageKey]
- NZL_port_chalmers_shipbuilding_desc:0 "Port Charlmers Shipbuilding – Chantier naval de Port Chalmers\n" # [LocEditor:CustomLanguageKey]
- NZL_charlton_mw_desc:0 "Charlton Motor Workshops – Ateliers Charlon Motor\n" # [LocEditor:CustomLanguageKey]
- NZL_christchurch_workshops_desc:0 "Christchurch Workshops – Ateliers de Christchurch\n" # [LocEditor:CustomLanguageKey]
- lithgow_saf_desc:0 "Lithgow Small Arms Factory – Manufacture d'armes légères de Lithgow\n" # [LocEditor:CustomLanguageKey]
- lysaghts_works_desc:0 "Lysaght Works – Ateliers australiens de John Lysaght & Co\n" # [LocEditor:CustomLanguageKey]
- new_south_wales_rc_desc:0 "New South Wales Railway Company – Compagnie de chemin de fer de l'État de Nouvelle-Galles du Sud\n" # [LocEditor:CustomLanguageKey]
- Cockatoo_doe_desc:0 "Cockatoo Docks & Engineering Company Ltd\n" # [LocEditor:CustomLanguageKey]
- evans_deakin_co_desc:0 "Evans Deakin & Company\n" # [LocEditor:CustomLanguageKey]
- montreal_lab_desc:0 "Montreal Laboratory – Laboratoire de Montréal\n" # [LocEditor:CustomLanguageKey]
- inglis_company_desc:0 "John Inglis and Company\n" # [LocEditor:CustomLanguageKey]
- GER_grosraumwirtschaft_idea:0 "Großraumwirtschaft" # [LocEditor:CustomLanguageKey]
- GER_wilhelm_iii_desc:0 "§LFrédéric Guillaume Victor Auguste Ernest de Hohenzollern§!" # [LocEditor:CustomLanguageKey]
- dagu_shipyard_desc:0 "Chantier naval de Dagu\n" # [LocEditor:CustomLanguageKey]
- MAN_manshu_desc:0 "Manshû Koku Hikîki Seizô Kabushiki Kaisha – Compagnie aéronautique Manshû\n" # [LocEditor:CustomLanguageKey]
- MAN_south_manchuria_railway_company_desc:0 "Minami Manshû Tetsudô Kabushiki-gaisha – Société des chemins de fer de Mandchourie du Sud\n" # [LocEditor:CustomLanguageKey]
- USA_joseph_mccarthy_desc:0 "§LJoseph Raymond McCarthy§!" # [LocEditor:CustomLanguageKey]
- USA_charles_lindbergh_desc:0 "§LCharles Augustus « The Lone Eagle » Lindbergh§!" # [LocEditor:CustomLanguageKey]
- USA_general_motors_desc:0 "General Motors Company\n" # [LocEditor:CustomLanguageKey]
- harry_white_desc:0 "§LHarry Dexter White§!" # [LocEditor:CustomLanguageKey]
- whittaker_chambers_desc:0 "§LJay Vivian « Whittaker » Chambers§!" # [LocEditor:CustomLanguageKey]
- ENG_george_orwell_desc:0 "§LEric Arthur Blair, dit George Orwell§!" # [LocEditor:CustomLanguageKey]
- ENG_sylvia_pankhurst_desc:0 "§LEstelle Sylvia Pankhurst§!" # [LocEditor:CustomLanguageKey]
- ENG_winston_churchill_desc:0 "§LWinston Leonard Spencer Churchill§!" # [LocEditor:CustomLanguageKey]
- ENG_oswald_mosley_desc:0 "§LOswald Ernald Mosley§!" # [LocEditor:CustomLanguageKey]
- ENG_jfc_fuller_desc:0 "§LJohn Frederick Charles « Boney » Fuller§!" # [LocEditor:CustomLanguageKey]
- HOL_jan_goudriaan_desc:0 "§LJan Goudriaan Jr.§!" # [LocEditor:CustomLanguageKey]
- HOL_cornelis_van_geelkerken_desc:0 "§LCornelis, dit Kees van Geelkerken§!" # [LocEditor:CustomLanguageKey]
- HOL_jacob_adriaan_de_wilde_desc:0 "§LJacob Adriaan de Wilde§!" # [LocEditor:CustomLanguageKey]
- HOL_antonie_pannekoek_desc:0 "§LAntonie, dit Anton Pannekoek§!" # [LocEditor:CustomLanguageKey]
- HOL_adriaan_dijxhoorn_desc:0 "§LAdriaan Quirinus Hendrik Dijxhoorn§!" # [LocEditor:CustomLanguageKey]
- HOL_walraven_van_hall_desc:0 "§LWalraven, dit Wally van Hall§!" # [LocEditor:CustomLanguageKey]
- HOL_anton_de_kom_desc:0 "§LCornelis Gerhard Anton de Kom§!" # [LocEditor:CustomLanguageKey]
- HOL_izaak_reijnders_desc:0 "§LIzaäk Herman Reijnders§!" # [LocEditor:CustomLanguageKey]
- HOL_adrianus_rudolphus_van_den_bent_desc:0 "§LAdrianus Rudolphus van den Bent§!" # [LocEditor:CustomLanguageKey]
- HOL_johan_furstner_desc:0 "§LJohannes Theodorus Furstner§!" # [LocEditor:CustomLanguageKey]
- HOL_godfried_van_voorst_tot_voorst_desc:0 "§LJan Joseph Godfried van Voorst tot Voorst jr.§!" # [LocEditor:CustomLanguageKey]
- HOL_hendrik_seyffardt_desc:0 "§LHendrik Alexander Seijffardt§!" # [LocEditor:CustomLanguageKey]
- GER_hans_oster_desc:0 "§LHans Paul Oster§!" # [LocEditor:CustomLanguageKey]
- GER_alfred_hugenberg_desc:0 "§LAlfred Ernst Christian Alexander Hugenberg§!" # [LocEditor:CustomLanguageKey]
- GER_carl_friedrich_goerdeler_desc:0 "§LCarl Friedrich Goerdeler§!" # [LocEditor:CustomLanguageKey]
- POR_jose_hipolito_raposo_desc:0 "§LJosé Hipólito Vaz Raposo§!" # [LocEditor:CustomLanguageKey]
- KUR_haji_baba_desc:0 "§LCheik Hecî Baba§!" # [LocEditor:CustomLanguageKey]
- KUR_ahmed_barzani_desc:0 "§LCheik Ehmedê Barzanî§!" # [LocEditor:CustomLanguageKey]
- TUR_kazim_ozalp_bftb_desc:0 "$TUR_kazim_ozalp_desc$" # [LocEditor:CustomLanguageKey]
- TUR_rauf_orbay_bftb_desc:0 "$TUR_rauf_orbay_desc$" # [LocEditor:CustomLanguageKey]
- ETH_ras_imru_haile_selassie_long:0 "Emrou Haïlé Sélassié" # [LocEditor:CustomLanguageKey]
- ETH_ras_kassa_desc:0 "§LKassa Haïlé Darge§!" # [LocEditor:CustomLanguageKey]
- organization_of_african_unity_member_idea_desc:0 "[Root.GetLeLaLNPCap] [Root.GetName] [Root.GetEstSontNP] membre[Root.GetXSNP] de l'Organisation de l'unité africaine." # [LocEditor:CustomLanguageKey]
  RAJ_industrialized_personnel:0 "Main-d'œuvre rurale intégrée"
  ROM_white_squadron:0 "$ROM_white_squadron_focus$"
  ROM_white_squadron_desc:0 "L'Escadrille blanche est un service d'ambulances aériennes pilotées exclusivement par des femmes. Sachant que des secours peuvent arriver très vite, les hommes gardent tout leur esprit combatif."
@@ -3556,3 +2689,890 @@
  MAN_hoankyoku_idea_desc:0 "Une organisation secrète formée pour s'occuper des éléments indésirables au sein de la société."
  AST_central_bureau_idea:0 "Central Bureau"
  AST_central_bureau_idea_desc:0 "Une équipe conjointe, en charge des renseignements, établie en coopération avec [USA.GetLeLaLNP] [USA.GetName], afin de contrer nos ennemis communs sur le théâtre du Pacifique."
+ ROM_national_christian_party_in_power:0 "$ROM_national_christian_party$"
+ 
+ CAN_unified_communist_party:0 "Peuple uni"
+ CAN_unified_communist_party_desc:0 "Les différends ont été apaisés, la confiance mutuelle restaurée. Pourtant notre tolérance placée au service d'une destinée commune est considérée avec méfiance par ceux qui n'apportent qu'un soutien hypocrite à la cause et ne sont motivés que par la plus vile des motivations : le pouvoir."
+ CAN_true_revolution:0 "Révolution véritable"
+ CAN_booming_economy:0 "Économie florissante"
+ CAN_booming_economy_desc:0 "La Grande Dépression est bel et bien terminée, et l'économie [Root.GetAdjFS] a commencé à se rétablir grâce à toutes les demandes induites par la situation mondiale actuelle."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ heinz_guderian_desc:0 "§LHeinz Wilhelm Guderian§!"
+ walther_von_brauchitsch_desc:0 "§LWalther Heinrich Alfred Hermann von Brauchitsch§!"
+ erwin_rommel_desc:0 "§LJohannes Erwin Eugen Rommel§!"
+ gerd_von_rundstedt_desc:0 "§LKarl Rudolf Gerd von Rundstedt§!"
+ kurt_student_desc:0 "§LKurt Arthur Benno Student§!"
+ gunther_lutjens_desc:0 "§LJohann Günther Lütjens§!"
+ wolfram_von_richthofen_desc:0 "§LWolfram Karl Ludwig Moritz Hermann von Richthofen§!"
+ joseph_goebbels_desc:0 "§LPaul Joseph Goebbels§!"
+ heinrich_himmler_desc:0 "§LHeinrich Luitpold Himmler§!"
+ joachim_von_ribbentrop_desc:0 "§LUllrich Friedrich Willy Joachim von Ribbentrop§!"
+ konstantin_von_neurath_desc:0 "§LKonstantin Hermann Karl Freiherr von Neurath§!"
+ hjalmar_schacht_desc:0 "§LHorace Greeley Hjalmar Schacht§!"
+ walther_funk_desc:0 "§LWalther Immanuel Funk§!"
+ aichi_desc:0 "Aichi Kôkûki Kabushiki Kaisha – Société des avions Aichi\n"
+ somua_desc:0 "Société d'Outillage Mécanique et d'Usinage d'Artillerie\n"
+ mas_desc:0 "Manufacture d'armes de Saint-Étienne\n"
+ bloch_desc:0 "Société des avions Marcel Bloch\n"
+ amiot_desc:0 "Société d'emboutissage et de constructions mécaniques Amiot\n"
+ fcm_desc:0 "Société nouvelle des forges et chantiers de la Méditerranée\n"
+ famh_desc:0 "Compagnie des forges et aciéries de la Marine et d'Homécourt\n"
+ fiat_desc:0 "Fabbrica Italiana Automobili Torino – Fabrique italienne d'automobiles de Turin\n"
+ crda_desc:0 "Cantieri Riuniti dell'Adriatico – Chantiers réunis de l'Adriatique\n"
+ mig_design_bureau_desc:0 "Bureau d'études Mikoyan-Gourévitch\n"
+ ilyushin_design_bureau_desc:0 "Bureau d'études Iliouchine\n"
+ tupolev_design_bureau_desc:0 "Bureau d'études Tupolev\n"
+ grabin_design_bureau_desc:0 "Bureau d'études Grabine\n"
+ morozov_design_bureau_desc:0 "Kharkivs'ke Konstrouktors'ke Biouro z Machynoboudouvannia im. O.O. Morozova – Bureau de conception de machines A. A. Morozov\n"
+ astrov_design_bureau_desc:0 "Bureau d'études Astrov\n"
+ okmo_desc:0 "Opytni Konstruktorsko-Mekhanitcheski Otdel – Département Mécanique de Conception Expérimentale\n"
+ stalingrad_tractor_factory_desc:0 "Usine de tracteurs de Stalingrad\n"
+ leningrad_polytechnical_institute_desc:0 "Leningradski Indystrialy Institout – Institut industriel de Léningrad\n"
+ tula_arms_plant_desc:0 "Toulski Oroujeïny Zavod – Usine d'armes de Toula\n"
+ gaz_desc:0 "Gorkovski Avtomobilni Zavod – Usine d'automobiles de Gorki\n"
+ nevskoye_design_bureau_desc:0 "Bureau d'études Nevskoïé\n"
+ rsaf_enfield_desc:0 "Royal Small Arms Factory, Enfield – Arsenal royal d'Enfield\n"
+ vauxhall_desc:0 "Vauxhall Motors\n"
+ royal_arsenal_desc:0 "Royal Arsenal, Woolwich – Arsenal royal de Woolwich\n"
+ de_havilland_desc:0 "De Havilland Aircraft Company Ltd – Compagnie aéronautique de Havilland\n"
+ avro_desc:0 "A.V.Roe & Company Ltd\n"
+ vickers_armstrong_bel_desc:0 "Vickers-Armstrongs Ltd\n"
+ vickers_armstrong_eng_desc:0 "Vickers-Armstrongs Ltd\n"
+ vickers_armstrong_can_desc:0 "Canadian Vickers Ltd\n"
+ yarrow_shipbuilders_desc:0 "Yarrow Shipbuilders Ltd"
+ john_brown_company_desc:0 "John Brown & Company\n"
+ aioc_desc:0 "Anglo-Iranian Oil Company\n"
+ english_electric_desc:0 "English Electric Company Ltd\n"
+ springfield_armory_desc:0 "Manufacture d'armes à feu de Springfield\n"
+ standard_oil_california_desc:0 "Standard Oil Company of California\n"
+ general_electric_desc:0 "General Electric Company\n"
+ marmon_herrington_desc:0 "Marmon-Herrington Company, Inc.\n"
+ army_ordnance_department_desc:0 "Army Ordnance Department\n"
+ rock_island_arsenal_desc:0 "Arsenal de Rock Island\n"
+ grumman_desc:0 "Grumman Aircraft Engineering Corporation\n"
+ lockheed_desc:0 "Lockheed Corporation\n"
+ douglas_aircraft_company_desc:0 "Douglas Aircraft Company\n"
+ boeing_desc:0 "The Boeing Company\n"
+ north_american_aviation_desc:0 "North American Aviation\n"
+ norfolk_naval_yard_desc:0 "Chantier naval de Norfolk\n"
+ brooklyn_naval_yard_desc:0 "Chantier naval de Brooklyn\n"
+ newport_news_shipbuilding_desc:0 "Newport News Shipbuilding - NNS\n"
+ electric_boat_company_desc:0 "Electric Boat Company\n"
+ germaniawerft_desc:0 "Arsenal Germania\n"
+ levasseur_desc:0 "Société Pierre Levasseur\n"
+ fairey_aviation_desc:0 "Fairey Aviation Company Ltd\n"
+ yakovlev_design_bureau_desc:0 "Bureau d'études Iakovlev\n"
+ von_braun_desc:0 "§LWernher Magnus Maximilian von Braun§!"
+ heisenberg_desc:0 "§LWerner Karl Heisenberg§!"
+ guderian_desc:0 "§LHeinz Wilhelm Guderian§!"
+ manstein_desc:0 "§LFritz Erich von Lewinski, dit Erich von Manstein§!"
+ mikhail_kalinin_desc:0 "§LMikhaïl Ivanovitch Kalinine§!"
+ nikita_khrushchev_desc:0 "§LNikita Sergueïevitch Khrouchtchev§!"
+ alexander_kerensky_desc:0 "§LAleksandr Fiodorovitch Kérenski§!"
+ konstantin_rodzaevsky_desc:0 "§LKonstantin Vladimirovitch Rodzaïevski§!"
+ john_beckett_desc:0 "§LJohn Warburton Beckett§!"
+ earl_browder_desc:0 "§LEarl Russel Browder§!"
+ harold_ickes_desc:0 "§LHarold LeClair Ickes§!"
+ charles_coughlin_desc:0 "§LCharles Edward Coughlin§!"
+ ernst_thalmann_desc:0 "§LErnst Johannes Fritz Thälmann§!"
+ kurt_schumacher_desc:0 "§LKurt Ernst Carl Schumacher§!"
+ rudolf_hess_desc:0 "§LRudolf Walter Richard Heß§!"
+ kanin_kotohito_desc:0 "§LPrince Kan'in Kotohito§!"
+ fushimi_hiroyasu_desc:0 "§LPrince Fushimi Hiroyasu§!"
+ douglas_macarthur_desc:0 "§LDouglas « Big Chief » MacArthur§!"
+ george_marshall_desc:0 "§LGeorge Catlett Marshall Jr.§!"
+ dwight_eisenhower_desc:0 "§LDwight David « Ike » Eisenhower§!"
+ courtney_hodges_desc:0 "§LCourtney Hicks Hodges§!"
+ joseph_stilwell_desc:0 "§LJoseph Warren « Vinegar Joe » Stilwell§!"
+ mark_clark_desc:0 "§LMark Wayne Clark§!"
+ henry_arnold_desc:0 "§LHenry Harley « Hap » Arnold§!"
+ carl_spaatz_desc:0 "§LCarl Andrew « Tooey » Spaatz§!"
+ george_kenney_desc:0 "§LGeorge Churchill Kenney§!"
+ jimmy_doolittle_desc:0 "§LJames Harold « Jimmy » Doolittle§!"
+ john_cannon_desc:0 "§LJohn Kenneth Cannon§!"
+ claire_lee_chennault_desc:0 "§LClaire Lee « Old Leatherface » Chennault§!"
+ ernest_king_desc:0 "§LErnest Joseph « Ernie » King§!"
+ chester_nimitz_desc:0 "§LChester William Nimitz Sr.§!"
+ william_halsey_desc:0 "§LWilliam Frederick « Bull » Halsey Jr.§!"
+ raymond_spruance_desc:0 "§LRaymond Ames « Electric Brain » Spruance§!"
+ frank_jack_fletcher_desc:0 "§LFrank Jack « Black Jack » Fletcher§!"
+ thomas_kinkaid_desc:0 "§LThomas Cassin Kinkaid§!"
+ john_vereker_desc:0 "§LJohn Standish Surtees Prendergast « Tiger » Vereker§!"
+ edmund_ironside_desc:0 "§LWilliam Edmund « Tiny » Ironside§!"
+ alan_brooke_desc:0 "§LAlan Francis Brooke§!"
+ archibald_wavell_desc:0 "§LArchibald Percival Wavell§!"
+ claude_auchinleck_desc:0 "§LClaude John Eyre Auchinleck§!"
+ kenneth_anderson_desc:0 "§LKenneth Arthur Noel « Sunshine » Anderson§!"
+ cyril_newall_desc:0 "§LCyril Louis Norton Newall§!"
+ charles_portal_desc:0 "§LCharles Frederick Algernon « Peter » Portal§!"
+ edward_ellington_desc:0 "§LEdward Leonard Ellington§!"
+ sholto_douglas_desc:0 "§LWilliam Sholto Douglas§!"
+ trafford_leigh_mallory_desc:0 "§LTrafford Leigh-Mallory§!"
+ frederick_bowhill_desc:0 "§LFrederick William Bowhill§!"
+ ernle_chatfield_desc:0 "§LAlfred Ernle Montacute Chatfield§!"
+ dudley_pound_desc:0 "§LAlfred Dudley Pickman Rogers Pound§!"
+ andrew_cunningham_desc:0 "§LAndrew Browne « ABC » Cunningham§!"
+ louis_mountbatten_desc:0 "§LLouis Francis Albert Victor Nicholas Mountbatten§!"
+ henry_harwood_desc:0 "§LHenry Harwood Harwood§!"
+ max_horton_desc:0 "§LMax Kennedy Horton§!"
+ semyon_timoshenko_desc:0 "§LSémion Konstantinovitch Timochenko§!"
+ kliment_voroshilov_desc:0 "§LKliment Iefrémovitch Vorochilov§!"
+ alexander_yegorov_desc:0 "§LAleksandr Ilitch Iégorov§!"
+ vasily_blucher_desc:0 "§LVassili Konstantinovitch Blücher§!"
+ aleksandr_vasilevsky_desc:0 "§LAleksandr Mikhaïlovitch Vassilievski§!"
+ konstantin_rokossovsky_desc:0 "§LKonstantin Konstantinovitch Rokossovski§!"
+ alexander_novikov_desc:0 "§LAleksandr Aleksandrovitch Novikov§!"
+ konstantin_vershinin_desc:0 "§LKonstantine Andreïevitch Verchinine§!"
+ yakov_smushkevich_desc:0 "§LIakov Vladimirovitch Smouchkévitch§!"
+ pavel_rychagov_desc:0 "§LPavel Vassiliévitch Rytchagov§!"
+ pavel_zhigarev_desc:0 "§LPavel Fiodorovitch Jigarev§!"
+ sergei_khudyakov_desc:0 "§LSergueï Aleksandrovitch Khoudiakov§!"
+ stepan_krasovsky_desc:0 "§LStépane Akimovitch Krassovski§!"
+ pyotr_smirnov_desc:0 "§LPiotr Aleksandrovitch Smirnov§!"
+ mikhail_frinovsky_desc:0 "§LMikhaïl Petrovitch Frinovski§!"
+ nikolay_kuznetsov_desc:0 "§LNikolaï Guérassimovitch Kouznetsov§!"
+ ivan_yumashev_desc:0 "§LIvan Stépanovitch Ioumachev§!"
+ vladimir_kasatonov_desc:0 "§LVladimir Afanassiévitch Kassatonov§!"
+ gordey_levchenko_desc:0 "§LGordeï Ivanovitch Levtchenko§!"
+ arseniy_golovko_desc:0 "§LArséni Grigoriévitch Golovko§!"
+ maurice_gamelin_desc:0 "§LMaurice Gustave Gamelin§!"
+ alphonse_georges_desc:0 "§LAlphonse-Joseph Georges§!"
+ rene_prioux_desc:0 "§LRené Jacques Adolphe Prioux§!"
+ philippe_leclerc_desc:0 "§LPhilippe de Hauteclocque, dit « Leclerc »§!"
+ alfred_heurtaux_desc:0 "§LAlfred Marie Joseph Heurtaux§!"
+ jean_francois_jannekeyn_desc:0 "§LJean-François Jannekeyn§!"
+ jean_marie_abrial_desc:0 "§LJean-Marie Charles Abrial§!"
+ jean_de_laborde_desc:0 "§LJean Joseph Jules Noël de Laborde§!"
+ emile_muselier_desc:0 "§LÉmile Henry Muselier§!"
+ mario_roatta_desc:0 "§LMario Giuseppe Leon Roatta§!"
+ charles_de_gaulle_desc:0 "§LCharles André Joseph Marie de Gaulle§!"
+ henri_giraud_desc:0 "§LHenri Honoré Giraud§!"
+ louis_kahn_desc:0 "§LLouis-Lazare Kahn§!"
+ victor_denain_desc:0 "§LVictor Léon Ernest Denain§!"
+ frederic_irene_joliot_curie_desc:0 "§LJean Frédéric Joliot et Irène Joliot-Curie§!"
+ gaetano_crocco_desc:0 "§LGaetano Arturo Crocco§!"
+ omar_bradley_desc:0 "§LOmar Nelson « Brad » Bradley§!"
+ george_patton_desc:0 "§LGeorge Smith « Old Blood and Guts » Patton Jr.§!"
+ dewitt_clinton_ramsey_desc:0 "§LDeWitt Clinton Ramsey§!"
+ marc_mitscher_desc:0 "§LMarc Andrew « Pete » Mitscher§!"
+ curtis_lemay_desc:0 "§LCurtis Emerson « The Demon » LeMay§!"
+ harold_mcclelland_desc:0 "§LHarold Mark McClelland§!"
+ robert_oppenheimer_desc:0 "§LJulius Robert Oppenheimer§!"
+ robert_goddard_desc:0 "§LRobert Hutchings Goddard§!"
+ harold_alexander_desc:0 "§LHarold Rupert Leofric George Alexander§!"
+ james_somerville_desc:0 "§LJames Fownes Somerville§!"
+ tom_phillips_desc:0 "§LThomas Spencer Vaughan « Tom Thumb » Phillips§!"
+ hugh_dowding_desc:0 "§LHugh Caswall Tremenheere « Stuffy » Dowding§!"
+ arthur_harris_desc:0 "§LArthur Travers « Bomber » Harris§!"
+ mikhail_tukhachevsky_desc:0 "§LMikhaïl Nikolaïevitch Toukhatchevski§!"
+ boris_shaposhnikov_desc:0 "§LBoris Mikhaïlovitch Chapochnikov§!"
+ georgy_zhukov_desc:0 "§LGuéorgui Konstantinovitch Joukov§!"
+ sergey_gorshkov_desc:0 "§LSergueï Guéorguiévitch Gorchkov§!"
+ vladimir_tributs_desc:0 "§LVladimir Filippovitch Tribouts§!"
+ sergei_rudenko_desc:0 "§LSergueï Ignatévitch Roudenko§!"
+ alexander_golovanov_desc:0 "§LAleksandr Ievguéniévitch Golovanov§!"
+ igor_kurchatov_desc:0 "§LIgor Vassiliévitch Kourtchatov§!"
+ sergei_korolev_desc:0 "§LSergueï Pavlovitch Korolev§!"
+ generic_light_aircraft_manufacturer_desc:0 "Compagnie générale des avions légers\n"
+ generic_medium_aircraft_manufacturer_desc:0 "Compagnie générale des avions moyens\n"
+ generic_heavy_aircraft_manufacturer_desc:0 "Compagnie générale des avions lourds\n"
+ generic_naval_aircraft_manufacturer_desc:0 "Compagnie générale aéronautique\n"
+ POL_fb_desc:0 "Fabryka Broni ,,Łucznik" – Usine d'armement « Archer »\n"
+ POL_lrl_desc:0 "Lilpop, Rau i Loewenstein – Lilpop, Rau & Loewenstein\n"
+ POL_smpa_desc:0 "Stowarzyszenia Mechaników Polskich z Ameryki – Association polonaise de mécanismes américains\n"
+ POL_pzinz_desc:0 "Państwowe Zakłady Inżynierii – Institut national d'ingénierie\n"
+ POL_pkp_desc:0 "Polskie Koleje Państwowe – Chemins de fer de l'État polonais\n"
+ POL_ava_desc:0 "Wytwórnia Radiotechniczna AVA – Société Radio AVA\n"
+ POL_pws_desc:0 "Podlaska Wytwórnia Samolotów – Manufacture aéronautique de Podlachie\n"
+ POL_pzl_desc:0 "Państwowe Zakłady Lotnicze – Département des travaux d'aviation\n"
+ POL_stocznia_gdynia_desc:0 "Chantier naval de Gdynia\n"
+ casa_desc:0 "Construcciones Aeronáuticas S.A. – Constructions aéronautiques S.A.\n"
+ secn_desc:0 "Sociedad Española de Construcción Naval – Société espagnole de construction navale\n"
+ CHI_camco_1_desc:0 "Central Aircraft Manufacturing Company\n"
+ CHI_camco_2_desc:0 "Central Aircraft Manufacturing Company – Département des chasseurs\n"
+ CHI_camco_3_desc:0 "Central Aircraft Manufacturing Company – Département des bombardiers\n"
+ jiangnan_shipyard_group_desc:0 "Chantier naval de Jiangnan\n"
+ mw_aircraft_desc:0 "Weiss Manfréd Acél- és Fémmüvek – Aciérie et sidérurgie Manfréd Weiss\n"
+ iar_desc:0 "Industria Aeronautică Română – Industrie aéronautique roumaine\n"
+ constanta_shipyard_desc:0 "Chantiers navals de Constanta\n"
+ dar_desc:0 "Darzhavna aeroplanna rabotilnitsa – Ateliers aéronautiques d'État\n"
+ crichton_desc:0 "Ab Crichton-Vulcan Oy – Chantier naval de la société Crichton-Vulcan\n"
+ valtion_lentokonetehdas_desc:0 "Valtion lentokonetehdas – Ateliers aéronautiques de l'État\n"
+ marinvarkstaderna_desc:0 "Marinverkstäderna – Ateliers navals de la Marine\n"
+ husqvarna_desc:0 "Husqvarna Vapenfabriks AB – Manufacture d'armes Husqvarna\n"
+ CZE_aero_desc:0 "Aero Vodochody\n"
+ CZE_ckd_desc:0 "Českomoravská-Kolben-Daněk\n"
+ CZE_ckd_praga_desc:0 "Českomoravská-Kolben-Daněk Praga\n"
+ CZE_skoda_shipyards_desc:0 "Chantiers navals Škoda\n"
+ jadransko_brodogradiliste_desc:0 "Jadransko Brodogradilište – Chantiers navals de l'Adriatique\n"
+ rogozarski_desc:0 "Prva srpska fabrika aeroplana Živojin Rogožarski A. D. – Première usine aéronautique serbe Živojin Rogožarski\n"
+ zmaj_desc:0 "Fabrika aeroplana i hidroaviona Zmaj – Usine d'avions et d'hydravions Zmaj\n"
+ zastava_arms_desc:0 "Zastava oružje – Armement Zastava\n"
+ artillerie_inrichtingen_desc:0 "Artillerie-Inrichtingen du Hembrug - Matériel d'artillerie du Hambrug\n"
+ koolhoven_desc:0 "Nationale Vliegtuig Industrie, Koolhoven – Industrie Aéronautique Nationale Koolhoven\n"
+ nsm_amsterdam_desc:0 "Nederlandsche Scheepsbouw Maatschappij Amsterdam – Compagnie portuaire et de construction navale néerlandaise, Amsterdam\n"
+ golcuk_nsy_desc:0 "Gölcük Donanma Tersanesi – Chantiers navals de Gölcük\n"
+ thk_desc:0 "Türk Hava Kurumu – Association aéronautique turque\n"
+ ktf_desc:0 "Kayseri Tayyare Fabrikası – Usine aéronautique de Kayseri\n"
+ istanbul_military_industries_desc:0 "İstanbul Askeri Endüstrileri – Industries militaires d'Istanbul\n"
+ royal_hellenic_naval_shipyard_desc:0 "Arsenal royal hellénique\n"
+ gnaf_desc:0 "Kratikó Ergostásio Aeroplánon – Ateliers aéronautiques d'État\n"
+ burmeister_wain_desc:0 "Burmeister & Wains Maskin- og Skibsbyggeri A/S – Société des moteurs et navires Burmeister & Wain\n"
+ disa_desc:0 "Dansk Industri Syndikat A/S – Syndicat industriel danois\n"
+ htk_orlogsvaerftet_desc:0 "Chantiers navals de la flotte royale du Danemark\n"
+ fma_desc:0 "Fábrica de Munições de Artilharia, Armamento e Viaturas – Fabrique de munitions d'artillerie, d'armement et de véhicules\n"
+ fnmal_desc:0 "Fábrica Nacional de Munições de Armas Ligeiras – Fabrique nationale de munitions d'armes légères\n"
+ fabrica_material_guerra_desc:0 "Fabrica de Material de Guerra – Manufacture de matériel militaire\n"
+ companhia_uniao_fabril_desc:0 "Companhia União Fabril\n"
+ fabrica_nacional_armas_desc:0 "Fabrica Nacional de Armas – Manufacture nationale des armes\n"
+ comesa_desc:0 "Compañía Mexicana S.A.\n"
+ kingston_shipbuilding_desc:0 "Kingston Shipbuilding Co. Ltd.\n"
+ havilland_canada_desc:0 "de Havilland Aircraft of Canada Ltd.\n"
+ canadian_car_foundry_desc:0 "Canadian Car & Foundry\n"
+ anbo_desc:0 "Antanas Nori Bûti Ore – « Antanas veut être dans les airs »\n"
+ arsenal_desc:0 "Tallinna Arsenal – Arsenal de Tallinn\n"
+ vef_desc:0 "Valsts elektrotehniskâ fabrika – Fabrique électronique d'État\n"
+ lkod_desc:0 "Liepâjas Kara Ostas Darbnîcas – Ateliers du port militaire de Liepâja\n"
+ cockerill_desc:0 "Société Anonyme John Cockerill\n"
+ fn_herstol_desc:0 "Fabrique Nationale d'Armes de Guerre\n"
+ renard_desc:0 "Renard Constructions Aéronautiques\n"
+ collectivist_ethos_focus_desc:0 "Nos ennemis peuvent bien diviser et conquérir les pays moins forts que le nôtre ; mais quant à notre population, elle restera unie. Un pour tous et tous pour un !"
+ POL_roman_dmowski_desc:0 "§LRoman Stanisław Dmowski§!"
+ POL_mieczyslaw_michalowicz_desc:0 "§LMieczysław Jan Michałowicz§!"
+ POL_mieczyslaw_michalowicz_nsb_desc:0 "$POL_mieczyslaw_michalowicz_desc$"
+ POL_eugeniusz_kwiatkowiski_desc:0 "§LEugeniusz Felicjan Kwiatkowski§!"
+ POL_jozef_haller_desc:0 "§LJózef Haller von Hallenburg§!"
+ POL_wladyslaw_kalkus_desc:0 "§LWładysław Jan Kalkus§!"
+ POL_wladyslaw_anders_desc:0 "§LWładysław Albert Anders§!"
+ POL_jozef_zajac_desc:0 "§LJózef Ludwik Zając§!"
+ POL_ludomil_rayski_desc:0 "§LLudomił Antoni Korab Rayski§!"
+ POL_josef_unrug_desc:0 "§LJózef Michał Hubert Unrug§!"
+ POL_zygmunt_buhusz_szysko_desc:0 "§LZygmunt Piotr Bohusz-Szyszko§!"
+ POL_stanislav_maczek_desc:0 "§LStanisław Władysław Maczek§!"
+ HUN_gyula_gombos_de_jakfa_desc:0 "§LGömbös Gyula§!"
+ HUN_jozsef_szell_desc:0 "§LSzéll József Kristóf Kálmám§!"
+ HUN_laszlo_rajk_desc:0 "§LRajk László§!"
+ HUN_kalman_kanya_desc:0 "§LKányai Kánya Kálmán József Edvárd§!"
+ HUN_kalman_daranyi_desc:0 "§LDarányi Kálmán§!"
+ HUN_zoltan_tildy_desc:0 "§LTildy Zoltán§!"
+ HUN_hugo_sonyi_desc:0 "§LSónyi Hugó§!"
+ HUN_ferenc_szombathelyi_desc:0 "§LSzombathelyi Ferenc§!"
+ HUN_bela_rakosi_desc:0 "§LRákosi Béla§!"
+ HUN_jeno_ratz_desc:0 "§LRátz Jenö§!"
+ HUN_gyorgy_jendrassik_desc:0 "§LJendrassik György§!"
+ HUN_shvoy_kalman_desc:0 "§LShvoy Kálmán§!"
+ HUN_gusztav_jany_desc:0 "§LJány Gusztáv§!"
+ HUN_dezso_laszlo_desc:0 "§LLászló Dezsö§!"
+ HUN_henrik_werth_desc:0 "§LWerth Henrik§!"
+ HUN_sandor_magyarossy_desc:0 "§LMagyarosy Sándor§!"
+ HUN_francois_deak_desc:0 "§LDeák Ferenc§!"
+ HUN_reszo_kastner_desc:0 "§LKasztner Rezsö§!"
+ HUN_lajos_remenyi_schneller_desc:0 "§LReményi-Schneller Lajos§!"
+ HUN_vilmos_roder_desc:0 "§LRöder Vilmos§!"
+ HUN_mavag_desc:0 "Magyar Királyi Állami Vas-, Acél- és Gépgyárak – Manufactures de machines, aciéries et fonderies royales de l'État\n"
+ HUN_femaru_fegyver_es_gepgyar_desc:0 "Fémáru, Fegyver- és Gépgyár – Manufacture d'objets métalliques, d'armes et de machines\n"
+ SPR_dolores_ibarruri_desc:0 "§LDolores Ibárruri Gómez§!"
+ SPR_generic_democratic_reformer_desc:0 "§LLluís Companys i Jover§!"
+ SPR_francisco_largo_caballero_desc:0 "§LFrancisco Largo Caballero§!"
+ SPR_carlos_masquelet_lacaci_desc:0 "§LCarlos Masquelet Lacaci§!"
+ SPR_fransisco_franco_desc:0 "§LFrancisco Franco Bahamonde§!"
+ SPR_ignacio_hidalgo_cisneros_desc:0 "§LIgnacio Hidalgo de Cisneros y López de Montenegro§!"
+ SPR_andres_garcia_calle_desc:0 "§LAndrés García Calle, dit « La Calle »§!"
+ SPR_jose_miaja_desc:0 "§LJosé Miaja Menant§!"
+ SPR_andres_saborit_colomer_desc:0 "§LAndrés Avelino Saborit Colomer§!"
+ SPR_nicolas_molero_desc:0 "§LNicolás Molero Lobo§!"
+ SPR_antonio_azarola_gresillon_desc:0 "§LAntonio Azarola Gresillón§!"
+ SPR_diego_hidalgo_duran_desc:0 "§LDiego Hidalgo y Durán§!"
+ SPR_indalecio_prieto_tuero_desc:0 "§LIndalecio Prieto Tuero§!"
+ SPA_emilio_herrera_desc:0 "§LEmilio Herrera Linares§!"
+ SPA_jose_enrique_varela_desc:0 "§LJosé Enrique Varela Iglesias§!"
+ SPA_miguel_cabanellas_ferrer_desc:0 "§LMiguel Cabanellas Ferrer§!"
+ SPA_ricardo_rada_desc:0 "§LRicardo de Rada y Peral§!"
+ SPA_emilio_mola_vidal_desc:0 "§LEmilio Mola Vidal§!"
+ SPA_emilio_esteban_infantes_desc:0 "§LEmilio Esteban-Infantes y Martín§!"
+ SPA_agustin_munoz_grandes_desc:0 "§LAgustín Muñoz Grandes§!"
+ SPA_joaquin_garcia_morato_desc:0 "§LJoaquín García-Morato y Castaño§!"
+ SPA_alfredo_kindelan_duany_desc:0 "§LAlfredo Kindelán Duany§!"
+ SPA_juan_yague_blanco_desc:0 "§LJuan Yagüe Blanco§!"
+ SPA_salvador_moreno_fernandez_desc:0 "§LSalvador Moreno Fernández§!"
+ ROM_gheorghe_gheorghiu_dej_desc:0 "§LGheorghe Gheorghiu-Dej§!"
+ ROM_gheorghe_potopeanu_desc:0 "§LGheorghe T. Potopeanu§!"
+ ROM_ermil_gheorghiu_desc:0 "§LErmil F. Gheorghiu§!"
+ ROM_gheorghe_jienescu_desc:0 "§LGheorghe I. Jienescu§!"
+ ROM_emanoil_ionescu_desc:0 "§LEmanoil M. Ionescu§!"
+ FIN_generic_fascist_demagogue_desc:0 "§LBruno Aleksander Salmiala§!"
+ FIN_generic_democratic_reformer_desc:0 "§LOnni Alfred Hiltunen§!"
+ FIN_generic_communist_revolutionary_desc:0 "§LOtto Wilhelm « Ville » Kuusinen§!"
+ FIN_hugo_osterman_desc:0 "§LHugo Viktor Österman§!"
+ FIN_carl_mannerheim_desc:0 "§LCarl Gustaf Emil Mannerheim§!"
+ FIN_lauri_malmberg_desc:0 "§LKaarlo Lauri Torvald Malmberg§!"
+ FIN_jarl_lundqvist_desc:0 "§LJarl Frithiof Lundqvist§!"
+ FIN_karl_oesch_desc:0 "§LKarl Lennart Oesch§!"
+ FIN_olavi_arho_desc:0 "§LJouko Olavi Kaarlo Arho§!"
+ FIN_lauri_tiainen_desc:0 "§LLauri Taavetti Tiainen§!"
+ FIN_ralf_torngren_desc:0 "§LRalf Johan Gustaf Törngren§!"
+ FIN_ake_henrik_gartz_desc:0 "§LÅke Henrik Gartz§!"
+ FIN_antti_hackzell_desc:0 "§LAnders « Antti » Verner Hackzell§!"
+ FIN_vaino_valve_desc:0 "§LVäinö Lahja Rikhard Valve§!"
+ FIN_akseli_anttila_desc:0 "§LAkseli Moïsseïevitch Anttila§!"
+ BUL_hristo_lukov_desc:0 "§LHristo Nikolov (Kolev) Lukov§!"
+ BUL_vasil_boydev_desc:0 "§LVasil Tenev Boydev§!"
+ BUL_nikola_hadzipetkov_desc:0 "§LNikola Petkov Hadzhipetkov§!"
+ BUL_stoyan_stoyanov_desc:0 "§LStoyan Iliev Stoyanov§!"
+ BUL_generic_fascist_demagogue_desc:0 "§LAleksandar Tsolov Tsankov§!"
+ BUL_generic_democratic_reformer_desc:0 "§LNikola Dimitrov Petkov§!"
+ BUL_generic_communist_revolutionary_desc:0 "§LVassil Petrov Kolarov§!"
+ BUL_konstantin_muraviev_desc:0 "§LKonstantin Vladov Muraviev§!"
+ BUL_dobri_bozhilov_desc:0 "§LDobri Bozhilov Hadzhiyanakiеv§!"
+ BUL_georgi_ivanov_kyoseivanov_desc:0 "§LGeorgi Ivanov Kyoseivanov§!"
+ BUL_kiril_stanchev_desc:0 "§LKiril Nikolov Stanchev§!"
+ BUL_asen_dobrev_nikolov_desc:0 "§LAsen Dobrev Nikolov§!"
+ BUL_kiril_dimitrov_yanchule_desc:0 "§LKiril Dimitrov Iantchoulev§!"
+ BUL_atanas_pavlov_zhilkov_desc:0 "§LAtanas Pavlov Zhilkov§!"
+ SWE_generic_fascist_demagogue_desc:0 "§LPer Claes Sven Edvard Engdahl§!"
+ SWE_generic_democratic_reformer_desc:0 "§LTage Fritjof Erlander§!"
+ SWE_generic_communist_revolutionary_desc:0 "§LKarl Hilding Hagberg§!"
+ SWE_thorwald_bergquist_desc:0 "§LThorwald Erik Natanael Bergquist§!"
+ SWE_osten_unden_desc:0 "§LBo Östen Undén§!"
+ SWE_helge_jung_desc:0 "§LHelge Victor Jung§!"
+ SWE_ernst_wigforss_desc:0 "§LErnst Johannes Wigforss§!"
+ SWE_erik_palmstierna_desc:0 "§LErik Kule Palmstierna§!"
+ SWE_oscar_nygren_desc:0 "§LAxel Oscar Nygren§!"
+ SWE_per_sylvan_desc:0 "§LPer Gustaf Sylvan§!"
+ SWE_olof_thornell_desc:0 "§LOlof Gerhard Thörnell§!"
+ SWE_ivar_holmquist_desc:0 "§LCarl Axel Fredrik Ivar Holmquist§!"
+ SWE_archibald_douglas_desc:0 "§LWilhelm Archibald Douglas§!"
+ SWE_bengt_nordenskiold_desc:0 "§LBengt Gustavsson Nordenskiöld§!"
+ SWE_charles_de_champs_desc:0 "§LCharles Léon de Champs§!"
+ SWE_fabian_tamm_desc:0 "§LClaës Fabian Tamm§!"
+ SWE_gosta_ehrensvard_desc:0 "§LGösta Carl Albert Ehrensvärd§!"
+ SWE_axel_ljungdahl_desc:0 "§LAxel Georg Ljungdahl§!"
+ SWE_axel_rappe_desc:0 "§LAxel Oscar Rappe§!"
+ SWE_helge_stromback_desc:0 "§LHelge Hjalmar Immanuel Strömbäck§!"
+ CZE_karel_kuttelwascher_desc:0 "§LKarel Miloslav Kuttelwascher§!"
+ CZE_konrad_henlein_desc:0 "§LKonrad Ernst Eduard Henlein§!"
+ CZE_gustav_husak_desc:0 "§LAugustín, dit Gustáv Husák§!"
+ NOR_kristian_laake_desc:0 "§LKristian Kristiansen Laake§!"
+ NOR_bjarne_oen_desc:0 "§LAdolf Bjarne Øen§!"
+ NOR_ole_reistad_desc:0 "§LOle Imerslun Reistad§!"
+ NOR_willhelm_von_tangen_hansteen_desc:0 "§LWilhelm von Tangen Hansteen§!"
+ NOR_henry_diesen_desc:0 "§LHenry Edward Diesen§!"
+ NOR_generic_democratic_reformer_desc:0 "§LHaakon Steen Lie§!"
+ NOR_adolf_indrebo_desc:0 "§LAdolf Oliverson Indrebø§!"
+ NOR_trygve_halvdan_lie_desc:0 "§LTrygve Halvdan Lie§!"
+ NOR_alfred_roscher-lund_desc:0 "§LRagnvald Alfred Roscher Lund§!"
+ NOR_tryggve_gran_desc:0 "§LJens Tryggve Herman Gran§!"
+ NOR_skule_storheil_desc:0 "§LSkule Valentin Storheill§!"
+ NOR_wilhelm_von_tangen-hansteen_desc:0 "$NOR_willhelm_von_tangen_hansteen_desc$"
+ NOR_marinens_flyvebaatfabrikk_desc:0 "Marinens flyvebaatfabrikk – Fabrique des navires volants de la Marine\n"
+ NOR_honefoss_karosserifabrikk_desc:0 "Hønefoss Karosserifabrikk A/S – Fabrique de carrosseries de Hønefoss\n"
+ NOR_tandbergs_radiofabrikk_desc:0 "Tandbergs Radiofabrikk – Fabrique de radios Tandberg\n"
+ NOR_norsk_hydro_desc:0 "Norsk Hydro-Elektrisk Kvælstofaktieselskab – Société norvégienne d'hydro-électricité et de nitrogène\n"
+ YUG_dimitrije_ljotic_desc:0 "Dimitrije « Mita » Ljotić\n"
+ YUG_milovan_djilas_desc:0 "Milovan Đilas Đido\n"
+ YUG_ivo_lola_ribar_desc:0 "$YUG_ivan_ribar_desc$"
+ YUG_draza_mihailovic_desc:1 "§LDragoljub « Draža » Mihailović§!"
+ YUG_arso_jovanovic_desc:0 "Arsenije « Arso » Jovanović\n"
+ YUG_ivan_ribar_desc:0 "Ivan Ribar, dit Ivo Lola Ribar\n"
+ TUR_generic_fascist_demagogue_desc:0 "§LHüseyin Nihâl Atsız§!"
+ TUR_generic_democratic_reformer_desc:0 "§LMehmet Cevat Abbas Gürer§!"
+ TUR_rauf_orbay_desc:0 "§LHüseyin Rauf Orbay§!"
+ TUR_kazim_orbay_desc:0 "§LMehmet Kâzım Orbay§!"
+ TUR_fevzi_cakmak_desc:0 "§LMustafa Fevzi Çakmak§!"
+ TUR_abdurrahman_gurman_desc:0 "§LAbdurrahman Nafiz Gürman§!"
+ TUR_refik_saydam_desc:0 "§Lİbrahim Refik Saydam§!"
+ TUR_hassan_saka_desc:0 "§LHasan Hüsnü Saka§!"
+ TUR_kazim_ozalp_desc:0 "§LKâzım Fikri Özalp§!"
+ TUR_mehmet_gunaltay_desc:0 "§LMehmet Şemsettin Günaltay§!"
+ MEX_eduardo_hay_desc:0 "§LEduardo Leonardo Francisco de Sales Guadalupe del Sagrado Corazón de Jesús Hay Fortuño§!"
+ MEX_manuel_avila_camacho_desc:0 "$MEX_manuel_avila_desc$"
+ MEX_enrique_estrada_desc:0 "§LEnrique Estrada Reynoso§!"
+ MEX_agustin_olachea_desc:0 "§LJosé Agustín Olachea Avilés§!"
+ MEX_hector_meixueiro_desc:0 "§LHéctor Meixueiro Alexandres§!"
+ MEX_pablo_macias_desc:0 "§LPablo Macías Valenzuela§!"
+ MEX_antonio_cardenas_rodriguez_desc:0 "§LAntonio Cárdenas Rodríguez§!"
+ MEX_gilberto_limon_desc:1 "§LGilberto Raymundo Limón Márquez§!"
+ POR_generic_communist_revolutionary_desc:0 "§LÁlvaro Barreirinhas Cunhal§!"
+ POR_vieira_da_rocha_desc:0 "§LErnesto Maria Vieira da Rocha§!"
+ POR_domingos_oliveira_desc:0 "§LDomingos Augusto Alves da Costa Oliveira§!"
+ POR_rolao_preto_desc:0 "§LFrancisco de Barcelos Rolão Preto§!"
+ POR_lobato_guerra_desc:0 "§LJosé Augusto Lobato Guerra§!"
+ POR_antonio_oscar_carmona_desc:0 "§LAntónio Óscar Fragoso Carmona§!"
+ POR_francisco_da_costa_gomes_desc:0 "§LFrancisco da Costa Gomes§!"
+ POR_jaime_afreixo_desc:0 "§LJaime Maria da Graça Afreixo§!"
+ POR_americo_tomas_desc:0 "§LAmérico Deus Rodrigues Tomás§!"
+ POR_humberto_delgado_desc:0 "§LHumberto da Silva Delgado§!"
+ POR_francisco_craveiro_lopes_desc:0 "§LFrancisco Higino Craveiro Lopes§!"
+ POR_fernando_dos_santos_costa_desc:0 "§LFernando dos Santos Costa§!"
+ POR_jaime_cortesao_desc:0 "§LJaime Zuzarte Cortesão§!"
+ POR_augusto_de_vasconcelos_desc:0 "§LAugusto César de Almeida de Vasconcelos Correia§!"
+ POR_jose_manuel_sarmento_de_beires_desc:0 "§LJosé Manuel Sarmento de Beires§!"
+ POR_manuel_ortins_torres_de_bettencourt_desc:0 "§LManuel Ortins Torres de Bettencourt§!"
+ POR_manuel_quintao_meireles_desc:0 "§LManuel Carlos Quintão Meireles§!"
+ POR_jose_adriano_pequito_rebelo_desc:0 "§LJosé Adriano Pequito Rebelo§!"
+ POR_jose_norton_de_matos_desc:0 "§LJosé Maria Mendes Ribeiro Norton de Matos§!"
+ POR_jose_filipe_de_barros_rodrigues_desc:0 "§LJosé Filipe de Barros Rodrigues§!"
+ POR_francisco_da_cunha_leal_desc:0 "§LFrancisco Pinto da Cunha Leal§!"
+ POR_duarte_jose_pacheco_desc:0 "§LDuarte José Pacheco§!"
+ POR_maria_lamas_desc:0 "§LMaria da Conceição Vassalo e Silva da Cunha Lamas§!"
+ POR_joao_francisco_de_barbosa_azevedo_desc:0 "§LJoão Francisco de Barbosa Azevedo de Sande Aires de Campos, dit « João Ameal »§!"
+ POR_joao_de_azevedo_coutinho_desc:0 "§LJoão António de Azevedo Coutinho Fragoso de Sequeira§!"
+ POR_julio_botelho_moniz_desc:0 "§LJúlio Carlos Alves Dias Botelho Moniz§!"
+ POR_manuel_goncalves_cerejeira_desc:0 "§LManuel Gonçalves Cerejeira§!"
+ POR_alvaro_cunhal_desc:0 "§LÁlvaro Barreirinhas Cunhal§!"
+ CAN_chuck_crate_desc:0 "§LCharles Brandle « Chuck » Crate§!"
+ CAN_harry_crerar_desc:0 "§LHenry Duncan Graham « Harry » Crerar§!"
+ CAN_guy_simonds_desc:0 "§LGuy Granville Simonds§!"
+ CAN_andrew_mcnaughton_desc:0 "§LAndrew George Latta McNaughton§!"
+ CAN_george_pearkes_desc:0 "§LGeorge Randolph Pearkes§!"
+ CAN_percy_nelles_desc:0 "§LPercy Walker Nelles§!"
+ CAN_lloyd_samuel_breadner_desc:0 "§LLloyd Samuel Breadner§!"
+ CAN_george_croil_desc:0 "§LGeorge Mitchell Croil§!"
+ CAN_ian_a_mackenzie_desc:0 "§LIan Alistair Mackenzie§!"
+ CAN_r_b_bennett_desc:0 "§LRichard Bedford Bennett§!"
+ CAN_newton_wesley_rowell_desc:0 "§LNewton Wesley Rowell§!"
+ CAN_frederick_m_w_harvey_desc:0 "§LFrederick Maurice Watson Harvey§!"
+ CAN_george_volkoff_desc:0 "§LGeorge Michael Volkoff§!"
+ CAN_harold_edwards_desc:0 "§LHarold Leslie Edwards§!"
+ CAN_james_ilsley_desc:0 "§LJames Lorimer Ilsley§!"
+ CAN_louis_st_laurent_desc:0 "§LLouis-Étienne St-Laurent§!"
+ CAN_c_d_howe_desc:0 "§LClarence Decatur « C. D. » Howe§!"
+ AUS_eduard_freiherr_desc:0 "§LEduard Freiherr von Böhm-Ermolli§!"
+ AUS_odilo_globocnik_desc:0 "§LOdilo Lothar Ludwig Globocnik§!"
+ AUS_otto_meixner_von_zweienstamm_desc:0 "§LOtto Meixner von Zweienstamm§!"
+ VIC_jean_marie_abrial_desc:0 "Jean-Marie Charles Abrial\n"
+ VIC_jean_francois_jannekeyn_desc:0 "$jean_francois_jannekeyn_desc$"
+ VIC_jean_de_laborde_desc:0 "Jean Joseph Jules Noël de Laborde\n"
+ AST_arthur_calwell_desc:0 "§LArthur Augustus Calwell§!"
+ AST_lance_sharkey_desc:0 "§LLawrence Louis « Lance » Sharkey§!"
+ AST_arthur_drakeford_desc:0 "§LArthur Samuel Drakeford§!"
+ AST_frank_forde_desc:0 "§LFrancis Michael « Frank » Forde§!"
+ AST_john_lavarack_desc:0 "§LJohn Dudley Lavarack§!"
+ AST_jack_beasley_desc:0 "§LJohn Albert « Stabbing Jack » Beasley§!"
+ AST_jack_piddington_desc:0 "§LJohn Hobart « Jack » Piddington§!"
+ AST_sydney_rowell_desc:0 "§LSydney Fairbairn Rowell§!"
+ AST_vernon_sturdee_desc:0 "§LVernon Ashton Hobart Sturdee§!"
+ AST_charles_burnett_desc:0 "§LCharles Stuart Burnett§!"
+ AST_ragnar_colvin_desc:0 "§LRagnar Musgrave Colvin§!"
+ AST_jack_crace_desc:0 "§LJohn Gregory « Jack » Crace§!"
+ AST_edmund_herring_desc:0 "§LEdmund Francis Herring§!"
+ AST_john_collins_desc:0 "§LJohn Augustine Collins§!"
+ AST_clive_caldwell_desc:0 "§LClive Robertson Caldwell§!"
+ AST_arthur_allen_desc:0 "§LArthur Samuel « Tubby » Allen§!"
+ AST_james_fairbairn_desc:0 "§LJames Valentine Fairbairn§!"
+ AST_norman_makin_desc:0 "§LNorman John Oswald Makin§!"
+ AST_alexander_hore_ruthven_desc:0 "§LAlexander Gore Arkwright Hore-Ruthven§!"
+ AST_robert_g_menzies_desc:0 "§LRobert Gordon Menzies§!"
+ AST_ben_chifley_desc:0 "§LJoseph Benedict Chifley§!"
+ AST_herbert_v_evatt_desc:0 "§LHerbert Vere Evatt§!"
+ AST_cederic_hicks_desc:0 "§LCedric Stanton Hicks§!"
+ IRE_generic_fascist_demagogue_desc:0 "§LThomas Francis O'Higgins§!"
+ IRE_generic_democratic_reformer_desc:0 "§LDaniel Richard Buckley, Domhnall Ua Buachalla§!"
+ IRE_sean_lemass_desc:0 "§LSeán Francis Lemass§!"
+ IRE_douglas_hyde_desc:0 "§LDouglas Ross Hyde§!"
+ IRE_sean_ceallaigh_desc:0 "§LSeán Thomas O'Kelly§!"
+ IRE_michael_joe_costello_desc:0 "§LMichael Joseph Costello§!"
+ IRE_frank_fahy_desc:0 "§LFrancis Patrick « Frank » Fahy§!"
+ IRE_richard_james_mulcahy_desc:0 "§LRichard James Mulcahy§!"
+ GRE_alexandros_sakellariou_desc:0 "§LAléxandros Pilátos Sakellaríou§!"
+ GRE_aris_velouchiotis_desc:0 "§LAthanásios Kláras, dit « Áris Veloukhiótis »§!"
+ GRE_eleftherios_venizelos_desc:0 "§LElefthérios Kyriákou Venizélos§!"
+ GRE_damaskinos_desc:0 "§LDimítrios Papandréou, archevêque-primat Damaskinós d'Athènes et de toute la Grèce§!"
+ HOL_henri_winkelman_desc:0 "§LHenri Gerard Winkelman§!"
+ HOL_hendrik_van_oyen_desc:0 "§LLudolph Hendrik van Oyen§!"
+ HOL_karel_doorman_desc:0 "§LKarel Willem Frederik Marie Doorman§!"
+ HOL_conrad_helfrich_desc:0 "§LConrad Emile Lambert Helfrich§!"
+ HOL_willem_schermerhorn_desc:0 "§LWillem Schermerhorn§!"
+ HOL_meinout_rost_van_tonningen_desc:0 "§LMeinoud Marinus Rost van Tonningen§!"
+ HOL_saul_de_groot_desc:0 "§LSaul, dit Paul de Groot§!"
+ HOL_petrus_wilhelmus_best_desc:0 "§LPetrus Wilhelmus Best§!"
+ HOL_charles_douw_van_der_krap_desc:0 "§LCharles Louis Jean François « Siki » Douw van der Krap§!"
+ HOL_nico_van_straten_desc:0 "§LNico Leonard Willem van Straten§!"
+ HOL_philips_desc:0 "Koninklijke Philips – Société royale Philips\n"
+ DEN_aage_vedel_desc:0 "Aage Helgesen Vedel\n"
+ DEN_generic_democratic_reformer_desc:0 "Alsing Emanuel Andersen\n"
+ DEN_generic_communist_revolutionary_desc:0 "Jørgen Ib Nørlund\n"
+ DEN_viggo_kampman_desc:0 "Olfert Viggo Fischer Kampmann\n"
+ DEN_hans_a_rolsted_desc:0 "Hans Aage Rolsted\n"
+ DEN_christian_frederik_von_schalburg_desc:0 "Christian Frederik von Schalburg\n"
+ DEN_hans_lunding_desc:0 "Hans Mathiesen Lunding\n"
+ LIT_feliksas_baltusis_desc:0 "§LFeliksas Baltušis-Žemaitis§!"
+ LIT_juoza_barzda_bradauskas_desc:0 "§LJuozas Barzda-Bradauskas§!"
+ LIT_adolfas_ramanauskas_desc:0 "§LAdolfas Ramanauskas, dit « Vanagas »§!"
+ LIT_juozas_ambrazevicius_desc:0 "§LJuozas Ambrazevičius, dit Jozuas Brazaitis§!"
+ EST_alfons_rebane_desc:0 "§LAlfons Vilhelm Robert Rebane§!"
+ EST_generic_fascist_demagogue_desc:0 "§LJohannes Vares-Barbarus§!"
+ EST_leo_sepp_desc:0 "§LLeo Bodo Sepp§!"
+ EST_juhan_tuuling_desc:0 "§LJuhan Tuuling, né Johannes Tuling§!"
+ LAT_generic_democratic_reformer_desc:0 "§LKârlis Reinholds Zariņš§!"
+ LAT_konstantins_cakste_desc:0 "§LKonstantîns Jêkabs Marģers Čakste§!"
+ LAT_vilis_lacis_desc:0 "§LJânis Vilhelms Lâce§!"
+ LAT_vilhelms_munters_desc:0 "§LGothards Vilhelms Nikolajs Munters, ou Gotthard Wilhelm Nikolai Munter§!"
+ LAT_kornelijs_veidnieks_desc:0 "§LKornêlijs Veitmanis, puis Kornêlijs Veidnieks§!"
+ LAT_arturs_silgailis_desc:0 "§LArtûrs Mihails Silgailis§!"
+ BEL_victor_strydonck_burkel_desc:0 "§LVictor Jean Clément van Strydonck de Burkel§!"
+ BEL_raoul_overstraeten_desc:0 "§LRaoul François Casimir Van Overstraeten§!"
+ BEL_paul_van_zeeland_desc:0 "§LPaul Guillaume van Zeeland§!"
+ BEL_gaston_eyskens_desc:0 "§LGaston François Marie Eyskens§!"
+ BEL_victor_van_strydonck_de_burkel_desc:0 "$BEL_victor_strydonck_burkel_desc$"
+ BEL_jules_pire_desc:0 "§LJules Joseph Pire§!"
+ BEL_oscar_michiels_desc:0 "§LFrançois-Fidèle-Oscar Michiels§!"
+ SWI_hans_peter_bichsel_sohn_desc:0 "§LHans Peter Bichsel-Sohn§!"
+ SWI_hermann_hessel_lorenz_desc:0 "§LHermann Hessel-Lorenz§!"
+ IRQ_nuri_as_said_desc:0 "§LNuri Basha al-Sayyid§!"
+ IRQ_generic_communist_revolutionary_desc:0 "§LArshad Pasha al-Umari§!"
+ IRQ_abdullah_desc:0 "§LAbdalilah ibn Ali al-Hachimi§!"
+ ARG_generic_fascist_demagogue_desc:0 "Carlos Alberto Pueyrredon\n"
+ ARG_ramon_castillo_desc:0 "Ramón Antonio Castillo Barrionuevo\n"
+ ARG_luis_podesta_costa_desc:0 "Luis Agustín Podestá Costa\n"
+ ARG_manuel_maria_de_iriondo_desc:0 "Manuel María de Iriondo\n"
+ ARG_pedro_s_casal_desc:0 "Pedro Segundo Casal\n"
+ ARG_uribaldi_diaz_brittenberg_desc:0 "Uribaldi Díaz Brittenberg\n"
+ ARG_eleazar_videla_desc:0 "§LEleazar T. Videla§!"
+ ARG_edelmiro_farrell_desc:0 "Edelmiro Julián Farrell\n"
+ AFG_haji_faiz_muhammed_zikeria_desc:0 "§LSardar Haji Faiz Muhammad Khan Zikeria§!"
+ AFG_mohammad_hashim_khan_desc:0 "§LMohammad Hashim Khan§!"
+ AFG_muhammad_amin_bughra_desc:0 "§LMuhammad Amin Bughra§!"
+ AFG_mohammed_daoud_khan_desc:0 "§LMuhammad Da'ud Khan§!"
+ AFG_mohammed_etemadi_khan_desc:0 "§LMohammad Etemadi Khan§!"
+ BOL_enrique_finot_desc:0 "§LEnrique Finot Franco§!"
+ BOL_gualberto_villarroel_lopez_desc:0 "§LGualberto Villarroel López§!"
+ BOL_jose_santos_quinteros_desc:0 "§LJosé Santos Quinteros§!"
+ BOL_david_toro_ruilova_desc:0 "§LJosé David Toro Ruilova§!"
+ BOL_tomas_monje_gutierrez_desc:0 "§LTomás Monje Gutiérrez§!"
+ BOL_julian_montellano_carrasco_desc:0 "§LJulián V. Montellano Carrasco§!"
+ BOL_enrique_baldivieso_aparicio_desc:0 "§LEnrique Baldivieso Aparicio§!"
+ BOL_alberto_ostria_gutierrez_desc:0 "§LAlberto Ostria Gutiérrez§!"
+ BRA_generic_fascist_demagogue_desc:0 "§LTarcísio Meirelles Padilha§!"
+ BRA_generic_communist_revolutionary_desc:0 "§LArthur Ernest Ewert§!"
+ BRA_washington_luis_pereira_desc:0 "§LWashington Luís Pereira de Sousa§!"
+ BRA_osvaldo_aranha_desc:0 "§LOsvaldo Euclides de Sousa Aranha§!"
+ BRA_afranio_de_mello_franco_desc:0 "§LAfrânio Camorim Jacaúna de Otingi de Melo Franco§!"
+ BRA_newton_cavalcanti_desc:0 "§LNewton de Andrade Cavalcanti§!"
+ BRA_joao_neves_da_fontoura_desc:0 "§LJoão Neves da Fontoura§!"
+ BRA_nero_fiuza_de_castro_desc:0 "§LÁlvaro Fiúza de Castro§!"
+ BRA_salgado_filho_desc:0 "§LJoaquim Pedro Salgado Filho§!"
+ BRA_aristides_guilhem_desc:0 "§LHenrique Aristides Guilhem§!"
+ BRA_floriano_peixoto_desc:0 "§LFloriano Peixoto Faria Lima§!"
+ BRA_epaminondas_dos_santos_desc:0 "§LEpaminondas dos Santos§!"
+ BRA_agliberto_vieira_desc:0 "§LAgliberto Vieira de Azevedo§!"
+ BRA_moreira_lima_desc:0 "§LRui Barbosa Moreira Lima§!"
+ CHL_generic_democratic_reformer_desc:0 "§LJuan Antonio Ríos Morales§!"
+ CHL_gustavo_ross_santa_maria_desc:0 "§LGustavo Ross Santa María§!"
+ CHL_miguel_cruchaga_tacomal_desc:0 "§LMiguel Cruchaga Tocornal§!"
+ CHL_julio_allard_pinto_desc:0 "§LJulio Allard Pinto§!"
+ CHL_marmaduke_grove_desc:0 "§LMarmaduke Grove Vallejo§!"
+ CHL_c_j_de_la_motte_desc:0 "§LCarlos Jouanne de la Motte du Portail§!"
+ CHL_francisco_o_ryan_orrego_desc:0 "§LFrancisco O'Ryan Orrego§!"
+ CHL_arturo_espinoza_mujica_desc:0 "§LCarlos Arturo Espinoza Mujica§!"
+ CHL_jose_luis_sanchez_besa_desc:0 "§LJosé Luis Sánchez Besa§!"
+ CHL_ariosto_herrera_desc:0 "§LAriosto Herrera Ramírez§!"
+ COL_generic_democratic_reformer_desc:0 "§LUlpiano Rengifo Cárdenas§!"
+ COL_generic_communist_revolutionary_desc:0 "§LFrancisco de Asís León Bogislao de Greiff Häusler§!"
+ COL_m_e_rojas_de_moreno_desc:0 "§LMario Eugenio Rojas Correa de Moreno Díaz§!"
+ COL_guillermo_padilla_manrique_desc:0 "§LGuillermo Padilla Manrique§!"
+ COL_eduardo_poirier_escobar_desc:0 "§LEduardo Poirier Escobar§!"
+ COL_german_olano_moreno_desc:0 "§LGermán Olano Moreno§!"
+ COL_luis_bernardo_andrade_desc:0 "§LLuis Bernardo Andrade§!"
+ COL_ruben_piedrahita_arango_desc:0 "§LJosé Rubén Piedrahíta Arango§!"
+ COL_salvador_tiaga_gonzalez_desc:0 "§LSalvador Tiaga González§!"
+ SAF_j_f_van_rensburg_fascist_desc:0 "$SAF_j_f_van_rensburg_desc$"
+ SAF_nicolaas_havenga_desc:0 "§LNicolaas Christiaan Havenga§!"
+ SAF_d_f_malan_desc:0 "§LDaniel François « D. F. » Malan§!"
+ iscor_desc:0 "South African Iron and Steel Industrial Corporation\n"
+ SAF_adolf_malan_desc:0 "§LAdolph Gysbert « Sailor » Malan§!"
+ SAF_pierre_van_ryneveld_desc:0 "§LHesperus Andrias, dit Pierre van Ryneveld§!"
+ SAF_cornelis_van_zuigenbrogge_desc:0 "§LCornelis van Zuigenbrogge§!"
+ SAF_c_de_weenburg_du_toit_desc:0 "§LC. de Weenburg du Toit§!"
+ SAF_marinus_van_osterkamp_desc:0 "§LMarinus van Osterkamp§!"
+ SAF_j_f_van_rensburg_desc:0 "§LJohannes Frederik Janse « Hans » van Rensburg§!"
+ SAF_s_p_le_roux_desc:0 "§LStephanus Petrus le Roux§!"
+ SAF_voortrekker_monument_2_desc:0 "$SAF_voortrekker_monument_desc$"
+ SAF_king_edward_desc:0 "§LEdward Albert Christian George Andrew Patrick David de Windsor§!"
+ SAU_sa_ad_shaddad_al_outaibi_desc:0 "§LSa'd Shaddad al-Otaibi§!"
+ SAU_saud_al_saud_desc:0 "§LSaoud ibn Abdelaziz al-Saoud§!"
+ SAU_faisal_saud_desc:0 "§LFayçal ibn Abdelaziz al-Saoud§!"
+ SAU_faisal_al_saud_desc:0 "$SAU_faisal_saud_desc$"
+ TAN_generic_communist_revolutionary_desc:0 "Valéry Ivanovitch Mejlaouk\n"
+ TAN_homushku_churguj_ool_desc:0 "§LTchourgouï-ool Namgaiévitch Khomoushkou§!"
+ VEN_generic_democratic_reformer_desc:0 "§LRómulo Ernesto Betancourt Bello§!"
+ VEN_generic_communist_revolutionary_desc:0 "§LManuel Díaz Rodríguez§!"
+ VEN_romulo_gallegos_freire_desc:0 "§LRómulo Ángel del Monte Carmelo Gallegos Freire§!"
+ VEN_isaias_medina_angarita_desc:0 "§LIsaías Medina Angarita§!"
+ VEN_tomas_contreras_villalobos_desc:0 "§LTomás Contreras Villalobos§!"
+ VEN_david_lopez_henriques_desc:0 "§LDavid López Henriques§!"
+ VEN_humberto_santabria_villa_desc:0 "§LHumberto Santabria Villa§!"
+ VEN_carlos_molina_talavayo_desc:0 "§LCarlos Molina Talavayo§!"
+ VEN_carlos_delgado_chalbaud_desc:0 "§LCarlos Román Delgado Chalbaud Gómez§!"
+ VEN_roberto_de_luca_varesano_desc:0 "§LRoberto de Luca Varesano§!"
+ VEN_carlos_garcia_mendoza_desc:0 "§LCarlos García Mendoza§!"
+ VEN_antonio_casas_gonzalez_desc:0 "§LAntonio Casas González§!"
+ CRO_generic_democratic_reformer_desc:0 "Vladimir Matija Adam « Vladko » Maček\n"
+ CRO_friedrich_navratil_desc:0 "Miroslav « Friedrich » Navratil\n"
+ CRO_vilko_begic_desc:0 "Vilim « Vilko » Begić\n"
+ CRO_slavko_kvaternik_desc:0 "Slavko « Vitez » Kvaternik\n"
+ RAJ_bhimrao_ramji_ambedkar_desc:0 "§LBhimrao Ramji « Babasaheb » Ambedkar§!"
+ RAJ_chakravarti_rajagopalachari_desc:0 "§LChakravarti Rajagopalachari§!"
+ RAJ_mahatma_mohandas_gandhi_desc:0 "§LMohandas Karamchand Gandhi§!"
+ RAJ_agha_khan_iii_desc:0 "§LSultan Mohammed Shah, Aga Khan III§!"
+ RAJ_bahadur_jayla_of_khoch_bahur_desc:0 "§LBahadur Jayla of Khoch Bahur§!"
+ RAJ_arthur_a_barrett_desc:0 "§LArthur Arnold Barrett§!"
+ RAJ_archibald_wavell_desc:0 "$archibald_wavell_desc$"
+ RAJ_reginald_savory_desc:0 "§LReginald Arthur « Reggie » Savory§!"
+ RAJ_kodandera_cariappa_desc:0 "§LKodandera « Kipper » Madappa Cariappa§!"
+ RAJ_ravindra_darshan_singh_desc:0 "§LRavinder Hari Darshan Singh§!"
+ RAJ_louis_mountbatten_desc:0 "§LLouis Francis Albert Victor Nicholas Mountbatten§!"
+ RAJ_william_e_parry_desc:0 "§LWilliam Edward Parry§!"
+ RAJ_bhaskar_soman_desc:0 "§LBhaskar Sadashiv Soman§!"
+ RAJ_homi_j_bhabha_desc:0 "§LHomi Jehangir Bhabha§!"
+ ALB_eqrem_libohova_desc:0 "§LMahmut Eqrem bej Libohova Asllan Pashali§!"
+ BHU_jigme_dorji_wangchuck_desc:0 "§LJigme Dorji Wangchuck§!"
+ COS_generic_democratic_reformer_desc:0 "§LMiguel Ángel Ramírez Alcántara§!"
+ COS_otto_cortes_fernandez_desc:0 "§LOtto Cortés Fernández§!"
+ COS_roberto_brenes_mesen_desc:0 "§LRoberto Brenes Mesén§!"
+ COS_chico_orlich_bolmarich_desc:0 "§LFrancisco José Orlich Bolmarcich§!"
+ COS_luis_fernandez_rodriguez_desc:0 "§LLuis Fernández Rodríguez§!"
+ COS_francisco_rosendo_arguello_desc:0 "§LFrancisco Rosendo Argüello§!"
+ COS_guillermo_macho_nunez_desc:0 "§LGuillermo Macho Núñez§!"
+ COS_baptista_e_gutierrez_desc:0 "§LBaptista E. Gutiérrez§!"
+ COS_roberto_juarez_camposino_desc:0 "§LRoberto Juárez Camposino§!"
+ NIC_carlos_brenes_jarquin_desc:0 "§LCarlos Alberto Brenes Jarquín§!"
+ NIC_augusto_caraval_antonio_desc:0 "§LAugusto Caraval Antonio§!"
+ NIC_victor_roman_y_reyes_desc:0 "§LVíctor Manuel Román y Reyes§!"
+ NIC_gustavo_flores_mendienta_desc:0 "§LGustavo Flores Mendieta§!"
+ NIC_noel_esto_nino_miranda_desc:0 "§LNoel Esto Niño Miranda§!"
+ ELS_generic_democratic_reformer_desc:0 "§LAndrés Ignacio Menéndez§!"
+ ELS_salvador_castaneda_castro_desc:0 "§LSalvador Castaneda Castro§!"
+ ELS_osmin_aguirre_y_salinas_desc:0 "§LOsmín Aguirre y Salinas"
+ ELS_manuel_de_jesus_cordova_desc:0 "§LManuel de Jesús Córdova§!"
+ ELS_ricardo_abrego_abrego_desc:0 "§LRicardo Ábrego Ábrego§!"
+ ELS_horacio_carnejo_ibanez_desc:0 "§LHoracio Carnejo Ibáñéz§!"
+ ELS_hector_escobar_serrano_desc:0 "§LHéctor Escobar Serrano§!"
+ ELS_mauro_espinola_castro_desc:0 "§LMauro Espínola Castro§!"
+ ELS_milton_andrade_cabrera_desc:0 "§LMilton Andrade Cabrera§!"
+ ELS_augustin_farabundo_marti_desc:0 "§LAgustín Farabundo Martí Rodríguez§!"
+ ELS_manuel_jose_maria_lemus_lopez_desc:0 "§LManuel José María Lemus López§!"
+ ECU_generic_democratic_reformer_desc:0 "§LIsidro Ramón Antonio Ayora Cueva§!"
+ ECU_carlos_arosemena_tola_desc:0 "§LCarlos Julio Arosemena Tola§!"
+ ECU_carlos_arroyo_del_rio_desc:0 "§LCarlos Alberto Arroyo del Río§!"
+ ECU_juan_pablo_martinez_iguarte_desc:0 "§LJuan Pablo Martínez Iguarte§!"
+ ECU_federico_paez_chiriboaga_desc:0 "§LFederico Páez Chiriboga§!"
+ ECU_hugo_endara_penaherrera_desc:0 "§LCésar Endara Peñaherrera§!"
+ ECU_jorge_escobedo_duarte_desc:0 "§LJorge Escobedo Duarte§!"
+ ECU_ramon_moran_valverde_desc:0 "§LRamón Morán Valverde§!"
+ ECU_ramon_baquerizo_davila_desc:0 "§LRamón Baquerizo Dávila§!"
+ ECU_benigno_andrade_flores_desc:0 "§LBenigno Andrade Flores§!"
+ ECU_gilberto_enriquez_gallo_desc:0 "§LGilberto Enríquez Gallo§!"
+ ECU_uriarte_fanquil_del_ponte_desc:0 "§LUriarte Fanquil del Ponte§!"
+ ECU_cosme_renella_barbatto_desc:0 "§LCosme Rennella Barbatto§!"
+ ECU_julio_salem_gallegos_desc:0 "§LJulio Teodoro Salem Gallegos§!"
+ NZL_generic_communist_revolutionary_desc:1 "Frederick Engels « Fred » Freeman§!"
+ NZL_a_e_davy_desc:0 "§LAlbert Ernest Davy§!"
+ NZL_keith_j_holyoake_desc:0 "§LKeith Jacka Holyoake§!"
+ NZL_r_a_cochrane_desc:0 "§LRalph Alexander Cochrane§!"
+ NZL_j_c_nichols_desc:0 "§LJoseph Cowie Nichols§!"
+ NZL_h_d_mcgregor_desc:0 "§LHector Douglas McGregor§!"
+ NZL_william_sinclair_burgess_desc:0 "§LWilliam Livingston Hatchwell Sinclair-Burgess§!"
+ NZL_n_weir_desc:0 "§LNorman William McDonald Weir§!"
+ NZL_a_j_stallworthy_desc:0 "§LArthur John Stallworthy§!"
+ NZL_h_e_horan_desc:0 "§LHenry Edward Horan§!"
+ NZL_w_h_stratton_desc:0 "§LWilliam Hector Stratton§!"
+ ETH_bedjironde_tekle_hawariate_desc:0 "§LBedjironde Tekle Hawariate§!"
+ ETH_ras_imru_haile_selassie_desc:0 "§L$ETH_ras_imru_haile_selassie_long$§!"
+ ETH_makonnen_endelkatchew_desc:0 "§LMekonnen Endelkachew§!"
+ PHI_generic_fascist_demagogue_desc:0 "§LJosé Paciano Laurel y García§!"
+ PHI_generic_democratic_reformer_desc:0 "§LElpidio Quirino y Rivera§!"
+ PHI_emilio_aguinaldo_desc:0 "§LEmilio Aguinaldo y Famy§!"
+ PHI_juan_sumulong_desc:0 "§LJuan Sumulong y Marquez§!"
+ PHI_leoncio_s_tan_desc:0 "§LLeoncio S. Tan§!"
+ PHI_basilio_j_valdez_desc:0 "§LBasilio José Segundo Pica Valdés§!"
+ PHI_pelagio_cruz_desc:0 "§LPelagio A. Cruz§!"
+ PHI_santiago_nuval_desc:0 "§LSantiago C. Nuval§!"
+ PHI_eustacio_orobia_desc:0 "§LEustacio D. Orobia§!"
+ PHI_vicente_p_lim_desc:0 "§LVicente Podico Lim§!"
+ PHI_jose_v_andrada_desc:0 "§LJosé V. Andrada§!"
+ PHI_benito_n_ebuen_desc:0 "§LBenito Nicano R. Ebuen§!"
+ PHI_ramon_a_alcaraz_desc:0 "§LRamón Abacan Alcaraz§!"
+ PHI_victor_h_dizon_desc:0 "§LVictor H. Dizon§!"
+ PRU_armando_reveredo_iglesias_desc:0 "§LArmando Revoredo Iglesias§!"
+ PRU_oscar_miro_quesada_desc:0 "§LÓscar Miró Quesada de la Guerra§!"
+ PRU_jose_bustamante_y_rivero_desc:0 "§LJosé Luis Pablo Bustamante y Rivero§!"
+ PRU_eloy_g_ureta_desc:0 "§LEloy Gaspar Ureta Montehermoso§!"
+ PRU_eduardo_montero_rojas_desc:0 "§LEduardo Montero Rojas§!"
+ PRU_fernando_m_quesada_blanco_desc:0 "§LFernando Quesada Blanco§!"
+ PRU_oscar_benavides_larrea_desc:0 "§LÓscar Raimundo Benavides Larrea§!"
+ PRU_vladimiro_lopez_trigoso_desc:0 "§LVladimiro López Trigoso§!"
+ PRU_manuel_odria_amoretti_desc:0 "§LManuel Arturo Odría Amoretti§!"
+ PRU_eduardo_cantabria_gomez_desc:0 "§LEduardo Cantabria Gómez§!"
+ YEM_ahmad_bin_yaha_desc:0 "§LAhmad ibn Yahya Hamid ed-Din§!"
+ SIK_isa_yusuf_alptekin_desc:0 "§LIsa Yusuf Alptekin, dit « Ai Sha »§!"
+ SIK_habibullah_huseinov_desc:0 "§LHäbibulla Eynulla oğlu Hüseynov§!"
+ URG_alfredo_baldomir_desc:0 "§LAlfredo Baldomir Ferrari§!"
+ URG_emilio_frugoni_desc:0 "§LEmilio Frugoni Queirolo§!"
+ URG_horacio_arredondo_desc:0 "§LHoracio Arredondo de Navas§!"
+ URG_vittorio_amato_masso_desc:0 "§LVittorio Amato Masso§!"
+ URG_ernesto_sanchez_elizondo_desc:0 "§LErnesto Sánchez Elizondo§!"
+ URG_cosme_alvarez_berisso_desc:0 "§LCosme Alvaréz Berisso§!"
+ URG_enrico_amancias_rodriguez_desc:0 "§LEnrico Amancias Rodríguez§!"
+ PAR_juan_natalicio_gonzalez_desc:0 "§LJuan Natalicio González Paredes§!"
+ PAR_higenio_morinigo_martinez_desc:0 "§LHiginio Nicolás Morínigo Martínez§!"
+ PAR_alfred_stroessner_matiauda_desc:0 "§LAlfredo Stroessner Matiauda§!"
+ PAR_juan_manuel_frutos_desc:0 "§LJuan Manuel Frutos Escurra§!"
+ PAR_hernan_rojas_baltassare_desc:0 "§LHernán Rojas Baltassare§!"
+ CUB_generic_democratic_reformer_desc:0 "Miguel Ángel de la Campa y Caraveda\n"
+ CUB_generic_communist_revolutionary_desc:0 "§LAntonio Guiteras Holmes§!"
+ CUB_gerardo_machado_desc:0 "§LGerardo Machado y Morales§!"
+ CUB_eugenio_molinet_castro_desc:0 "§LEugenio Molinet Castro§!"
+ CUB_salvador_castaneda_castro_desc:0 "§LSalvador Castaneda Castro§!"
+ CUB_fulgencio_batista_desc:0 "§LFulgencio Batista y Zaldívar§!"
+ CUB_palaez_menendez_desc:0 "§LAntonio Menéndez Peláez§!"
+ CUB_fidel_castro_desc:0 "§LFidel Alejandro Castro Ruz§!"
+ CUB_eduardo_chibas_desc:0 "§LEduardo René Chibás y Ribas§!"
+ GUA_generic_communist_revolutionary_desc:0 "§LCarlos Argumedo Salazar§!"
+ GUA_eduardo_villagran_ariza_desc:0 "§LEduardo Villagrán Ariza§!"
+ GUA_juan_arevalo_bermejo_desc:0 "§LJuan José Arévalo Bermejo§!"
+ GUA_federico_ponce_vaides_desc:0 "§LJuan Federico Ponce Vaides§!"
+ GUA_jacopo_arbenz_guzman_desc:0 "§LJuan Jacobo Árbenz Guzmán§!"
+ GUA_tomas_mendoza_urribe_desc:0 "§LTomás Mendoza Urribe§!"
+ GUA_manuel_orellana_desc:0 "§LManuel María Orellana Contreras§!"
+ GUA_carlos_diaz_de_leon_desc:0 "§LCarlos Enrique Díaz de León§!"
+ GUA_miguel_garcia_granados_desc:0 "§LMiguel García Granados§!"
+ GUA_m_ydigaras_fuentes_desc:0 "§LMiguel Ydígoras Fuentes§!"
+ HON_roberto_michelleti_bain_desc:0 "§LRoberto Michelleti Bain§!"
+ HON_orlando_rodriguez_jimino_desc:0 "§LOrlando Rodríguez Jimeno§!"
+ HON_abraham_williams_calderon_desc:0 "§LAbraham Williams Calderón§!"
+ HON_hernan_fernandez_silva_desc:0 "§LHernán Fernández Silva§!"
+ HON_juan_b_valladares_desc:0 "§LJuan Valladares Rodríguez§!"
+ HON_oswaldo_lopez_arellano_desc:0 "§LOswaldo Enrique López Arellano§!"
+ HON_raimundo_stochler_garcia_desc:0 "§LRaimundo Stochler García§!"
+ HON_jose_zuniga_huete_desc:0 "§LJosé Ángel Zúñiga Huete§!"
+ HON_francisco_s_tapio_toro_desc:0 "§LFrancisco S. Tapio Toro§!"
+ NEP_william_stevenson_meyer_desc:0 "§LWilliam Stevenson Meyer§!"
+ NEP_mohan_rana_desc:0 "§LMohan Shumsher Jung Bahadur Rana§!"
+ NEP_baber_rana_desc:0 "§LBaber Shumsher Jang Bahadur Rana§!"
+ NEP_kiran_rana_desc:0 "§LKiran Shamsher Jang Bahadur Rana§!"
+ NEP_rudra_rana_desc:0 "§LRudra Shumsher Jung Bahadur Rana§!"
+ LIB_generic_democratic_reformer_desc:0 "§LClarence Lorenzo Simpson§!"
+ LIB_william_s_tubman_desc:0 "§LWilliam Vacanarat Shadrach Tubman§!"
+ PAN_nicolas_ardito_barletta_desc:0 "§LNicolás Ardito Barletta§!"
+ PAN_enrique_jimenez_brin_desc:0 "§LEnrique Adolfo Jiménez Brin§!"
+ PAN_marcos_a_gelabert_desc:0 "§LMarcos A. Gelabert§!"
+ PAN_margarita_belloso_jimenez_desc:0 "§LMargarita Belloso Jiménez§!"
+ PAN_ferdinando_hernandez_ytuarte_desc:0 "§LFerdinando Hernández Ytuarte§!"
+ PER_mahmud_jam_desc:0 "§LMahmoud Modir al-Molk Djam§!"
+ PER_ali_khan_mansour_desc:0 "§LAli Khan Mansour§!"
+ PER_mohammed_nakhjavani_desc:0 "§LMohammad Nakhjavani§!"
+ PER_fazlollah_zahedi_desc:0 "§LMohammad Fazlollah Zahedi§!"
+ PER_ahmad_mira_khosravani_desc:0 "§LAhmad Mira Khosravani§!"
+ PER_mohammed_reza_pahlavi_desc:0 "§LMohammadreza Pahlavi§!"
+ DOM_generic_democratic_reformer_desc:0 "§LJuan Emilio Bosch Gaviño§!"
+ DOM_generic_communist_revolutionary_desc:0 "§LFrancisco Prats Ramírez§!"
+ DOM_jacinto_bienvenido_peynado_desc:0 "§LJacinto Bienvenido Peynado Peynado§!"
+ DOM_manuel_de_jesus_troncoso_desc:0 "§LManuel de Jesús María Ulpiano « Pipí » Troncoso de la Concha§!"
+ DOM_victor_vinas_roman_desc:0 "§LVíctor Elby Viñas Román§!"
+ DOM_domingo_de_los_santos_ortiz_desc:0 "§LDomingo de los Santos Ortiz§!"
+ DOM_julio_ortega_frier_desc:0 "§LJulio César Ortega Frier§!"
+ DOM_honoracio_yuna_robles_desc:0 "§LHonoracio Yuna Robles§!"
+ HAI_luis_dabtes_bellegarde_desc:0 "§LDantès Louis Bellegarde§!"
+ HAI_louis_dejoie_desc:0 "§LPierre Joseph Louis Déjoie§!"
+ HAI_emilie_lescot_desc:0 "§LAntoine Louis Léocardie Élie Lescot§!"
+ HAI_paul_magloire_desc:0 "§LPaul Eugène Magloire§!"
+ FRA_gaston_henry_haye_desc:0 "§LHenry Gaston Auguste Haye§!"
+ FRA_paul_baudouin_desc:0 "§LPaul Louis Arthur Baudouin§!"
+ FRA_zivony_peshkov_desc:0 "§LZinovi Alekseïevitch Pechkoff§!"
+ FRA_paul_reynaud_desc:0 "§LJean Paul Reynaud§!"
+ FRA_henri_marie_auguste_bineau_desc:0 "§LHenri Marie Auguste Bineau§!"
+ FRA_pierre_alombert_goget_desc:0 "§LPierre-Paul-Étienne Alombert-Goget§!"
+ ENG_david_stirling_desc:0 "§LArchibald David « The Phantom Major » Stirling§!"
+ SOV_lavrentiy_beria_desc:0 "§LLavrenti Pavlovitch Béria§!"
+ SOV_vyacheslav_molotov_desc:0 "§LViatcheslav Mikhaïlovitch Molotov§!"
+ SOV_nikolai_voznesensky_desc:0 "§LNikolaï Alekseïevitch Voznessenski§!"
+ SOV_nikolai_yezhov_desc:0 "§LNikolaï Ivanovitch Iéjov§!"
+ USA_robert_taft_desc:0 "§LRobert Alphonso Taft Sr.§!"
+ USA_john_winant_desc:0 "§LJohn Gilbert Winant§!"
+ USA_henry_stimson_desc:0 "§LHenry Lewis Stimson§!"
+ USA_donald_nelson_desc:0 "§LDonald Marr Nelson§!"
+ USA_william_regnery_desc:0 "§LWilliam Henry Regnery§!"
+ USA_joseph_patterson_desc:0 "§LJoseph Medill Patterson§!"
+ ITA_junio_valerio_borghese_desc:0 "§LJunio Valerio Scipione Ghezzo Marcantonio Maria dei principi Borghese, dit « Junio Valerio Borghese »§!"
+ ENG_philip_kerr_desc:0 "§LPhilip Henry Kerr§!"
+ ENG_nevile_henderson_desc:0 "§LNevile Meyrick Henderson§!"
+ ENG_maxwell_aitken_desc:0 "§LWilliam « Max » Maxwell Aitken§!"
+ BLR_generic_communist_revolutionary_desc:0 "Alekseï Vladimirovitch Volkov\n"
+ BLR_generic_democratic_reformer_desc:0 "Nikolaï Semionovitch Abramtchik\n"
+ BLR_boris_berman_desc:0 "Boris Davidovitch Berman\n"
+ BLR_jozeph_ryzhykov_desc:0 "Iossif Ivanovitch Ryjikov\n"
+ BLR_aleksei_antonov_desc:0 "Alekseï Innokentievitch Antonov\n"
+ BLR_stepan_krasovsky_desc:0 "Stepan Akimovitch Krassovski\n"
+ BLR_vasily_sokolovsky_desc:0 "Vassili Danilovitch Sokolovski\n"
+ BLR_ivan_yakubovsky_desc:0 "Ivan Ignatievitch Iakoubovski\n"
+ BLR_ivan_pstygo_desc:0 "Ivan Ivanovitch Pstygo\n"
+ BLR_fedor_dobysh_desc:0 "Fiodor Ivanovitch Dobych\n"
+ BLR_valentin_drozd_desc:0 "Valentin Petrovitch Drozd\n"
+ BLR_georgy_holostyakov_desc:0 "Gueorgui Nikitch Holostiakov\n"
+ BLR_piotr_kozlov_desc:0 "Dmitri Timofeïevitch Kozlov\n"
+ BLR_maksim_antonyuk_desc:0 "Maksim Antanavitch Antoniouk\n"
+ ishapore_rifle_factory_desc:0 "Rifle Factory of Ishapore – Manufacture d'armes d'Icchapur\n"
+ ordnance_factories_board_desc:0 "Ordnance Factories Board – Usines militaires indiennes\n"
+ garden_reach_shipbuilders_desc:0 "Garden Reach Shipbuilders & Engineers"
+ mazagon_dock_limited_desc:0 "Mazagon Dock Limited"
+ NZL_st_mary_bay_ship_desc:0 "Saint Marys Bay Shipbuilding – Chantier naval de Saint Marys Bay\n"
+ NZL_port_chalmers_shipbuilding_desc:0 "Port Charlmers Shipbuilding – Chantier naval de Port Chalmers\n"
+ NZL_charlton_mw_desc:0 "Charlton Motor Workshops – Ateliers Charlon Motor\n"
+ NZL_christchurch_workshops_desc:0 "Christchurch Workshops – Ateliers de Christchurch\n"
+ lithgow_saf_desc:0 "Lithgow Small Arms Factory – Manufacture d'armes légères de Lithgow\n"
+ lysaghts_works_desc:0 "Lysaght Works – Ateliers australiens de John Lysaght & Co\n"
+ new_south_wales_rc_desc:0 "New South Wales Railway Company – Compagnie de chemin de fer de l'État de Nouvelle-Galles du Sud\n"
+ Cockatoo_doe_desc:0 "Cockatoo Docks & Engineering Company Ltd\n"
+ evans_deakin_co_desc:0 "Evans Deakin & Company\n"
+ montreal_lab_desc:0 "Montreal Laboratory – Laboratoire de Montréal\n"
+ inglis_company_desc:0 "John Inglis and Company\n"
+ GER_grosraumwirtschaft_idea:0 "Großraumwirtschaft"
+ GER_wilhelm_iii_desc:0 "§LFrédéric Guillaume Victor Auguste Ernest de Hohenzollern§!"
+ dagu_shipyard_desc:0 "Chantier naval de Dagu\n"
+ MAN_manshu_desc:0 "Manshû Koku Hikîki Seizô Kabushiki Kaisha – Compagnie aéronautique Manshû\n"
+ MAN_south_manchuria_railway_company_desc:0 "Minami Manshû Tetsudô Kabushiki-gaisha – Société des chemins de fer de Mandchourie du Sud\n"
+ USA_joseph_mccarthy_desc:0 "§LJoseph Raymond McCarthy§!"
+ USA_charles_lindbergh_desc:0 "§LCharles Augustus « The Lone Eagle » Lindbergh§!"
+ USA_general_motors_desc:0 "General Motors Company\n"
+ harry_white_desc:0 "§LHarry Dexter White§!"
+ whittaker_chambers_desc:0 "§LJay Vivian « Whittaker » Chambers§!"
+ ENG_george_orwell_desc:0 "§LEric Arthur Blair, dit George Orwell§!"
+ ENG_sylvia_pankhurst_desc:0 "§LEstelle Sylvia Pankhurst§!"
+ ENG_winston_churchill_desc:0 "§LWinston Leonard Spencer Churchill§!"
+ ENG_oswald_mosley_desc:0 "§LOswald Ernald Mosley§!"
+ ENG_jfc_fuller_desc:0 "§LJohn Frederick Charles « Boney » Fuller§!"
+ HOL_jan_goudriaan_desc:0 "§LJan Goudriaan Jr.§!"
+ HOL_cornelis_van_geelkerken_desc:0 "§LCornelis, dit Kees van Geelkerken§!"
+ HOL_jacob_adriaan_de_wilde_desc:0 "§LJacob Adriaan de Wilde§!"
+ HOL_antonie_pannekoek_desc:0 "§LAntonie, dit Anton Pannekoek§!"
+ HOL_adriaan_dijxhoorn_desc:0 "§LAdriaan Quirinus Hendrik Dijxhoorn§!"
+ HOL_walraven_van_hall_desc:0 "§LWalraven, dit Wally van Hall§!"
+ HOL_anton_de_kom_desc:0 "§LCornelis Gerhard Anton de Kom§!"
+ HOL_izaak_reijnders_desc:0 "§LIzaäk Herman Reijnders§!"
+ HOL_adrianus_rudolphus_van_den_bent_desc:0 "§LAdrianus Rudolphus van den Bent§!"
+ HOL_johan_furstner_desc:0 "§LJohannes Theodorus Furstner§!"
+ HOL_godfried_van_voorst_tot_voorst_desc:0 "§LJan Joseph Godfried van Voorst tot Voorst jr.§!"
+ HOL_hendrik_seyffardt_desc:0 "§LHendrik Alexander Seijffardt§!"
+ GER_hans_oster_desc:0 "§LHans Paul Oster§!"
+ GER_alfred_hugenberg_desc:0 "§LAlfred Ernst Christian Alexander Hugenberg§!"
+ GER_carl_friedrich_goerdeler_desc:0 "§LCarl Friedrich Goerdeler§!"
+ POR_jose_hipolito_raposo_desc:0 "§LJosé Hipólito Vaz Raposo§!"
+ KUR_haji_baba_desc:0 "§LCheik Hecî Baba§!"
+ KUR_ahmed_barzani_desc:0 "§LCheik Ehmedê Barzanî§!"
+ TUR_kazim_ozalp_bftb_desc:0 "$TUR_kazim_ozalp_desc$"
+ TUR_rauf_orbay_bftb_desc:0 "$TUR_rauf_orbay_desc$"
+ ETH_ras_imru_haile_selassie_long:0 "Emrou Haïlé Sélassié"
+ ETH_ras_kassa_desc:0 "§LKassa Haïlé Darge§!"
+ organization_of_african_unity_member_idea_desc:0 "[Root.GetLeLaLNPCap] [Root.GetName] [Root.GetEstSontNP] membre[Root.GetXSNP] de l'Organisation de l'unité africaine."
+ beretta_desc:0 "Fabbrica d'Armi Pietro Beretta – Fabrique d'armes Pietro Beretta\n"
+ breda_desc:0 "Società Italiana Ernesto Breda per Costruzioni Meccaniche (Sezione VII, Armi) – Société italienne Ernesto Breda de constructions mécaniques (Section VII, armes lourdes)\n"
+ macchi_desc:0 "Società Anonima Nieuport-Macchi – Société anonyme Nieuport-Macchi\n"
+ POR_agostinho_lourenco_desc:0 "§LAgostinho Lourenço da Conceição Pereira§!"
+ SWI_j_d_de_montenach_desc:0 "§LJean Daniel de Montenach§!"
+ ARG_agustin_pedro_justo_desc:0 "§LAgustín Pedro Justo Rolón§!"
+ ETH_john_robinson_desc:0 "§LJohn Charles Robinson, « the Brown Condor »§!"
+ ITA_gian_galeazzo_ciano_desc:0 "§LGian Galeazzo Ciano§!"
+ danieli_desc:0 "Danieli & C. Officine Meccaniche – Danieli et Cie, ateliers mécaniques\n"
+ KUR_ihsan_nuri_desc:0 "§LÎhsan Nûrî Paşa§!"

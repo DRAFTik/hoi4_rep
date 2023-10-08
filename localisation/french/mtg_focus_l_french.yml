@@ -423,7 +423,7 @@
  ENG_british_commonwealth_air_training_plan_desc:0 "Nos succès militaires reposeront sur notre maîtrise du ciel, et donc sur l'adresse de nos équipages. Nous devons lancer le plus grand programme d'entraînement aérien jamais vu afin d'être certains de disposer de tous les pilotes et équipages nécessaires pour nous assurer de la maîtrise de ce domaine encore nouveau de la guerre."
  ENG_indian_autonomy:0 "Autonomie de l'Inde"
  ENG_indian_autonomy_desc:0 "Plutôt que leur promettre une totale indépendance, il serait possible de fragiliser les mouvements pour l'indépendance de l'Inde en accordant au sous-continent une large autonomie, sensiblement comparable à celle dont jouissent les autres dominions."
- ENG_indian_autonomy_tt:0 "§RPrivé[RAJ.GetXENP] d'autonomie, [RAJ.GetLeLaLNP] [RAJ.GetName] refuser[RAJ.GetAOntNP] systématiquement les propositions de formation d'une Fédération impériale.§!"
+ ENG_indian_autonomy_tt:1 "§RPrivé[RAJ.GetXENP] d'autonomie ou avec §Y$ENG_lord_edward_halifax$§! à [RAJ.GetSaLeurNP] tête, [RAJ.GetLeLaLNP] [RAJ.GetFlag]§Y[RAJ.GetName]§! refuser[RAJ.GetAOntNP] systématiquement les propositions de formation d'une Fédération impériale.§!"
  ENG_imperial_conference_defense_dominion:0 "Discussions sur la défense à la Conférence impériale"
  ENG_imperial_conference_economy_dominion:0 "Discussions sur l'économie à la Conférence impériale"
  ENG_federal_integration:0 "Intégration dans la Fédération impériale"

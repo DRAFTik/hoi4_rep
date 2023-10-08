@@ -423,7 +423,7 @@
  ENG_british_commonwealth_air_training_plan_desc:0 "Unser militärischer Erfolg steht und fällt mit unserer Lufthoheit – also mit dem Können unserer Flugzeugbesatzungen. Wir werden das größte Luftausbildungsprogramm ins Leben rufen, das die Welt je gesehen hat, um sicherzustellen, dass wir genügend ausgebildete Piloten und Besatzungsmitglieder für diese neue Dimension der Kriegsführung haben."
  ENG_indian_autonomy:0 "Indische Autonomie"
  ENG_indian_autonomy_desc:0 "Anstatt Indien die volle Unabhängigkeit zu versprechen, können wir die indischen Unabhängigkeitsbewegungen vielleicht schwächen, indem wir ihnen weitreichende Automonie gewähren, wie sie die anderen Dominions bereits besitzen."
- ENG_indian_autonomy_tt:0 "§ROhne Autonomie akzeptiert [RAJ.GetNameDef] keine Vorschläge für die Imperial Federation.§!"
+ ENG_indian_autonomy_tt:1 "§ROhne Autonomie oder Lord Halifax als Staatsoberhaupt akzeptiert [RAJ.GetNameDef] keine Vorschläge für die Imperial Federation.§!"
  ENG_imperial_conference_defense_dominion:0 "Reichskonferenz-Verteidigungsabkommen"
  ENG_imperial_conference_economy_dominion:0 "Reichskonferenz-Wirtschaftsabkommen"
  ENG_federal_integration:0 "Reichsintegration"

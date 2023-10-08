@@ -298,6 +298,7 @@
  TUR_pay_off_our_debts_desc:0 "Imperium Osmańskie w czasie swojego istnienia zaciągnęło olbrzymie długi, a prowadzona przez nas odbudowa kraju także wymagała wydatków. W tej chwili mamy możliwość spłacenia części tych zobowiązań!"
  TUR_discuss_investment_possibilities_with_FROM:0 "Omówienie możliwości inwestycji z: [FROM.GetNameDef]"
  TUR_discuss_investment_possibilities_with_FROM_desc:0 "W przeszłości polityka [ROOT.GetAdjective] polegała na unikaniu zagranicznych inwestycji i interwencji wszędzie, gdzie było to możliwe. Ale teraz już nie musimy obawiać się tak prostych transakcji jak inwestycje. Będziemy dla wszystkich równymi partnerami, a to pozwoli nam się wzbogacić."
+ TUR_investment_in_turkey_pending_flag:0 "[FROM.GetNameDefCap] zgadza się na nasze inwestycje, ale jeszcze się w nie angażuje się w nie."
  TUR_investment_opinion_tt:0 "Im lepszą opinię ma o nas §Y[FROM.GetNameDef]§!, tym więcej pojawi się okazji inwestycyjnych.\n"
  ROOT_invest_in_turkish_state_building:1 "Inwestycje w [FROM.GetAdjective] budowlę państwową"
  ROOT_invest_in_turkish_state_building_desc:0 "Krytyczna infrastruktura [FROM.GetAdjective] jest słabo rozwinięta w wielu regionach kraju. To element, który możemy poprawić."
@@ -920,7 +921,7 @@
  BUL_secure_occupation_in_balkan_state:0 "Wzmocnienie okupacji w: [FROM.GetName]"
  BUL_secure_occupation_in_balkan_state_desc:0 "Musimy wziąć na siebie rolę rozjemców na Bałkanach i zaproponować naszym sojusznikom przekazanie im kontroli administracyjnej nad ich ziemiami okupowanymi w tym regionie. Dzięki temu garnizony frakcji [ROOT.GetFactionName] będą mogły zostać przeniesione na inne fronty."
  BUL_secure_occupation_in_balkan_state_tt:0 "(Państwa z niewielką ilością §Yzasobów ludzkich§! i §Ywyposażenia piechoty§! będą bardziej skłonne zgodzić się na tę propozycję.)"
- BUL_bulgarian_reintegration_campaign:1 "Kampania reintegracji Bułgarii w: [FROM.GetName]"
+ BUL_bulgarian_reintegration_campaign:2 "Kampania reintegracji Bułgarii w: [FROM.GetName]"
  bulgarian_territorial_expansion_arranged:0 "Przygotowana bułgarska ekspansja terytorialna"
  BUL_bulgarian_territorial_expansion_arranged_tt:0 "Regiony z modyfikatorem §YPrzygotowana bułgarska ekspansja terytorialna§! zostaną przekazane Bułgarii, jeśli jakiś sojusznik frakcji kontroluje region, a Bułgaria wstąpiła do tej samej frakcji co Niemcy."
 

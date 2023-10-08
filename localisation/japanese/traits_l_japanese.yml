@@ -1166,7 +1166,7 @@
  SWI_humanitarian:0 "人道主義者"
  SWI_small_arms_designer:0 "兵器設計者"
  SWI_guisan_leader_trait:0 "人気者の独裁者"
- SWI_weapons_designer:1 "兵器設計者"
+ SWI_weapons_designer:2 "兵器設計者"
  SWI_soviet_spy:0 "ソビエトのスパイ"
  
  constitutional_philosopher:0 "立憲主義の哲学者"
@@ -1177,6 +1177,12 @@
  
  evans_deakin_trait:0 "太平洋の新興企業"
  cockatoo_trait:0 "小型艦の専門家"
+
+ cautious_arbiter:0 "慎重な仲裁者"
+ viceroy_emeritus:0 "名誉総督"
+ viceroy_emeritus_desc:0 "ハリファックス卿は長期にわたってインドの総督を務めた。任期の間の仕事ぶりには賛否が分かれるところだが、外交に長けていたゆえに結果を残していることは確かだ。"
+ viceroy_emeritus_tt:0 "\n§Hハリファックス卿§!が我が国の指導者である場合、この国家方針における自治度への影響が倍になる。"
+ viceroy_emeritus_downside_tt:0 "\nインド史におけるハリファックス卿の評価は賛否が分かれるため:"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  political_reformer_3:0 "$political_reformer_1$"

@@ -976,10 +976,10 @@
  AFA_democratic_party_long:0 "Parti démocratique national afar"
  AFA_neutrality_party:0 "Parti kandhafiste"
  AFA_neutrality_party_long:0 "Parti kandhafiste"
- AOI_communism_party:0 "$ITA_communism_party$"
- AOI_democratic_party:0 "$ITA_democratic_party$"
- AOI_fascism_party:0 "$ITA_fascism_party$"
- AOI_neutrality_party:0 "$ITA_neutrality_party$"
+ AOI_communism_party:0 "PCI"
+ AOI_democratic_party:0 "PPI"
+ AOI_fascism_party:0 "PNF"
+ AOI_neutrality_party:0 "PNM"
  LBV_communism_party:0 "PPT"
  LBV_democratic_party:0 "PPV"
  LBV_fascism_party:0 "PUC"
@@ -1000,579 +1000,614 @@
  TTS_democratic_party:0 "PRN"
  TTS_fascism_party:1 "PFP"
  TTS_neutrality_party:0 "Parti royaliste"
- GER_communism_party_long:0 "Kommunistische Partei Deutschlands" # [LocEditor:CustomLanguageKey]
- GER_neutrality_party:1 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- ENG_communism_party_long:0 "Parti communiste de Grande-Bretagne" # [LocEditor:CustomLanguageKey]
- ENG_fascism_party_long:0 "Union britannique des fascistes" # [LocEditor:CustomLanguageKey]
- ENG_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- JAP_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- USA_communism_party_long:0 "Parti communiste des États-Unis" # [LocEditor:CustomLanguageKey]
- USA_fascism_party_long:0 "Légion d'argent de l'Amérique" # [LocEditor:CustomLanguageKey]
- USA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- FRA_communism_party_long:0 "Parti communiste français" # [LocEditor:CustomLanguageKey]
- FRA_neutrality_party:0 "Action française" # [LocEditor:CustomLanguageKey]
- FRA_SFIO:0 "SFIO" # [LocEditor:CustomLanguageKey]
- FRA_SFIO_long:0 "Section française de l'Internationale ouvrière" # [LocEditor:CustomLanguageKey]
- SOV_communism_party_long:0 "Parti communiste de l'Union soviétique" # [LocEditor:CustomLanguageKey]
- SOV_fascism_party_long:0 "Parti fasciste russe" # [LocEditor:CustomLanguageKey]
- SOV_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- AUS_fascism_party_long:1 "Deutsche Nationalsozialistische Arbeiterpartei" # [LocEditor:CustomLanguageKey]
- CHI_democratic_party_long:0 "Ligue démocratique de Chine" # [LocEditor:CustomLanguageKey]
- XSM_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- XSM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- GRE_democratic_party_long:0 "Filelefthéron Prosfygikón Kómma" # [LocEditor:CustomLanguageKey]
- IRQ_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BEL_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- PER_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- PER_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- COL_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- CZE_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- CHL_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BOL_communism_party:0 "POR" # [LocEditor:CustomLanguageKey]
- BOL_communism_party_long:0 "Partido Obrero Revolucionario" # [LocEditor:CustomLanguageKey]
- NIC_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- NIC_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- NIC_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- COS_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- COS_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- ELS_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- ELS_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- ELS_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- GUA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- GUA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- GUA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SIA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SIA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SIA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- URG_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- URG_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- PRU_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- PRU_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- AFG_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- AFG_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- AFG_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- LUX_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BHU_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BHU_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BHU_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SLO_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SLO_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- ECU_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- ECU_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- HON_democratic_party_long:0 "Partido Liberal de Honduras" # [LocEditor:CustomLanguageKey]
- HON_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- HON_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- NEP_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- NEP_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- NEP_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- PAN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- PAN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- PHI_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SAU_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SAU_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SAU_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- YEM_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- YEM_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- YEM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- OMA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- OMA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- OMA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SIK_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SIK_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SIK_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- TIB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- TIB_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- TIB_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- YUN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- YUN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MON_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MON_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MON_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- TAN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- TAN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- TAN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- PAR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- PAR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- PAR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- CUB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- CUB_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- DOM_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- DOM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- DOM_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- HAI_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- HAI_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- LEB_communism_party_long:0 "Ligue des communistes libanais" # [LocEditor:CustomLanguageKey]
- JOR_communism_party_long:0 "Société des travailleurs jordaniens" # [LocEditor:CustomLanguageKey]
- EGY_communism_party_long:0 "Parti communiste d'Égypte" # [LocEditor:CustomLanguageKey]
- EGY_democratic_party_long:0 "Rassemblement pour la libération" # [LocEditor:CustomLanguageKey]
- VIN_fascism_party_long:0 "Ligue pour la restauration du Vietnam" # [LocEditor:CustomLanguageKey]
- VIN_communism_party_long:0 "Parti communiste vietnamien" # [LocEditor:CustomLanguageKey]
- VIN_neutrality_party_long:0 "Viêt Nam Quôc Dân Đáng" # [LocEditor:CustomLanguageKey]
- CAM_communism_party_long:0 "Parti communiste du Kampuchéa" # [LocEditor:CustomLanguageKey]
- INS_democratic_party_long:0 "Partai Nasional Indonesia" # [LocEditor:CustomLanguageKey]
- INS_communism_party_long:0 "Partai Komunis Indonesia" # [LocEditor:CustomLanguageKey]
- MAL_fascism_party_long:0 "Unionistes panocéaniques" # [LocEditor:CustomLanguageKey]
- MAL_democratic_party_long:0 "Organisation nationale des Malais unis" # [LocEditor:CustomLanguageKey]
- MAL_communism_party_long:0 "Parti communiste de Malaisie" # [LocEditor:CustomLanguageKey]
- LAO_fascism_party_long:0 "Parti de la centralisation tribale" # [LocEditor:CustomLanguageKey]
- MNT_communism_party_long:0 "Parti communiste du Monténégro" # [LocEditor:CustomLanguageKey]
- UKR_fascism_party_long:0 "Organisation des nationalistes ukrainiens" # [LocEditor:CustomLanguageKey]
- UKR_democratic_party_long:0 "Alliance nationale démocratique ukrainienne" # [LocEditor:CustomLanguageKey]
- UKR_communism_party_long:0 "Parti communiste d'Ukraine" # [LocEditor:CustomLanguageKey]
- UKR_neutrality_party_long:0 "Parti du progrès ukrainien" # [LocEditor:CustomLanguageKey]
- GEO_democratic_party_long:0 "Parti ouvrier social-démocrate géorgien" # [LocEditor:CustomLanguageKey]
- GEO_communism_party_long:0 "Parti communiste de Géorgie" # [LocEditor:CustomLanguageKey]
- KAZ_communism_party_long:0 "Parti communiste du Kazakhstan" # [LocEditor:CustomLanguageKey]
- AZR_fascism_party_long:0 "Clique des chevaux de feu" # [LocEditor:CustomLanguageKey]
- AZR_communism_party_long:0 "Parti communiste d'Azerbaïdjan" # [LocEditor:CustomLanguageKey]
- ARM_democratic_party_long:0 "Fédération révolutionnaire arménienne" # [LocEditor:CustomLanguageKey]
- ARM_communism_party_long:0 "Hayastani Komunistakan Kusaktsutyun" # [LocEditor:CustomLanguageKey]
- BLR_fascism_party_long:0 "Conseil central biélorusse" # [LocEditor:CustomLanguageKey]
- BLR_democratic_party_long:0 "Démocratie chrétienne biélorusse" # [LocEditor:CustomLanguageKey]
- BLR_communism_party_long:0 "Parti communiste biélorusse" # [LocEditor:CustomLanguageKey]
- BLR_neutrality_party_long:0 "Assemblée socialiste biélorusse" # [LocEditor:CustomLanguageKey]
- PAK_communism_party_long:0 "Parti socialiste du Pakistan" # [LocEditor:CustomLanguageKey]
- PAK_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- PRC_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- PRC_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SHX_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SHX_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- GXC_neutrality_party_long:0 "Nouvelle clique du Guangxi" # [LocEditor:CustomLanguageKey]
- GXC_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- GXC_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MAN_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MAN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MAN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- FSM_neutrality_party:0 "Parti micronésien" # [LocEditor:CustomLanguageKey]
- FSM_neutrality_party_long:0 "Parti micronésien" # [LocEditor:CustomLanguageKey]
- GUM_neutrality_party:0 "Parti mariannais" # [LocEditor:CustomLanguageKey]
- GUM_neutrality_party_long:0 "Parti mariannais" # [LocEditor:CustomLanguageKey]
- CRO_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- TRA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- TRA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- TRA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- KAR_democratic_party_long:0 "Fidèles de Väinämöinen" # [LocEditor:CustomLanguageKey]
- YAK_neutrality_party_long:0 "Armée russe blanche" # [LocEditor:CustomLanguageKey]
- ABK_neutrality_party_long:0 "Mouvement des militaires abkhazes" # [LocEditor:CustomLanguageKey]
- ADU_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- ADU_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- ADU_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- ADU_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- ALG_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- ALG_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- ALG_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- ALG_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- ANG_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- ANG_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- ANG_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- ANG_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BAH_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BAH_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BAH_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BAH_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BAN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BAN_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BAN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BAN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BAS_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BAS_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BAS_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BAS_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BAY_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BAY_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BAY_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BAY_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BLZ_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BLZ_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BLZ_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BLZ_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BOS_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BOS_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BOS_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BOS_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BOT_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BOT_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BOT_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BOT_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BRD_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BRD_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BRD_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BRD_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- BRM_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- BRM_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- BRM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- BRM_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- CAR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- CAR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- CAR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- CAR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- CAY_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- CAY_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- CAY_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- CAY_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- CHA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- CHA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- CHA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- CHA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- CMR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- CMR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- CMR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- CMR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- COG_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- COG_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- COG_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- COG_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- COR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- COR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- COR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- COR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- CRC_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- CRC_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- CRC_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- CRC_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- CSA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- CSA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- CSA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- CSA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- CYP_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- CYP_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- CYP_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- CYP_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- DAH_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- DAH_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- DAH_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- DAH_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- DDR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- DDR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- DDR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- DDR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- DJI_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- DJI_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- DJI_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- DJI_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- DON_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- DON_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- DON_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- DON_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- EQG_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- EQG_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- EQG_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- EQG_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- ERI_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- ERI_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- ERI_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- ERI_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- FIJ_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- FIJ_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- FIJ_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- FIJ_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- GAB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- GAB_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- GAB_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- GAB_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- GAM_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- GAM_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- GAM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- GAM_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- GDL_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- GDL_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- GDL_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- GDL_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- GHA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- GHA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- GHA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- GHA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- GNA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- GNA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- GNA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- GNA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- GNB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- GNB_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- GNB_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- GNB_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- GYA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- GYA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- GYA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- GYA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- HAN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- HAN_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- HAN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- HAN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- HRZ_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- HRZ_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- HRZ_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- HRZ_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- IVO_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- IVO_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- IVO_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- IVO_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- JAM_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- JAM_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- JAM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- JAM_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- KEN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- KEN_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- KEN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- KEN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- KOS_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- KOS_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- KOS_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- KOS_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- KSH_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- KSH_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- KSH_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- KSH_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- KUB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- KUB_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- KUB_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- KUB_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- KUW_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- KUW_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- KUW_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- KUW_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- KYR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- KYR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- KYR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- KYR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- LBA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- LBA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- LBA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- LBA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- LIB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- LIB_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- LIB_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- LIB_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MAC_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MAC_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MAC_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MAC_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MAD_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MAD_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MAD_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MAD_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MEK_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MEK_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MEK_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MEK_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MEN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MEN_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MEN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MEN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MLD_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MLD_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MLD_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MLD_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MLI_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MLI_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MLI_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MLI_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MLT_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MLT_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MLT_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MLT_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MLW_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MLW_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MLW_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MLW_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MOL_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MOL_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MOL_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MOL_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MOR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MOR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MOR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MOR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MRT_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MRT_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MRT_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MRT_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- MZB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- MZB_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- MZB_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- MZB_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- NGA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- NGA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- NGA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- NGA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- NGR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- NGR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- NGR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- NGR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- NIR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- NIR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- NIR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- NIR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- NMB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- NMB_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- NMB_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- NMB_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- OCC_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- OCC_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- OCC_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- OCC_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- PNG_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- PNG_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- PNG_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- PNG_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- PRE_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- PRE_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- PRE_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- PRE_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- PUE_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- PUE_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- PUE_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- PUE_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- QAT_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- QAT_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- QAT_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- QAT_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- RCG_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- RCG_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- RCG_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- RCG_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- RWA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- RWA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- RWA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- RWA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SAM_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SAM_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SAM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SAM_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SAX_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SAX_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SAX_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SAX_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SCO_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SCO_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SCO_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SCO_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SEN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SEN_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SEN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SEN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SHL_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SHL_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SHL_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SHL_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SIE_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SIE_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SIE_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SIE_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SIL_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SIL_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SIL_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SIL_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SLV_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SLV_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SLV_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SLV_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SOM_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SOM_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SOM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SOM_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SRL_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SRL_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SRL_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SRL_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SUD_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SUD_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SUD_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SUD_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- SUR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- SUR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- SUR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- SUR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- TAJ_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- TAJ_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- TAJ_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- TAJ_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- TMS_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- TMS_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- TMS_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- TMS_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- TOG_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- TOG_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- TOG_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- TOG_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- TRI_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- TRI_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- TRI_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- TRI_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- TUN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- TUN_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- TUN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- TUN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- TZN_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- TZN_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- TZN_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- TZN_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- UAE_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- UAE_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- UAE_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- UAE_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- UGA_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- UGA_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- UGA_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- UGA_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- USB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- USB_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- USB_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- USB_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- UZB_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- UZB_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- UZB_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- UZB_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- vojvodina_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- vojvodina_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- vojvodina_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- vojvodina_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- VOL_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- VOL_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- VOL_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- VOL_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- WES_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- WES_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- WES_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- WES_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- WGR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- WGR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- WGR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- WGR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- WLS_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- WLS_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- WLS_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- WLS_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- WUR_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- WUR_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- WUR_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- WUR_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- ZAM_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- ZAM_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- ZAM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- ZAM_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- ZIM_fascism_party:0 "Parti fasciste" # [LocEditor:CustomLanguageKey]
- ZIM_communism_party:0 "Parti communiste" # [LocEditor:CustomLanguageKey]
- ZIM_democratic_party:0 "Parti démocratique" # [LocEditor:CustomLanguageKey]
- ZIM_neutrality_party:0 "Parti non-aligné" # [LocEditor:CustomLanguageKey]
- KHA_neutrality_party_long:0 "Comité régional khakasse" # [LocEditor:CustomLanguageKey]
- AOI_communism_party_long:0 "$ITA_communism_party_long$" # [LocEditor:CustomLanguageKey]
- AOI_democratic_party_long:0 "$ITA_democratic_party_long$" # [LocEditor:CustomLanguageKey]
- AOI_fascism_party_long:0 "$ITA_fascism_party_long$" # [LocEditor:CustomLanguageKey]
- AOI_neutrality_party_long:0 "$ITA_neutrality_party_long$" # [LocEditor:CustomLanguageKey]
- LBV_communism_party_long:0 "Parti populaire de Transpadanie" # [LocEditor:CustomLanguageKey]
- LBV_democratic_party_long:0 "Parti populaire de Vénétie" # [LocEditor:CustomLanguageKey]
- LBV_fascism_party_long:0 "Parti unitariste cisalpin" # [LocEditor:CustomLanguageKey]
- PAP_communism_party_long:0 "Parti populaire romain" # [LocEditor:CustomLanguageKey]
- PAP_democratic_party_long:0 "Parti républicain romain" # [LocEditor:CustomLanguageKey]
- TOS_communism_party_long:0 "Parti bolchévique toscan" # [LocEditor:CustomLanguageKey]
- TOS_democratic_party_long:0 "Union démocratique toscane" # [LocEditor:CustomLanguageKey]
- SPM_communism_party_long:0 "Parti populaire cisalpin" # [LocEditor:CustomLanguageKey]
- SPM_democratic_party_long:0 "Parti démocrate savoyard" # [LocEditor:CustomLanguageKey]
- SPM_fascism_party_long:0 "Parti restaurationniste savoyard" # [LocEditor:CustomLanguageKey]
- SPM_neutrality_party_long:0 "Parti monarchiste piémontais" # [LocEditor:CustomLanguageKey]
- TTS_communism_party_long:0 "Parti pour l'union du Mezzogiorno" # [LocEditor:CustomLanguageKey]
- TTS_democratic_party_long:0 "Parti républicain napolitain" # [LocEditor:CustomLanguageKey]
- TTS_fascism_party_long:0 "Parti fasciste parthénopéen" # [LocEditor:CustomLanguageKey]
+ transylvania_fascism_party_long:0 "Parti fasciste"
+ transylvania_fascism_party:0 "Parti fasciste"
+ 
+ 
 
- 
- 
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ GER_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ GER_neutrality_party:1 "Parti non-aligné"
+ ENG_communism_party_long:0 "Parti communiste de Grande-Bretagne"
+ ENG_fascism_party_long:0 "Union britannique des fascistes"
+ ENG_neutrality_party:0 "Parti non-aligné"
+ JAP_neutrality_party:0 "Parti non-aligné"
+ USA_communism_party_long:0 "Parti communiste des États-Unis"
+ USA_fascism_party_long:0 "Légion d'argent de l'Amérique"
+ USA_neutrality_party:0 "Parti non-aligné"
+ FRA_communism_party_long:0 "Parti communiste français"
+ FRA_neutrality_party:0 "Action française"
+ FRA_SFIO:0 "SFIO"
+ FRA_SFIO_long:0 "Section française de l'Internationale ouvrière"
+ SOV_communism_party_long:0 "Parti communiste de l'Union soviétique"
+ SOV_fascism_party_long:0 "Parti fasciste russe"
+ SOV_neutrality_party:0 "Parti non-aligné"
+ AUS_fascism_party_long:1 "Deutsche Nationalsozialistische Arbeiterpartei"
+ CHI_democratic_party_long:0 "Ligue démocratique de Chine"
+ XSM_fascism_party:0 "Parti fasciste"
+ XSM_democratic_party:0 "Parti démocratique"
+ GRE_democratic_party_long:0 "Filelefthéron Prosfygikón Kómma"
+ IRQ_democratic_party:0 "Parti démocratique"
+ BEL_neutrality_party:0 "Parti non-aligné"
+ PER_fascism_party:0 "Parti fasciste"
+ PER_democratic_party:0 "Parti démocratique"
+ COL_fascism_party:0 "Parti fasciste"
+ CZE_neutrality_party:0 "Parti non-aligné"
+ CHL_neutrality_party:0 "Parti non-aligné"
+ BOL_communism_party:0 "POR"
+ BOL_communism_party_long:0 "Partido Obrero Revolucionario"
+ NIC_fascism_party:0 "Parti fasciste"
+ NIC_communism_party:0 "Parti communiste"
+ NIC_neutrality_party:0 "Parti non-aligné"
+ COS_fascism_party:0 "Parti fasciste"
+ COS_neutrality_party:0 "Parti non-aligné"
+ ELS_communism_party:0 "Parti communiste"
+ ELS_democratic_party:0 "Parti démocratique"
+ ELS_neutrality_party:0 "Parti non-aligné"
+ GUA_fascism_party:0 "Parti fasciste"
+ GUA_communism_party:0 "Parti communiste"
+ GUA_neutrality_party:0 "Parti non-aligné"
+ SIA_fascism_party:0 "Parti fasciste"
+ SIA_communism_party:0 "Parti communiste"
+ SIA_democratic_party:0 "Parti démocratique"
+ URG_fascism_party:0 "Parti fasciste"
+ URG_neutrality_party:0 "Parti non-aligné"
+ PRU_democratic_party:0 "Parti démocratique"
+ PRU_neutrality_party:0 "Parti non-aligné"
+ AFG_fascism_party:0 "Parti fasciste"
+ AFG_communism_party:0 "Parti communiste"
+ AFG_democratic_party:0 "Parti démocratique"
+ LUX_neutrality_party:0 "Parti non-aligné"
+ BHU_fascism_party:0 "Parti fasciste"
+ BHU_communism_party:0 "Parti communiste"
+ BHU_democratic_party:0 "Parti démocratique"
+ SLO_democratic_party:0 "Parti démocratique"
+ SLO_neutrality_party:0 "Parti non-aligné"
+ ECU_fascism_party:0 "Parti fasciste"
+ ECU_neutrality_party:0 "Parti non-aligné"
+ HON_democratic_party_long:0 "Partido Liberal de Honduras"
+ HON_fascism_party:0 "Parti fasciste"
+ HON_neutrality_party:0 "Parti non-aligné"
+ NEP_fascism_party:0 "Parti fasciste"
+ NEP_communism_party:0 "Parti communiste"
+ NEP_democratic_party:0 "Parti démocratique"
+ PAN_fascism_party:0 "Parti fasciste"
+ PAN_neutrality_party:0 "Parti non-aligné"
+ PHI_neutrality_party:0 "Parti non-aligné"
+ SAU_fascism_party:0 "Parti fasciste"
+ SAU_communism_party:0 "Parti communiste"
+ SAU_democratic_party:0 "Parti démocratique"
+ YEM_fascism_party:0 "Parti fasciste"
+ YEM_communism_party:0 "Parti communiste"
+ YEM_democratic_party:0 "Parti démocratique"
+ OMA_fascism_party:0 "Parti fasciste"
+ OMA_communism_party:0 "Parti communiste"
+ OMA_democratic_party:0 "Parti démocratique"
+ SIK_fascism_party:0 "Parti fasciste"
+ SIK_democratic_party:0 "Parti démocratique"
+ SIK_neutrality_party:0 "Parti non-aligné"
+ TIB_fascism_party:0 "Parti fasciste"
+ TIB_communism_party:0 "Parti communiste"
+ TIB_democratic_party:0 "Parti démocratique"
+ YUN_fascism_party:0 "Parti fasciste"
+ YUN_democratic_party:0 "Parti démocratique"
+ MON_fascism_party:0 "Parti fasciste"
+ MON_democratic_party:0 "Parti démocratique"
+ MON_neutrality_party:0 "Parti non-aligné"
+ TAN_fascism_party:0 "Parti fasciste"
+ TAN_democratic_party:0 "Parti démocratique"
+ TAN_neutrality_party:0 "Parti non-aligné"
+ PAR_fascism_party:0 "Parti fasciste"
+ PAR_democratic_party:0 "Parti démocratique"
+ PAR_neutrality_party:0 "Parti non-aligné"
+ CUB_fascism_party:0 "Parti fasciste"
+ CUB_neutrality_party:0 "Parti non-aligné"
+ DOM_communism_party:0 "Parti communiste"
+ DOM_democratic_party:0 "Parti démocratique"
+ DOM_neutrality_party:0 "Parti non-aligné"
+ HAI_fascism_party:0 "Parti fasciste"
+ HAI_neutrality_party:0 "Parti non-aligné"
+ LEB_communism_party_long:0 "Ligue des communistes libanais"
+ JOR_communism_party_long:0 "Société des travailleurs jordaniens"
+ EGY_communism_party_long:0 "Parti communiste d'Égypte"
+ EGY_democratic_party_long:0 "Rassemblement pour la libération"
+ VIN_fascism_party_long:0 "Ligue pour la restauration du Vietnam"
+ VIN_communism_party_long:0 "Parti communiste vietnamien"
+ VIN_neutrality_party_long:0 "Viêt Nam Quôc Dân Đáng"
+ CAM_communism_party_long:0 "Parti communiste du Kampuchéa"
+ INS_democratic_party_long:0 "Partai Nasional Indonesia"
+ INS_communism_party_long:0 "Partai Komunis Indonesia"
+ MAL_fascism_party_long:0 "Unionistes panocéaniques"
+ MAL_democratic_party_long:0 "Organisation nationale des Malais unis"
+ MAL_communism_party_long:0 "Parti communiste de Malaisie"
+ LAO_fascism_party_long:0 "Parti de la centralisation tribale"
+ MNT_communism_party_long:0 "Parti communiste du Monténégro"
+ UKR_fascism_party_long:0 "Organisation des nationalistes ukrainiens"
+ UKR_democratic_party_long:0 "Alliance nationale démocratique ukrainienne"
+ UKR_communism_party_long:0 "Parti communiste d'Ukraine"
+ UKR_neutrality_party_long:0 "Parti du progrès ukrainien"
+ GEO_democratic_party_long:0 "Parti ouvrier social-démocrate géorgien"
+ GEO_communism_party_long:0 "Parti communiste de Géorgie"
+ KAZ_communism_party_long:0 "Parti communiste du Kazakhstan"
+ AZR_fascism_party_long:0 "Clique des chevaux de feu"
+ AZR_communism_party_long:0 "Parti communiste d'Azerbaïdjan"
+ ARM_democratic_party_long:0 "Fédération révolutionnaire arménienne"
+ ARM_communism_party_long:0 "Hayastani Komunistakan Kusaktsutyun"
+ BLR_fascism_party_long:0 "Conseil central biélorusse"
+ BLR_democratic_party_long:0 "Démocratie chrétienne biélorusse"
+ BLR_communism_party_long:0 "Parti communiste biélorusse"
+ BLR_neutrality_party_long:0 "Assemblée socialiste biélorusse"
+ PAK_communism_party_long:0 "Parti socialiste du Pakistan"
+ PAK_fascism_party:0 "Parti fasciste"
+ PRC_fascism_party:0 "Parti fasciste"
+ PRC_neutrality_party:0 "Parti non-aligné"
+ SHX_fascism_party:0 "Parti fasciste"
+ SHX_democratic_party:0 "Parti démocratique"
+ GXC_neutrality_party_long:0 "Nouvelle clique du Guangxi"
+ GXC_fascism_party:0 "Parti fasciste"
+ GXC_democratic_party:0 "Parti démocratique"
+ MAN_communism_party:0 "Parti communiste"
+ MAN_democratic_party:0 "Parti démocratique"
+ MAN_neutrality_party:0 "Parti non-aligné"
+ FSM_neutrality_party:0 "Parti micronésien"
+ FSM_neutrality_party_long:0 "Parti micronésien"
+ GUM_neutrality_party:0 "Parti mariannais"
+ GUM_neutrality_party_long:0 "Parti mariannais"
+ CRO_neutrality_party:0 "Parti non-aligné"
+ TRA_communism_party:0 "Parti communiste"
+ TRA_democratic_party:0 "Parti démocratique"
+ TRA_neutrality_party:0 "Parti non-aligné"
+ KAR_democratic_party_long:0 "Fidèles de Väinämöinen"
+ YAK_neutrality_party_long:0 "Armée russe blanche"
+ ABK_neutrality_party_long:0 "Mouvement des militaires abkhazes"
+ ADU_fascism_party:0 "Parti fasciste"
+ ADU_communism_party:0 "Parti communiste"
+ ADU_democratic_party:0 "Parti démocratique"
+ ADU_neutrality_party:0 "Parti non-aligné"
+ ALG_fascism_party:0 "Parti fasciste"
+ ALG_communism_party:0 "Parti communiste"
+ ALG_democratic_party:0 "Parti démocratique"
+ ALG_neutrality_party:0 "Parti non-aligné"
+ ANG_fascism_party:0 "Parti fasciste"
+ ANG_communism_party:0 "Parti communiste"
+ ANG_democratic_party:0 "Parti démocratique"
+ ANG_neutrality_party:0 "Parti non-aligné"
+ BAH_fascism_party:0 "Parti fasciste"
+ BAH_communism_party:0 "Parti communiste"
+ BAH_democratic_party:0 "Parti démocratique"
+ BAH_neutrality_party:0 "Parti non-aligné"
+ BAN_fascism_party:0 "Parti fasciste"
+ BAN_communism_party:0 "Parti communiste"
+ BAN_democratic_party:0 "Parti démocratique"
+ BAN_neutrality_party:0 "Parti non-aligné"
+ BAS_fascism_party:0 "Parti fasciste"
+ BAS_communism_party:0 "Parti communiste"
+ BAS_democratic_party:0 "Parti démocratique"
+ BAS_neutrality_party:0 "Parti non-aligné"
+ BAY_fascism_party:0 "Parti fasciste"
+ BAY_communism_party:0 "Parti communiste"
+ BAY_democratic_party:0 "Parti démocratique"
+ BAY_neutrality_party:0 "Parti non-aligné"
+ BLZ_fascism_party:0 "Parti fasciste"
+ BLZ_communism_party:0 "Parti communiste"
+ BLZ_democratic_party:0 "Parti démocratique"
+ BLZ_neutrality_party:0 "Parti non-aligné"
+ BOS_fascism_party:0 "Parti fasciste"
+ BOS_communism_party:0 "Parti communiste"
+ BOS_democratic_party:0 "Parti démocratique"
+ BOS_neutrality_party:0 "Parti non-aligné"
+ BOT_fascism_party:0 "Parti fasciste"
+ BOT_communism_party:0 "Parti communiste"
+ BOT_democratic_party:0 "Parti démocratique"
+ BOT_neutrality_party:0 "Parti non-aligné"
+ BRD_fascism_party:0 "Parti fasciste"
+ BRD_communism_party:0 "Parti communiste"
+ BRD_democratic_party:0 "Parti démocratique"
+ BRD_neutrality_party:0 "Parti non-aligné"
+ BRM_fascism_party:0 "Parti fasciste"
+ BRM_communism_party:0 "Parti communiste"
+ BRM_democratic_party:0 "Parti démocratique"
+ BRM_neutrality_party:0 "Parti non-aligné"
+ CAR_fascism_party:0 "Parti fasciste"
+ CAR_communism_party:0 "Parti communiste"
+ CAR_democratic_party:0 "Parti démocratique"
+ CAR_neutrality_party:0 "Parti non-aligné"
+ CAY_fascism_party:0 "Parti fasciste"
+ CAY_communism_party:0 "Parti communiste"
+ CAY_democratic_party:0 "Parti démocratique"
+ CAY_neutrality_party:0 "Parti non-aligné"
+ CHA_fascism_party:0 "Parti fasciste"
+ CHA_communism_party:0 "Parti communiste"
+ CHA_democratic_party:0 "Parti démocratique"
+ CHA_neutrality_party:0 "Parti non-aligné"
+ CMR_fascism_party:0 "Parti fasciste"
+ CMR_communism_party:0 "Parti communiste"
+ CMR_democratic_party:0 "Parti démocratique"
+ CMR_neutrality_party:0 "Parti non-aligné"
+ COG_fascism_party:0 "Parti fasciste"
+ COG_communism_party:0 "Parti communiste"
+ COG_democratic_party:0 "Parti démocratique"
+ COG_neutrality_party:0 "Parti non-aligné"
+ COR_fascism_party:0 "Parti fasciste"
+ COR_communism_party:0 "Parti communiste"
+ COR_democratic_party:0 "Parti démocratique"
+ COR_neutrality_party:0 "Parti non-aligné"
+ CRC_fascism_party:0 "Parti fasciste"
+ CRC_communism_party:0 "Parti communiste"
+ CRC_democratic_party:0 "Parti démocratique"
+ CRC_neutrality_party:0 "Parti non-aligné"
+ CSA_fascism_party:0 "Parti fasciste"
+ CSA_communism_party:0 "Parti communiste"
+ CSA_democratic_party:0 "Parti démocratique"
+ CSA_neutrality_party:0 "Parti non-aligné"
+ CYP_fascism_party:0 "Parti fasciste"
+ CYP_communism_party:0 "Parti communiste"
+ CYP_democratic_party:0 "Parti démocratique"
+ CYP_neutrality_party:0 "Parti non-aligné"
+ DAH_fascism_party:0 "Parti fasciste"
+ DAH_communism_party:0 "Parti communiste"
+ DAH_democratic_party:0 "Parti démocratique"
+ DAH_neutrality_party:0 "Parti non-aligné"
+ DDR_fascism_party:0 "Parti fasciste"
+ DDR_communism_party:0 "Parti communiste"
+ DDR_democratic_party:0 "Parti démocratique"
+ DDR_neutrality_party:0 "Parti non-aligné"
+ DJI_fascism_party:0 "Parti fasciste"
+ DJI_communism_party:0 "Parti communiste"
+ DJI_democratic_party:0 "Parti démocratique"
+ DJI_neutrality_party:0 "Parti non-aligné"
+ DON_fascism_party:0 "Parti fasciste"
+ DON_communism_party:0 "Parti communiste"
+ DON_democratic_party:0 "Parti démocratique"
+ DON_neutrality_party:0 "Parti non-aligné"
+ EQG_fascism_party:0 "Parti fasciste"
+ EQG_communism_party:0 "Parti communiste"
+ EQG_democratic_party:0 "Parti démocratique"
+ EQG_neutrality_party:0 "Parti non-aligné"
+ ERI_fascism_party:0 "Parti fasciste"
+ ERI_communism_party:0 "Parti communiste"
+ ERI_democratic_party:0 "Parti démocratique"
+ ERI_neutrality_party:0 "Parti non-aligné"
+ FIJ_fascism_party:0 "Parti fasciste"
+ FIJ_communism_party:0 "Parti communiste"
+ FIJ_democratic_party:0 "Parti démocratique"
+ FIJ_neutrality_party:0 "Parti non-aligné"
+ GAB_fascism_party:0 "Parti fasciste"
+ GAB_communism_party:0 "Parti communiste"
+ GAB_democratic_party:0 "Parti démocratique"
+ GAB_neutrality_party:0 "Parti non-aligné"
+ GAM_fascism_party:0 "Parti fasciste"
+ GAM_communism_party:0 "Parti communiste"
+ GAM_democratic_party:0 "Parti démocratique"
+ GAM_neutrality_party:0 "Parti non-aligné"
+ GDL_fascism_party:0 "Parti fasciste"
+ GDL_communism_party:0 "Parti communiste"
+ GDL_democratic_party:0 "Parti démocratique"
+ GDL_neutrality_party:0 "Parti non-aligné"
+ GHA_fascism_party:0 "Parti fasciste"
+ GHA_communism_party:0 "Parti communiste"
+ GHA_democratic_party:0 "Parti démocratique"
+ GHA_neutrality_party:0 "Parti non-aligné"
+ GNA_fascism_party:0 "Parti fasciste"
+ GNA_communism_party:0 "Parti communiste"
+ GNA_democratic_party:0 "Parti démocratique"
+ GNA_neutrality_party:0 "Parti non-aligné"
+ GNB_fascism_party:0 "Parti fasciste"
+ GNB_communism_party:0 "Parti communiste"
+ GNB_democratic_party:0 "Parti démocratique"
+ GNB_neutrality_party:0 "Parti non-aligné"
+ GYA_fascism_party:0 "Parti fasciste"
+ GYA_communism_party:0 "Parti communiste"
+ GYA_democratic_party:0 "Parti démocratique"
+ GYA_neutrality_party:0 "Parti non-aligné"
+ HAN_fascism_party:0 "Parti fasciste"
+ HAN_communism_party:0 "Parti communiste"
+ HAN_democratic_party:0 "Parti démocratique"
+ HAN_neutrality_party:0 "Parti non-aligné"
+ HRZ_fascism_party:0 "Parti fasciste"
+ HRZ_communism_party:0 "Parti communiste"
+ HRZ_democratic_party:0 "Parti démocratique"
+ HRZ_neutrality_party:0 "Parti non-aligné"
+ IVO_fascism_party:0 "Parti fasciste"
+ IVO_communism_party:0 "Parti communiste"
+ IVO_democratic_party:0 "Parti démocratique"
+ IVO_neutrality_party:0 "Parti non-aligné"
+ JAM_fascism_party:0 "Parti fasciste"
+ JAM_communism_party:0 "Parti communiste"
+ JAM_democratic_party:0 "Parti démocratique"
+ JAM_neutrality_party:0 "Parti non-aligné"
+ KEN_fascism_party:0 "Parti fasciste"
+ KEN_communism_party:0 "Parti communiste"
+ KEN_democratic_party:0 "Parti démocratique"
+ KEN_neutrality_party:0 "Parti non-aligné"
+ KOS_fascism_party:0 "Parti fasciste"
+ KOS_communism_party:0 "Parti communiste"
+ KOS_democratic_party:0 "Parti démocratique"
+ KOS_neutrality_party:0 "Parti non-aligné"
+ KSH_fascism_party:0 "Parti fasciste"
+ KSH_communism_party:0 "Parti communiste"
+ KSH_democratic_party:0 "Parti démocratique"
+ KSH_neutrality_party:0 "Parti non-aligné"
+ KUB_fascism_party:0 "Parti fasciste"
+ KUB_communism_party:0 "Parti communiste"
+ KUB_democratic_party:0 "Parti démocratique"
+ KUB_neutrality_party:0 "Parti non-aligné"
+ KUW_fascism_party:0 "Parti fasciste"
+ KUW_communism_party:0 "Parti communiste"
+ KUW_democratic_party:0 "Parti démocratique"
+ KUW_neutrality_party:0 "Parti non-aligné"
+ KYR_fascism_party:0 "Parti fasciste"
+ KYR_communism_party:0 "Parti communiste"
+ KYR_democratic_party:0 "Parti démocratique"
+ KYR_neutrality_party:0 "Parti non-aligné"
+ LBA_fascism_party:0 "Parti fasciste"
+ LBA_communism_party:0 "Parti communiste"
+ LBA_democratic_party:0 "Parti démocratique"
+ LBA_neutrality_party:0 "Parti non-aligné"
+ LIB_fascism_party:0 "Parti fasciste"
+ LIB_communism_party:0 "Parti communiste"
+ LIB_democratic_party:0 "Parti démocratique"
+ LIB_neutrality_party:0 "Parti non-aligné"
+ MAC_fascism_party:0 "Parti fasciste"
+ MAC_communism_party:0 "Parti communiste"
+ MAC_democratic_party:0 "Parti démocratique"
+ MAC_neutrality_party:0 "Parti non-aligné"
+ MAD_fascism_party:0 "Parti fasciste"
+ MAD_communism_party:0 "Parti communiste"
+ MAD_democratic_party:0 "Parti démocratique"
+ MAD_neutrality_party:0 "Parti non-aligné"
+ MEK_fascism_party:0 "Parti fasciste"
+ MEK_communism_party:0 "Parti communiste"
+ MEK_democratic_party:0 "Parti démocratique"
+ MEK_neutrality_party:0 "Parti non-aligné"
+ MEN_fascism_party:0 "Parti fasciste"
+ MEN_communism_party:0 "Parti communiste"
+ MEN_democratic_party:0 "Parti démocratique"
+ MEN_neutrality_party:0 "Parti non-aligné"
+ MLD_fascism_party:0 "Parti fasciste"
+ MLD_communism_party:0 "Parti communiste"
+ MLD_democratic_party:0 "Parti démocratique"
+ MLD_neutrality_party:0 "Parti non-aligné"
+ MLI_fascism_party:0 "Parti fasciste"
+ MLI_communism_party:0 "Parti communiste"
+ MLI_democratic_party:0 "Parti démocratique"
+ MLI_neutrality_party:0 "Parti non-aligné"
+ MLT_fascism_party:0 "Parti fasciste"
+ MLT_communism_party:0 "Parti communiste"
+ MLT_democratic_party:0 "Parti démocratique"
+ MLT_neutrality_party:0 "Parti non-aligné"
+ MLW_fascism_party:0 "Parti fasciste"
+ MLW_communism_party:0 "Parti communiste"
+ MLW_democratic_party:0 "Parti démocratique"
+ MLW_neutrality_party:0 "Parti non-aligné"
+ MOL_fascism_party:0 "Parti fasciste"
+ MOL_communism_party:0 "Parti communiste"
+ MOL_democratic_party:0 "Parti démocratique"
+ MOL_neutrality_party:0 "Parti non-aligné"
+ MOR_fascism_party:0 "Parti fasciste"
+ MOR_communism_party:0 "Parti communiste"
+ MOR_democratic_party:0 "Parti démocratique"
+ MOR_neutrality_party:0 "Parti non-aligné"
+ MRT_fascism_party:0 "Parti fasciste"
+ MRT_communism_party:0 "Parti communiste"
+ MRT_democratic_party:0 "Parti démocratique"
+ MRT_neutrality_party:0 "Parti non-aligné"
+ MZB_fascism_party:0 "Parti fasciste"
+ MZB_communism_party:0 "Parti communiste"
+ MZB_democratic_party:0 "Parti démocratique"
+ MZB_neutrality_party:0 "Parti non-aligné"
+ NGA_fascism_party:0 "Parti fasciste"
+ NGA_communism_party:0 "Parti communiste"
+ NGA_democratic_party:0 "Parti démocratique"
+ NGA_neutrality_party:0 "Parti non-aligné"
+ NGR_fascism_party:0 "Parti fasciste"
+ NGR_communism_party:0 "Parti communiste"
+ NGR_democratic_party:0 "Parti démocratique"
+ NGR_neutrality_party:0 "Parti non-aligné"
+ NIR_fascism_party:0 "Parti fasciste"
+ NIR_communism_party:0 "Parti communiste"
+ NIR_democratic_party:0 "Parti démocratique"
+ NIR_neutrality_party:0 "Parti non-aligné"
+ NMB_fascism_party:0 "Parti fasciste"
+ NMB_communism_party:0 "Parti communiste"
+ NMB_democratic_party:0 "Parti démocratique"
+ NMB_neutrality_party:0 "Parti non-aligné"
+ OCC_fascism_party:0 "Parti fasciste"
+ OCC_communism_party:0 "Parti communiste"
+ OCC_democratic_party:0 "Parti démocratique"
+ OCC_neutrality_party:0 "Parti non-aligné"
+ PNG_fascism_party:0 "Parti fasciste"
+ PNG_communism_party:0 "Parti communiste"
+ PNG_democratic_party:0 "Parti démocratique"
+ PNG_neutrality_party:0 "Parti non-aligné"
+ PRE_fascism_party:0 "Parti fasciste"
+ PRE_communism_party:0 "Parti communiste"
+ PRE_democratic_party:0 "Parti démocratique"
+ PRE_neutrality_party:0 "Parti non-aligné"
+ PUE_fascism_party:0 "Parti fasciste"
+ PUE_communism_party:0 "Parti communiste"
+ PUE_democratic_party:0 "Parti démocratique"
+ PUE_neutrality_party:0 "Parti non-aligné"
+ QAT_fascism_party:0 "Parti fasciste"
+ QAT_communism_party:0 "Parti communiste"
+ QAT_democratic_party:0 "Parti démocratique"
+ QAT_neutrality_party:0 "Parti non-aligné"
+ RCG_fascism_party:0 "Parti fasciste"
+ RCG_communism_party:0 "Parti communiste"
+ RCG_democratic_party:0 "Parti démocratique"
+ RCG_neutrality_party:0 "Parti non-aligné"
+ RWA_fascism_party:0 "Parti fasciste"
+ RWA_communism_party:0 "Parti communiste"
+ RWA_democratic_party:0 "Parti démocratique"
+ RWA_neutrality_party:0 "Parti non-aligné"
+ SAM_fascism_party:0 "Parti fasciste"
+ SAM_communism_party:0 "Parti communiste"
+ SAM_democratic_party:0 "Parti démocratique"
+ SAM_neutrality_party:0 "Parti non-aligné"
+ SAX_fascism_party:0 "Parti fasciste"
+ SAX_communism_party:0 "Parti communiste"
+ SAX_democratic_party:0 "Parti démocratique"
+ SAX_neutrality_party:0 "Parti non-aligné"
+ SCO_fascism_party:0 "Parti fasciste"
+ SCO_communism_party:0 "Parti communiste"
+ SCO_democratic_party:0 "Parti démocratique"
+ SCO_neutrality_party:0 "Parti non-aligné"
+ SEN_fascism_party:0 "Parti fasciste"
+ SEN_communism_party:0 "Parti communiste"
+ SEN_democratic_party:0 "Parti démocratique"
+ SEN_neutrality_party:0 "Parti non-aligné"
+ SHL_fascism_party:0 "Parti fasciste"
+ SHL_communism_party:0 "Parti communiste"
+ SHL_democratic_party:0 "Parti démocratique"
+ SHL_neutrality_party:0 "Parti non-aligné"
+ SIE_fascism_party:0 "Parti fasciste"
+ SIE_communism_party:0 "Parti communiste"
+ SIE_democratic_party:0 "Parti démocratique"
+ SIE_neutrality_party:0 "Parti non-aligné"
+ SIL_fascism_party:0 "Parti fasciste"
+ SIL_communism_party:0 "Parti communiste"
+ SIL_democratic_party:0 "Parti démocratique"
+ SIL_neutrality_party:0 "Parti non-aligné"
+ SLV_fascism_party:0 "Parti fasciste"
+ SLV_communism_party:0 "Parti communiste"
+ SLV_democratic_party:0 "Parti démocratique"
+ SLV_neutrality_party:0 "Parti non-aligné"
+ SOM_fascism_party:0 "Parti fasciste"
+ SOM_communism_party:0 "Parti communiste"
+ SOM_democratic_party:0 "Parti démocratique"
+ SOM_neutrality_party:0 "Parti non-aligné"
+ SRL_fascism_party:0 "Parti fasciste"
+ SRL_communism_party:0 "Parti communiste"
+ SRL_democratic_party:0 "Parti démocratique"
+ SRL_neutrality_party:0 "Parti non-aligné"
+ SUD_fascism_party:0 "Parti fasciste"
+ SUD_communism_party:0 "Parti communiste"
+ SUD_democratic_party:0 "Parti démocratique"
+ SUD_neutrality_party:0 "Parti non-aligné"
+ SUR_fascism_party:0 "Parti fasciste"
+ SUR_communism_party:0 "Parti communiste"
+ SUR_democratic_party:0 "Parti démocratique"
+ SUR_neutrality_party:0 "Parti non-aligné"
+ TAJ_fascism_party:0 "Parti fasciste"
+ TAJ_communism_party:0 "Parti communiste"
+ TAJ_democratic_party:0 "Parti démocratique"
+ TAJ_neutrality_party:0 "Parti non-aligné"
+ TMS_fascism_party:0 "Parti fasciste"
+ TMS_communism_party:0 "Parti communiste"
+ TMS_democratic_party:0 "Parti démocratique"
+ TMS_neutrality_party:0 "Parti non-aligné"
+ TOG_fascism_party:0 "Parti fasciste"
+ TOG_communism_party:0 "Parti communiste"
+ TOG_democratic_party:0 "Parti démocratique"
+ TOG_neutrality_party:0 "Parti non-aligné"
+ TRI_fascism_party:0 "Parti fasciste"
+ TRI_communism_party:0 "Parti communiste"
+ TRI_democratic_party:0 "Parti démocratique"
+ TRI_neutrality_party:0 "Parti non-aligné"
+ TUN_fascism_party:0 "Parti fasciste"
+ TUN_communism_party:0 "Parti communiste"
+ TUN_democratic_party:0 "Parti démocratique"
+ TUN_neutrality_party:0 "Parti non-aligné"
+ TZN_fascism_party:0 "Parti fasciste"
+ TZN_communism_party:0 "Parti communiste"
+ TZN_democratic_party:0 "Parti démocratique"
+ TZN_neutrality_party:0 "Parti non-aligné"
+ UAE_fascism_party:0 "Parti fasciste"
+ UAE_communism_party:0 "Parti communiste"
+ UAE_democratic_party:0 "Parti démocratique"
+ UAE_neutrality_party:0 "Parti non-aligné"
+ UGA_fascism_party:0 "Parti fasciste"
+ UGA_communism_party:0 "Parti communiste"
+ UGA_democratic_party:0 "Parti démocratique"
+ UGA_neutrality_party:0 "Parti non-aligné"
+ USB_fascism_party:0 "Parti fasciste"
+ USB_communism_party:0 "Parti communiste"
+ USB_democratic_party:0 "Parti démocratique"
+ USB_neutrality_party:0 "Parti non-aligné"
+ UZB_fascism_party:0 "Parti fasciste"
+ UZB_communism_party:0 "Parti communiste"
+ UZB_democratic_party:0 "Parti démocratique"
+ UZB_neutrality_party:0 "Parti non-aligné"
+ vojvodina_neutrality_party:0 "Parti non-aligné"
+ vojvodina_fascism_party:0 "Parti fasciste"
+ vojvodina_democratic_party:0 "Parti démocratique"
+ vojvodina_communism_party:0 "Parti communiste"
+ VOL_fascism_party:0 "Parti fasciste"
+ VOL_communism_party:0 "Parti communiste"
+ VOL_democratic_party:0 "Parti démocratique"
+ VOL_neutrality_party:0 "Parti non-aligné"
+ WES_fascism_party:0 "Parti fasciste"
+ WES_communism_party:0 "Parti communiste"
+ WES_democratic_party:0 "Parti démocratique"
+ WES_neutrality_party:0 "Parti non-aligné"
+ WGR_fascism_party:0 "Parti fasciste"
+ WGR_communism_party:0 "Parti communiste"
+ WGR_democratic_party:0 "Parti démocratique"
+ WGR_neutrality_party:0 "Parti non-aligné"
+ WLS_fascism_party:0 "Parti fasciste"
+ WLS_communism_party:0 "Parti communiste"
+ WLS_democratic_party:0 "Parti démocratique"
+ WLS_neutrality_party:0 "Parti non-aligné"
+ WUR_fascism_party:0 "Parti fasciste"
+ WUR_communism_party:0 "Parti communiste"
+ WUR_democratic_party:0 "Parti démocratique"
+ WUR_neutrality_party:0 "Parti non-aligné"
+ ZAM_fascism_party:0 "Parti fasciste"
+ ZAM_communism_party:0 "Parti communiste"
+ ZAM_democratic_party:0 "Parti démocratique"
+ ZAM_neutrality_party:0 "Parti non-aligné"
+ ZIM_fascism_party:0 "Parti fasciste"
+ ZIM_communism_party:0 "Parti communiste"
+ ZIM_democratic_party:0 "Parti démocratique"
+ ZIM_neutrality_party:0 "Parti non-aligné"
+ KHA_neutrality_party_long:0 "Comité régional khakasse"
+ AOI_communism_party_long:0 "Parti communiste italien"
+ AOI_democratic_party_long:0 "Parti populaire italien"
+ AOI_fascism_party_long:0 "Parti national fasciste"
+ AOI_neutrality_party_long:0 "Parti national monarchiste"
+ LBV_communism_party_long:0 "Parti populaire de Transpadanie"
+ LBV_democratic_party_long:0 "Parti populaire de Vénétie"
+ LBV_fascism_party_long:0 "Parti unitariste cisalpin"
+ PAP_communism_party_long:0 "Parti populaire romain"
+ PAP_democratic_party_long:0 "Parti républicain romain"
+ TOS_communism_party_long:0 "Parti bolchévique toscan"
+ TOS_democratic_party_long:0 "Union démocratique toscane"
+ SPM_communism_party_long:0 "Parti populaire cisalpin"
+ SPM_democratic_party_long:0 "Parti démocrate savoyard"
+ SPM_fascism_party_long:0 "Parti restaurationniste savoyard"
+ SPM_neutrality_party_long:0 "Parti monarchiste piémontais"
+ TTS_communism_party_long:0 "Parti pour l'union du Mezzogiorno"
+ TTS_democratic_party_long:0 "Parti républicain napolitain"
+ TTS_fascism_party_long:0 "Parti fasciste parthénopéen"
+ BEG_fascism_party:0 "Parti fasciste"
+ BEG_communism_party:0 "Parti communiste"
+ BEG_democratic_party:0 "Parti démocratique"
+ BEG_neutrality_party:0 "Parti non-aligné"
+ GBA_fascism_party:0 "Parti fasciste"
+ GBA_communism_party:0 "Parti communiste"
+ GBA_democratic_party:0 "Parti démocratique"
+ GBA_neutrality_party:0 "Parti non-aligné"
+ HAR_fascism_party:0 "Parti fasciste"
+ HAR_communism_party:0 "Parti communiste"
+ HAR_democratic_party:0 "Parti démocratique"
+ HAR_neutrality_party:0 "Parti non-aligné"
+ ORO_fascism_party:0 "Parti fasciste"
+ ORO_communism_party:0 "Parti communiste"
+ ORO_democratic_party:0 "Parti démocratique"
+ ORO_neutrality_party:0 "Parti non-aligné"
+ QEM_fascism_party:0 "Parti fasciste"
+ QEM_communism_party:0 "Parti communiste"
+ QEM_democratic_party:0 "Parti démocratique"
+ QEM_neutrality_party:0 "Parti non-aligné"
+ RIF_fascism_party:0 "Parti fasciste"
+ RIF_communism_party:0 "Parti communiste"
+ RIF_democratic_party:0 "Parti démocratique"
+ RIF_neutrality_party:0 "Parti non-aligné"
+ SID_fascism_party:0 "Parti fasciste"
+ SID_communism_party:0 "Parti communiste"
+ SID_democratic_party:0 "Parti démocratique"
+ SID_neutrality_party:0 "Parti non-aligné"
+ TIG_fascism_party:0 "Parti fasciste"
+ TIG_communism_party:0 "Parti communiste"
+ TIG_democratic_party:0 "Parti démocratique"
+ TIG_neutrality_party:0 "Parti non-aligné"

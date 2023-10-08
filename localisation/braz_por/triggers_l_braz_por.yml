@@ -761,6 +761,8 @@
  TRIGGER_ALL_CHARACTER_STARTS:0 "Todos personagens"
  TRIGGER_IS_NOT_ADVISOR:0 "Não é um conselheiro"
  TRIGGER_IS_ADVISOR:0 "É um conselheiro"
+ TRIGGER_IS_HIRED_AS_ADVISOR:0 "Está contratado como conselheiro"
+ TRIGGER_IS_NOT_HIRED_AS_ADVISOR:0 "Não está contratado como conselheiro"
  TRIGGER_IS_NOT_POLITICAL_ADVISOR:0 "Não é um conselheiro político"
  TRIGGER_IS_POLITICAL_ADVISOR:0 "É um conselheiro político"
  TRIGGER_IS_NOT_THEORIST:0 "Não é um teórico"
@@ -825,8 +827,8 @@
 
  TRIGGER_HAS_POWER_BALANCE:0 "$POWER_BALANCE|Y$ está ativa em [root.GetName]"
  TRIGGER_HAS_NOT_POWER_BALANCE:0 "$POWER_BALANCE|Y$ não está ativa em [root.GetName]"
- TRIGGER_HAS_ANY_POWER_BALANCE:1 "Possui uma §HBalança de Poder§ ativa"
- TRIGGER_HAS_NOT_ANY_POWER_BALANCE:1 "Não possui uma §HBalança de Poder§ ativa"
+ TRIGGER_HAS_ANY_POWER_BALANCE:1 "Possui uma §HBalança de Poder§! ativa"
+ TRIGGER_HAS_NOT_ANY_POWER_BALANCE:1 "Não possui uma §HBalança de Poder§! ativa"
  TRIGGER_POWER_BALANCE_VALUE_MORE_THAN:2 "A $POWER_BALANCE|Y$ é maior que $PERCENT|%1Y$ do lado de $SIDE|Y$"
  TRIGGER_POWER_BALANCE_VALUE_LESS_THAN:2 "A $POWER_BALANCE|Y$ é menor que $PERCENT|%1Y$ do lado de $SIDE|Y$"
  TRIGGER_POWER_BALANCE_DAILY_MORE_THAN:1 "A mudança diária da $POWER_BALANCE|Y$ é maior que $PERCENT|Y$ para $SIDE|Y$"
@@ -891,8 +893,8 @@
  
  TRIGGER_PC_IS_INSIDE_INFLUENCE_RANGE:0 "Está dentro do alcance máximo de influência da IA" ##Will never be displayed
  TRIGGER_PC_IS_OUTSIDE_INFLUENCE_RANGE:0 "Está fora do alcance máximo de influência da IA" ##Will never be displayed
- TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Concluiu a conquista $ACHIEVEMENT$"
- TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Não concluiu a conquista $ACHIEVEMENT$"
+ TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Concluiu a conquista $ACHIEVEMENT|H$"
+ TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Não concluiu a conquista $ACHIEVEMENT|H$"
  
 
 

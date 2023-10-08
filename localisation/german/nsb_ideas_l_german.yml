@@ -235,7 +235,7 @@
  superior_firepower_army_spirit_desc:1 "Wenn einem die Artillerie nicht den Sieg einbringt, setzt man zu wenig davon ein.\n\n§GDieser Nationalgeist ist aufgrund unserer Doktrinen verfügbar.§!"
  grand_battleplan_army_spirit:0 "Speerspitze"
  grand_battleplan_army_spirit_desc:1 "Der Dolch in der Nacht ist oft effektiver als das Langschwert am Tag.\n\n§GDieser Nationalgeist ist aufgrund unserer Doktrinen verfügbar.§!"
- mass_assault_army_spirit:0 "Bajonettstärke"
+ mass_assault_army_spirit:1 "Bajonettstärke"
  mass_assault_army_spirit_desc:1 "Letztlich reichen ein Panzer oder ein Flugzeug nicht aus, um Boden zu halten.\n\n§GDieser Nationalgeist ist aufgrund unserer Doktrinen verfügbar.§!"
  political_connections_spirit:0 "Politische Verbindungen"
  political_connections_spirit_desc:0 "Nun ja, wir werden sehen, was der Minister dazu zu sagen hat!"
@@ -563,7 +563,7 @@
 
  SOV_purged_junior_army_officers_1_tt:0 "§YAlle Bodenfahrzeuge§!: Zuverlässigkeitsbonus: §R-10%§!"
  SOV_purged_junior_army_officers_2_tt:0 "§YAlle Bodenfahrzeuge§!: Zuverlässigkeitsbonus: §R-20%§!"
- SOV_purged_junior_army_officers_3_tt:0 "§YAlle Bodenfahrzeuge§!: Zuverlässigkeitsbonus: -30%§!\n§Y$politically_connected$§! steht als einzige Eigenschaft für neue Generäle zur Verfügung."
+ SOV_purged_junior_army_officers_3_tt:0 "§YAlle Bodenfahrzeuge§!: Zuverlässigkeitsbonus: §R-30%§!\n§Y$politically_connected$§! steht als einzige Eigenschaft für neue Generäle zur Verfügung."
  SOV_purged_junior_navy_officers_3_tt:0 "§Y$politically_connected$§! steht als einzige Eigenschaft für neue Generäle zur Verfügung."
  SOV_mig_design_bureau_dissolved_flag:0 "Konstruktionsbüro wurde aufgelöst"
  SOV_ilyushin_design_bureau_dissolved_flag:0 "$SOV_mig_design_bureau_dissolved_flag$"

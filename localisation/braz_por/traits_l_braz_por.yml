@@ -224,9 +224,9 @@
  navy_battleship_1:1 "Encouraçados\n(Especialista)"
  navy_battleship_2:1 "Encouraçados\n(Perito)"
  navy_battleship_3:1 "Encouraçados\n(Gênio)"
- navy_capital_ship_1:1 "Capitânias\n(Especialista)"
- navy_capital_ship_2:1 "Capitânias\n(Perito)"
- navy_capital_ship_3:1 "Capitânias\n(Gênio)"
+ navy_capital_ship_1:1 "Navios Capitânias\n(Especialista)"
+ navy_capital_ship_2:1 "Navios Capitânias\n(Perito)"
+ navy_capital_ship_3:1 "Navios Capitânias\n(Gênio)"
  navy_screen_1:1 "Navios de rastreamento\n(Especialista)"
  navy_screen_2:1 "Navios de rastreamento\n(Perito)"
  navy_screen_3:1 "Navios de rastreamento\n(Gênio)"
@@ -684,7 +684,7 @@
  SUPERIOR_TACTICIAN_TRIGGER_TT:0 "Tem a vantagem no combate"
  SPOTTER_TRIGGER_TT:0 "Avistando o inimigo"
  FLY_SWATTER_TRIGGER_TT:0 "Combatendo unidades aéreas inimigas"
- IRONSIDE_TRIGGER_TT:0 "Comandando ou combatendo capitanias"
+ IRONSIDE_TRIGGER_TT:0 "Comandando ou combatendo navios capitânias"
  BLOCKADE_RUNNER_TRIGGER_TT:0 "Retirando-se do combate com bravura perante uma força maior"
  leider:0 "Leider"
  comintern_workhorse:0 "Trabalhador do Comintern"
@@ -1166,7 +1166,7 @@
  SWI_humanitarian:0 "Humanitário(a)"
  SWI_small_arms_designer:0 "Designer de Armas"
  SWI_guisan_leader_trait:0 "Ditador(a) Popular"
- SWI_weapons_designer:1 "Designer de armas"
+ SWI_weapons_designer:2 "Designer de Armas"
  SWI_soviet_spy:0 "Espião Soviético"
  
  constitutional_philosopher:0 "Filósofo(a) Constitucional"
@@ -1177,6 +1177,12 @@
  
  evans_deakin_trait:0 "Empreendimento Pacífico"
  cockatoo_trait:0 "Especialista em navios leves"
+
+ cautious_arbiter:0 "Mediador Cauteloso"
+ viceroy_emeritus:0 "Vice-rei Emérito"
+ viceroy_emeritus_desc:0 "Lorde Halifax serviu como vice-rei da Índia por bastante tempo. Seu governo não foi isento de controvérsias, mas seu talento diplomático parece dar bons resultados."
+ viceroy_emeritus_tt:0 "\nSe §HLorde Halifax§! liderar nosso país, os efeitos de autonomia desse foco serão dobrados."
+ viceroy_emeritus_downside_tt:0 "\nDevido à história controversa de Lorde Halifax na Índia:"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  political_reformer_3:0 "$political_reformer_1$"

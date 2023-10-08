@@ -57,7 +57,7 @@
  INSUFFICIENT_CONVOYS_THEY:0 "（$WHO|H$の輸送船が不足 $ACTUAL$/$REQUIRED$）"
  INSUFFICIENT_CONVOYS_US:0 "（§H我々§!の輸送船が不足）"
  NO_LEGAL_TRANSPORT_PATH:0 "（§R利用可能な貿易路がない§!）"
- TRADEVIEW_EXPORT_DETAILS:1 "@$TAG$$WHO|H$は$TOT|H$の$RES|H$の内、§T$AVAILABLE|H$を輸出可能である。\n現在の貿易量:"
+ TRADEVIEW_EXPORT_DETAILS:1 "@$TAG$$WHO|H$は$TOT|H$の$RES|H$の内、$AVAILABLE|H$を輸出可能である。\n現在の貿易量:"
  TRADEVIEW_EXPORT_DETAILS_DEFICIT:0 "$TOT|H$の$RES|H$を@$TAG$$WHO|H$が輸出している。輸出可能量が§H0§!のため、既存の取引を履行するごとに$AVAILABLE|H$の赤字が発生する。\n現在の貿易量:"
  TRADEVIEW_EXPORT_DETAILS_US:1 "$TOT|H$の$RES|H$の内、§T$AVAILABLE|H$を輸出できる。\n現在の貿易量:§!"
  TRADEVIEW_EXPORT_DETAILS_US_DEFICIT:0 "$TOT|H$の$RES|H$を§T輸出している。輸出可能量が§H0§!のため、既存の取引を履行するごとに$AVAILABLE|H$の赤字が発生する。\n現在の貿易量:§!"

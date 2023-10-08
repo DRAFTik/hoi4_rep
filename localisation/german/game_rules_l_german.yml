@@ -522,6 +522,16 @@
  LON_NON_INTERFERENCE_RESOLUTION_JOIN:0 "Sie können sich [FROM.GetName] nicht im Krieg anschließen, da der Völkerbund einen Nicht-Einmischungsbeschlusses verabschiedet hat"
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT:0 "Derzeit können Sie nur Freiwillige nach [ETH.GetName] entsenden"
 
+ RULE_GROUP_PEACE_SCORE:0 "Friedenspunktverteilung"
+ PEACE_SCORE_TO_OVERLORD:0 "Marionetten des Lehnsherrn"
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_YES_DESC:0 "Marionetten geben einen Teil ihrer Friedenspunkte an ihren Herrn ab. Das Verhältnis hängt von ihrer Autonomiestufe ab."
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_NO_DESC:0 "Marionetten behalten alle Friedenspunkte, die sie während des Kriegs verdient haben, selbst."
+ PEACE_SCORE_TO_FACTION_LEADER:0 "Bündnismitglieder an den Bündnisanführer"
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_YES_DESC:0 "Bündnismitglieder geben 10% ihrer Friedenspunkte an den Bündnisanführer ab."
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_NO_DESC:0 "Bündnismitglieder behalten alle Friedenspunkte, die sie während des Kriegs verdient haben, selbst."
+ PEACE_SCORE_RESET_LOW_SCORES:0 "Niedrige Punktzahlen umverteilen"
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_YES_DESC:0 "Gewinner mit weniger als 5% Kriegsbeteiligung geben ihre gesamten Punkte an andere Gewinner ab.\nDies gilt nicht, wenn kein Gewinner mindestens 10% Kriegsbeteiligung hat.\nDies gilt nicht für menschliche Spieler."
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_NO_DESC:0 "Alle Gewinner behalten die Friedenspunkte, die sie während des Kriegs verdient haben, für sich."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  GAME_RULE_OPTION_YES:0 "Ja"

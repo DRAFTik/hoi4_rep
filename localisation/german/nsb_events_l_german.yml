@@ -1158,7 +1158,7 @@
  NSB_soviet_communist_civil_war.005.a:0 "Eine willkommene Bereicherung"
 
  NSB_soviet_communist_civil_war.006.t:0 "Massenproteste in [?SOV_uprising_state.GetName]"
- NSB_soviet_communist_civil_war.006.desc:0 "Arbeiter in [?SOV_uprising_state.GetName] sind zu einer Massenkundgebung auf die Straßen geströmt. Die Rufe nach einem stärkeren Einfluss der Gewerkschaften sind am häufigsten, doch es sind auch andere Slogans und Protestschilder vertreten. Es gibt sogar Berichte, dass direkt gegen Stalin gerichtete Sprüche skandiert wurden."
+ NSB_soviet_communist_civil_war.006.desc:1 "Arbeiter in [?SOV_uprising_state.GetName] sind zu einer Massenkundgebung auf die Straßen geströmt. Die Rufe nach einem stärkeren Einfluss der Gewerkschaften sind am häufigsten, doch es sind auch andere Slogans und Protestschilder vertreten. Es gibt sogar Berichte, dass direkt gegen Stalin gerichtete Sprüche skandiert wurden."
  NSB_soviet_communist_civil_war.006.a:0 "Sollen sie protestieren."
  NSB_soviet_communist_civil_war.006.b:0 "Dem muss ein Ende gesetzt werden, bevor es überhandnimmt."
 
@@ -1529,7 +1529,7 @@
  nsb_news.304.a:0 "Dieses Mal bleibt er bestehen!"
  nsb_news.304.b:0 "Äh, wo ist das doch nochmal?"
  nsb_news.400.t:1 "Die Krönung von Wladimir III."
- nsb_news.400.desc:0 "Nachdem die [SOV.GetName] fast drei Jahrzehnte lang von den Bolschewiken regiert wurde, ist das Land seit heute wieder ein Zarenreich: Bei einer großen Zeremonie in der Mariä-Entschlafens-Kathedrale in Moskau wurde Zar Wladimir I. gekrönt. Nach einer Prozession durch die Menge hielt der Zar eine Rede vor den Massen, die gekommen war, um seiner Krönung beizuwohnen. Er pries den Geist des russischen Volkes und schwor, 'den einstigen Glanz des Landes wiederherzustellen'."
+ nsb_news.400.desc:1 "Nachdem [SOV.GetNameDef] fast drei Jahrzehnte lang von den Bolschewiken regiert wurde, ist das Land seit heute wieder ein Zarenreich: Bei einer großen Zeremonie in der Mariä-Entschlafens-Kathedrale in Moskau wurde Zar Wladimir III. gekrönt. Nach einer Prozession durch die Menge hielt der Zar eine Rede vor den Massen, die gekommen waren, um seiner Krönung beizuwohnen. Er pries den Geist des russischen Volkes und schwor, „den einstigen Glanz des Landes wiederherzustellen“."
  nsb_news.400.a:0 "Ein großartiger Tag!"
  nsb_news.400.b:0 "Kriegstreiberei!"
  nsb_news.400.c:0 "Eine Farce!"

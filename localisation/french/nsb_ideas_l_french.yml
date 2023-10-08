@@ -235,7 +235,7 @@
  superior_firepower_army_spirit_desc:1 "Si l'artillerie ne remporte pas la bataille à elle seule, c'est qu'elle est sous-utilisée.\n\n§GCet esprit est possible par nos doctrines.§!"
  grand_battleplan_army_spirit:0 "Fer de lance"
  grand_battleplan_army_spirit_desc:1 "La dague dans la nuit est souvent plus efficace que l'épée de jour.\n\n§GCet esprit est possible par nos doctrines.§!"
- mass_assault_army_spirit:0 "Baïonnette au clair"
+ mass_assault_army_spirit:1 "Baïonnette au clair"
  mass_assault_army_spirit_desc:1 "Au bout du compte, ni un char ni un avion ne peuvent tenir un seul pouce de terrain.\n\n§GCet esprit est possible par nos doctrines.§!"
  political_connections_spirit:0 "Relations politiques"
  political_connections_spirit_desc:0 "Eh bien, chers amis, nous verrons ce que le ministre aura à en dire !"

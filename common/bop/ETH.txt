@@ -70,7 +70,7 @@ ETH_centralization_balance = {
 				custom_effect_tooltip = ETH_risk_of_demoralized_ras_tt
 				IF = {
 					limit = {
-						OR = {
+						AND = {
 							has_stability < 0.15
 							check_variable = { ROOT.party_popularity@ruling_party < 0.4 }
 						}
@@ -391,7 +391,7 @@ ETH_centralization_balance = {
 				#custom_effect_tooltip = ETH_risk_of_demoralized_ras_tt
 				IF = {
 					limit = {
-						OR = {
+						AND = {
 							has_stability < 0.15
 							check_variable = { ROOT.party_popularity@ruling_party < 0.4 }
 						}

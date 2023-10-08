@@ -299,7 +299,7 @@
  STAT_COMMON_WEIGHT_VALUE:0 "$VALUE|H1$"
  STAT_COMMON_WEIGHT_DIFF:0 " $VALUE|=-1$"
  STAT_COMMON_THRUST:0 "Propulsão: "
- STAT_COMMON_THRUST_DESC:1 "TODO Descrição de Propulsão."
+ STAT_COMMON_THRUST_DESC:1 "Propulsão é a capacidade do motor de propelir a aeronave. Toda Propulsão que exceder o Peso gerará Velocidade adicional."
  STAT_COMMON_THRUST_VALUE:0 "$VALUE|H1$"
  STAT_COMMON_THRUST_DIFF:0 " $VALUE|=+1$"
  STAT_CASUALTY_TRICKLEBACK:1 "Proteção de Suporte de Guerra e Restituição de Baixas: "

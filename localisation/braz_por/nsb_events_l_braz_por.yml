@@ -1158,7 +1158,7 @@
  NSB_soviet_communist_civil_war.005.a:0 "Uma adição muito bem-vinda"
 
  NSB_soviet_communist_civil_war.006.t:0 "Protestos em massa em [?SOV_uprising_state.GetName]"
- NSB_soviet_communist_civil_war.006.desc:0 "Trabalhadores em [?SOV_uprising_state.GetName] foram às ruas em uma manifestação em massa. Os apelos por mais influência dos sindicatos são prevalentes, mas outros slogans e placas de protesto também têm sido comuns. Existem até alguns relatos de gritos anti-Stalin."
+ NSB_soviet_communist_civil_war.006.desc:1 "Trabalhadores tomaram as ruas de [?SOV_uprising_state.GetName] em uma grande manifestação. Os apelos por mais influência dos sindicatos são prevalentes, mas outras palavras de ordem e placas de protesto também têm sido comuns. Existem até alguns relatos de gritos contra Stalin."
  NSB_soviet_communist_civil_war.006.a:0 "Que protestem"
  NSB_soviet_communist_civil_war.006.b:0 "Isso deve ser impedido antes que fuja do controle"
 
@@ -1373,7 +1373,7 @@
  NSB_soviet_civil_war_common.125.t:0 "Deserções do inimigo "
  NSB_soviet_civil_war_common.125.desc:0 "Após capturarmos [?SOV.SOV_defections_army_state.GetName], o exército de [SOS.GetLeader] está ficando desanimado. Soldados estão desertando em massa, alguns simplesmente largando suas armas e outros estão se juntando à nossa causa."
  NSB_soviet_civil_war_common.125.a:0 "Ótimo."
- SOS_army_desertions_tt:0 "O exército de §Y[SOS.GetNameWithFlag]§! perde §Yequipamento§!, §Ymão de obra§! e §Yorganização§Y, algumas unidades desertam para §Y[ROOT.GetNameWithFlag]§!."
+ SOS_army_desertions_tt:0 "O exército de §Y[SOS.GetNameWithFlag]§! perde §Yequipamento§!, §Ymão de obra§! e §Yorganização§!, algumas unidades desertam para §Y[ROOT.GetNameWithFlag]§!."
 
  NSB_soviet_civil_war_common.126.t:0 "Armazém militar capturado em [?SOV.SOV_captured_stockpile_state.GetName]"
  NSB_soviet_civil_war_common.126.desc:0 "Um depósito do exército [SOS.GetAdjective] foi capturado pelos nossas tropas vitoriosas em [?SOV.SOV_captured_stockpile_state.GetName]. Os [SOS.GetAdjective] em retirada tentaram destruí-lo, mas nossos soldados foram capazes de capturar uma parte do equipamento."
@@ -1529,7 +1529,7 @@
  nsb_news.304.a:0 "Dessa vez ele permanecerá unido!"
  nsb_news.304.b:0 "Então, hã, onde é que fica mesmo?"
  nsb_news.400.t:1 "A coroação de Vladimir I"
- nsb_news.400.desc:0 "Após quase três décadas governada pelos Bolcheviques, hoje a [SOV.GetName] viu o retorno ao Czarado com a coroação do Czar Vladimir I em uma grande cerimônia na Catedral da Dormição em Moscou. Após a processão real passar pelas multidões, o novo Czar falou com o povo que veio vê-lo, elogiando o espírito do povo russo e prometendo "levar a nação de volta à sua glória passada"."
+ nsb_news.400.desc:1 "Após quase três décadas sob o governo dos Bolcheviques, hoje [SOV.GetNameDef] retorna ao Czarado com a coroação do Czar Vladimir III em uma grande cerimônia na Catedral da Dormição, em Moscou. Após a procissão real passar pela multidão, o novo Czar falou às pessoas que vieram vê-lo, elogiando o espírito do povo russo e prometendo "levar a nação de volta à sua glória passada"."
  nsb_news.400.a:0 "Um evento magnífico!"
  nsb_news.400.b:0 "Belicista!"
  nsb_news.400.c:0 "Um absurdo!"

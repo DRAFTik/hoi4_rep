@@ -644,61 +644,61 @@
  BUL_bulgarian_capital_injection_desc:0 "Le gouvernement [BUL.GetAdjMS] a offert un soutien financier aux compagnies [Root.GetAdjFP] en difficulté, permettant ainsi de stabiliser la situation économique du pays – mais aussi d'accroître son contrôle sur nous."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- GRE_ioannis_metaxas_desc:0 "§LIoánnis Mikhaíl Metaxás§!" # [LocEditor:CustomLanguageKey]
- GRE_konstantinos_maniadakis_desc:0 "§LKonstantínos S. Maniadákis§!" # [LocEditor:CustomLanguageKey]
- GRE_konstantinos_tsaldaris_desc:0 "§LKonstantínos Tsaldáris§!" # [LocEditor:CustomLanguageKey]
- GRE_emmanouil_tsouderos_desc:0 "§LEmmanouíl I. Tsouderós" # [LocEditor:CustomLanguageKey]
- GRE_sophoklis_venizelos_desc:0 "§LSofoklís E. Venizélos" # [LocEditor:CustomLanguageKey]
- GRE_aristotle_onassis_desc:0 "§LAristotélis Sokrátis Onásis, dit « Aristote Onassis »§!" # [LocEditor:CustomLanguageKey]
- GRE_dimitrios_holevas_desc:0 "§LDimítrios K. Kholévas, dit « Père Kholévas »§!" # [LocEditor:CustomLanguageKey]
- GRE_father_dimistrios_desc:0 "$GRE_dimitrios_holevas_desc$" # [LocEditor:CustomLanguageKey]
- GRE_epameinondas_kavvadias_desc:0 "§LEpaminóndas Kavvadías§!" # [LocEditor:CustomLanguageKey]
- spyridon_avgeris:0 "Spyrídon Avgéris" # [LocEditor:CustomLanguageKey]
- GRE_dep_desc:0 "Dimósia Epikheírisi Petrelaíou – Entreprise publique de pétrole\n" # [LocEditor:CustomLanguageKey]
- GRE_neorion_desc:0 "Chantiers navals du Neórion" # [LocEditor:CustomLanguageKey]
- GRE_royal_hellenic_naval_shipyard_desc:0 "Arsenal royal hellénique\n" # [LocEditor:CustomLanguageKey]
- GRE_basileiades_desc:0 "Ellinikón Mikhanopoieíon kai Nafpigeíon Vasiliádis – Ateliers helléniques et chantier naval Basiliadès\n" # [LocEditor:CustomLanguageKey]
- GRE_astilleros_onassis_desc:0 "Chantiers navals Onassis" # [LocEditor:CustomLanguageKey]
- GRE_biamax_desc:0 "Viomikhanía Amaxomáton Okhimáton – Industrie des véhicules poids lourd\n" # [LocEditor:CustomLanguageKey]
- GRE_aekkea_desc:0 "Anónimos Etiría Kataskevís kai Ekmetalléfseos Aeroplánon – Société Anonyme pour la Fabrication et l'Exploitation des Avions Raab\n" # [LocEditor:CustomLanguageKey]
- GRE_phaliron_aircraft_desc:0 "Ergostásio Aeroplánon Falírou – Usine d'avions de Phalère\n" # [LocEditor:CustomLanguageKey]
- GRE_pyrkal_desc:0 "Etairía Ellinikoú Pyritidopoieiou kai Kalykopoieíou - Poudrerie et Cartoucherie Hellénique\n" # [LocEditor:CustomLanguageKey]
- GRE_petropoulos_desc:0 "Pétros Petrópoulos A.E.B.E." # [LocEditor:CustomLanguageKey]
- GRE_grabin_design_bureau_desc:0 "Bureau d'études Grabine\n" # [LocEditor:CustomLanguageKey]
- TUR_debt_repayments:0 "TODO" # [LocEditor:CustomLanguageKey]
- TUR_hasan_saka_desc:0 "$TUR_hassan_saka_desc$" # [LocEditor:CustomLanguageKey]
- TUR_sukru_saracoglu_desc:0 "§LMehmet Şükrü Saracoğlu§!" # [LocEditor:CustomLanguageKey]
- TUR_sukru_saracoglu_prime_minister_desc:0 "$TUR_sukru_saracoglu_desc$" # [LocEditor:CustomLanguageKey]
- TUR_ismet_inonu_desc:0 "§LMustafa İsmet İnönü§!" # [LocEditor:CustomLanguageKey]
- TUR_celal_bayar_desc:0 "§LMahmud Celâleddin Bayar§!" # [LocEditor:CustomLanguageKey]
- TUR_fethi_okyar_desc:0 "§LAli Fethi Okyar§!" # [LocEditor:CustomLanguageKey]
- TUR_sevket_sureyya_aydemir_desc:0 "§LŞevket Süreyya Aydemir§!" # [LocEditor:CustomLanguageKey]
- TUR_recep_peker_desc:0 "§LMehmet Recep Peker§!" # [LocEditor:CustomLanguageKey]
- TUR_sefik_husnu_desc:0 "§LŞefik Hüsnü Deymer§!" # [LocEditor:CustomLanguageKey]
- TUR_nihal_atsiz_desc:0 "§LHüseyin Nihâl Atsız§!" # [LocEditor:CustomLanguageKey]
- TUR_adnan_menderes_desc:0 "§LAli Adnan Ertekin Menderes§!" # [LocEditor:CustomLanguageKey]
- TUR_hilmi_uran_desc:0 "§LMustafa Hilmi Uran§!" # [LocEditor:CustomLanguageKey]
- TUR_mehmet_emin_yurdakul_desc:0 "§LMehmet Emin Yurdakul§!" # [LocEditor:CustomLanguageKey]
- TUR_nazim_hikmet_desc:0 "§LNâzım Hikmet Ran§!" # [LocEditor:CustomLanguageKey]
- TUR_nejdet_sancar_desc:0 "§LAhmet Nejdet Sançar Çiftçioğlu§!" # [LocEditor:CustomLanguageKey]
- TUR_zeki_velidi_togan_desc:0 "§LÄxmätzäki Äxmätşah ulı Wälidi, dit Zeki Velidi Togan§!" # [LocEditor:CustomLanguageKey]
- TUR_fevzi_cakmak_command_desc:0 "§LMustafa Fevzi Çakmak§!" # [LocEditor:CustomLanguageKey]
- TUR_sadik_altincan_desc:0 "§LMehmet Sadık Altıncan§!" # [LocEditor:CustomLanguageKey]
- TUR_refet_bele_desc:0 "§Lİbrahim Refet Bele§!" # [LocEditor:CustomLanguageKey]
- TUR_elyesa_bazna_desc:0 "§Lİlyas ou Elyesa Bazna, dit « Cicéron »§!" # [LocEditor:CustomLanguageKey]
- TUR_kamil_tolon_desc:0 "§LKamil Özdemir Tolonçok, dit Kamil Tolon§!" # [LocEditor:CustomLanguageKey]
- TUR_kazim_karabekir_desc:0 "§LMusa Kâzım Zeyrek, dit Musa Kâzım Karabekir§!" # [LocEditor:CustomLanguageKey]
- tulomsas_desc:0 "Türkiye Lokomotif ve Motor Sanayi Anonim Şirketi – Société industrielle anonyme des locomotives et moteurs turcs\n" # [LocEditor:CustomLanguageKey]
- cgt_desc:0 "Compagnie générale transatlantique\n" # [LocEditor:CustomLanguageKey]
- thk_bftb_desc:0 "Türk Tayyare Cemiyeti – Association aéronautique turque\n" # [LocEditor:CustomLanguageKey]
- nud_desc:0 "Société Nuri Demirağ\n" # [LocEditor:CustomLanguageKey]
- gok_okulu_desc:0 "Gök Okulu – École aéronautique\n" # [LocEditor:CustomLanguageKey]
- tomtasch_desc:0 "Tayyare Otomobil ve Motor Türk Anonim Şirketi – Société anonyme turque des véhicules et moteurs aéronautiques\n" # [LocEditor:CustomLanguageKey]
- killigil_endustrileri_desc:0 "Killigil Endustrileri – Société industrielle Killigil\n" # [LocEditor:CustomLanguageKey]
- tcdd_desc:0 "Türkiye Cumhuriyeti Devlet Demiryolları - Chemins de fer publics de la République de Turquie\n" # [LocEditor:CustomLanguageKey]
- petrol_ofisi_desc:0 "Petrol Ofisi A.Ş. – Office du pétrole\n" # [LocEditor:CustomLanguageKey]
- koc_ticaret_as_armor_desc:0 "Koç Ticaret Anonim Şirketi – Société commerciale anonyme Koç\n" # [LocEditor:CustomLanguageKey]
- koc_ticaret_as_shipyard_desc:0 "$koc_ticaret_as_armor_desc$" # [LocEditor:CustomLanguageKey]
- koc_ticaret_as_defense_industry_desc:0 "$koc_ticaret_as_armor_desc$" # [LocEditor:CustomLanguageKey]
- koc_ticaret_as_monopoly_desc:0 "$koc_ticaret_as_armor_desc$" # [LocEditor:CustomLanguageKey]
- BUL_vulkan_cement_desc:0 "Vulkan Tsiment AD - Ciments Vulkan" # [LocEditor:CustomLanguageKey]
+ GRE_ioannis_metaxas_desc:0 "§LIoánnis Mikhaíl Metaxás§!"
+ GRE_konstantinos_maniadakis_desc:0 "§LKonstantínos S. Maniadákis§!"
+ GRE_konstantinos_tsaldaris_desc:0 "§LKonstantínos Tsaldáris§!"
+ GRE_emmanouil_tsouderos_desc:0 "§LEmmanouíl I. Tsouderós"
+ GRE_sophoklis_venizelos_desc:0 "§LSofoklís E. Venizélos"
+ GRE_aristotle_onassis_desc:0 "§LAristotélis Sokrátis Onásis, dit « Aristote Onassis »§!"
+ GRE_dimitrios_holevas_desc:0 "§LDimítrios K. Kholévas, dit « Père Kholévas »§!"
+ GRE_father_dimistrios_desc:0 "$GRE_dimitrios_holevas_desc$"
+ GRE_epameinondas_kavvadias_desc:0 "§LEpaminóndas Kavvadías§!"
+ spyridon_avgeris:0 "Spyrídon Avgéris"
+ GRE_dep_desc:0 "Dimósia Epikheírisi Petrelaíou – Entreprise publique de pétrole\n"
+ GRE_neorion_desc:0 "Chantiers navals du Neórion"
+ GRE_royal_hellenic_naval_shipyard_desc:0 "Arsenal royal hellénique\n"
+ GRE_basileiades_desc:0 "Ellinikón Mikhanopoieíon kai Nafpigeíon Vasiliádis – Ateliers helléniques et chantier naval Basiliadès\n"
+ GRE_astilleros_onassis_desc:0 "Chantiers navals Onassis"
+ GRE_biamax_desc:0 "Viomikhanía Amaxomáton Okhimáton – Industrie des véhicules poids lourd\n"
+ GRE_aekkea_desc:0 "Anónimos Etiría Kataskevís kai Ekmetalléfseos Aeroplánon – Société Anonyme pour la Fabrication et l'Exploitation des Avions Raab\n"
+ GRE_phaliron_aircraft_desc:0 "Ergostásio Aeroplánon Falírou – Usine d'avions de Phalère\n"
+ GRE_pyrkal_desc:0 "Etairía Ellinikoú Pyritidopoieiou kai Kalykopoieíou - Poudrerie et Cartoucherie Hellénique\n"
+ GRE_petropoulos_desc:0 "Pétros Petrópoulos A.E.B.E."
+ GRE_grabin_design_bureau_desc:0 "Bureau d'études Grabine\n"
+ TUR_debt_repayments:0 "TODO"
+ TUR_hasan_saka_desc:0 "$TUR_hassan_saka_desc$"
+ TUR_sukru_saracoglu_desc:0 "§LMehmet Şükrü Saracoğlu§!"
+ TUR_sukru_saracoglu_prime_minister_desc:0 "$TUR_sukru_saracoglu_desc$"
+ TUR_ismet_inonu_desc:0 "§LMustafa İsmet İnönü§!"
+ TUR_celal_bayar_desc:0 "§LMahmud Celâleddin Bayar§!"
+ TUR_fethi_okyar_desc:0 "§LAli Fethi Okyar§!"
+ TUR_sevket_sureyya_aydemir_desc:0 "§LŞevket Süreyya Aydemir§!"
+ TUR_recep_peker_desc:0 "§LMehmet Recep Peker§!"
+ TUR_sefik_husnu_desc:0 "§LŞefik Hüsnü Deymer§!"
+ TUR_nihal_atsiz_desc:0 "§LHüseyin Nihâl Atsız§!"
+ TUR_adnan_menderes_desc:0 "§LAli Adnan Ertekin Menderes§!"
+ TUR_hilmi_uran_desc:0 "§LMustafa Hilmi Uran§!"
+ TUR_mehmet_emin_yurdakul_desc:0 "§LMehmet Emin Yurdakul§!"
+ TUR_nazim_hikmet_desc:0 "§LNâzım Hikmet Ran§!"
+ TUR_nejdet_sancar_desc:0 "§LAhmet Nejdet Sançar Çiftçioğlu§!"
+ TUR_zeki_velidi_togan_desc:0 "§LÄxmätzäki Äxmätşah ulı Wälidi, dit Zeki Velidi Togan§!"
+ TUR_fevzi_cakmak_command_desc:0 "§LMustafa Fevzi Çakmak§!"
+ TUR_sadik_altincan_desc:0 "§LMehmet Sadık Altıncan§!"
+ TUR_refet_bele_desc:0 "§Lİbrahim Refet Bele§!"
+ TUR_elyesa_bazna_desc:0 "§Lİlyas ou Elyesa Bazna, dit « Cicéron »§!"
+ TUR_kamil_tolon_desc:0 "§LKamil Özdemir Tolonçok, dit Kamil Tolon§!"
+ TUR_kazim_karabekir_desc:0 "§LMusa Kâzım Zeyrek, dit Musa Kâzım Karabekir§!"
+ tulomsas_desc:0 "Türkiye Lokomotif ve Motor Sanayi Anonim Şirketi – Société industrielle anonyme des locomotives et moteurs turcs\n"
+ cgt_desc:0 "Compagnie générale transatlantique\n"
+ thk_bftb_desc:0 "Türk Tayyare Cemiyeti – Association aéronautique turque\n"
+ nud_desc:0 "Société Nuri Demirağ\n"
+ gok_okulu_desc:0 "Gök Okulu – École aéronautique\n"
+ tomtasch_desc:0 "Tayyare Otomobil ve Motor Türk Anonim Şirketi – Société anonyme turque des véhicules et moteurs aéronautiques\n"
+ killigil_endustrileri_desc:0 "Killigil Endustrileri – Société industrielle Killigil\n"
+ tcdd_desc:0 "Türkiye Cumhuriyeti Devlet Demiryolları - Chemins de fer publics de la République de Turquie\n"
+ petrol_ofisi_desc:0 "Petrol Ofisi A.Ş. – Office du pétrole\n"
+ koc_ticaret_as_armor_desc:0 "Koç Ticaret Anonim Şirketi – Société commerciale anonyme Koç\n"
+ koc_ticaret_as_shipyard_desc:0 "$koc_ticaret_as_armor_desc$"
+ koc_ticaret_as_defense_industry_desc:0 "$koc_ticaret_as_armor_desc$"
+ koc_ticaret_as_monopoly_desc:0 "$koc_ticaret_as_armor_desc$"
+ BUL_vulkan_cement_desc:0 "Vulkan Tsiment AD - Ciments Vulkan"

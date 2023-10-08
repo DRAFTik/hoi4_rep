@@ -10,7 +10,7 @@
  form_eu_italy_coring_states_tt:0 "ヨーロッパの§Yイタリア§!の州が全て中核州になる。\n"
  form_country_germany_coring_states_tt:0 "§Yドイツ§!の州が全て中核州になる。\n"
  form_spqr_france_required_states_tt:0 "ヨーロッパ、北アフリカ、中東の§Yフランス§!の州を全て支配する。"
- form_spqr_italy_required_states_tt:0 "ヨーロッパと北アフリカの§Yイタリア§!の州を全て支配する。"
+ form_spqr_italy_required_states_tt:1 "§Yイタリア§!の中核州を全て支配している。"
  form_spqr_britain_required_states_tt:0 "エジプト、中東、東地中海の§Yイギリス§!の州を全て支配する。"
  form_spqr_spain_required_states_tt:0 "ヨーロッパとスペイン領アフリカの§Yスペイン§!の州を全て支配する。"
  form_eu_portugal_required_states_tt:0 "ヨーロッパの§Yポルトガル§!の州を全て支配する。"

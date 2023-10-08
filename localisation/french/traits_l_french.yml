@@ -1097,7 +1097,6 @@
  political_reformer_1:0 "Réformateur politique"
  political_reformer_2_no_lar:0 "$political_reformer_1$"
  political_reformer_2:0 "$political_reformer_1$"
- political_reformer_3:0 "$political_reformer_1$" # [LocEditor:CustomLanguageKey]
  ITA_political_reformer_tt:1 "Coût de tous les conseillers : §G-25%§!"
  hierarch_minister_of_foreign_affairs:0 "Hiérarque, ministre des Aff. étrangères"
  hierarch_minister_of_justice:0 "Hiérarque, ministre de la Justice"
@@ -1166,38 +1165,8 @@
  SWI_intelligence_officer:0 "Officier des renseignements"
  SWI_humanitarian:0 "Humanitaire"
  SWI_small_arms_designer:0 "Fabricant d'armes"
- logistics_wizard_short:0 "Génie logistique" # [LocEditor:CustomLanguageKey]
- winter_specialist_short:0 "Spéc. hiver" # [LocEditor:CustomLanguageKey]
- fortress_buster_short:0 "Destr. forteresses" # [LocEditor:CustomLanguageKey]
- commando_short:0 "Off. de commando" # [LocEditor:CustomLanguageKey]
- thorough_planner_short:0 "Planif. méticuleux" # [LocEditor:CustomLanguageKey]
- hill_fighter_short:0 "Spéc. des collines" # [LocEditor:CustomLanguageKey]
- urban_assault_specialist_short:0 "Spéc. assaut urbain" # [LocEditor:CustomLanguageKey]
- naval_invader_short:0 "Spéc. débarquement" # [LocEditor:CustomLanguageKey]
- cavalry_leader_short:0 "Off. de cavalerie" # [LocEditor:CustomLanguageKey]
- cavalry_expert_short:0 "Exp. de la cavalerie" # [LocEditor:CustomLanguageKey]
- infantry_leader_short:0 "Off. d'infanterie" # [LocEditor:CustomLanguageKey]
- infantry_expert_short:0 "Exp. infanterie" # [LocEditor:CustomLanguageKey]
- ambusher_short:0 "Tend. d'embuscades" # [LocEditor:CustomLanguageKey]
- invader_ii_short:0 "Exp. débarquements" # [LocEditor:CustomLanguageKey]
- skilled_staffer_short:0 "Admin. de talent" # [LocEditor:CustomLanguageKey]
- skirmisher_short:0 "Exp. escarmouches" # [LocEditor:CustomLanguageKey]
- camouflage_expert_short:0 "Exp. camouflage" # [LocEditor:CustomLanguageKey]
- green_water_expert_short:0 "Exp. hauts fonds" # [LocEditor:CustomLanguageKey]
- blue_water_expert_short:0 "Exp. haute-mer" # [LocEditor:CustomLanguageKey]
- fleet_protector_short:0 "Protect. de la flotte" # [LocEditor:CustomLanguageKey]
- destroyer_leader_short:0 "Cap. de destroyer" # [LocEditor:CustomLanguageKey]
- concealment_expert_short:0 "Exp. de la furtivité" # [LocEditor:CustomLanguageKey]
- cruiser_captain_short:0 "Cap. de croiseur" # [LocEditor:CustomLanguageKey]
- big_guns_expert_short:0 "Exp. gros calibres" # [LocEditor:CustomLanguageKey]
- flight_deck_manager_short:0 "Org. pont d'envol" # [LocEditor:CustomLanguageKey]
- smoke_screen_expert_short:0 "Spéc. écran de fumée" # [LocEditor:CustomLanguageKey]
- fighter_director_short:0 "Resp. des chasseurs" # [LocEditor:CustomLanguageKey]
- torpedo_bomber_short:0 "Bomb.-torpilleur" # [LocEditor:CustomLanguageKey]
- irregulars_officer_short:0 "Off. d'irréguliers" # [LocEditor:CustomLanguageKey]
- militias_officer_short:0 "Off. des milices" # [LocEditor:CustomLanguageKey]
  SWI_guisan_leader_trait:0 "Dictateur populaire"
- SWI_weapons_designer:1 "Concepteur d'armement"
+ SWI_weapons_designer:2 "Fabricant d'armes"
  SWI_soviet_spy:0 "Espion soviétique"
  
  constitutional_philosopher:0 "Philosophe constitutionnel"
@@ -1208,3 +1177,42 @@
  
  evans_deakin_trait:0 "Compagnie du Pacifique"
  cockatoo_trait:0 "Spécialiste des navires légers"
+
+ cautious_arbiter:0 "Arbitre prudent"
+ viceroy_emeritus:0 "Vice-roi émérite"
+ viceroy_emeritus_desc:0 "Lord Halifax a été vice-roi des Indes durant une longue période. Son autorité n'a pas été sans susciter de controverses, mais ses talents diplomatiques produisent de bons résultats."
+ viceroy_emeritus_tt:0 "\nSi §H$ENG_lord_edward_halifax$§! est le dirigeant du pays, les effets sur l'autonomie de cette priorité seront doublés."
+ viceroy_emeritus_downside_tt:0 "\nDu fait de l'autorité controversée de Lord Halifax en Inde :"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ political_reformer_3:0 "$political_reformer_1$"
+ logistics_wizard_short:0 "Génie logistique"
+ winter_specialist_short:0 "Spéc. hiver"
+ fortress_buster_short:0 "Destr. forteresses"
+ commando_short:0 "Off. de commando"
+ thorough_planner_short:0 "Planif. méticuleux"
+ hill_fighter_short:0 "Spéc. des collines"
+ urban_assault_specialist_short:0 "Spéc. assaut urbain"
+ naval_invader_short:0 "Spéc. débarquement"
+ cavalry_leader_short:0 "Off. de cavalerie"
+ cavalry_expert_short:0 "Exp. de la cavalerie"
+ infantry_leader_short:0 "Off. d'infanterie"
+ infantry_expert_short:0 "Exp. infanterie"
+ ambusher_short:0 "Tend. d'embuscades"
+ invader_ii_short:0 "Exp. débarquements"
+ skilled_staffer_short:0 "Admin. de talent"
+ skirmisher_short:0 "Exp. escarmouches"
+ camouflage_expert_short:0 "Exp. camouflage"
+ green_water_expert_short:0 "Exp. hauts fonds"
+ blue_water_expert_short:0 "Exp. haute-mer"
+ fleet_protector_short:0 "Protect. de la flotte"
+ destroyer_leader_short:0 "Cap. de destroyer"
+ concealment_expert_short:0 "Exp. de la furtivité"
+ cruiser_captain_short:0 "Cap. de croiseur"
+ big_guns_expert_short:0 "Exp. gros calibres"
+ flight_deck_manager_short:0 "Org. pont d'envol"
+ smoke_screen_expert_short:0 "Spéc. écran de fumée"
+ fighter_director_short:0 "Resp. des chasseurs"
+ torpedo_bomber_short:0 "Bomb.-torpilleur"
+ irregulars_officer_short:0 "Off. d'irréguliers"
+ militias_officer_short:0 "Off. des milices"

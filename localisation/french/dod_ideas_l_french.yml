@@ -111,16 +111,18 @@
  YUG_neutral_foreign_policy:0 "Neutralité armée"
  YUG_idea_axis_capital:0 "Investissements de l'Axe"
  king_peter_1:0 "Pierre II"
- HUN_gusztav_gratz_desc:0 "§LGratz Gusztáv Adolf§!" # [LocEditor:CustomLanguageKey]
- ROM_coastal_defense_navy_designer_desc:0 "Chantiers navals de Galati\n" # [LocEditor:CustomLanguageKey]
- ROM_black_sea_dominance_designer_desc:0 "Chantiers navals de Brăila\n" # [LocEditor:CustomLanguageKey]
- ROM_leonidas_works_desc:0 "Atelierele Leonida – Ateliers de Leonida\n" # [LocEditor:CustomLanguageKey]
- ROM_iar_desc:0 "Industria Aeronautică Română – Industrie aéronautique roumaine\n" # [LocEditor:CustomLanguageKey]
- ROM_ICAR_desc:0 "Întreprinderea de Constructii Aeronautice Românesti – Entreprise de construction aéronautique roumaine\n" # [LocEditor:CustomLanguageKey]
- ROM_SET_desc:0 "Societatea pentru exploatări tehnice – Société de développement technique\n" # [LocEditor:CustomLanguageKey]
- ROM_cugir_desc:0 "Uzinele de Armament Cugir – Manufacture d'armes de Cugir\n" # [LocEditor:CustomLanguageKey]
- ROM_resita_desc:0 "Combinatul Siderurgic Resita – Usine sidérurgique de Resita\n" # [LocEditor:CustomLanguageKey]
- ROM_ford_desc:0 "Atelierele Ford Bucuresti – Ateliers Ford de Bucarest\n" # [LocEditor:CustomLanguageKey]
- ROM_opel_desc:0 "Opel Abt. Rumänien – Opel Roumanie\n" # [LocEditor:CustomLanguageKey]
  YUG_brigadistas_idea:0 "$YUG_brigadistas$"
  will_be_removed_once_scw_is_over_tt:0 "\nCet esprit national sera §Rperdu§! aussitôt la §Yguerre civile espagnole§! terminée."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ HUN_gusztav_gratz_desc:0 "§LGratz Gusztáv Adolf§!"
+ ROM_coastal_defense_navy_designer_desc:0 "Chantiers navals de Galati\n"
+ ROM_black_sea_dominance_designer_desc:0 "Chantiers navals de Brăila\n"
+ ROM_leonidas_works_desc:0 "Atelierele Leonida – Ateliers de Leonida\n"
+ ROM_iar_desc:0 "Industria Aeronautică Română – Industrie aéronautique roumaine\n"
+ ROM_ICAR_desc:0 "Întreprinderea de Constructii Aeronautice Românesti – Entreprise de construction aéronautique roumaine\n"
+ ROM_SET_desc:0 "Societatea pentru exploatări tehnice – Société de développement technique\n"
+ ROM_cugir_desc:0 "Uzinele de Armament Cugir – Manufacture d'armes de Cugir\n"
+ ROM_resita_desc:0 "Combinatul Siderurgic Resita – Usine sidérurgique de Resita\n"
+ ROM_ford_desc:0 "Atelierele Ford Bucuresti – Ateliers Ford de Bucarest\n"
+ ROM_opel_desc:0 "Opel Abt. Rumänien – Opel Roumanie\n"

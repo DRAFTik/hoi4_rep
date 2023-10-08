@@ -10,7 +10,7 @@
  form_eu_italy_coring_states_tt:0 "Все §Yитальянские§! территории в Европе становятся национальными.\n"
  form_country_germany_coring_states_tt:0 "Все §Yгерманские§! территории становятся национальными.\n"
  form_spqr_france_required_states_tt:0 "Контролирует все §Yфранцузские§! территории в Европе, Северной Африке и на Ближнем Востоке."
- form_spqr_italy_required_states_tt:0 "Контролирует все §Yитальянские§! территории в Европе и Северной Африке."
+ form_spqr_italy_required_states_tt:1 "Контролирует все §Yитальянские§! национальные территории."
  form_spqr_britain_required_states_tt:0 "Контролирует все §Yбританские§! территории в Египте и на Ближнем Востоке."
  form_spqr_spain_required_states_tt:0 "Контролирует все §Yиспанские§! территории в Европе и Испанской Африке."
  form_eu_portugal_required_states_tt:0 "Контролирует все §Yпортугальские§! территории в Европе."

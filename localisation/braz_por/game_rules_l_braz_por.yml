@@ -302,7 +302,7 @@
  RULE_VOLUNTEERS_SOVIET_CHINA_ONLY_ONE_TT:0 "§RNão podemos enviar voluntários para mais de uma facção chinesa.§!"
  RULE_VOLUNTEERS_SOVIET_SCW_TT:0 "§RA União Soviética não pode enviar voluntários para uma facção espanhola que se rebelou contra o governo republicano.§!"
  RULE_VOLUNTEERS_SOVIET_SCW_COVERT_POUM_TT:0 "§RA União Soviética ainda está sob a doutrina Stalinista e não pode enviar voluntários para uma facção espanhola que se rebelou contra o governo republicano.§!"
- RULE_VOLUNTEERS_SOVIET_SCW_POUM_TT:0 "§RA República Soviética Socialista está apoiando o POUM e não pode enviar voluntários para qualquer outra facção espanhola."
+ RULE_VOLUNTEERS_SOVIET_SCW_POUM_TT:0 "§RA República Soviética Socialista está apoiando o POUM e não pode enviar voluntários para qualquer outra facção espanhola.§!"
  RULE_VOLUNTEERS_SOVIET_EXILES_SCW_TT:0 "§RO governo russo só pode enviar voluntários para rebeldes espanhóis lutando contra o governo espanhol legítimo.§!"
  RULE_VOLUNTEERS_SAME_IDEOLOGY_TT:0 "Regra do jogo:§RPaíses só podem enviar volunários a países da mesma ideologia dominante.§!"
  RULE_KICK_FROM_FACTION_BLOCKED_TOOLTIP:0 "Regra do jogo: §RO líder da facção não pode expulsar qualquer membro da facção.§!"
@@ -522,6 +522,16 @@
  LON_NON_INTERFERENCE_RESOLUTION_JOIN:0 "Você não pode se juntar a [FROM.GetNameDef] por conta de uma resolução não intervencionista da Liga das Nações."
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT:0 "Só pode enviar unidades voluntárias para [ETH.GetName] no momento"
 
+ RULE_GROUP_PEACE_SCORE:0 "Distribuição da Pontuação da Paz"
+ PEACE_SCORE_TO_OVERLORD:0 "Fantoches para o Soberano"
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_YES_DESC:0 "Fantoches cedem parte de sua Pontuação da Paz ao seu soberano. A proporção depende do nível de Autonomia deles."
+ RULE_OPTION_PEACE_SCORE_TO_OVERLORD_NO_DESC:0 "Fantoches mantêm toda a Pontuação da Paz obtida durante a guerra."
+ PEACE_SCORE_TO_FACTION_LEADER:0 "Membros da Facção para o Líder da Facção"
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_YES_DESC:0 "Membros da facção cedem 10% de sua Pontuação da Paz para o líder da facção."
+ RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_NO_DESC:0 "Membros da facção mantêm toda a Pontuação da Paz obtida durante a guerra."
+ PEACE_SCORE_RESET_LOW_SCORES:0 "Redistribuir baixas pontuações"
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_YES_DESC:0 "Vencedores com uma participação na guerra menor que 5% cedem toda sua pontuação para outros vencedores.\nNão se aplica caso nenhum vencedor tenha pelo menos 10% de participação na guerra.\nNão se aplica a jogadores humanos."
+ RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_NO_DESC:0 "Todos os vencedores mantêm toda a Pontuação da Paz obtida durante a guerra."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  GAME_RULE_OPTION_YES:0 "Sim"

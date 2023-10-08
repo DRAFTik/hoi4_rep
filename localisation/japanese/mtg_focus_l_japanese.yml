@@ -423,7 +423,7 @@
  ENG_british_commonwealth_air_training_plan_desc:0 "我々の軍事的成功は航空搭乗員の習熟度による制空権の確保によるものだ。我々は今回の戦いにおける新しい局面を克服するために、これまでなされてきた全ての操縦士と乗組員の訓練の中でも最大の訓練計画に着手する。"
  ENG_indian_autonomy:0 "インドの自治"
  ENG_indian_autonomy_desc:0 "完全な独立について合意せず、他の自治領がすでに享受しているように、彼らに広範囲にわたる自治を与えることによってインドの独立運動を弱めることができる可能性がある。"
- ENG_indian_autonomy_tt:0 "§R自治度のない[RAJ.GetNameDef]は、帝国連邦の提案を一切受け入れないだろう。§!"
+ ENG_indian_autonomy_tt:1 "§R自治権が約束されない、あるいはハリファックス卿が国の指導者を務めている場合、[RAJ.GetNameDef]は、帝国連邦の提案を一切受け入れないだろう。§!"
  ENG_imperial_conference_defense_dominion:0 "帝国会議における防衛の賛同"
  ENG_imperial_conference_economy_dominion:0 "帝国会議における経済の賛同"
  ENG_federal_integration:0 "連邦の統合"

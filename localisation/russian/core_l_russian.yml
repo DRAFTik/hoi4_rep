@@ -349,6 +349,8 @@
  MENU_FORUM:0 "Форум «Дня Победы IV»"
  MENU_FACEBOOK:0 "«День Победы IV» в Facebook"
  MENU_TWITTER:0 "«День Победы IV» в Twitter"
+ MENU_INSTAGRAM:0 "Instagram игры Hearts of Iron IV"
+ MENU_DISCORD:0 "Discord игры Hearts of Iron IV"
  MENU_PRIVACY_POLICY:0 "Политика конфиденциальности"
  MAIN_MENU:0 "Главное меню"
  MAIN_MENU_BACK:0 "Возврат в меню"
@@ -1954,6 +1956,7 @@
  SUNK_BY_MINES:0 "мины"
  PARADROP_PLANES_REQUIRED:0 "\n§RЭтот приказ невозможно выполнить:§!\nТребуются дополнительные транспортные авиакрылья: $WINGS|H$."
  RETAIN_CORES:0 "Сохранить регионы в нашей национальной территории"
+ DIVISION_VIEW_HAS_MEDALS:0 "Эту дивизию можно наградить §Hмедалью§!.\n§GЩелкните, чтобы открыть окно «Медали».§!"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  SUPPLY_NODE_TOOLTIP_HEADER:2 "Узел снабжения в провинции $PROVINCE_NAME|H$:"

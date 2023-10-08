@@ -761,6 +761,8 @@
  TRIGGER_ALL_CHARACTER_STARTS:0 "Все персонажи"
  TRIGGER_IS_NOT_ADVISOR:0 "Не является советником"
  TRIGGER_IS_ADVISOR:0 "Является советником"
+ TRIGGER_IS_HIRED_AS_ADVISOR:0 "Приглашается на работу в качестве советника"
+ TRIGGER_IS_NOT_HIRED_AS_ADVISOR:0 "Не приглашается на работу в качестве советника"
  TRIGGER_IS_NOT_POLITICAL_ADVISOR:0 "Не является политическим советником"
  TRIGGER_IS_POLITICAL_ADVISOR:0 "Является политическим советником"
  TRIGGER_IS_NOT_THEORIST:0 "Не является теоретиком"
@@ -891,8 +893,8 @@
  
  TRIGGER_PC_IS_INSIDE_INFLUENCE_RANGE:0 "Внутри макс. радиуса влияния ИИ" ##Will never be displayed
  TRIGGER_PC_IS_OUTSIDE_INFLUENCE_RANGE:0 "За пределами макс. радиуса влияния ИИ" ##Will never be displayed
- TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Открыто достижение $ACHIEVEMENT$"
- TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:0 "Не открыто достижение $ACHIEVEMENT$"
+ TRIGGER_HAS_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Открыто достижение $ACHIEVEMENT|H$"
+ TRIGGER_HAS_NOT_COMPLETED_CUSTOM_ACHIEVEMENT:1 "Не открыто достижение $ACHIEVEMENT|H$"
  
 
 

@@ -423,7 +423,7 @@
  ENG_british_commonwealth_air_training_plan_desc:0 "Nuestro éxito militar depende de nuestra maestría en el aire y, por tanto, de las habilidades de nuestras tripulaciones aéreas. Nos embarcaremos en el mayor programa de entrenamiento de aviación del mundo para asegurarnos de que contemos con todos los pilotos y tripulaciones necesarios para dominar esta nueva dimensión de guerra."
  ENG_indian_autonomy:0 "Autonomía india"
  ENG_indian_autonomy_desc:0 "En vez de prometer la total independencia, podríamos debilitar los movimientos independentistas indios otorgándoles un nivel de autonomía mucho mayor, similar al que ya poseen el resto de dominios."
- ENG_indian_autonomy_tt:0 "§RSin autonomía, [RAJ.GetNameDef] no aceptará ninguna propuesta de federación imperial.§!"
+ ENG_indian_autonomy_tt:1 "§RSi no tiene autonomía o a Lord Halifax como líder, [RAJ.GetNameDef] no aceptará ninguna propuesta de federación imperial.§!"
  ENG_imperial_conference_defense_dominion:0 "Acuerdos de la Conferencia Imperial en materia de defensa"
  ENG_imperial_conference_economy_dominion:0 "Acuerdos de la Conferencia Imperial en materia de economía"
  ENG_federal_integration:0 "Integración federal"
