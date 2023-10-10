@@ -1410,11 +1410,9 @@
 		}
 
 		available = {
-			NOT = {
-				any_enemy_country = {
-					has_full_control_of_state = 613
-				}
-			}
+			 613 = {
+			 	is_fully_controlled_by = ROOT
+			 }
 		}
 
 		bypass = {

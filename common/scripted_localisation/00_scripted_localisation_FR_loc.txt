@@ -32277,6 +32277,56 @@ defined_text = {
 		}
 		localization_key = NSB_soviet_nationalist_001_desc_KYR
 	}
+	text = {
+		trigger = {
+			check_variable = {
+			    var = SOV.SOV_nationalist_country
+			    value = TAJ
+			    compare = equals
+			}
+		}
+		localization_key = NSB_soviet_nationalist_001_desc_TAJ
+	}
+	text = {
+		trigger = {
+			check_variable = {
+			    var = SOV.SOV_nationalist_country
+			    value = KOM
+			    compare = equals
+			}
+		}
+		localization_key = NSB_soviet_nationalist_001_desc_KOM
+	}
+	text = {
+		trigger = {
+			check_variable = {
+			    var = SOV.SOV_nationalist_country
+			    value = NEN
+			    compare = equals
+			}
+		}
+		localization_key = NSB_soviet_nationalist_001_desc_NEN
+	}
+	text = {
+		trigger = {
+			check_variable = {
+			    var = SOV.SOV_nationalist_country
+			    value = KAL
+			    compare = equals
+			}
+		}
+		localization_key = NSB_soviet_nationalist_001_desc_KAL
+	}
+	text = {
+		trigger = {
+			check_variable = {
+			    var = SOV.SOV_nationalist_country
+			    value = ABK
+			    compare = equals
+			}
+		}
+		localization_key = NSB_soviet_nationalist_001_desc_ABK
+	}
 }
 
 

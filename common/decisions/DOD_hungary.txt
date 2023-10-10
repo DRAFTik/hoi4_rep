@@ -51,6 +51,16 @@ political_actions = {
 				not = {
 					has_government = communism
 				}
+				exists = yes
+				is_subject = no
+			}
+
+			hidden_trigger = {
+				NOT = { has_country_flag = has_called_sweden_into_war }
+			}
+
+			hidden_trigger = {
+				NOT = { has_country_flag = HUN_tried_to_call_swe_to_war_once }
 			}
 		}
 		cost = 0
@@ -58,8 +68,15 @@ political_actions = {
 			factor = 1
 		}
 		complete_effect = {
+			hidden_effect = {
+				set_country_flag = has_called_sweden_into_war
+			}
 			SWE = {
-				country_event = DOD_hungary.20
+				country_event = { id = DOD_hungary.20 hours = 1 }
+			}
+
+			hidden_effect = {
+				set_country_flag = HUN_tried_to_call_swe_to_war_once
 			}
 		}
 	}
@@ -72,6 +89,7 @@ political_actions = {
 		}
 		visible = {
 			HUN = { has_completed_focus = HUN_elect_a_democratic_king }
+
 			NOT = {
 				has_war_with = HUN
 			}
@@ -82,6 +100,10 @@ political_actions = {
 				not = {
 					has_government = communism
 				}
+
+				hidden_trigger = {
+					NOT = { has_country_flag = has_called_hungary_into_war }
+				}
 			}
 		}
 		cost = 0
@@ -89,6 +111,9 @@ political_actions = {
 			factor = 1
 		}
 		complete_effect = {
+			hidden_effect = {
+				set_country_flag = has_called_hungary_into_war
+			}
 			HUN = {
 				country_event = DOD_hungary.24
 			}

@@ -255,7 +255,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.15
 				production_factory_efficiency_gain_factor = 0.05
 			}
 
@@ -281,7 +281,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.15
 				production_factory_efficiency_gain_factor = 0.1
 			}
 
@@ -487,11 +487,10 @@ ideas = {
 
 			allowed = {
 				always = no
-				original_tag = CZE
 			}
 
 			available = {
-				is_faction_leader = yes
+				
 			}
 
 			allowed_civil_war = {

@@ -1165,16 +1165,18 @@ focus_tree = {
 					controls_state = 764
 				}
 				ROM = {
+					transfer_state = 764
+
 					add_opinion_modifier = { 
 						target = ROOT
 						modifier = huge_increase
 					}
-					transfer_state = 764
-				}
-				diplomatic_relation = {
+				
+					diplomatic_relation = {
 						country = YUG
 						relation = non_aggression_pact
 						active = yes
+					}
 				}
 				764 = {
 					remove_core_of = ROOT
@@ -1186,6 +1188,8 @@ focus_tree = {
 					controls_state = 45
 				}
 				HUN = {
+					transfer_state = 45
+					
 					add_opinion_modifier = { 
 						target = ROOT
 						modifier = huge_increase
@@ -1195,11 +1199,10 @@ focus_tree = {
 						relation = non_aggression_pact
 						active = yes
 					}
-					transfer_state = 45
 				}
 				45 = {
 					remove_core_of = ROOT
-					add_core_of = ROM
+					add_core_of = HUN
 				}
 			}
 			hidden_effect = { 
@@ -5316,7 +5319,22 @@ focus_tree = {
 
 
 		completion_reward = {
-			custom_effect_tooltip = YUG_designer_tt
+
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				custom_effect_tooltip = available_mio_tt
+				show_mio_tooltip = YUG_ikarus_organization
+				mio:YUG_ikarus_organization = {
+					add_mio_size = 1
+					add_mio_funds = 500
+				}
+			}
+
+			else = {
+				custom_effect_tooltip = YUG_designer_tt
+			}
 
 			random_owned_controlled_state = {
 				prioritize = { 107 }
@@ -5362,7 +5380,23 @@ focus_tree = {
 
 
 		completion_reward = {
-			custom_effect_tooltip = YUG_designer_tt
+
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				custom_effect_tooltip = available_mio_tt
+				show_mio_tooltip = YUG_rogozarski_organization
+				mio:YUG_rogozarski_organization = {
+					add_mio_size = 1
+					add_mio_funds = 500
+				}
+			}
+
+			else = {
+				custom_effect_tooltip = YUG_designer_tt
+			}
+
 			random_owned_controlled_state = {
 				prioritize = { 107 }
 				limit = {
@@ -5407,7 +5441,23 @@ focus_tree = {
 
 
 		completion_reward = {
-			custom_effect_tooltip = YUG_designer_tt
+			
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				custom_effect_tooltip = available_mio_tt
+				show_mio_tooltip = YUG_zmaj_organization
+				mio:YUG_zmaj_organization = {
+					add_mio_size = 1
+					add_mio_funds = 500
+				}
+			}
+
+			else = {
+				custom_effect_tooltip = YUG_designer_tt
+			}
+
 			random_owned_controlled_state = {
 				prioritize = { 107 }
 				limit = {

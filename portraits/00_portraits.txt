@@ -1175,3 +1175,133 @@ ETH_african_union = {
 		}
 	}
 }
+
+FIN = {
+	army = {
+		male = {
+			"GFX_portrait_Finland_Generic_land_1"
+			"GFX_portrait_Finland_Generic_land_2"
+			"GFX_portrait_Finland_Generic_land_3"
+			"GFX_portrait_Finland_Generic_land_4"
+			"GFX_portrait_Finland_Generic_land_5"
+			"GFX_portrait_Finland_Generic_land_6"
+			"GFX_portrait_Finland_Generic_land_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_Finland_Generic_navy_1"
+			"GFX_portrait_Finland_Generic_navy_2"
+			"GFX_portrait_Finland_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		democratic = {
+				male = { 
+					"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		fascism = {
+				male = { 
+					"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}
+
+#SAMI
+SMI = {
+	army = {
+		male = {
+			"GFX_portrait_generic_sami_army_general_1"
+			"GFX_portrait_generic_sami_army_general_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_generic_sami_navy_admiral_1"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"GFX_portrait_SMI_sami_council"
+			}
+		}
+		democratic = {
+				male = { 
+					"GFX_portrait_SMI_sami_council" 
+			}
+		}
+		fascism = {
+				male = { 
+					"GFX_portrait_SMI_sami_council" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"GFX_portrait_SMI_sami_council" 
+			}
+		}
+	}
+}
+
+# Karelia
+KAR = {
+	army = {
+		male = {
+			"GFX_portrait_Finland_Generic_land_1"
+			"GFX_portrait_Finland_Generic_land_2"
+			"GFX_portrait_Finland_Generic_land_3"
+			"GFX_portrait_Finland_Generic_land_4"
+			"GFX_portrait_Finland_Generic_land_5"
+			"GFX_portrait_Finland_Generic_land_6"
+			"GFX_portrait_Finland_Generic_land_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_Finland_Generic_navy_1"
+			"GFX_portrait_Finland_Generic_navy_2"
+			"GFX_portrait_Finland_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		democratic = {
+				male = { 
+					"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		fascism = {
+				male = { 
+					"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}

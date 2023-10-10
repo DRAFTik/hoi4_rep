@@ -415,7 +415,12 @@ country_event = {
 	option = {
 		name = italy.10.a
 		ITA = { transfer_state = 177 }
-		remove_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
+		FROM = {
+			if = {
+				limit = { has_opinion_modifier = ita_supported_spain_civil_war }
+				remove_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
+			}
+		}
 	}
 }
 

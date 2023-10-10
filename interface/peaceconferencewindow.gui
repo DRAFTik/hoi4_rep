@@ -1319,7 +1319,6 @@ guiTypes = {
 			format = center
 		}
 
-		# TODO adelay : is this only for contested ? or does it work for selected ?
 		instantTextboxType = {
 			name = "refunded_score"
 			position = { x = 335 y = 92 }

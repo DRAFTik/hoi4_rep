@@ -933,11 +933,17 @@ characters = {
 			slot = political_advisor
 			idea_token = POR_bento_de_jesus_caraca
 			allowed = {
-				original_tag = POR
+				OR = {
+					original_tag = POR
+					original_tag = SWE
+				}
 				has_dlc = "La Resistance"
 			}
 			available = {
-				has_completed_focus = POR_reorganization_of_the_communist_party 
+				OR = {
+					has_completed_focus = POR_reorganization_of_the_communist_party 
+					SWE_refuge_for_revolutionaries_trigger = yes
+				}
 			}
 			traits = {
 				financial_expert 
@@ -992,11 +998,17 @@ characters = {
 			slot = political_advisor
 			idea_token = POR_maria_lamas
 			allowed = {
-				original_tag = POR
+				OR = {
+					original_tag = POR
+					original_tag = SWE
+				}
 				has_dlc = "La Resistance"
 			}
 			available = {
-				has_completed_focus = POR_popular_front 
+				OR = {
+					has_completed_focus = POR_popular_front 
+					SWE_refuge_for_revolutionaries_trigger = yes
+				}
 			}
 			traits = {
 				liberal_journalist 

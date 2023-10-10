@@ -1026,6 +1026,13 @@ SOV_basic_fight_alongside_comrades_triggers = { #Used in foreign politics target
 		has_government = ROOT
 		NOT = { has_war_with = ROOT }
 	}
+	NOT = { #Don't show up once ROOT is already at war with this country
+		any_other_country = {
+			original_tag = FROM
+			has_war_with = FROM
+			has_war_with = ROOT
+		}
+	}
 }
 
 # Can I join the Comintern, plz? 

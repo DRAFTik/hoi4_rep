@@ -610,7 +610,7 @@ frloc_ruler_name_male_vow = {
 		### KKP
 		has_country_leader = { character = KKP_islam_sadyk }
 		### KAR
-		has_country_leader = { character = KAR_grandpa }
+		has_country_leader = { character = KAR_ukki_vainamoinen }
 		### KSH
 		has_country_leader = { name = "Aleksander Majkowski" }
 		has_country_leader = { character = KSH_aleksander_majkowski } # Tassigny

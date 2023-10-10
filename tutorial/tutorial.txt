@@ -144,6 +144,7 @@ tutorial = {
     show_in_window = "army_badge_view"
     show_objects_in_window = { "unit_leader_tutorial_glow" }
     show_in_window = "leader_groups_portrait_window"
+    show_object_if_visible = "btn_execute"
     show_objects_in_window = { "execute_battle_plan_tutorial_glow" }
 
     commander = {
@@ -377,6 +378,20 @@ hint = {
     open_on_window = "countrytradeview"
     open_on_object_shown = "countrytradeview"
     show_in_window = "countrytradeview"
+}
+
+hint = {
+    window = "tutorial_hint_international_market"
+    open_on_window = "countryinternationalmarketview"
+    open_on_object_shown = "countryinternationalmarketview"
+    show_in_window = "countryinternationalmarketview"
+}
+
+hint = {
+    window = "tutorial_hint_military_industrial_org"
+    open_on_window = "industrial_organisation_list_window"
+    open_on_object_shown = "industrial_organisation_list_window"
+    show_in_window = "industrial_organisation_list_window"
 }
 
 hint = {

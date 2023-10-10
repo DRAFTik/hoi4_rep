@@ -784,7 +784,7 @@ SWI_federal_council_decisions_category = {
 
 		complete_effect = {
 			FROM = {
-				country_event = { id = BBA_generic_purchase_ships_events.01 hours = 3 }
+				country_event = { id = generic_purchase_ships_events.01 hours = 3 }
 			}
 		}
 
@@ -1125,7 +1125,7 @@ SWI_federal_council_decisions_category = {
 		cost = SWI_president_initiative_cost
 		
 		modifier = {
-			consumer_goods_factor = -0.1
+			consumer_goods_factor = -0.30
 			production_speed_buildings_factor = 0.4
 			production_speed_industrial_complex_factor = 0.1
 		}
@@ -4392,7 +4392,7 @@ SWI_military_readiness_decisions_category = {
 		days_remove = 30
 
 		modifier = { 
-			consumer_goods_factor = -0.25
+			consumer_goods_factor = -0.50
 			production_speed_buildings_factor = 0.25
 		}
 		ai_will_do = {
