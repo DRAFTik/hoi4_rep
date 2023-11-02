@@ -441,6 +441,7 @@
  at_war: "W stanie wojny"
  in_faction: "Członek frakcji"
  military_access: "Dostęp wojskowy"
+ offer_military_access: "Dostęp wojskowy"
  lend_lease: "Lend-Lease"
  non_aggression_pact: "Pakt o nieagresji"
  guarantee_active: "gwarantuje niepodległość:"
@@ -1574,3 +1575,4 @@
  FIN_nordic_amity: "Nordycka przyjaźń"
  FIN_support_for_east_karealian_independence_big: "Poparcie dla wojny w Karelii Wschodniej"
  FIN_support_for_east_karealian_independence_small: "Poparcie dla niepodległości Karelii Wschodniej"
+ DIPLOMACY_FACTION_UNAVAILABLETHEY_CAPITULATED: "Niedozwolone dla krajów, które skapitulowały"

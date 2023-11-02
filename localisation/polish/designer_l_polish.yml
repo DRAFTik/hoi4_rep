@@ -386,6 +386,7 @@
  ##   # #  #     #
  ##    ##  #     #
  #######  #     #   #####
+ #ships
  abcd_class: "Klasa A/B/C/D"
  abcd_1940_class: "Klasa A/B/C/D 1940"
  efgh_class: "Klasa E/F/G/H"
@@ -427,3 +428,9 @@
  t_Class: "Klasa T"
  v_class: "Klasa V"
  amphion_class: "Klasa Amphion"
+ #planes
+ HurricaneMkIIC: "Hurricane MkIIC"
+ spitfireMkVb: "Spitfire MkVb"
+ spitfireMkIXC: "Spitfire MkIXc"
+ spitfireMk21: "Spitfire Mk21"
+ spitefulXIV: "Spiteful MKXIV"

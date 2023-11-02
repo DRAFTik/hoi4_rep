@@ -339,7 +339,7 @@
  SOV_long_poum_cd_tt: "\nTę decyzję będzie można ponownie podjąć za §Y[?SOV_long_poum_cd]§! dni.\n"
  decision_only_once_tt: "\nTę decyzję można aktywować tylko raz."
  decision_cost_CP_50_pp_15: "£command_power  §Y50§! £pol_power  §Y15§!"
- decision_cost_CP_50_pp_15_blocked: "£command_power  §R50§! £pol_power  §RY15§!"
+ decision_cost_CP_50_pp_15_blocked: "£command_power  §R50§! £pol_power  §Y15§!"
  decision_cost_CP_50_pp_15_tooltip: "Podjęcie decyzji kosztuje £command_power  §Y50§! £pol_power  §Y15§!"
  SOV_diplomacy_baltic_decision_category: "Dyplomacja bałtycka"
  SOV_diplomacy_nordic_decision_category: "Dyplomacja nordycka"

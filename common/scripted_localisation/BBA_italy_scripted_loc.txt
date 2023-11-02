@@ -855,6 +855,74 @@ defined_text = { #Albanian Fascist Militia name based on political path
 	}
 }
 
+defined_text = { #Fight against Stalinism & alt focus title
+	name = GetAppropriateRussianGovernmentIdeology
+	text = { #  Stalinist
+		trigger = { 
+			SOV = {
+				has_government = communism
+				has_country_leader_ideology = stalinism
+			}
+		}
+		localization_key = ITA_russian_government_ideology_alt
+	}
+	text = { # Communist - but not Stalinist
+		trigger = { 
+			SOV = {
+				has_government = communism
+				NOT = {
+					has_country_leader_ideology = stalinism
+				}
+			}
+		}
+		localization_key = ITA_russian_government_ideology_alt2
+	}
+	text = { # Default - fascist or monarchist
+		trigger = { 
+			SOV = {
+				NOT ={
+					has_government = communism
+				}
+			}
+		}
+		localization_key = ITA_russian_government_ideology_default
+	}
+}
+
+defined_text = { #Fight against Stalinism & alt focus title
+	name = GetAppropriateRussianGovernmentIdeologyDesc
+	text = { #  Stalinist
+		trigger = { 
+			SOV = {
+				has_government = communism
+				has_country_leader_ideology = stalinism
+			}
+		}
+		localization_key = ITA_russian_government_ideology_desc_alt
+	}
+	text = { # Communist - but not Stalinist
+		trigger = { 
+			SOV = {
+				has_government = communism
+				NOT = {
+					has_country_leader_ideology = stalinism
+				}
+			}
+		}
+		localization_key = ITA_russian_government_ideology_desc_alt2
+	}
+	text = { # Default - fascist or monarchist
+		trigger = { 
+			SOV = {
+				NOT ={
+					has_government = communism
+				}
+			}
+		}
+		localization_key = ITA_russian_government_ideology_desc_default
+	}
+}
+
 
 # GFX FOR EVENTS
 

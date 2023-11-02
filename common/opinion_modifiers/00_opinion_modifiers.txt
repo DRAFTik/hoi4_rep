@@ -190,6 +190,10 @@ opinion_modifiers = {
 		value = 10
 	}
 	
+	offer_military_access = {
+		value = 10
+	}
+	
 	non_aggression_pact = {
 		value = 25
 	}

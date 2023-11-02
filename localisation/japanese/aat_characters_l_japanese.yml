@@ -133,6 +133,7 @@
  NOR_johan_h_andresen: "ヨハン・H・アンダーセン"
  NOR_olav_scheflo: "オーラヴ・シェフロ"
  NOR_king_haakon_vii: "ノルウェー国王、ホーコン7世"
+ NOR_queen_mathilde_i: "ノルウェー女王マチルデ1世"
  NOR_prince_olav: "ノルウェー王国、オーラヴ王子"
  NOR_josef_terboven: "ヨーゼフ・テアボーフェン"
  NOR_jonas_lie: "ヨナス・リー"
@@ -152,6 +153,7 @@
  NOR_joakim_lehmkuhl: "ヨアキム・レームクール"
  NOR_hans_ystgaard: "ハンス・イストガード"
  NOR_birger_eriksen: "ビルゲル・エリクセン"
+ JAN_grand_admiral_johan_mayen: "ヨハン・マイエン大提督"
  #SWEDEN
  SWE_gosta_bagge: "ゴスタ・バッグ"
  SWE_fallen_riksdag: "堕落したリクスダーグ"

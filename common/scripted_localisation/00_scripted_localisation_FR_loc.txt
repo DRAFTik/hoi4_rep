@@ -123,7 +123,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = NOR tag = DEN tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = SWE original_tag = FIN original_tag = EST }
+			OR = { tag = NOR tag = DEN tag = GOT tag = SMI tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = GOT original_tag = SMI original_tag = SWE original_tag = FIN original_tag = EST }
 			has_cosmetic_tag = NDC_UNIFIED
 			NOT = { has_cosmetic_tag = EST_UGRA }
 		}
@@ -136,6 +136,8 @@ defined_text = {
 		}
 		localization_key = FRLOC_BALTIC_belarus_INHAB
 	}
+	
+	
 	text = {
 		trigger = {
 			OR = { tag = ABK original_tag = ABK }
@@ -804,6 +806,14 @@ defined_text = {
 		trigger = { OR = { tag = DDR original_tag = DDR has_cosmetic_tag = DDR } }
 		localization_key = FRLOC_DDR_INHAB
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = DEN original_tag = DEN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_DEN_autonomy_aat_defense_council_member_INHAB
+	}
 	text = {
 		trigger = {
 			OR = { tag = DEN original_tag = DEN }
@@ -1031,6 +1041,70 @@ defined_text = {
 		}
 		localization_key = FRLOC_FIJ_INHAB_NEUTRALITY
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_FIN_autonomy_aat_defense_council_member_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_finland
+		}
+		localization_key = FRLOC_FIN_greater_finland_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_red_finland
+		}
+		localization_key = FRLOC_FIN_red_finlanda_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_kingdom_of_finland
+		}
+		localization_key = string_FIN_kingdom_of_finland_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_grand_finnish_federation
+		}
+		localization_key = FRLOC_FIN_grand_finnish_federation_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_kingdom_of_finland
+		}
+		localization_key = string_FIN_greater_kingdom_of_finland_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_confederated_finno_russian_republics
+		}
+		localization_key = FRLOC_FIN_confederated_finno_russian_republics_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_finnish_democratic_republic
+		}
+		localization_key = FRLOC_FIN_finnish_democratic_republic_INHAB
+	}
 	text = {
 		trigger = {
 			OR = { tag = FIN original_tag = FIN }
@@ -1163,6 +1237,14 @@ defined_text = {
 		trigger = { OR = { tag = GNB original_tag = GNB } }
 		localization_key = FRLOC_GNB_INHAB
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GOT original_tag = GOT }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = string_GOT_ADJ_INHAB
+	}
 	text = {
 		trigger = {
 			OR = { tag = GRE original_tag = GRE }
@@ -1260,6 +1342,35 @@ defined_text = {
 			}
 		}
 		localization_key = FRLOC_GRE_com_independent_communism_INHAB # "Hellènes" (Hellade)
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = fascism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_fasc_INHAB
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			OR = { has_government = democratic has_government = neutrality }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_dem_neut_INHAB
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = communism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_communism_INHAB
 	}
 	text = {
 		trigger = { OR = { tag = GUA original_tag = GUA } }
@@ -1381,6 +1492,14 @@ defined_text = {
 	text = {
 		trigger = { has_cosmetic_tag = vojvodina }
 		localization_key = FRLOC_vojvodina_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = ICE original_tag = ICE }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_ICE_autonomy_aat_defense_council_member_INHAB
 	}
 	text = {
 		trigger = { OR = { tag = ICE original_tag = ICE } }
@@ -2006,6 +2125,47 @@ defined_text = {
 		}
 		localization_key = FRLOC_NOA_demo_neut_INHAB
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_NOR_autonomy_aat_defense_council_member_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_SOV_communism
+		}
+		localization_key = FRLOC_NOR_SOV_communism_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_trotsky_communism
+		}
+		localization_key = FRLOC_NOR_trotsky_communism_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_government = democratic
+			has_cosmetic_tag = NOR_alt_democratic
+		}
+		localization_key = FRLOC_NOR_alt_democratic_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_reichskommissariat ### ???
+		}
+		localization_key = FRLOC_NOR_reichskommissariat_INHAB
+	}
 	text = {
 		trigger = {
 			OR = { tag = NOR original_tag = NOR }
@@ -2497,6 +2657,14 @@ defined_text = {
 		}
 		localization_key = FRLOC_SLV_YUG_subject_INHAB
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SMI original_tag = SMI }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_SMI_INHAB
+	}
 	text = {
 		trigger = {
 			OR = { tag = SOL original_tag = SOL }
@@ -2705,6 +2873,38 @@ defined_text = {
 			has_government = communism
 		}
 		localization_key = FRLOC_SUR_INHAB_COMMUNISM
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_reichs_protectorate
+		}
+		localization_key = FRLOC_SWE_reichs_protectorate_ADJ_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordic_defense_council
+		}
+		localization_key = FRLOC_SWE_nordic_defense_council_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_greater_nordic_reich_tag
+		}
+		localization_key = FRLOC_SWE_greater_nordic_reich_INHAB
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordland
+		}
+		localization_key = FRLOC_SWE_nordland_INHAB
 	}
 	text = {
 		trigger = {
@@ -3583,7 +3783,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = NOR tag = DEN tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = SWE original_tag = FIN original_tag = EST }
+			OR = { tag = NOR tag = DEN tag = GOT tag = SMI tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = GOT original_tag = SMI original_tag = SWE original_tag = FIN original_tag = EST }
 			has_cosmetic_tag = NDC_UNIFIED
 			NOT = { has_cosmetic_tag = EST_UGRA }
 		}
@@ -4263,6 +4463,14 @@ defined_text = {
 		trigger = { OR = { tag = DDR original_tag = DDR has_cosmetic_tag = DDR } }
 		localization_key = FRLOC_DDR_ADJ_MS
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = DEN original_tag = DEN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_DEN_autonomy_aat_defense_council_member_ADJ_M
+	}
 	text = {
 		trigger = {
 			OR = { tag = DEN original_tag = DEN }
@@ -4490,6 +4698,70 @@ defined_text = {
 		}
 		localization_key = FRLOC_FIJ_ADJ_MS_NEUTRALITY
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_FIN_autonomy_aat_defense_council_member_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_finland
+		}
+		localization_key = FRLOC_FIN_greater_finland_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_red_finland
+		}
+		localization_key = FRLOC_FIN_red_finlanda_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_kingdom_of_finland
+		}
+		localization_key = string_FIN_kingdom_of_finland_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_grand_finnish_federation
+		}
+		localization_key = FRLOC_FIN_grand_finnish_federation_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_kingdom_of_finland
+		}
+		localization_key = string_FIN_greater_kingdom_of_finland_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_confederated_finno_russian_republics
+		}
+		localization_key = FRLOC_FIN_confederated_finno_russian_republics_ADJ_S
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_finnish_democratic_republic
+		}
+		localization_key = FRLOC_FIN_finnish_democratic_republic_ADJ_M
+	}
 	text = {
 		trigger = {
 			OR = { tag = FIN original_tag = FIN }
@@ -4622,6 +4894,14 @@ defined_text = {
 		trigger = { OR = { tag = GNB original_tag = GNB } }
 		localization_key = FRLOC_GNB_ADJ_MS
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GOT original_tag = GOT }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = string_GOT_ADJ_M
+	}
 	text = {
 		trigger = {
 			OR = { tag = GRE original_tag = GRE }
@@ -4719,6 +4999,35 @@ defined_text = {
 			}
 		}
 		localization_key = FRLOC_GRE_com_independent_communism_ADJ_S # "Hellènes" (Hellade)
+	}
+	#### Inserted By Friedrich ### ok
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = fascism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_fasc_ADJ_MS
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			OR = { has_government = democratic has_government = neutrality }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_dem_neut_ADJ_M
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = communism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_communism_ADJ
 	}
 	text = {
 		trigger = { OR = { tag = GUA original_tag = GUA } }
@@ -4840,6 +5149,14 @@ defined_text = {
 	text = {
 		trigger = { has_cosmetic_tag = vojvodina }
 		localization_key = FRLOC_vojvodina_ADJ_MS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = ICE original_tag = ICE }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_ICE_autonomy_aat_defense_council_member_ADJ_M
 	}
 	text = {
 		trigger = { OR = { tag = ICE original_tag = ICE } }
@@ -5475,6 +5792,47 @@ defined_text = {
 		}
 		localization_key = FRLOC_NOA_demo_neut_ADJ_S
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_NOR_autonomy_aat_defense_council_member_ADJ_MS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_SOV_communism
+		}
+		localization_key = FRLOC_NOR_SOV_communism_ADJ_MS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_trotsky_communism
+		}
+		localization_key = FRLOC_NOR_trotsky_communism_ADJ_MS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_government = democratic
+			has_cosmetic_tag = NOR_alt_democratic
+		}
+		localization_key = FRLOC_NOR_alt_democratic_ADJ_MS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_reichskommissariat ### ???
+		}
+		localization_key = FRLOC_NOR_reichskommissariat_ADJ_MS
+	}
 	text = {
 		trigger = {
 			OR = { tag = NOR original_tag = NOR }
@@ -5968,6 +6326,14 @@ defined_text = {
 		}
 		localization_key = FRLOC_SLV_YUG_subject_ADJ_MS
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SMI original_tag = SMI }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_SMI_ADJ_MS
+	}
 	text = {
 		trigger = {
 			OR = { tag = SOL original_tag = SOL }
@@ -6176,6 +6542,38 @@ defined_text = {
 			has_government = communism
 		}
 		localization_key = FRLOC_SUR_ADJ_M_COMMUNISM
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_reichs_protectorate
+		}
+		localization_key = FRLOC_SWE_reichs_protectorate_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordic_defense_council
+		}
+		localization_key = FRLOC_SWE_nordic_defense_council_ADJ_S
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_greater_nordic_reich_tag
+		}
+		localization_key = FRLOC_SWE_greater_nordic_reich_ADJ_S
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordland
+		}
+		localization_key = FRLOC_SWE_nordland_ADJ_S
 	}
 	text = {
 		trigger = {
@@ -7054,7 +7452,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = NOR tag = DEN tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = SWE original_tag = FIN original_tag = EST }
+			OR = { tag = NOR tag = DEN tag = GOT tag = SMI tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = GOT original_tag = SMI original_tag = SWE original_tag = FIN original_tag = EST }
 			has_cosmetic_tag = NDC_UNIFIED
 			NOT = { has_cosmetic_tag = EST_UGRA }
 		}
@@ -7734,6 +8132,14 @@ defined_text = {
 		trigger = { OR = { tag = DDR original_tag = DDR has_cosmetic_tag = DDR } }
 		localization_key = FRLOC_DDR_ADJ_FS
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = DEN original_tag = DEN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_DEN_autonomy_aat_defense_council_member_ADJ_FS
+	}
 	text = {
 		trigger = {
 			OR = { tag = DEN original_tag = DEN }
@@ -7961,6 +8367,70 @@ defined_text = {
 		}
 		localization_key = FRLOC_FIJ_ADJ_FS_NEUTRALITY
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_FIN_autonomy_aat_defense_council_member_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_finland
+		}
+		localization_key = FRLOC_FIN_greater_finland_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_red_finland
+		}
+		localization_key = FRLOC_FIN_red_finlanda_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_kingdom_of_finland
+		}
+		localization_key = string_FIN_kingdom_of_finland_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_grand_finnish_federation
+		}
+		localization_key = FRLOC_FIN_grand_finnish_federation_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_kingdom_of_finland
+		}
+		localization_key = string_FIN_greater_kingdom_of_finland_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_confederated_finno_russian_republics
+		}
+		localization_key = FRLOC_FIN_confederated_finno_russian_republics_ADJ_S
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_finnish_democratic_republic
+		}
+		localization_key = FRLOC_FIN_finnish_democratic_republic_ADJ_FS
+	}
 	text = {
 		trigger = {
 			OR = { tag = FIN original_tag = FIN }
@@ -8093,6 +8563,14 @@ defined_text = {
 		trigger = { OR = { tag = GNB original_tag = GNB } }
 		localization_key = FRLOC_GNB_ADJ_FS
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GOT original_tag = GOT }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = string_GOT_ADJ_FS
+	}
 	text = {
 		trigger = {
 			OR = { tag = GRE original_tag = GRE }
@@ -8190,6 +8668,35 @@ defined_text = {
 			}
 		}
 		localization_key = FRLOC_GRE_com_independent_communism_ADJ_S # "Hellènes" (Hellade)
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = fascism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_fasc_ADJ_FS
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			OR = { has_government = democratic has_government = neutrality }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_dem_neut_ADJ_FS
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = communism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_communism_ADJ
 	}
 	text = {
 		trigger = { OR = { tag = GUA original_tag = GUA } }
@@ -8311,6 +8818,14 @@ defined_text = {
 	text = {
 		trigger = { has_cosmetic_tag = vojvodina }
 		localization_key = FRLOC_vojvodina_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = ICE original_tag = ICE }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_ICE_autonomy_aat_defense_council_member_ADJ_FS
 	}
 	text = {
 		trigger = { OR = { tag = ICE original_tag = ICE } }
@@ -8946,6 +9461,47 @@ defined_text = {
 		}
 		localization_key = FRLOC_NOA_demo_neut_ADJ_S
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_NOR_autonomy_aat_defense_council_member_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_SOV_communism
+		}
+		localization_key = FRLOC_NOR_SOV_communism_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_trotsky_communism
+		}
+		localization_key = FRLOC_NOR_trotsky_communism_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_government = democratic
+			has_cosmetic_tag = NOR_alt_democratic
+		}
+		localization_key = FRLOC_NOR_alt_democratic_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_reichskommissariat ### ???
+		}
+		localization_key = FRLOC_NOR_reichskommissariat_ADJ_FS
+	}
 	text = {
 		trigger = {
 			OR = { tag = NOR original_tag = NOR }
@@ -9439,6 +9995,14 @@ defined_text = {
 		}
 		localization_key = FRLOC_SLV_YUG_subject_ADJ_FS
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SMI original_tag = SMI }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_SMI_ADJ_FS
+	}
 	text = {
 		trigger = {
 			OR = { tag = SOL original_tag = SOL }
@@ -9647,6 +10211,38 @@ defined_text = {
 			has_government = communism
 		}
 		localization_key = FRLOC_SUR_ADJ_FS_COMMUNISM
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_reichs_protectorate
+		}
+		localization_key = FRLOC_SWE_reichs_protectorate_ADJ_FS
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordic_defense_council
+		}
+		localization_key = FRLOC_SWE_nordic_defense_council_ADJ_S
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_greater_nordic_reich_tag
+		}
+		localization_key = FRLOC_SWE_greater_nordic_reich_ADJ_S
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordland
+		}
+		localization_key = FRLOC_SWE_nordland_ADJ_S
 	}
 	text = {
 		trigger = {
@@ -10525,7 +11121,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = NOR tag = DEN tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = SWE original_tag = FIN original_tag = EST }
+			OR = { tag = NOR tag = DEN tag = GOT tag = SMI tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = GOT original_tag = SMI original_tag = SWE original_tag = FIN original_tag = EST }
 			has_cosmetic_tag = NDC_UNIFIED
 			NOT = { has_cosmetic_tag = EST_UGRA }
 		}
@@ -11205,6 +11801,14 @@ defined_text = {
 		trigger = { OR = { tag = DDR original_tag = DDR has_cosmetic_tag = DDR } }
 		localization_key = FRLOC_DDR_ADJ_MP
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = DEN original_tag = DEN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_DEN_autonomy_aat_defense_council_member_ADJ_M
+	}
 	text = {
 		trigger = {
 			OR = { tag = DEN original_tag = DEN }
@@ -11432,6 +12036,70 @@ defined_text = {
 		}
 		localization_key = FRLOC_FIJ_ADJ_MP_NEUTRALITY
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_FIN_autonomy_aat_defense_council_member_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_finland
+		}
+		localization_key = FRLOC_FIN_greater_finland_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_red_finland
+		}
+		localization_key = FRLOC_FIN_red_finlanda_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_kingdom_of_finland
+		}
+		localization_key = string_FIN_kingdom_of_finland_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_grand_finnish_federation
+		}
+		localization_key = FRLOC_FIN_grand_finnish_federation_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_kingdom_of_finland
+		}
+		localization_key = string_FIN_greater_kingdom_of_finland_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_confederated_finno_russian_republics
+		}
+		localization_key = FRLOC_FIN_confederated_finno_russian_republics_ADJ_P
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_finnish_democratic_republic
+		}
+		localization_key = FRLOC_FIN_finnish_democratic_republic_ADJ_M
+	}
 	text = {
 		trigger = {
 			OR = { tag = FIN original_tag = FIN }
@@ -11564,6 +12232,14 @@ defined_text = {
 		trigger = { OR = { tag = GNB original_tag = GNB } }
 		localization_key = FRLOC_GNB_ADJ_MP
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GOT original_tag = GOT }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = string_GOT_ADJ_M
+	}
 	text = {
 		trigger = {
 			OR = { tag = GRE original_tag = GRE }
@@ -11661,6 +12337,35 @@ defined_text = {
 			}
 		}
 		localization_key = FRLOC_GRE_com_independent_communism_ADJ_P # "Hellènes" (Hellade)
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = fascism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_fasc_ADJ_MP
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			OR = { has_government = democratic has_government = neutrality }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_dem_neut_ADJ_M
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = communism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_communism_ADJ
 	}
 	text = {
 		trigger = { OR = { tag = GUA original_tag = GUA } }
@@ -11782,6 +12487,14 @@ defined_text = {
 	text = {
 		trigger = { has_cosmetic_tag = vojvodina }
 		localization_key = FRLOC_vojvodina_ADJ_MP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = ICE original_tag = ICE }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_ICE_autonomy_aat_defense_council_member_ADJ_M
 	}
 	text = {
 		trigger = { OR = { tag = ICE original_tag = ICE } }
@@ -12417,6 +13130,47 @@ defined_text = {
 		}
 		localization_key = FRLOC_NOA_demo_neut_ADJ_P
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_NOR_autonomy_aat_defense_council_member_ADJ_MP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_SOV_communism
+		}
+		localization_key = FRLOC_NOR_SOV_communism_ADJ_MP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_trotsky_communism
+		}
+		localization_key = FRLOC_NOR_trotsky_communism_ADJ_MP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_government = democratic
+			has_cosmetic_tag = NOR_alt_democratic
+		}
+		localization_key = FRLOC_NOR_alt_democratic_ADJ_MP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_reichskommissariat ### ???
+		}
+		localization_key = FRLOC_NOR_reichskommissariat_ADJ_MP
+	}
 	text = {
 		trigger = {
 			OR = { tag = NOR original_tag = NOR }
@@ -12910,6 +13664,14 @@ defined_text = {
 		}
 		localization_key = FRLOC_SLV_YUG_subject_ADJ_MP
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SMI original_tag = SMI }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_SMI_ADJ_MP
+	}
 	text = {
 		trigger = {
 			OR = { tag = SOL original_tag = SOL }
@@ -13118,6 +13880,38 @@ defined_text = {
 			has_government = communism
 		}
 		localization_key = FRLOC_SUR_ADJ_M_COMMUNISM
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_reichs_protectorate
+		}
+		localization_key = FRLOC_SWE_reichs_protectorate_ADJ_M
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordic_defense_council
+		}
+		localization_key = FRLOC_SWE_nordic_defense_council_ADJ_P
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_greater_nordic_reich_tag
+		}
+		localization_key = FRLOC_SWE_greater_nordic_reich_ADJ_P
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordland
+		}
+		localization_key = FRLOC_SWE_nordland_ADJ_P
 	}
 	text = {
 		trigger = {
@@ -13996,7 +14790,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = NOR tag = DEN tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = SWE original_tag = FIN original_tag = EST }
+			OR = { tag = NOR tag = DEN tag = GOT tag = SMI tag = SWE tag = FIN tag = EST original_tag = NOR original_tag = DEN original_tag = GOT original_tag = SMI original_tag = SWE original_tag = FIN original_tag = EST }
 			has_cosmetic_tag = NDC_UNIFIED
 			NOT = { has_cosmetic_tag = EST_UGRA }
 		}
@@ -14676,6 +15470,14 @@ defined_text = {
 		trigger = { OR = { tag = DDR original_tag = DDR has_cosmetic_tag = DDR } }
 		localization_key = FRLOC_DDR_ADJ_FP
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = DEN original_tag = DEN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_DEN_autonomy_aat_defense_council_member_ADJ_FP
+	}
 	text = {
 		trigger = {
 			OR = { tag = DEN original_tag = DEN }
@@ -14903,6 +15705,70 @@ defined_text = {
 		}
 		localization_key = FRLOC_FIJ_ADJ_FP_NEUTRALITY
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_FIN_autonomy_aat_defense_council_member_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_finland
+		}
+		localization_key = FRLOC_FIN_greater_finland_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_red_finland
+		}
+		localization_key = FRLOC_FIN_red_finlanda_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_kingdom_of_finland
+		}
+		localization_key = string_FIN_kingdom_of_finland_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_grand_finnish_federation
+		}
+		localization_key = FRLOC_FIN_grand_finnish_federation_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_greater_kingdom_of_finland
+		}
+		localization_key = string_FIN_greater_kingdom_of_finland_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_confederated_finno_russian_republics
+		}
+		localization_key = FRLOC_FIN_confederated_finno_russian_republics_ADJ_P
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = FIN original_tag = FIN }
+			has_cosmetic_tag = FIN_finnish_democratic_republic
+		}
+		localization_key = FRLOC_FIN_finnish_democratic_republic_ADJ_FP
+	}
 	text = {
 		trigger = {
 			OR = { tag = FIN original_tag = FIN }
@@ -15035,6 +15901,14 @@ defined_text = {
 		trigger = { OR = { tag = GNB original_tag = GNB } }
 		localization_key = FRLOC_GNB_ADJ_FP
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GOT original_tag = GOT }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = string_GOT_ADJ_FP
+	}
 	text = {
 		trigger = {
 			OR = { tag = GRE original_tag = GRE }
@@ -15132,6 +16006,35 @@ defined_text = {
 			}
 		}
 		localization_key = FRLOC_GRE_com_independent_communism_ADJ_P # "Hellènes" (Hellade)
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = fascism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_fasc_ADJ_FP
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			OR = { has_government = democratic has_government = neutrality }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_dem_neut_ADJ_FP
+	}
+
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = GRN original_tag = GRN }
+			has_government = communism
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_GRN_communism_ADJ
 	}
 	text = {
 		trigger = { OR = { tag = GUA original_tag = GUA } }
@@ -15253,6 +16156,14 @@ defined_text = {
 	text = {
 		trigger = { has_cosmetic_tag = vojvodina }
 		localization_key = FRLOC_vojvodina_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = ICE original_tag = ICE }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_ICE_autonomy_aat_defense_council_member_ADJ_FP
 	}
 	text = {
 		trigger = { OR = { tag = ICE original_tag = ICE } }
@@ -15888,6 +16799,47 @@ defined_text = {
 		}
 		localization_key = FRLOC_NOA_demo_neut_ADJ_P
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_aat_defense_council_member
+		}
+		localization_key = FRLOC_NOR_autonomy_aat_defense_council_member_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_SOV_communism
+		}
+		localization_key = FRLOC_NOR_SOV_communism_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_cosmetic_tag = NOR_trotsky_communism
+		}
+		localization_key = FRLOC_NOR_trotsky_communism_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_government = democratic
+			has_cosmetic_tag = NOR_alt_democratic
+		}
+		localization_key = FRLOC_NOR_alt_democratic_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = NOR original_tag = NOR }
+			has_autonomy_state = autonomy_reichskommissariat ### ???
+		}
+		localization_key = FRLOC_NOR_reichskommissariat_ADJ_FP
+	}
 	text = {
 		trigger = {
 			OR = { tag = NOR original_tag = NOR }
@@ -16381,6 +17333,14 @@ defined_text = {
 		}
 		localization_key = FRLOC_SLV_YUG_subject_ADJ_FP
 	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SMI original_tag = SMI }
+			NOT = { has_cosmetic_tag = NDC_UNIFIED }
+		}
+		localization_key = FRLOC_SMI_ADJ_FP
+	}
 	text = {
 		trigger = {
 			OR = { tag = SOL original_tag = SOL }
@@ -16589,6 +17549,38 @@ defined_text = {
 			has_government = communism
 		}
 		localization_key = FRLOC_SUR_ADJ_FP_COMMUNISM
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_reichs_protectorate
+		}
+		localization_key = FRLOC_SWE_reichs_protectorate_ADJ_FP
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordic_defense_council
+		}
+		localization_key = FRLOC_SWE_nordic_defense_council_ADJ_P
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_greater_nordic_reich_tag
+		}
+		localization_key = FRLOC_SWE_greater_nordic_reich_ADJ_P
+	}
+	#### Inserted By Friedrich
+	text = {
+		trigger = {
+			OR = { tag = SWE original_tag = SWE }
+			has_cosmetic_tag = SWE_nordland
+		}
+		localization_key = FRLOC_SWE_nordland_ADJ_P
 	}
 	text = {
 		trigger = {
@@ -32480,4 +33472,25 @@ defined_text = {
 			localization_key = "SWI_fake_country_word_FR_FROM"
 		} 
 }
-
+#### Inserted By Friedrich
+defined_text = {
+	name = NORDIC_get_adjective_ADJ_MS_FR 
+	text = {
+		trigger = {
+			NORDIC_democratic_alliance_viable = yes
+		}
+		localization_key = NORDIC_adjective_democratic_ADJ_MS
+	}
+	text = {
+		trigger = {
+			NORDIC_communist_alliance_viable = yes 
+		}
+		localization_key = NORDIC_adjective_communist_ADJ_MS
+	}
+	text = {
+		trigger = {
+			NORDIC_monarchist_alliance_viable = yes 
+		}
+		localization_key = NORDIC_adjective_monarchist_ADJ_MS
+	}
+}

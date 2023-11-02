@@ -339,7 +339,7 @@
  SOV_long_poum_cd_tt: "\nЭто решение будет повторно доступно через §Y[?SOV_long_poum_cd]§! д.\n"
  decision_only_once_tt: "\nЭто решение можно активировать только один раз."
  decision_cost_CP_50_pp_15: "£command_power §Y50§! £pol_power §Y15§!"
- decision_cost_CP_50_pp_15_blocked: "£command_power §R50§! £pol_power §RY15§!"
+ decision_cost_CP_50_pp_15_blocked: "£command_power  §R50§! £pol_power  §Y15§!"
  decision_cost_CP_50_pp_15_tooltip: "Стоимость принятия решения: £command_power §Y50§! £pol_power §Y15§!"
  SOV_diplomacy_baltic_decision_category: "Балтийская дипломатия"
  SOV_diplomacy_nordic_decision_category: "Скандинавская дипломатия"

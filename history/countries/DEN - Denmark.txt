@@ -452,8 +452,8 @@ if = {
 
 	add_ideas = {
 		volunteer_only
-		DEN_declaration_of_neutrality
 	}
+	
 
 	set_power_balance = {
 		id = DEN_balance_of_power

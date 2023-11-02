@@ -536,6 +536,7 @@
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT: "Сейчас [ETH.GetName] принимает только добровольческие отряды"
  ICELAND_HAS_DECLARED_NEUTRALITY_JOIN: "Исландия объявила абсолютный нейтралитет и не может участвовать в войнах"
  ICELAND_HAS_DECLARED_NEUTRALITY_CALL: "Исландия объявила абсолютный нейтралитет, и ее нельзя призывать участвовать в войнах"
+ DENMARK_IS_A_PUPPET_FACTION: "[DEN.GetNameDefCap] получает особый статус протектората и не может вступать в альянсы"
  DENMARK_IS_A_PUPPET_JOIN: "[DEN.GetNameDefCap] получает особый статус протектората и не может участвовать в войнах"
  DENMARK_IS_A_PUPPET_CALL: "[DEN.GetNameDefCap] получает особый статус протектората, и эту страну нельзя призывать участвовать в войнах"
  RULE_GROUP_PEACE_SCORE: "Перераспределение очков мира"

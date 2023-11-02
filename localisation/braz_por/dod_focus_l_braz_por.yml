@@ -370,7 +370,7 @@
  ROM_royal_guards_divisions_tt: "Ganha uma unidade com 7 batalhões de §YInfantarias§! e 2 batalhões de §Y Artilharia§!.\n"
  ROM_royal_guards_divisions_desc: "Nossa guarda real precisa ser expandida para ser digna de nosso glorioso rei."
  ROM_the_armored_division: "A divisão blindada"
- ROM_the_armored_division_tt: "Ganha duas unidades com §Y4 de blindagem [ROM_UnlockedArmor]§! e §Y4 batalhões motorizados§!.\n"
+ ROM_the_armored_division_tt: "Ganha duas unidades com §Y4 blindados [ROM_UnlockedArmor]s§! e §Y4 batalhões motorizados§!.\n \n Adicionará §Ycompanhias de reconhecimento§! às divisões se a tecnologia tiver sido pesquisada."
  ROM_the_armored_division_desc: "Tanques são o caminhos do futuro e precisamos estabelecer as divisões dedicadas que utilizam a força dessas novas armas."
  ROM_acquire_modern_tanks: "Adquirir tanques modernos"
  ROM_acquire_modern_tanks_desc: "O desenvolvimento de tanques continua rápido, e não servirá adquirirmos modelos obsoletos."

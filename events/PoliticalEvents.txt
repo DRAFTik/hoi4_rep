@@ -48,15 +48,20 @@ country_event = {
 			}
 		}
 		NOT = {
-			has_dlc = "Arms Against Tyranny"
-			OR = {
-				original_tag = SWE
-				AND = {
-					original_tag = DEN
-					is_subject = yes
+			AND = {
+				has_dlc = "Arms Against Tyranny"
+				OR = {
+					original_tag = SWE
+					AND = {
+						original_tag = DEN
+						is_subject = yes
+					}
+					original_tag = FIN
+					AND = {
+						original_tag = NOR 
+						NOT = { has_country_flag = NOR_included_in_generic_political }
+					} 
 				}
-				original_tag = NOR
-				original_tag = FIN
 			}
 		}
 	}
@@ -250,6 +255,10 @@ country_event = {
 						is_subject = yes
 					}
 					original_tag = FIN
+					AND = {
+						original_tag = NOR 
+						NOT = { has_country_flag = NOR_included_in_generic_political }
+					} 					
 				}
 			}
 		}
@@ -337,6 +346,10 @@ country_event = {
 						is_subject = yes
 					}
 					original_tag = FIN
+					AND = {
+						original_tag = NOR 
+						NOT = { has_country_flag = NOR_included_in_generic_political }
+					} 
 				}
 			}
 		}
@@ -490,6 +503,7 @@ country_event = {
 				original_tag = SWI
 			}
 		}
+
 		NOT = {
 			AND = {
 				has_dlc = "Arms Against Tyranny"
@@ -499,7 +513,10 @@ country_event = {
 						original_tag = DEN
 						is_subject = yes
 					}
-					original_tag = NOR
+					AND = {
+						original_tag = NOR 
+						NOT = { has_country_flag = NOR_included_in_generic_political }
+					} 
 					original_tag = FIN
 				}
 			}
@@ -939,7 +956,10 @@ country_event = {
 						original_tag = DEN
 						is_subject = yes
 					}
-					original_tag = NOR
+					AND = {
+						original_tag = NOR 
+						NOT = { has_country_flag = NOR_included_in_generic_political }
+					} 
 					original_tag = FIN
 				}
 			}
@@ -1414,6 +1434,10 @@ country_event = {
 						is_subject = yes
 					}
 					original_tag = FIN
+					AND = {
+						original_tag = NOR 
+						NOT = { has_country_flag = NOR_included_in_generic_political }
+					} 
 				}
 			}
 		}
@@ -1565,6 +1589,10 @@ country_event = {
 						is_subject = yes
 					}
 					original_tag = FIN
+					AND = {
+						original_tag = NOR 
+						NOT = { has_country_flag = NOR_included_in_generic_political }
+					} 
 				}
 			}
 		}
@@ -1712,8 +1740,10 @@ country_event = {
 			AND = {
 				has_dlc = "Arms Against Tyranny"
 				OR = {
-					original_tag = NOR 
-					original_tag = SWE
+					AND = {
+						original_tag = NOR 
+						NOT = { has_country_flag = NOR_included_in_generic_political }
+					} 
 					AND = {
 						original_tag = DEN
 						OR = {

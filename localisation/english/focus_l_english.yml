@@ -1040,6 +1040,7 @@
  capital_ships_bonus:0 "Capital Ship models bonus"
  ti_bonus:0 "Trade Interdiction doctrines bonus"
  special_bonus:0 "Special forces bonus"
+ mountaineers2_bonus:0 "Mountaineers II bonus"
  air_bonus:0 "Air models bonus"
  ships_bonus:0 "Ship models bonus"
  fighter_bonus:0 "Fighter models bonus"

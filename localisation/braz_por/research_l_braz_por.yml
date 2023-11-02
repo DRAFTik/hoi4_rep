@@ -22,6 +22,9 @@
  RESEARCH_REPLACE_TRANSFER: "\n$SAVED|H0$ dia(s) da pesquisa salva anteriormente será transferido para a nova tecnologia."
  RESEARCH_REPLACE_EXCLUSIVE_TITLE: "Substituir pesquisa mutualmente exclusiva"
  RESEARCH_REPLACE_EXCLUSIVE_DESC: "Tem certeza de que deseja pesquisar §Y$NEW_TECH$§! em vez de §Y$OLD_TECH$§! e todas suas subtecnologias?"
+ RESEARCH_REPLACE_MIO_TITLE: "Substituir equipe de design"
+ RESEARCH_MIO_XP_COST_DESC: "Designar $ORG|H$ para $TECH|H$ custará $COST$."
+ RESEARCH_MIO_XP_COST_DESC_REPLACE: "Designar $ORG|H$ em vez de $OLD_ORG|H$ para $TECH|H$ custará $COST$."
  RESEARCH_EXCLUSIVE_INFO_TITLE_TOOLTIP: "§RA tecnologia é mutualmente exclusiva com:§!"
  RESEARCH_DOCTRINE_EXCLUSIVE_INFO_TITLE_TOOLTIP: "§RA doutrina é mutuamente exclusiva com:§!"
  RESEARCH_EXCLUSIVE_INFO_DESC: "Mutualmente exclusiva com"
@@ -64,7 +67,7 @@
  naval_doctrine_folder: "Doutrina naval"
  naval_doctrine_folder_desc: "Doutrina naval, como suas forças navais lutam."
  air_techs_folder: "Força aérea"
- air_techs_folder_desc: "Aviões."
+ air_techs_folder_desc: "Aeronaves e suas variantes."
  air_doctrine_folder: "Doutrina aérea"
  air_doctrine_folder_desc: "Doutrina aérea, como suas forças aéreas lutam."
  click_to_open_doctrine: "§GClique§! para abrir as doutrinas"
@@ -1173,6 +1176,7 @@
  LIMITED_RESEARCH_BONUS: "Bônus limitados:"
  cat_scout_plane: "Modelos para avião de observação"
  cat_maritime_patrol: "Modelos para avião de patrulha marítima"
+ mio_cat_tech_all_armor_and_modules: "Todas as tecnologias de blindados"
  mio_cat_tech_light_armor_and_modules: "Tecnologias de blindados leves" #Cannot talk about modules because of DLC lock tack
  mio_cat_tech_medium_armor_and_modules: "Tecnologias de blindados médios" #Cannot talk about modules because of DLC lock tack
  mio_cat_tech_heavy_armor_and_modules: "Tecnologias de blindados pesados" #Cannot talk about modules because of DLC lock tack
@@ -1189,3 +1193,5 @@
  mio_cat_tech_all_carrier_and_modules: "Todas as tecnologias de porta-aviões" #Cannot talk about modules because of DLC lock tack
  mio_cat_tech_all_cruiser_and_modules: "Todas as tecnologias de cruzadores" #Cannot talk about modules because of DLC lock tack
  mio_cat_tech_all_destroyer_and_modules: "Todas as tecnologias de contratorpedeiros" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_all_motorized_mechanized: "Todas as tecnologias de unidades motorizadas e mecanizadas"
+ militia_tech: "Milícias"

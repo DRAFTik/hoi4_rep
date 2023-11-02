@@ -39,7 +39,7 @@
  DEN_emil_strobech: "埃米尔·斯特勒贝克"
  #FINLAND
  FIN_pehr_evind_svinhufvud: "佩尔·埃温德·斯温胡武德"
- FIN_juho_kusti_paasikivi: "尤霍·库斯蒂·帕西基维"
+ FIN_juho_kusti_paasikivi: "尤霍·库斯蒂·巴锡基维"
  FIN_vaino_tanner: "韦埃内·坦纳"
  FIN_otto_wille_kuusinen: "奥托·维勒·库西宁"
  FIN_woldemar_hagglund: "沃尔德马尔·黑格隆德"
@@ -133,6 +133,7 @@
  NOR_johan_h_andresen: "约翰·A·安德烈森"
  NOR_olav_scheflo: "奥拉夫·舍夫卢"
  NOR_king_haakon_vii: "挪威国王哈康七世"
+ NOR_queen_mathilde_i: "挪威女王玛蒂尔德一世"
  NOR_prince_olav: "挪威王储奥拉夫"
  NOR_josef_terboven: "约瑟夫·特博文"
  NOR_jonas_lie: "约纳斯·利"
@@ -152,6 +153,7 @@
  NOR_joakim_lehmkuhl: "约阿基姆·莱姆库尔"
  NOR_hans_ystgaard: "汉斯·于斯特高"
  NOR_birger_eriksen: "比格尔·埃里克森"
+ JAN_grand_admiral_johan_mayen: "海军大元帅约翰·马延"
  #SWEDEN
  SWE_gosta_bagge: "约斯塔·巴格"
  SWE_fallen_riksdag: "国会垮台"
@@ -183,7 +185,7 @@
  SWE_ernst_linder: "恩斯特·林德"
  SWE_frans_severin: "弗兰斯·塞韦林"
  SWE_exiled_revolutionaries: "共产党流亡军委会"
- SWE_nordic_defense_council_leader: "北欧防卫理事会"
+ SWE_nordic_defense_council_leader: "北欧防务理事会"
  SWE_raoul_wallenberg: "拉乌尔·瓦伦贝格"
  SWE_natanael_beskow: "纳塔内尔·贝斯科夫"
  #SAMI

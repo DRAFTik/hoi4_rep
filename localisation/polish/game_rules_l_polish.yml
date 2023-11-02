@@ -536,6 +536,7 @@
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT: "Obecnie na terytorium [ETH.GetAdjective] możesz wysyłać tylko jednostki ochotników"
  ICELAND_HAS_DECLARED_NEUTRALITY_JOIN: "Islandia zadeklarowała całkowitą neutralność i nie może dołączać do wojen."
  ICELAND_HAS_DECLARED_NEUTRALITY_CALL: "Islandia zadeklarowała całkowitą neutralność i nie może być wzywana do wojen."
+ DENMARK_IS_A_PUPPET_FACTION: "[DEN.GetNameDefCap] ma status specjalnego protektoratu i nie może dołączać do frakcji."
  DENMARK_IS_A_PUPPET_JOIN: "[DEN.GetNameDefCap] ma status specjalnego protektoratu i nie może dołączać do wojen."
  DENMARK_IS_A_PUPPET_CALL: "[DEN.GetNameDefCap] ma status specjalnego protektoratu, przez co kraj ten nie może być wzywany do wojen."
  RULE_GROUP_PEACE_SCORE: "Dystrybucja wskaźnika pokoju"

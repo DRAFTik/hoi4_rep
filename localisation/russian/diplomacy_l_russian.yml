@@ -441,6 +441,7 @@
  at_war: "В состоянии войны"
  in_faction: "В альянсе"
  military_access: "Право на проход войск"
+ offer_military_access: "Право на проход войск"
  lend_lease: "Ленд-лиз"
  non_aggression_pact: "Пакт о ненападении"
  guarantee_active: "гарантирует независимость государства"
@@ -1574,3 +1575,4 @@
  FIN_nordic_amity: "Северная дружба"
  FIN_support_for_east_karealian_independence_big: "Поддержка восточно-карельской войны"
  FIN_support_for_east_karealian_independence_small: "Поддержка восточно-карельской независимости"
+ DIPLOMACY_FACTION_UNAVAILABLETHEY_CAPITULATED: "Запрещено для капитулировавших стран"

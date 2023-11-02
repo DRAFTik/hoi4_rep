@@ -441,6 +441,7 @@
  at_war: "Im Krieg"
  in_faction: "In einem Bündnis"
  military_access: "Durchmarscherlaubnis"
+ offer_military_access: "Durchmarschgenehmigung"
  lend_lease: "Leih-Pacht"
  non_aggression_pact: "Nichtangriffspakt"
  guarantee_active: "garantiert die Unabhängigkeit von"
@@ -1574,3 +1575,4 @@
  FIN_nordic_amity: "Nordische Freundschaft"
  FIN_support_for_east_karealian_independence_big: "Unterstützung für den ostkarelischen Krieg"
  FIN_support_for_east_karealian_independence_small: "Unterstützung für die ostkarelische Unabhängigkeit"
+ DIPLOMACY_FACTION_UNAVAILABLETHEY_CAPITULATED: "Nicht für kapitulierende Länder erlaubt"

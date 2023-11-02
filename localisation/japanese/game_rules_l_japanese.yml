@@ -536,6 +536,7 @@
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT: "現在[ETH.GetName]には、義勇軍しか派遣できない"
  ICELAND_HAS_DECLARED_NEUTRALITY_JOIN: "アイスランドは完全な中立性を宣言しているため、戦争に参加することができません"
  ICELAND_HAS_DECLARED_NEUTRALITY_CALL: "アイスランドは完全な中立性を宣言しているため、戦争への参加を呼びかけることができません"
+ DENMARK_IS_A_PUPPET_FACTION: "[DEN.GetNameDefCap]は特別保護領の立場にあるため、派閥に参加することができません"
  DENMARK_IS_A_PUPPET_JOIN: "[DEN.GetNameDefCap]は特別保護領の立場にあるため、戦争に参加することができません"
  DENMARK_IS_A_PUPPET_CALL: "[DEN.GetNameDefCap]は特別保護領の立場にあるため、戦争への参加を呼びかけることができません"
  RULE_GROUP_PEACE_SCORE: "平和スコアの分配"

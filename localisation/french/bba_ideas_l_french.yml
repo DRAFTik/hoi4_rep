@@ -1,5 +1,5 @@
 ﻿l_french:
- lon_arms_resolution_tt: "Une résolution de la Société des Nations interdit le commerce des armes [Root.GetAuAlaAlNP] [Root.GetName] tant que les hostilités entre [ITA.GetLeLaLNP] [ITA.GetName] et [ETH.GetLeLaLNP] [ETH.GetName] n'auront pas pris fin."
+ lon_arms_resolution_tt: "Une résolution de la Société des Nations interdit le commerce des armes avec les [Root.GetHabitants] tant que les hostilités entre [ITA.GetHabitants] et [ETH.GetHabitants] n'auront pas pris fin."
  ETH_ethiopia_supporting_independence_idea: "Soutien [ETH.GetAdjMS] à l'indépendance"
  ETH_prince_regent_idea: "Prince régent $ETH_ras_imru_haile_selassie$"
  ETH_prince_regent_idea_desc: "Tandis que Sa Majesté est tenue éloignée pour plaider la cause [Root.GetDuDelaDelNP] [Root.GetName] auprès de la Société des Nations, le ras $ETH_ras_imru_haile_selassie$ a pour rôle de défendre le pays face à l'envahisseur, et agit donc dans les faits comme le véritable dirigeant du pays jusqu'au retour de l'Empereur."

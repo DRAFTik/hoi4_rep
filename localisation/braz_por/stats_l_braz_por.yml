@@ -36,7 +36,7 @@
  STAT_ARMY_HARDNESS: "Dureza:"
  STAT_ARMY_HARDNESS_DESC: "§T§HDureza§! representa o quanto de sua §Hdivisão§! possui blindagem ou pelo menos veículos protegidos.\n\nAo ser atacada, a divisão adiciona todos os ataques leves e pesados juntos. Uma divisão com §Hdureza§! alta sofrerá menos de §Hataques leves§! e mais de §Hataques pesados§! e vice versa.§!"
  STAT_ARMY_HARDNESS_VALUE: "$VALUE|H1%$"
- STAT_ARMY_HARDNESS_DIFF: " $VALUE|=+1%$"
+ STAT_ARMY_HARDNESS_DIFF: "$VALUE|=+1%$"
  STAT_ARMY_SOFT_ATTACK: "Ataque leve:"
  STAT_ARMY_SOFT_ATTACK_DESC: "A quantidade de ataques que a unidade pode realizar com dureza baixa."
  STAT_ARMY_SOFT_ATTACK_VALUE: "$VALUE|H1$"

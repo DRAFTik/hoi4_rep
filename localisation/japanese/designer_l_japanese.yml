@@ -386,6 +386,7 @@
  ##   # #  #     #
  ##    ##  #     #
  #######  #     #   #####
+ #ships
  abcd_class: "A/B/C/D級"
  abcd_1940_class: "A/B/C/D級（1940）"
  efgh_class: "E/F/G/H級"
@@ -427,3 +428,9 @@
  t_Class: "T級"
  v_class: "V級"
  amphion_class: "アンフィオン級"
+ #planes
+ HurricaneMkIIC: "ハリケーン MkIIC"
+ spitfireMkVb: "スピットファイア MkVb"
+ spitfireMkIXC: "スピットファイア MkIXc"
+ spitfireMk21: "スピットファイア Mk21"
+ spitefulXIV: "スパイトフル MkXIV"

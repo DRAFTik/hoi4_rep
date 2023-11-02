@@ -536,6 +536,7 @@
  RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT: "Actuellement, seules des unités de volontaires peuvent être envoyées [ETH.GetAuEnANP] [ETH.GetName]."
  ICELAND_HAS_DECLARED_NEUTRALITY_JOIN: "[ICE.GetLeLaLNPCap] [ICE.GetName] [ICE.GetAOntNP] proclamé [ICE.GetSaLeurNP] neutralité et ne peu[ICE.GetTVentNP] donc prendre part à aucun conflit."
  ICELAND_HAS_DECLARED_NEUTRALITY_CALL: "[ICE.GetLeLaLNPCap] [ICE.GetName] [ICE.GetAOntNP] proclamé [ICE.GetSaLeurNP] neutralité et ne peu[ICE.GetTVentNP] donc être appelé[ICE.GetXENP] à prendre part à aucun conflit."
+ DENMARK_IS_A_PUPPET_FACTION: "La nation [DEN.GetAdjFS] s'est vu conférer un statut de protectorat particulier et ne peut donc rejoindre aucune faction."
  DENMARK_IS_A_PUPPET_JOIN: "[DEN.GetLeLaLNPCap] [DEN.GetName] [DEN.GetSestSesontNP] vu conférer un statut de protectorat particulier et ne peu[DEN.GetTVentNP] donc prendre part à aucun conflit."
  DENMARK_IS_A_PUPPET_CALL: "[DEN.GetLeLaLNPCap] [DEN.GetName] [DEN.GetSestSesontNP] vu conférer un statut de protectorat particulier et ne peu[DEN.GetTVentNP] donc être appelé[DEN.GetXENP] à prendre part à aucun conflit."
  RULE_GROUP_PEACE_SCORE: "Distribution du score de paix"

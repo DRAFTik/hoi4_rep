@@ -1,5 +1,5 @@
 ﻿l_russian:
- lon_arms_resolution_tt: "Резолюция Лиги Наций запрещает торговлю оружием с государством [ROOT.GetName] до прекращения вражды государств [ITA.GetName] и [ETH.GetName]."
+ lon_arms_resolution_tt: "Резолюция Лиги Наций запрещает торговлю оружием с государством [ROOT.GetName] до тех пор, пока [ITA.GetName] и [ETH.GetName] не завершат свою вражду."
  ETH_ethiopia_supporting_independence_idea: "[ETH.GetName] поддерживает независимость"
  ETH_prince_regent_idea: "Принц-регент $ETH_ras_imru_haile_selassie$"
  ETH_prince_regent_idea_desc: "Пора император $ETH_haile_selassie$ отсутствует, пропагандируя [ROOT.GetAdjective] дело в Лиге Наций, Рас $ETH_ras_imru_haile_selassie$ должен оборонять страну от захватчиков и фактически исполнять обязанности лидера государства [ROOT.GetName] до возвращения императора."

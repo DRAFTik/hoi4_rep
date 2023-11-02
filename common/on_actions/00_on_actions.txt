@@ -28,7 +28,7 @@ on_actions = {
 		}
 	}
 
-	on_daily = {
+	on_daily_SWE = {
 		effect = {
 			if = {
 				limit = {
@@ -41,21 +41,22 @@ on_actions = {
 						unit = bus # optional. specific unit eg. mountaineers, light_tank
 					}
 				}
-
 				set_variable = { global.achievement_days_since_bus_left_stockholm = 0 }
-				
+		
 			}
-			else = {
-				if = {
-					limit = {
-						check_variable = { global.achievement_days_since_bus_left_stockholm < 100 }
+
+			if = {
+				limit = {
+					divisions_in_state = {
+						state = 141
+						size < 1 # use < or ><state_id>
+						unit = bus # optional. specific unit eg. mountaineers, light_tank
 					}
-
-					add_to_variable = { global.achievement_days_since_bus_left_stockholm = 1 }
+					check_variable = { global.achievement_days_since_bus_left_stockholm < 100 }
 				}
+				add_to_variable = { global.achievement_days_since_bus_left_stockholm = 1 }
 			}
-
-
+			
 			if = {
 				limit = {
 					original_tag = SWE

@@ -564,8 +564,9 @@ form_north_sea_category = {
 				tooltip = form_scandinavia_denmark_required_states_tt
 				controls_state = 37
 				controls_state = 99
-				controls_state = 101
-				controls_state = 337
+				controls_state = 911
+				controls_state = 912
+				#None of the islands are required
 			}
 			# Sweden
 			custom_trigger_tooltip = {
@@ -621,9 +622,9 @@ form_north_sea_category = {
 			hidden_effect = {
 				37 = { add_core_of = ROOT }
 				99 = { add_core_of = ROOT }
-				910 = { add_core_of = ROOT }
 				911 = { add_core_of = ROOT }
 				912 = { add_core_of = ROOT }
+				#None of the islands are cored
 			}
 			# Sweden
 			custom_effect_tooltip =  form_north_sea_empire_swedish_required_states_tt
@@ -695,11 +696,12 @@ form_baltic_sea_empire_category = {
 			}
 			# Denmark
 			custom_trigger_tooltip = {
-				tooltip = form_country_denmark_required_states_tt
+				tooltip = form_scandinavia_denmark_required_states_tt
 				controls_state = 37
 				controls_state = 99
-				controls_state = 101
-				controls_state = 337
+				controls_state = 911
+				controls_state = 912
+				#None of the islands are required
 			}
 			# Finland
 			custom_trigger_tooltip = {

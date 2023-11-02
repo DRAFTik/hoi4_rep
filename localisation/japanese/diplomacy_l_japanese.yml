@@ -441,6 +441,7 @@
  at_war: "戦争中"
  in_faction: "陣営に加盟"
  military_access: "軍事通行権"
+ offer_military_access: "軍事通行権"
  lend_lease: "レンドリース"
  non_aggression_pact: "不可侵条約"
  guarantee_active: "は次の国に対する独立保障中"
@@ -1574,3 +1575,4 @@
  FIN_nordic_amity: "北欧の友好関係"
  FIN_support_for_east_karealian_independence_big: "東カレリア戦争の支援"
  FIN_support_for_east_karealian_independence_small: "東カレリア独立の支援"
+ DIPLOMACY_FACTION_UNAVAILABLETHEY_CAPITULATED: "降伏済みの国には許可されていない"

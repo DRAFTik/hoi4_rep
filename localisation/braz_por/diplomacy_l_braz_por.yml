@@ -441,6 +441,7 @@
  at_war: "Em guerra"
  in_faction: "Em facção"
  military_access: "Acesso militar"
+ offer_military_access: "Acesso militar"
  lend_lease: "Empréstimo/Arrendamento"
  non_aggression_pact: "Pacto de não agressão"
  guarantee_active: "Está garantindo a independência de"
@@ -1574,3 +1575,4 @@
  FIN_nordic_amity: "Fraternidade nórdica"
  FIN_support_for_east_karealian_independence_big: "Apoio à guerra da Carélia Oriental"
  FIN_support_for_east_karealian_independence_small: "Apoio à independência da Carélia Oriental"
+ DIPLOMACY_FACTION_UNAVAILABLETHEY_CAPITULATED: "Não é permitido a países capitulados"

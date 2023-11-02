@@ -422,7 +422,7 @@ USA_grumman_organization = {
 		relative_position_id = generic_mio_trait_reinforced_fuselage
 		
 		any_parent = { generic_mio_trait_reinforced_fuselage }
-		limit_to_equipment_type = { large_plane_airframe large_plane_maritime_patrol_plane_airframe }
+		limit_to_equipment_type = { mio_cat_eq_all_cv_aircraft small_plane_naval_bomber_airframe }
 			
 		equipment_bonus = {
 			air_agility = 0.05
@@ -520,7 +520,6 @@ USA_ford_motor_company_organization = {
 			}
 			FROM = {
 				has_country_flag = POL_ford_motors
-				NOT = { has_completed_focus = POL_adaptive_designs }
 			}
 		}
 	}
