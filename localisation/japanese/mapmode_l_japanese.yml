@@ -1,5 +1,5 @@
 ﻿l_japanese:
- MAPMODE_FABRICATE_WRONG_COUNTRY: "国が$COUTRY|Y$ではない"
+ MAPMODE_FABRICATE_WRONG_COUNTRY: "国が$COUNTRY|Y$ではない"
  MAPMODE_FABRICATE_UNSELECT: "$STATE|Y$の選択を解除"
  MAPMODE_FABRICATE_HAS_CLAIM: "既に$STATE|Y$に請求権がある"
  MAPMODE_FABRICATE_IS_CORE: "既に$STATE|Y$に請求権がある"
@@ -56,6 +56,9 @@
  MAPMODE_OPERATIVES_NAME: "諜報"
  MAPMODE_OPERATIVES: "§H諜報§!マップモード"
  MAPMODE_OPERATIVES_DESCRIPTION: "スパイ、任務、実行中の作戦、情報網の広がりを表示する。"
+ MAPMODE_RAIDS_NAME: "武力侵略"
+ MAPMODE_RAIDS: "§H武力侵略§!マップモード"
+ MAPMODE_RAIDS_DESCRIPTION: "計画および進行中のすべての襲撃を表示"
  MAPMODE_CONFIGURE: "好みのマップモードを設定"
  MAPMODE_ALL: "利用できる全マップモードを表示する。"
  CONFIG_MAPMODE_DEFAULT: "マップモードのスロットを初期状態に復元"

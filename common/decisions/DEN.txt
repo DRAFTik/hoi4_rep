@@ -478,7 +478,7 @@ DEN_balance_of_power_category = {
 
 		days_re_enable = DEN_very_long_reset_time
 
-		cost = 200
+		cost = DEN_decision_high_cost
 
 		complete_effect = {
 			add_stability = -0.1
@@ -1652,6 +1652,10 @@ DEN_occupation_category = {
 				factor = 1.5
 				is_historical_focus_on = yes
 			}
+			modifier = { 
+				add = 15
+				has_country_leader_with_trait = DEN_plenipotentiary
+			}
 			modifier = {
 				factor = 1.5
 				has_country_flag = DEN_telegram_crisis_flag
@@ -1738,6 +1742,10 @@ DEN_occupation_category = {
 						}
 					}
 				}
+			}
+			modifier = { 
+				add = 15
+				has_country_leader_with_trait = DEN_plenipotentiary
 			}
 			modifier = {
 				factor = 5
@@ -1839,6 +1847,10 @@ DEN_occupation_category = {
 			modifier = {
 				factor = 1.5
 				is_historical_focus_on = yes
+			}
+			modifier = { 
+				add = 15
+				has_country_leader_with_trait = DEN_plenipotentiary
 			}
 			modifier = {
 				factor = 2
@@ -1960,6 +1972,18 @@ DEN_occupation_category = {
 					value < -0.3
 				}
 			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = DEN_arm_the_resistance
+			}
+			modifier = {
+				factor = 1.5
+				is_historical_focus_on = yes
+			}
+			modifier = { 
+				add = 15
+				has_country_leader_with_trait = DEN_plenipotentiary
+			}
 		}
 	
 		allowed = {
@@ -2052,6 +2076,10 @@ DEN_occupation_category = {
 			modifier = {
 				factor = 2
 				is_historical_focus_on = yes
+			}
+			modifier = { 
+				add = 15
+				has_country_leader_with_trait = DEN_plenipotentiary
 			}
 			modifier = {
 				factor = 2
@@ -2155,6 +2183,10 @@ DEN_occupation_category = {
 				factor = 2
 				is_historical_focus_on = yes
 			}
+			modifier = { 
+				add = 15
+				has_country_leader_with_trait = DEN_plenipotentiary
+			}
 			modifier = {
 				factor = 2
 				has_country_flag = DEN_telegram_crisis_flag
@@ -2248,6 +2280,10 @@ DEN_occupation_category = {
 					id = DEN_occupation_balance
 					value < -0.6
 				}
+			}
+			modifier = { 
+				add = 15
+				has_country_leader_with_trait = DEN_plenipotentiary
 			}
 			modifier = {
 				factor = 2
@@ -2361,6 +2397,10 @@ DEN_occupation_category = {
 					id = DEN_occupation_balance
 					value < -0.6
 				}
+			}
+			modifier = { 
+				add = 15
+				has_country_leader_with_trait = DEN_plenipotentiary
 			}
 			modifier = {
 				factor = 1.5
@@ -3457,6 +3497,26 @@ DEN_resistance_category = {
 					value < -0.6
 				}
 			}
+			modifier = {
+				factor = 1.5
+				is_historical_focus_on = yes
+				FROM = {
+					original_tag = ENG
+				}
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					has_government = ROOT
+				}
+			}
+			modifier = {
+				factor = 1.5
+				is_subject = yes
+				FROM = {
+					has_war_with = ROOT.OVERLORD
+				}
+			}
 		}
 
 		available = {
@@ -3474,8 +3534,7 @@ DEN_resistance_category = {
 				has_capitulated = no
 				OR = {
 					is_major = yes
-					original_tag = SWE
-					original_tag = NOR
+					NORDIC_is_nordic = yes
 				}
 				OR = {
 					is_in_faction = no
@@ -3589,6 +3648,19 @@ DEN_resistance_category = {
 					value < -0.6
 				}
 			}
+			modifier = {
+				factor = 1.5
+				is_historical_focus_on = yes
+				FROM = {
+					original_tag = SWE
+				}
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					has_government = ROOT
+				}
+			}
 		}
 
 		available = {
@@ -3607,8 +3679,7 @@ DEN_resistance_category = {
 				has_capitulated = no
 				OR = {
 					is_major = yes
-					original_tag = SWE
-					original_tag = NOR
+					NORDIC_is_nordic = yes
 				}
 				OR = {
 					is_in_faction = no
@@ -3867,7 +3938,7 @@ DEN_overlord_category = {
 		icon = GFX_decision_oppression
 
 		ai_will_do = {
-			base = 10
+			base = 5
 			modifier = {
 				factor = 2
 				ROOT = {
@@ -3880,7 +3951,14 @@ DEN_overlord_category = {
 				factor = 1.5
 				has_opinion = {
 				    target = DEN
-				    value < -39
+				    value < -19
+				}
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+				    target = DEN
+				    value < -29
 				}
 			}
 			modifier = {
@@ -3888,13 +3966,6 @@ DEN_overlord_category = {
 				has_opinion = {
 				    target = DEN
 				    value < -49
-				}
-			}
-			modifier = {
-				factor = 1.5
-				has_opinion = {
-				    target = DEN
-				    value < -59
 				}
 			}
 			modifier = {
@@ -3909,7 +3980,7 @@ DEN_overlord_category = {
 			ROOT = {
 				has_opinion = {
 				    target = DEN
-				    value < -24
+				    value < -9
 				}
 			}
 			DEN = {
@@ -3945,7 +4016,7 @@ DEN_overlord_category = {
 		icon = GFX_decision_eng_trade_unions_demand
 
 		ai_will_do = {
-			base = 25
+			base = 10
 			modifier = {
 				factor = 2
 				ROOT = {
@@ -4097,7 +4168,7 @@ DEN_overlord_category = {
 		icon = GFX_decision_eng_trade_unions_demand
 
 		ai_will_do = { 
-			base = 75
+			base = 100
 		}
 
 		available = {
@@ -4137,7 +4208,7 @@ DEN_overlord_category = {
 		icon = GFX_decision_eng_trade_unions_demand
 
 		ai_will_do = { 
-			base = 75
+			base = 100
 		}
 
 		available = {
@@ -4177,7 +4248,7 @@ DEN_overlord_category = {
 		icon = GFX_decision_generic_prepare_civil_war
 
 		ai_will_do = { 
-			base = 25
+			base = 10
 			modifier = {
 				factor = 2
 				has_opinion = {
@@ -4239,7 +4310,7 @@ DEN_overlord_category = {
 		icon = GFX_decision_generic_military
 
 		ai_will_do = { 
-			base = 25
+			base = 10
 			modifier = {
 				factor = 2
 				has_opinion = {
@@ -4284,6 +4355,99 @@ DEN_overlord_category = {
 			custom_effect_tooltip = DEN_deteriorating_subject_relations
 		}
 	}
+
+	DEN_overlord_requests_the_return_of_the_faroes = {
+
+		icon = GFX_decision_generic_operation
+		
+		available = {
+			337 = {
+				is_controlled_by = ENG
+			}
+			is_subject = no
+			NOT = {
+				has_war_with = ENG
+				any_allied_country = {
+					has_war_with = ENG
+				}
+			}
+			ENG = {
+				has_opinion = {
+					target = ROOT
+					value > 74
+				}
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 0
+		} 
+		
+		visible = {
+			has_global_flag = ENG_occupied_DEN_faroes
+			has_subject = DEN
+			337 = {
+				is_fully_controlled_by = ENG
+			}
+			NOT = {
+				has_war_with = ENG
+			}
+		}
+		
+		complete_effect = {
+			#ENG = { country_event = { id = AAT_USA_events.08 days = 1 } }
+			ENG = { country_event = { id = AAT_USA_events.08 days = 2 } }
+		}
+	}
+
+	DEN_overlord_requests_greenland_back = {
+		icon = generic_operation
+	
+		available = {
+			101 = {
+				is_owned_and_controlled_by = USA
+			}
+			NOT = {
+				has_war_with = USA
+				any_allied_country = {
+					has_war_with = USA
+				}
+			}
+			USA = {
+				has_opinion = {
+					target = ROOT
+					value > 74
+				}
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 0
+		} 
+		
+		visible = {
+			has_global_flag = USA_occupied_DEN_greenland
+			has_subject = DEN
+			101 = {
+				is_fully_controlled_by = USA
+			}
+			NOT = {
+				has_war_with = USA
+			}
+		}
+		
+		complete_effect = {
+			USA = { country_event = { id = AAT_USA_events.08 days = 2 } }
+		}
+	}
 }
 
 #Trade
@@ -4293,13 +4457,14 @@ DEN_trade_deal_category = {
 		icon = GFX_decision_eng_trade_unions_support
 
 		ai_will_do = { 
-			base = 5
-			modifier = {
-				factor = 5
+			base = 0
+			modifier = { #only do this if DEN is the player
+				add = 10
 				has_opinion = {
 					target = DEN
 					value > 25
 				}
+				DEN = { is_ai = no }
 			}
 		}
 
@@ -4343,9 +4508,8 @@ DEN_trade_deal_category = {
 			base = 0
 			modifier = {
 				add = 25
-				has_opinion = {
-					target = DEN
-					value < -50
+				DEN = {
+					has_added_tension_amount > 24
 				}
 			}
 		}
@@ -4402,16 +4566,8 @@ DEN_trade_deal_category = {
 			base = 0
 			modifier = {
 				add = 25
-				has_opinion = {
-					target = FROM
-					value < -25
-				}
-			}
-			modifier = {
-				factor = 2
-				has_opinion = {
-					target = FROM
-					value < -50
+				FROM = {
+					has_added_tension_amount > 24
 				}
 			}
 		}
@@ -6474,21 +6630,21 @@ DEN_demand_territory_category = {
 				factor = 2
 				strength_ratio = {
 					tag = FROM 
-					ratio > 0.25
-				}
-			}
-			modifier = {
-				factor = 5
-				strength_ratio = {
-					tag = FROM 
-					ratio > 0.5
-				}
-			}
-			modifier = {
-				factor = 5
-				strength_ratio = {
-					tag = FROM 
 					ratio > 1
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.25
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.5
 				}
 			}
 			modifier = {
@@ -6563,21 +6719,21 @@ DEN_demand_territory_category = {
 				factor = 2
 				strength_ratio = {
 					tag = FROM 
-					ratio > 0.25
-				}
-			}
-			modifier = {
-				factor = 5
-				strength_ratio = {
-					tag = FROM 
-					ratio > 0.5
-				}
-			}
-			modifier = {
-				factor = 5
-				strength_ratio = {
-					tag = FROM 
 					ratio > 1
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.25
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.5
 				}
 			}
 			modifier = {
@@ -6652,21 +6808,21 @@ DEN_demand_territory_category = {
 				factor = 2
 				strength_ratio = {
 					tag = FROM 
-					ratio > 0.25
-				}
-			}
-			modifier = {
-				factor = 5
-				strength_ratio = {
-					tag = FROM 
-					ratio > 0.5
-				}
-			}
-			modifier = {
-				factor = 5
-				strength_ratio = {
-					tag = FROM 
 					ratio > 1
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.25
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.5
 				}
 			}
 			modifier = {
@@ -6741,21 +6897,21 @@ DEN_demand_territory_category = {
 				factor = 2
 				strength_ratio = {
 					tag = FROM 
-					ratio > 0.25
-				}
-			}
-			modifier = {
-				factor = 5
-				strength_ratio = {
-					tag = FROM 
-					ratio > 0.5
-				}
-			}
-			modifier = {
-				factor = 5
-				strength_ratio = {
-					tag = FROM 
 					ratio > 1
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.25
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.5
 				}
 			}
 			modifier = {
@@ -7125,7 +7281,7 @@ DEN_danish_faction_category = {
 				factor = 2
 				strength_ratio = {
 					tag = FROM 
-					ratio > 0.5
+					ratio > 1
 				}
 			}
 		}
@@ -7213,7 +7369,7 @@ DEN_danish_faction_category = {
 				factor = 2
 				strength_ratio = {
 					tag = FROM 
-					ratio > 0.5
+					ratio > 1
 				}
 			}
 		}
@@ -7353,21 +7509,21 @@ DEN_influence_countries_category = {
 				factor = 2
 				strength_ratio = {
 					tag = FROM 
-					ratio > 0.25
-				}
-			}
-			modifier = {
-				factor = 2
-				strength_ratio = {
-					tag = FROM 
-					ratio > 0.5
-				}
-			}
-			modifier = {
-				factor = 2
-				strength_ratio = {
-					tag = FROM 
 					ratio > 1
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.25
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.5
 				}
 			}
 		}
@@ -7399,9 +7555,6 @@ DEN_influence_countries_category = {
 						}
 					}
 				}
-				NOT = {
-					has_country_flag = DEN_has_danish_influence_flag
-				}
 			}
 		}
 
@@ -7410,6 +7563,9 @@ DEN_influence_countries_category = {
 
 		visible = {	
 			has_completed_focus = DEN_sway_the_nordics
+			NOT = {
+				has_country_flag = DEN_has_danish_influence_flag
+			}
 		}
 
 		fire_only_once = no
@@ -7449,7 +7605,14 @@ DEN_influence_countries_category = {
 		}
 
 		remove_effect = {
-			clr_country_flag = DEN_has_danish_influence_flag
+			FROM = {
+				if = {
+					limit = {
+						has_country_flag = DEN_has_danish_influence_flag
+					}
+					clr_country_flag = DEN_has_danish_influence_flag
+				}
+			}
 		}
 	}
 }
@@ -7471,21 +7634,21 @@ DEN_offer_protection_category = {
 				factor = 2
 				strength_ratio = {
 					tag = FROM 
-					ratio > 0.25
-				}
-			}
-			modifier = {
-				factor = 2
-				strength_ratio = {
-					tag = FROM 
-					ratio > 0.5
-				}
-			}
-			modifier = {
-				factor = 2
-				strength_ratio = {
-					tag = FROM 
 					ratio > 1
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.25
+				}
+			}
+			modifier = {
+				factor = 2
+				strength_ratio = {
+					tag = FROM 
+					ratio > 1.5
 				}
 			}
 		}
@@ -7568,12 +7731,12 @@ DEN_return_occupied_territory_category = {
 		ai_will_do = {
 			base = 10
 			modifier = {
-				factor = 2
+				factor = 1.5
 				DEN = { #Denmark controls mainland Denmark
   					controls_state = 37
 					controls_state = 99
-					controls_state = 101
-					controls_state = 337
+					controls_state = 911
+					controls_state = 912
   				}
 			}
 			modifier = {
@@ -7647,12 +7810,12 @@ DEN_return_occupied_territory_category = {
 		ai_will_do = {
 			base = 10
 			modifier = {
-				factor = 2
+				factor = 1.5
 				DEN = { #Denmark controls mainland Denmark
   					controls_state = 37
 					controls_state = 99
-					controls_state = 101
-					controls_state = 337
+					controls_state = 911
+					controls_state = 912
   				}
 			}
 			modifier = {

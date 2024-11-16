@@ -554,39 +554,82 @@ DEN_the_king_takes_over = {
 		limit = {
 			NOT = { has_government = neutrality }
 		}
-		set_politics = {
-			ruling_party = neutrality
-			long_name = DEN_neutrality_monarchist_party_long
-			name = DEN_neutrality_monarchist_party
+		if = {
+			limit = {
+				NOT = { has_character = DEN_christian_x } #He be dead
+			}
+			set_politics = {
+				ruling_party = neutrality
+				long_name = DEN_neutrality_monarchist_party_long
+				name = DEN_neutrality_monarchist_party
+			}
+			DEN_frederik_ix = {
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+						expire = "1965.1.1.1"
+						traits = { DEN_the_king }
+					}
+				}
+			}
 		}
-		DEN_christian_x = {
-			add_country_leader_role = {
-				promote_leader = yes
-				country_leader = {
-					ideology = despotism
-					expire = "1965.1.1.1"
-					traits = { DEN_the_king }
+		else = {
+			set_politics = {
+				ruling_party = neutrality
+				long_name = DEN_neutrality_monarchist_party_long
+				name = DEN_neutrality_monarchist_party
+			}
+			DEN_christian_x = {
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+						expire = "1965.1.1.1"
+						traits = { DEN_the_king }
+					}
 				}
 			}
 		}
 	}
 	else_if = {
-		limit = {
-			DEN_christian_x = { is_country_leader = no }
+		if = {
+			limit = {
+				NOT = { has_character = DEN_christian_x } #He be dead
+				#DEN_frederik_ix = { is_country_leader = no }
+			}
+			DEN_remove_neutral_leader = yes
+			set_politics = {
+				ruling_party = neutrality
+				long_name = DEN_neutrality_monarchist_party_long
+				name = DEN_neutrality_monarchist_party
+			}
+			DEN_frederik_ix = {
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+						expire = "1965.1.1.1"
+						traits = { DEN_the_king }
+					}
+				}
+			}
 		}
-		DEN_remove_neutral_leader = yes
-		set_party_name = {
-			ideology = neutrality
-			name = DEN_neutrality_monarchist_party_long
-			long_name = DEN_neutrality_monarchist_party
-		}
-		DEN_christian_x = {
-			add_country_leader_role = {
-				promote_leader = yes
-				country_leader = {
-					ideology = despotism
-					expire = "1965.1.1.1"
-					traits = { DEN_the_king }
+		else = {
+			DEN_remove_neutral_leader = yes
+			set_party_name = {
+				ideology = neutrality
+				name = DEN_neutrality_monarchist_party_long
+				long_name = DEN_neutrality_monarchist_party
+			}
+			DEN_christian_x = {
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+						expire = "1965.1.1.1"
+						traits = { DEN_the_king }
+					}
 				}
 			}
 		}
@@ -3028,7 +3071,7 @@ DEN_joint_military_cooperation = {
 		DEN_improve_haeren_NS = yes
 		add_to_variable = { 
 			DEN_haeren_army_artillery_attack = 0.05
-			tooltip = artillery_attack_factor_tt 
+			tooltip = army_artillery_attack_factor_tt 
 		}
 		add_to_variable = { 
 			DEN_haeren_army_artillery_defence = 0.05
@@ -4128,7 +4171,7 @@ DEN_independence_war_effects = {
 	if = {
 		limit = {
 			NOT = { #Necessary in case Overlord already declared war
-				has_war_with = DEN.DEN_overlord_natio
+				has_war_with = DEN.DEN_overlord_nation
 			}
 		}
 		declare_war_on = {

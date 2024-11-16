@@ -1,15 +1,3 @@
-# befriend
-# conquer
-# antagonize
-# build_ship
-# build_army
-# unit_ratio
-# build_building
-# research_tech
-# garrison
-# protect
-# influence
-
 ENG_unit_production = {
 
 	allowed = {	original_tag = ENG }
@@ -118,7 +106,6 @@ ENG_unit_production = {
 		id = armor
 		value = 10
 	}
-
 }
 
 ENG_bomber_production = {
@@ -143,7 +130,7 @@ ENG_bomber_production = {
 	}
 }
 
-bba_air_prod_1 = {
+ENG_bba_air_prod_1 = {
 	# TODO BFW:
 	allowed = { original_tag = ENG }
 	enable = {
@@ -255,7 +242,7 @@ bba_air_prod_1 = {
 	}
 }
 
-bba_air_prod_2 = {
+ENG_bba_air_prod_2 = {
 	# TODO BFW:
 	allowed = { original_tag = ENG }
 	enable = {
@@ -299,7 +286,7 @@ bba_air_prod_2 = {
 		id = cas
 		value = 3
 	}
- 
+
 	ai_strategy = {
 		type = unit_ratio
 		id = naval_bomber
@@ -365,10 +352,9 @@ bba_air_prod_2 = {
 		id = cv_naval_bomber
 		value = 25
 	}
-
 }
 
-build_more_patrol_bombers = {
+ENG_build_more_patrol_bombers = {
 
 	enable = {
 		has_dlc = "By Blood Alone"
@@ -392,7 +378,7 @@ build_more_patrol_bombers = {
 	}
 }
 
-eng_fighter_enhanced_production = {
+ENG_fighter_enhanced_production = {
 	allowed = { original_tag = ENG }
 
 	enable = {
@@ -414,10 +400,9 @@ eng_fighter_enhanced_production = {
 		id = upgrade_xp_cutoff
 		value = 100
 	}
-
 }
 
-eng_the_home_fleet  = {
+ENG_the_home_fleet  = {
 	allowed = { original_tag = ENG }
 
 	enable = {
@@ -428,10 +413,11 @@ eng_the_home_fleet  = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 16 # north sea
+		value = 70
 	}
 }
 
-eng_the_med_fleet  = {
+ENG_the_med_fleet  = {
 	allowed = { original_tag = ENG }
 
 	enable = {
@@ -442,10 +428,11 @@ eng_the_med_fleet  = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 69 # nice #eastern med
+		value = 20
 	}
 }
 
-eng_build_kgv_battleships = {
+ENG_build_kgv_battleships = {
 	allowed = { original_tag = ENG }
 
 	enable = {
@@ -466,11 +453,33 @@ eng_build_kgv_battleships = {
 	}
 }
 
-protect_poland_against_germany = {
+ENG_upgrade_from_interwar_tanks_asap = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		is_historical_focus_on = yes
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = medium_tank_chassis_1
+		value = 100  # 100 essentially means we don't require a stockpile surplus
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = medium_tank_equipment_1
+		value = 100  # 100 essentially means we don't require a stockpile surplus
+	}
+}
+
+ENG_protect_poland_against_germany = {
 	allowed = { original_tag = ENG }
 
 	enable = {
-		GER = { has_completed_focus = GER_end_of_czechoslovakia }
+		GER = { has_completed_focus = GER_fate_of_czechoslovakia }
 		GER = { NOT = { has_war_with = POL } }
 		country_exists = POL
 	}
@@ -556,10 +565,10 @@ ENG_fewer_factories_for_purchases_please = {
 	}
 }
 
-protect_poland_against_germany_even_more = {
+ENG_protect_poland_against_germany_even_more = {
 	allowed = { original_tag = ENG }
 	enable = {
-		GER = { has_completed_focus = GER_end_of_czechoslovakia }
+		GER = { has_completed_focus = GER_fate_of_czechoslovakia }
 		GER = { NOT = { has_war_with = POL } }
 		country_exists = POL
 	}
@@ -579,7 +588,7 @@ protect_poland_against_germany_even_more = {
 	}
 }
 
-defend_poland_against_germany = {
+ENG_defend_poland_against_germany = {
 	allowed = { original_tag = ENG }
 	enable = {
 		GER = { has_war_with = POL }
@@ -604,7 +613,7 @@ defend_poland_against_germany = {
 	}
 }
 
-royal_air_force = {
+ENG_royal_air_force = {
 	allowed = { original_tag = ENG }
 	enable = {
 		date > 1939.4.1
@@ -617,7 +626,6 @@ royal_air_force = {
 		type = air_factory_balance
 		value = 50
 	}
-
 }
 
 ENG_template_design_1 = {
@@ -740,7 +748,7 @@ ENG_template_design_2 = {
 }
 
 # lets make sure the allies dont overcommit to invasions early on
-careful_with_early_invasions = {
+ENG_ALLIES_careful_with_early_invasions = {
 	enable = {
 		date < 1942.8.1
 		NOT = { original_tag = USA }
@@ -754,7 +762,6 @@ careful_with_early_invasions = {
 
 		OR = {
 			is_in_faction_with = ENG # anyone in allies
-			tag = FRA
 		}
 
 		NOT = {
@@ -780,25 +787,25 @@ careful_with_early_invasions = {
 
 	ai_strategy = {
 		type = invade
-		id = "ITA"
+		id = ITA
 		value = -500
 	}
 
 	ai_strategy = {
 		type = invade
-		id = "GER"
+		id = GER
 		value = -500
 	}
 
 	ai_strategy = {
 		type = invade
-		id = "VIC"
+		id = VIC
 		value = -500
 	}
 
-	ai_strategy = { #TODO why does this crash
+	ai_strategy = {
 		type = invade
-		id = "JAP"
+		id = JAP
 		value = -500
 	}
 
@@ -809,13 +816,13 @@ careful_with_early_invasions = {
 	}
 }
 
-careful_with_early_invasions_USA = { #Same as above, alter in tandem
+ENG_USA_careful_with_early_invasions = { #Same as above, alter in tandem
 
-	allowed = { original_tag = USA }
+	allowed = { original_tag = USA }  # TODO this strategy seems bugged
 
 	enable = {
-		date < 1942.8.1
-		
+		date < 1942.5.1
+
 		#if = { # commented in case we want to add it back
 		#	limit = { NOT = { has_dlc = "Man the Guns"} }
 		#	NOT = { has_tech = landing_craft }
@@ -826,7 +833,6 @@ careful_with_early_invasions_USA = { #Same as above, alter in tandem
 
 		OR = {
 			is_in_faction_with = ENG # anyone in allies
-			tag = FRA
 		}
 
 		NOT = {
@@ -846,37 +852,36 @@ careful_with_early_invasions_USA = { #Same as above, alter in tandem
 				has_war_with = GER
 				surrender_progress > 0.23
 			}
-			date > 1942.8.1
+			date > 1942.5.1
 		}
 	}
 
 	ai_strategy = {
 		type = invade
-		id = "ITA"
+		id = ITA
 		value = -500
 	}
 
 	ai_strategy = {
 		type = invade
-		id = "GER"
+		id = GER
 		value = -500
 	}
 
 	ai_strategy = {
 		type = invade
-		id = "VIC"
+		id = VIC
 		value = -500
 	}
-	
+
 	ai_strategy = {
 		type = area_priority
 		id = scandinavia
 		value = -300
 	}
-	
 }
 
-east_prussia_invasion_is_death_trap = {
+ENG_ALLIES_east_prussia_invasion_is_death_trap = {
 	enable = {
 
 		OR = {
@@ -910,12 +915,12 @@ east_prussia_invasion_is_death_trap = {
 
 	ai_strategy = {
 		type = invade
-		id = "GER"
+		id = GER
 		value = -2000
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = "POL"
+		id = POL
 		value = 100
 	}
 }
@@ -946,17 +951,17 @@ ENG_trying_to_save_benelux_is_deathtrap = {
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = "HOL"
+		id = HOL
 		value = 70
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = "BEL"
+		id = BEL
 		value = 50
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = "LUX"
+		id = LUX
 		value = 50
 	}
 	ai_strategy = {
@@ -1121,7 +1126,6 @@ ENG_naval_role_ratios_anti_submarines = {
 	}
 }
 
-
 ENG_the_adriatic_is_dangerous = {
 	allowed = { original_tag = ENG }
 	enable = {
@@ -1136,10 +1140,220 @@ ENG_the_adriatic_is_dangerous = {
 	}
 }
 
+
+ENG_home_guard = {
+	allowed = { original_tag = ENG }
+	enable = {
+		any_enemy_country = {
+			OR = {
+				controls_state = 539
+				controls_state = 14
+				controls_state = 785
+				controls_state = 29
+				controls_state = 6
+				controls_state = 35
+				controls_state = 7
+				controls_state = 36
+				controls_state = 56
+				controls_state = 59
+				controls_state = 58
+				controls_state = 909
+				controls_state = 912
+				controls_state = 99
+				controls_state = 142
+				controls_state = 337
+				controls_state = 100
+				controls_state = 922
+				controls_state = 30
+				controls_state = 23
+				controls_state = 19
+				controls_state = 806
+			}
+		}
+		surrender_progress < 0.01
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = 200
+	}
+
+
+
+	ai_strategy = { #closest sea zones
+	    type = put_unit_buffers
+	    ratio = 0.35
+	    states = {
+			127
+			338
+			126
+			123
+			122
+			130
+			131
+			125
+	    }
+	    subtract_fronts_from_need = no
+	}
+
+	abort_when_not_enabled = yes
+
+}
+
+ENG_home_guard_2 = { #we are being invaded help help
+	allowed = { original_tag = ENG }
+	enable = {
+		surrender_progress > 0
+	}
+
+	ai_strategy = {
+	    type = front_control
+	    state_trigger = {
+	        is_core_of = ENG
+	    }
+	    area = UK_excluding_ni
+	    priority = 250
+	    ratio = 0
+	    ordertype = front
+	    execution_type = rush
+	    execute_order = yes
+	    manual_attack = yes
+	}
+
+	ai_strategy = { #closest sea zones
+	    type = put_unit_buffers
+	    ratio = 0
+	    states = {
+			127
+			338
+			126
+			123
+			122
+			130
+			131
+			125
+	    }
+	    subtract_fronts_from_need = yes
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = UK_excluding_ni
+		value = 60
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = UK_excluding_ni
+		value = 18
+	}
+
+	ai_strategy = {
+	    type = front_unit_request
+	    state_trigger = {
+	        is_core_of = ENG
+	    }
+	    area = UK_excluding_ni
+	    value = 250
+	}
+
+
+
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		id = 126
+		value = 4
+	}
+
+	abort_when_not_enabled = yes
+
+}
+
+ENG_protect_the_channel_from_invasion = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 18
+					size > 14
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 18
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 18
+					size > 23
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 18
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+	    type = naval_mission_threshold
+	    id = MISSION_PATROL
+	    value = -100
+	}
+
+	ai_strategy = {
+    	type = strike_force_home_base
+    	id = 18
+    	value = 250
+	}
+}
 ENG_the_channel_is_dangerous = {
 	allowed = { original_tag = ENG }
 	enable = {
-		has_war_with = GER
+		has_war = yes
+		127 = { is_fully_controlled_by = ENG }
+		123 = { is_fully_controlled_by = ENG }
+		126 = { is_fully_controlled_by = ENG }
+		125 = { is_fully_controlled_by = ENG }
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 18
+					size < 15
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 18
+					size < 2
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 18
+					size < 24
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 18
+					size < 2
+				}
+			}
+		}
+
 	}
 	abort_when_not_enabled = yes
 
@@ -1147,6 +1361,92 @@ ENG_the_channel_is_dangerous = {
 		type = naval_avoid_region
 		id = 18 #english channel
 		value = 75
+	}
+}
+
+ENG_raid_the_channel = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+		OR = {
+			127 = { NOT = { is_fully_controlled_by = ENG } }
+			123 = { NOT = { is_fully_controlled_by = ENG } }
+			126 = { NOT = { is_fully_controlled_by = ENG } }
+			125 = { NOT = { is_fully_controlled_by = ENG } }
+		}
+		
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 18 #english channel
+		value = 250
+	}
+
+	ai_strategy = {
+    	type = strike_force_home_base
+    	id = 18
+    	value = 120
+	}
+}
+
+ENG_raid_the_north_sea = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+		OR = {
+			130 = { NOT = { is_fully_controlled_by = ENG } }
+			131 = { NOT = { is_fully_controlled_by = ENG } }
+			121 = { NOT = { is_fully_controlled_by = ENG } }
+			136 = { NOT = { is_fully_controlled_by = ENG } }
+			120 = { NOT = { is_fully_controlled_by = ENG } }
+		}
+		
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 16 #english channel
+		value = 250
+	}
+
+	ai_strategy = {
+    	type = strike_force_home_base
+    	id = 16
+    	value = 120
+	}
+}
+
+ENG_raid_the_western_appproaches = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		OR = {
+			120 = { NOT = { is_fully_controlled_by = ENG } }
+			133 = { NOT = { is_fully_controlled_by = ENG } }
+			131 = { NOT = { is_fully_controlled_by = ENG } }
+			132 = { NOT = { is_fully_controlled_by = ENG } }
+			122 = { NOT = { is_fully_controlled_by = ENG } }
+			338 = { NOT = { is_fully_controlled_by = ENG } }
+			131 = { NOT = { is_fully_controlled_by = ENG } }
+		}
+		
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 16 #english channel
+		value = 250
+	}
+
+	ai_strategy = {
+    	type = strike_force_home_base
+    	id = 16
+    	value = 120
 	}
 }
 
@@ -1276,7 +1576,6 @@ ENG_USA_focus_on_europe_more = {
 		area = north_africa
 		value = 15
 	}
-	
 }
 
 ENG_USA_focus_on_europe_loads_more = {
@@ -1426,8 +1725,7 @@ ENG_accept_USA_access = {
 	}
 }
 
-
-dont_get_sucked_into_FRA_and_die = {
+ENG_COMMONWEALTH_dont_get_sucked_into_FRA_and_die = {
 
 	enable = {
 		OR = {
@@ -1630,7 +1928,7 @@ ENG_allies_dont_ask_for_diplo_access_to_SOV = {
 	}
 }
 
-ENG_Defends_Mediterranean = {
+ENG_defend_mediterranean = {
 	allowed = {
 		tag = ENG
 	}
@@ -1661,7 +1959,6 @@ ENG_Defends_Mediterranean = {
 		value = 4
 	}
 }
-
 
 ENG_convoy_raids_german_italian_convoys = {
 	allowed = {
@@ -1716,6 +2013,7 @@ ENG_unit_buffer_for_african_defense = {
 			AND = {
 				has_war = yes
 				surrender_progress < 0.5
+
 			}
 		}
 	}
@@ -1725,7 +2023,7 @@ ENG_unit_buffer_for_african_defense = {
 	ai_strategy = {
 		type = put_unit_buffers
 
-		# ratio of total armeis in country to be buffered
+		# ratio of total armies in country to be buffered
 		ratio = 0.1
 
 		# you can specify an order id. ratio of same orders ids will be share same ratio
@@ -1745,14 +2043,16 @@ ENG_unit_buffer_for_african_defense = {
 	}
 }
 
-ENG_norway_is_not_THAT_important = {
+ENG_ALLIES_norway_is_not_THAT_important = {
 	allowed = {
-		original_tag = ENG
+		always = yes
 	}
 	enable = {
 		date < 1945.1.1
-		any_allied_country = { 
-			NORDIC_is_nordic = yes 
+		is_in_faction_with = ENG
+		NOT = { original_tag = NOR }  # Let (exiled) Norway do what they want if they are in the Allies
+		any_allied_country = {
+			NORDIC_is_nordic = yes
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1762,13 +2062,13 @@ ENG_norway_is_not_THAT_important = {
 		id = scandinavia
 		value = -150
 	}
-	
+
 	ai_strategy = {
 		type = front_unit_request
 		area = scandinavia
 		value = -40
 	}
-	
+
 	#ai_strategy = {
 	#	type = naval_invasion_focus
 	#	value = -100
@@ -1861,7 +2161,7 @@ ENG_super_boost_armor_div_med = { #lets make sure the uk upgrades armor divs to 
 	}
 }
 
-ENG_take_italys_spaghetti = {
+ENG_USA_take_italys_spaghetti = {
 	allowed = {
 		OR = {
 			original_tag = USA
@@ -1882,7 +2182,7 @@ ENG_take_italys_spaghetti = {
 		id = italy
 		value = 60
 	}
-	
+
 	ai_strategy = {
 		type = area_priority
 		id = north_africa
@@ -1896,7 +2196,7 @@ ENG_take_italys_spaghetti = {
 	}
 }
 
-ENG_onto_the_beaches = {
+ENG_USA_onto_the_beaches = {
 	allowed = {
 		OR = {
 			original_tag = USA
@@ -1919,10 +2219,9 @@ ENG_onto_the_beaches = {
 		area = normandy_landing_zone
 		value = 10
 	}
-
 }
 
-ENG_onto_the_beaches_2 = {
+ENG_USA_onto_the_beaches_2 = {
 	allowed = {
 		OR = {
 			original_tag = USA
@@ -1939,13 +2238,13 @@ ENG_onto_the_beaches_2 = {
 		type = naval_invasion_focus
 		value = 20
 	}
-	
+
 	ai_strategy = {
 		type = invasion_unit_request
 		area = normandy_landing_zone
 		value = 6
 	}
-	
+
 	ai_strategy = {
 		type = area_priority
 		id = normandy_landing_zone
@@ -1953,7 +2252,7 @@ ENG_onto_the_beaches_2 = {
 	}
 }
 
-ENG_onto_the_beaches_3 = {
+ENG_USA_onto_the_beaches_3 = {
 	allowed = {
 		OR = {
 			original_tag = USA
@@ -1972,7 +2271,7 @@ ENG_onto_the_beaches_3 = {
 	}
 }
 
-ENG_onto_the_beaches_4 = {
+ENG_USA_onto_the_beaches_4 = {
 	allowed = {
 		OR = {
 			original_tag = USA
@@ -1991,6 +2290,72 @@ ENG_onto_the_beaches_4 = {
 	}
 }
 
+## US struggle to do torch, so let's help them a tad
+#ENG_torch_support = {
+#	allowed = {
+#		original_tag = ENG 
+#	}
+#	enable = {
+#		country_exists = VIC 
+#		has_war_with = GER 
+#		date > 1942.5.1
+#	}
+#	abort = {
+#		OR = {
+#			date > 1943.9.1 # if we haven't succeeded by now, maybe try somewhere else
+#			461 = { is_controlled_by_ROOT_or_ally = yes }
+#			459 = { is_controlled_by_ROOT_or_ally = yes }
+#		}
+#	}
+#
+#	ai_strategy = {
+#		type = put_unit_buffers
+#
+#		states = {
+#			118
+#			114
+#		}
+#
+#		ratio = 0.15
+#
+#		subtract_invasions_from_need = yes
+#		subtract_fronts_from_need = no 
+#	}
+#
+#	ai_strategy = {
+#		type = area_priority
+#		id = torch_landing_zone
+#		value = 800
+#	}
+#	ai_strategy = { # Let's avoid losing units in France for now. We'll go there later
+#		type = area_priority
+#		id = vichy_mainland
+#		value = -500
+#	}
+#
+#	ai_strategy = {
+#		type = invasion_unit_request
+#		area = torch_landing_zone
+#		value = 10
+#	}
+#	ai_strategy = {
+#		type = front_unit_request
+#		area = torch_landing_zone
+#		value = 5
+#	}
+#	ai_strategy = {
+#		type = prepare_for_war
+#		id = VIC
+#		value = 200 
+#	}
+#	ai_strategy = {
+#		type = invade
+#		id = VIC
+#		value = 200
+#	}
+#}
+#
+# Note USA has an additional boost in the USA_d_day_boost strategy
 ENG_USA_d_day = {
 	allowed = {
 		OR = {
@@ -2015,7 +2380,6 @@ ENG_USA_d_day = {
 		area = normandy_landing_zone
 		value = 5
 	}
-
 }
 
 ENG_RAJ_the_hot_gates = {
@@ -2058,41 +2422,34 @@ ENG_RAJ_the_hot_gates = {
 		subtract_invasions_from_need = no
 		subtract_fronts_from_need = yes
 	}
-
 }
 
-ENG_we_hate_fighting_in_the_balkans = {
+ENG_ALLIES_we_hate_fighting_in_the_balkans = {
 
-	allowed = {
-		original_tag = ENG
-	}
 	enable = {
 		date < 1943.1.1
+		is_in_faction_with = ENG
+		NOT = { tag = YUG }
+		NOT = { tag = GRE }
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = dont_defend_ally_borders #Just a bit, we wait for greece
+		type = dont_defend_ally_borders
 		id = YUG
 		value = 30
 	}
 
 	ai_strategy = {
-		type = dont_defend_ally_borders #Just a bit, we wait for greece
-		id = GRE
-		value = 30
-	}
-
-	ai_strategy = {
 		type = front_unit_request
-		area = albania
-		value = -50
+		area = greater_balkans
+		value = -100
 	}
 
 	ai_strategy = {
 		type = area_priority
-		id = albania
-		value = -50
+		id = greater_balkans
+		value = -100
 	}
 }
 
@@ -2117,6 +2474,12 @@ ENG_sardinia_is_a_stupid_island = {
 		id = sardinia
 		value = -50
 	}
+
+	ai_strategy = {
+		type = invasion_unit_request
+		area = sardinia
+		value = -100
+	}
 }
 
 COMMONWEALTH_disregard_france_a_bit = {
@@ -2128,10 +2491,10 @@ COMMONWEALTH_disregard_france_a_bit = {
 		is_historical_focus_on = yes
 	}
 	abort = {
-		FRA = { 
+		FRA = {
 			OR = {
 				has_capitulated = yes
-				is_government_in_exile = yes 
+				is_government_in_exile = yes
 			}
 		}
 	}
@@ -2155,10 +2518,10 @@ ENG_disregard_france_a_bit = {
 		is_historical_focus_on = yes
 	}
 	abort = {
-		FRA = { 
+		FRA = {
 			OR = {
 				has_capitulated = yes
-				is_government_in_exile = yes 
+				is_government_in_exile = yes
 			}
 		}
 	}
@@ -2202,7 +2565,7 @@ ENG_dont_kick_russia_out_from_triple_entente_due_to_gobbling_up_breakaway_states
 }
 
 ENG_the_baltic_is_a_terrible_holiday_destination = {
-	
+
 	allowed = {
 		original_tag = ENG
 	}
@@ -2220,11 +2583,11 @@ ENG_the_baltic_is_a_terrible_holiday_destination = {
 			}
 		}
 	}
-	
+
 	abort = {
 		GER = { has_war = no }
 	}
-	
+
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 9 #northern baltic
@@ -2269,25 +2632,90 @@ ENG_chill_on_the_pacific = {
 		id = pacific
 		value = -50
 	}
-	
+
 	ai_strategy = { #Invade japan after germany has capitulated
 		type = invade
-		id = "JAP"
+		id = JAP
 		value = -500
 	}
-	
+}
+
+ENG_ethiopian_continuation_war = {
+	# Fight more cautiously/defensively in the Ethiopian region
+	allowed = { original_tag = ENG }
+	enable = {
+		is_historical_focus_on = yes  # Don't like locking it behind a checkbox...
+		date < 1941.5.1  # Historically, the main Italian forces in Ethiopia surrendered in November 1941. (After that, there were remnants fighting a guerilla war until September 1943.)
+		ETH = { is_exiled_in = ENG }
+		has_war = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_control
+
+		strategic_region = 17  # Ethiopian Highlands
+		strategic_region = 273  # Danakil
+		strategic_region = 274  # Ogaden
+
+		ratio = 0.9
+
+		priority = 100
+		ordertype = front
+		execution_type = careful
+		execute_order = yes
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+
+		strategic_region = 17  # Ethiopian Highlands
+		strategic_region = 273  # Danakil
+		strategic_region = 274  # Ogaden
+
+		ratio = 0.9
+
+		value = -30
+	}
+}
+
+ENG_no_naval_landings_in_libya_yet = {
+	allowed = { original_tag = ENG }
+	enable = {
+		is_historical_focus_on = yes  # Don't like locking it behind a checkbox...
+		date < 1943.5.1  # Historically, the North African campaign concluded May 1943. If Allies have not won there yet at this point, let them invade.
+		OR = {
+			date < 1941.8.1 # If Tobruk hasn't fallen by this time, maybe it's time to start thinking about going around
+			451 = { is_controlled_by_ROOT_or_ally = yes } # Tobruk is in our hands, we can continue on land
+		}
+		OR = {
+			date > 1939.9.1
+			has_war = yes
+		}
+		has_war_with = ITA
+		ITA = {
+			has_navy_size = { size > 39 }  # Maybe want to look at fleet composition, not just total size
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = invasion_unit_request
+		area = north_africa
+		value = -100
+	}
 }
 
 ENG_to_tobruk = {
 	allowed = { original_tag = ENG }
-	enable = { 
+	enable = {
+		# NOTE: make sure these conditions are largely the same as for ENG_supply_for_tobruk_push below
 		is_historical_focus_on = yes
-		date > 1941.6.6
-		date < 1943.6.6
+		date > 1940.12.1 # Operation Compass
+		date < 1943.6.1
 		451 = { is_controlled_by = ITA }
 		ITA = { is_ai = yes }
 	}
-
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
@@ -2302,52 +2730,188 @@ ENG_to_tobruk = {
 		execution_type = rush
 		execute_order = yes
 	}
-	
-	ai_strategy = {
-		type = invasion_unit_request
-		area = north_africa
-		value = 15
-	}
-	
+
 	ai_strategy = {
 		type = area_priority
 		id = north_africa
 		value = 50
 	}
-	
+
 	ai_strategy = {
 		type = invade
-		id = "ITA"
-		value = 550 #counterbalances...
+		id = ITA
+		value = 550  # Counter-balances the ENG_ALLIES_careful_with_early_invasions strategy, so we get positive again
 	}
-	
 }
 
-ENG_dont_invade_norway = {
+ENG_navy_to_tobruk = {
 	allowed = { original_tag = ENG }
 	enable = {
 		is_historical_focus_on = yes
+		date > 1941.8.1 # We should have taken it by land route by now... 
+		date < 1943.6.1
+		451 = { is_controlled_by = ITA }
+		ITA = { is_ai = yes }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = invasion_unit_request
+		area = north_africa
+		value = 15
+	}
+}
+
+ENG_supply_for_tobruk_push = {
+	allowed = { original_tag = ENG }
+	enable = {
+		# NOTE: make sure these conditions are largely the same as for ENG_to_tobruk above
+		is_historical_focus_on = yes
+		date > 1940.7.1  # slightly earlier than the actual push to give time to build
+		date < 1943.6.1
+		451 = { is_controlled_by = ITA }
+		ITA = { is_ai = yes }
+
+		# Check that we don't already have the building there
+		452 = {  # Matrouh
+			any_province_building_level = {
+				province = {
+					id = 10061  # Marsa Matruh
+					# id = 9989  # Sidi Barrani
+				}
+				# building = supply_node
+				building = naval_base
+				level < 1
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		# Improve supply
+		type = build_building
+		# id = supply_node
+		id = naval_base
+		target = 10061  # Marsa Matruh
+		# target = 9989  # Sidi Barrani
+		value = 500
+	}
+}
+
+ENG_avoid_balkans_until_africa_is_secure = {
+	allowed = { original_tag = ENG }
+	enable = {
+		is_historical_focus_on = yes
+		date > 1939.6.6
+		date < 1943.6.6
+
+		# The check below should really be a scripted trigger or something
+		OR = { # Check whole north-african coast
+			448 = { CONTROLLER = { has_war_with = ROOT } } # tripoli
+			450 = { CONTROLLER = { has_war_with = ROOT } } # benghazi
+			458 = { CONTROLLER = { has_war_with = ROOT } } # tunisia
+			461 = { CONTROLLER = { has_war_with = ROOT } } # casablanca
+			462 = { CONTROLLER = { has_war_with = ROOT } } # marrakech
+			459 = { CONTROLLER = { has_war_with = ROOT } } # algiers
+			460 = { CONTROLLER = { has_war_with = ROOT } } # constantine
+			665 = { CONTROLLER = { has_war_with = ROOT } } # gabès
+			449 = { CONTROLLER = { has_war_with = ROOT } } # el agheila
+			451 = { CONTROLLER = { has_war_with = ROOT } } # derna
+			452 = { CONTROLLER = { has_war_with = ROOT } } # matrouh
+			447 = { CONTROLLER = { has_war_with = ROOT } } # alexandria
+			446 = { CONTROLLER = { has_war_with = ROOT } } # cairo
+			290 = { CONTROLLER = { has_war_with = ROOT } } # spanish africa
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = invasion_unit_request
+		area = greater_balkans
+		value = -100
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = greater_balkans
+		value = -50
+	}
+}
+
+ENG_ALLIES_dont_invade_norway = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		is_historical_focus_on = yes
 		date < 1943.2.1
+		is_in_faction_with = ENG
 		has_war_with = NOR
 	}
 	abort_when_not_enabled = yes
-	
+
 	ai_strategy = {
 		type = invade
-		id = "NOR"
+		id = NOR
 		value = -500
 	}
-	
+
 	ai_strategy = {
 		type = area_priority
 		id = scandinavia
 		value = -100
 	}
-	
+
 	ai_strategy = {
 		type = front_unit_request
 		area = scandinavia
 		value = -100
 	}
-	
+}
+
+ENG_prepare_for_naval_invasion_capability = {
+	allowed = {
+		original_tag = ENG
+		has_dlc = "Man the Guns"
+	}
+	enable = {
+		is_historical_focus_on = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = mtg_landing_craft  # Make sure we can do larger invasions
+		value = 100
+	}
+}
+
+# The Rock
+ENG_prepare_gibraltar = {
+	enable = {
+		date > 1941.1.1
+		118 = {
+			naval_base < 8
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = build_building
+		id = naval_base
+		target = 4135
+		value = 100
+	}
+}
+
+ENG_raids = {
+	allowed = {
+		original_tag = ENG
+	}
+    enable = { always = yes }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = raid_target_country
+        id = GER
+        value = 200 # +200% more likely to target GER
+    }
 }

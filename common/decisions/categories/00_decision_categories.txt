@@ -45,8 +45,20 @@ war_measures = {
 	icon = generic_propaganda
 
 	visible = {
-		has_war = yes
-		has_war_with_non_exiled_country = yes  
+		OR = {
+			AND = {
+				has_war = yes
+				has_war_with_non_exiled_country = yes  
+			}
+			AND = {
+				OR = {
+					original_tag = COG
+					original_tag = BEL
+				}
+				has_global_flag = CONGO_independence_war_ongoing
+			}
+		}
+		
 	}
 }
 operations = {
@@ -142,6 +154,15 @@ fascism_on_the_rise = {
 					original_tag = FIN
 				}
 			}
+
+			AND = {
+				has_dlc = "Gotterdammerung"
+				OR = {
+					original_tag = AUS
+					original_tag = BEL
+					original_tag = HUN
+				}
+			}
 		}
 	}
 	
@@ -199,6 +220,16 @@ democratic_on_the_rise = {
 					original_tag = FIN
 				}
 			}
+
+			AND = {
+				has_dlc = "Gotterdammerung"
+				OR = {
+					original_tag = AUS
+					original_tag = BEL
+					original_tag = HUN
+					original_tag = GER
+				}
+			}
 		}
 	}
 	
@@ -240,6 +271,22 @@ communism_on_the_rise = {
 				OR = {
 					original_tag = SWE
 					original_tag = FIN
+				}
+			}
+			AND = {
+				has_dlc = "Trial of Allegiance"
+				OR = {
+					original_tag = ARG
+				}
+			}
+
+			AND = {
+				has_dlc = "Gotterdammerung"
+				OR = {
+					original_tag = AUS
+					original_tag = BEL
+					original_tag = HUN
+					original_tag = GER
 				}
 			}
 		}
@@ -495,6 +542,28 @@ generic_purchase_old_ships_category = {
 			AND = {
 				original_tag = DEN
 				has_dlc = "Arms Against Tyranny"
+			}
+			AND = {
+				original_tag = BRA
+				has_dlc = "Trial of Allegiance"
+			}
+			AND = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+			AND = {
+				original_tag = ARG
+				has_dlc = "Trial of Allegiance"
+			}
+
+			AND = {
+				original_tag = URG
+				has_dlc = "Trial of Allegiance"
+			}
+
+			AND = {
+				original_tag = PAR
+				has_dlc = "Trial of Allegiance"
 			}
 		}
 	}

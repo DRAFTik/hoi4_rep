@@ -982,17 +982,40 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_HISTORICAL }
 	
 		completion_reward = {
+
 			add_research_slot = 1
 
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = DEN_niels_bohr	
-
-			add_tech_bonus = {
-				name = DEN_expand_institut_for_teoretisk_fysik
-				bonus = 0.5
-				uses = 1
-				category = nuclear
+			IF = {
+				limit = {
+					NOT = {
+						has_tech = atomic_research
+					}
+				}
+				add_tech_bonus = {
+					name = DEN_expand_institut_for_teoretisk_fysik
+					bonus = 0.25 # was 0.5
+					uses = 1
+					category = nuclear
+				}
+				add_breakthrough_progress = {
+					specialization = specialization_nuclear
+					value = 0.5
+				}
 			}
+			ELSE = {
+				add_breakthrough_progress = {
+					specialization = specialization_nuclear
+					value = 0.75
+				}
+			}
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			custom_effect_tooltip = {
+				localization_key = available_scientist_one_line_tt
+				CHARACTER = DEN_niels_bohr
+			}	
+			
 		}
 	}
 
@@ -2058,7 +2081,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+ 	focus = {
 		id = DEN_arm_the_resistance
 		icon = GFX_goal_generic_small_arms
 
@@ -2221,13 +2244,28 @@ focus_tree = {
 					ROOT.OVERLORD = {
 						has_government = fascism
 					}
-					NOT = { 
-						has_government = communism 
+				}
+				if = {
+					limit = {
+						NOT = { 
+							has_government = communism 
+						}
+					}
+					add_popularity = {
+				    	ideology = communism
+				   		popularity = 0.05
 					}
 				}
-				add_popularity = {
-				    ideology = communism
-				    popularity = 0.05
+				if = {
+					limit = {
+						has_government = fascism
+						fascism > 0.15
+						has_country_leader_with_trait = DEN_plenipotentiary
+					}
+					add_popularity = {
+						ideology = fascism
+						popularity = -0.05
+					}
 				}
 			}
 			if = {
@@ -2236,13 +2274,28 @@ focus_tree = {
 					ROOT.OVERLORD = {
 						has_government = communism
 					}
-					NOT = { 
-						has_government = fascism 
+				}
+				if = {
+					limit = {
+						NOT = { 
+							has_government = fascism 
+						}
+					}
+					add_popularity = {
+				    	ideology = fascism
+				   		popularity = 0.05
 					}
 				}
-				add_popularity = {
-				    ideology = fascism
-				    popularity = 0.05
+				if = {
+					limit = {
+						has_government = communism
+						communism > 0.15
+						has_country_leader_with_trait = DEN_plenipotentiary
+					}
+					add_popularity = {
+				    	ideology = communism
+				   		popularity = -0.05
+					}
 				}
 			}
 			DEN_upgrade_resistance_militia = yes
@@ -3882,6 +3935,8 @@ focus_tree = {
 		}
 	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		will_lead_to_war_with = NOR
 	
 		completion_reward = {
 			add_autonomy_score = { 
@@ -3895,13 +3950,13 @@ focus_tree = {
 						exists = yes
 					}
 				}
-				create_wargoal = {
-					target = NOR 
-					type = annex_everything 
-				}
 				add_timed_idea = {
 					idea = DEN_securing_norway_ns
 					days = 365
+				}
+				declare_war_on = {
+				    target = NOR
+				    type = annex_everything
 				}
 			}
 			else = {
@@ -3925,7 +3980,7 @@ focus_tree = {
 						}
 					}
 					ROOT = {
-						create_wargoal = {
+						declare_war_on = {
 							type = take_state_focus
 							target = PREV
 							generator = PREV.DEN_norwegian_target_states_array
@@ -3963,6 +4018,8 @@ focus_tree = {
 		}
 	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		will_lead_to_war_with = ICE
 	
 		completion_reward = {
 			add_autonomy_score = { 
@@ -3984,10 +4041,10 @@ focus_tree = {
 				100 = {
 					CONTROLLER = {
 						ROOT = {
-							create_wargoal = {
-								type = take_state_focus
-								target = PREV
-								generator = { 100 }
+							declare_war_on = {
+							    target = PREV
+							    type = take_state_focus
+							    generator = { 100 }
 							}
 						}
 					}
@@ -4000,9 +4057,9 @@ focus_tree = {
 							}
 						}
 					}
-					create_wargoal = {
-						target = ICE 
-						type = annex_everything 
+					declare_war_on = {
+					    target = ICE
+					    type = annex_everything
 					}
 				}
 			}
@@ -4018,10 +4075,10 @@ focus_tree = {
 				101 = {
 					CONTROLLER = {
 						ROOT = {
-							create_wargoal = {
-								type = take_state_focus
-								target = PREV
-								generator = { 101 }
+							declare_war_on = {
+							    target = PREV
+							    type = take_state_focus
+							    generator = { 101 }
 							}
 						}
 					}
@@ -4039,10 +4096,10 @@ focus_tree = {
 				337 = {
 					CONTROLLER = {
 						ROOT = {
-							create_wargoal = {
-								type = take_state_focus
-								target = PREV
-								generator = { 337 }
+							declare_war_on = {
+							    target = PREV
+							    type = take_state_focus
+							    generator = { 337 }
 							}
 						}
 					}
@@ -4076,6 +4133,8 @@ focus_tree = {
 		}
 	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		will_lead_to_war_with = SWE
 	
 		completion_reward = {
 			add_autonomy_score = { 
@@ -4088,13 +4147,13 @@ focus_tree = {
 						exists = yes
 					}
 				}
-				create_wargoal = {
-					target = SWE 
-					type = annex_everything 
-				}
 				add_timed_idea = {
 					idea = DEN_securing_sweden_ns
 					days = 365
+				}
+				declare_war_on = {
+				    target = SWE
+				    type = annex_everything
 				}
 			}
 			else = {
@@ -4118,7 +4177,7 @@ focus_tree = {
 						}
 					}
 					ROOT = {
-						create_wargoal = {
+						declare_war_on = {
 							type = take_state_focus
 							target = PREV
 							generator = PREV.DEN_swedish_target_states_array
@@ -4156,6 +4215,8 @@ focus_tree = {
 		}
 	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		will_lead_to_war_with = FIN
 	
 		completion_reward = {
 			add_autonomy_score = { 
@@ -4168,13 +4229,13 @@ focus_tree = {
 						exists = yes
 					}
 				}
-				create_wargoal = {
-					target = FIN 
-					type = annex_everything 
-				}
 				add_timed_idea = {
 					idea = DEN_securing_finland_ns
 					days = 365
+				}
+				declare_war_on = {
+				    target = FIN
+				    type = annex_everything
 				}
 			}
 			else = {
@@ -4198,7 +4259,7 @@ focus_tree = {
 						}
 					}
 					ROOT = {
-						create_wargoal = {
+						declare_war_on = {
 							type = take_state_focus
 							target = PREV
 							generator = PREV.DEN_finnish_target_states_array
@@ -5299,7 +5360,7 @@ focus_tree = {
 			}
 			add_to_variable = {
 				DEN_industrial_capability_resources_to_market = -0.1
-				tooltip = min_export_factor_tt
+				tooltip = min_export_tt
 			}
 		}
 	}
@@ -5449,7 +5510,7 @@ focus_tree = {
 			}
 			add_to_variable = {
 				DEN_industrial_capability_resources_to_market = 0.1
-				tooltip = min_export_factor_tt
+				tooltip = min_export_tt
 			}
 
 			hidden_effect = { #This is done for tooltip purposes so that the research bonus is shown in the dynamic modifier
@@ -7352,6 +7413,8 @@ focus_tree = {
 			}
 		}
 
+		cancel_if_invalid = no
+
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_BALANCE_OF_POWER FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
@@ -7434,7 +7497,7 @@ focus_tree = {
 					}
 				}
 				ICE = {
-					OVERLORD = { country_event = { id = denmark_expansion_event.5 days = 1 }}
+					OVERLORD = { country_event = { id = denmark_expansion_event.4 days = 1 }}
 				}
 				custom_effect_tooltip = if_they_accept_tt
 				event_option_tooltip = denmark_expansion_event.5.a
@@ -7610,8 +7673,12 @@ focus_tree = {
 				threat > 0.20
 				has_subject = SWE
 			}
-			is_subject = no
 		}
+
+		cancel = {
+			is_subject = yes
+		}
+		continue_if_invalid = yes #Don't cancel if World Tension goes below 20% or if you lose puppet
 
 		bypass = {
 			SWE = {
@@ -7765,7 +7832,6 @@ focus_tree = {
 		will_lead_to_war_with = FIN
 
 		available = {
-			threat > 0.20
 			OR = {	
 				has_subject = FIN
 				NOT = {
@@ -7847,8 +7913,12 @@ focus_tree = {
 					threat > 0.15
 				}
 			}
-			is_subject = no
 		}
+
+		cancel = {
+			is_subject = yes
+		}
+		continue_if_invalid = yes #Don't cancel if World Tension goes below a certain % or if you lose puppet
 
 		bypass = {
 			NOR = {
@@ -8066,7 +8136,7 @@ focus_tree = {
 				name = DEN_train_mountain_infantry
 				cost_reduction = 0.5
 				uses = 2
-				category = mountaineers_tech
+				category = cat_mountaineers_doctrine
 			}
 		}
 	}
@@ -8181,7 +8251,7 @@ focus_tree = {
 				
 				if = {
 					limit = {
-						fascism < 0.4
+						fascism < 0.5
 					}
 					if = {
 						limit = {
@@ -8191,6 +8261,7 @@ focus_tree = {
 						start_civil_war = {
 							ideology = neutrality #SPLITTING TAG
 							size = party_popularity@neutrality
+							keep_all_characters = yes
 						}
 					}
 					else_if = {
@@ -8201,6 +8272,7 @@ focus_tree = {
 						start_civil_war = {
 							ideology = democratic #SPLITTING TAG
 							size = party_popularity@democratic
+							keep_all_characters = yes
 						}
 					}
 					else_if = {
@@ -8211,6 +8283,7 @@ focus_tree = {
 						start_civil_war = {
 							ideology = communism #SPLITTING TAG
 							size = party_popularity@communism
+							keep_all_characters = yes
 						}
 					}
 				}
@@ -8484,7 +8557,7 @@ focus_tree = {
 			DEN_improve_industrial_capabilities_NS = yes
 			add_to_variable = {
 				DEN_industrial_capability_resources_to_market = -0.15
-				tooltip = min_export_factor_tt
+				tooltip = min_export_tt
 			}
 		}
 	}
@@ -8757,16 +8830,16 @@ focus_tree = {
 			threat > 0.9
 			has_war_support > 0.79
 			OR = {
-				casualties_k > 250
+				casualties_k > 500
 				any_allied_country = {
 					is_faction_leader = yes
 					is_major = yes
-					casualties_k > 1500
+					casualties_k > 2500
 				}
 				any_allied_country = {
 					is_faction_leader = yes
 					is_major = no
-					casualties_k > 500
+					casualties_k > 1000
 				}
 				any_allied_country = {
 					is_faction_leader = yes
@@ -8774,6 +8847,8 @@ focus_tree = {
 				}
 			}
 		}
+
+		continue_if_invalid = yes #Don't cancel if World Tension goes below 20% or if you lose WS
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_INDUSTRY }
 
@@ -9922,7 +9997,7 @@ focus_tree = {
 				name = DEN_slaedepatruljen_sirius
 				cost_reduction = 0.25
 				uses = 2
-				category = mountaineers_tech
+				category = cat_mountaineers_doctrine
 			}
 		}
 	}
@@ -10273,6 +10348,13 @@ focus_tree = {
 					uses = 4
 					category = ship_modules_tech
 				}
+				#Re-instate the Olfert Fischer Coastal Defence Ship
+				create_ship = {
+					type = ship_hull_cruiser_coastal_defense_ship
+					equipment_variant = "Herluf Trolle Class"
+					creator = DEN
+					name = "HDMS Olfert Fischer"
+				}
 			}
 			##########
 			# NO MTG #
@@ -10283,6 +10365,13 @@ focus_tree = {
 					bonus = 0.75
 					uses = 2
 					category = naval_equipment
+				}
+				#Re-instate the Olfert Fischer Coastal Defence Ship
+				create_ship = {
+					type = heavy_cruiser_1
+					equipment_variant = "Herluf Trolle Class"
+					creator = DEN
+					name = "HDMS Olfert Fischer"
 				}
 			}
 
@@ -10885,7 +10974,7 @@ focus_tree = {
 			}
 			add_to_variable = {
 				DEN_sovaernet_screening_efficiency = 0.1
-				tooltip = screen
+				tooltip = screening_efficiency_tt
 			}
 			
 			add_tech_bonus = {
@@ -11442,7 +11531,7 @@ focus_tree = {
 				name = DEN_fromandskorpset
 				cost_reduction = 0.5
 				uses = 2
-				category = marine_tech
+				category = cat_marines_doctrine
 			}
 		}
 	}
@@ -11695,7 +11784,7 @@ focus_tree = {
 				name = DEN_unify_flyvevabnet
 				cost_reduction = 0.5
 				uses = 2
-				category = para_tech
+				category = cat_paratroopers_doctrine
 			}
 		}
 	}
@@ -11957,7 +12046,7 @@ focus_tree = {
 				name = DEN_torpedofly
 				cost_reduction = 0.5
 				uses = 2
-				category = para_tech
+				category = cat_paratroopers_doctrine
 			}
 		}
 	}
@@ -12155,6 +12244,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_AIR_XP FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
+
 			air_experience = 25
 			
 			DEN_improve_flyvevabnet_NS = yes
@@ -12171,9 +12261,14 @@ focus_tree = {
 				tooltip = air_weather_penalty_tt
 			}
 
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.5
+			}
+
 			add_tech_bonus = {
 				name = DEN_advanced_flight
-				bonus = 1
+				bonus = 0.75 # was 1
 				uses = 1
 				category = rocketry
 			}

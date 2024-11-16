@@ -391,7 +391,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = Sweden_rearnament.4.a
+		name = Sweden_rearnament.4.desc.a
 	}
 
 }
@@ -2101,6 +2101,10 @@ country_event = {
 	trigger = {
 		date > 1944.01.02
 		original_tag = SWE
+		NOT = {
+			is_dynamic_country = yes
+		}
+		
 		SWE = { SWE_herman_eriksson = { has_character_flag = is_hired} }
 		
 	}
@@ -3196,7 +3200,7 @@ country_event = {
 		add_doctrine_cost_reduction = {
 		 	cost_reduction = 0.65
 		 	uses = 1
-		 	category = mountaineers_tech
+		 	category = cat_mountaineers_doctrine
 		 } 
 	}
 	# Marines
@@ -3221,7 +3225,7 @@ country_event = {
 		add_doctrine_cost_reduction = {
 		 	cost_reduction = 0.65
 		 	uses = 1
-		 	category = marine_tech
+		 	category = cat_marines_doctrine
 		 } 
 	}
 	# Paratroopers
@@ -3246,7 +3250,7 @@ country_event = {
 		add_doctrine_cost_reduction = {
 			cost_reduction = 0.65
 			uses = 1
-			category = para_tech
+			category = cat_paratroopers_doctrine
 		} 
 	}
 }
@@ -3853,6 +3857,11 @@ country_event = {
 				end_wars = no
 			}
 		}
+		set_variable = { DEN.DEN_overlord_nation = FROM }
+		#Necessary for the Danish Occupation Focus Tree to function properly 
+
+		set_global_flag = achievement_den_has_never_been_puppeted 
+		#Flag disables the Achievement "Everything is Awesome"
 	}
 }
 
@@ -3926,6 +3935,11 @@ country_event = {
 				end_wars = no
 			}
 		}
+		set_variable = { DEN.DEN_overlord_nation = FROM }
+		#Necessary for the Danish Occupation Focus Tree to function properly 
+
+		set_global_flag = achievement_den_has_never_been_puppeted 
+		#Flag disables the Achievement "Everything is Awesome"
 	}
 }
 
@@ -7919,7 +7933,7 @@ country_event = {
 				}
 				
 			}
-	  }
+	  	}
         #transfer_units_fraction = {
         #    target = SWE         # the recipient
         #    size = 1             # [0,1] Default value for the ratio below if they are not specified
@@ -7935,6 +7949,13 @@ country_event = {
         #}
         clear_variable = ROOT.temp_opinion
 		#Remove Maluses that do not fit inside the scope of the tree from different nordic countries if they accept
+		if = {
+			limit = {
+				original_tag = DEN
+			}
+			set_variable = { DEN.DEN_overlord_nation = FROM }
+			#Necessary for the Danish Occupation Focus Tree to function properly 
+		}
 	}
 }
 

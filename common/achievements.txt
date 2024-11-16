@@ -122,9 +122,9 @@ wunderwaffen = {
 	}
 	
 	happened = {
-		has_tech = nukes
-		has_tech = advanced_rocket_engines
-		has_tech = jet_engines
+		is_special_project_completed = sp:sp_nuclear_bomb
+		is_special_project_completed = sp:sp_rocket_interceptor
+		is_special_project_completed = sp:sp_air_jet_engine
 	}
 }
 
@@ -143,6 +143,8 @@ united_netherlands = {
 	happened = {
 		controls_state = 6
 		controls_state = 34
+		controls_state = 977
+		controls_state = 980
 		controls_state = 8
 		controls_state = 35
 		controls_state = 7
@@ -150,6 +152,8 @@ united_netherlands = {
 
 		owns_state = 6
 		owns_state = 34
+		owns_state = 977
+		owns_state = 980
 		owns_state = 8
 		owns_state = 35
 		owns_state = 7
@@ -302,7 +306,7 @@ poland_can_into_space = {
 	}
 	
 	happened = {
-		has_tech = advanced_rocket_engines
+		is_special_project_completed = sp:sp_rocket_interceptor
 	}
 }
 
@@ -992,6 +996,8 @@ miklos_horthy_and_the_habsburg_prince = {
 		153 = { is_owned_and_controlled_by = HUN }
 		4 = { is_owned_and_controlled_by = HUN }
 		848 = { is_owned_and_controlled_by = HUN } #Vorarlberg
+		975 = { is_owned_and_controlled_by = HUN }
+		976 = { is_owned_and_controlled_by = HUN }
 		69 = { is_owned_and_controlled_by = HUN }
 		9 = { is_owned_and_controlled_by = HUN }
 		75 = { is_owned_and_controlled_by = HUN }
@@ -3451,6 +3457,7 @@ it_has_my_name_on_it = {
 		controls_state = 37
 		controls_state = 99
 		controls_state = 58
+		controls_state = 909 #New state of SCHLESWIG
 		controls_state = 61
 		controls_state = 63
 		controls_state = 807
@@ -4539,7 +4546,6 @@ brexit = { #works
 		NIR = {
 			has_war_with = ENG
 		}
-
 		WLS = {
 			has_war_with = ENG
 		}
@@ -4560,7 +4566,7 @@ two_arms_against_tyranny = { #works
 
 	happened = {
 		tag = FIN
-		has_global_flag = capitulated_soviet_with_only_finland_and_another 
+		has_global_flag = capitulated_soviet_with_only_finland_and_another_nordic 
 	}
 }
 
@@ -4874,6 +4880,1774 @@ the_magic_school_bus = { #works
 	happened = {
 		tag = SWE
 		has_global_flag = achievement_has_managed_to_travel_to_cape_town_in_18_days
+	}
+}
+
+rumble_in_the_jungle = {
+	id = 192
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		OR = {
+			tag = BRA
+			tag = ARG
+			tag = PAR
+			tag = CHL
+			tag = VEN
+			tag = ECU
+			tag = PRU
+			tag = URG
+			tag = BOL
+			tag = COL
+		}
+	}
+	happened = {
+		controls_State = 495
+		controls_state = 490
+		controls_state = 491
+		controls_state = 494
+		controls_state = 487
+		controls_state = 942
+		controls_state = 938
+		controls_state = 488
+		controls_state = 486
+		controls_state = 687
+		controls_state = 309
+		controls_state = 310
+	}
+}
+
+and_the_snake_smoked = {
+	id = 193 
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = BRA
+	}
+	happened = {
+		controls_State = 64
+		is_in_faction_with = ENG
+		GER = {
+			has_capitulated = yes
+		}
+	}
+}
+
+red_hot_chile_peppers = {
+	id = 194
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = CHL
+
+	}
+	happened = {
+		controls_State = 378
+		has_government = communism
+	}
+}
+
+bad_ending_the_whole_world_is_now_brazil = {
+	id = 195
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = BRA
+	}
+	happened = {
+		all_state = {
+			controller = {
+				tag = BRA
+			}
+		}		
+	}
+}
+
+land_of_fire = {
+	id = 196
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+	happened = {
+		has_global_flag = land_of_fire_flag
+	}
+}
+
+im_home = {
+	id = 197
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = BRA
+	}
+	happened = {
+		controls_state = 180
+		controls_state = 181
+		controls_state = 112
+		controls_state = 795
+		controls_state = 179
+		controls_state = 697
+		controls_state = 698
+	}
+}
+
+proactive_defense = {
+	id = 198
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		OR = {
+			tag = BRA
+			tag = ARG
+			tag = PAR
+			tag = CHL
+			tag = VEN
+			tag = ECU
+			tag = PRU
+			tag = URG
+			tag = BOL
+			tag = COL
+		}
+	}
+	happened = {
+		controls_State = 361
+		has_government = communism
+	}
+}
+
+the_merry_band = {
+	id = 199
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = BRA
+	}
+	happened = {
+		has_completed_focus = BRA_cangaco_coup
+		controls_State = 129
+		has_government = communism
+	}
+}
+
+somehow_he_has_returned = {
+	id = 200
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = ARG
+	}
+	happened = {
+		has_country_flag = ARG_worst_timeline_flag
+	}
+}
+
+ursal = {
+	id = 201
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		OR = {
+			tag = BRA
+			tag = ARG
+			tag = PAR
+			tag = CHL
+			tag = VEN
+			tag = ECU
+			tag = PRU
+			tag = URG
+			tag = BOL
+			tag = COL
+		}
+	}
+	happened = {
+		has_government = communism
+		# Col
+		controls_state = 493
+		controls_state = 306
+		controls_state = 486
+		# Ven
+		controls_state = 489
+		controls_state = 307
+		controls_state = 488
+		controls_state = 695
+		# Guyana
+		controls_state = 687
+		controls_state = 309
+		controls_state = 310
+		# Ecu
+		controls_state = 305
+		controls_state = 490
+		controls_state = 649
+		# PRU
+		controls_state = 491
+		controls_state = 303
+		controls_state = 494
+		controls_state = 492
+		controls_state = 947
+		# BOL
+		controls_state = 487
+		controls_state = 302
+		# PAR
+		controls_state = 688
+		controls_state = 301
+		# URG 
+		controls_state = 946
+		controls_state = 300
+		controls_state = 945
+		# CHL
+		controls_state = 951
+		controls_state = 506
+		controls_state = 952
+		controls_state = 279
+		controls_state = 950
+		controls_state = 949
+		controls_state = 507 
+		controls_state = 948
+		# ARG
+		controls_state = 959
+		controls_state = 957
+		controls_state = 508
+		controls_state = 509
+		controls_state = 510
+		controls_state = 960
+		controls_state = 958
+		controls_state = 511
+		controls_state = 956
+		controls_state = 958
+		controls_state = 278
+		controls_state = 512
+		controls_state = 955
+		controls_state = 954
+		controls_state = 953
+		# Falklands
+		controls_state = 299
+		# BRA
+		controls_state = 495
+		controls_state = 940
+		controls_state = 942
+		controls_state = 939
+		controls_state = 938
+		controls_state = 280
+		controls_state = 497
+		controls_state = 941
+		controls_state = 497
+		controls_state = 937
+		controls_state = 935
+		controls_state = 498
+		controls_state = 936
+		controls_state = 499
+		controls_state = 505
+		controls_state = 496
+		controls_state = 943
+		controls_state = 504
+		controls_state = 500
+		controls_state = 501
+		controls_state = 944
+		controls_state = 503
+		controls_state = 502
+	}
+}
+
+islas_malvinas = {
+	id = 202
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = ARG	
+	}
+	happened = {
+		# Falklands
+		controls_state = 299
+		# South Georgia Islands
+		controls_state = 720
+	}
+}
+
+lamento_boliviano = { #Boliviano 
+	id = 203
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = ARG	
+	}
+	happened = {
+		NOT = {
+			controls_state = 487
+			controls_state = 302
+		}
+		# Col
+		controls_state = 493
+		controls_state = 306
+		controls_state = 486
+		# Ven
+		controls_state = 489
+		controls_state = 307
+		controls_state = 488
+
+		controls_state = 695
+		# Guyana
+		controls_state = 687
+		controls_state = 309
+		controls_state = 310
+		# Ecu
+		controls_state = 305
+		controls_state = 490
+		controls_state = 649
+		# PRU
+		controls_state = 491
+		controls_state = 303
+		controls_state = 494
+		controls_state = 492
+		controls_state = 947
+		# PAR
+		controls_state = 688
+		controls_state = 301
+		# URG 
+		controls_state = 946
+		controls_state = 300
+		controls_state = 945
+		# CHL
+		controls_state = 951
+		controls_state = 506
+		controls_state = 952
+		controls_state = 279
+		controls_state = 950
+		controls_state = 949
+		controls_state = 507 
+		controls_state = 948
+		# ARG
+		controls_state = 959
+		controls_state = 957
+		controls_state = 508
+		controls_state = 509
+		controls_state = 510
+		controls_state = 960
+		controls_state = 958
+		controls_state = 511
+		controls_state = 956
+		controls_state = 958
+		controls_state = 278
+		controls_state = 512
+		controls_state = 955
+		controls_state = 954
+		controls_state = 953
+		# Falklands
+		controls_state = 299
+		# BRA
+		controls_state = 495
+		controls_state = 940
+		controls_state = 942
+		controls_state = 939
+		controls_state = 938
+		controls_state = 280
+		controls_state = 497
+		controls_state = 941
+		controls_state = 497
+		controls_state = 937
+		controls_state = 935
+		controls_state = 498
+		controls_state = 936
+		controls_state = 499
+		controls_state = 505
+		controls_state = 496
+		controls_state = 943
+		controls_state = 504
+		controls_state = 500
+		controls_state = 501
+		controls_state = 944
+		controls_state = 503
+		controls_state = 502
+	}
+}
+
+revenge_for_the_triple_alliance = { 
+	id = 204
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = PAR	
+	}
+	happened = {
+		has_war_with = BRA
+		has_war_with = ARG
+		has_war_with = URG
+		ARG = {
+			has_country_flag = PAR_revenge_flag
+		}
+		BRA = {
+			has_country_flag = PAR_revenge_flag
+		}
+		URG = {
+			has_country_flag = PAR_revenge_flag
+		}
+	}
+}
+
+the_dragon_rises = {
+	id = 205
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes	
+	}
+	happened = {
+		tag = WLA
+		controls_state = 122
+	}
+}
+
+king_of_what = {
+	id = 206
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes	
+		tag = CHL
+	}
+	happened = {
+		has_government = neutrality
+		has_completed_focus = CHL_crown_antoine_as_sovereign_king
+		controls_state = 16
+	}
+}
+
+true_condor_legion = {
+	id = 207
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes	
+		OR = {
+			tag = CHL
+			tag = BOL
+			tag = PRU
+			tag = ECU
+			tag = VEN
+			tag = COL
+		}
+	}
+	happened = {
+		has_global_flag = true_condor_legion_flag
+	}
+}
+
+chilean_empire = {
+	id = 208
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes	
+		tag = CHL
+	}
+	happened = {
+		# South America
+		controls_state = 507
+		controls_state = 949
+		controls_state = 950 
+		controls_state = 279
+		controls_state = 952
+		controls_state = 506
+		controls_state = 951
+		controls_state = 947
+		controls_state = 492
+		controls_state = 303
+		controls_state = 305
+		controls_state = 306
+		controls_state = 493
+		# North America
+		controls_state = 304
+		controls_state = 685
+		controls_state = 316
+		controls_state = 317
+		controls_state = 312
+		controls_state = 314
+		controls_state = 313
+		controls_state = 475
+		controls_state = 476
+		controls_state = 485
+		controls_state = 478
+		controls_state = 481
+		controls_state = 483
+		controls_state = 484
+		controls_state = 378
+		controls_state = 385
+		controls_state = 386
+		controls_state = 740
+		controls_state = 473
+		controls_state = 471
+		controls_state = 463
+		# Soviet Union
+		controls_state = 875
+		controls_state = 822
+		controls_state = 637
+		controls_state = 874
+		controls_state = 562
+		controls_state = 560
+		controls_state = 409
+		controls_state = 408
+		# Korea
+		controls_state = 527
+		controls_state = 525
+		# China
+		controls_state = 716
+		controls_state = 745
+		controls_state = 610
+		controls_state = 609
+		controls_state = 608
+		controls_state = 614
+		controls_state = 597
+		controls_state = 743
+		controls_state = 598
+		controls_state = 613
+		controls_state = 596
+		controls_state = 595
+		controls_state = 593
+		controls_state = 326
+		controls_state = 592
+		controls_state = 729
+		controls_state = 591
+		controls_state = 594
+		# South East Asia
+		controls_state = 671
+		controls_state = 741
+		controls_state = 289
+		controls_state = 724
+		controls_state = 336
+	}
+}
+
+reconquistadors = {
+	id = 209
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes	
+		OR = {
+			tag = CHL
+			tag = ARG
+		}
+	}
+	happened = {
+		OR = {
+			AND = {
+				tag = ARG
+				has_completed_focus = ARG_union_nacional_fascista
+			}
+			AND = {
+				tag = CHL
+				has_completed_focus = CHL_restore_the_old_kingdom
+			}
+		}
+		controls_state = 171
+		controls_state = 790
+		controls_state = 174
+		controls_state = 792
+		controls_state = 791
+		controls_state = 176
+		controls_state = 172
+		controls_state = 788
+		controls_state = 41
+		controls_state = 793
+		controls_state = 166
+		controls_state = 794
+		controls_state = 165
+		controls_state = 167
+		controls_state = 170
+		controls_state = 175
+		controls_state = 168
+		controls_state = 789
+		controls_state = 169 
+		controls_state = 173
+	}
+}
+
+hispanics_of_the_world_unite = {
+	id = 210
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes	
+		tag = CHL
+	}
+	happened = {
+		has_completed_focus = CHL_the_hispanic_alliance
+		is_faction_leader = yes
+		set_temp_variable = { t_count = 0 }
+		if = { 
+			limit = {
+				MEX = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				GUA = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				CUB = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				DOM = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				PUE = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				ELS = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				HON = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				NIC = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				COS = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				PAN = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				COL = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				VEN = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				ECU = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				PRU = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				BOL = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				PAR = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				URG = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+		if = { 
+			limit = {
+				ARG = {
+					is_in_faction_with = CHL
+				}
+				add_to_temp_variable = {
+					t_count = 1
+				}
+			}
+		}
+
+		check_variable = { t_count > 7 }
+	}
+}
+
+cisplatine_war_2 = {
+	id = 211
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		OR = {
+			tag = ARG
+			tag = BRA
+		}
+	}
+	happened = {
+		OR = {
+			AND = {
+				tag = BRA
+				has_war_with = ARG
+				is_in_faction_with = URG
+			}
+			AND = {
+				tag = ARG
+				has_war_with = BRA
+				is_in_faction_with = URG
+			}
+		}
+	}
+}
+
+america_decolonized = {
+	id = 212
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		tag = CHL
+	}
+	happened = {
+	  CHL = {
+	  	has_country_flag = CHL_released_guarani_flag
+	  	has_country_flag = CHL_released_inca_flag
+	  	has_country_flag = CHL_released_miskito_flag
+	  	has_country_flag = CHL_released_maya_flag
+	  	has_country_flag = CHL_released_inuit_flag
+	  	has_country_flag = CHL_released_charrua_flag
+	  	has_country_flag = CHL_released_itza_flag
+	  	has_country_flag = CHL_released_nahua_flag
+	  	has_country_flag = CHL_released_isthmo_amerindia_flag
+	  	has_country_flag = CHL_reorganized_bolivia_flag
+	  	has_country_flag = CHL_reorganized_brazil_flag
+	  	has_country_flag = CHL_reorganized_mexico_flag
+	  	has_country_flag = CHL_established_the_guianas_flag
+	  	has_country_flag = CHL_reorganized_canada_flag
+	  	has_country_flag = CHL_reorganized_usa_flag
+	  }
+	}
+}
+antischluss = {
+	id = 213
+	possible = {
+		tag = AUS
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+
+		AUS = {
+			custom_trigger_tooltip = {
+				tooltip = antischluss_tt
+				
+				controls_state = 5 #ERmland-Masuren
+				controls_state = 763 #Köningsberg
+				controls_state = 63 #Hinterpommern
+				controls_state = 68 #Ostmark
+				controls_state = 67 #Oberschlesien
+				controls_state = 66 #Niederschlesien
+				controls_state = 65 #Sachsen
+				controls_state = 64 #Brandenburg
+				controls_state = 62 #Vorpommern
+				controls_state = 61 #Mecklenburg
+				controls_state = 909 #schleswig
+				controls_state = 58 #Holstein
+				controls_state = 59 #Hannover
+				controls_state = 60 #Thüringen
+				controls_state = 54 #Franken
+				controls_state = 53 #Niederbayern
+				controls_state = 52 #Oberbayern
+				controls_state = 50 #Württemberg
+				controls_state = 978 #Baden
+				controls_state = 42 #Moselland
+				controls_state = 55 #Hessen
+				controls_state = 51 #Rhineland
+				controls_state = 57 #Westfalen
+				controls_state = 56 #Weser-Ems
+				
+			}
+		}
+	}
+}	
+
+no_friends_only_family = {
+	id = 214
+	possible = {
+		OR = {
+			tag = AUS
+			tag = HUN
+		}
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+
+		AND = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+			}
+			custom_trigger_tooltip = {
+				tooltip = no_friends_only_family_tt
+				OR = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = HUN_otto_von_habsburg
+					}
+					has_country_leader = {
+						ruling_only = yes
+						character = HUN_joseph_august_von_habsburg
+					}
+				}
+
+				ROOT = {
+					owns_state = 3
+				}
+
+				count_triggers = {
+					amount > 2
+					AND = {
+						NOT = {
+							tag = HUN
+						}
+						has_country_leader = {
+							ruling_only = yes 
+							character = HUN_otto_von_habsburg
+						}
+						HUN = {
+							has_capitulated = no
+							exists = yes
+							has_country_leader = {
+								ruling_only = yes
+								character = HUN_joseph_august_von_habsburg
+							}
+						}
+					}
+
+					AND = {
+						NOT = {
+							tag = AUS
+						}
+						has_country_leader = {
+							ruling_only = yes 
+							character = HUN_otto_von_habsburg
+						}
+						AUS = {
+							has_capitulated = no
+							exists = yes
+							has_country_leader = {
+								ruling_only = yes
+								character = HUN_joseph_august_von_habsburg
+							}
+						}
+					}
+
+					POL = {
+						has_capitulated = no
+						exists = yes
+						has_country_leader = {
+							ruling_only = yes 
+							character = POL_karl_albrecht
+						}
+					}
+
+					CZE = {
+						has_capitulated = no
+						exists = yes
+						has_country_leader = {
+							ruling_only = yes 
+							character = CZE_albrecht_franz
+						}
+					}
+
+					UKR = {
+						has_capitulated = no
+						exists = yes
+						has_country_leader = {
+							ruling_only = yes 
+							character = HUN_vasyl_vyshyvanyi
+						}
+					}
+
+					SPR = {
+						has_capitulated = no
+						exists = yes
+						has_country_leader = {
+							ruling_only = yes 
+							character = SPA_karl_pius_von_habsburg
+						}
+					}
+
+					MEX = {
+						has_capitulated = no
+						exists = yes
+						has_country_leader = {
+							ruling_only = yes 
+							character = MEX_maria_de_iturbide
+						}
+					}
+
+					TOS = {
+						has_capitulated = no
+						exists = yes
+						has_country_leader = {
+							ruling_only = yes 
+							character = TOS_joseph_ferdinand_von_habsburg
+						}
+					}
+
+					LBV = {
+						has_capitulated = no
+						exists = yes
+						has_country_leader = {
+							ruling_only = yes 
+							character = LBV_robert_von_habsburg
+						}
+					}
+
+					CRO = {
+						has_capitulated = no
+						exists = yes
+						has_country_leader = {
+							ruling_only = yes 
+							character = CRO_joseph_francis
+						}
+					}
+				}
+			}
+		}	
+	}
+}
+
+edelweiss_seedelweiss = {
+	id = 215
+	possible = {
+		tag = AUS
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		AUS = {
+			any_controlled_state = {
+				is_coastal = yes
+			}
+
+			has_navy_size = { unit = battleship size > 9 }
+
+			has_country_flag = AUS_von_trapp_hired_flag
+		}
+		
+	}
+}
+
+otto-man = {
+	id = 216
+	possible = {
+		OR = {
+			tag = AUS
+			tag = HUN
+		}
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		AND = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+			}
+			has_country_leader = {
+				ruling_only = yes
+				character = HUN_otto_von_habsburg
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = otto-man_tt
+				#Austria
+				controls_state = 4 #Niederösterreich
+				controls_state = 152 #Oberösterreich
+				controls_state = 153 #Tirol
+				controls_state = 848 # Voralberg
+				controls_state = 976 #Steirmark-Kärnten
+				controls_state = 975 #Burgenland
+			
+				#Hungary
+				controls_state = 155 #Transdanubia
+				controls_state = 974 #South Transdanubia
+				controls_state = 43 #Northern Hungary
+				controls_state = 973 #bacs Bodrog
+				controls_state = 154 #Alföld
+			
+			
+				#Czechoslovakia
+				controls_state = 69 #North Sudetenland
+				controls_state = 972 #South Sudetenland
+				controls_state = 9 #Bohemia
+				controls_state = 75 #Moravia
+				controls_state = 74 #Czeske Slezsko
+				controls_state = 72 #Tesinsko
+				controls_state = 70 #Western Slovakia
+				controls_state = 664 #Southern Slovakia
+				controls_state = 71 #Eastern Slovakia
+				controls_state = 73 #Podkarpatska Rus
+			
+				#Slovenia
+				controls_state = 102 #North Slovenia
+				controls_state = 853 #Ljubljana
+			
+				#Croatia
+				controls_state = 852 #Istria
+				controls_state = 163 #Zara
+				controls_state = 103 #Dalmatia
+				controls_state = 109 #Croatia
+			
+				#Lombardy-Venetia
+				controls_state = 160 #Veneto
+				controls_state = 736 #Litorale
+				controls_state = 39 #Alto Adige
+				controls_state = 850 #Trentino
+				controls_state = 159 #Lombaria
+			
+				#Romania
+				controls_state = 82 #Banat
+				controls_state = 83 #Crisana
+				controls_state = 76 #North Transylvania
+				controls_state = 84 #Transylvania
+				controls_state = 81 #Oltenia
+				controls_state = 46 #Muntenia
+				controls_state = 77 #Dobruja
+				controls_state = 971 #Northern Dobruja
+				controls_state = 79 #Moldova
+				controls_state = 80 #Bucovina
+				controls_state = 78 #Bessarabia
+				controls_state = 766 #Southern Bessarabia
+			
+				#Poland
+				controls_state = 88 #Krakow
+				controls_state = 89 #Stanislawow
+				controls_state = 91 #Lwow
+			
+				#Bulgaria
+				controls_state = 48 #Sofia
+				controls_state = 212 #Plovdiv
+				controls_state = 801 #Moesia
+				controls_state = 211 #Burgas
+			
+				#Greece
+				controls_state = 184 #Thrace
+				controls_state = 731 #Central Macedonia
+				controls_state = 185 #Epirus
+				controls_state = 47 #Attica
+				controls_state = 186 #Peloponnese
+				controls_state = 187 #Aegean Islands
+				controls_state = 182 #Crete
+			
+				#Turkiye
+				controls_state = 341 #Edirne
+				controls_state = 797 #Istanbul
+				controls_state = 340 #Bursa
+				controls_state = 339 #Izmir
+				controls_state = 342 #Antalya
+				controls_state = 343 #Afyon
+				controls_state = 347 #Izmit
+				controls_state = 49 #Ankara
+				controls_state = 346 #Konya
+				controls_state = 345 #Mersin
+				controls_state = 344 #Malatya
+				controls_state = 348 #Kayseri
+				controls_state = 798 #Amasya
+				controls_state = 356 #Kastamonu
+				controls_state = 355 #Samsun
+				controls_state = 349 #Simas
+				controls_state = 350 #Diyarbakir
+				controls_state = 352 #Hakkari
+				controls_state = 353 #Tunceli
+				controls_state = 354 #Trabzon
+				controls_state = 800 #Van
+			}
+		}
+	}
+}
+
+spaak_of_genius = {
+	id = 217
+	possible = {
+		tag = BEL
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		original_tag = BEL
+		has_country_leader = {
+			ruling_only = yes # default = yes
+			character = BEL_paul_henri_spaak
+		}
+		
+		custom_trigger_tooltip = {
+			tooltip = spaak_of_genius_tt
+			check_variable = { BEL.special_projects_completed > 9 }
+		}	
+	}
+}
+
+
+brentry = {
+	id = 218
+	possible = {
+		OR = {
+			tag = BEL
+			tag = AUS
+			tag = HOL
+		}
+		
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		OR = {
+			AND = {
+				original_tag = BEL
+				BEL = {
+					is_faction_leader = yes
+					OR = {
+						has_completed_focus = BEL_the_council_of_europe
+						has_completed_focus = BEL_support_the_european_project
+					}
+					ENG = { is_in_faction_with = ROOT }
+				}
+			}
+			
+
+			AND = {
+				original_tag = AUS
+				AUS = {
+					is_faction_leader = yes
+					has_completed_focus = AUS_via_danube_to_europe
+					ENG = { is_in_faction_with = ROOT }
+				}
+			}
+			
+			AND = {
+				original_tag = HOL
+				HOL = {
+					is_faction_leader = yes
+					has_completed_focus = HOL_foundations_for_a_european_union
+					ENG = { is_in_faction_with = ROOT }
+				}
+			}
+			
+		}
+	}
+}
+
+the_501st_legion = {
+	id = 219
+	possible = {
+		tag = BEL
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		BEL = {
+			has_dynamic_modifier = {
+				modifier = BEL_rexist_legion_dynamic_modifier
+			} 
+			custom_trigger_tooltip = {
+				tooltip = the_501st_legion_tt
+				16 = { #Ile de FRance
+					is_fully_controlled_by = BEL
+				}
+				8 = { #Luxembourg
+					is_fully_controlled_by = BEL
+				}
+				7 = { #Holland
+					is_fully_controlled_by = BEL
+				}
+				64 = { #Brandenburg
+					is_fully_controlled_by = BEL
+				}
+			}
+		}
+		
+	}
+}
+
+congolese_belgium = {
+	id = 220
+	possible = {
+		tag = COG
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		COG = {
+			controls_state = 980 #Ardennes
+			controls_state = 34 #Wallonie
+			controls_state = 977 #Antwerpen
+			controls_state = 6 #Vlaanderen
+		}	
+	}
+}
+
+the_lenin_boys_are_back_in_town = {
+	id = 221
+	possible = {
+		tag = HUN
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		HUN = {
+			has_completed_focus = wuw_HUN_reinstate_the_lenin_boys
+			has_government = communism
+			195  = {
+				is_fully_controlled_by = HUN
+			}
+		}
+		
+	}
+}
+
+a_great_hunger = {
+	id = 222
+	possible = {
+		tag = HUN
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		HUN = {
+			has_completed_focus = wuw_HUN_proclaim_greater_hungary
+			custom_trigger_tooltip = {
+				tooltip = a_great_hunger_tt
+				controls_state = 664
+				controls_state = 73
+				controls_state = 76
+				controls_state = 84
+				controls_state = 83
+				controls_state = 82
+				controls_state = 45
+				controls_state = 975
+			}
+		}
+	}
+}
+
+weltpolitik = {
+	id = 223
+	possible = {
+		tag = GER
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		GER = {
+			custom_trigger_tooltip = {
+				tooltip = weltpolitik_tt
+				controls_state = 773 #Cameroon
+				controls_state = 777 #Togo
+				controls_state = 546 #Tanganyika
+				controls_state = 768 #Rwanda
+				controls_state = 769 #Burundi
+				controls_state = 895 #Kavango
+				controls_state = 894 #Kuneme
+				controls_state = 541 #South West Africa
+				controls_state = 893 #Karas
+				controls_state = 743 #Qingdao
+				controls_state = 647 #Palau
+				controls_state = 979 #Kaiser Wilhelm's Lans
+				controls_state = 737 #New Britain
+				controls_state = 684 #Caroline Islands
+				controls_state = 633 #Marshall Islands
+				controls_state = 634 #Solomon Islands
+				controls_state = 646 #Saipan
+				controls_state = 726 #Samoa
+				controls_state = 725 #Nauru
+			}
+		}
+		
+	}
+}
+
+naval_arms_race = {
+	id = 224
+	possible = {
+		tag = GER
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		GER = {
+			has_country_flag = GER_won_naval_arms_race_flag
+		}
+	}	
+}
+
+woman_in_a_high_castle = {
+	id = 225
+	possible = {
+		tag = GER
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		OR = {
+			USA = {
+				is_subject_of = GER
+				custom_trigger_tooltip = {
+					tooltip = woman_in_a_high_castle_tt1
+					owns_state = 357 #New England
+					owns_state = 358 #New York
+					owns_state = 359 #New Jersey
+					owns_state = 360 #Pennsylvania
+					owns_state = 361 #Maryland
+					owns_state = 362 #Virginia
+					owns_state = 363 #North Carolina
+					owns_state = 364 #South Carolina
+					owns_state = 365 #Georgia
+					owns_state = 366 #Florida
+					owns_state = 367 #Alabama
+					owns_state = 368 #Tennessee
+					owns_state = 369 #Kentucky
+					owns_state = 261 #Ohio
+					owns_state = 393 #Michigan
+					owns_state = 396 #Indiana
+					owns_state = 395 #Illinois
+					owns_state = 373 #Missouri
+					owns_state = 372 #Arkansas
+					owns_state = 371 #Louisiana
+					owns_state = 370 #mississippi
+					owns_state = 375 #Texas
+					owns_state = 374 #Oklahoma
+					owns_state = 383 #Kansas
+					owns_state = 392 #Iowa
+					owns_state = 394 #Wisconsin
+					owns_state = 391 #Minnesota
+					owns_state = 389 #North Dakota
+					owns_state = 390 #South Dakota
+					owns_state = 384 #Nebraska
+					owns_state = 382 #Colorado
+					owns_state = 381 #Wyoming
+					owns_state = 388 #Montana
+					owns_state = 376 #New Mexico
+					owns_state = 377 #Arizona
+					owns_state = 380 #Utah
+					owns_state = 387 #Idaho
+					owns_state = 386 #Washington
+					owns_state = 385 #Oregon
+					owns_state = 379 #Nevada
+					owns_state = 378 #California
+					owns_state = 463 #Alaska
+					owns_state = 629 #Hawaii
+				}
+			}
+			GER = {
+				custom_trigger_tooltip = {
+					tooltip = woman_in_a_high_castle_tt1
+					owns_state = 357 #New England
+					owns_state = 358 #New York
+					owns_state = 359 #New Jersey
+					owns_state = 360 #Pennsylvania
+					owns_state = 361 #Maryland
+					owns_state = 362 #Virginia
+					owns_state = 363 #North Carolina
+					owns_state = 364 #South Carolina
+					owns_state = 365 #Georgia
+					owns_state = 366 #Florida
+					owns_state = 367 #Alabama
+					owns_state = 368 #Tennessee
+					owns_state = 369 #Kentucky
+					owns_state = 261 #Ohio
+					owns_state = 393 #Michigan
+					owns_state = 396 #Indiana
+					owns_state = 395 #Illinois
+					owns_state = 373 #Missouri
+					owns_state = 372 #Arkansas
+					owns_state = 371 #Louisiana
+					owns_state = 370 #mississippi
+					owns_state = 375 #Texas
+					owns_state = 374 #Oklahoma
+					owns_state = 383 #Kansas
+					owns_state = 392 #Iowa
+					owns_state = 394 #Wisconsin
+					owns_state = 391 #Minnesota
+					owns_state = 389 #North Dakota
+					owns_state = 390 #South Dakota
+					owns_state = 384 #Nebraska
+					owns_state = 382 #Colorado
+					owns_state = 381 #Wyoming
+					owns_state = 388 #Montana
+					owns_state = 376 #New Mexico
+					owns_state = 377 #Arizona
+					owns_state = 380 #Utah
+					owns_state = 387 #Idaho
+					owns_state = 386 #Washington
+					owns_state = 385 #Oregon
+					owns_state = 379 #Nevada
+					owns_state = 378 #California
+					owns_state = 463 #Alaska
+					owns_state = 629 #Hawaii
+				}
+
+				custom_trigger_tooltip = {
+					tooltip = woman_in_a_high_castle_tt2
+
+					OR = {
+						has_country_leader = {
+							ruling_only = yes # default = yes
+							character = GER_victoria
+						}
+
+						has_country_leader = {
+							ruling_only = yes
+							character = GER_eva_braun
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+american_prometheus = {
+	id = 226
+	possible = {
+		tag = USA
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		USA = {
+			USA_robert_oppenheimer = {
+				has_character_flag = USA_oppenheimer_made_the_nuke_flag	
+			}
+		}
+	}
+}
+
+tsar_bomba = {
+	id = 227
+	possible = {
+		tag = SOV
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		SOV = {
+			has_completed_focus = SOV_romanov_reconstruction
+			has_tech = thermonuclear_bombs
+		}
+		
+	}
+}
+
+super_heavy_metal = {
+	id = 228
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = super_heavy_metal_tt 
+
+			is_special_project_completed = sp:sp_air_intercontinental_bomber
+				
+			is_special_project_completed = sp:sp_land_land_cruiser
+				
+			is_special_project_completed = sp:sp_naval_super_heavy_battleship
+			
+		}
+	}	
+}
+
+backfire = {
+	id = 229
+	possible = {
+		tag = ENG
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		ENG = {
+			custom_trigger_tooltip = {
+				tooltip = backfire_tt
+				is_special_project_completed = sp:sp_rockets_medium_range_ballistic_missile
+				has_equipment = {
+					ballistic_missile_equipment_2 > 0
+				}
+				has_war_with = GER
+			}
+
+			rocket_site > 0
+		}
+	}
+}
+
+dam_it = {
+	id = 230
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		has_country_flag = successful_dam_busting_raid_flag
+	}
+}
+
+bullseye = {
+	id = 231
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		has_country_flag = has_successfully_bombed_a_landmark_flag
+	}
+}
+
+the_true_successor = {
+	id = 232
+	possible = {
+		tag = LUX
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		LUX = {
+			has_country_leader = {
+				ruling_only = yes 
+				character = LUX_charles_marx
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = the_true_successor_tt
+				controls_province = 516
+				controls_province = 9575
+			}
+		}
 	}
 }
 

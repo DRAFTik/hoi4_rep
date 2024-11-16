@@ -91,38 +91,15 @@ focus_tree = {
 					instant_build = yes
 				}
 			} 
-
 			100 = {
 				add_resource = {
-				    type = steel
-				    amount = 4
+					type = steel
+					amount = 10
 				}
-                random_list = {
-                    30 = {
-                        add_resource = {
-                            type = steel
-                            amount = 6
-                        }
-                    }
-                    30 = {
-                        add_resource = {
-                            type = aluminium
-                            amount = 6
-                        }
-                    }
-                    30 = {
-                    	add_resource = {
-                    	    type = tungsten
-                    	    amount = 6
-                    	}
-                    }
-                    10 = {
-                    	add_resource = {
-                    	    type = chromium
-                    	    amount = 6
-                    	}
-                    }
-                }
+				add_resource = {
+					type = aluminium
+					amount = 6
+				}
 			}
 		}
 	}
@@ -608,7 +585,6 @@ focus_tree = {
 					free_building_slots = {
 						building = infrastructure
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -1707,6 +1683,7 @@ focus_tree = {
 				has_government = neutrality  
 			}
 			USA = { has_government = democratic }
+			has_tech = interwar_antiair
 		}
 
 		search_filters = {}
@@ -1723,11 +1700,11 @@ focus_tree = {
 					level = 3
 					instant_build = yes
 				}
-				custom_effect_tooltip = ICE_the_icelandic_economy_modifier_tt
-				add_to_variable = {
-					ICE_economy_consumer_goods_factor = -0.05
-					tooltip = consumer_goods_factor_tt
-				}
+			}
+			custom_effect_tooltip = ICE_the_icelandic_economy_modifier_tt
+			add_to_variable = {
+				ICE_economy_consumer_goods_factor = -0.05
+				tooltip = consumer_goods_factor_tt
 			}
 		}
 	}
@@ -2165,10 +2142,11 @@ focus_tree = {
 				popularity = -0.1
 			}
 
-			custom_effect_tooltip = ICE_completion_break_with_the_crown_tt
-			custom_effect_tooltip = ICE_the_icelandic_economy_modifier_tt
-
-			effect_tooltip = {
+			if = {
+				limit = {
+					has_completed_focus = ICE_break_with_the_crown
+				}
+				custom_effect_tooltip = ICE_the_icelandic_economy_modifier_tt
 				add_to_variable = {
 					ICE_economy_industrial_capacity_dockyard = 0.05
 					tooltip = industrial_capacity_dockyard_tt
@@ -2176,6 +2154,20 @@ focus_tree = {
 				add_to_variable = {
 					ICE_economy_industrial_capacity_factory = 0.05
 					tooltip = industrial_capacity_factory_tt
+				}
+			}
+			else = {
+				custom_effect_tooltip = ICE_completion_break_with_the_crown_tt
+				custom_effect_tooltip = ICE_the_icelandic_economy_modifier_tt
+				effect_tooltip = {
+					add_to_variable = {
+						ICE_economy_industrial_capacity_dockyard = 0.05
+						tooltip = industrial_capacity_dockyard_tt
+					}
+					add_to_variable = {
+						ICE_economy_industrial_capacity_factory = 0.05
+						tooltip = industrial_capacity_factory_tt
+					}
 				}
 			}
 		}
@@ -2202,11 +2194,21 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_STABILITY}
 
 		completion_reward = {
-			custom_effect_tooltip = ICE_completion_break_with_the_crown_tt
-			effect_tooltip = {
+			IF = {
+				limit = {
+					has_completed_focus = ICE_break_with_the_crown
+				}
 				add_manpower = 5000
 				add_war_support = 0.15
 				add_stability = 0.05
+			}
+			ELSE = {
+				custom_effect_tooltip = ICE_completion_break_with_the_crown_tt
+				effect_tooltip = {
+					add_manpower = 5000
+					add_war_support = 0.15
+					add_stability = 0.05
+				}
 			}
 		}
 	}
@@ -2347,24 +2349,54 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = ICE_break_with_the_crown_tt
 
-			hidden_effect = { 
-				IF = {
-					limit = { has_completed_focus = ICE_rally_the_workers_of_reykjavik }
+			IF = {
+				limit = { 
+					has_completed_focus = ICE_rally_the_workers_of_reykjavik
+				}
+				custom_effect_tooltip = ICE_the_icelandic_economy_modifier_tt
+				add_to_variable = {
+					ICE_economy_industrial_capacity_dockyard = 0.05
+					tooltip = industrial_capacity_dockyard_tt
+				}
+				add_to_variable = {
+					ICE_economy_industrial_capacity_factory = 0.05
+					tooltip = industrial_capacity_factory_tt
+				}
+			}
+			else = {
+				custom_effect_tooltip = ICE_break_with_the_crown_workers_tt
+				effect_tooltip = {
+					custom_effect_tooltip = ICE_the_icelandic_economy_modifier_tt
 					add_to_variable = {
 						ICE_economy_industrial_capacity_dockyard = 0.05
+						tooltip = industrial_capacity_dockyard_tt
 					}
 					add_to_variable = {
 						ICE_economy_industrial_capacity_factory = 0.05
+						tooltip = industrial_capacity_factory_tt
 					}
 				}
-				IF = {
-					limit = {
-						has_completed_focus = ICE_prepare_for_the_revolution
-					}
+			}	
+			
+
+			IF = {
+				limit = {
+					NOT = { has_completed_focus = ICE_prepare_for_the_revolution }
+				}
+				custom_effect_tooltip = ICE_break_with_the_crown_workers_tt
+				effect_tooltip = {
 					add_manpower = 5000
 					add_war_support = 0.15
 					add_stability = 0.05
 				}
+			}
+			else = {
+				add_manpower = 5000
+				add_war_support = 0.15
+				add_stability = 0.05
+			}
+
+			hidden_effect = {
 				IF = {
 					limit = {
 						is_subject = yes 
@@ -2376,15 +2408,21 @@ focus_tree = {
 						}
 					}
 				}
-				IF = {
-					limit = {
-						has_idea = ICE_christian_x_worse
-					}
-					remove_ideas = ICE_christian_x_worse
-				}
-
-				drop_cosmetic_tag = yes
 			}
+
+			IF = {
+				limit = {
+					has_idea = ICE_christian_x_worse
+				}
+				remove_ideas = ICE_christian_x_worse
+			}
+			ELSE = {
+				effect_tooltip = {
+					remove_ideas = ICE_christian_x
+				}
+			}
+
+			drop_cosmetic_tag = yes
 		}
 	}
 	focus = {
@@ -2638,6 +2676,11 @@ focus_tree = {
 		relative_position_id = ICE_international_brigades
 		cost = 10
 		available = {
+			ENG = {
+				NOT = {
+					has_government = communism
+				}
+			}
 		}
 
 		search_filters = {}
@@ -2787,12 +2830,14 @@ focus_tree = {
 		}
 
 		bypass = {
-			101 = {
-				is_owned_and_controlled_by = ROOT
-			}
-			any_country = {
-				owns_state = 101
-				has_war_with = ROOT
+			OR = {
+				101 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				any_country = {
+					owns_state = 101
+					has_war_with = ROOT
+				}
 			}
 		}
 

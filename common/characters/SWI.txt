@@ -1186,7 +1186,6 @@ characters={
 			}
 			available = {
 				SWI_can_be_councilor = yes
-				NOT = { has_completed_focus = SWI_ban_national_movement_for_switzerland }
 			}
 			traits  = {
 				SWI_fascist_appeaser 
@@ -1436,6 +1435,7 @@ characters={
 		}
 	}
 
+	#MM: Never recruited as a character. Only used as Operative. Name not localized
 	SWI_rudolf_roessler={
 		advisor={
 			slot = political_advisor
@@ -3040,7 +3040,10 @@ characters={
 			slot = navy_chief
 			idea_token = SWI_georg_von_trapp
 			allowed = {
-				original_tag = SWI
+				OR = {
+					original_tag = SWI
+					original_tag = AUS
+				}
 			}
 			traits = {
 				navy_chief_commerce_raiding_3
@@ -3049,11 +3052,13 @@ characters={
 			ai_will_do = {
 				factor = 100
 			}
-			available = {
-				hidden_trigger = { has_country_flag = SWI_von_trapp_hired }
-			}
+	
 			visible = {
-				hidden_trigger = { has_country_flag = SWI_von_trapp_hired }
+				OR = {
+					hidden_trigger = { has_country_flag = SWI_von_trapp_hired }
+					hidden_trigger = { has_country_flag = AUS_von_trapp_hired_flag }
+				}
+				
 			}
 		}		
 		navy_leader={
@@ -3066,7 +3071,10 @@ characters={
 			legacy_id=0
 
 			visible = {
-				hidden_trigger = { has_country_flag = SWI_von_trapp_hired }
+				OR = {
+					hidden_trigger = { has_country_flag = SWI_von_trapp_hired }
+					hidden_trigger = { has_country_flag = AUS_von_trapp_hired_flag }
+				}
 			}
 		}
 	}

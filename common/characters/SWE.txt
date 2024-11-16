@@ -295,7 +295,7 @@ characters={
 				has_completed_focus = SWE_infrastructure
 			}
 			visible = {
-				has_completed_focus = SWE_infrastructure
+				
 			}
 		}
 		name=SWE_frans_severin
@@ -1961,7 +1961,10 @@ characters={
 			cost = 150
 			idea_token = SWE_ture_nerman
 			allowed  = {
-				original_tag  = SWE
+				OR = {
+					original_tag  = SWE
+					original_tag  = CHL
+				}
 			}
 			available = { 
 				OR = {
@@ -1970,6 +1973,7 @@ characters={
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = democratic
 					}
+					CHL_hub_of_the_revolution_trigger = yes
 				}
 			}
 
@@ -1980,6 +1984,7 @@ characters={
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = democratic
 					}
+					CHL_hub_of_the_revolution_trigger = yes
 				}
 			}
 
@@ -2010,7 +2015,10 @@ characters={
 			cost = 150
 			idea_token = SWE_fredrik_strom
 			allowed  = {
-				original_tag  = SWE
+				OR = {
+					original_tag  = SWE
+					original_tag  = CHL
+				}
 			}
 			available = { 
 				OR = {
@@ -2019,6 +2027,7 @@ characters={
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = democratic
 					}
+					CHL_hub_of_the_revolution_trigger = yes
 				}
 			}
 
@@ -2029,6 +2038,7 @@ characters={
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = democratic
 					}
+					CHL_hub_of_the_revolution_trigger = yes
 				}
 			}
 			traits = { protector_of_cultural_heritage }
@@ -2051,7 +2061,10 @@ characters={
 			cost = 150
 			idea_token = SWE_zeth_hoglund
 			allowed  = {
-				original_tag  = SWE
+				OR = {
+					original_tag  = SWE
+					original_tag  = CHL
+				}
 			}
 			available = {
 				OR = {
@@ -2060,6 +2073,7 @@ characters={
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = democratic
 					}
+					CHL_hub_of_the_revolution_trigger = yes
 				}
 			}
 
@@ -2070,6 +2084,7 @@ characters={
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = democratic
 					}
+					CHL_hub_of_the_revolution_trigger = yes
 				}
 			}
 			traits = { marxist_philosopher }
@@ -2133,6 +2148,33 @@ characters={
 			civilian={
 				#large="GFX_portrait_SWE_hugo_silen_large"
 				small="GFX_portrait_SWE_hugo_silen_small"
+			}
+		}
+	}
+
+
+  #####                                                              
+ #     #   ####   #  ######  #    #  #####  #   ####   #####   ####  
+ #        #    #  #  #       ##   #    #    #  #         #    #      
+  #####   #       #  #####   # #  #    #    #   ####     #     ####  
+       #  #       #  #       #  # #    #    #       #    #         # 
+ #     #  #    #  #  #       #   ##    #    #  #    #    #    #    # 
+  #####    ####   #  ######  #    #    #    #   ####     #     ####  
+
+
+
+  SWE_lise_meitner = {
+		name = SWE_lise_meitner
+		portraits = {
+			army = {
+				large = GFX_portrait_SWE_lise_meitner
+			}
+		}
+
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist }
+			skills = {
+				specialization_nuclear = 2
 			}
 		}
 	}

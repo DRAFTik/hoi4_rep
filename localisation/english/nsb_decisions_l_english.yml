@@ -29,6 +29,10 @@
  LIT_promote_falange_militancy_desc:0 "The [POL.GetFascistParty] is infamous for its riotous and violent methods of demonstration. Many fascists fear the nationalist fervor of [POL.GetFascistParty], but we know this is a mere expression of the patriotism that burns in their hearts that must be supported."
  LIT_ignite_civil_war_in_POL:0 "Begin the Uprising"
  LIT_ignite_civil_war_in_POL_desc:0 "The preparations have been made. Poland will soon be a battleground not just of ideas but of valour and glory. We have done all we can to support the Falangists in Poland, all we need do now is cast the die and hope that God truly is on their side."
+
+ LIT_adopt_the_dobuzhinsky_flag_design_decision: "Adopt Dobuzhinsky's Heraldic Flag Design"
+ LIT_adopt_the_dobuzhinsky_flag_design_decision_desc: "The colors of our flag must match those of the coat of arms. No green color is present in the coat of arms, and as such it should not be present in the flag either. Thus we should adopt the proposal handed to us by Mstislav Dobuzhinsky and Vydūnas."
+
  march_through_estonia:0 "The March Through Estonia"
  march_through_estonia_desc:0 "The weak government of Konstantin Päts has silenced the cry of Estonia’s patriots for long enough. We lack the manpower to fight the Estonian armed forces alone, but perhaps by demonstrating our frustration with the dictatorship in a series of marches throughout the country, we may remind the youth of Estonia that their fathers fought for a good life for them that Päts and his cabal are denying them."
  EST_stomp_the_vaps:0 "Incoming Government Crackdown"
@@ -291,6 +295,7 @@
  SOV_paranoia_inspection_cd_tt:0 "\nThis decision will be available again in §Y[?SOV_paranoia_inspection_re_enable_days] days§!."
  SOV_paranoia_calm_down_stalin_cd_tt:0 "\nThis decision will be available again in §Y[?SOV_paranoia_calm_down_stalin_re_enable_days] days§!."
  SOV_paranoia_conducting_inspection_flag:0 "Is already conducting an inspection"
+ SOV_assassinated_stalin_flag: "Stalin has been eliminated"
 
  SOV_loosen_prohibitions_in_military_academies_dec:0 "Loosen Prohibitions in Military Academies"
  SOV_loosen_prohibitions_in_military_academies_dec_desc:0 "We will loosen restrictions on research and consultation documents in our military academies so that our young officers have a wider range of learning sources to develop their skills in a less oppressive environment."
@@ -306,6 +311,10 @@
  SOV_reinstate_tupolev_design_bureau_desc:0 "$SOV_reinstate_mig_design_bureau_desc$"
  SOV_reinstate_yakovlev_design_bureau:0 "Reinstate Yakovlev Design Bureau"
  SOV_reinstate_yakovlev_design_bureau_desc:0 "$SOV_reinstate_mig_design_bureau_desc$"
+ SOV_mig_design_bureau_dissolved_days_tt: "Current days since Bureau was dissolved: [?SOV_mig_design_bureau_dissolved_flag:days|Y0]"
+ SOV_ilyushin_design_bureau_dissolved_days_tt: "Current days since Bureau was dissolved: [?SOV_ilyushin_design_bureau_dissolved_flag:days|Y0]"
+ SOV_yakovlev_design_bureau_dissolved_days_tt: "Current days since Bureau was dissolved: [?SOV_yakovlev_design_bureau_dissolved_flag:days|Y0]"
+ SOV_tupolev_design_bureau_dissolved_days_tt: "Current days since Bureau was dissolved: [?SOV_tupolev_design_bureau_dissolved_flag:days|Y0]"
 
  decision_cost_CP_50_pp_50_ArmXP_50:0 "£command_power  §Y50§! £pol_power  §Y50§! £army_experience  §Y50§!"
  decision_cost_CP_50_pp_50_ArmXP_50_blocked:0 "£command_power  §R50§! £pol_power  §R50§! £army_experience  §R50§!"
@@ -426,6 +435,8 @@
  SOV_sinkiang_oil_prospection_sik_desc:0 "[618.GetName], in the Northern part of [SIK.GetNameDef], is rich in oil and minerals but none of them are being exploited by our neighbor. We will ask for permission to prospect for resources in the region and exploit whatever deposits we find."
  SOV_sinkiang_oil_prospection:1 "Mineral Prospection in Northern Sinkiang"
  SOV_sinkiang_oil_prospection_desc:0 "[618.GetName], in the Northern part of the former Sinkiang, is rich in oil and minerals but none of them are being exploited at this moment. We must prospect for resources and develop the infrastructure in the region to facilitate the exploitation of any deposits we find."
+ SOV_jiuquan_oil_prospection: "Oil Prospection in Jiuquan"
+ SOV_jiuquan_oil_prospection_desc: "Our experts believe that there might be numerous oil deposits in [756.GetName], in the Northern part of the former territory of the [XSM.GetNeutralParty]. We must develop the infrastructure in the region to facilitate the exploitation of any deposits we find."
  SOV_sinkiang_oil_prospection_mission_dummy:0 "[SOV.GetAdjective] Mineral and Oil Prospection"
  SOV_sinkiang_oil_prospection_rejected_flag:0 "$SOV_sinkiang_prospection_rejected_flag$"
  SOV_sinkiang_military_aid_sik:0 "Military Aid for [SIK.GetNameDef]"

@@ -90,6 +90,15 @@ country_event = {
 				date < 1949.1.1
 			} 
 		}
+		NOT = { #AUS cannot rearm no matter what the public wants under these treaties
+			AND = {
+				tag = AUS
+				OR = {
+					has_idea = AUS_treaty_of_saint_germain_en_laye
+					has_idea = AUS_revised_treaty_of_saint_germain_en_laye
+				}
+			}
+		}
 		DEN_aat = no #Denmark has custom election events
 		OR = { NOT = { original_tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
@@ -169,6 +178,10 @@ country_event = {
 				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
+			AND = {
+				has_dlc = "Trial of Allegiance"
+				tag = BRA
+			}
 		}
 		DEN_aat = no #Denmark has custom election events
 		NOR_AAT = no
@@ -235,6 +248,14 @@ country_event = {
 				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
+			AND = { 
+				tag = CHL 
+				has_dlc = "Trial of Allegiance"
+			} 
+			AND = {
+				has_dlc = "Trial of Allegiance"
+				tag = BRA
+			}
 		}
 		DEN_aat = no #Denmark has custom election events
 		NOR_AAT = no
@@ -327,6 +348,10 @@ country_event = {
 				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
+			AND = {
+				has_dlc = "Trial of Allegiance"
+				tag = BRA
+			}
 		}
 		DEN_aat = no #Denmark has custom election events
 		NOR_aat = no
@@ -427,6 +452,10 @@ country_event = {
 				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
+			AND = {
+				has_dlc = "Trial of Allegiance"
+				tag = BRA
+			}
 		}
 		DEN_aat = no #Denmark has custom election events
 		NOR_aat = no 
@@ -506,6 +535,10 @@ country_event = {
 				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
+			AND = {
+				has_dlc = "Trial of Allegiance"
+				tag = BRA
+			}
 		}
 		DEN_aat = no #Denmark has custom election events
 		NOR_aat = no 
@@ -597,6 +630,10 @@ country_event = {
 				original_tag = SWI
 				has_dlc = "By Blood Alone"
 			}
+			AND = {
+				has_dlc = "Trial of Allegiance"
+				tag = BRA
+			}
 		}
 	}
 	
@@ -647,6 +684,10 @@ country_event = {
 			AND = {
 				original_tag = TUR
 				has_dlc = "Battle for the Bosporus"
+			}
+			AND = {
+				has_dlc = "Trial of Allegiance"
+				tag = BRA
 			}
 		}
 	}

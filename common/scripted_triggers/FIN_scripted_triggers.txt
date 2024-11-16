@@ -89,6 +89,7 @@ FIN_state_or_vp_name_should_change = {
 	OR = {
 		FROM.FROM = { state = 216 } # OLONETS (Petrozavodsk / Äänislinna)
 		FROM.FROM = { state = 213 } # MURMANSK / KUOLAN NIEMIMAA // (Murmansk / Muurmanski) (Kandalaksha / Kantalahti)
+		FROM.FROM = { state = 195 } # LENINGRAD / PIETARI // (Leningrad / Pietari)
 	}
 }
 

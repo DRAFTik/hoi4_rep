@@ -78,6 +78,7 @@ division_template = {
 division_template = {
 	name = "NKVD Pogranichnaya Diviziya"			# NKVD Border Guard Division - Garrison units (older experience, older equipment)
 	division_names_group = SOV_GAR_01
+	template_counter = 104 # The NKVD icon 
 
 	regiments = {
 		infantry = { x = 0 y = 0 }	
@@ -1812,7 +1813,6 @@ instant_effect = {
 		progress = 0.3
 		efficiency = 50
 		industrial_manufacturer = mio:SOV_mytishchy_machine_building_plant_organization
-	}
 	}
 
 	add_equipment_production = {

@@ -145,6 +145,46 @@ characters={
 		}
 	}
 
+	SPR_manuel_azana = {
+		instance = {
+			allowed = {
+				has_dlc = "La Resistance"
+			}
+
+			name = SPR_manuel_azana
+
+			portraits = {
+				civilian = {
+					large = "GFX_portrait_Manuel_Azana"
+				}
+			}
+			#country_leader = {
+			#	ideology = conservatism
+			#	traits = { figurehead_president }
+			#	expire = "1965.1.1.1"
+			#	id = -1
+			#}
+		}
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "La Resistance" }
+			}
+
+			name = SPR_manuel_azana
+
+			portraits = {
+				civilian = {
+					large = "GFX_portrait_Manuel_Azana"
+				}
+			}
+			#country_leader = {
+			#	ideology = conservatism
+			#	expire = "1965.1.1.1"
+			#	id = -1
+			#}
+		}
+	}
+
 	# Unit Leaders
 
 	SPR_vicente_rojo_lluch={
@@ -532,6 +572,7 @@ characters={
 							has_global_flag = spanish_civil_war
 							has_global_flag = SPR_sin_paquito
 						}
+						original_tag = CHL
 					}
 				}
 			}
@@ -706,6 +747,7 @@ characters={
 			name=SPA_emilio_mola_vidal
 			portraits={
 				army={
+					large="GFX_portrait_SPA_emilio_mola"
 					small="GFX_idea_generic_army_europe_5"
 				}
 			}
@@ -754,7 +796,10 @@ characters={
 				ledger = army
 				allowed = {
 					has_dlc = "La Resistance"
-					original_tag = SPR
+					OR = {
+						original_tag = SPR
+						original_tag = CHL
+					}
 				}
 				visible = {
 					NOT = {
@@ -886,7 +931,10 @@ characters={
 				ledger = army
 				allowed = {
 					has_dlc = "La Resistance"
-					original_tag = SPR
+					OR = {
+						original_tag = SPR
+						original_tag = CHL
+					}
 				}
 				visible = {
 					NOT = {
@@ -973,7 +1021,10 @@ characters={
 				ledger = army
 				allowed = {
 					has_dlc = "La Resistance"
-					original_tag = SPR
+					OR = {
+						original_tag = SPR
+						original_tag = CHL
+					}
 				}
 				visible = {
 					NOT = {
@@ -1069,6 +1120,21 @@ characters={
 				}
 			}
 		}
+	}
+
+	SPA_karl_pius_von_habsburg = {
+		name = SPA_karl_pius_von_habsburg
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_karl_pius_von_habsburg
+			}
+		}
+		#country_leader = {
+		#	ideology = despotism
+		#	traits = { carlist_habsburg_pretender }
+		#	expire="1965.1.1.1"
+		#	id = -1
+		#}
 	}
 
 	SPA_miguel_cabanellas={ # Carlist
@@ -1350,7 +1416,10 @@ characters={
 			ledger = army
 			allowed = {
 				has_dlc = "La Resistance"
-				original_tag = SPR
+				OR = {
+					original_tag = SPR
+					original_tag = CHL
+				}
 			}
 			visible = {
 				NOT = {
@@ -1400,7 +1469,10 @@ characters={
 			ledger = army
 			allowed = {
 				has_dlc = "La Resistance"
-				original_tag = SPR
+				OR = {
+					original_tag = SPR
+					original_tag = CHL
+				}
 			}
 
 			visible = {
@@ -4381,7 +4453,10 @@ characters={
 			name = SPA_manuel_hedilla 
 			allowed = {
 				has_dlc = "La Resistance"
-				original_tag = SPR
+				OR = {
+					original_tag = SPR
+					original_tag = CHL
+				}
 			}
 
 			visible = {
@@ -4460,7 +4535,10 @@ characters={
 			name = SPA_tomas_dominguez_arevalo 
 			allowed = {
 				has_dlc = "La Resistance"
-				original_tag = SPR
+				OR = {
+					original_tag = SPR
+					original_tag = CHL
+				}
 			}
 			visible = {
 				NOT = {
@@ -4617,7 +4695,10 @@ characters={
 			name = SPA_martin_de_riquer 
 			allowed = {
 				has_dlc = "La Resistance"
-				original_tag = SPR
+				OR = {
+					original_tag = SPR
+					original_tag = CHL
+				}
 			}
 
 			visible = {
@@ -4628,7 +4709,10 @@ characters={
 			}
 
 			available = {
-				has_completed_focus = SPA_supremacy_of_the_communion
+				OR = {
+					has_completed_focus = SPA_supremacy_of_the_communion
+					original_tag = CHL
+				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }

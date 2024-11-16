@@ -183,7 +183,7 @@ guiTypes = {
 			smoothListBoxType = {
 				# contains industrial_organisation_list_item
 				name = "organisation_list"
-				position = { x = 15 y = 7 }
+				position = { x = 10 y = 7 }
 				size = { x = 515 y = 552 }
 				scrollbartype = "standardlistbox_slider"
 			}
