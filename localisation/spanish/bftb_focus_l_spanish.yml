@@ -1171,7 +1171,7 @@
  BUL_support_the_spanish_coup_tt: "Un general que combatió en la Guerra Civil Española será ascendido a §Ymariscal de campo§!, lo que le permitirá recibir §G1§! nivel de habilidad adicional y un §Yrasgo§! aleatorio cuando concluya la Guerra Civil Española. §RRequiere el envío de voluntarios a la§! §Y[GetNationalistSpainFlag] España nacionalista§!."
  BUL_spa_flag: "[SPA.GetFlag]"
  BUL_no_spa_flag: ""
- BUL_the_return_of_ferdinand_opinion_tt: "Obtiene §YViejos enemigos§! (Opinión de [GRE.GetFlag]§Y[GRE.GetNameDef]§!, [ROM.GetFlag]§Y[ROM.GetNameDef]§!, [YUG.GetFlag]§Y[YUG.GetNameDef]§! y [TUR.GetFlag]§Y[TUR.GetNameDef]§!: §R-25§!)."
+ BUL_the_return_of_ferdinand_opinion_tt: "Obtiene §YViejos enemigos§! (opinión de [GRE.GetFlag]§Y[GRE.GetNameDef]§!, [ROM.GetFlag]§Y[ROM.GetNameDef]§!, [YUG.GetFlag]§Y[YUG.GetNameDef]§!, [TUR.GetFlag]§Y[TUR.GetNameDef]§!: §R-25§!)"
  BUL_carry_the_revolution_abroad_comintern_invitation_tt: "Los países comunistas independientes de los Balcanes recibirán una invitación para unirse a la facción de [ROOT.GetFlag]§Y[ROOT.GetName]§!."
  BUL_carry_the_revolution_abroad_alternative_invitation_tt: "Si [ROOT.GetFlag]§Y[ROOT.GetName]§! está al frente de la facción, los países comunistas independientes de los Balcanes recibirán una invitación para unirse a la facción de Bulgaria."
  BUL_recover_italian_territories_ita_will_refuse_tt: "\n[ITA.GetFlag]§Y[ITA.GetNameDefCap]§! §Rno cederá sus territorios en los Balcanes ahora mismo porque§! §Y[ITA.GetFlag][ITA.GetNameDef]§! §Ro§! §Yalguno de los aliados [ITA.GetAdjective]§! §Restán en guerra con§! [ROOT.GetFlag]§Y[ROOT.GetNameDef]§!."

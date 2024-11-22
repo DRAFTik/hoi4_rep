@@ -219,7 +219,7 @@
  ship_airplane_launcher_2_desc: "射出機の射程、射出速度が上がったことにより以前よりも大きな航空機を打ち上げることが可能になった。"
  sub_missile_launcher: "潜水艦ミサイル発射装置"
  sub_missile_launcher_desc: "誘導ミサイルおよび弾道ミサイル用の潜水艦搭載発射機。"
- slbm_launcher: "潜水艦弾道ミサイル発射装置"
+ slbm_launcher: "潜水艦核ミサイル発射装置"
  slbm_launcher_desc: "核弾道ミサイル用の潜水艦搭載発射機。"
  ship_engine_sub_aip_1: "非大気依存推進"
  ship_engine_sub_aip_1_desc: "新型エンジンの最初の型。潜水艦が水中でより長い時間作戦行動を維持できるようになったが、燃料消費量が大幅に増加し、航続距離が短くなった。"

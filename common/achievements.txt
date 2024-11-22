@@ -1449,7 +1449,7 @@ tojo_shot_first = {
 	}
 	
 	happened = {
-		USA = { NOT = { has_tech = nukes } }
+		USA = { NOT = { is_special_project_completed = sp:sp_nuclear_bomb } }
 		has_country_flag = achievement_tojo_shot_first
 	}
 }
@@ -1687,7 +1687,15 @@ our_other_place_in_the_sun = {
 	}
 	
 	happened = {
-		has_completed_focus = GER_our_place_in_the_sun
+		IF = {
+			limit = {
+				has_dlc = "Gotterdammerung"
+			}
+			has_completed_focus = GER_our_place_in_the_sun_ww
+		}
+		ELSE = {
+			has_completed_focus = GER_our_place_in_the_sun
+		}
 		custom_trigger_tooltip = {
 			tooltip = place_in_the_sun_tt
 			any_state = {
@@ -6433,6 +6441,24 @@ woman_in_a_high_castle = {
 					owns_state = 378 #California
 					owns_state = 463 #Alaska
 					owns_state = 629 #Hawaii
+				}
+				custom_trigger_tooltip = {
+					tooltip = woman_in_a_high_castle_tt2
+
+					GER = {
+						OR = {
+							has_country_leader = {
+								ruling_only = yes # default = yes
+								character = GER_victoria
+							}
+
+							has_country_leader = {
+								ruling_only = yes
+								character = GER_eva_braun
+							}
+						}
+					}
+					
 				}
 			}
 			GER = {

@@ -123,6 +123,7 @@
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR: "Consomm. du ravitaillement "
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR_DESC: "Quantité de ravitaillement nécessaire au maintien de l'efficacité des troupes terrestres."
  supply_consumption_factor_tt: " $MODIFIER_SUPPLY_CONSUMPTION_FACTOR$: $RIGHT|-=%1$"
+ TERRAIN_SUPPLY_FLOW_REDUCTION: "Réduction du ravitaillement : $RIGHT|-=%1$"
  MODIFIER_SUPPLY_CONSUMPTION: "Consomm. du ravitaillement "
  MODIFIER_SURPRISE_CHANCE_FACTOR: "Probabilité de surprise "
  MODIFIER_SURPRISE_CHANCE: "Probabilité de surprise "

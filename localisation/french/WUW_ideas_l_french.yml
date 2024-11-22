@@ -11,6 +11,7 @@
  AUS_phonix_insurance_desc: "L'assurance Phönix a permis à nos engagés de souscrire une assurance-vie qui couvre leurs héritiers au cas où le pire se produirait. Une recrudescence d'enrôlement s'est manifestée depuis que tout le monde sait que les familles des soldats sont prises en charge."
  AUS_covering_the_phonix_insurances: "Prise en charge de l'assurance Phönix"
  AUS_covering_the_phonix_insurances_desc: "Si la population avait appris que les assurances Phönix ont disparu, l'armée aurait connu une diaspora incroyable. L'État va couvrir les engagements des assurances Phönix jusqu'à ce que la firme se remette sur pieds."
+ AUS_cannot_train_due_to_treaty_of_saint_germain_en_laye: "Impossible d'entraîner de nouvelles unités tant que le §Y$AUS_treaty_of_saint_germain_en_laye$§! est actif"
  AUS_treaty_of_saint_germain_en_laye: "Le traité de Saint-Germain-En-Laye"
  AUS_treaty_of_saint_germain_en_laye_desc: "Limitées par un traité strict signé après la Grande Guerre, l'armée autrichienne et son industrie militaire ne sont plus que l'ombre de ce qu'elles étaient."
  AUS_treaty_of_saint_germain_en_laye_tt: "Peut envoyer des volontaires : §Rnon§!"
@@ -695,6 +696,8 @@
  BEL_modify_gold_reserves_dynamic_modifier_tt: "Modifie §Y$BEL_gold_reserves_dynamic_modifier$§! ainsi :"
  BEL_rexist_legion_dynamic_modifier_tt: "Améliore §Y$BEL_rexist_legion_dynamic_modifier$§! ainsi :"
  BEL_european_crusade_dynamic_modifier_tt: "Améliore §Y$BEL_european_crusade_dynamic_modifier$§! ainsi :"
+ BEL_european_crusade_dynamic_modifier_rexist_tt: "Confère §Y$BEL_european_crusade_dynamic_modifier$ (rexiste)§! :"
+ BEL_european_crusade_dynamic_modifier_vnv_tt: "Confère §Y$BEL_european_crusade_dynamic_modifier$ (VNV)§! :"
  BEL_academies_of_belgium_dynamic_modifier_tt: "Améliore §Y$BEL_academies_of_belgium_dynamic_modifier$§! ainsi :"
  BEL_modify_socialism_on_the_rise_dynamic_modifier: "Modifie §Y$BEL_socialism_on_the_rise_dynamic_modifier$§! ainsi :"
  #Dynamic State Modifiers

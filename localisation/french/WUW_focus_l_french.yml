@@ -1574,6 +1574,7 @@
  BEL_anti_tank_guns_tt: "Donne accès aux §Hcanons antichars supérieurs§!\n§YArtillerie AC d'appui§!, §Ycanons antichars de ligne§!, §Yantichars motorisés§!, §Ychasseurs de chars légers§! :\n  Attaque lourde : §G+10%§!\n  Perforation : §G+10%§!\n"
  BEL_chasseurs_ardennais_tt: "§YInfanterie de montagne§! :\n§YForêt§! :\n Mouvement : §G+10%§!\n Attaque : §G+20%§!\nDéfense : §G+20%§!\n§YMontagne§! :\n Mouvement : §R-10%§!\n Attaque : §R-20%§!"
  BEL_the_european_crusade_tt: "Les effets de §Yla Croisade européenne§! dépendent de l'ascension au pouvoir des §YRexistes§! ou de la §YVNV§!."
+ BEL_european_crusade_no_focus_tt: "Les §Yrexistes§! bénéficieront d'un facteur de population recrutable \nSi la §YVNV§!"
  BEL_the_king_surrenders_tt: "§RUne capitulation avec le roi au pouvoir accomplira cette priorité.§!"
  BEL_royal_commander_in_chief_tt: "Le §Yroi Léopold III§! va devenir §Ymaréchal§!"
  BEL_lucien_lippert_tt: "§YLucien Lippert§! va devenir §Ygénéral§!"
@@ -2566,6 +2567,7 @@
  GER_the_final_blow_to_communism_desc: "Ce n'est pas parce que nous nous sommes occupés de [SOV.GetLeLaLNP] [SOV.GetName] que notre croisade contre le communisme en Europe est terminée. Le combat continue tant que nous avons des voisins communistes. Nous ne nous arrêterons pas avant d'avoir éradiqué la menace rouge !"
  GER_war_against_communism_tt: "Alloue le but de guerre §YAnnexer§! contre toute nation §Ycommuniste§! dans le monde. Cibles actuelles :"
  GER_war_against_european_communism_tt: "Alloue le but de guerre §YAnnexer§! contre toute nation §Ycommuniste§! en §YEurope§!. Cibles actuelles :"
+ GER_crossing_the_atlantic_dockyards_tt: "Ajoute §Y2 chantiers navals§! dans des États littoraux européens entièrement contrôlés par [ROOT.GetLeLaLNP] [ROOT.GetNameWithFlag], et retire §Y1 usine militaire§! par chantier naval construit. \n(Les effets s'appliquent à un maximum de [?crossing_the_atlantic_max_states_for_dockyards|Y0] États en commençant par les littoraux possédant au moins 1 usine militaire)"
  #INNER CIRCLE
  GER_inner_circle_member_title: "Reichsleiter"
  GER_ascension_of_todt: "$GER_inner_circle_member_title$ Todt"

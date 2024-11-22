@@ -1574,6 +1574,7 @@
  BEL_anti_tank_guns_tt: "§H高性能対戦車砲§!が使用可能に\n支援対戦車砲兵の対戦車攻撃: §G+10%§!\n支援対戦車砲兵の貫徹: §G+10%§!\n対戦車砲戦列の対戦車攻撃: §G+10%§!\n対戦車砲戦列の貫徹: §G+10%§!\n自動車化対戦車砲兵の対戦車攻撃: §G+10%§!\n自動車化対戦車砲兵の貫徹: §G+10%§!\n駆逐戦車の対戦車攻撃: §G+10%§!\n駆逐戦車の貫徹: §G+10%§!\n"
  BEL_chasseurs_ardennais_tt: "§Y$mountaineers$§!:\n§Y森林§!:\n 有効移動距離変化: §G+10%§!\n 有効攻撃力変化: §G+20%§!\n 有効防御力変化: §G+20%§!\n§Y山岳§!:\n 有効移動距離変化: §R-10%§!\n 有効攻撃力変化: §R-20%§!"
  BEL_the_european_crusade_tt: "§Yヨーロッパ十字軍§!の効果は、権力を手にするのが§Yレクシスト§!か§YVNV§!かで変化する。"
+ BEL_european_crusade_no_focus_tt: "§Yレクシスト§!は徴兵可能人口補正の利益を得る\n§YVNV§!が以下の場合:"
  BEL_the_king_surrenders_tt: "§R国王が依然として権力を持ったまま降伏することで、この国家方針が完了する。§!"
  BEL_royal_commander_in_chief_tt: "§Yレオポルド3世§!が§Y陸軍元帥§!に就任した"
  BEL_lucien_lippert_tt: "§Yリュシアン・リッペール§!が§Y将軍§!に就任した"
@@ -2566,6 +2567,7 @@
  GER_the_final_blow_to_communism_desc: "[SOV.GetNameDef]を片付けたからといって、ヨーロッパにおける我々の反共産主義活動を終わらせることはできない。共産主義国家が我々の周辺に存在する限り、我々は闘い続けなければならない。赤い脅威が完全に根絶されるまで、我々は休むことはできない！"
  GER_war_against_communism_tt: "世界の§Y共産主義§!国家に対し、戦争目標§Y併合§!を獲得する。現在の標的："
  GER_war_against_european_communism_tt: "§Yヨーロッパ§!の§Y共産主義§!国家に対し、戦争目標§Y併合§!を獲得する。現在の標的:"
+ GER_crossing_the_atlantic_dockyards_tt: "[ROOT.GetNameWithFlag]が完全に支配するヨーロッパの沿岸州に§Y2つ$dockyard$§!を追加し、建造した造船所1つにつき§Y$arms_factory$を1つ§!取り除く。\n効果は最大[?crossing_the_atlantic_max_states_for_dockyards|Y0]つの州に適用され、そのうち少なくとも1つの$arms_factory$がある沿岸州が優先される）"
  #INNER CIRCLE
  GER_inner_circle_member_title: "全国指導者"
  GER_ascension_of_todt: "$GER_inner_circle_member_title$トート"

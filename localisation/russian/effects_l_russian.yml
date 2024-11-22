@@ -368,6 +368,7 @@
  if_they_accept_tt: "\n§YЭффекты в случае согласия:§!"
  if_they_accept_newline_tt: "\n§YЭффекты в случае согласия:§!\n"
  if_we_accept_newline_tt: "\n§YЭффекты, если мы согласимся:§!\n"
+ generic_more_likely_to_accept_tt: "\n§YС большей вероятностью согласятся, если:§!\n"
  we_will_gain_tt: "§YМы получим§!:"
  they_will_gain_tt: "§YОни получат§!:"
  THIS_IS_WIP_TT: "§RВЕДУТСЯ РАБОТЫ§!"

@@ -4515,9 +4515,7 @@ MON = {
 MEN = {
 	male = {
 		names = {
-			Ma
-			# Deng # Commented because it can cause name collisions leading to OOS (AR-56112)
-			Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+			Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
 		}
 	}
 	female = {
@@ -4530,9 +4528,7 @@ MEN = {
 MAN = {
 	male = {
 		names = {
-			Ma
-			# Deng # Commented because it can cause name collisions leading to OOS (AR-56112)
-			Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+			Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
 		}
 	}
 	female = {

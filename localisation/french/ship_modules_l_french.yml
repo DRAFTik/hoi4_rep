@@ -219,7 +219,7 @@
  ship_airplane_launcher_2_desc: "Un mécanisme de lancement amélioré, permettant au navire de lancer un avion plus gros, à la vitesse et au rayon d'action accrus."
  sub_missile_launcher: "Lance-missiles sous-marin"
  sub_missile_launcher_desc: "Un lanceur monté sur un sous-marin pour les missiles balistiques et guidés."
- slbm_launcher: "Lance-missiles balistique sous-marin"
+ slbm_launcher: "Lance-missiles nucléaire sous-marin"
  slbm_launcher_desc: "Un lanceur monté sur un sous-marin pour les missiles balistiques nucléaires."
  ship_engine_sub_aip_1: "Propulsion anaérobique"
  ship_engine_sub_aip_1_desc: "Cette toute première génération de moteurs offre une efficacité longue durée aux sous-marins, même après une immersion prolongée, au prix d'une consommation de carburant conséquente et d'une portée réduite."

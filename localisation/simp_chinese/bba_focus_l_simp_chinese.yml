@@ -482,7 +482,7 @@
  ETH_african_central_bank: "[ETH_GetCentralBankName]"
  ETH_african_central_bank_desc: "在建立了[ETH_GetCentralBankName]之后，我们可以开始整合非洲统一组织内部的经济。这可以让我们更好地运用我们的资源和基础设施来促进各成员国的发展。"
  ETH_african_central_bank_tt: "解锁邀请§Y非洲统一组织§!的成员加入[ETH_GetCentralBankName]的决议。"
- ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$：§R-5%§! \n$modifier_production_speed_industrial_complex_factor$：§R-10%§! \n$modifier_production_speed_infrastructure_factor$：§R-10%§!"
+ ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$：§G-5%§! \n$modifier_production_speed_industrial_complex_factor$：§G-10%§! \n$modifier_production_speed_infrastructure_factor$：§G-10%§!"
  ETH_mass_transit: "集体化公共交通"
  ETH_mass_transit_desc: "我们的许多交通相关的基础设施已经过时并需要更换以被更好地利用。而最适合执行这些改革的人，则是那些运营基础设施的工人们。"
  ETH_mutual_defense: "共同防卫协定 "

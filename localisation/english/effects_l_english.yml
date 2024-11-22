@@ -368,6 +368,7 @@
  if_they_accept_tt:0 "\n§YEffects if they accept:§!"
  if_they_accept_newline_tt: "\n§YEffects if they accept:§!\n"
  if_we_accept_newline_tt: "\n§YEffects if we accept:§!\n"
+ generic_more_likely_to_accept_tt: "\n§YThey are more likely to accept if:§!\n"
  we_will_gain_tt: "§YWe will gain§!:"
  they_will_gain_tt: "§YThey will gain§!:"
  THIS_IS_WIP_TT:0 "§RTHIS IS WORK IN PROGRESS§!"

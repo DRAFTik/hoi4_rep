@@ -278,6 +278,7 @@
  ROCKET_ITEM_DESC:0 "§GClick§! to Select this Rocket."
  ROCKET_NO_EQUIPMENT: "No equipment in stockpile"
  ROCKET_ADJUSTING_LAUNCHERS: "Adjusting launchers"
+ ROCKET_DEPLOYING_FROM_STOCKPILE: "Deploying from stockpile"
  SELECT_HALF_WINGS:0 "§TSelect half of the current air wings§!"
  SELECT_HALF_WINGS_BLOCKED:0 "§RNeed to have at least §H2§! Air Wings selected§!"
  HOLD_WINGS:0 "§THold Air Wings.§!"

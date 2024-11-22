@@ -505,9 +505,9 @@
  AUS_political_events.90.c: "Vinzenz Schumy can carter to most voters!"
 
  AUS_political_events.91.t: "[ROOT.GetLeader] Wishes to be on the Battlefield"
- AUS_political_events.91.desc: "In recent times we have found our King, His Majesty [ROOT.GetLeader] continuously mulling over the situation at the front. He expresses a feeling of inadequacy and that he wishes to lead his men more directly. Today the matter was brought up again, our King wishes to bravely lead his men in battle, and leave the governing to someone else."
- AUS_political_events.91.a: "Go forth King! We'll have someone keep your seat warm"
- AUS_political_events.91.b: "Even kings must stay in their place"
+ AUS_political_events.91.desc: "In recent times we have found our Archduke, His Majesty [ROOT.GetLeader] continuously mulling over the situation at the front. He expresses a feeling of inadequacy and that he wishes to lead his men more directly. Today the matter was brought up again, our Archduke wishes to bravely lead his men in battle, and leave the governing to someone else."
+ AUS_political_events.91.a: "Go forth Archduke! We'll have someone keep your seat warm"
+ AUS_political_events.91.b: "Even Archdukes must stay in their place"
  AUS_political_events.91.a_tt: "The new Capital will be called §YVaduz§!"
  AUS_political_events.91.a_tt2: "§YOtto von Habsburg§! becomes a §YSkill 2§! Field Marshal"
 
@@ -1411,7 +1411,7 @@
 
  #Communist Language Problems
  ww_BEL_event_political.8.t: "The Language of the People"
- ww_BEL_event_political.8.desc: "Our people has since a long time been divided. The Walloons speaking French, and the Flemish speaking Dutch drives a slight rift between the groups and prevents a more unified [ROOT.GetName] from developing. We must come to a decision regarding what our official language shall be, lest misunderstandings between friends, military commands being executed wrongly and miscarriages of justice will never stop being part of the [ROOT.GetAdjective] everyday life."
+ ww_BEL_event_political.8.desc: "Our people have long been divided by language. The Walloons speaking French, and the Flemish speaking Dutch which drives a rift between the groups and prevents a more unified [ROOT.GetName] from developing. We must come to a decision regarding what our official language is, otherwise misunderstandings between friends, military commands being executed wrongly and miscarriages of justice will never stop being part of everyday [ROOT.GetAdjective] life."
  ww_BEL_event_political.8.a: "Dutch is our language"
  ww_BEL_event_political.8.b: "French is our language"
  ww_BEL_event_political.8.c: "Our languages are equal and we will keep both!"
@@ -1726,7 +1726,7 @@
  ww_BEL_event_spanish_interaction.9.a: "Shame really"
 
  ww_BEL_event_misc.1.t: "The Boss is Dead"
- ww_BEL_event_misc.1.desc: "Emile Vandervelde, nicknamed 'le patron' (the boss), the long standing Socialist politician and Prime Minister of [BEL.GetName] has died. He was well known as a member of the Belgian delegation at the Paris Peace Conference which concluded the Great War, and whom had become a staunch opponent of Fascism, even advocating for direct intervention in the Spanish Civil War on the Republican side. \n\nHenri de Man has taken over has the new Prime Minister, and will be sworn in by the King later today."
+ ww_BEL_event_misc.1.desc: "Émile Vandervelde, nicknamed 'le patron' (the boss), the long standing Socialist politician and Prime Minister of [BEL.GetName] has died. He was well known as a member of the Belgian delegation at the Paris Peace Conference which concluded the Great War, and whom had become a staunch opponent of Fascism, even advocating for direct intervention in the Spanish Civil War on the Republican side. \n\nHenri de Man has taken over has the new Prime Minister, and will be sworn in by the King later today."
  ww_BEL_event_misc.1.a: "His successor is the man to get the job done!"
 
  ww_BEL_event_misc.2.t: "The Black Island"
@@ -1874,11 +1874,11 @@
  ww_congo.29.b: "There is no reason to intervene"
 
  ww_congo.30.t: "[FROM.GetNameDefCap] Decides to Aid us"
- ww_congo.30.desc: "Our diplomats have returned from heir talks with the [FROM.GetAdjective] military staff, and have supposedly reached an agreement where they will send us men and equipment when we decide to declare war against our oppressors. Today is a good day for the people of the Congo!"
+ ww_congo.30.desc: "Our diplomats have returned from their talks with the [FROM.GetAdjective] military staff, and have supposedly reached an agreement where they will send us men and equipment when we decide to declare war against our oppressors. Today is a good day for the people of the Congo!"
  ww_congo.30.a: "Perfect"
 
  ww_congo.31.t: "[FROM.GetNameDefCap] Decides not to Aid us"
- ww_congo.31.desc: "Our diplomats have returned from heir talks with the [FROM.GetAdjective] military staff empty handed. It seems as though an agreement could not be reached, and our supposed allies have betrayed us..."
+ ww_congo.31.desc: "Our diplomats have returned from their talks with the [FROM.GetAdjective] military staff empty handed. It seems as though an agreement could not be reached, and our supposed allies have betrayed us..."
  ww_congo.31.a: "A real shame"
 
  ww_congo.32.t: "The Simba Coup d'etat"
@@ -2066,6 +2066,11 @@
  ww_congo.72.t: "Jan Zumbach Arrives"
  ww_congo.72.desc: "Polish fighter pilot Jan Zumbach has just arrived in our country, stating he wishes to join our air force and fight for us. Surely there is some role we can assign him to?"
  ww_congo.72.a: "We shall put him to work"
+
+ ww_congo.73.t: "[FROM.GetNameDefCap] Offers Peace for our Colony's Independence"
+ ww_congo.73.desc: "[FROM.GetAdjective] diplomats have approached us with an offer of peace. The offer depends on us agreeing to relinquish claims on certain African holdings and withdrawing our forces from the region. Do we accept this?"
+ ww_congo.73.a: "We will not surrender our territory."
+ ww_congo.73.b: "We have no choice but to agree."
 
 
  #### THE WHISPERS AND NEGOTIATIONS OF INDEPENDENCE EVENT CHAIN ####

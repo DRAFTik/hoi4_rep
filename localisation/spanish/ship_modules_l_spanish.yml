@@ -219,7 +219,7 @@
  ship_airplane_launcher_2_desc: "Un mecanismo de lanzamiento mejorado que permite que el barco lance un avión más grande con un alcance y una velocidad superiores."
  sub_missile_launcher: "Lanzamisiles submarino"
  sub_missile_launcher_desc: "Lanzador de misiles dirigidos y balísticos montado en un submarino."
- slbm_launcher: "Lanzamisiles balístico submarino"
+ slbm_launcher: "Lanzamisiles nuclear submarino"
  slbm_launcher_desc: "Lanzador de misiles balísticos nucleares montado en un submarino."
  ship_engine_sub_aip_1: "Propulsión aérea independiente"
  ship_engine_sub_aip_1_desc: "Primera versión de los nuevos tipos de motor, que permiten a los submarinos permanecer operativos bajo el agua durante más tiempo. Sin embargo, consumen mucho más combustible y el alcance se ve reducido."

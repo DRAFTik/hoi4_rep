@@ -1603,7 +1603,7 @@
  ARG_hitler_2_tt: "Erhält das Kriegsziel „§Y$annex_everything$§!“ gegen alle §Ynicht faschistischen§! Nationen in §YSüdamerika§!"
  ARG_hitler_2_core_tt: "Erlangt §YKerne§! in allen §Ydeutschen§! Staaten."
  ARG_hitler_3: "Arma Maravillosa"
- ARG_hitler_3_desc: "Die Arma Maravillosa ist ein Forschungsprogramm, das zum Ziel hat, Raketen und Waffen zu entwickeln, die den Verlauf eines Krieges grundlegend verändern können. Unser Präsident hat eine Reihe von Dokumenten mit Wasserschäden in die Finger bekommen, die unglaubliche Ideen enthalten. Wir sollten sie unverzüglich in die Tat umsetzen!"
+ ARG_hitler_3_desc: "Die Arma Maravillosa ist ein Forschungsprogramm, das zum Ziel hat, Raketen und Waffen zu entwickeln, die den Verlauf eines Krieges grundlegend verändern können. Unser Präsident hat eine Reihe von Dokumenten mit Wasserschäden in die Finger bekommen, die unglaubliche Ideen enthalten. Wir sollten sie unverzüglich in die Tat umsetzen!"
  ARG_arma_maravillosa_bonus: "Arma Maravillosa"
  ARG_worst_timeline_flag: "§YSeñor Hilter§! ist das Staatsoberhaupt von §Y[ARG.GetName]§!"
  ARG_hitler_4: "Bergung der Graf Spee"

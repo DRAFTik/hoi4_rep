@@ -2737,7 +2737,7 @@
  MAN_hoankyoku_idea_desc: "社会の不穏分子の処理を専門とする秘密組織。"
  AST_central_bureau_idea: "中央局"
  AST_central_bureau_idea_desc: "太平洋戦域にいる敵の取り組みに対抗するために創設された共同諜報部隊で、アメリカと連係関係にある。"
- SWE_historical_trade_with_Germany_dummy_instant_desc: "（§Yスウェーデン§!）対象国の貿易コスト: §G-20%§!）\n（§Yスウェーデン§!）貿易評価補正: §G+50§!）\n§Y我が国で生産される鋼鉄は質が悪く、その効果を十分に発揮するには高品質の鋼鉄を混ぜる必要がある。外国から少量の鋼鉄を輸入すれば、国内の鋼鉄生産高を劇的に増やすことができるだろう§!\n"
+ SWE_historical_trade_with_Germany_dummy_instant_desc: "（§Yスウェーデン§!）対象国の貿易コスト: §G-20%§!\n（§Yスウェーデン§!）貿易評価補正: §G+50§!\n§Y我が国で生産される鋼鉄は質が悪く、その効果を十分に発揮するには高品質の鋼鉄を混ぜる必要がある。外国から少量の鋼鉄を輸入すれば、国内の鋼鉄生産高を劇的に増やすことができるだろう§!\n"
  ROM_national_christian_party_in_power: "キリスト教国民党"
  CAN_unified_communist_party: "団結した民衆"
  CAN_unified_communist_party_desc: "過去の不和が解消され、関係は修復された。だが、国に仕える者同士、運命共同体と割り切った我々の寛大さは、口先だけで大義を語り、権力の追求というもっとも浅ましい動機しか持たぬ者達によって、疑惑の眼を向けられている。"

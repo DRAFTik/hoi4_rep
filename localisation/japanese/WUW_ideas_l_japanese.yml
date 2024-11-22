@@ -11,6 +11,7 @@
  AUS_phonix_insurance_desc: "フェニックス保険の計画のおかげで、入隊者は最悪の事態が起こった場合に備えて、生命保険に加入できるようになった。自分たちの家族が補償を受けられることがわかり、軍への入隊を希望する人が大幅に増えた。"
  AUS_covering_the_phonix_insurances: "フェニックス保険の援護"
  AUS_covering_the_phonix_insurances_desc: "皆が愛するフェニックス保険がなくなったことを国民に知らせれば、軍を維持し、強化するための我々の力が大幅に損なわれることになるだろう。フェニックス保険が再建されるまでは、国家が保険金をまかなうしかない。"
+ AUS_cannot_train_due_to_treaty_of_saint_germain_en_laye: "§Y$AUS_treaty_of_saint_germain_en_laye$§!が有効中は新しいユニットを訓練できない"
  AUS_treaty_of_saint_germain_en_laye: "サン＝ジェルマン＝アン＝レー条約"
  AUS_treaty_of_saint_germain_en_laye_desc: "第一次世界大戦後に結ばれた厳しい条約に縛られ、オーストリア軍も軍需産業もそのかつての面影をわずかに残しているだけだ。"
  AUS_treaty_of_saint_germain_en_laye_tt: "義勇軍の派兵が可能: §R不可能§!"
@@ -695,6 +696,8 @@
  BEL_modify_gold_reserves_dynamic_modifier_tt: "§Y$BEL_gold_reserves_dynamic_modifier$§!に以下の修正:"
  BEL_rexist_legion_dynamic_modifier_tt: "§Y$BEL_rexist_legion_dynamic_modifier$§!を以下の通りに改善:"
  BEL_european_crusade_dynamic_modifier_tt: "§Y$BEL_european_crusade_dynamic_modifier$§!を以下の通りに改善:"
+ BEL_european_crusade_dynamic_modifier_rexist_tt: "§Y$BEL_european_crusade_dynamic_modifier$（レクシスト）§!を追加:"
+ BEL_european_crusade_dynamic_modifier_vnv_tt: "§Y$BEL_european_crusade_dynamic_modifier$（VNV）§!を追加:"
  BEL_academies_of_belgium_dynamic_modifier_tt: "§Y$BEL_academies_of_belgium_dynamic_modifier$§!を以下の通りに改善:"
  BEL_modify_socialism_on_the_rise_dynamic_modifier: "§Y$BEL_socialism_on_the_rise_dynamic_modifier$§!に以下の修正:"
  #Dynamic State Modifiers

@@ -2737,7 +2737,7 @@
  MAN_hoankyoku_idea_desc: "Une organisation secrète formée pour s'occuper des éléments indésirables au sein de la société."
  AST_central_bureau_idea: "Central Bureau"
  AST_central_bureau_idea_desc: "Une équipe conjointe, en charge des renseignements, établie en coopération avec [USA.GetLeLaLNP] [USA.GetName], afin de contrer nos ennemis communs sur le théâtre du Pacifique."
- SWE_historical_trade_with_Germany_dummy_instant_desc: "(§YSuède§!) $MODIFIER_TRADE_COST_TO_TARGET_FACTOR$: §G-20%§!\n(§YSuède§!) Modif. d'influence commerciale : §G+50§!\n§LNotre acier est de basse qualité et doit être mêlé d'acier de haute qualité pour gagner en résistance. En importer de petites quantités depuis l'étranger permet ainsi d'accroître notre production intérieure.§!\n"
+ SWE_historical_trade_with_Germany_dummy_instant_desc: "(§YSuède§!) $MODIFIER_TRADE_COST_TO_TARGET_FACTOR$: §G-20%§!\n(§YSuède§!) Modif. d'influence commerciale : §G+50§!\n§YNotre acier est de basse qualité et doit être mêlé d'acier de haute qualité pour gagner en résistance. En importer de petites quantités depuis l'étranger permet ainsi d'accroître notre production intérieure.§!\n"
  ROM_national_christian_party_in_power: "$ROM_national_christian_party$"
  CAN_unified_communist_party: "Peuple uni"
  CAN_unified_communist_party_desc: "Les différends ont été apaisés, la confiance mutuelle restaurée. Pourtant notre tolérance placée au service d'une destinée commune est considérée avec méfiance par ceux qui n'apportent qu'un soutien hypocrite à la cause et ne sont motivés que par la plus vile des motivations : le pouvoir."

@@ -368,6 +368,7 @@
  if_they_accept_tt: "\n§YAuswirkungen, wenn sie annehmen:§!"
  if_they_accept_newline_tt: "\n§YAuswirkungen, wenn sie annehmen:§!\n"
  if_we_accept_newline_tt: "\n§YAuswirkungen, wenn wir annehmen:§!\n"
+ generic_more_likely_to_accept_tt: "\n§YSie sind eher gewillt, zuzustimmen, wenn:§!\n"
  we_will_gain_tt: "§YWir erhalten§!:"
  they_will_gain_tt: "§YSie erhalten§!:"
  THIS_IS_WIP_TT: "§RWORK IN PROGRESS§!"

@@ -123,6 +123,7 @@
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR: "Consumo de suprimentos"
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR_DESC: "A quantidade de suprimentos que nossas tropas terrestres precisam para operar eficientemente."
  supply_consumption_factor_tt: " $MODIFIER_SUPPLY_CONSUMPTION_FACTOR$: $RIGHT|-=%1$"
+ TERRAIN_SUPPLY_FLOW_REDUCTION: "Redução do fluxo de suprimentos: $RIGHT|-=%1$"
  MODIFIER_SUPPLY_CONSUMPTION: "Consumo de suprimentos"
  MODIFIER_SURPRISE_CHANCE_FACTOR: "Chance de ataque surpresa"
  MODIFIER_SURPRISE_CHANCE: "Chance de ataque surpresa"

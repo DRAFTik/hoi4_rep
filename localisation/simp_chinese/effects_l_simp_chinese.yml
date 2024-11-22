@@ -368,6 +368,7 @@
  if_they_accept_tt: "\n§Y将于他们接受后生效：§!"
  if_they_accept_newline_tt: "\n§Y如果他们接受：§!\n"
  if_we_accept_newline_tt: "\n§Y如果我们接受：§!\n"
+ generic_more_likely_to_accept_tt: "\n§Y如果符合以下情况，他们更有可能接受§!\n"
  we_will_gain_tt: "§Y我们将获得§!："
  they_will_gain_tt: "§Y他们将得到§!："
  THIS_IS_WIP_TT: "§R此项还在开发中§!"

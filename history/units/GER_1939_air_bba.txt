@@ -29,8 +29,8 @@ air_wings = {
 	}
 	763 = { 																		# Konigsberg 
 		### Luftwaffenkommando Ostpreussen (CO: Grauert) ###		
-		small_plane_cas_airframe_0 =  { owner = "GER" version_name = "Do 17" amount = 77 }						# I./Kampfgeschwader 3 -- Do 17Z
-		small_plane_cas_airframe_0 =  { owner = "GER" version_name = "Do 17" amount = 77 }						# I./Kampfgeschwader 3 -- Do 17Z
+		medium_plane_airframe_1 =  { owner = "GER" version_name = "Do 17" amount = 77 }						# I./Kampfgeschwader 3 -- Do 17Z
+		medium_plane_airframe_1 =  { owner = "GER" version_name = "Do 17" amount = 77 }						# I./Kampfgeschwader 3 -- Do 17Z
 								# Kampfgeschwader 2 -- Do 17Z
 		small_plane_cas_airframe_1 =  { owner = "GER" amount = 36  version_name = "Ju 87" }						# II./Kampfgeschwader 3 -- Ju 87B (REVISIT -- VARIANT)
 		### Luftwaffen-Lehrdivision (CO: Förster) ###
@@ -44,8 +44,8 @@ air_wings = {
 	66 = { 																		# Breslau
 		### 2. Flieger-Division (CO: Loerzer) ###
 		medium_plane_airframe_1 = { owner = "GER" amount = 96 version_name = "He 111"} 					# Kampfgeschwader 4 -- He 111H (REVISIT -- VARIANT)
-		small_plane_cas_airframe_0 =  { owner = "GER" version_name = "Do 17" amount = 84 }						# Kampfgeschwader 76 -- Do 17Z
-		small_plane_cas_airframe_0 =  { owner = "GER" version_name = "Do 17" amount = 76 }
+		medium_plane_airframe_1 =  { owner = "GER" version_name = "Do 17" amount = 84 }						# Kampfgeschwader 76 -- Do 17Z
+		medium_plane_airframe_1 =  { owner = "GER" version_name = "Do 17" amount = 76 }
 		small_plane_cas_airframe_1 =  { owner = "GER" amount = 72 version_name = "Ju 87" }						# Kampfgeschwader 77 -- Do 17E (REVISIT -- VARIANT)
 		small_plane_cas_airframe_1 =  { owner = "GER" amount = 72 version_name = "Ju 87" }						# Kampfgeschwader 77 -- Do 17E (REVISIT -- VARIANT)
 		small_plane_cas_airframe_0 =  { owner = "GER" amount = 72 version_name = "Hs 123" }						# Kampfgeschwader 77 -- Do 17E (REVISIT -- VARIANT)

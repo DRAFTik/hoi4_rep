@@ -368,6 +368,7 @@
  if_they_accept_tt: "\n§YEfekty, jeżeli się zgodzą:§!"
  if_they_accept_newline_tt: "\n§YEfekty, jeżeli się zgodzą:§!\n"
  if_we_accept_newline_tt: "\n§YEfekty, jeżeli się zgodzimy:§!\n"
+ generic_more_likely_to_accept_tt: "\n§YSą bardziej skłonni wyrazić zgodę, jeśli:§!\n"
  we_will_gain_tt: "§YZyskamy§!:"
  they_will_gain_tt: "§YZyskają§!:"
  THIS_IS_WIP_TT: "§RPRACE W TOKU§!"

@@ -482,7 +482,7 @@
  ETH_african_central_bank: "[ETH_GetCentralBankName]"
  ETH_african_central_bank_desc: "Mettre sur pied une [ETH_GetCentralBankName] permettrait de lancer le processus d'intégration des économies au sein de l'OUA. Ainsi serait garantie une utilisation plus efficace et rationnelle des ressources et infrastructures des pays membres, pour le bien de tous."
  ETH_african_central_bank_tt: "Donne accès aux £decision_icon_small£§Ydécisions§! permettant d'inviter les pays membres de l'§YOrganisation de l'unité africaine§! à participer à la [ETH_GetCentralBankName]."
- ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §R-5%§!\n$modifier_production_speed_industrial_complex_factor$: §R-10%§!\n$modifier_production_speed_infrastructure_factor$: §R-10%§!"
+ ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §G5%§!\n$modifier_production_speed_industrial_complex_factor$: §G10%§! \n$modifier_production_speed_infrastructure_factor$: §G10%§!"
  ETH_mass_transit: "Collectivisation des transports"
  ETH_mass_transit_desc: "Une grande part des infrastructures de transport est complètement obsolète et doit être réorganisée pour gagner en efficacité. Nul doute que ces travailleurs qui les font fonctionner sont encore les mieux placés pour mettre en place de telles réformes."
  ETH_mutual_defense: "Défense mutuelle"

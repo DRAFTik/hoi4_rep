@@ -156,7 +156,7 @@ african_union_category = {
 		}
 		days_remove = 10
 		complete_effect = {
-			add_stability = -0.03
+			add_stability = -0.02
 		}
 		remove_effect = {
 			FROM = {
@@ -165,12 +165,20 @@ african_union_category = {
 					id = BBA_african_union_events.12
 					hours = 1
 				}
-			}			
+			}	
+			custom_effect_tooltip = if_they_accept_tt
+			FROM = {
+				every_owned_state = {
+					limit = { is_on_continent = africa }
+					add_core_of = ROOT
+				}	
+			}
+			add_political_power = 150	
 		}
 	}
 
 	invite_to_org_alliance = {
-		cost = 50
+		cost = 25
 		icon = GFX_decision_generic_military
 		fire_only_once = no   
 
@@ -276,9 +284,7 @@ african_union_category = {
 		}
 		target_trigger = {
 			FROM = {
-				AND = {
-					has_idea = organization_of_african_unity_member_idea
-				}
+				has_idea = organization_of_african_unity_member_idea
 			}
 		}
 		days_remove = 60

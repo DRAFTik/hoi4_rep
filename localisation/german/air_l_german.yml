@@ -278,6 +278,7 @@
  ROCKET_ITEM_DESC: "§GKlicken§!, um diese Rakete auszuwählen."
  ROCKET_NO_EQUIPMENT: "Keine Ausrüstung auf Lager"
  ROCKET_ADJUSTING_LAUNCHERS: "Ausrichtung der Raketenwerfer"
+ ROCKET_DEPLOYING_FROM_STOCKPILE: "Aus Lagerbestand beziehen"
  SELECT_HALF_WINGS: "§THälfte der aktuellen Luftgeschwader auswählen§!"
  SELECT_HALF_WINGS_BLOCKED: "§REs müssen mindestens §H2§! Luftgeschwader ausgewählt sein§!"
  HOLD_WINGS: "§TLuftgeschwader halten.§!"

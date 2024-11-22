@@ -278,6 +278,7 @@
  ROCKET_ITEM_DESC: "§GKliknij§!, by wybrać tę rakietę."
  ROCKET_NO_EQUIPMENT: "Brak wyposażenia w zapasach"
  ROCKET_ADJUSTING_LAUNCHERS: "Dostosowywanie wyrzutni"
+ ROCKET_DEPLOYING_FROM_STOCKPILE: "Wystawianie z zapasów"
  SELECT_HALF_WINGS: "§TWybierz połowę skrzydeł§!"
  SELECT_HALF_WINGS_BLOCKED: "§RMusisz wybrać przynajmniej §H2§! skrzydła§!"
  HOLD_WINGS: "§TZatrzymaj skrzydła.§!"

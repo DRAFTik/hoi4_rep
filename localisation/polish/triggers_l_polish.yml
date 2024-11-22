@@ -151,6 +151,8 @@
  TRIGGER_HAS_DEFENSIVE_WAR: "Prowadzi wojną obronną."
  TRIGGER_HAS_NOT_WAR_WITH: "Podpisano pokój: @$TAG$$COUNTRY|H$."
  TRIGGER_HAS_WAR_WITH: "W stanie wojny: @$TAG$$COUNTRY|H$."
+ TRIGGER_HAS_NOT_TRUCE_WITH: "Nie ma zawartego rozejmu z: @$TAG$$COUNTRY|H$"
+ TRIGGER_HAS_TRUCE_WITH: "Ma zawarty rozejm z: @$TAG$$COUNTRY|H$"
  TRIGGER_IS_FRIEND: "Jest w sojuszu z: @$TAG$$OTHER|H$"
  TRIGGER_IS_NOT_FRIEND: "Nie jest w sojuszu z: @$TAG$$OTHER|H$"
  TRIGGER_HAS_NOT_WAR_TOGETHER_WITH: "Nie prowadzi wojny po tej samej stronie co @$TAG$$COUNTRY|H$."

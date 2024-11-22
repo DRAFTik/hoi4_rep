@@ -278,6 +278,7 @@
  ROCKET_ITEM_DESC: "§GCliquer§! pour sélectionner cette fusée."
  ROCKET_NO_EQUIPMENT: "Aucun matériel en réserve"
  ROCKET_ADJUSTING_LAUNCHERS: "Ajustement des lanceurs"
+ ROCKET_DEPLOYING_FROM_STOCKPILE: "Déploiement depuis les réserves"
  SELECT_HALF_WINGS: "§TSélectionner la moitié des escadrilles§!"
  SELECT_HALF_WINGS_BLOCKED: "§RIl faut qu'au moins §H2§! escadrilles aient été sélectionnées§!"
  HOLD_WINGS: "§TMaintenir les escadrilles au sol.§!"

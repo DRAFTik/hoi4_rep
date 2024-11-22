@@ -370,7 +370,7 @@
  GER_reinstate_imperial_possessions_desc: "Maintenant que nous avons repris les régions historiquement allemandes, nous pouvons désormais commencer à les réintégrer au sein [Root.GetDuDelaDelNP] [Root.GetName] en tant que provinces à part entière. À ce moment, enfin, les dernières injustices du traité de Versailles seront réparées !"
  GER_crossing_the_atlantic: "Franchir l'Atlantique"
  GER_crossing_the_atlantic_desc: "Maintenant que toute opposition a été vaincue en Europe, nous devons veiller à réorienter notre production vers la création d'une vaste flotte, de façon à pouvoir amener la guerre sur le sol britannique et américain. Nous ferons tout pour que l'Ancien Monde soumette et humilie le nouveau de son pouvoir et sa puissance."
- GER_crossing_the_atlantic_trigger_tt: "N'a pas : n'importe quel pays ennemi : \n  est considéré comme un pays majeur \n  N'importe quel État possédé :\n     est en §YEurope§!\n     L'une de ces conditions doit être vérifiée :\n        Contrôleur :\n              Le pays est [GER.GetLeLaLNP] §Y[GER.GetNameWithFlag]§!\n            Est en faction avec [GER.GetLeLaLNP] §Y[GER.GetNameWithFlag]§!"
+ GER_crossing_the_atlantic_trigger_tt: "N'a pas : n'importe quel pays ennemi : \n  est considéré comme un pays majeur \n  N'importe quel État contrôlé :\n     est en §YEurope§!"
  GER_crossing_the_atlantic_2_factories_tt: "Retire §Y2 usines militaires§! d'un État de l'arrière-pays pour chaque État littoral qui recevra un chantier naval.\n"
  GER_crossing_the_atlantic_1_factory_tt: "Retire §Y1 usine militaire§! d'un État de l'arrière-pays pour chaque État littoral qui recevra un chantier naval.\n"
  GER_the_central_powers: "Unir les Empires centraux"

@@ -123,6 +123,7 @@
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR: "Zużycie zaopatrzenia"
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR_DESC: "Zaopatrzenie, którego wojska potrzebują, by prowadzić skuteczne działania."
  supply_consumption_factor_tt: " $MODIFIER_SUPPLY_CONSUMPTION_FACTOR$: $RIGHT|-=%1$"
+ TERRAIN_SUPPLY_FLOW_REDUCTION: "Redukcja przepływu zaopatrzenia: $RIGHT|-=%1$"
  MODIFIER_SUPPLY_CONSUMPTION: "Zużycie zaopatrzenia"
  MODIFIER_SURPRISE_CHANCE_FACTOR: "Szansa na zaskoczenie"
  MODIFIER_SURPRISE_CHANCE: "Szansa na zaskoczenie"

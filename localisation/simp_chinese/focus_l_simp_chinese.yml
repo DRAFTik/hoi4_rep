@@ -370,7 +370,7 @@
  GER_reinstate_imperial_possessions_desc: "随着我们成功地重新征服了历史上的德国地区，我们现在可以开启将它们作为完全成熟的省份回归[Root.GetName]的进程。凡尔赛条约最后的耻辱终于被洗刷了！"
  GER_crossing_the_atlantic: "跨越大西洋"
  GER_crossing_the_atlantic_desc: "随着我们征服了欧陆上所有反对我国统治的国家，现在我们必须把生产重心再度转移到建立一支庞大的海军上，以便在接下来发动对英国人和美国人的打击。我们将永不停息，直到旧世界在上帝认为适当的时候，倾尽它全部的力量，踏上支配并羞辱新世界的征途。"
- GER_crossing_the_atlantic_trigger_tt: "没有：任意敌国：\n 被认为是主要国家\n 任意拥有地区：\n  在§Y欧洲§!\n  必须满足以下条件之一：\n    控制者：\n     国家是§Y[GER.GetNameWithFlag]§!\n     和§Y[GER.GetNameWithFlag]§!在同一阵营"
+ GER_crossing_the_atlantic_trigger_tt: "没有：任意敌国：\n 被认为是主要国家\n 任意控制地区：\n  在§Y欧洲§!"
  GER_crossing_the_atlantic_2_factories_tt: "每有一个沿海地区收到这些海军船坞，就从一个内陆地区移除§Y2座军用工厂§!。\n"
  GER_crossing_the_atlantic_1_factory_tt: "每有一个沿海地区收到这些海军船坞，就从一个内陆地区移除§Y1座军用工厂§!。\n"
  GER_the_central_powers: "旧同盟国"

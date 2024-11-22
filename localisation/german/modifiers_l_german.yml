@@ -123,6 +123,7 @@
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR: "Nachschubbedarf"
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR_DESC: "Wie viel Nachschub unsere Truppen benötigen, um effizient zu operieren."
  supply_consumption_factor_tt: " $MODIFIER_SUPPLY_CONSUMPTION_FACTOR$: $RIGHT|-=%1$"
+ TERRAIN_SUPPLY_FLOW_REDUCTION: "Reduktion (Nachschubfluss): $RIGHT|-=%1$"
  MODIFIER_SUPPLY_CONSUMPTION: "Nachschubbedarf"
  MODIFIER_SURPRISE_CHANCE_FACTOR: "Überraschungschance"
  MODIFIER_SURPRISE_CHANCE: "Überraschungschance"

@@ -482,7 +482,7 @@
  ETH_african_central_bank: "Banco Central Africano"
  ETH_african_central_bank_desc: "Com a criação do Banco Central Africano, podemos iniciar o processo de integração das economias na Organização da Unidade Africana. Isso daria mais eficiência na utilização dos recursos e infraestrutura, promovendo o bem-estar de todos os Estados-membros."
  ETH_african_central_bank_tt: "Desbloqueia decisões para convidar membros da §YOrganização da Unidade Africana§! ao Banco Central Africano."
- ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §R-5%§! \n$modifier_production_speed_industrial_complex_factor$: §R-10%§! \n$modifier_production_speed_infrastructure_factor$: §R-10%§!"
+ ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §G5%§! \n$modifier_production_speed_industrial_complex_factor$: §G10%§! \n$modifier_production_speed_infrastructure_factor$: §G10%§!"
  ETH_mass_transit: "Transporte público coletivizado"
  ETH_mass_transit_desc: "Boa parte da nossa infraestrutura de transporte está ultrapassada e precisa se reorganizar para melhorar a eficiência. As melhores pessoas para implementar essas reformas são os próprios trabalhadores do ramo."
  ETH_mutual_defense: "Defesa Mútua "

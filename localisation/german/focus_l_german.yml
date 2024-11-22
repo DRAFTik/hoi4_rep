@@ -370,7 +370,7 @@
  GER_reinstate_imperial_possessions_desc: "Nach der erfolgreich Rückeroberung historisch deutscher Gebiete können wir nun damit anfangen, sie wieder als echte Provinzen in [Root.GetName] einzugliedern. Die letzte Schande von Versailles ist endlich Geschichte!"
  GER_crossing_the_atlantic: "Überquerung des Atlantik"
  GER_crossing_the_atlantic_desc: "Nachdem unsere gesamte Opposition auf dem Kontinent nun unserer Herrschaft unterworfen ist, müssen wir uns verstärkt darauf konzentrieren, eine große Flotte aufzubauen. Nur so können wir den Kampf zu den Briten und Amerikanern tragen. Wir werden nicht ruhen, bis in Gottes rechter Zeit, die alte Welt hervortritt mit all ihrer Stärke und Macht zur Unterwerfung und Demütigung der Alten Welt."
- GER_crossing_the_atlantic_trigger_tt: "Nicht: Beliebiges feindliches Land: \n  Gilt als Großmacht \n  Beliebiger im Besitz befindlicher Staat:\n     Befindet sich in §YEuropa§!\n     Eine der folgenden Bedingungen muss zutreffen:\n        Derzeitiger Halter:\n            Land ist §Y[GER.GetNameWithFlag]§!\n            Ist in einem Bündnis mit §Y[GER.GetNameWithFlag]§!"
+ GER_crossing_the_atlantic_trigger_tt: "Nicht: Beliebiges feindliches Land:\n  Gilt als Großmacht\n  Beliebiger kontrollierter Staat:\n     Befindet sich in §YEuropa§!"
  GER_crossing_the_atlantic_2_factories_tt: "§Y2 Militärfabriken§! aus einem Binnenstaat entfernen für jeden Küstenstaat, der diese Werften erhält.\n"
  GER_crossing_the_atlantic_1_factory_tt: "§Y1 Militärfabrik§! aus einem Binnenstaat entfernen für jeden Küstenstaat, der diese Werften erhält.\n"
  GER_the_central_powers: "Die Mittelmächte"

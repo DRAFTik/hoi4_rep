@@ -370,7 +370,7 @@
  GER_reinstate_imperial_possessions_desc: "Dzięki odzyskaniu historycznie niemieckich terenów możemy zacząć proces ich włączenia do naszego państwa jako pełnoprawnych prowincji, o które powiększy się [Root.GetName]. Wreszcie naprawiliśmy ostatnią hańbę wersalską!"
  GER_crossing_the_atlantic: "Przez Atlantyk"
  GER_crossing_the_atlantic_desc: "Gdy wszyscy przeciwnicy na kontynencie znaleźli się pod naszymi rządami, musimy przestawić nasze moce produkcyjne na stworzenie potężnej marynarki wojennej, która zmierzy się z Anglikami i Amerykanami. Nie spoczniemy, dopóki, w odpowiednim czasie, Stary Świat z całą swą potęgą nie ruszy, by podbić i upokorzyć nowy."
- GER_crossing_the_atlantic_trigger_tt: "Nie: Dowolny wrogi kraj: \n  Ma status mocarstwa \n  Dowolny posiadany region:\n     Leży w §YEuropie§!\n     Jedno z poniższych musi być faktem:\n        W posiadaniu:\n            Kraj jest: §Y[GER.GetNameWithFlag]§!\n            Kraj jest członkiem frakcji razem z: §Y[GER.GetNameWithFlag]§!"
+ GER_crossing_the_atlantic_trigger_tt: "Nie: Dowolny wrogi kraj: \n  Ma status mocarstwa \n  Dowolny kontrolowany region:\n     Leży w §YEuropie§!"
  GER_crossing_the_atlantic_2_factories_tt: "Usuń §Y2 fabryki wojskowe§! z państwa wewnątrz lądu za każde państwo nadmorskie, które otrzyma te stocznie.\n"
  GER_crossing_the_atlantic_1_factory_tt: "Usuń §Y1 fabrykę wojskową§! z państwa wewnątrz lądu za każde państwo nadmorskie, które otrzyma te stocznie.\n"
  GER_the_central_powers: "Mocarstwa centralne"

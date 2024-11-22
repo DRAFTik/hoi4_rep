@@ -151,6 +151,8 @@
  TRIGGER_HAS_DEFENSIVE_WAR: "Está em uma guerra defensiva"
  TRIGGER_HAS_NOT_WAR_WITH: "Em paz com @$TAG$$COUNTRY|H$"
  TRIGGER_HAS_WAR_WITH: "Em guerra com @$TAG$$COUNTRY|H$"
+ TRIGGER_HAS_NOT_TRUCE_WITH: "Não tem uma trégua com @$TAG$$COUNTRY|H$"
+ TRIGGER_HAS_TRUCE_WITH: "Tem uma trégua com @$TAG$$COUNTRY|H$"
  TRIGGER_IS_FRIEND: "É aliado de @$TAG$$OTHER|H$"
  TRIGGER_IS_NOT_FRIEND: "Não é aliado de @$TAG$$OTHER|H$"
  TRIGGER_HAS_NOT_WAR_TOGETHER_WITH: "Não está lutando em uma guerra do mesmo lado que @$TAG$$COUNTRY|H$"

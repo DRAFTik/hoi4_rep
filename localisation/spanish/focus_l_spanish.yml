@@ -370,7 +370,7 @@
  GER_reinstate_imperial_possessions_desc: "Tras recuperar con éxito las zonas históricas alemanas, ya podemos empezar el proceso para reincorporarlas a [Root.GetName] como provincias de pleno derecho. ¡Al fin enmendamos la última desgracia de Versalles!"
  GER_crossing_the_atlantic: "Cruzando el Atlántico"
  GER_crossing_the_atlantic_desc: "Tras acabar con toda la oposición continental, debemos enfocar nuestros esfuerzos de producción en la creación de una gran armada para llevarles la guerra a los británicos y a los americanos. No descansaremos hasta que, Dios mediante, el Viejo Mundo, con todo su poder y fuerza, avance hacia la subyugación y humillación del nuevo."
- GER_crossing_the_atlantic_trigger_tt: "No: Cualquier país enemigo: \n Se considera una gran potencia \n Cualquier estado en propiedad:\n     Se encuentra en §YEuropa§!\n     Debe darse uno de los siguientes:\n        Controlador:\n            El país es §Y[GER.GetNameWithFlag]§!\n            Está en una facción con §Y[GER.GetNameWithFlag]§!"
+ GER_crossing_the_atlantic_trigger_tt: "No: Cualquier país enemigo:\nSe considera una gran potencia\nCualquier Estado controlado:\n     Se encuentra en §YEuropa§!"
  GER_crossing_the_atlantic_2_factories_tt: "Elimina §Y2 fábricas militares§! de un estado de interior por cada estado costero que reciba estos astilleros.\n"
  GER_crossing_the_atlantic_1_factory_tt: "Elimina §Y1 fábrica militar§! de un estado de interior por cada estado costero que reciba estos astilleros.\n"
  GER_the_central_powers: "Las Potencias Centrales"

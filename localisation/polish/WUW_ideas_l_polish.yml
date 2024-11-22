@@ -11,6 +11,7 @@
  AUS_phonix_insurance_desc: "Program Phönix Insurance pozwolił naszym poborowym wykupić ubezpieczenie na życie, które obejmuje ich w przypadku najgorszego. Świadomość, że ich rodziny zostaną otoczone opieką, znacznie zwiększyła liczbę osób chętnych do wstąpienia do armii."
  AUS_covering_the_phonix_insurances: "Pokrycie ubezpieczenia Phönix Insurance"
  AUS_covering_the_phonix_insurances_desc: "Poinformowanie ludzi, że ich ulubione ubezpieczenia Phönix przestały obowiązywać, miałoby drastyczne konsekwencje dla naszej zdolności do utrzymania i ulepszania armii. Państwo pokryje koszty ubezpieczenia, dopóki Phönix Insurance nie stanie na nogi."
+ AUS_cannot_train_due_to_treaty_of_saint_germain_en_laye: "Nie może szkolić nowych jednostek, gdy §Y$AUS_treaty_of_saint_germain_en_laye$§! jest aktywny"
  AUS_treaty_of_saint_germain_en_laye: "Traktat z Saint-Germain-en-Laye"
  AUS_treaty_of_saint_germain_en_laye_desc: "Związane surowym traktatem podpisanym po wielkiej wojnie, austriacka armia i przemysł wojskowy są tylko cieniem swojej dawnej potęgi."
  AUS_treaty_of_saint_germain_en_laye_tt: "Możliwość wysłania ochotników: §Rnie§!"
@@ -695,6 +696,8 @@
  BEL_modify_gold_reserves_dynamic_modifier_tt: "Modyfikuje §Y$BEL_gold_reserves_dynamic_modifier$§! o:"
  BEL_rexist_legion_dynamic_modifier_tt: "Poprawa (§Y$BEL_rexist_legion_dynamic_modifier$§!) o:"
  BEL_european_crusade_dynamic_modifier_tt: "Poprawa (§Y$BEL_european_crusade_dynamic_modifier$§!) o:"
+ BEL_european_crusade_dynamic_modifier_rexist_tt: "Dodaj modyfikator §Y$BEL_european_crusade_dynamic_modifier$ (reksiści)§!:"
+ BEL_european_crusade_dynamic_modifier_vnv_tt: "Dodaj modyfikator §Y$BEL_european_crusade_dynamic_modifier$ (VNV)§!:"
  BEL_academies_of_belgium_dynamic_modifier_tt: "Poprawa (§Y$BEL_academies_of_belgium_dynamic_modifier$§!) o:"
  BEL_modify_socialism_on_the_rise_dynamic_modifier: "Modyfikuje §Y$BEL_socialism_on_the_rise_dynamic_modifier$§! o:"
  #Dynamic State Modifiers

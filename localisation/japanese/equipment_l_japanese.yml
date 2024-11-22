@@ -3680,7 +3680,7 @@
  nuclear_missile_equipment_1: "中距離核ミサイル"
  nuclear_missile_equipment_1_short: "核ミサイル I"
  nuclear_missile_equipment_1_desc: "核弾頭を搭載できる中距離弾道ミサイル"
- nuclear_missile_equipment_2: "大陸間弾道ミサイル"
+ nuclear_missile_equipment_2: "大陸間核ミサイル"
  nuclear_missile_equipment_2_short: "ICBM"
  nuclear_missile_equipment_2_desc: "核弾頭を搭載できる長距離弾道ミサイル"
  USA_nuclear_missile_equipment_2: "アトラス（SM-65/CGM-16）"

@@ -370,7 +370,7 @@
  GER_reinstate_imperial_possessions_desc: "ドイツの歴史的な領土を取り戻す事に成功したことで、それらを中核州として[Root.GetName]に復帰させるプロセスを開始することができる。ヴェルサイユで味わった屈辱も最早これでまでだ！"
  GER_crossing_the_atlantic: "大西洋を越えて"
  GER_crossing_the_atlantic_desc: "我々を縛る全ての大陸の圧力に打ち勝ち、イギリスやアメリカに戦いを挑めるだけの巨大な海軍の創設のため再び造船に力を入れなければならない。我々は休んではならない。神のご加護のある時代に、旧世界の力とその全力をもって、新世界の征服と屈辱に足を踏み出すまで。"
- GER_crossing_the_atlantic_trigger_tt: "以下ではない: いずれかの敵国: \n主要国とみなされている\n  いずれかの領有州: \n     §Yヨーロッパ§!内\n     以下のいずれかを満たす: \n        支配国：\n           国は§Y[GER.GetNameWithFlag]§!である\n            §Y[GER.GetNameWithFlag]§!陣営に属している"
+ GER_crossing_the_atlantic_trigger_tt: "以下ではない: いずれかの敵国: \n主要国とみなされている\n  いずれかの支配州:\n     §Yヨーロッパ内§!"
  GER_crossing_the_atlantic_2_factories_tt: "内陸にある§Y2つの軍需工場§!を取り除き、代わりに沿岸部にその分の造船所を建造する。\n"
  GER_crossing_the_atlantic_1_factory_tt: "内陸にある§Y1つの軍需工場§!を取り除き、代わりに沿岸部にその分の造船所を建造する。\n"
  GER_the_central_powers: "中央同盟国"

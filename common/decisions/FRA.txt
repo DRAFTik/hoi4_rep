@@ -300,7 +300,7 @@ FRA_vichy_france = {
 			country_exists = VIC
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 200
 		}
 		cost = 0
 		fire_only_once = yes
@@ -848,7 +848,7 @@ FRA_spanish_intervention_category = {
 
 		cost = 25
 		ai_will_do = {
-			factor = 1
+			factor = 1.5
 			modifier = {
 				has_stability < 0.3
 				factor = 0
@@ -1297,7 +1297,7 @@ economy_decisions = {
 		cost = 50
 
 		ai_will_do = {
-			factor = 10
+			factor = 15
 			modifier = {
 				has_war = no
 				factor = 0
@@ -2329,7 +2329,7 @@ FRA_intervention_in_overseas_territories = {
 		fire_only_once = yes
 		cost = 25
 		ai_will_do = {
-			factor = 3
+			factor = 4
 		}
 		
 	}
@@ -2563,7 +2563,7 @@ FRA_intervention_in_overseas_territories = {
 		fire_only_once = yes
 		cost = 25
 		ai_will_do = {
-			factor = 3
+			factor = 4
 		}
 	}
 	FRA_prepare_coup_in_west_africa = {
@@ -2794,7 +2794,7 @@ FRA_intervention_in_overseas_territories = {
 		fire_only_once = yes
 		cost = 25
 		ai_will_do = {
-			factor = 3
+			factor = 5
 		}
 	}
 	FRA_prepare_coup_in_madagascar = {

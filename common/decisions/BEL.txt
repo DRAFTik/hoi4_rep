@@ -893,10 +893,7 @@ BEL_closer_european_union_cat =  {
 				exists = yes
 				is_government_in_exile = no
 				is_subject = no
-				OR = {
-					has_government = neutrality
-					has_government = democratic
-				}
+				
 				NOT = {
 					has_war_with = ROOT
 				}
@@ -921,6 +918,10 @@ BEL_closer_european_union_cat =  {
 		visible = {
 			FROM = {
 				is_in_faction = no #It has to be here or the decision is cancelled by the taret trigger rather than the cancel trigger if it happens. Cancellation via target trigger doesn't run cancel_effect meaning following decisions get perma-locked by a flag that can't be removed
+				OR = { #needs to be here to cancel correctly if there is a ideology flip
+					has_government = neutrality
+					has_government = democratic
+				}
 			}
 		}
 
@@ -935,6 +936,10 @@ BEL_closer_european_union_cat =  {
 					is_subject = yes
 					exists = no
 					is_in_faction = yes
+					NOT = {
+						has_government = neutrality
+						has_government = democratic
+					}
 				}
 			}
 		}
@@ -1104,6 +1109,9 @@ BEL_closer_european_union_cat =  {
 					}
 				}
 			}
+
+			custom_effect_tooltip = generic_more_likely_to_accept_tt
+			custom_effect_tooltip = more_likely_to_accept_federalization_tt
 			
 		}
 	}

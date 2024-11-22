@@ -370,7 +370,7 @@
  GER_reinstate_imperial_possessions_desc: "Com nossa conquista histórica das áreas historicamente alemãs, podemos agora começar o processo de retorná-las para [Root.GetName] como províncias formadas. A última desgraça de Versalhes finalmente foi desfeito!"
  GER_crossing_the_atlantic: "Cruzando o Atlântico"
  GER_crossing_the_atlantic_desc: "Com a derrota de toda a oposição continental contra nosso domínio, é hora de concentrarmos nossos esforços na construção de uma poderosa frota marinha, para que possamos levar a guerra aos britânicos e americanos. Não descansaremos até que, pela graça de Deus, o Velho Mundo, com toda sua glória e poder, se erga para submeter e sobrepujar o Novo."
- GER_crossing_the_atlantic_trigger_tt: "Não: qualquer país inimigo: \n  É considerado um país principal \n  Qualquer estado adquirido:\n     Está na §YEuropa§!\n     Um dos itens a seguir deve ser verdadeiro:\n        Controlador:\n            O país é §Y[GER.GetNameWithFlag]§!\n            Está em uma facção com §Y[GER.GetNameWithFlag]§!"
+ GER_crossing_the_atlantic_trigger_tt: "Não: qualquer país inimigo: \n  É considerado um país principal \n  Qualquer estado controlado:\n     Está na §YEuropa§!"
  GER_crossing_the_atlantic_2_factories_tt: "Remove §Y2 Fábricas Militares§! de um estado interno de cada estado costeiro que recebe essas docas.\n"
  GER_crossing_the_atlantic_1_factory_tt: "Remove §Y1 Fábricas Militares§! de um estado interno de cada estado costeiro que recebe essas docas.\n"
  GER_the_central_powers: "As Potências Centrais"

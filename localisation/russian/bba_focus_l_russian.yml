@@ -482,7 +482,7 @@
  ETH_african_central_bank: "[ETH_GetCentralBankName]"
  ETH_african_central_bank_desc: "Когда появится [ETH_GetCentralBankName], мы сможем начать интеграцию экономического пространства государств, входящих в Организацию африканского единства. Это позволит нам более эффективно использовать наши ресурсы и инфраструктуру ради блага наших народов."
  ETH_african_central_bank_tt: "Будут доступны решения, позволяющие приглашать страны Африки, входящие в §YОрганизацию африканского единства§!, для сотрудничества, где их партнером будет [ETH_GetCentralBankName]."
- ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §R-5%§! \n$modifier_production_speed_industrial_complex_factor$: §R-10%§! \n$modifier_production_speed_infrastructure_factor$: §R-10%§!"
+ ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §G5%§! \n$modifier_production_speed_industrial_complex_factor$: §G10%§! \n$modifier_production_speed_infrastructure_factor$: §G10%§!"
  ETH_mass_transit: "Коллективизация общественного транспорта"
  ETH_mass_transit_desc: "Наша транспортная инфраструктура устарела и нуждается в реорганизации. Только после этого ее можно будет использовать более эффективно. Лучше всего поручить ее реформирование тем, кто работает с ней непосредственно."
  ETH_mutual_defense: "Взаимная оборона "

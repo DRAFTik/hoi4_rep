@@ -278,6 +278,7 @@
  ROCKET_ITEM_DESC: "§Gクリック§!でこのロケットを選択する。"
  ROCKET_NO_EQUIPMENT: "備蓄に装備無し"
  ROCKET_ADJUSTING_LAUNCHERS: "発射装置調整中"
+ ROCKET_DEPLOYING_FROM_STOCKPILE: "備蓄から配備中"
  SELECT_HALF_WINGS: "§T選択中の航空隊のうち半分を選択§!"
  SELECT_HALF_WINGS_BLOCKED: "§R少なくとも§H2§!つの航空隊の選択が必要§!"
  HOLD_WINGS: "§T航空隊を抑止する。§!"

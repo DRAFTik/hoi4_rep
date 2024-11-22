@@ -368,6 +368,7 @@
  if_they_accept_tt: "\n§YSi cela est accepté :§!"
  if_they_accept_newline_tt: "\n§YSi cela est accepté :§!\n"
  if_we_accept_newline_tt: "\n§YSi nous acceptons :§!\n"
+ generic_more_likely_to_accept_tt: "\n§YCette nation acceptera plus facilement si :§!\n"
  we_will_gain_tt: "§YNous allons bénéficier de :§!"
  they_will_gain_tt: "§YIls vont bénéficier de§! :"
  THIS_IS_WIP_TT: "§REN COURS DE TRAVAIL§!"

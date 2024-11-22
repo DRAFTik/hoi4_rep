@@ -2779,6 +2779,8 @@ COG_freedom_at_gunpoint_category = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 
+		priority = 2
+
 		target_array = freedom_at_gunpoint_array 
 		target_root_trigger = { original_tag = COG } 
 
@@ -2902,6 +2904,7 @@ COG_freedom_at_gunpoint_category = {
 				capital_scope = {
 					OWNER = {
 						has_war_with = ROOT
+						is_subject = no
 					}
 				}
 			}				
@@ -2928,6 +2931,138 @@ COG_freedom_at_gunpoint_category = {
 					}
 
 				}
+			}
+
+		}
+
+	}
+
+	COG_freedom_at_gunpoint_subject_decision = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+
+		priority = 1
+
+		target_root_trigger = { original_tag = COG } 
+
+		fire_only_once = no 
+
+		target_non_existing = yes
+
+		allowed = {
+			original_tag = COG
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = COG_has_active_liberation_goal
+			}
+		}
+
+ 		cost = 50
+
+		visible = {
+			FROM = {
+				is_subject = yes
+				NOT = {
+					is_subject_of = ROOT
+				}
+				capital_scope = {
+					is_on_continent = africa
+				}
+				NOT = {
+					is_in_array = {
+						COG_has_liberation_goal_array = THIS
+					}
+				}
+				ROOT = {
+					NOT = {
+						has_country_flag = COG_has_active_liberation_goal
+					}
+				}
+			}	 
+		}
+
+		days_remove = 14
+
+		complete_effect = {
+			hidden_effect = {
+				FROM = {
+					set_variable = {
+						var_COG_wargoal_target = THIS
+					}
+				}
+				set_country_flag = COG_has_active_liberation_goal
+			}			
+			add_war_support = 0.03
+		}
+		
+		remove_effect = {
+			
+			FROM = {
+				# Using an array here instead of a variable as I may tweak this further to allow multiple liberation decisions to be taken. 
+				add_to_array = { COG.COG_has_liberation_goal_array = THIS }
+				set_country_flag = COG_the_subject_country_to_be_liberated
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = puppet_wargoal_focus
+						expire = 0
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 175
+				AND = {
+					has_war = no 
+					has_political_power > 100
+				}
+			}
+			modifier = {
+				factor = 2
+				has_government = communism
+			}
+		}
+	}
+
+	COG_freedom_at_gunpoint_subject_offer_peace = {
+
+		cost = 50
+
+		fire_only_once = no
+
+		icon = GFX_decision_generic_form_nation
+
+		allowed = { original_tag = COG }
+
+		target_array = COG_has_liberation_goal_array
+
+		target_root_trigger = { original_tag = COG } 
+
+		visible = {		
+			any_country = {
+				has_subject = FROM
+				has_war_with = ROOT
+			}				
+		}
+
+		days_remove = 3
+
+		remove_effect = {
+
+			FROM = {			
+				overlord = {
+					country_event = {
+						id = ww_congo.73
+						hours = 1
+					}
+				}
+
 			}
 
 		}

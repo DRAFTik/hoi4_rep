@@ -278,6 +278,7 @@
  ROCKET_ITEM_DESC: "§GЩелкните§!, чтобы выбрать эту ракету."
  ROCKET_NO_EQUIPMENT: "В резервах нет снаряжения"
  ROCKET_ADJUSTING_LAUNCHERS: "Настройка пусковых установок"
+ ROCKET_DEPLOYING_FROM_STOCKPILE: "Развертывание из запасов"
  SELECT_HALF_WINGS: "§TВыбрать половину текущих авиакрыльев§!"
  SELECT_HALF_WINGS_BLOCKED: "§RНеобходимо выбрать как минимум §H2§! авиакрыла§!"
  HOLD_WINGS: "§TУдерживать авиакрылья.§!"

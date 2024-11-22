@@ -11,6 +11,7 @@
  AUS_phonix_insurance_desc: "Страховая компания Phönix представила новую программу, разрешив поступившим на военную службу покупать страховку, которая выплачивается в случае наихудшего исхода. Зная, что их семьи не останутся без гроша, люди гораздо охотнее идут в армию."
  AUS_covering_the_phonix_insurances: "Покрытие для страховой компании Phönix"
  AUS_covering_the_phonix_insurances_desc: "Если люди узнают, что их любимая страховая компания Phönix вышла из бизнеса, нам станет очень трудно набирать добровольцев в армию. Государство будет покрывать страховые расходы, пока компания снова не встанет на ноги."
+ AUS_cannot_train_due_to_treaty_of_saint_germain_en_laye: "Невозможно тренировать новые боевые единицы, пока действует §Y$AUS_treaty_of_saint_germain_en_laye$§!"
  AUS_treaty_of_saint_germain_en_laye: "Сен-Жерменский мирный договор"
  AUS_treaty_of_saint_germain_en_laye_desc: "Австрийская армия, как и военная промышленность страны, ограниченные строгими условиями договора, подписанного после Великой войны, — лишь бледные тени прежней армии и прежней промышленности."
  AUS_treaty_of_saint_germain_en_laye_tt: "Может отправить добровольцев: §Rнет§!"
@@ -695,6 +696,8 @@
  BEL_modify_gold_reserves_dynamic_modifier_tt: "§Y$BEL_gold_reserves_dynamic_modifier$§! изменится на:"
  BEL_rexist_legion_dynamic_modifier_tt: "Улучшить «§Y$BEL_rexist_legion_dynamic_modifier$§!» на:"
  BEL_european_crusade_dynamic_modifier_tt: "Улучшить «§Y$BEL_european_crusade_dynamic_modifier$§!» на:"
+ BEL_european_crusade_dynamic_modifier_rexist_tt: "Добавить §Y$BEL_european_crusade_dynamic_modifier$ (рексисты)§!:"
+ BEL_european_crusade_dynamic_modifier_vnv_tt: "Добавить §Y$BEL_european_crusade_dynamic_modifier$ (ФНС)§!:"
  BEL_academies_of_belgium_dynamic_modifier_tt: "Улучшить §Y$BEL_academies_of_belgium_dynamic_modifier$§! на:"
  BEL_modify_socialism_on_the_rise_dynamic_modifier: "§Y$BEL_socialism_on_the_rise_dynamic_modifier$§! изменится на:"
  #Dynamic State Modifiers

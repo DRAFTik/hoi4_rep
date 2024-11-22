@@ -2583,7 +2583,7 @@ GER_arado_flugzeugwerke_organization = {
 
 		available = {
 			FROM = {
-				has_tech = jet_engines
+				is_special_project_completed = sp:sp_air_jet_engine
 			}
 		}
 

@@ -368,6 +368,7 @@
  if_they_accept_tt: "\n§Y受諾した場合の影響:§!"
  if_they_accept_newline_tt: "\n§Y受諾された場合の影響:§!\n"
  if_we_accept_newline_tt: "\n§Y受諾した場合の影響:§!\n"
+ generic_more_likely_to_accept_tt: "\n§Y以下であれば受け入れられる可能性が高くなる:§!\n"
  we_will_gain_tt: "§Y自国が獲得§!: "
  they_will_gain_tt: "§Y相手国が獲得§!:"
  THIS_IS_WIP_TT: "§R工事中§!"

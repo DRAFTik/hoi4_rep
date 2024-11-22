@@ -966,7 +966,6 @@ AUS_subjugating_the_lands_of_old_category = {
 						}
 					}
 				}
-				
 			}
 		}
 
@@ -1018,6 +1017,11 @@ AUS_subjugating_the_lands_of_old_category = {
 			hidden_effect = {
 				add_political_power = -50
 				add_command_power = -25
+			}
+			FROM = {
+				OWNER = {
+					set_country_flag = AUS_sent_ultimatum_flag
+				}
 			}
 		}
 
@@ -1191,6 +1195,12 @@ AUS_subjugating_the_lands_of_old_category = {
 				add_political_power = -50
 				add_command_power = -25
 			}
+
+			FROM = {
+				OWNER = {
+					set_country_flag = AUS_sent_ultimatum_flag
+				}
+			}
 		}
 
 		remove_effect = {
@@ -1290,7 +1300,6 @@ AUS_subjugating_the_lands_of_old_category = {
 						has_non_aggression_pact_with = ROOT
 					}
 				}
-				
 			}
 		}
 
@@ -1303,6 +1312,9 @@ AUS_subjugating_the_lands_of_old_category = {
 		visible = {
 			FROM = {
 				NOT = { has_state_flag = AUS_no_longer_expansion_target }
+				OWNER = {
+					NOT = { has_country_flag = AUS_sent_ultimatum_flag }
+				}
 			}
 		}
 
@@ -1330,6 +1342,7 @@ AUS_subjugating_the_lands_of_old_category = {
 							exists = no
 							is_in_faction_with = ROOT
 							has_non_aggression_pact_with = ROOT
+							has_country_flag = AUS_sent_ultimatum_flag
 						}
 					}
 				}
@@ -1443,6 +1456,9 @@ AUS_subjugating_the_lands_of_old_category = {
 		visible = {
 			FROM = {
 				NOT = { has_state_flag = AUS_no_longer_expansion_target }
+				OWNER = {
+					NOT = { has_country_flag = AUS_sent_ultimatum_flag }
+				}
 			}
 		}
 
@@ -1456,9 +1472,13 @@ AUS_subjugating_the_lands_of_old_category = {
 						is_neighbor_of = ROOT
 						ROOT = {
 							any_controlled_state = {
-								any_neighbor_state = { is_fully_controlled_by = PREV }
 								ROOT = {
-									divisions_in_state = { state = PREV size > 2 }
+									divisions_in_state = { 
+										state = PREV size > 2 
+									} 
+								}
+								any_neighbor_state = { 
+									is_fully_controlled_by = FROM.OWNER
 								}
 							}
 						}
@@ -1483,6 +1503,7 @@ AUS_subjugating_the_lands_of_old_category = {
 							has_war_with = ROOT
 							is_in_faction_with = ROOT
 							has_non_aggression_pact_with = ROOT
+							has_country_flag = AUS_sent_ultimatum_flag
 						}
 					}
 
@@ -1570,6 +1591,9 @@ AUS_subjugating_the_lands_of_old_category = {
 		visible = {
 			FROM = {
 				NOT = { has_state_flag = AUS_no_longer_expansion_target }
+				OWNER = {
+					NOT = { has_country_flag = AUS_sent_ultimatum_flag }
+				}
 			}
 		}
 
@@ -1601,6 +1625,7 @@ AUS_subjugating_the_lands_of_old_category = {
 						has_war_with = ROOT
 						is_in_faction_with = ROOT
 						has_non_aggression_pact_with = ROOT
+						has_country_flag = AUS_sent_ultimatum_flag
 					}
 				}
 			}
@@ -1673,7 +1698,6 @@ AUS_subjugating_the_lands_of_old_category = {
 							has_country_flag = AUS_annexation_demand_sent_flag
 						}
 						has_country_flag = AUS_militarist_expansion_attempt_flag
-						has_non_aggression_pact_with = ROOT
 					}
 				}
 				
@@ -1690,20 +1714,17 @@ AUS_subjugating_the_lands_of_old_category = {
 			FROM = {
 				NOT = { has_state_flag = AUS_no_longer_expansion_target }
 				OWNER = {
-					NOT = { has_country_flag = AUS_went_militarist_with_FROM_OWNER_flag }
+					NOT = {
+						has_country_flag = AUS_went_militarist_with_FROM_OWNER_flag 
+						has_country_flag = AUS_sent_ultimatum_flag 
+					}
+					NOT = { has_non_aggression_pact_with = ROOT }
 				}
 			}
 		}
 
 		available = {
 			NOT = { has_country_flag = AUS_currently_undertaking_subjugating_lands_of_old_flag }
-			NOT = { 
-				FROM = { 
-					OWNER = { 
-						has_non_aggression_pact_with = ROOT 
-					}
-				} 
-			}
 		}
 
 		days_remove = 30
@@ -1721,6 +1742,7 @@ AUS_subjugating_the_lands_of_old_category = {
 							is_subject = yes
 							is_in_faction_with = ROOT
 							has_non_aggression_pact_with = ROOT
+							has_country_flag = AUS_sent_ultimatum_flag
 						}
 					}
 				}
@@ -1813,6 +1835,9 @@ AUS_subjugating_the_lands_of_old_category = {
 		visible = {
 			FROM = {
 				NOT = { has_state_flag = AUS_no_longer_expansion_target }
+				OWNER = {
+					NOT = { has_country_flag = AUS_sent_ultimatum_flag }
+				}
 			}
 		}
 
@@ -1839,6 +1864,7 @@ AUS_subjugating_the_lands_of_old_category = {
 							has_war_with = ROOT
 							is_subject = yes
 							is_in_faction_with = ROOT
+							has_country_flag = AUS_sent_ultimatum_flag
 						}
 					}
 				}
@@ -1928,6 +1954,9 @@ AUS_subjugating_the_lands_of_old_category = {
 		visible = {
 			FROM = {
 				NOT = { has_state_flag = AUS_no_longer_expansion_target }
+				OWNER = {
+					NOT = { has_country_flag = AUS_sent_ultimatum_flag }
+				}
 			}
 		}
 
@@ -1949,6 +1978,7 @@ AUS_subjugating_the_lands_of_old_category = {
 							has_war_with = ROOT
 							is_subject = yes
 							is_in_faction_with = ROOT
+							has_country_flag = AUS_sent_ultimatum_flag
 						}
 					}
 				}

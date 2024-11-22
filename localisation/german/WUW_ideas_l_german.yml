@@ -11,6 +11,7 @@
  AUS_phonix_insurance_desc: "Die Versicherungsgesellschaft Phönix ermöglicht es unseren Soldaten, für den schlimmsten Fall eine Lebensversicherung abzuschließen. Da sie wissen, dass ihre Familien versorgt sind, treten immer mehr Männer unserer Armee bei."
  AUS_covering_the_phonix_insurances: "Für die Lebensversicherungsgesellschaft Phönix einspringen"
  AUS_covering_the_phonix_insurances_desc: "Das Volk wissen zu lassen, dass seine geliebte Versicherungsgesellschaft Phönix nicht mehr ist, hätte dramatische Folgen für unsere Fähigkeit, eine Armee aufrechtzuhalten und zu verbessern. Der Staat springt für die Gesellschaft ein, bis die Lebensversicherungsgesellschaft Phönix wieder auf den Beinen ist."
+ AUS_cannot_train_due_to_treaty_of_saint_germain_en_laye: "Kann keine neuen Truppen ausbilden, solange der §Y$AUS_treaty_of_saint_germain_en_laye$§! aktiv ist"
  AUS_treaty_of_saint_germain_en_laye: "Vertrag von Saint-Germain"
  AUS_treaty_of_saint_germain_en_laye_desc: "Wir sind an einen strikten Vertrag gebunden, den wir nach dem Ersten Weltkrieg unterzeichneten; dadurch sind die österreichische Armee und Militärindustrie nur noch ein Schatten ihrer selbst."
  AUS_treaty_of_saint_germain_en_laye_tt: "Kann Freiwillige entsenden: §RNein§!"
@@ -695,6 +696,8 @@
  BEL_modify_gold_reserves_dynamic_modifier_tt: "Modifiziert §Y$BEL_gold_reserves_dynamic_modifier$§! um:"
  BEL_rexist_legion_dynamic_modifier_tt: "Verbessert „§Y$BEL_rexist_legion_dynamic_modifier$§!“ um:"
  BEL_european_crusade_dynamic_modifier_tt: "Verbessert „§Y$BEL_european_crusade_dynamic_modifier$§!“ um:"
+ BEL_european_crusade_dynamic_modifier_rexist_tt: "Fügt den Modifikator „§Y$BEL_european_crusade_dynamic_modifier$ (Rexisten)§!“ hinzu:"
+ BEL_european_crusade_dynamic_modifier_vnv_tt: "Fügt den Modifikator „§Y$BEL_european_crusade_dynamic_modifier$ (VNV)§!“ hinzu:"
  BEL_academies_of_belgium_dynamic_modifier_tt: "Verbessert „§Y$BEL_academies_of_belgium_dynamic_modifier$§!“ um:"
  BEL_modify_socialism_on_the_rise_dynamic_modifier: "Modifiziert „§Y$BEL_socialism_on_the_rise_dynamic_modifier$§!“ um:"
  #Dynamic State Modifiers

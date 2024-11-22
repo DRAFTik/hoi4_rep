@@ -1171,7 +1171,7 @@
  BUL_support_the_spanish_coup_tt: "Ein General, der im Spanischen Bürgerkrieg gekämpft hat, wird zum §YFeldmarschall§! befördert und erhält §G1§! Fähigkeitsstufe und eine zufällige §YEigenschaft§!, wenn der Spanische Bürgerkrieg endet. §RErfordert die Entsendung von Freiwilligen an das§! §Y[GetNationalistSpainFlag]Nationalistische Spanien§!."
  BUL_spa_flag: "[SPA.GetFlag]"
  BUL_no_spa_flag: ""
- BUL_the_return_of_ferdinand_opinion_tt: "Erhält §YAlte Feinde§! (Meinung von [GRE.GetFlag]§Y[GRE.GetNameDef]§!, [ROM.GetFlag]§Y[ROM.GetNameDef]§!, [YUG.GetFlag]§Y[YUG.GetNameDef]§!, [TUR.GetFlag]§Y[TUR.GetNameDef]§! §R-25§!)"
+ BUL_the_return_of_ferdinand_opinion_tt: "Erhält §YAlte Feinde§! (Meinung von [GRE.GetFlag]§Y[GRE.GetNameDef]§!, [ROM.GetFlag]§Y[ROM.GetNameDef]§!, [YUG.GetFlag]§Y[YUG.GetNameDef]§!, [TUR.GetFlag]§Y[TUR.GetNameDef]§! §R-25§!)"
  BUL_carry_the_revolution_abroad_comintern_invitation_tt: "Unabhängige kommunistische Länder auf dem Balkan erhalten ein Ereignis, durch das sie in das Bündnis von [ROOT.GetFlag]§Y[ROOT.GetName]§! eingeladen werden"
  BUL_carry_the_revolution_abroad_alternative_invitation_tt: "Wenn [ROOT.GetFlag]§Y[ROOT.GetName]§! Bündnisführer ist, erhalten unabhängige kommunistische Länder auf dem Balkan ein Ereignis, durch das sie in das bulgarische Bündnis eingeladen werden."
  BUL_recover_italian_territories_ita_will_refuse_tt: "\n[ITA.GetFlag]§Y[ITA.GetNameDefCap]§! §Rweigert sich, seine Territorien auf dem Balkan im Moment abzutreten, weil§! §Y[ITA.GetFlag][ITA.GetNameDef]§! §Roder§! §Yein [ITA.GetAdjective]er Verbündeter§! §Rmit§! [ROOT.GetFlag]§Y[ROOT.GetNameDef]§! §Rim Krieg liegt§!"

@@ -219,7 +219,7 @@
  ship_airplane_launcher_2_desc: "Ein verbesserter Katapultmechanismus, durch den das Schiff ein größeres Flugzeug mit größerer Reichweite und Geschwindigkeit starten lassen kann."
  sub_missile_launcher: "U-Boot-Raketenabschussvorrichtung"
  sub_missile_launcher_desc: "Ein auf einem U-Boot angebrachter Raketenwerfer, von dem aus Lenkraketen und andere Kurzstreckenraketen abgeschossen werden können."
- slbm_launcher: "U-Boot-Kurzstreckenraketenabschussvorrichtung"
+ slbm_launcher: "U-Boot-Atomraketenabschussvorrichtung"
  slbm_launcher_desc: "Ein auf einem U-Boot angebrachter Raketenwerfer, von dem aus Atomsprengköpfe abgeschossen werden können."
  ship_engine_sub_aip_1: "Außenluftunabhängige Antriebsanlage"
  ship_engine_sub_aip_1_desc: "Die erste Iteration eines neuen Triebwerksystems. Es hat zwar einen höheren Treibstoffverbrauch, erlaubt es U-Booten aber, länger unter Wasser zu bleiben."

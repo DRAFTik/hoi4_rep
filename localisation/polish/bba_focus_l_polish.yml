@@ -482,7 +482,7 @@
  ETH_african_central_bank: "[ETH_GetCentralBankName]"
  ETH_african_central_bank_desc: "Tworząc taką instytucję jak [ETH_GetCentralBankName], możemy zapoczątkować proces integracji gospodarek w ramach Organizacji Afrykańskiej Jedności. Pozwoliłoby nam to wydajniej korzystać z naszych zasobów oraz infrastruktury dla dobra wszystkich państw członkowskich."
  ETH_african_central_bank_tt: "Odblokuj decyzje o zaproszeniu członków §YOrganizacji Afrykańskiej Jedności§! do: [ETH_GetCentralBankName]."
- ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §R-5%§! \n$modifier_production_speed_industrial_complex_factor$: §R-10%§! \n$modifier_production_speed_infrastructure_factor$: §R-10%§!"
+ ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §G5%§! \n$modifier_production_speed_industrial_complex_factor$: §G10%§! \n$modifier_production_speed_infrastructure_factor$: §G10%§!"
  ETH_mass_transit: "Kolektywizacja transportu masowego"
  ETH_mass_transit_desc: "Większość naszej infrastruktury transportowej jest przestarzała i wymaga reorganizacji, by dało się z niej wydajniej korzystać. Osobami najlepiej nadającymi się do wprowadzenia takich reform są robotnicy pracujący w tej infrastrukturze."
  ETH_mutual_defense: "Obrona wzajemna "

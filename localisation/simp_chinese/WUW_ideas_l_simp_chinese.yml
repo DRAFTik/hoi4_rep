@@ -11,6 +11,7 @@
  AUS_phonix_insurance_desc: "凤凰保险为我们的入伍人员提供了人寿保险，以应对他们发生最糟糕的事件时的情况。人们知道他们的家庭将得到照顾后，愿意加入军队的人数显著增加了。"
  AUS_covering_the_phonix_insurances: "为凤凰保险承保"
  AUS_covering_the_phonix_insurances_desc: "让人们知道他们所爱的凤凰保险不复存在将对我们维持和改善军队的能力产生重大后果。国家将提供承保，直到凤凰保险重新站稳脚跟。"
+ AUS_cannot_train_due_to_treaty_of_saint_germain_en_laye: "当§Y$AUS_treaty_of_saint_germain_en_laye$§!生效时无法训练新单位"
  AUS_treaty_of_saint_germain_en_laye: "圣日耳曼昂莱条约"
  AUS_treaty_of_saint_germain_en_laye_desc: "奥地利军队和军事工业受那次世界大战后签署的严格条约的约束，它们都只是过去的影子罢了。"
  AUS_treaty_of_saint_germain_en_laye_tt: "可以派遣志愿军：§R否§!"
@@ -695,6 +696,8 @@
  BEL_modify_gold_reserves_dynamic_modifier_tt: "§Y$BEL_gold_reserves_dynamic_modifier$§!追加效果："
  BEL_rexist_legion_dynamic_modifier_tt: "§Y$BEL_rexist_legion_dynamic_modifier$§!提升："
  BEL_european_crusade_dynamic_modifier_tt: "§Y$BEL_european_crusade_dynamic_modifier$§!提升："
+ BEL_european_crusade_dynamic_modifier_rexist_tt: "添加§Y$BEL_european_crusade_dynamic_modifier$（雷克斯军团）§!："
+ BEL_european_crusade_dynamic_modifier_vnv_tt: "添加§Y$BEL_european_crusade_dynamic_modifier$（佛兰德国民联盟）§!："
  BEL_academies_of_belgium_dynamic_modifier_tt: "§Y$BEL_academies_of_belgium_dynamic_modifier$§!提升："
  BEL_modify_socialism_on_the_rise_dynamic_modifier: "§Y$BEL_socialism_on_the_rise_dynamic_modifier$§!追加效果："
  #Dynamic State Modifiers

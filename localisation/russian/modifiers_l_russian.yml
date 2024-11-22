@@ -123,6 +123,7 @@
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR: "Расход припасов"
  MODIFIER_SUPPLY_CONSUMPTION_FACTOR_DESC: "Сколько припасов нужно нашим сухопутным войскам для эффективных действий."
  supply_consumption_factor_tt: " $MODIFIER_SUPPLY_CONSUMPTION_FACTOR$: $RIGHT|-=%1$"
+ TERRAIN_SUPPLY_FLOW_REDUCTION: "Замедление снабжения: $RIGHT|-=%1$"
  MODIFIER_SUPPLY_CONSUMPTION: "Расход припасов"
  MODIFIER_SURPRISE_CHANCE_FACTOR: "Шансы застать врасплох"
  MODIFIER_SURPRISE_CHANCE: "Шансы застать врасплох"

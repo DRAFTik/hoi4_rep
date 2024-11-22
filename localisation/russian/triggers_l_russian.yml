@@ -151,6 +151,8 @@
  TRIGGER_HAS_DEFENSIVE_WAR: "Ведет оборонительную войну"
  TRIGGER_HAS_NOT_WAR_WITH: "В состоянии мира с: @$TAG$$COUNTRY|H$"
  TRIGGER_HAS_WAR_WITH: "Воюет с: @$TAG$$COUNTRY|H$"
+ TRIGGER_HAS_NOT_TRUCE_WITH: "Не заключено перемирие с государством @$TAG$$COUNTRY|H$"
+ TRIGGER_HAS_TRUCE_WITH: "Заключено перемирие с государством @$TAG$$COUNTRY|H$"
  TRIGGER_IS_FRIEND: "Союзник государства @$TAG$$OTHER|H$"
  TRIGGER_IS_NOT_FRIEND: "Не союзник государства @$TAG$$OTHER|H$"
  TRIGGER_HAS_NOT_WAR_TOGETHER_WITH: "Ведет войну не на той же стороне, что и @$TAG$$COUNTRY|H$"

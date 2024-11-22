@@ -482,7 +482,7 @@
  ETH_african_central_bank: "アフリカ中央銀行"
  ETH_african_central_bank_desc: "アフリカ中央銀行を設立した今、アフリカ統一機構の経済統一に向けて動けるようになった。そうやって各々が持つ資産やインフラを、より効率的に活用できるようになれば、全ての加盟国を状況改善に導けるはずだ。　"
  ETH_african_central_bank_tt: "§Yアフリカ統一機構§!の加盟国を、アフリカ中央銀行に招待する各ディシジョンがアンロックされる。"
- ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §R-5%§! \n$modifier_production_speed_industrial_complex_factor$: §R-10%§! \n$modifier_production_speed_infrastructure_factor$: §R-10%§!"
+ ETH_african_central_bank_2_tt: "$MODIFIER_STABILITY_FACTOR$: §G5%§!\n$modifier_production_speed_industrial_complex_factor$: §G10%§!\n$modifier_production_speed_infrastructure_factor$: §G10%§!"
  ETH_mass_transit: "集産大量輸送"
  ETH_mass_transit_desc: "我々の輸送インフラはほとんどが時代遅れで、より効率的な活用に向けて作り直す必要がある。この改革を実施するのに最適な人材といえば、やはり直接インフラを稼働させている労働者達だろう。"
  ETH_mutual_defense: "相互防衛"

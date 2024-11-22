@@ -8,6 +8,8 @@
 
  FACILITY_BUILDINGS: "Experimental Facilities"
 
+ CAP_SCIENTIST: "Scientist"
+
  PROJECT_STOPPING_TIME_DESC: "Stopping project: $DAYS|Y$ day(s)"
  SCIENTIST_ROSTER_WINDOW_TITLE: "Scientists"
  RECRUIT_SCIENTIST_WINDOW_TITLE: "Recruit Scientist"
@@ -575,8 +577,8 @@
  sp_nuclear_war_support_generic_reward_desc: "A successful test, and some related, tightly controlled, media coverage has led to the public understanding the we are getting closer to develop some kind of super weapon that can be used to defeat any and all enemies." 
  sp_nuclear_major_political_interference_generic_reward: "Major Political Interference"
  sp_nuclear_major_political_interference_generic_reward_desc: "The [SpecialProject.GetName] project has come under increased scrutiny and interference from political leaders, causing delays and potentially forcing changes in project leadership. This has enraged [Character.GetName]. We need to deal with these political challenges to keep the project on track"
- sp_nuclear_major_political_interference_generic_reward_option_keep: "Keep [Character.GetName]"
- sp_nuclear_major_political_interference_generic_reward_option_fire: "Remove [Character.GetName]"
+ sp_nuclear_major_political_interference_generic_reward_option_keep: "Keep [(Character?.GetName:'CAP_SCIENTIST)]"
+ sp_nuclear_major_political_interference_generic_reward_option_fire: "Remove [(Character?.GetName:'CAP_SCIENTIST)]"
 
  sp_nuclear_bomb_theoretical_breakthrough_generic_reward: "Theoretical Breakthrough"
  sp_nuclear_bomb_theoretical_breakthrough_generic_reward_desc: "[Character.GetName] has managed to solve a complex theoretical problem during the work with the latest prototype. This has led to streamlining of the bomb design, which will make it less difficult to produce."
@@ -837,7 +839,7 @@
  sp_naval_nuclear_submarine: "Nuclear Submarine"
  USA_sp_naval_nuclear_submarine: "USS Nautilus Program"
  ENG_sp_naval_nuclear_submarine: "HMS Dreadnought Program"
- SOV_sp_naval_nuclear_submarine: "Project 627 К-3"
+ SOV_sp_naval_nuclear_submarine: "Project 627 K-3"
  sp_naval_nuclear_submarine_desc: "We should be able to make nuclear engines small enough to fit in a specialized submarine, making the vessel silent and providing it with extreme range."
  sp_naval_nuclear_submarine_free_design: "Nuclear Submarine"
 
